@@ -5,7 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 02-CN-000, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: da09d6d6-963d-4e01-9205-4731f295760c, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-CN-000, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: d8628913-b1ac-4d06-a192-a5be1dd44b4e, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-JP-069, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: d8628913-b1ac-4d06-a192-a5be1dd44b4e, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-JP-070, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: d8628913-b1ac-4d06-a192-a5be1dd44b4e, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-JP-071, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: d8628913-b1ac-4d06-a192-a5be1dd44b4e, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-JP-072, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: d8628913-b1ac-4d06-a192-a5be1dd44b4e, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 03-RELAY-083, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Tokyo.mfa.ee}}, udp: true}
+  - {name: 03-RELAY-085, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zfc.windowsupdate1.com}}, udp: true}
   - {name: 03-RELAY-088, server: 172.67.102.115, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.67.102.115}}, udp: true}
   - {name: 03-RELAY-089, server: hk2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a04922f6-5766-49ba-d9fb-8aba40f49277, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.mianfenyun012.eu.org}}, udp: true}
   - {name: 03-RELAY-092, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 104.27.193.64}}, udp: true}
@@ -13,6 +19,7 @@ proxies:
   - {name: 03-RELAY-095, server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.160.204.8}}, udp: true}
   - {name: 03-RELAY-097, server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 141.101.115.65}}, udp: true}
   - {name: 03-RELAY-098, server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.67.6.189}}, udp: true}
+  - {name: 03-SG-086, server: 5.44.249.52, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 03-SG-087, server: 5.44.249.44, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 03-SG-091, server: 5.44.249.50, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 03-TW-096, server: 60.248.114.188, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
@@ -156,39 +163,33 @@ proxies:
   - {name: 08-RELAY-240, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.64.202.22}}, udp: true}
   - {name: 08-SG-222, server: 18.136.126.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-SG-233, server: 13.213.53.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 08-US-215, server: 35.92.39.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-CN-243, server: 183.232.170.32, port: 20014, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, udp: true}
   - {name: 09-CN-244, server: 183.232.170.32, port: 30005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, udp: true}
   - {name: 09-CN-245, server: 183.232.249.185, port: 46526, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 183.232.249.185}}, udp: true}
   - {name: 09-CN-248, server: 120.226.50.77, port: 53737, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 120.226.50.77}}, udp: true}
   - {name: 09-HK-242, server: 8.210.119.75, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, udp: true}
   - {name: 09-HK-252, server: kcd4.gleeze.com, port: 443, type: vmess, uuid: 8569a016-24e9-34cd-a9d2-9de42c6ca245, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kcd4.gleeze.com}}, udp: true}
-  - {name: 09-JP-250, server: 107.148.1.121, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 107.148.1.121}}, udp: true}
   - {name: 09-JP-258, server: 54.168.210.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-KR-256, server: 13.124.124.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 09-TW-247, server: ap-east-cht.lnaspiring.com, port: 7045, type: trojan, password: 02b0a9df-2961-4a95-8136-613f1adb9135, sni: ap-east-cht.lnaspiring.com, skip-cert-verify: true, udp: true}
+  - {name: 10-JP-280, server: 52.195.226.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-MU-260, server: 45.199.138.190, port: 34987, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-MU-263, server: 45.199.138.194, port: 49981, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-RELAY-278, server: asb3.shabijichang.com, port: 80, type: vmess, uuid: ef591064-640a-48e0-a511-623d5c0e67e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asb3.shabijichang.com}}, udp: true}
+  - {name: 10-SG-277, server: 54.254.255.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-US-265, server: 7263join.outline-vpn.cloud, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 13-MU-320, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14-DE-357, server: 3.123.113.68, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 14-DE-358, server: 3.79.91.222, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 14-FR-367, server: 35.181.41.158, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 14-FR-368, server: 13.38.231.235, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 14-GB-369, server: 13.41.148.239, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 14-GB-370, server: 18.132.241.204, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 13-RELAY-318, server: us2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}, udp: true}
   - {name: 14-IE-376, server: 18.203.28.90, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-NL-377, server: 46.182.107.22, port: 48822, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14-SE-381, server: 13.50.194.196, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-SE-382, server: 13.48.54.225, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-SG-383, server: 18.142.254.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-US-394, server: 156.225.67.23, port: 51181, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14-US-415, server: 52.15.187.17, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 16-HK-429, server: hkt.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-JP-419, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-JP-420, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-JP-423, server: pqawsjp1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 16-JP-425, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 16-SG-431, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 16-SG-432, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-SG-433, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-TW-426, server: pqhinet1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-TW-428, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 20-JP-440, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
   - {name: 20-US-473, server: 23.158.72.131, port: 80, type: vmess, uuid: 593fa280-5229-11ee-b538-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.158.72.131}}, udp: true}
   - {name: 23-AZ-496, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -245,11 +246,10 @@ proxies:
   - {name: 23-TR-533, server: 5.188.168.230, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: HyuXpNgfdTB50YVcDi, udp: true}
   - {name: 23-TR-569, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: U8zmZHm67IUht6LRPd7, udp: true}
   - {name: 23-UA-515, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-US-498, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 23-US-502, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-US-504, server: 69.50.95.251, port: 9098, type: ss, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, udp: true}
-  - {name: 23-US-517, server: 137.175.22.187, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-US-518, server: 107.167.30.149, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 23-US-574, server: 137.175.58.132, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 31-SG-719, server: 13.229.182.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 34-KR-867, server: fell.gougouvpn.xyz, port: 45801, type: ss, cipher: chacha20-ietf-poly1305, password: f73092f3-6a42-46a3-8953-c629620b8ef8, udp: true}
 proxy-groups:
@@ -268,6 +268,12 @@ proxy-groups:
     type: select
     proxies:
       - 02-CN-000
+      - 02-JP-069
+      - 02-JP-070
+      - 02-JP-071
+      - 02-JP-072
+      - 03-RELAY-083
+      - 03-RELAY-085
       - 03-RELAY-088
       - 03-RELAY-089
       - 03-RELAY-092
@@ -275,6 +281,7 @@ proxy-groups:
       - 03-RELAY-095
       - 03-RELAY-097
       - 03-RELAY-098
+      - 03-SG-086
       - 03-SG-087
       - 03-SG-091
       - 03-TW-096
@@ -418,39 +425,33 @@ proxy-groups:
       - 08-RELAY-240
       - 08-SG-222
       - 08-SG-233
-      - 08-US-215
       - 09-CN-243
       - 09-CN-244
       - 09-CN-245
       - 09-CN-248
       - 09-HK-242
       - 09-HK-252
-      - 09-JP-250
       - 09-JP-258
       - 09-KR-256
+      - 09-TW-247
+      - 10-JP-280
       - 10-MU-260
-      - 10-MU-263
-      - 10-RELAY-278
+      - 10-SG-277
       - 10-US-265
       - 13-MU-320
-      - 14-DE-357
-      - 14-DE-358
-      - 14-FR-367
-      - 14-FR-368
-      - 14-GB-369
-      - 14-GB-370
+      - 13-RELAY-318
       - 14-IE-376
       - 14-NL-377
-      - 14-SE-381
       - 14-SE-382
       - 14-SG-383
       - 14-US-394
-      - 14-US-415
       - 16-HK-429
+      - 16-JP-419
+      - 16-JP-420
       - 16-JP-423
-      - 16-JP-425
-      - 16-SG-431
-      - 16-SG-432
+      - 16-SG-433
+      - 16-TW-426
+      - 16-TW-428
       - 20-JP-440
       - 20-US-473
       - 23-AZ-496
@@ -507,11 +508,10 @@ proxy-groups:
       - 23-TR-533
       - 23-TR-569
       - 23-UA-515
+      - 23-US-498
       - 23-US-502
       - 23-US-504
-      - 23-US-517
       - 23-US-518
-      - 23-US-574
       - 31-SG-719
       - 34-KR-867
   - name: 🏳️‍🌈 国家选择
@@ -565,6 +565,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 02-CN-000
+      - 02-JP-069
+      - 02-JP-070
+      - 02-JP-071
+      - 02-JP-072
+      - 03-RELAY-083
+      - 03-RELAY-085
       - 03-RELAY-088
       - 03-RELAY-089
       - 03-RELAY-092
@@ -572,6 +578,7 @@ proxy-groups:
       - 03-RELAY-095
       - 03-RELAY-097
       - 03-RELAY-098
+      - 03-SG-086
       - 03-SG-087
       - 03-SG-091
       - 03-TW-096
@@ -715,39 +722,33 @@ proxy-groups:
       - 08-RELAY-240
       - 08-SG-222
       - 08-SG-233
-      - 08-US-215
       - 09-CN-243
       - 09-CN-244
       - 09-CN-245
       - 09-CN-248
       - 09-HK-242
       - 09-HK-252
-      - 09-JP-250
       - 09-JP-258
       - 09-KR-256
+      - 09-TW-247
+      - 10-JP-280
       - 10-MU-260
-      - 10-MU-263
-      - 10-RELAY-278
+      - 10-SG-277
       - 10-US-265
       - 13-MU-320
-      - 14-DE-357
-      - 14-DE-358
-      - 14-FR-367
-      - 14-FR-368
-      - 14-GB-369
-      - 14-GB-370
+      - 13-RELAY-318
       - 14-IE-376
       - 14-NL-377
-      - 14-SE-381
       - 14-SE-382
       - 14-SG-383
       - 14-US-394
-      - 14-US-415
       - 16-HK-429
+      - 16-JP-419
+      - 16-JP-420
       - 16-JP-423
-      - 16-JP-425
-      - 16-SG-431
-      - 16-SG-432
+      - 16-SG-433
+      - 16-TW-426
+      - 16-TW-428
       - 20-JP-440
       - 20-US-473
       - 23-AZ-496
@@ -804,11 +805,10 @@ proxy-groups:
       - 23-TR-533
       - 23-TR-569
       - 23-UA-515
+      - 23-US-498
       - 23-US-502
       - 23-US-504
-      - 23-US-517
       - 23-US-518
-      - 23-US-574
       - 31-SG-719
       - 34-KR-867
   - name: ⚡ 故障转移
@@ -818,6 +818,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 02-CN-000
+      - 02-JP-069
+      - 02-JP-070
+      - 02-JP-071
+      - 02-JP-072
+      - 03-RELAY-083
+      - 03-RELAY-085
       - 03-RELAY-088
       - 03-RELAY-089
       - 03-RELAY-092
@@ -825,6 +831,7 @@ proxy-groups:
       - 03-RELAY-095
       - 03-RELAY-097
       - 03-RELAY-098
+      - 03-SG-086
       - 03-SG-087
       - 03-SG-091
       - 03-TW-096
@@ -968,39 +975,33 @@ proxy-groups:
       - 08-RELAY-240
       - 08-SG-222
       - 08-SG-233
-      - 08-US-215
       - 09-CN-243
       - 09-CN-244
       - 09-CN-245
       - 09-CN-248
       - 09-HK-242
       - 09-HK-252
-      - 09-JP-250
       - 09-JP-258
       - 09-KR-256
+      - 09-TW-247
+      - 10-JP-280
       - 10-MU-260
-      - 10-MU-263
-      - 10-RELAY-278
+      - 10-SG-277
       - 10-US-265
       - 13-MU-320
-      - 14-DE-357
-      - 14-DE-358
-      - 14-FR-367
-      - 14-FR-368
-      - 14-GB-369
-      - 14-GB-370
+      - 13-RELAY-318
       - 14-IE-376
       - 14-NL-377
-      - 14-SE-381
       - 14-SE-382
       - 14-SG-383
       - 14-US-394
-      - 14-US-415
       - 16-HK-429
+      - 16-JP-419
+      - 16-JP-420
       - 16-JP-423
-      - 16-JP-425
-      - 16-SG-431
-      - 16-SG-432
+      - 16-SG-433
+      - 16-TW-426
+      - 16-TW-428
       - 20-JP-440
       - 20-US-473
       - 23-AZ-496
@@ -1057,11 +1058,10 @@ proxy-groups:
       - 23-TR-533
       - 23-TR-569
       - 23-UA-515
+      - 23-US-498
       - 23-US-502
       - 23-US-504
-      - 23-US-517
       - 23-US-518
-      - 23-US-574
       - 31-SG-719
       - 34-KR-867
   - name: 🌎 北美地区
@@ -1093,22 +1093,24 @@ proxy-groups:
       - 07-US-184
       - 07-US-191
       - 07-US-198
-      - 08-US-215
       - 10-US-265
       - 14-US-394
-      - 14-US-415
       - 20-US-473
+      - 23-US-498
       - 23-US-502
       - 23-US-504
-      - 23-US-517
       - 23-US-518
-      - 23-US-574
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 02-JP-069
+      - 02-JP-070
+      - 02-JP-071
+      - 02-JP-072
+      - 03-SG-086
       - 03-SG-087
       - 03-SG-091
       - 03-TW-096
@@ -1123,15 +1125,19 @@ proxy-groups:
       - 08-SG-233
       - 09-HK-242
       - 09-HK-252
-      - 09-JP-250
       - 09-JP-258
       - 09-KR-256
+      - 09-TW-247
+      - 10-JP-280
+      - 10-SG-277
       - 14-SG-383
       - 16-HK-429
+      - 16-JP-419
+      - 16-JP-420
       - 16-JP-423
-      - 16-JP-425
-      - 16-SG-431
-      - 16-SG-432
+      - 16-SG-433
+      - 16-TW-426
+      - 16-TW-428
       - 20-JP-440
       - 23-JP-497
       - 23-JP-513
@@ -1145,6 +1151,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-CN-000
+      - 03-RELAY-083
+      - 03-RELAY-085
       - 03-RELAY-088
       - 03-RELAY-089
       - 03-RELAY-092
@@ -1265,18 +1273,10 @@ proxy-groups:
       - 09-CN-245
       - 09-CN-248
       - 10-MU-260
-      - 10-MU-263
-      - 10-RELAY-278
       - 13-MU-320
-      - 14-DE-357
-      - 14-DE-358
-      - 14-FR-367
-      - 14-FR-368
-      - 14-GB-369
-      - 14-GB-370
+      - 13-RELAY-318
       - 14-IE-376
       - 14-NL-377
-      - 14-SE-381
       - 14-SE-382
       - 23-AZ-496
       - 23-CH-495
@@ -1358,16 +1358,13 @@ proxy-groups:
       - 07-US-184
       - 07-US-191
       - 07-US-198
-      - 08-US-215
       - 10-US-265
       - 14-US-394
-      - 14-US-415
       - 20-US-473
+      - 23-US-498
       - 23-US-502
       - 23-US-504
-      - 23-US-517
       - 23-US-518
-      - 23-US-574
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -1384,14 +1381,15 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 03-SG-086
       - 03-SG-087
       - 03-SG-091
       - 07-SG-185
       - 08-SG-222
       - 08-SG-233
+      - 10-SG-277
       - 14-SG-383
-      - 16-SG-431
-      - 16-SG-432
+      - 16-SG-433
       - 23-SG-514
       - 31-SG-719
   - name: 日本
@@ -1400,15 +1398,20 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 02-JP-069
+      - 02-JP-070
+      - 02-JP-071
+      - 02-JP-072
       - 04-JP-148
       - 04-JP-149
       - 04-JP-150
       - 04-JP-151
       - 07-JP-206
-      - 09-JP-250
       - 09-JP-258
+      - 10-JP-280
+      - 16-JP-419
+      - 16-JP-420
       - 16-JP-423
-      - 16-JP-425
       - 20-JP-440
       - 23-JP-497
       - 23-JP-513
@@ -1419,6 +1422,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 03-TW-096
+      - 09-TW-247
+      - 16-TW-426
+      - 16-TW-428
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -2701,7 +2707,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -2712,7 +2717,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -2721,7 +2725,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -2769,49 +2772,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2845,12 +2806,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -3079,11 +3036,9 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -3116,12 +3071,63 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -10113,7 +10119,6 @@ rules:
  - DOMAIN-SUFFIX,amnestyusa.org,🚀 节点选择
  - DOMAIN-SUFFIX,amnyemachen.org,🚀 节点选择
  - DOMAIN-SUFFIX,amoiist.com,🚀 节点选择
- - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
  - DOMAIN-SUFFIX,ampproject.com,🚀 节点选择
  - DOMAIN-SUFFIX,ampproject.net,🚀 节点选择
  - DOMAIN-SUFFIX,ampproject.org,🚀 节点选择
@@ -10169,6 +10174,7 @@ rules:
  - DOMAIN-SUFFIX,apat1989.org,🚀 节点选择
  - DOMAIN-SUFFIX,apetube.com,🚀 节点选择
  - DOMAIN-SUFFIX,api.ai,🚀 节点选择
+ - DOMAIN-SUFFIX,api.amplitude.com,🚀 节点选择
  - DOMAIN-SUFFIX,api.linksalpha.com,🚀 节点选择
  - DOMAIN-SUFFIX,api.mixpanel.com,🚀 节点选择
  - DOMAIN-SUFFIX,api.termius.com,🚀 节点选择
@@ -13792,7 +13798,6 @@ rules:
  - DOMAIN-SUFFIX,purevpn.com,🚀 节点选择
  - DOMAIN-SUFFIX,purplelotus.org,🚀 节点选择
  - DOMAIN-SUFFIX,pursuestar.com,🚀 节点选择
- - DOMAIN-SUFFIX,pushbullet.com,🚀 节点选择
  - DOMAIN-SUFFIX,pushchinawall.com,🚀 节点选择
  - DOMAIN-SUFFIX,pussthecat.org,🚀 节点选择
  - DOMAIN-SUFFIX,pussyspace.com,🚀 节点选择
