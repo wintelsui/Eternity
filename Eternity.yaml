@@ -5,16 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 02-CN-000, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 638e8108-cc12-446c-a676-d91f290565cc, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 02-JP-069, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 638e8108-cc12-446c-a676-d91f290565cc, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-JP-069, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 1ad8efef-e2f9-4a67-8e5e-d60fd76c0788, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-GOOGLE-154, server: yian1.tk, port: 443, type: trojan, password: 4d111343-3d4f-472a-99c1-d842376ed570, sni: yian1.tk, skip-cert-verify: true, udp: true}
-  - {name: 06-RELAY-171, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}, udp: true}
+  - {name: 06-JP-153, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
   - {name: 06-US-160, server: 192.74.234.217, port: 41015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-US-164, server: 142.4.115.171, port: 46900, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-US-177, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 07-RELAY-185, server: fr-01.cloudlion.me, port: 2082, type: vmess, uuid: 87646364-c074-4b95-81cf-4bded967ca02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-01.cloudlion.me}}, udp: true}
   - {name: 07-RELAY-192, server: ml4.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}, udp: true}
-  - {name: 07-US-182, server: 198.2.213.178, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.2.213.178}}, udp: true}
   - {name: 07-US-184, server: 134.195.101.33, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 07-US-194, server: 192.74.244.180, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.74.244.180}}, udp: true}
   - {name: 07-US-195, server: 198.2.244.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.2.244.20}}, udp: true}
@@ -63,7 +61,7 @@ proxies:
   - {name: 10-JP-265, server: 18.181.147.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-JP-280, server: 52.195.226.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-JP-286, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-KR-288, server: fell.gougouvpn.xyz, port: 45800, type: ss, cipher: chacha20-ietf-poly1305, password: f73092f3-6a42-46a3-8953-c629620b8ef8, udp: true}
+  - {name: 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501, server: fell.gougouvpn.xyz, port: 45800, type: ss, cipher: chacha20-ietf-poly1305, password: f73092f3-6a42-46a3-8953-c629620b8ef8, udp: true}
   - {name: 10-MU-256, server: 45.199.138.190, port: 34987, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-MU-257, server: 45.199.138.158, port: 49933, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-MU-260, server: 45.199.138.194, port: 49981, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -80,6 +78,7 @@ proxies:
   - {name: 10-RELAY-273, server: 104.27.19.105, port: 2052, type: vmess, uuid: 345d8dde-084b-478e-aa8d-5fb062652889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 104.27.19.105}}, udp: true}
   - {name: 10-RELAY-275, server: 172.67.128.217, port: 80, type: vmess, uuid: 6cce9ee4-c274-4ea7-a783-b26ae5987edd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 172.67.128.217}}, udp: true}
   - {name: 10-RELAY-281, server: amsterdam.kotick.site, port: 443, type: vmess, uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: amsterdam.kotick.site}}, udp: true}
+  - {name: 10-RELAY-287, server: sg1.wyhkaa0.cf, port: 80, type: vmess, uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.wyhkaa0.cf}}, udp: true}
   - {name: 10-SG-262, server: 18.136.126.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-SG-276, server: 54.254.255.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10-US-267, server: 170.178.189.54, port: 33089, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -128,6 +127,7 @@ proxies:
   - {name: 14-FR-368, server: 13.38.231.235, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-GB-369, server: 13.41.148.239, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-GB-370, server: 18.132.241.204, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 14-HK-371, server: 156.245.8.241, port: 443, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 156.245.8.241}}, udp: true}
   - {name: 14-HK-372, server: 156.245.8.144, port: 443, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 156.245.8.144}}, udp: true}
   - {name: 14-HK-373, server: 156.245.8.152, port: 443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 156.245.8.152}}, udp: true}
   - {name: 14-HK-374, server: 156.245.8.95, port: 443, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 156.245.8.95}}, udp: true}
@@ -183,47 +183,46 @@ proxies:
   - {name: 16-JP-421, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-JP-422, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-JP-423, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-JP-424, server: pqawsjp1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-JP-425, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-JP-426, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 16-SG-432, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 16-SG-433, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-TW-427, server: pqhinet1.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-TW-428, server: pqhinet2.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 16-TW-429, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 16230ed6-5252-47bc-8357-fa1dda996141, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 20-JP-442, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
   - {name: 20-US-475, server: 23.158.72.131, port: 80, type: vmess, uuid: 593fa280-5229-11ee-b538-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.158.72.131}}, udp: true}
   - {name: 23-AZ-499, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-CH-498, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 23-CH-531, server: 84.17.53.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-CH-530, server: 84.17.53.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-CY-502, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-CZ-512, server: 143.244.58.102, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-DE-496, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-DE-529, server: 89.187.169.36, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-532, server: 45.136.153.216, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-533, server: 57.129.1.22, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-535, server: 45.136.153.215, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-537, server: 162.19.170.224, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-538, server: 162.19.170.225, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-539, server: 162.19.170.223, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-546, server: 162.19.171.67, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-547, server: 162.19.171.97, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-550, server: 162.19.170.210, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-552, server: 162.19.170.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-554, server: 162.19.170.208, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-556, server: 138.199.36.104, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-557, server: 138.199.36.73, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-558, server: 162.19.139.36, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-560, server: 162.19.139.37, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-DE-563, server: 195.181.174.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-531, server: 45.136.153.216, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-532, server: 57.129.1.22, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-534, server: 45.136.153.215, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-536, server: 162.19.170.224, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-537, server: 162.19.170.225, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-538, server: 162.19.170.223, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-545, server: 162.19.171.67, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-546, server: 162.19.171.97, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-549, server: 162.19.170.210, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-551, server: 162.19.170.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-553, server: 162.19.170.208, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-555, server: 138.199.36.104, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-556, server: 138.199.36.73, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-558, server: 162.19.139.37, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-DE-561, server: 195.181.174.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-DK-511, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-ES-506, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-FI-527, server: 65.109.184.47, port: 56420, type: vmess, uuid: 130a4d57-d5a9-4e30-9a3a-46e23109bd1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 65.109.184.47}}, udp: true}
-  - {name: 23-FI-562, server: 95.217.181.14, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: yimkuHGFb6Dwpcsid2, udp: true}
+  - {name: 23-FI-560, server: 95.217.181.14, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: yimkuHGFb6Dwpcsid2, udp: true}
   - {name: 23-FR-522, server: 162.19.83.9, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-FR-523, server: 57.128.74.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-FR-541, server: 162.19.169.128, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-FR-543, server: 51.159.222.29, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-FR-545, server: 141.95.125.11, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 23-FR-548, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-FR-540, server: 162.19.169.128, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-FR-542, server: 51.159.222.29, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-FR-544, server: 141.95.125.11, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 23-FR-547, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 23-GB-508, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-GB-513, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-IE-494, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -232,6 +231,7 @@ proxies:
   - {name: 23-JP-516, server: 185.160.24.17, port: 44522, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-KZ-510, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-MK-524, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-MU-577, server: 45.199.138.62, port: 36307, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-NL-504, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 23-NO-509, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-RU-514, server: 31.172.67.43, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -240,18 +240,19 @@ proxies:
   - {name: 23-SG-517, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-TR-497, server: 45.89.52.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: 23-TR-528, server: 5.188.36.93, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: jYaph37sqWMx, udp: true}
-  - {name: 23-TR-564, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: U8zmZHm67IUht6LRPd7, udp: true}
+  - {name: 23-TR-562, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: U8zmZHm67IUht6LRPd7, udp: true}
   - {name: 23-UA-518, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-US-505, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-US-507, server: 69.50.95.251, port: 9098, type: ss, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, udp: true}
   - {name: 23-US-520, server: 107.167.30.149, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 29-RELAY-727, server: 162.159.60.89, port: 80, type: vmess, uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}, udp: true}
-  - {name: 31-JP-737, server: 18.183.132.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 31-US-731, server: 35.92.39.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 34-JP-885, server: tk-004.xiaoxiaobujidao.xyz, port: 8443, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-004.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
-  - {name: 34-JP-886, server: tk-005.xiaoxiaobujidao.xyz, port: 29651, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
-  - {name: 34-JP-888, server: tk-007.xiaoxiaobujidao.xyz, port: 43626, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-007.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
-  - {name: 34-US-887, server: px-000.xiaoxiaobujidao.xyz, port: 13194, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: px-000.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 29-RELAY-712, server: 162.159.60.89, port: 80, type: vmess, uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}, udp: true}
+  - {name: 31-JP-722, server: 18.183.132.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 31-SG-721, server: 13.229.182.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 31-US-716, server: 35.92.39.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 34-JP-870, server: tk-004.xiaoxiaobujidao.xyz, port: 8443, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-004.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 34-JP-871, server: tk-005.xiaoxiaobujidao.xyz, port: 29651, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-005.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 34-JP-873, server: tk-007.xiaoxiaobujidao.xyz, port: 43626, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: tk-007.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 34-US-872, server: px-000.xiaoxiaobujidao.xyz, port: 13194, type: trojan, password: 4a33c7a2-7911-3a10-a902-de81422b9ee8, sni: px-000.xiaoxiaobujidao.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -267,16 +268,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 02-CN-000
       - 02-JP-069
       - 06-GOOGLE-154
-      - 06-RELAY-171
+      - 06-JP-153
       - 06-US-160
       - 06-US-164
       - 06-US-177
       - 07-RELAY-185
       - 07-RELAY-192
-      - 07-US-182
       - 07-US-184
       - 07-US-194
       - 07-US-195
@@ -325,7 +324,7 @@ proxy-groups:
       - 10-JP-265
       - 10-JP-280
       - 10-JP-286
-      - 10-KR-288
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-MU-256
       - 10-MU-257
       - 10-MU-260
@@ -342,6 +341,7 @@ proxy-groups:
       - 10-RELAY-273
       - 10-RELAY-275
       - 10-RELAY-281
+      - 10-RELAY-287
       - 10-SG-262
       - 10-SG-276
       - 10-US-267
@@ -390,6 +390,7 @@ proxy-groups:
       - 14-FR-368
       - 14-GB-369
       - 14-GB-370
+      - 14-HK-371
       - 14-HK-372
       - 14-HK-373
       - 14-HK-374
@@ -445,47 +446,46 @@ proxy-groups:
       - 16-JP-421
       - 16-JP-422
       - 16-JP-423
+      - 16-JP-424
       - 16-JP-425
       - 16-JP-426
-      - 16-SG-432
-      - 16-SG-433
       - 16-TW-427
       - 16-TW-428
+      - 16-TW-429
       - 20-JP-442
       - 20-US-475
       - 23-AZ-499
       - 23-CH-498
-      - 23-CH-531
+      - 23-CH-530
       - 23-CY-502
       - 23-CZ-512
       - 23-DE-496
       - 23-DE-529
+      - 23-DE-531
       - 23-DE-532
-      - 23-DE-533
-      - 23-DE-535
+      - 23-DE-534
+      - 23-DE-536
       - 23-DE-537
       - 23-DE-538
-      - 23-DE-539
+      - 23-DE-545
       - 23-DE-546
-      - 23-DE-547
-      - 23-DE-550
-      - 23-DE-552
-      - 23-DE-554
+      - 23-DE-549
+      - 23-DE-551
+      - 23-DE-553
+      - 23-DE-555
       - 23-DE-556
-      - 23-DE-557
       - 23-DE-558
-      - 23-DE-560
-      - 23-DE-563
+      - 23-DE-561
       - 23-DK-511
       - 23-ES-506
       - 23-FI-527
-      - 23-FI-562
+      - 23-FI-560
       - 23-FR-522
       - 23-FR-523
-      - 23-FR-541
-      - 23-FR-543
-      - 23-FR-545
-      - 23-FR-548
+      - 23-FR-540
+      - 23-FR-542
+      - 23-FR-544
+      - 23-FR-547
       - 23-GB-508
       - 23-GB-513
       - 23-IE-494
@@ -494,6 +494,7 @@ proxy-groups:
       - 23-JP-516
       - 23-KZ-510
       - 23-MK-524
+      - 23-MU-577
       - 23-NL-504
       - 23-NO-509
       - 23-RU-514
@@ -502,18 +503,19 @@ proxy-groups:
       - 23-SG-517
       - 23-TR-497
       - 23-TR-528
-      - 23-TR-564
+      - 23-TR-562
       - 23-UA-518
       - 23-US-505
       - 23-US-507
       - 23-US-520
-      - 29-RELAY-727
-      - 31-JP-737
-      - 31-US-731
-      - 34-JP-885
-      - 34-JP-886
-      - 34-JP-888
-      - 34-US-887
+      - 29-RELAY-712
+      - 31-JP-722
+      - 31-SG-721
+      - 31-US-716
+      - 34-JP-870
+      - 34-JP-871
+      - 34-JP-873
+      - 34-US-872
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -564,16 +566,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 02-CN-000
       - 02-JP-069
       - 06-GOOGLE-154
-      - 06-RELAY-171
+      - 06-JP-153
       - 06-US-160
       - 06-US-164
       - 06-US-177
       - 07-RELAY-185
       - 07-RELAY-192
-      - 07-US-182
       - 07-US-184
       - 07-US-194
       - 07-US-195
@@ -622,7 +622,7 @@ proxy-groups:
       - 10-JP-265
       - 10-JP-280
       - 10-JP-286
-      - 10-KR-288
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-MU-256
       - 10-MU-257
       - 10-MU-260
@@ -639,6 +639,7 @@ proxy-groups:
       - 10-RELAY-273
       - 10-RELAY-275
       - 10-RELAY-281
+      - 10-RELAY-287
       - 10-SG-262
       - 10-SG-276
       - 10-US-267
@@ -687,6 +688,7 @@ proxy-groups:
       - 14-FR-368
       - 14-GB-369
       - 14-GB-370
+      - 14-HK-371
       - 14-HK-372
       - 14-HK-373
       - 14-HK-374
@@ -742,47 +744,46 @@ proxy-groups:
       - 16-JP-421
       - 16-JP-422
       - 16-JP-423
+      - 16-JP-424
       - 16-JP-425
       - 16-JP-426
-      - 16-SG-432
-      - 16-SG-433
       - 16-TW-427
       - 16-TW-428
+      - 16-TW-429
       - 20-JP-442
       - 20-US-475
       - 23-AZ-499
       - 23-CH-498
-      - 23-CH-531
+      - 23-CH-530
       - 23-CY-502
       - 23-CZ-512
       - 23-DE-496
       - 23-DE-529
+      - 23-DE-531
       - 23-DE-532
-      - 23-DE-533
-      - 23-DE-535
+      - 23-DE-534
+      - 23-DE-536
       - 23-DE-537
       - 23-DE-538
-      - 23-DE-539
+      - 23-DE-545
       - 23-DE-546
-      - 23-DE-547
-      - 23-DE-550
-      - 23-DE-552
-      - 23-DE-554
+      - 23-DE-549
+      - 23-DE-551
+      - 23-DE-553
+      - 23-DE-555
       - 23-DE-556
-      - 23-DE-557
       - 23-DE-558
-      - 23-DE-560
-      - 23-DE-563
+      - 23-DE-561
       - 23-DK-511
       - 23-ES-506
       - 23-FI-527
-      - 23-FI-562
+      - 23-FI-560
       - 23-FR-522
       - 23-FR-523
-      - 23-FR-541
-      - 23-FR-543
-      - 23-FR-545
-      - 23-FR-548
+      - 23-FR-540
+      - 23-FR-542
+      - 23-FR-544
+      - 23-FR-547
       - 23-GB-508
       - 23-GB-513
       - 23-IE-494
@@ -791,6 +792,7 @@ proxy-groups:
       - 23-JP-516
       - 23-KZ-510
       - 23-MK-524
+      - 23-MU-577
       - 23-NL-504
       - 23-NO-509
       - 23-RU-514
@@ -799,34 +801,33 @@ proxy-groups:
       - 23-SG-517
       - 23-TR-497
       - 23-TR-528
-      - 23-TR-564
+      - 23-TR-562
       - 23-UA-518
       - 23-US-505
       - 23-US-507
       - 23-US-520
-      - 29-RELAY-727
-      - 31-JP-737
-      - 31-US-731
-      - 34-JP-885
-      - 34-JP-886
-      - 34-JP-888
-      - 34-US-887
+      - 29-RELAY-712
+      - 31-JP-722
+      - 31-SG-721
+      - 31-US-716
+      - 34-JP-870
+      - 34-JP-871
+      - 34-JP-873
+      - 34-US-872
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 02-CN-000
       - 02-JP-069
       - 06-GOOGLE-154
-      - 06-RELAY-171
+      - 06-JP-153
       - 06-US-160
       - 06-US-164
       - 06-US-177
       - 07-RELAY-185
       - 07-RELAY-192
-      - 07-US-182
       - 07-US-184
       - 07-US-194
       - 07-US-195
@@ -875,7 +876,7 @@ proxy-groups:
       - 10-JP-265
       - 10-JP-280
       - 10-JP-286
-      - 10-KR-288
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-MU-256
       - 10-MU-257
       - 10-MU-260
@@ -892,6 +893,7 @@ proxy-groups:
       - 10-RELAY-273
       - 10-RELAY-275
       - 10-RELAY-281
+      - 10-RELAY-287
       - 10-SG-262
       - 10-SG-276
       - 10-US-267
@@ -940,6 +942,7 @@ proxy-groups:
       - 14-FR-368
       - 14-GB-369
       - 14-GB-370
+      - 14-HK-371
       - 14-HK-372
       - 14-HK-373
       - 14-HK-374
@@ -995,47 +998,46 @@ proxy-groups:
       - 16-JP-421
       - 16-JP-422
       - 16-JP-423
+      - 16-JP-424
       - 16-JP-425
       - 16-JP-426
-      - 16-SG-432
-      - 16-SG-433
       - 16-TW-427
       - 16-TW-428
+      - 16-TW-429
       - 20-JP-442
       - 20-US-475
       - 23-AZ-499
       - 23-CH-498
-      - 23-CH-531
+      - 23-CH-530
       - 23-CY-502
       - 23-CZ-512
       - 23-DE-496
       - 23-DE-529
+      - 23-DE-531
       - 23-DE-532
-      - 23-DE-533
-      - 23-DE-535
+      - 23-DE-534
+      - 23-DE-536
       - 23-DE-537
       - 23-DE-538
-      - 23-DE-539
+      - 23-DE-545
       - 23-DE-546
-      - 23-DE-547
-      - 23-DE-550
-      - 23-DE-552
-      - 23-DE-554
+      - 23-DE-549
+      - 23-DE-551
+      - 23-DE-553
+      - 23-DE-555
       - 23-DE-556
-      - 23-DE-557
       - 23-DE-558
-      - 23-DE-560
-      - 23-DE-563
+      - 23-DE-561
       - 23-DK-511
       - 23-ES-506
       - 23-FI-527
-      - 23-FI-562
+      - 23-FI-560
       - 23-FR-522
       - 23-FR-523
-      - 23-FR-541
-      - 23-FR-543
-      - 23-FR-545
-      - 23-FR-548
+      - 23-FR-540
+      - 23-FR-542
+      - 23-FR-544
+      - 23-FR-547
       - 23-GB-508
       - 23-GB-513
       - 23-IE-494
@@ -1044,6 +1046,7 @@ proxy-groups:
       - 23-JP-516
       - 23-KZ-510
       - 23-MK-524
+      - 23-MU-577
       - 23-NL-504
       - 23-NO-509
       - 23-RU-514
@@ -1052,18 +1055,19 @@ proxy-groups:
       - 23-SG-517
       - 23-TR-497
       - 23-TR-528
-      - 23-TR-564
+      - 23-TR-562
       - 23-UA-518
       - 23-US-505
       - 23-US-507
       - 23-US-520
-      - 29-RELAY-727
-      - 31-JP-737
-      - 31-US-731
-      - 34-JP-885
-      - 34-JP-886
-      - 34-JP-888
-      - 34-US-887
+      - 29-RELAY-712
+      - 31-JP-722
+      - 31-SG-721
+      - 31-US-716
+      - 34-JP-870
+      - 34-JP-871
+      - 34-JP-873
+      - 34-US-872
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -1073,7 +1077,6 @@ proxy-groups:
       - 06-US-160
       - 06-US-164
       - 06-US-177
-      - 07-US-182
       - 07-US-184
       - 07-US-194
       - 07-US-195
@@ -1087,6 +1090,7 @@ proxy-groups:
       - 08-US-236
       - 09-US-238
       - 09-US-249
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-US-267
       - 10-US-274
       - 10-US-279
@@ -1135,8 +1139,8 @@ proxy-groups:
       - 23-US-505
       - 23-US-507
       - 23-US-520
-      - 31-US-731
-      - 34-US-887
+      - 31-US-716
+      - 34-US-872
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -1144,6 +1148,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-JP-069
+      - 06-JP-153
       - 08-HK-214
       - 08-HK-234
       - 09-HK-239
@@ -1156,10 +1161,11 @@ proxy-groups:
       - 10-JP-265
       - 10-JP-280
       - 10-JP-286
-      - 10-KR-288
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-SG-262
       - 10-SG-276
       - 13-HK-320
+      - 14-HK-371
       - 14-HK-372
       - 14-HK-373
       - 14-HK-374
@@ -1173,29 +1179,28 @@ proxy-groups:
       - 16-JP-421
       - 16-JP-422
       - 16-JP-423
+      - 16-JP-424
       - 16-JP-425
       - 16-JP-426
-      - 16-SG-432
-      - 16-SG-433
       - 16-TW-427
       - 16-TW-428
+      - 16-TW-429
       - 20-JP-442
       - 23-JP-500
       - 23-JP-516
       - 23-SG-517
-      - 31-JP-737
-      - 34-JP-885
-      - 34-JP-886
-      - 34-JP-888
+      - 31-JP-722
+      - 31-SG-721
+      - 34-JP-870
+      - 34-JP-871
+      - 34-JP-873
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 02-CN-000
       - 06-GOOGLE-154
-      - 06-RELAY-171
       - 07-RELAY-185
       - 07-RELAY-192
       - 08-CN-216
@@ -1237,6 +1242,7 @@ proxy-groups:
       - 10-RELAY-273
       - 10-RELAY-275
       - 10-RELAY-281
+      - 10-RELAY-287
       - 13-CN-317
       - 13-CN-334
       - 13-MU-319
@@ -1282,43 +1288,43 @@ proxy-groups:
       - 16-DE-418
       - 23-AZ-499
       - 23-CH-498
-      - 23-CH-531
+      - 23-CH-530
       - 23-CY-502
       - 23-CZ-512
       - 23-DE-496
       - 23-DE-529
+      - 23-DE-531
       - 23-DE-532
-      - 23-DE-533
-      - 23-DE-535
+      - 23-DE-534
+      - 23-DE-536
       - 23-DE-537
       - 23-DE-538
-      - 23-DE-539
+      - 23-DE-545
       - 23-DE-546
-      - 23-DE-547
-      - 23-DE-550
-      - 23-DE-552
-      - 23-DE-554
+      - 23-DE-549
+      - 23-DE-551
+      - 23-DE-553
+      - 23-DE-555
       - 23-DE-556
-      - 23-DE-557
       - 23-DE-558
-      - 23-DE-560
-      - 23-DE-563
+      - 23-DE-561
       - 23-DK-511
       - 23-ES-506
       - 23-FI-527
-      - 23-FI-562
+      - 23-FI-560
       - 23-FR-522
       - 23-FR-523
-      - 23-FR-541
-      - 23-FR-543
-      - 23-FR-545
-      - 23-FR-548
+      - 23-FR-540
+      - 23-FR-542
+      - 23-FR-544
+      - 23-FR-547
       - 23-GB-508
       - 23-GB-513
       - 23-IE-494
       - 23-IL-519
       - 23-KZ-510
       - 23-MK-524
+      - 23-MU-577
       - 23-NL-504
       - 23-NO-509
       - 23-RU-514
@@ -1326,9 +1332,9 @@ proxy-groups:
       - 23-SE-503
       - 23-TR-497
       - 23-TR-528
-      - 23-TR-564
+      - 23-TR-562
       - 23-UA-518
-      - 29-RELAY-727
+      - 29-RELAY-712
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -1338,7 +1344,6 @@ proxy-groups:
       - 06-US-160
       - 06-US-164
       - 06-US-177
-      - 07-US-182
       - 07-US-184
       - 07-US-194
       - 07-US-195
@@ -1352,6 +1357,7 @@ proxy-groups:
       - 08-US-236
       - 09-US-238
       - 09-US-249
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 10-US-267
       - 10-US-274
       - 10-US-279
@@ -1400,8 +1406,8 @@ proxy-groups:
       - 23-US-505
       - 23-US-507
       - 23-US-520
-      - 31-US-731
-      - 34-US-887
+      - 31-US-716
+      - 34-US-872
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -1413,6 +1419,7 @@ proxy-groups:
       - 09-HK-239
       - 09-HK-242
       - 13-HK-320
+      - 14-HK-371
       - 14-HK-372
       - 14-HK-373
       - 14-HK-374
@@ -1428,9 +1435,8 @@ proxy-groups:
       - 10-SG-262
       - 10-SG-276
       - 14-SG-386
-      - 16-SG-432
-      - 16-SG-433
       - 23-SG-517
+      - 31-SG-721
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -1438,6 +1444,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-JP-069
+      - 06-JP-153
       - 09-JP-252
       - 09-JP-254
       - 10-JP-265
@@ -1448,15 +1455,16 @@ proxy-groups:
       - 16-JP-421
       - 16-JP-422
       - 16-JP-423
+      - 16-JP-424
       - 16-JP-425
       - 16-JP-426
       - 20-JP-442
       - 23-JP-500
       - 23-JP-516
-      - 31-JP-737
-      - 34-JP-885
-      - 34-JP-886
-      - 34-JP-888
+      - 31-JP-722
+      - 34-JP-870
+      - 34-JP-871
+      - 34-JP-873
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -1466,6 +1474,7 @@ proxy-groups:
       - 09-TW-244
       - 16-TW-427
       - 16-TW-428
+      - 16-TW-429
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -1473,7 +1482,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 09-KR-251
-      - 10-KR-288
+      - 10-KR-288ss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#23-US-501
       - 14-KR-378
       - 14-KR-379
 rules:
