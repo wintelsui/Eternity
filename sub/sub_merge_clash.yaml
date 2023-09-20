@@ -954,16 +954,16 @@ proxies:
   - {name: 40-HK-0952, server: bhk163.qiaqia.win, port: 8080, type: vmess, uuid: 028ce0ae-067c-3648-9c87-6f78c8445713, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bhk163.qiaqia.win}}, udp: true}
   - {name: 40-HK-0953, server: bhk171.qiaqia.win, port: 8080, type: vmess, uuid: 028ce0ae-067c-3648-9c87-6f78c8445713, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bhk171.qiaqia.win}}, udp: true}
   - {name: 40-HK-0954, server: bhk179.qiaqia.win, port: 8080, type: vmess, uuid: 028ce0ae-067c-3648-9c87-6f78c8445713, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bhk179.qiaqia.win}}, udp: true}
-  - {name: 40-JP-0955, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, skip-cert-verify: true, udp: true}
-  - {name: 40-JP-0956, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-HK-0957, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-CN-0958, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-CN-0959, server: dl.biubiufast.quest, port: 35002, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-CN-0960, server: dl.biubiufast.quest, port: 35001, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-CN-0961, server: dl.biubiufast.quest, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, udp: true}
-  - {name: 40-CN-0962, server: tls.biubiufast.quest, port: 32100, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: 40-CN-0963, server: tls.biubiufast.quest, port: 32102, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: hk15.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: 40-CN-0964, server: tls.biubiufast.quest, port: 32103, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: sfo6.biubiufast.quest, skip-cert-verify: true, udp: true}
+  - {name: 40-JP-0955, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, skip-cert-verify: true, udp: true}
+  - {name: 40-JP-0956, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-HK-0957, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-CN-0958, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-CN-0959, server: dl.biubiufast.quest, port: 35002, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-CN-0960, server: dl.biubiufast.quest, port: 35001, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-CN-0961, server: dl.biubiufast.quest, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, udp: true}
+  - {name: 40-CN-0962, server: tls.biubiufast.quest, port: 32100, type: trojan, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+  - {name: 40-CN-0963, server: tls.biubiufast.quest, port: 32102, type: trojan, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, sni: hk15.biubiufast.quest, skip-cert-verify: true, udp: true}
+  - {name: 40-CN-0964, server: tls.biubiufast.quest, port: 32103, type: trojan, password: 4e5b9f4e-3c3e-4910-b46c-6308ce03ad5d, sni: sfo6.biubiufast.quest, skip-cert-verify: true, udp: true}
   - {name: 40-CN-0965, server: 201201level3.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, udp: true}
   - {name: 40-CN-0966, server: 201201level3.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, udp: true}
   - {name: 40-CN-0967, server: 201201level3.unclemanco.com, port: 913, type: ss, cipher: aes-128-gcm, password: ayucloud1, udp: true}
