@@ -60,9 +60,20 @@ def convert(subscription,target,other_config={'deduplicate':False}):
                 os.chdir(work_dir)
                 return ''
 
-    #if config['deduplicate']:
-    #    clash_provider = deduplicate(clash_provider,config['keep_nodes'])
 
+#
+#
+#    
+#    
+    if config['deduplicate']:
+        clash_provider = deduplicate(clash_provider,config['keep_nodes'])
+
+#
+#
+#
+#
+
+    
     with open('./temp', 'w', encoding= 'utf-8') as temp_file:
         temp_file.write(clash_provider)
     output = subconverterhandler('./temp',config)
