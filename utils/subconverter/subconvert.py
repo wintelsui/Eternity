@@ -65,8 +65,8 @@ def convert(subscription,target,other_config={'deduplicate':False}):
 #
 #    
 #    
-    if config['deduplicate']:
-        clash_provider = deduplicate(clash_provider,config['keep_nodes'])
+  #  if config['deduplicate']:
+     #   clash_provider = deduplicate(clash_provider,config['keep_nodes'])
 
 #
 #
