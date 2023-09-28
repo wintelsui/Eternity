@@ -6,6 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 02-0000-CN, server: hk1.susenl.com, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: KdbT9JjlXi1tiLDQ, udp: true}
+  - {name: 02-0002-CN, server: hk1.susenl.com, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: KdbT9JjlXi1tiLDQ, udp: true}
   - {name: 02-0003-CN, server: hk1.susenl.com, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: KdbT9JjlXi1tiLDQ, udp: true}
   - {name: 02-0004-CN, server: hk1.susenl.com, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: KdbT9JjlXi1tiLDQ, udp: true}
   - {name: 02-0005-CN, server: hk1.susenl.com, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: KdbT9JjlXi1tiLDQ, udp: true}
@@ -465,6 +466,7 @@ proxies:
   - {name: 03-0557-FR, server: 162.19.59.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0558-FR, server: 162.19.59.162, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0559-FR, server: 57.128.33.86, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 03-0560-RELAY, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}, udp: true}
   - {name: 03-0561-FR, server: 162.19.84.198, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0562-FR, server: 51.158.200.166, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0563-FR, server: 51.158.200.143, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1197,6 +1199,7 @@ proxies:
   - {name: 04-1291-VN, server: vn3.4gspeed.me, port: 443, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn3.4gspeed.me}}, udp: true}
   - {name: 04-1292-CN, server: 183.232.230.42, port: 19083, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1293-RELAY, server: 172.67.159.72, port: 80, type: vmess, uuid: 9276a391-5372-4ebf-8f72-020033569e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}, udp: true}
+  - {name: 04-1294-SG, server: direct-sg1.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-sg1.xn--pzypc.store}}, udp: true}
   - {name: 04-1295-RELAY, server: cdnjs.com, port: 443, type: vmess, uuid: 691c16ee-d3a5-4ba6-ae8b-59c12b278d86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: cdnjs.com}}, udp: true}
   - {name: 04-1296-US, server: 137.175.11.150, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.77646750.xyz}}, udp: true}
   - {name: 04-1297-CN, server: 183.232.230.44, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
@@ -1221,7 +1224,6 @@ proxies:
   - {name: 04-1317-RU, server: v138a.ai88888.top, port: 2052, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /526-ddxDMRvLdlt, headers: {Host: v138a.ai88888.top}}, udp: true}
   - {name: 04-1318-CN, server: 183.232.230.62, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1319-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it1.xv2ray.net}}, udp: true}
-  - {name: 04-1320-TW, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: e39371c5-b15e-48d1-98c8-d5b24b7e0301, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 04-1321-RELAY, server: 104.17.88.252, port: 2082, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /phosphorylative.aurorainiceland.com/nimvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
   - {name: 04-1322-US, server: 38.63.0.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689935243027, headers: {Host: www.19458162.xyz}}, udp: true}
   - {name: 04-1323-RELAY, server: wnd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}, udp: true}
@@ -1471,7 +1473,6 @@ proxies:
   - {name: 09-1571-SG, server: 8.222.214.231, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: sg1.xn--pzypc.store}}, udp: true}
   - {name: 10-1572-US, server: 198.2.213.161, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.54699295.xyz}}, udp: true}
   - {name: 10-1573-US, server: 198.2.218.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.51360818.xyz}}, udp: true}
-  - {name: 10-1574-RELAY, server: free4.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}, udp: true}
   - {name: 10-1575-US, server: 38.26.135.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1693992821776, headers: {Host: www.39838266.xyz}}, udp: true}
   - {name: 10-1576-US, server: 199.188.107.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.66880458.xyz}}, udp: true}
   - {name: 10-1577-US, server: 137.175.21.131, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.19401390.xyz}}, udp: true}
@@ -1499,8 +1500,7 @@ proxies:
   - {name: 11-1599-NOWHERE, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
   - {name: 11-1600-NOWHERE, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-1601-TW, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
-  - {name: 11-1626-RELAY, server: dongtaiwang3.com, port: 8080, type: vmess, uuid: c5f81634-cd34-47fa-ace6-69300539e051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oX7MJ0Fj/, headers: {Host: dongtaiwang.dtku47.xyz}}, udp: true}
-  - {name: 11-1627-VN, server: hcm01.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /svip1.4ghatde.com, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 11-1628-HK, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: internet.life.com.by}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1517,6 +1517,7 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 02-0000-CN
+      - 02-0002-CN
       - 02-0003-CN
       - 02-0004-CN
       - 02-0005-CN
@@ -1976,6 +1977,7 @@ proxy-groups:
       - 03-0557-FR
       - 03-0558-FR
       - 03-0559-FR
+      - 03-0560-RELAY
       - 03-0561-FR
       - 03-0562-FR
       - 03-0563-FR
@@ -2708,6 +2710,7 @@ proxy-groups:
       - 04-1291-VN
       - 04-1292-CN
       - 04-1293-RELAY
+      - 04-1294-SG
       - 04-1295-RELAY
       - 04-1296-US
       - 04-1297-CN
@@ -2732,7 +2735,6 @@ proxy-groups:
       - 04-1317-RU
       - 04-1318-CN
       - 04-1319-RELAY
-      - 04-1320-TW
       - 04-1321-RELAY
       - 04-1322-US
       - 04-1323-RELAY
@@ -2982,7 +2984,6 @@ proxy-groups:
       - 09-1571-SG
       - 10-1572-US
       - 10-1573-US
-      - 10-1574-RELAY
       - 10-1575-US
       - 10-1576-US
       - 10-1577-US
@@ -3010,8 +3011,7 @@ proxy-groups:
       - 11-1599-NOWHERE
       - 11-1600-NOWHERE
       - 11-1601-TW
-      - 11-1626-RELAY
-      - 11-1627-VN
+      - 11-1628-HK
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
