@@ -159,6 +159,7 @@ proxies:
   - {name: 02-0151-CN, server: 1.76po.com, port: 15014, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0152-CN, server: 1.76po.com, port: 17744, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0153-CN, server: js1.76po.com, port: 51594, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 02-0154-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, skip-cert-verify: true, udp: true}
   - {name: 02-0155-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
   - {name: 02-0156-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
   - {name: 02-0157-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
@@ -828,7 +829,7 @@ proxies:
   - {name: 03-0920-NL, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0921-SG, server: 52.221.215.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 03-0922-SG, server: 18.143.101.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 03-0923-US, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0923-US, server: 103.15.217.182, port: 33058, type: trojan, password: QHhbhwe6lj, sni: telewebion.com, skip-cert-verify: true, udp: true}
   - {name: 04-0924-RELAY, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
   - {name: 04-0925-RELAY, server: 162.159.152.6, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
   - {name: 04-0926-RELAY, server: singapore.com, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
@@ -1206,7 +1207,6 @@ proxies:
   - {name: 06-1299-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: b385736a-77df-4a5d-91dd-cb74ca6ac23a, udp: true}
   - {name: 06-1300-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: b385736a-77df-4a5d-91dd-cb74ca6ac23a, udp: true}
   - {name: 06-1301-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: b385736a-77df-4a5d-91dd-cb74ca6ac23a, udp: true}
-  - {name: 08-1305-HK, server: 103.15.217.182, port: 33058, type: trojan, password: QHhbhwe6lj, sni: 103.15.217.182, skip-cert-verify: true, udp: true}
   - {name: 08-1306-HK, server: 103.234.53.27, port: 50174, type: trojan, password: 6206d21a-81a4-43f6-b88e-052637dce46d, sni: cn-hk-50.fnhffffe4.cc, skip-cert-verify: true, udp: true}
   - {name: 08-1307-KR, server: 3.35.222.251, port: 51256, type: trojan, password: a0043275-5033-4923-9f22-b2f466a8794a, sni: apple.com, skip-cert-verify: true, udp: true}
   - {name: 08-1308-US, server: mf01fx.micloud.buzz, port: 46001, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf01fx.micloud.buzz}}, udp: true}
@@ -1228,7 +1228,7 @@ proxies:
   - {name: 09-1325-RU, server: 194.147.35.134, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /526-kDPxxx6Otf, headers: {Host: v116a.ai88888.top}}, udp: true}
   - {name: 09-1326-TW, server: 36.228.230.103, port: 889, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
   - {name: 09-1327-US, server: 38.63.0.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689935243027, headers: {Host: www.19458162.xyz}}, udp: true}
-  - {name: 09-1328-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 09-1328-US, server: 54.189.218.36, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1329-US, server: 104.237.152.145, port: 12000, type: vmess, uuid: ccd45732-ae0d-4313-86ce-35403e3a2adc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: us-81-ln.p9m.net}}, udp: true}
   - {name: 09-1330-RELAY, server: 172.64.229.237, port: 8880, type: vmess, uuid: 8057ac44-f65c-459c-bd3b-79aac42a00c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/microsoft?ed=1024", headers: {Host: losangeles.freenode.pro}}, udp: true}
   - {name: 09-1331-US, server: 38.63.0.80, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.19458162.xyz}}, udp: true}
@@ -1528,6 +1528,7 @@ proxy-groups:
       - 02-0151-CN
       - 02-0152-CN
       - 02-0153-CN
+      - 02-0154-JP
       - 02-0155-JP
       - 02-0156-HK
       - 02-0157-CN
@@ -2575,7 +2576,6 @@ proxy-groups:
       - 06-1299-CN
       - 06-1300-CN
       - 06-1301-CN
-      - 08-1305-HK
       - 08-1306-HK
       - 08-1307-KR
       - 08-1308-US
