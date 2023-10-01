@@ -822,6 +822,7 @@ proxies:
   - {name: 03-0912-NL, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0913-SG, server: 18.143.101.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 03-0914-SG, server: 52.221.215.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 03-0915-US, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
   - {name: 03-0916-TW, server: twpaopao4.dskjahf.xyz, port: 228, type: vmess, uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 04-0917-CN, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 1445de07-8e53-4be7-8b3f-f4ed5a1e0cbe, udp: true}
   - {name: 04-0918-CN, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 1445de07-8e53-4be7-8b3f-f4ed5a1e0cbe, udp: true}
@@ -986,7 +987,6 @@ proxies:
   - {name: 04-1077-CN, server: 183.232.230.42, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1078-KR, server: 3.35.222.251, port: 51256, type: trojan, password: a0043275-5033-4923-9f22-b2f466a8794a, sni: apple.com, skip-cert-verify: true, udp: true}
   - {name: 04-1079-CN, server: 183.232.230.45, port: 19050, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
-  - {name: 04-1080-US, server: 135.148.67.88, port: 2087, type: ss, cipher: chacha20-ietf-poly1305, password: a9dIXhPAuSDCKUPU, udp: true}
   - {name: 04-1081-CN, server: 183.232.230.42, port: 19029, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1082-CN, server: 183.232.230.45, port: 19057, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1083-RELAY, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v003.ssrsub.com}}, udp: true}
@@ -2231,6 +2231,7 @@ proxy-groups:
       - 03-0912-NL
       - 03-0913-SG
       - 03-0914-SG
+      - 03-0915-US
       - 03-0916-TW
       - 04-0917-CN
       - 04-0918-CN
@@ -2395,7 +2396,6 @@ proxy-groups:
       - 04-1077-CN
       - 04-1078-KR
       - 04-1079-CN
-      - 04-1080-US
       - 04-1081-CN
       - 04-1082-CN
       - 04-1083-RELAY
