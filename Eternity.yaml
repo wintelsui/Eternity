@@ -159,7 +159,6 @@ proxies:
   - {name: 02-0151-CN, server: 1.76po.com, port: 15014, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0152-CN, server: 1.76po.com, port: 17744, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0153-CN, server: js1.76po.com, port: 51594, type: vmess, uuid: a00583f0-7a48-4a33-8f1a-03fd421fbf53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 02-0154-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, skip-cert-verify: true, udp: true}
   - {name: 02-0155-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
   - {name: 02-0156-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
   - {name: 02-0157-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, udp: true}
@@ -824,6 +823,7 @@ proxies:
   - {name: 03-0915-MU, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0916-NL, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0918-MU, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 03-0919-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 8af110e7-a77c-453c-bdb5-49eced4267b7, sni: telewebion.com, skip-cert-verify: true, udp: true}
   - {name: 03-0920-TW, server: twpaopao4.dskjahf.xyz, port: 228, type: vmess, uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 04-0921-RELAY, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
   - {name: 04-0922-RELAY, server: 162.159.152.6, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
@@ -1247,7 +1247,7 @@ proxies:
   - {name: 08-1344-VN, server: 103.239.67.244, port: 80, type: vmess, uuid: a05b6151-b432-487c-936a-534c20c60c20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn9.4gspeed.me}}, udp: true}
   - {name: 08-1345-CN, server: vip3.niuniupremium.xyz, port: 16928, type: vmess, uuid: 4aa447d6-744b-32f9-9a8f-a39ca2f89b60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 193.25.215.160}}, udp: true}
   - {name: 08-1346-CN, server: mf34fx.micloud.buzz, port: 46034, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf34fx.micloud.buzz}}, udp: true}
-  - {name: "08-1347-JPtrojan//7ea37e4f-325b-416f-901a-67012367307f@15.204.209.5080?allowInsecure=1&sni=telewebion.com#03-0919-US", server: 13.230.7.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 08-1347-JP, server: 13.230.7.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-1348-KR, server: 43.201.17.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-1349-JP, server: 54.199.159.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-1350-NL, server: 109.104.153.250, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: nY4rb2jPvOwdP4i1WOFdGl, udp: true}
@@ -1558,7 +1558,6 @@ proxy-groups:
       - 02-0151-CN
       - 02-0152-CN
       - 02-0153-CN
-      - 02-0154-JP
       - 02-0155-JP
       - 02-0156-HK
       - 02-0157-CN
@@ -2223,6 +2222,7 @@ proxy-groups:
       - 03-0915-MU
       - 03-0916-NL
       - 03-0918-MU
+      - 03-0919-US
       - 03-0920-TW
       - 04-0921-RELAY
       - 04-0922-RELAY
@@ -2646,7 +2646,7 @@ proxy-groups:
       - 08-1344-VN
       - 08-1345-CN
       - 08-1346-CN
-      - 08-1347-JPtrojan//7ea37e4f-325b-416f-901a-67012367307f@15.204.209.5080?allowInsecure=1&sni=telewebion.com#03-0919-US
+      - 08-1347-JP
       - 08-1348-KR
       - 08-1349-JP
       - 09-1350-NL
