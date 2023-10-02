@@ -1022,6 +1022,7 @@ proxies:
   - {name: 04-1115-CN, server: 183.232.230.42, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1116-CN, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a, udp: true}
   - {name: 04-1117-US, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}, udp: true}
+  - {name: 04-1118-RELAY, server: 104.24.184.134, port: 80, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /phosphorylative.aurorainiceland.com/nimvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
   - {name: 04-1119-CN, server: 183.232.230.62, port: 19084, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1120-CN, server: 183.232.230.45, port: 19046, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
   - {name: 04-1121-CN, server: 183.232.230.46, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}, udp: true}
@@ -1270,7 +1271,6 @@ proxies:
   - {name: 10-1369-US, server: 34.212.68.90, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 10-1370-US, server: 198.2.213.161, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.54699295.xyz}}, udp: true}
   - {name: 10-1371-US, server: 198.2.218.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.51360818.xyz}}, udp: true}
-  - {name: 10-1372-RELAY, server: free4.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}, udp: true}
   - {name: 10-1373-US, server: 38.26.135.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1693992821776, headers: {Host: www.39838266.xyz}}, udp: true}
   - {name: 10-1374-US, server: 199.188.107.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.66880458.xyz}}, udp: true}
   - {name: 10-1375-US, server: 137.175.21.131, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.19401390.xyz}}, udp: true}
@@ -2418,6 +2418,7 @@ proxy-groups:
       - 04-1115-CN
       - 04-1116-CN
       - 04-1117-US
+      - 04-1118-RELAY
       - 04-1119-CN
       - 04-1120-CN
       - 04-1121-CN
@@ -2666,7 +2667,6 @@ proxy-groups:
       - 10-1369-US
       - 10-1370-US
       - 10-1371-US
-      - 10-1372-RELAY
       - 10-1373-US
       - 10-1374-US
       - 10-1375-US
