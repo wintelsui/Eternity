@@ -717,6 +717,7 @@ proxies:
   - {name: 03-0807-JP, server: jpcdn.bh8189.eu.org, port: 2087, type: vmess, uuid: 94b4588d-e72d-4a74-a224-a351cb2722d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: hostodo.galenet.online, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-0808-JP, server: jpcdn.bh8189.eu.org, port: 2082, type: vmess, uuid: 94b4588d-e72d-4a74-a224-a351cb2722d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-0809-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: 2e8095f1-8296-4572-b808-bcd0efa1842e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: 2e8095f1-8296-4572-b808-bcd0efa1842e.us1.microsoftdebug.com}}, udp: true}
+  - {name: 03-0810-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 2e8095f1-8296-4572-b808-bcd0efa1842e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: 2e8095f1-8296-4572-b808-bcd0efa1842e.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0811-JP, server: jp-81-ln.p9m.net, port: 12000, type: vmess, uuid: ebb0b0c8-8795-47ad-a5a7-5882fd6ffc96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jp-81-ln.p9m.net}}, udp: true}
   - {name: 03-0812-MY, server: my-83-gg.p9m.net, port: 12000, type: vmess, uuid: ebb0b0c8-8795-47ad-a5a7-5882fd6ffc96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: my-83-gg.p9m.net}}, udp: true}
   - {name: 03-0813-PH, server: ph-25-ln.p9m.net, port: 12000, type: vmess, uuid: ebb0b0c8-8795-47ad-a5a7-5882fd6ffc96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: ph-25-ln.p9m.net}}, udp: true}
@@ -938,7 +939,6 @@ proxies:
   - {name: 04-1031-SG, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 04-1032-SG, server: sg8.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-1033-SG, server: sg1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-1034-RELAY, server: v133.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.runba.gq}}, udp: true}
   - {name: 04-1035-CN, server: 14.18.106.137, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: nl01.lovehjq.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-1036-CN, server: hz.xzyunjiasu.icu, port: 44153, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us04.cctvvip.cf}}, udp: true}
   - {name: 04-1037-CN, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: 3f0e8ecd-f30f-4881-acf6-b5037b3c99a9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1998,6 +1998,7 @@ proxy-groups:
       - 03-0807-JP
       - 03-0808-JP
       - 03-0809-RELAY
+      - 03-0810-RELAY
       - 03-0811-JP
       - 03-0812-MY
       - 03-0813-PH
@@ -2219,7 +2220,6 @@ proxy-groups:
       - 04-1031-SG
       - 04-1032-SG
       - 04-1033-SG
-      - 04-1034-RELAY
       - 04-1035-CN
       - 04-1036-CN
       - 04-1037-CN
