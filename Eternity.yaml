@@ -733,6 +733,7 @@ proxies:
   - {name: 04-0824-IR, server: 185.143.233.55, port: 8080, type: vmess, uuid: c7a5afa6-8e54-4006-95f6-1a66756e4868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ru1ir2-fxrqivz8wzm.limitedhighspeed.com}}, udp: true}
   - {name: 04-0825-KR, server: fd.cfcdn.giize.com, port: 80, type: vmess, uuid: 4c6ef1b6-da7c-4769-cbfb-1741ff7f8164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccvt13.m3u8, headers: {Host: us02.cctvvip.tk}}, udp: true}
   - {name: 04-0826-CN, server: starspeed.tbh.iosds.com, port: 47120, type: ss, cipher: chacha20-ietf-poly1305, password: e00a00ef-cea7-4036-99d3-6dcc6218301a, udp: true}
+  - {name: 04-0827-GB, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us05.cctvvip.tk}}, udp: true}
   - {name: 04-0828-CN, server: ss-us01.bigdong.link, port: 20122, type: ss, cipher: chacha20-ietf-poly1305, password: 12251304-14b4-4505-bf59-4a150d1c0231, udp: true}
   - {name: 04-0829-CN, server: as.al19.cf, port: 23137, type: ss, cipher: chacha20-ietf-poly1305, password: 9106bcb9-0f36-4366-b107-cfef41e1b9a3, udp: true}
   - {name: 04-0830-US, server: ryoza-1088-v2-1.d-kcd.tuil.xyz, port: 888, type: vmess, uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: s3.cjhh.beauty}}, udp: true}
@@ -753,7 +754,6 @@ proxies:
   - {name: 04-0845-CN, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8, udp: true}
   - {name: 04-0846-CN, server: mf34fx.micloud.buzz, port: 46034, type: vmess, uuid: bc230344-14d9-4922-9fb7-2e6513c5593e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf34fx.micloud.buzz}}, udp: true}
   - {name: 04-0847-CN, server: hz.xzyunjiasu.icu, port: 40406, type: vmess, uuid: 4b40c095-abab-4893-9a93-bcd547d32e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp-gpt-01.suburl.link}}, udp: true}
-  - {name: 04-0848-RELAY, server: v133.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.runba.gq}}, udp: true}
   - {name: 04-0849-KR, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 2e7a765e-8fc5-4d7d-8dc0-83871b76deff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.cctvvip.tk}}, udp: true}
   - {name: 04-0850-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 3f0e8ecd-f30f-4881-acf6-b5037b3c99a9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0851-CN, server: 36.137.198.17, port: 10824, type: trojan, password: 1ae5a5bd-9e3c-4639-b29f-debed5d43283, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1849,6 +1849,7 @@ proxy-groups:
       - 04-0824-IR
       - 04-0825-KR
       - 04-0826-CN
+      - 04-0827-GB
       - 04-0828-CN
       - 04-0829-CN
       - 04-0830-US
@@ -1869,7 +1870,6 @@ proxy-groups:
       - 04-0845-CN
       - 04-0846-CN
       - 04-0847-CN
-      - 04-0848-RELAY
       - 04-0849-KR
       - 04-0850-CN
       - 04-0851-CN
