@@ -169,7 +169,7 @@ proxies:
   - {name: 02-0161-CN, server: tls.biubiufast.quest, port: 32100, type: trojan, password: 06367a74-10a2-4976-a942-8bacdbcd0fc5, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
   - {name: 02-0162-CN, server: tls.biubiufast.quest, port: 32102, type: trojan, password: 06367a74-10a2-4976-a942-8bacdbcd0fc5, sni: hk15.biubiufast.quest, skip-cert-verify: true, udp: true}
   - {name: 02-0163-CN, server: tls.biubiufast.quest, port: 32103, type: trojan, password: 06367a74-10a2-4976-a942-8bacdbcd0fc5, sni: sfo6.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: 02-0262-KR, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: 08798211-ef2b-4938-9a65-73036c2101bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
+  - {name: 02-0262-SG, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: 08798211-ef2b-4938-9a65-73036c2101bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 02-0263-JP, server: jpcdn.bh8189.eu.org, port: 2087, type: vmess, uuid: 08798211-ef2b-4938-9a65-73036c2101bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: hostodo.galenet.online, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 02-0264-JP, server: jpcdn.bh8189.eu.org, port: 2082, type: vmess, uuid: 08798211-ef2b-4938-9a65-73036c2101bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 02-0265-GOOGLE, server: 8.8.8.8, port: 22266, type: ss, cipher: chacha20-ietf-poly1305, password: 26026c90-49d9-484b-8763-4431638a3878, udp: true}
@@ -529,6 +529,7 @@ proxies:
   - {name: 03-0619-JP, server: jpcdn.bh8189.eu.org, port: 2087, type: vmess, uuid: 94b4588d-e72d-4a74-a224-a351cb2722d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: hostodo.galenet.online, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-0620-JP, server: jpcdn.bh8189.eu.org, port: 2082, type: vmess, uuid: 94b4588d-e72d-4a74-a224-a351cb2722d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-0621-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: 30b8b258-cf6d-422e-b28f-dae65333e2ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: 30b8b258-cf6d-422e-b28f-dae65333e2ec.us1.microsoftdebug.com}}, udp: true}
+  - {name: 03-0622-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 30b8b258-cf6d-422e-b28f-dae65333e2ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: 30b8b258-cf6d-422e-b28f-dae65333e2ec.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0623-JP, server: jp-81-ln.p9m.net, port: 12000, type: vmess, uuid: 0de26cf2-4232-40a1-87ad-5b5277febb27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jp-81-ln.p9m.net}}, udp: true}
   - {name: 03-0624-MY, server: my-83-gg.p9m.net, port: 12000, type: vmess, uuid: 0de26cf2-4232-40a1-87ad-5b5277febb27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: my-83-gg.p9m.net}}, udp: true}
   - {name: 03-0625-PH, server: ph-25-ln.p9m.net, port: 12000, type: vmess, uuid: 0de26cf2-4232-40a1-87ad-5b5277febb27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: ph-25-ln.p9m.net}}, udp: true}
@@ -791,7 +792,6 @@ proxies:
   - {name: 04-0884-RELAY, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}, udp: true}
   - {name: 04-0885-CN, server: 14.18.106.137, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: nl01.lovehjq.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-0886-CN, server: yidong.liulangdiqiu.cyou, port: 10720, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b, udp: true}
-  - {name: 04-0887-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 04-0888-FR, server: 51.15.25.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-0889-MY, server: 38.54.125.163, port: 56560, type: vmess, uuid: 7caac5f8-23de-416e-a58c-bc9b213b9663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
   - {name: 04-0890-GB, server: ukld2.gophers.gay, port: 20600, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
@@ -1052,6 +1052,7 @@ proxies:
   - {name: 11-1149-US, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/, headers: {Host: 45.76.71.233}}, udp: true}
   - {name: 11-1150-US, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-1151-US, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 11-1152-US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
   - {name: 11-1153-NOWHERE, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
   - {name: 11-1154-NOWHERE, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-1155-TW, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
@@ -1301,7 +1302,7 @@ proxy-groups:
       - 02-0161-CN
       - 02-0162-CN
       - 02-0163-CN
-      - 02-0262-KR
+      - 02-0262-SG
       - 02-0263-JP
       - 02-0264-JP
       - 02-0265-GOOGLE
@@ -1661,6 +1662,7 @@ proxy-groups:
       - 03-0619-JP
       - 03-0620-JP
       - 03-0621-RELAY
+      - 03-0622-RELAY
       - 03-0623-JP
       - 03-0624-MY
       - 03-0625-PH
@@ -1923,7 +1925,6 @@ proxy-groups:
       - 04-0884-RELAY
       - 04-0885-CN
       - 04-0886-CN
-      - 04-0887-RELAY
       - 04-0888-FR
       - 04-0889-MY
       - 04-0890-GB
@@ -2184,6 +2185,7 @@ proxy-groups:
       - 11-1149-US
       - 11-1150-US
       - 11-1151-US
+      - 11-1152-US
       - 11-1153-NOWHERE
       - 11-1154-NOWHERE
       - 11-1155-TW
