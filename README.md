@@ -815,7 +815,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg4MS1SRUxBWSIsImFkZCI6InYxMzMucnVuYmEuZ3EiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmE4YTEwZmItOWNhMy0zNjdlLWEyMzQtY2YwOWY4NDFiZTRmIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92MTMzUERYa2tseExFY092RCIsImhvc3QiOiJ2MTMzLnJ1bmJhLmdxIiwidGxzIjoiIn0=
     trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@sg1.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-0882-SG
     trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@nl1.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-0883-DE
-    ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.75.137.71:6679#04-0884-US
     trojan://telegram-id-directvpn@18.153.35.218:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#04-0886-DE
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg4Ny1JUiIsImFkZCI6IjE4NS4xNDMuMjMzLjU1IiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiYzdhNWFmYTYtOGU1NC00MDA2LTk1ZjYtMWE2Njc1NmU0ODY4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii93cyIsImhvc3QiOiJydTFpcjItZnhycWl2ejh3em0ubGltaXRlZGhpZ2hzcGVlZC5jb20iLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg4OC1SRUxBWSIsImFkZCI6InhuMi5zaGFiaWppY2hhbmcuY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUzNzAxNTg1LTU5MWYtNDhhMy05NTE1LTg4MzFlZDA1MjRhYyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InhuMi5zaGFiaWppY2hhbmcuY29tIiwidGxzIjoiIn0=
@@ -826,6 +825,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0Y2Y3NTQwOC05NjdkLTQxYzQtYmY4OS04MDUxNzgwN2UyNmY@hefei.chiguayun.cc:27142#04-0893-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg5NC1HQiIsImFkZCI6IjIwMjMtMTAuY2ZjZG4ubGluayIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxMTExMTE4OS0wNTAyLTQ4YWItZjQ5My01ZTBmNjYzYTcwMGMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2NjdHYxMy5tM3U4IiwiaG9zdCI6InVzMDQuY2N0dnZpcC50ayIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg5NS1ISyIsImFkZCI6ImhrdC4xMjNkZG5zLnh5eiIsInBvcnQiOiI1NTQ1NSIsInR5cGUiOiJub25lIiwiaWQiOiJkMmNlNDVlNi05ZjIyLTQ5MmQtZDgxZC1kNjM5MDY3YTc1ODMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJoa3QuMTIzZGRucy54eXoiLCJ0bHMiOiIifQ==
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNWQ5NTAwNS1iZTE0LTQwZmMtYmVkYy1lNGExMTMzYTU3MDE@usshs2.gophers.gay:20800#04-0896-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTU2Y2U5Mi03OGRmLTRlNDAtOWQ4YS1hYWU1OTI5Nzc2NDg@sh.al19.cf:45594#04-0897-CN
     trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@hk.kunlun-ppg.com:10802?allowInsecure=1&sni=alibaba-node.cn#04-0898-CN
     trojan://d0d24d5b-54ae-40a0-ab68-889dbd4b8a66@msk-hk-8855.strongpipe.live:29444?allowInsecure=1&sni=106-110-192-225.d.cjjd20.com#04-0899-HK
