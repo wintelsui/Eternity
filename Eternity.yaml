@@ -790,7 +790,6 @@ proxies:
   - {name: 04-0881-RELAY, server: v133.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v133PDXkklxLEcOvD, headers: {Host: v133.runba.gq}}, udp: true}
   - {name: 04-0882-SG, server: sg1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-0883-DE, server: nl1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0884-US, server: 38.75.137.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 04-0886-DE, server: 18.153.35.218, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0887-IR, server: 185.143.233.55, port: 8080, type: vmess, uuid: c7a5afa6-8e54-4006-95f6-1a66756e4868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ru1ir2-fxrqivz8wzm.limitedhighspeed.com}}, udp: true}
   - {name: 04-0888-RELAY, server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}, udp: true}
@@ -801,6 +800,7 @@ proxies:
   - {name: 04-0893-CN, server: hefei.chiguayun.cc, port: 27142, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf75408-967d-41c4-bf89-80517807e26f, udp: true}
   - {name: 04-0894-GB, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us04.cctvvip.tk}}, udp: true}
   - {name: 04-0895-HK, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}, udp: true}
+  - {name: 04-0896-US, server: usshs2.gophers.gay, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-0897-CN, server: sh.al19.cf, port: 45594, type: ss, cipher: chacha20-ietf-poly1305, password: 1a56ce92-78df-4e40-9d8a-aae592977648, udp: true}
   - {name: 04-0898-CN, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: 3f0e8ecd-f30f-4881-acf6-b5037b3c99a9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0899-HK, server: msk-hk-8855.strongpipe.live, port: 29444, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: true, udp: true}
@@ -1932,7 +1932,6 @@ proxy-groups:
       - 04-0881-RELAY
       - 04-0882-SG
       - 04-0883-DE
-      - 04-0884-US
       - 04-0886-DE
       - 04-0887-IR
       - 04-0888-RELAY
@@ -1943,6 +1942,7 @@ proxy-groups:
       - 04-0893-CN
       - 04-0894-GB
       - 04-0895-HK
+      - 04-0896-US
       - 04-0897-CN
       - 04-0898-CN
       - 04-0899-HK
