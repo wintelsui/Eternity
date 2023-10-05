@@ -437,6 +437,7 @@ proxies:
   - {name: 03-527-GB, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-528-FR, server: 62.210.88.152, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-529-HK, server: 103.15.217.182, port: 33058, type: trojan, password: QHhbhwe6lj, sni: 103.15.217.182, skip-cert-verify: true, udp: true}
+  - {name: 04-530-US, server: usshs2.gophers.gay, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-532-RELAY, server: 162.159.143.72, port: 80, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xui2.xuwu996.eu.org}}, udp: true}
   - {name: 04-533-MU, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}, udp: true}
   - {name: 04-534-CN, server: fs.xianyuwangluo.cyou, port: 27207, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3, udp: true}
@@ -555,6 +556,7 @@ proxies:
   - {name: 04-648-US, server: 199.188.107.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.66880458.xyz}}, udp: true}
   - {name: 04-649-TW, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
   - {name: 04-650-SE, server: 16.16.155.137, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 04-651-RELAY, server: fd.cfcdn.giize.com, port: 80, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us06.cctvvip.tk}}, udp: true}
   - {name: 04-652-US, server: 38.75.137.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 04-653-US, server: 23.95.67.188, port: 2052, type: vmess, uuid: a4d41cd3-4b17-46c5-feb7-ec6d76b9683d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.95.67.188}}, udp: true}
   - {name: 04-654-FR, server: 13.36.105.102, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -578,7 +580,6 @@ proxies:
   - {name: 04-673-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 2e7a765e-8fc5-4d7d-8dc0-83871b76deff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.cctvvip.tk}}, udp: true}
   - {name: 04-674-FR, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 04-675-RELAY, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: bobbykotick.rip}}, udp: true}
-  - {name: 04-676-US, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 04-678-US, server: us1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-679-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: ecf6a732-781c-4436-9801-c1096796923b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03-gpt.cctvvip.tk}}, udp: true}
   - {name: 04-680-CN, server: hz.xzyunjiasu.icu, port: 40406, type: vmess, uuid: 4b40c095-abab-4893-9a93-bcd547d32e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp-gpt-01.suburl.link}}, udp: true}
@@ -795,7 +796,6 @@ proxies:
   - {name: 09-891-GB, server: 51.142.186.234, port: 20710, type: ss, cipher: chacha20-ietf-poly1305, password: XRQTUKSRGpYeeLw7QDIFVT, udp: true}
   - {name: 09-892-GB, server: 89.185.84.178, port: 46135, type: ss, cipher: chacha20-ietf-poly1305, password: iGZdlsmpNxy4QCGu2CJCKw, udp: true}
   - {name: 09-893-HK, server: 47.242.109.138, port: 443, type: vmess, uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 47.242.109.138}}, udp: true}
-  - {name: 09-894-IE, server: 54.154.191.241, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 09-895-DE, server: 128.140.41.173, port: 443, type: vmess, uuid: 6bc348a7-80ca-46c0-acba-d6653dab001b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WIQEe5lNGQmwec5cpuRb4Bp6, headers: {Host: hp.topgmen.monster}}, udp: true}
   - {name: 09-896-JP, server: 84.17.34.109, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 09-897-JP, server: 13.112.114.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -817,7 +817,6 @@ proxies:
   - {name: 11-913-US, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/, headers: {Host: 45.76.71.233}}, udp: true}
   - {name: 11-914-US, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-915-US, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 11-916-US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
   - {name: 11-917-NOWHERE, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
   - {name: 11-918-NOWHERE, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-919-TW, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
@@ -1334,6 +1333,7 @@ proxy-groups:
       - 03-527-GB
       - 03-528-FR
       - 03-529-HK
+      - 04-530-US
       - 04-532-RELAY
       - 04-533-MU
       - 04-534-CN
@@ -1452,6 +1452,7 @@ proxy-groups:
       - 04-648-US
       - 04-649-TW
       - 04-650-SE
+      - 04-651-RELAY
       - 04-652-US
       - 04-653-US
       - 04-654-FR
@@ -1475,7 +1476,6 @@ proxy-groups:
       - 04-673-NOWHERE
       - 04-674-FR
       - 04-675-RELAY
-      - 04-676-US
       - 04-678-US
       - 04-679-NOWHERE
       - 04-680-CN
@@ -1692,7 +1692,6 @@ proxy-groups:
       - 09-891-GB
       - 09-892-GB
       - 09-893-HK
-      - 09-894-IE
       - 09-895-DE
       - 09-896-JP
       - 09-897-JP
@@ -1714,7 +1713,6 @@ proxy-groups:
       - 11-913-US
       - 11-914-US
       - 11-915-US
-      - 11-916-US
       - 11-917-NOWHERE
       - 11-918-NOWHERE
       - 11-919-TW
