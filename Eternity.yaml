@@ -780,7 +780,6 @@ proxies:
   - {name: 04-0873-RELAY, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}, udp: true}
   - {name: 04-0874-CN, server: hz.xzyunjiasu.icu, port: 46487, type: vmess, uuid: ecf6a732-781c-4436-9801-c1096796923b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp-gpt-03.suburl.link}}, udp: true}
   - {name: 04-0875-KR, server: fd.cfcdn.giize.com, port: 80, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us05.cctvvip.tk}}, udp: true}
-  - {name: 04-0876-US, server: 38.75.137.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 04-0877-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yhnsb2.shabijichang.com}}, udp: true}
   - {name: 04-0878-SE, server: 13.49.91.239, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0879-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 2bf3cffc-36ec-4d13-89a1-70a0277d8fd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}, udp: true}
@@ -820,6 +819,7 @@ proxies:
   - {name: 04-0915-CN, server: mf34fx.micloud.buzz, port: 46034, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf34fx.micloud.buzz}}, udp: true}
   - {name: 04-0916-RELAY, server: 104.17.88.252, port: 2082, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /phosphorylative.aurorainiceland.com/nimvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
   - {name: 04-0917-HK, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: b5eb8ad2-9d20-48f5-9d55-0ab6e44b28e7, sni: hk.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0918-US, server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 04-0919-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 5fbc5eac-1bda-4c83-ad98-3c982bacc090, udp: true}
   - {name: 04-0920-HK, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 20b9fdb3-e4f2-49fb-b191-9a980f1ea743, sni: hk.kunlun-ppg.com, skip-cert-verify: true, udp: true}
   - {name: 04-0921-US, server: 192.74.228.188, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.59274706.xyz}}, udp: true}
@@ -1907,7 +1907,6 @@ proxy-groups:
       - 04-0873-RELAY
       - 04-0874-CN
       - 04-0875-KR
-      - 04-0876-US
       - 04-0877-RELAY
       - 04-0878-SE
       - 04-0879-RELAY
@@ -1947,6 +1946,7 @@ proxy-groups:
       - 04-0915-CN
       - 04-0916-RELAY
       - 04-0917-HK
+      - 04-0918-US
       - 04-0919-CN
       - 04-0920-HK
       - 04-0921-US
