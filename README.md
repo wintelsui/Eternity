@@ -823,6 +823,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg5Mi1SRUxBWSIsImFkZCI6IjE3Mi42Ny42OS4yNDciLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2N2EzNDFhNy01YWU3LTRkOTItZWRhZC05ZThkYjg3Y2UxNjUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2Y3VzMS52cG42Ni5ldS5vcmciLCJ0bHMiOiIifQ==
     trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@jp2.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-0893-JP
     trojan://a272754d-af6b-45b3-af1e-5df2d5e3a62b@94.131.108.128:50408?allowInsecure=1&sni=tr.aikun.online#04-0894-TR
+    ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.75.137.71:8091#04-0895-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDg5Ni1VUyIsImFkZCI6IjE1Ni4yMjUuNjcuMzgiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRlNDkxODAyLTIzM2UtNDdmMi04YzZjLWQxOWJjZjViZDU2YiIsImFpZCI6IjY0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTY5MjI1NjkwMjQzMCIsImhvc3QiOiJ3d3cuODYxMzkzMTcueHl6IiwidGxzIjoiIn0=
     trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@hk.kunlun-ppg.com:10808?allowInsecure=1&sni=alibaba-node.cn#04-0897-HK
     trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@jp6.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-0898-JP
@@ -844,7 +845,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDkxNS1DTiIsImFkZCI6Im1mMzRmeC5taWNsb3VkLmJ1enoiLCJwb3J0IjoiNDYwMzQiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTMyNmYyOWMtZWFkNy00YTM0LWIyMjUtZTM2NzZhNjVlOGQ3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii96aC1jbiIsImhvc3QiOiJtZjM0ZngubWljbG91ZC5idXp6IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDkxNi1SRUxBWSIsImFkZCI6IjEwNC4xNy44OC4yNTIiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiI2Mzg4YmQ5Mi02Y2JjLTRiNzItYTlhNi05MzFmMDcxZDBmZmEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3Bob3NwaG9yeWxhdGl2ZS5hdXJvcmFpbmljZWxhbmQuY29tL25pbXZ3cyIsImhvc3QiOiJlcmZhbm5ld2ZyZWVub2Rlcy52ZG1tc3d5em16aWdvbnZuams0NDMud29ya2Vycy5kZXYiLCJ0bHMiOiIifQ==
     trojan://b5eb8ad2-9d20-48f5-9d55-0ab6e44b28e7@hk.kunlun-ppg.com:10804?allowInsecure=1&sni=hk.kunlun-ppg.com#04-0917-HK
-    ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.75.137.71:7306#04-0918-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1ZmJjNWVhYy0xYmRhLTRjODMtYWQ5OC0zYzk4MmJhY2MwOTA@starspeed.tbh.iosds.com:19290#04-0919-CN
     trojan://20b9fdb3-e4f2-49fb-b191-9a980f1ea743@hk.kunlun-ppg.com:10810?allowInsecure=1&sni=hk.kunlun-ppg.com#04-0920-HK
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDkyMS1VUyIsImFkZCI6IjE5Mi43NC4yMjguMTg4IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwNTFiODQ0Zi1lZmUzLTQ4NDctOTJhYS02NmI1ZGUwYjZkNGUiLCJhaWQiOiI2NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9wYXRoLzE2OTQ4NTk2MDUzMjEiLCJob3N0Ijoid3d3LjU5Mjc0NzA2Lnh5eiIsInRscyI6IiJ9
