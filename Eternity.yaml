@@ -798,6 +798,7 @@ proxies:
   - {name: 04-0892-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 04-0893-JP, server: jp2.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-0894-TR, server: 94.131.108.128, port: 50408, type: trojan, password: a272754d-af6b-45b3-af1e-5df2d5e3a62b, sni: tr.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 04-0895-US, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 04-0896-US, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1692256902430, headers: {Host: www.86139317.xyz}}, udp: true}
   - {name: 04-0897-HK, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 3f0e8ecd-f30f-4881-acf6-b5037b3c99a9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0898-JP, server: jp6.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
@@ -819,7 +820,6 @@ proxies:
   - {name: 04-0915-CN, server: mf34fx.micloud.buzz, port: 46034, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf34fx.micloud.buzz}}, udp: true}
   - {name: 04-0916-RELAY, server: 104.17.88.252, port: 2082, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /phosphorylative.aurorainiceland.com/nimvws, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
   - {name: 04-0917-HK, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: b5eb8ad2-9d20-48f5-9d55-0ab6e44b28e7, sni: hk.kunlun-ppg.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0918-US, server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 04-0919-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 5fbc5eac-1bda-4c83-ad98-3c982bacc090, udp: true}
   - {name: 04-0920-HK, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 20b9fdb3-e4f2-49fb-b191-9a980f1ea743, sni: hk.kunlun-ppg.com, skip-cert-verify: true, udp: true}
   - {name: 04-0921-US, server: 192.74.228.188, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.59274706.xyz}}, udp: true}
@@ -903,6 +903,7 @@ proxies:
   - {name: 05-0999-JP, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 05-1000-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 05-1001-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 05-1002-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-1003-CN, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 020313df-9865-48c5-b680-adc26e06c88c, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 06-1004-CN, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 020313df-9865-48c5-b680-adc26e06c88c, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 06-1005-CN, server: gzdx.jcnode.top, port: 41754, type: trojan, password: 020313df-9865-48c5-b680-adc26e06c88c, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -1107,7 +1108,6 @@ proxies:
   - {name: 12-1206-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 6f049ea2-3f3f-34fa-a24a-a2f2304c2e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1207-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 6f049ea2-3f3f-34fa-a24a-a2f2304c2e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1208-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 6f049ea2-3f3f-34fa-a24a-a2f2304c2e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-1209-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 6f049ea2-3f3f-34fa-a24a-a2f2304c2e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1210-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: rx8iurRFKD7L5IHP, udp: true}
   - {name: 12-1211-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: rx8iurRFKD7L5IHP, udp: true}
   - {name: 12-1212-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: rx8iurRFKD7L5IHP, udp: true}
@@ -1925,6 +1925,7 @@ proxy-groups:
       - 04-0892-RELAY
       - 04-0893-JP
       - 04-0894-TR
+      - 04-0895-US
       - 04-0896-US
       - 04-0897-HK
       - 04-0898-JP
@@ -1946,7 +1947,6 @@ proxy-groups:
       - 04-0915-CN
       - 04-0916-RELAY
       - 04-0917-HK
-      - 04-0918-US
       - 04-0919-CN
       - 04-0920-HK
       - 04-0921-US
@@ -2030,6 +2030,7 @@ proxy-groups:
       - 05-0999-JP
       - 05-1000-JP
       - 05-1001-JP
+      - 05-1002-JP
       - 06-1003-CN
       - 06-1004-CN
       - 06-1005-CN
@@ -2234,7 +2235,6 @@ proxy-groups:
       - 12-1206-JP
       - 12-1207-JP
       - 12-1208-JP
-      - 12-1209-JP
       - 12-1210-CN
       - 12-1211-CN
       - 12-1212-CN
