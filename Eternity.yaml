@@ -379,7 +379,6 @@ proxies:
   - {name: 03-469-CN, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
   - {name: 03-470-CN, server: starspeed.tbh.iosds.com, port: 26963, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
   - {name: 03-471-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
-  - {name: 03-472-RELAY, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: hkyd1.xingsu.fun}}, udp: true}
   - {name: 03-473-KR, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: e523e7bc-26d9-4748-99c2-f9752f9e9462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-474-JP, server: jpcdn.bh8189.eu.org, port: 2087, type: vmess, uuid: e523e7bc-26d9-4748-99c2-f9752f9e9462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: hostodo.galenet.online, headers: {Host: hostodo.galenet.online}}, udp: true}
   - {name: 03-475-JP, server: jpcdn.bh8189.eu.org, port: 2082, type: vmess, uuid: e523e7bc-26d9-4748-99c2-f9752f9e9462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}, udp: true}
@@ -450,6 +449,7 @@ proxies:
   - {name: 04-541-RELAY, server: singapore.com, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v003.ssrsub.com}}, udp: true}
   - {name: 04-542-RELAY, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
   - {name: 04-543-RELAY, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}, udp: true}
+  - {name: 04-544-GB, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-545-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}, udp: true}
   - {name: 04-546-MU, server: 45.199.138.222, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.19229362.xyz}}, udp: true}
   - {name: 04-547-RELAY, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
@@ -817,6 +817,7 @@ proxies:
   - {name: 11-913-US, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/, headers: {Host: 45.76.71.233}}, udp: true}
   - {name: 11-914-US, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-915-US, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 11-916-US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
   - {name: 11-917-NOWHERE, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
   - {name: 11-918-NOWHERE, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-919-TW, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
@@ -1275,7 +1276,6 @@ proxy-groups:
       - 03-469-CN
       - 03-470-CN
       - 03-471-CN
-      - 03-472-RELAY
       - 03-473-KR
       - 03-474-JP
       - 03-475-JP
@@ -1346,6 +1346,7 @@ proxy-groups:
       - 04-541-RELAY
       - 04-542-RELAY
       - 04-543-RELAY
+      - 04-544-GB
       - 04-545-RELAY
       - 04-546-MU
       - 04-547-RELAY
@@ -1713,6 +1714,7 @@ proxy-groups:
       - 11-913-US
       - 11-914-US
       - 11-915-US
+      - 11-916-US
       - 11-917-NOWHERE
       - 11-918-NOWHERE
       - 11-919-TW
