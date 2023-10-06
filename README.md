@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `884`
+高速节点数量: `883`
 <details>
   <summary>展开复制节点</summary>
 
@@ -580,7 +580,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjQ5LVRXIiwiYWRkIjoiNDZjYWFkYi5mMi5nbGFkbnMuY29tIiwicG9ydCI6IjMzMzEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTdlMGNiNGQtZWFlNS00OGVjLTgwOTEtMTQ5ZGMyYjMwOWUwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zLzQ2Y2FhZGIuZm0uYXBwbGUuY29tOjYwOTgwIiwiaG9zdCI6IjQ2Y2FhZGIuZjIuZ2xhZG5zLmNvbSIsInRscyI6IiJ9
     trojan://telegram-id-privatevpns@16.16.155.137:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#04-650-SE
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjUxLVJFTEFZIiwiYWRkIjoiZmQuY2ZjZG4uZ2lpemUuY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjExMTExZTMwLTUxZTctNGJiZS1hOGY2LTljMTgzNGI2NmM4ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2N0djEzLm0zdTgiLCJob3N0IjoidXMwNi5jY3R2dmlwLnRrIiwidGxzIjoiIn0=
-    ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.75.137.71:6679#04-652-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjUzLVVTIiwiYWRkIjoiMjMuOTUuNjcuMTg4IiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTRkNDFjZDMtNGIxNy00NmM1LWZlYjctZWM2ZDc2Yjk2ODNkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiMjMuOTUuNjcuMTg4IiwidGxzIjoiIn0=
     trojan://telegram-id-directvpn@13.36.105.102:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#04-654-FR
     trojan://7b06d22a8a7c764f@211.72.35.155:3389?allowInsecure=1#04-655-TW
@@ -604,7 +603,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@54.36.174.181:3306#04-674-FR
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjc1LVJFTEFZIiwiYWRkIjoiYm9iYnlrb3RpY2sucmlwIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIyZjA5NDg0NS1lMmJkLWViZjctZGViNy05OTU5OTI0MzZmYWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsImhvc3QiOiJib2JieWtvdGljay5yaXAiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.75.137.71:8091#04-676-US
-    trojan://bed825b9-53b2-4f27-b3f5-195574771e90@jp1.biubiufast.quest:5203?allowInsecure=1&sni=421421.xyz#04-678-US
+    trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@us1.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-678-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjc5LU5PV0hFUkUiLCJhZGQiOiIyMDIzLTEwLmNmY2RuLmxpbmsiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZWNmNmE3MzItNzgxYy00NDM2LTk4MDEtYzEwOTY3OTY5MjNiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY3R2MTMubTN1OCIsImhvc3QiOiJqcDAzLWdwdC5jY3R2dmlwLnRrIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNjgwLUNOIiwiYWRkIjoiaHoueHp5dW5qaWFzdS5pY3UiLCJwb3J0IjoiNDA0MDYiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGI0MGMwOTUtYWJhYi00ODkzLTlhOTMtYmNkNTQ3ZDMyZTg4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY3R2MTMubTN1OCIsImhvc3QiOiJqcC1ncHQtMDEuc3VidXJsLmxpbmsiLCJ0bHMiOiIifQ==
     trojan://26af88d0-fc72-43b3-8108-521a7b12aa45@us4.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#04-681-US
