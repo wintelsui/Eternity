@@ -97,7 +97,6 @@ proxies:
   - {name: 02-089-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
   - {name: 02-090-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
   - {name: 02-091-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
-  - {name: 02-092-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: bed825b9-53b2-4f27-b3f5-195574771e90, skip-cert-verify: true, udp: true}
   - {name: 02-093-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
   - {name: 02-094-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
   - {name: 02-095-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
@@ -784,7 +783,6 @@ proxies:
   - {name: 08-879-SG, server: sg3.lianpi.xyz, port: 64578, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4, udp: true}
   - {name: 08-880-CN, server: 112.29.156.251, port: 61004, type: vmess, uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: a.db-link.in}}, udp: true}
   - {name: 08-881-CN, server: jfqcw-1076-tr-4.r-kcd-d.ddll.bond, port: 29979, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
-  - {name: 08-882-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 08-883-CN, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true, udp: true}
   - {name: 08-884-JP, server: 18.183.235.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-885-KR, server: 43.202.65.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -793,6 +791,7 @@ proxies:
   - {name: 09-888-FR, server: 51.158.54.243, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 09-889-FR, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 09-890-FR, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 09-891-GB, server: 51.142.186.234, port: 20710, type: ss, cipher: chacha20-ietf-poly1305, password: XRQTUKSRGpYeeLw7QDIFVT, udp: true}
   - {name: 09-892-GB, server: 89.185.84.178, port: 46135, type: ss, cipher: chacha20-ietf-poly1305, password: iGZdlsmpNxy4QCGu2CJCKw, udp: true}
   - {name: 09-893-HK, server: 47.242.109.138, port: 443, type: vmess, uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 47.242.109.138}}, udp: true}
   - {name: 09-894-IE, server: 54.154.191.241, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
@@ -817,6 +816,7 @@ proxies:
   - {name: 11-913-US, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/, headers: {Host: 45.76.71.233}}, udp: true}
   - {name: 11-914-US, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-915-US, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 11-916-US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
   - {name: 11-917-NOWHERE, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
   - {name: 11-918-NOWHERE, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-919-TW, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
@@ -877,6 +877,7 @@ proxies:
   - {name: 12-974-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-975-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-976-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-977-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-978-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
   - {name: 12-979-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
   - {name: 12-980-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
@@ -993,7 +994,6 @@ proxy-groups:
       - 02-089-CN
       - 02-090-CN
       - 02-091-CN
-      - 02-092-JP
       - 02-093-JP
       - 02-094-HK
       - 02-095-CN
@@ -1680,7 +1680,6 @@ proxy-groups:
       - 08-879-SG
       - 08-880-CN
       - 08-881-CN
-      - 08-882-RELAY
       - 08-883-CN
       - 08-884-JP
       - 08-885-KR
@@ -1689,6 +1688,7 @@ proxy-groups:
       - 09-888-FR
       - 09-889-FR
       - 09-890-FR
+      - 09-891-GB
       - 09-892-GB
       - 09-893-HK
       - 09-894-IE
@@ -1713,6 +1713,7 @@ proxy-groups:
       - 11-913-US
       - 11-914-US
       - 11-915-US
+      - 11-916-US
       - 11-917-NOWHERE
       - 11-918-NOWHERE
       - 11-919-TW
@@ -1773,6 +1774,7 @@ proxy-groups:
       - 12-974-JP
       - 12-975-JP
       - 12-976-JP
+      - 12-977-JP
       - 12-978-CN
       - 12-979-CN
       - 12-980-CN
