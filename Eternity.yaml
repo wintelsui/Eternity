@@ -557,6 +557,7 @@ proxies:
   - {name: 04-649-TW, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
   - {name: 04-650-SE, server: 16.16.155.137, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-651-RELAY, server: fd.cfcdn.giize.com, port: 80, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us06.cctvvip.tk}}, udp: true}
+  - {name: 04-652-US, server: 38.75.137.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 04-653-US, server: 23.95.67.188, port: 2052, type: vmess, uuid: a4d41cd3-4b17-46c5-feb7-ec6d76b9683d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.95.67.188}}, udp: true}
   - {name: 04-654-FR, server: 13.36.105.102, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-655-TW, server: 211.72.35.155, port: 3389, type: trojan, password: 7b06d22a8a7c764f, skip-cert-verify: true, udp: true}
@@ -579,7 +580,6 @@ proxies:
   - {name: 04-673-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 2e7a765e-8fc5-4d7d-8dc0-83871b76deff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.cctvvip.tk}}, udp: true}
   - {name: 04-674-FR, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 04-675-RELAY, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: bobbykotick.rip}}, udp: true}
-  - {name: 04-676-US, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 04-678-US, server: us1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-679-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: ecf6a732-781c-4436-9801-c1096796923b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03-gpt.cctvvip.tk}}, udp: true}
   - {name: 04-680-CN, server: hz.xzyunjiasu.icu, port: 40406, type: vmess, uuid: 4b40c095-abab-4893-9a93-bcd547d32e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp-gpt-01.suburl.link}}, udp: true}
@@ -1454,6 +1454,7 @@ proxy-groups:
       - 04-649-TW
       - 04-650-SE
       - 04-651-RELAY
+      - 04-652-US
       - 04-653-US
       - 04-654-FR
       - 04-655-TW
@@ -1476,7 +1477,6 @@ proxy-groups:
       - 04-673-NOWHERE
       - 04-674-FR
       - 04-675-RELAY
-      - 04-676-US
       - 04-678-US
       - 04-679-NOWHERE
       - 04-680-CN
