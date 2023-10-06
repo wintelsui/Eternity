@@ -556,6 +556,7 @@ proxies:
   - {name: 04-648-US, server: 199.188.107.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.66880458.xyz}}, udp: true}
   - {name: 04-649-TW, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
   - {name: 04-650-SE, server: 16.16.155.137, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 04-651-RELAY, server: fd.cfcdn.giize.com, port: 80, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us06.cctvvip.tk}}, udp: true}
   - {name: 04-652-US, server: 38.75.137.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 04-653-US, server: 23.95.67.188, port: 2052, type: vmess, uuid: a4d41cd3-4b17-46c5-feb7-ec6d76b9683d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.95.67.188}}, udp: true}
   - {name: 04-654-FR, server: 13.36.105.102, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -783,7 +784,6 @@ proxies:
   - {name: 08-879-SG, server: sg3.lianpi.xyz, port: 64578, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4, udp: true}
   - {name: 08-880-CN, server: 112.29.156.251, port: 61004, type: vmess, uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in, headers: {Host: a.db-link.in}}, udp: true}
   - {name: 08-881-CN, server: jfqcw-1076-tr-4.r-kcd-d.ddll.bond, port: 29979, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
-  - {name: 08-882-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 08-883-CN, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true, udp: true}
   - {name: 08-884-JP, server: 18.183.235.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-885-KR, server: 43.202.65.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1453,6 +1453,7 @@ proxy-groups:
       - 04-648-US
       - 04-649-TW
       - 04-650-SE
+      - 04-651-RELAY
       - 04-652-US
       - 04-653-US
       - 04-654-FR
@@ -1680,7 +1681,6 @@ proxy-groups:
       - 08-879-SG
       - 08-880-CN
       - 08-881-CN
-      - 08-882-RELAY
       - 08-883-CN
       - 08-884-JP
       - 08-885-KR
