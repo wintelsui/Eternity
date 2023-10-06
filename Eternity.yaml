@@ -97,6 +97,7 @@ proxies:
   - {name: 02-089-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
   - {name: 02-090-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
   - {name: 02-091-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 4099b4ad-59a1-4cd1-951a-66af598ee51c, udp: true}
+  - {name: 02-092-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: bed825b9-53b2-4f27-b3f5-195574771e90, skip-cert-verify: true, udp: true}
   - {name: 02-093-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
   - {name: 02-094-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
   - {name: 02-095-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: bed825b9-53b2-4f27-b3f5-195574771e90, udp: true}
@@ -515,7 +516,7 @@ proxies:
   - {name: 04-607-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: f3711153-a762-43e9-a9d7-022102abadb6, udp: true}
   - {name: 04-608-IR, server: 185.143.233.5, port: 8080, type: vmess, uuid: c7a5afa6-8e54-4006-95f6-1a66756e4868, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fr2ir2-d5328ad881.limitedhighspeed.com}}, udp: true}
   - {name: 04-609-CN, server: yidong.liulangdiqiu.cyou, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385, udp: true}
-  - {name: 04-610-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: bed825b9-53b2-4f27-b3f5-195574771e90, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 04-610-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 56a00699-1857-46ac-a861-60d3c17e1b9f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 04-611-HK, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}, udp: true}
   - {name: 04-612-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
   - {name: 04-613-HK, server: msk-hk-8855.strongpipe.live, port: 29444, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: true, udp: true}
@@ -579,7 +580,6 @@ proxies:
   - {name: 04-673-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 2e7a765e-8fc5-4d7d-8dc0-83871b76deff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.cctvvip.tk}}, udp: true}
   - {name: 04-674-FR, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 04-675-RELAY, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2f094845-e2bd-ebf7-deb7-995992436faf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: bobbykotick.rip}}, udp: true}
-  - {name: 04-676-US, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 04-678-US, server: us1.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-679-NOWHERE, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: ecf6a732-781c-4436-9801-c1096796923b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp03-gpt.cctvvip.tk}}, udp: true}
   - {name: 04-680-CN, server: hz.xzyunjiasu.icu, port: 40406, type: vmess, uuid: 4b40c095-abab-4893-9a93-bcd547d32e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp-gpt-01.suburl.link}}, udp: true}
@@ -878,7 +878,6 @@ proxies:
   - {name: 12-974-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-975-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-976-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-977-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 65d06c1f-eb44-3982-81b7-4baab2e29d83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-978-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
   - {name: 12-979-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
   - {name: 12-980-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 9sNK2XThI1jyTJW8, udp: true}
@@ -995,6 +994,7 @@ proxy-groups:
       - 02-089-CN
       - 02-090-CN
       - 02-091-CN
+      - 02-092-JP
       - 02-093-JP
       - 02-094-HK
       - 02-095-CN
@@ -1477,7 +1477,6 @@ proxy-groups:
       - 04-673-NOWHERE
       - 04-674-FR
       - 04-675-RELAY
-      - 04-676-US
       - 04-678-US
       - 04-679-NOWHERE
       - 04-680-CN
@@ -1776,7 +1775,6 @@ proxy-groups:
       - 12-974-JP
       - 12-975-JP
       - 12-976-JP
-      - 12-977-JP
       - 12-978-CN
       - 12-979-CN
       - 12-980-CN
