@@ -82,6 +82,7 @@ proxies:
   - {name: 03-074-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
   - {name: 03-075-RELAY, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: hkyd1.xingsu.fun}}, udp: true}
   - {name: 03-076-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: c3916ac5-b339-4882-bc9a-441ca31aea22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: c3916ac5-b339-4882-bc9a-441ca31aea22.us1.microsoftdebug.com}}, udp: true}
+  - {name: 03-077-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: c3916ac5-b339-4882-bc9a-441ca31aea22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: c3916ac5-b339-4882-bc9a-441ca31aea22.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-078-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-079-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-080-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: d8061b1a-16ca-3739-aa2d-6c3397d05f3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -193,7 +194,6 @@ proxies:
   - {name: 04-187-GB, server: 89.185.84.178, port: 46135, type: ss, cipher: chacha20-ietf-poly1305, password: iGZdlsmpNxy4QCGu2CJCKw, udp: true}
   - {name: 04-188-RELAY, server: 162.159.143.72, port: 80, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xui2.xuwu996.eu.org}}, udp: true}
   - {name: 04-189-RELAY, server: singapore.com, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}, udp: true}
-  - {name: 04-190-US, server: usshs2.gophers.gay, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-191-US, server: 155.248.198.71, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-192-MU, server: 45.199.138.222, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.19229362.xyz}}, udp: true}
   - {name: 04-193-JP, server: jp8.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true, udp: true}
@@ -492,7 +492,7 @@ proxies:
   - {name: 08-489-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 4c5617ea-b460-4277-bfc3-ab078db67f0d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 08-490-HK, server: 118.107.244.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.37420790.xyz}}, udp: true}
   - {name: 08-491-VN, server: 103.178.234.20, port: 80, type: vmess, uuid: e2264d7f-d1e5-4486-97d7-ef506fcdbfbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 08-493-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
+  - {name: 08-492-US, server: 34.211.75.10, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 08-494-SG, server: 18.142.231.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-495-CN, server: 61.136.232.4, port: 10806, type: trojan, password: d5b435d3-de65-45d8-a536-717218d1183f, skip-cert-verify: true, udp: true}
   - {name: 09-496-CN, server: 36.137.198.90, port: 10840, type: trojan, password: d5b435d3-de65-45d8-a536-717218d1183f, skip-cert-verify: true, udp: true}
@@ -530,68 +530,75 @@ proxies:
   - {name: 11-529-JP, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 11-530-RELAY, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yzkoyeb-7595333.koyeb.app}}, udp: true}
   - {name: 11-531-NOWHERE, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
-  - {name: 11-532-RO, server: 103.212.81.87, port: 2083, type: vmess, uuid: fda2abe0-602a-11ee-b439-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /waq0ygpk, headers: {Host: eu-1.0rd.net}}, udp: true}
-  - {name: 12-533-CN, server: fujimount01.linkzoones.xyz, port: 30101, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-534-CN, server: fujimount02.linkzoones.xyz, port: 30106, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-535-CN, server: fujimount03.linkzoones.xyz, port: 30111, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-536-CN, server: bauhinia01.linkzoones.xyz, port: 30701, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-537-CN, server: bauhinia02.linkzoones.xyz, port: 30706, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-538-CN, server: bauhinia03.linkzoones.xyz, port: 30711, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-539-CN, server: sunmoon01.linkzoones.xyz, port: 30301, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-540-CN, server: sunmoon02.linkzoones.xyz, port: 30306, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-541-CN, server: sunmoon03.linkzoones.xyz, port: 30311, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-542-CN, server: lion01.linkzoones.xyz, port: 30201, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-543-CN, server: lion02.linkzoones.xyz, port: 30206, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-544-CN, server: lion03.linkzoones.xyz, port: 30211, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-545-CN, server: pickle01.linkzoones.xyz, port: 30401, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-546-CN, server: pickle04.linkzoones.xyz, port: 30401, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-547-CN, server: sentimo01.linkzoones.xyz, port: 30801, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-548-CN, server: sentimo04.linkzoones.xyz, port: 30801, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-549-CN, server: rufus01.linkzoones.xyz, port: 30861, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-550-CN, server: rufus04.linkzoones.xyz, port: 30861, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-551-CN, server: turul04.linkzoones.xyz, port: 30864, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-552-CN, server: tuwlip01.linkzoones.xyz, port: 30868, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-553-CN, server: tuwlip04.linkzoones.xyz, port: 30868, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-554-CN, server: sunflw01.linkzoones.xyz, port: 30871, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-555-CN, server: sunflw04.linkzoones.xyz, port: 30871, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-556-CN, server: r7u01.linkzoones.xyz, port: 30851, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-557-CN, server: r7u04.linkzoones.xyz, port: 30851, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-558-CN, server: rlgis01.linkzoones.xyz, port: 30831, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-559-CN, server: rlgis04.linkzoones.xyz, port: 30831, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-560-CN, server: kngr01.linkzoones.xyz, port: 30821, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-561-CN, server: kngr04.linkzoones.xyz, port: 30821, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-562-CN, server: mlvs01.linkzoones.xyz, port: 30811, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-563-CN, server: mlvs04.linkzoones.xyz, port: 30811, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-564-CN, server: pnth01.linkzoones.xyz, port: 30841, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-565-CN, server: pnth04.linkzoones.xyz, port: 30841, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-566-CN, server: swvn01.linkzoones.xyz, port: 30874, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-567-CN, server: swvn04.linkzoones.xyz, port: 30874, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-568-CN, server: wkbr01.linkzoones.xyz, port: 30877, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-569-CN, server: wkbr04.linkzoones.xyz, port: 30877, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-570-CN, server: akpt01.linkzoones.xyz, port: 30881, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-571-CN, server: akpt04.linkzoones.xyz, port: 30881, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-572-CN, server: taurus01.linkzoones.xyz, port: 30884, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-573-CN, server: taurus04.linkzoones.xyz, port: 30884, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-574-CN, server: rhinoceros01.linkzoones.xyz, port: 30887, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-575-CN, server: rhinoceros04.linkzoones.xyz, port: 30887, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-576-CN, server: betta01.linkzoones.xyz, port: 30904, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-577-CN, server: betta04.linkzoones.xyz, port: 30904, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-578-CN, server: eagle01.linkzoones.xyz, port: 30501, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-579-CN, server: eagle02.linkzoones.xyz, port: 30506, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-580-CN, server: eagle03.linkzoones.xyz, port: 30511, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-581-CN, server: mapleleaf01.linkzoones.xyz, port: 30601, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-582-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-583-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-584-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-586-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-587-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-588-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-589-CN, server: bauhinia01.2apzhfa.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-590-CN, server: bauhinia02.2apzhfa.xyz, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-591-CN, server: bauhinia03.2apzhfa.xyz, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-592-CN, server: lion01.2apzhfa.xyz, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-593-CN, server: lion02.2apzhfa.xyz, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
-  - {name: 12-594-CN, server: lion03.2apzhfa.xyz, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 11-532-US, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}, udp: true}
+  - {name: 11-533-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it1.xv2ray.net}}, udp: true}
+  - {name: 11-534-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ms.shabijichang.com}}, udp: true}
+  - {name: 11-535-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 11-536-RELAY, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 11-537-RELAY, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 11-538-RO, server: 103.212.81.87, port: 2083, type: vmess, uuid: fda2abe0-602a-11ee-b439-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /waq0ygpk, headers: {Host: eu-1.0rd.net}}, udp: true}
+  - {name: 11-539-GB, server: best.fakeopen.link, port: 2096, type: vmess, uuid: 12859d73-1c81-4909-e071-c1aacfeea221, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: us1.fakeopen.link}}, udp: true}
+  - {name: 12-540-CN, server: fujimount01.linkzoones.xyz, port: 30101, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-541-CN, server: fujimount02.linkzoones.xyz, port: 30106, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-542-CN, server: fujimount03.linkzoones.xyz, port: 30111, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-543-CN, server: bauhinia01.linkzoones.xyz, port: 30701, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-544-CN, server: bauhinia02.linkzoones.xyz, port: 30706, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-545-CN, server: bauhinia03.linkzoones.xyz, port: 30711, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-546-CN, server: sunmoon01.linkzoones.xyz, port: 30301, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-547-CN, server: sunmoon02.linkzoones.xyz, port: 30306, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-548-CN, server: sunmoon03.linkzoones.xyz, port: 30311, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-549-CN, server: lion01.linkzoones.xyz, port: 30201, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-550-CN, server: lion02.linkzoones.xyz, port: 30206, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-551-CN, server: lion03.linkzoones.xyz, port: 30211, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-552-CN, server: pickle01.linkzoones.xyz, port: 30401, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-553-CN, server: pickle04.linkzoones.xyz, port: 30401, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-554-CN, server: sentimo01.linkzoones.xyz, port: 30801, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-555-CN, server: sentimo04.linkzoones.xyz, port: 30801, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-556-CN, server: rufus01.linkzoones.xyz, port: 30861, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-557-CN, server: rufus04.linkzoones.xyz, port: 30861, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-558-CN, server: turul04.linkzoones.xyz, port: 30864, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-559-CN, server: tuwlip01.linkzoones.xyz, port: 30868, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-560-CN, server: tuwlip04.linkzoones.xyz, port: 30868, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-561-CN, server: sunflw01.linkzoones.xyz, port: 30871, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-562-CN, server: sunflw04.linkzoones.xyz, port: 30871, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-563-CN, server: r7u01.linkzoones.xyz, port: 30851, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-564-CN, server: r7u04.linkzoones.xyz, port: 30851, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-565-CN, server: rlgis01.linkzoones.xyz, port: 30831, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-566-CN, server: rlgis04.linkzoones.xyz, port: 30831, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-567-CN, server: kngr01.linkzoones.xyz, port: 30821, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-568-CN, server: kngr04.linkzoones.xyz, port: 30821, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-569-CN, server: mlvs01.linkzoones.xyz, port: 30811, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-570-CN, server: mlvs04.linkzoones.xyz, port: 30811, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-571-CN, server: pnth01.linkzoones.xyz, port: 30841, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-572-CN, server: pnth04.linkzoones.xyz, port: 30841, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-573-CN, server: swvn01.linkzoones.xyz, port: 30874, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-574-CN, server: swvn04.linkzoones.xyz, port: 30874, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-575-CN, server: wkbr01.linkzoones.xyz, port: 30877, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-576-CN, server: wkbr04.linkzoones.xyz, port: 30877, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-577-CN, server: akpt01.linkzoones.xyz, port: 30881, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-578-CN, server: akpt04.linkzoones.xyz, port: 30881, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-579-CN, server: taurus01.linkzoones.xyz, port: 30884, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-580-CN, server: taurus04.linkzoones.xyz, port: 30884, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-581-CN, server: rhinoceros01.linkzoones.xyz, port: 30887, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-582-CN, server: rhinoceros04.linkzoones.xyz, port: 30887, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-583-CN, server: betta01.linkzoones.xyz, port: 30904, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-584-CN, server: betta04.linkzoones.xyz, port: 30904, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-585-CN, server: eagle01.linkzoones.xyz, port: 30501, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-586-CN, server: eagle02.linkzoones.xyz, port: 30506, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-587-CN, server: eagle03.linkzoones.xyz, port: 30511, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-588-CN, server: mapleleaf01.linkzoones.xyz, port: 30601, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-589-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-590-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-591-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 2e49ec27-1cf3-3b0c-a977-beff93740079, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-593-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-594-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-595-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-596-CN, server: bauhinia01.2apzhfa.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-597-CN, server: bauhinia02.2apzhfa.xyz, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-598-CN, server: bauhinia03.2apzhfa.xyz, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-599-CN, server: lion01.2apzhfa.xyz, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-600-CN, server: lion02.2apzhfa.xyz, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
+  - {name: 12-601-CN, server: lion03.2apzhfa.xyz, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: 6mK8Yi0Ou1ZWzj6V, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -684,6 +691,7 @@ proxy-groups:
       - 03-074-CN
       - 03-075-RELAY
       - 03-076-RELAY
+      - 03-077-RELAY
       - 03-078-RELAY
       - 03-079-RELAY
       - 03-080-CN
@@ -795,7 +803,6 @@ proxy-groups:
       - 04-187-GB
       - 04-188-RELAY
       - 04-189-RELAY
-      - 04-190-US
       - 04-191-US
       - 04-192-MU
       - 04-193-JP
@@ -1094,7 +1101,7 @@ proxy-groups:
       - 08-489-CN
       - 08-490-HK
       - 08-491-VN
-      - 08-493-RELAY
+      - 08-492-US
       - 08-494-SG
       - 09-495-CN
       - 09-496-CN
@@ -1132,14 +1139,14 @@ proxy-groups:
       - 11-529-JP
       - 11-530-RELAY
       - 11-531-NOWHERE
-      - 11-532-RO
-      - 12-533-CN
-      - 12-534-CN
-      - 12-535-CN
-      - 12-536-CN
-      - 12-537-CN
-      - 12-538-CN
-      - 12-539-CN
+      - 11-532-US
+      - 11-533-RELAY
+      - 11-534-RELAY
+      - 11-535-RELAY
+      - 11-536-RELAY
+      - 11-537-RELAY
+      - 11-538-RO
+      - 11-539-GB
       - 12-540-CN
       - 12-541-CN
       - 12-542-CN
@@ -1182,18 +1189,25 @@ proxy-groups:
       - 12-579-CN
       - 12-580-CN
       - 12-581-CN
-      - 12-582-JP
-      - 12-583-JP
-      - 12-584-JP
+      - 12-582-CN
+      - 12-583-CN
+      - 12-584-CN
+      - 12-585-CN
       - 12-586-CN
       - 12-587-CN
       - 12-588-CN
-      - 12-589-CN
-      - 12-590-CN
-      - 12-591-CN
-      - 12-592-CN
+      - 12-589-JP
+      - 12-590-JP
+      - 12-591-JP
       - 12-593-CN
       - 12-594-CN
+      - 12-595-CN
+      - 12-596-CN
+      - 12-597-CN
+      - 12-598-CN
+      - 12-599-CN
+      - 12-600-CN
+      - 12-601-CN
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
