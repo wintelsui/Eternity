@@ -156,6 +156,7 @@ proxies:
   - {name: 02-0148-CN, server: 1.76po.com, port: 15014, type: vmess, uuid: 363a3974-aa8d-4311-824b-a39111cc4e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0149-CN, server: 1.76po.com, port: 17744, type: vmess, uuid: 363a3974-aa8d-4311-824b-a39111cc4e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0150-CN, server: js1.76po.com, port: 51594, type: vmess, uuid: 363a3974-aa8d-4311-824b-a39111cc4e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 02-0151-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 9f27126a-9d20-4676-a783-89320e7da709, skip-cert-verify: true, udp: true}
   - {name: 02-0152-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 9f27126a-9d20-4676-a783-89320e7da709, udp: true}
   - {name: 02-0153-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 9f27126a-9d20-4676-a783-89320e7da709, udp: true}
   - {name: 02-0154-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 9f27126a-9d20-4676-a783-89320e7da709, udp: true}
@@ -472,7 +473,7 @@ proxies:
   - {name: 03-0563-JP, server: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0564-SG, server: jp1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0565-SG, server: jp2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0566-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 9f27126a-9d20-4676-a783-89320e7da709, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0566-US, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0567-US, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0568-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0569-US, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
@@ -506,7 +507,6 @@ proxies:
   - {name: 03-0597-VN, server: vn9.4gspeed.me, port: 80, type: vmess, uuid: 93bbb190-beb1-46e2-94e3-cf92e8b42ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 03-0598-VN, server: vn9.4gspeed.me, port: 443, type: vmess, uuid: 93bbb190-beb1-46e2-94e3-cf92e8b42ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
   - {name: 03-0599-US, server: us-two.1234585.xyz, port: 80, type: vmess, uuid: 6b261309-46cb-4351-9a30-2d251286d478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-two.1234585.xyz}}, udp: true}
-  - {name: 03-0600-US, server: us-three.1234585.xyz, port: 80, type: vmess, uuid: 6b261309-46cb-4351-9a30-2d251286d478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-three.1234585.xyz}}, udp: true}
   - {name: 03-0601-US, server: us-one.1234585.xyz, port: 80, type: vmess, uuid: 6b261309-46cb-4351-9a30-2d251286d478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-one.1234585.xyz}}, udp: true}
   - {name: 03-0602-JP, server: jp-one.1234585.xyz, port: 80, type: vmess, uuid: 6b261309-46cb-4351-9a30-2d251286d478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d7wg2v01fnkuq.cloudfront.net}}, udp: true}
   - {name: 03-0603-CA, server: ca-one.1234585.xyz, port: 80, type: vmess, uuid: 6b261309-46cb-4351-9a30-2d251286d478, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-one.1234585.xyz}}, udp: true}
@@ -742,7 +742,6 @@ proxies:
   - {name: 04-0834-SG, server: jp1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: a3f221f8-43d6-4363-8624-ce62d3db0202, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 04-0835-RELAY, server: 23.227.39.108, port: 443, type: trojan, password: ae7214ed-f476-4407-befa-63b46ea2eb06, sni: pus4.pqjc.buzz, skip-cert-verify: true, udp: true}
   - {name: 04-0836-RELAY, server: zjg.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zjg.shabijichang.com}}, udp: true}
-  - {name: 04-0837-RELAY, server: 172.67.161.181, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 04-0838-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 2bf3cffc-36ec-4d13-89a1-70a0277d8fd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yhnsb2.shabijichang.com}}, udp: true}
   - {name: 04-0839-CN, server: 36.137.198.17, port: 10828, type: trojan, password: d5b435d3-de65-45d8-a536-717218d1183f, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0841-RELAY, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.yx.alue.link}}, udp: true}
@@ -1053,6 +1052,7 @@ proxies:
   - {name: 08-1148-CN, server: 19215tj.matrixxx888.com, port: 19215, type: trojan, password: ee29b378-1fca-361c-8299-4286b54c6db8, sni: eplcgame.com, skip-cert-verify: true, udp: true}
   - {name: 08-1149-CN, server: 202.95.8.102, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.22589030.xyz}}, udp: true}
   - {name: 08-1150-VN, server: 103.239.67.238, port: 80, type: vmess, uuid: 93bbb190-beb1-46e2-94e3-cf92e8b42ee4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 08-1151-RELAY, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
   - {name: 08-1152-CN, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: a422702e-d0c3-4fc6-81f5-92e6c77fe24c, udp: true}
   - {name: 08-1153-FR, server: 51.195.202.124, port: 2053, type: trojan, password: c1b7af78-3ca6-4055-9df0-4ede98292a19, sni: uk2.trojanvpn.de, skip-cert-verify: true, udp: true}
   - {name: 08-1154-SG, server: 13.215.193.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1381,6 +1381,7 @@ proxy-groups:
       - 02-0148-CN
       - 02-0149-CN
       - 02-0150-CN
+      - 02-0151-JP
       - 02-0152-JP
       - 02-0153-HK
       - 02-0154-CN
@@ -1731,7 +1732,6 @@ proxy-groups:
       - 03-0597-VN
       - 03-0598-VN
       - 03-0599-US
-      - 03-0600-US
       - 03-0601-US
       - 03-0602-JP
       - 03-0603-CA
@@ -1967,7 +1967,6 @@ proxy-groups:
       - 04-0834-SG
       - 04-0835-RELAY
       - 04-0836-RELAY
-      - 04-0837-RELAY
       - 04-0838-RELAY
       - 04-0839-CN
       - 04-0841-RELAY
@@ -2278,6 +2277,7 @@ proxy-groups:
       - 08-1148-CN
       - 08-1149-CN
       - 08-1150-VN
+      - 08-1151-RELAY
       - 08-1152-CN
       - 08-1153-FR
       - 08-1154-SG
