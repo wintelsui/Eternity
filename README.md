@@ -494,7 +494,7 @@ Fork from TopFreeProxies.
     trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@jp1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:14000?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0619-SG
     trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@jp2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0620-SG
     trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0621-US
-    trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0622-US
+    trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0623-US
     trojan://75110959-c7dd-4ee5-8a51-cd0e21c3111d@us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0624-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDYyNS1TQyIsImFkZCI6ImNlcmEuaG9zdC5oaWxvYWNvLmNvbSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiODg4YWQxM2EtMmUwZC00ZjZlLWI1Y2YtNmIwNjM1NmYyMGM2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZG1pbiIsImhvc3QiOiJjZXJhLmhvc3QuaGlsb2Fjby5jb20iLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDYyNi1ISyIsImFkZCI6InF3Lmhvc3QuaGlsb2Fjby5jb20iLCJwb3J0IjoiNTU2NyIsInR5cGUiOiJub25lIiwiaWQiOiI4ODhhZDEzYS0yZTBkLTRmNmUtYjVjZi02YjA2MzU2ZjIwYzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FkbWluIiwiaG9zdCI6InF3Lmhvc3QuaGlsb2Fjby5jb20iLCJ0bHMiOiIifQ==
@@ -973,11 +973,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1044`
+合并节点总数: `996`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1044`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `996`
 
 
 ## 仓库声明
