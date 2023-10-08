@@ -473,7 +473,6 @@ proxies:
   - {name: 03-0563-JP, server: hk2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0564-SG, server: jp1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0565-SG, server: jp2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0566-US, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0567-US, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0568-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0569-US, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
@@ -559,7 +558,6 @@ proxies:
   - {name: 03-0649-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
   - {name: 03-0650-RELAY, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: hkyd1.xingsu.fun}}, udp: true}
   - {name: 03-0651-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: fd991276-999a-4647-9a47-952f30b1e655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: fd991276-999a-4647-9a47-952f30b1e655.us1.microsoftdebug.com}}, udp: true}
-  - {name: 03-0652-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: fd991276-999a-4647-9a47-952f30b1e655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: fd991276-999a-4647-9a47-952f30b1e655.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0653-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-0654-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-0655-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 042bcfc6-3f80-3e04-be42-edb4bc4eea79, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -911,6 +909,7 @@ proxies:
   - {name: 09-1005-KR, server: b5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3b86c4fa-bc53-4067-8d1c-275cff02d91b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}, udp: true}
   - {name: 09-1006-KR, server: b3.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3b86c4fa-bc53-4067-8d1c-275cff02d91b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}, udp: true}
   - {name: 09-1007-NO, server: 165.231.120.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 09-1008-RELAY, server: us-05.cloudlion.me, port: 2082, type: vmess, uuid: 99a04b1d-431d-4b69-8864-715e0cea522d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-05.cloudlion.me}}, udp: true}
   - {name: 09-1009-SE, server: 13.48.218.118, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 09-1010-SE, server: 13.48.34.78, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
   - {name: 09-1011-SE, server: 16.170.73.218, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
@@ -921,7 +920,6 @@ proxies:
   - {name: 09-1016-TW, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
   - {name: 09-1017-SG, server: sg4.gophers.gay, port: 22503, type: vmess, uuid: f582f15b-9772-4b04-a944-4961023d4b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg4.gophers.gay}}, udp: true}
   - {name: 09-1018-US, server: us03-tencent.shawbrothersstudio.com, port: 55828, type: ss, cipher: chacha20-ietf-poly1305, password: Bf7QoXeTMNMZk2wNtG9wt0, udp: true}
-  - {name: 10-1019-HK, server: 156.245.8.248, port: 30000, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.81678034.xyz}}, udp: true}
   - {name: 10-1020-RELAY, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}, udp: true}
   - {name: 10-1021-RELAY, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
   - {name: 10-1022-RELAY, server: lt1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
@@ -972,6 +970,7 @@ proxies:
   - {name: 11-1067-ID, server: 202.43.249.35, port: 8080, type: vmess, uuid: 01f840b5-82d1-4193-ece4-a31ea69546ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 11-1068-HK, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 11-1069-US, server: 23.234.233.21, port: 80, type: vmess, uuid: c78614f6-d18f-4994-c530-501f6c7f8a48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bb, headers: {Host: internet.life.com.by}}, udp: true}
+  - {name: 11-1070-US, server: 129.80.185.15, port: 32733, type: vmess, uuid: fb9da0cf-5f31-47e7-f7ad-1270173faab1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fb9da0cf, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 11-1071-KR, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@herhero6, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 11-1072-DE, server: 172.105.249.204, port: 39865, type: vmess, uuid: 8335b13c-fa88-48d0-f3d2-748cf6b804b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 11-1073-DE, server: 172.105.249.204, port: 40403, type: vmess, uuid: 68d35c5d-5e96-4bf6-d9fb-c4a21677e57a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}, udp: true}
@@ -1036,6 +1035,7 @@ proxies:
   - {name: 12-1132-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 40aadfed-c7c6-39a3-9ab3-ed960c0782a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1133-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 40aadfed-c7c6-39a3-9ab3-ed960c0782a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1134-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 40aadfed-c7c6-39a3-9ab3-ed960c0782a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12-1135-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 40aadfed-c7c6-39a3-9ab3-ed960c0782a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1136-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: lzMYaUAnPeyQxIwc, udp: true}
   - {name: 12-1137-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: lzMYaUAnPeyQxIwc, udp: true}
   - {name: 12-1138-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: lzMYaUAnPeyQxIwc, udp: true}
@@ -1528,7 +1528,6 @@ proxy-groups:
       - 03-0563-JP
       - 03-0564-SG
       - 03-0565-SG
-      - 03-0566-US
       - 03-0567-US
       - 03-0568-US
       - 03-0569-US
@@ -1614,7 +1613,6 @@ proxy-groups:
       - 03-0649-CN
       - 03-0650-RELAY
       - 03-0651-RELAY
-      - 03-0652-RELAY
       - 03-0653-RELAY
       - 03-0654-RELAY
       - 03-0655-CN
@@ -1966,6 +1964,7 @@ proxy-groups:
       - 09-1005-KR
       - 09-1006-KR
       - 09-1007-NO
+      - 09-1008-RELAY
       - 09-1009-SE
       - 09-1010-SE
       - 09-1011-SE
@@ -1976,7 +1975,6 @@ proxy-groups:
       - 09-1016-TW
       - 09-1017-SG
       - 09-1018-US
-      - 10-1019-HK
       - 10-1020-RELAY
       - 10-1021-RELAY
       - 10-1022-RELAY
@@ -2027,6 +2025,7 @@ proxy-groups:
       - 11-1067-ID
       - 11-1068-HK
       - 11-1069-US
+      - 11-1070-US
       - 11-1071-KR
       - 11-1072-DE
       - 11-1073-DE
@@ -2091,6 +2090,7 @@ proxy-groups:
       - 12-1132-JP
       - 12-1133-JP
       - 12-1134-JP
+      - 12-1135-JP
       - 12-1136-CN
       - 12-1137-CN
       - 12-1138-CN
