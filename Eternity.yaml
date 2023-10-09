@@ -156,6 +156,7 @@ proxies:
   - {name: 02-0148-CN, server: 1.76po.com, port: 15014, type: vmess, uuid: 831c6bef-5d73-4653-a31f-ed57f8ea09a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0149-CN, server: 1.76po.com, port: 17744, type: vmess, uuid: 831c6bef-5d73-4653-a31f-ed57f8ea09a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0150-CN, server: js1.76po.com, port: 51594, type: vmess, uuid: 831c6bef-5d73-4653-a31f-ed57f8ea09a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 02-0151-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: a785628a-04fa-4c6f-9f87-d28c5df9534f, skip-cert-verify: true, udp: true}
   - {name: 02-0152-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: a785628a-04fa-4c6f-9f87-d28c5df9534f, udp: true}
   - {name: 02-0153-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: a785628a-04fa-4c6f-9f87-d28c5df9534f, udp: true}
   - {name: 02-0154-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: a785628a-04fa-4c6f-9f87-d28c5df9534f, udp: true}
@@ -473,7 +474,6 @@ proxies:
   - {name: 03-0564-SG, server: jp2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0565-US, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0566-US, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0567-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: a785628a-04fa-4c6f-9f87-d28c5df9534f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0568-US, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0569-SC, server: cera.host.hiloaco.com, port: 443, type: vmess, uuid: 888ad13a-2e0d-4f6e-b5cf-6b06356f20c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: cera.host.hiloaco.com}}, udp: true}
   - {name: 03-0570-HK, server: qw.host.hiloaco.com, port: 5567, type: vmess, uuid: 888ad13a-2e0d-4f6e-b5cf-6b06356f20c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: qw.host.hiloaco.com}}, udp: true}
@@ -636,6 +636,7 @@ proxies:
   - {name: 03-0727-FR, server: 51.158.200.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0728-FR, server: 51.158.200.160, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0729-FR, server: 162.19.59.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 03-0730-FR, server: 162.19.59.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0731-FR, server: 162.19.59.166, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0732-FR, server: 162.19.59.162, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0733-FR, server: 51.158.200.50, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -650,7 +651,6 @@ proxies:
   - {name: 03-0742-FR, server: 51.158.200.141, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0743-FR, server: 51.158.200.63, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0744-FR, server: 146.59.110.239, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 03-0745-GB, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0746-FR, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0747-FR, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 04-0748-FR, server: 54.36.174.181, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
@@ -924,145 +924,145 @@ proxies:
   - {name: 05-1016-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 05-1017-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 05-1018-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 7f7193c2-b975-4b5d-b59d-17db06a49095, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 06-1019-CN, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1020-CN, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1021-CN, server: gzdx.jcnode.top, port: 41754, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1022-CN, server: gzyd.jcnode.top, port: 21425, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1023-CN, server: gzyd.jcnode.top, port: 20707, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1024-CN, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1025-CN, server: gzdx.jcnode.top, port: 18716, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1026-CN, server: gzdx01.jcnode.top, port: 41390, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1027-CN, server: gzdx.jcnode.top, port: 47321, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1028-CN, server: gzyd.jcnode.top, port: 49486, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1029-CN, server: gzyd.jcnode.top, port: 11936, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1030-CN, server: gzdx.jcnode.top, port: 35257, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1031-CN, server: gzdx01.jcnode.top, port: 51884, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1032-CN, server: gzyd.jcnode.top, port: 22174, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1033-CN, server: gzdx01.jcnode.top, port: 17967, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1034-CN, server: gzdx.jcnode.top, port: 36564, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1035-CN, server: gzyd.jcnode.top, port: 54088, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1036-CN, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1037-CN, server: gzdx.jcnode.top, port: 27753, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1038-CN, server: gzyd.jcnode.top, port: 15431, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1039-CN, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1040-CN, server: gzdx.jcnode.top, port: 33830, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1041-CN, server: gzdx01.jcnode.top, port: 22243, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1042-CN, server: gzdx.jcnode.top, port: 18085, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1043-CN, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1044-CN, server: gzdx01.jcnode.top, port: 44532, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1045-CN, server: gzdx.jcnode.top, port: 52758, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1046-CN, server: gzyd.jcnode.top, port: 24662, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1047-CN, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1048-CN, server: gzdx.jcnode.top, port: 31550, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1049-CN, server: gzyd.jcnode.top, port: 44891, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1050-CN, server: gzdx01.jcnode.top, port: 10444, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1051-CN, server: gzdx.jcnode.top, port: 49038, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1052-CN, server: gzyd.jcnode.top, port: 24498, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1053-CN, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1054-CN, server: gzdx.jcnode.top, port: 45540, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1055-CN, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1056-CN, server: gzdx01.jcnode.top, port: 24448, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1057-CN, server: gzdx.jcnode.top, port: 61413, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1058-CN, server: gzyd.jcnode.top, port: 22084, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1059-CN, server: gzdx.jcnode.top, port: 52546, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1060-CN, server: gzyd.jcnode.top, port: 46541, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1061-CN, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1062-CN, server: gzyd.jcnode.top, port: 16242, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1063-CN, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1064-CN, server: gzyd.jcnode.top, port: 38381, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1065-CN, server: gzdx01.jcnode.top, port: 20153, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1066-CN, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1067-CN, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1068-CN, server: gzdx01.jcnode.top, port: 26611, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1069-CN, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: 2d6cdf76-fb59-4322-b298-e7b9b535594a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
-  - {name: 06-1070-CN, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1071-CN, server: gzyd.jcnode.top, port: 56102, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1072-CN, server: gzdx.jcnode.top, port: 65097, type: trojan, password: 2d6cdf76-fb59-4322-b298-e7b9b535594a, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 06-1073-RELAY, server: www.jafiyun2023.fyi, port: 10086, type: vmess, uuid: 592609de-9de2-3bd6-9134-e266e8b681f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-1074-CN, server: cloud15.jafiyun2023.cloud, port: 22015, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud15.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1075-CN, server: cloud16.jafiyun2023.cloud, port: 22016, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud16.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1076-CN, server: cloud17.jafiyun2023.cloud, port: 22017, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud17.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1077-CN, server: cloud18.jafiyun2023.cloud, port: 22018, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud18.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1078-CN, server: cloud19.jafiyun2023.cloud, port: 22019, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud19.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1079-CN, server: cloud41.jafiyun2023.cloud, port: 22041, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud41.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1080-CN, server: cloud42.jafiyun2023.cloud, port: 22042, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud42.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1081-CN, server: cloud45.jafiyun2023.cloud, port: 22045, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud45.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1082-CN, server: cloud47.jafiyun2023.cloud, port: 22047, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud47.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1083-CN, server: cloud52.jafiyun2023.cloud, port: 22052, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud52.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1084-CN, server: cloud53.jafiyun2023.cloud, port: 22053, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud53.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1085-CN, server: cloud54.jafiyun2023.cloud, port: 22054, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud54.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1086-CN, server: cloud55.jafiyun2023.cloud, port: 22055, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud55.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1087-CN, server: cloud56.jafiyun2023.cloud, port: 22056, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud56.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1088-CN, server: cloud57.jafiyun2023.cloud, port: 22057, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud57.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1089-CN, server: cloud58.jafiyun2023.cloud, port: 22058, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud58.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1090-CN, server: cloud59.jafiyun2023.cloud, port: 22059, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud59.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1091-CN, server: cloud60.jafiyun2023.cloud, port: 22060, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud60.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1092-CN, server: cloud22.jafiyun2023.cloud, port: 22022, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud22.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1093-CN, server: cloud43.jafiyun2023.cloud, port: 22043, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud43.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1094-CN, server: cloud48.jafiyun2023.cloud, port: 22048, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud48.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1095-CN, server: cloud49.jafiyun2023.cloud, port: 22049, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud49.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1096-CN, server: cloud23.jafiyun2023.cloud, port: 22023, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud23.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1097-CN, server: cloud30.jafiyun2023.cloud, port: 22030, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud30.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1098-CN, server: cloud31.jafiyun2023.cloud, port: 22031, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud31.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1099-CN, server: cloud32.jafiyun2023.cloud, port: 22032, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud32.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1100-CN, server: cloud63.jafiyun2023.cloud, port: 22063, type: trojan, password: 592609de-9de2-3bd6-9134-e266e8b681f7, sni: cloud63.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
-  - {name: 06-1101-CN, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1102-CN, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1103-CN, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1104-CN, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1105-CN, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1106-CN, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1107-CN, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1108-CN, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1109-CN, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1110-CN, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1111-CN, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1112-CN, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1113-CN, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1114-CN, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1115-CN, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1116-CN, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1117-CN, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1118-CN, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1119-CN, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1120-CN, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1121-CN, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1122-CN, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1123-CN, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1124-CN, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1125-CN, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1126-CN, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1127-CN, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1128-CN, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1129-CN, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1130-CN, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1131-CN, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1132-CN, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1133-CN, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1134-CN, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1135-CN, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1136-CN, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1137-CN, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1138-CN, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1139-CN, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1140-CN, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1141-CN, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1142-CN, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1143-CN, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1144-CN, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1145-CN, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1146-CN, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1147-CN, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1148-CN, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1149-CN, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1150-CN, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1151-CN, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1152-CN, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1153-CN, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1154-CN, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1155-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1156-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
-  - {name: 06-1157-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: c08ab5c2-bb57-4d29-a9f3-64c925d74a74, udp: true}
+  - {name: 06-1019-CN, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1020-CN, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1021-CN, server: gzdx.jcnode.top, port: 41754, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1022-CN, server: gzyd.jcnode.top, port: 21425, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1023-CN, server: gzyd.jcnode.top, port: 20707, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1024-CN, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1025-CN, server: gzdx.jcnode.top, port: 18716, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1026-CN, server: gzdx01.jcnode.top, port: 41390, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1027-CN, server: gzdx.jcnode.top, port: 47321, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1028-CN, server: gzyd.jcnode.top, port: 49486, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1029-CN, server: gzyd.jcnode.top, port: 11936, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1030-CN, server: gzdx.jcnode.top, port: 35257, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1031-CN, server: gzdx01.jcnode.top, port: 51884, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1032-CN, server: gzyd.jcnode.top, port: 22174, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1033-CN, server: gzdx01.jcnode.top, port: 17967, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1034-CN, server: gzdx.jcnode.top, port: 36564, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1035-CN, server: gzyd.jcnode.top, port: 54088, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1036-CN, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1037-CN, server: gzdx.jcnode.top, port: 27753, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1038-CN, server: gzyd.jcnode.top, port: 15431, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1039-CN, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1040-CN, server: gzdx.jcnode.top, port: 33830, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1041-CN, server: gzdx01.jcnode.top, port: 22243, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1042-CN, server: gzdx.jcnode.top, port: 18085, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1043-CN, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1044-CN, server: gzdx01.jcnode.top, port: 44532, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1045-CN, server: gzdx.jcnode.top, port: 52758, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1046-CN, server: gzyd.jcnode.top, port: 24662, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1047-CN, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1048-CN, server: gzdx.jcnode.top, port: 31550, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1049-CN, server: gzyd.jcnode.top, port: 44891, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1050-CN, server: gzdx01.jcnode.top, port: 10444, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1051-CN, server: gzdx.jcnode.top, port: 49038, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1052-CN, server: gzyd.jcnode.top, port: 24498, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1053-CN, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1054-CN, server: gzdx.jcnode.top, port: 45540, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1055-CN, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1056-CN, server: gzdx01.jcnode.top, port: 24448, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1057-CN, server: gzdx.jcnode.top, port: 61413, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1058-CN, server: gzyd.jcnode.top, port: 22084, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: rctw02.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1059-CN, server: gzdx.jcnode.top, port: 52546, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1060-CN, server: gzyd.jcnode.top, port: 46541, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1061-CN, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1062-CN, server: gzyd.jcnode.top, port: 16242, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1063-CN, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1064-CN, server: gzyd.jcnode.top, port: 38381, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1065-CN, server: gzdx01.jcnode.top, port: 20153, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1066-CN, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1067-CN, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1068-CN, server: gzdx01.jcnode.top, port: 26611, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1069-CN, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: None}}, udp: true}
+  - {name: 06-1070-CN, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1071-CN, server: gzyd.jcnode.top, port: 56102, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1072-CN, server: gzdx.jcnode.top, port: 65097, type: trojan, password: 5b9d46f5-e140-43cd-8fde-07a7f3ccf590, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 06-1073-RELAY, server: www.jafiyun2023.fyi, port: 10086, type: vmess, uuid: 53905555-d99c-36c7-b39e-ccf239f4b12d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 06-1074-CN, server: cloud15.jafiyun2023.cloud, port: 22015, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud15.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1075-CN, server: cloud16.jafiyun2023.cloud, port: 22016, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud16.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1076-CN, server: cloud17.jafiyun2023.cloud, port: 22017, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud17.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1077-CN, server: cloud18.jafiyun2023.cloud, port: 22018, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud18.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1078-CN, server: cloud19.jafiyun2023.cloud, port: 22019, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud19.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1079-CN, server: cloud41.jafiyun2023.cloud, port: 22041, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud41.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1080-CN, server: cloud42.jafiyun2023.cloud, port: 22042, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud42.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1081-CN, server: cloud45.jafiyun2023.cloud, port: 22045, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud45.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1082-CN, server: cloud47.jafiyun2023.cloud, port: 22047, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud47.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1083-CN, server: cloud52.jafiyun2023.cloud, port: 22052, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud52.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1084-CN, server: cloud53.jafiyun2023.cloud, port: 22053, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud53.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1085-CN, server: cloud54.jafiyun2023.cloud, port: 22054, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud54.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1086-CN, server: cloud55.jafiyun2023.cloud, port: 22055, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud55.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1087-CN, server: cloud56.jafiyun2023.cloud, port: 22056, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud56.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1088-CN, server: cloud57.jafiyun2023.cloud, port: 22057, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud57.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1089-CN, server: cloud58.jafiyun2023.cloud, port: 22058, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud58.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1090-CN, server: cloud59.jafiyun2023.cloud, port: 22059, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud59.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1091-CN, server: cloud60.jafiyun2023.cloud, port: 22060, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud60.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1092-CN, server: cloud22.jafiyun2023.cloud, port: 22022, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud22.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1093-CN, server: cloud43.jafiyun2023.cloud, port: 22043, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud43.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1094-CN, server: cloud48.jafiyun2023.cloud, port: 22048, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud48.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1095-CN, server: cloud49.jafiyun2023.cloud, port: 22049, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud49.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1096-CN, server: cloud23.jafiyun2023.cloud, port: 22023, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud23.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1097-CN, server: cloud30.jafiyun2023.cloud, port: 22030, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud30.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1098-CN, server: cloud31.jafiyun2023.cloud, port: 22031, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud31.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1099-CN, server: cloud32.jafiyun2023.cloud, port: 22032, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud32.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1100-CN, server: cloud63.jafiyun2023.cloud, port: 22063, type: trojan, password: 53905555-d99c-36c7-b39e-ccf239f4b12d, sni: cloud63.jafiyun2023.cloud, skip-cert-verify: true, udp: true}
+  - {name: 06-1101-CN, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1102-CN, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1103-CN, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1104-CN, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1105-CN, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1106-CN, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1107-CN, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1108-CN, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1109-CN, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1110-CN, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1111-CN, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1112-CN, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1113-CN, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1114-CN, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1115-CN, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1116-CN, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1117-CN, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1118-CN, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1119-CN, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1120-CN, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1121-CN, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1122-CN, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1123-CN, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1124-CN, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1125-CN, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1126-CN, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1127-CN, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1128-CN, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1129-CN, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1130-CN, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1131-CN, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1132-CN, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1133-CN, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1134-CN, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1135-CN, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1136-CN, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1137-CN, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1138-CN, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1139-CN, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1140-CN, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1141-CN, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1142-CN, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1143-CN, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1144-CN, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1145-CN, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1146-CN, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1147-CN, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1148-CN, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1149-CN, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1150-CN, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1151-CN, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1152-CN, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1153-CN, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1154-CN, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1155-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1156-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
+  - {name: 06-1157-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 6de8f726-70b8-4112-aa3a-1d593af57df1, udp: true}
   - {name: 08-1162-HK, server: 152.32.190.239, port: 4431, type: vmess, uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: hk1.kxking.eu.org}}, udp: true}
   - {name: 08-1163-HK, server: 103.15.217.182, port: 33058, type: trojan, password: QHhbhwe6lj, sni: 103.15.217.182, skip-cert-verify: true, udp: true}
   - {name: 08-1164-TW, server: b1u2.ntbq.dynu.net, port: 443, type: vmess, uuid: 7bcd1b11-ac49-40f7-9197-4df867192564, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: b1u2.ntbq.dynu.net}}, udp: true}
@@ -1101,7 +1101,7 @@ proxies:
   - {name: 09-1197-JP, server: oci.donpau.com, port: 443, type: vmess, uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cone, headers: {Host: oci.donpau.com}}, udp: true}
   - {name: 09-1198-JP, server: 57.180.44.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-1199-JP, server: 52.193.30.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 09-1200-JP, server: 3.112.205.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "09-1200-JPtrojan//75110959-c7dd-4ee5-8a51-cd0e21c3111d@us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen14000?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0567-US", server: 3.112.205.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-1201-JP, server: jpdj5.gophers.gay, port: 22053, type: vmess, uuid: 4b445dc7-3db7-4476-978a-1fb2a4d5c2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: microsoft.com}}, udp: true}
   - {name: 09-1202-KR, server: b3.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3b86c4fa-bc53-4067-8d1c-275cff02d91b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}, udp: true}
   - {name: 09-1203-KR, server: b4.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3b86c4fa-bc53-4067-8d1c-275cff02d91b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}, udp: true}
@@ -1373,6 +1373,7 @@ proxy-groups:
       - 02-0148-CN
       - 02-0149-CN
       - 02-0150-CN
+      - 02-0151-JP
       - 02-0152-JP
       - 02-0153-HK
       - 02-0154-CN
@@ -1690,7 +1691,6 @@ proxy-groups:
       - 03-0564-SG
       - 03-0565-US
       - 03-0566-US
-      - 03-0567-US
       - 03-0568-US
       - 03-0569-SC
       - 03-0570-HK
@@ -1853,6 +1853,7 @@ proxy-groups:
       - 03-0727-FR
       - 03-0728-FR
       - 03-0729-FR
+      - 03-0730-FR
       - 03-0731-FR
       - 03-0732-FR
       - 03-0733-FR
@@ -1867,7 +1868,6 @@ proxy-groups:
       - 03-0742-FR
       - 03-0743-FR
       - 03-0744-FR
-      - 03-0745-GB
       - 04-0746-FR
       - 04-0747-FR
       - 04-0748-FR
@@ -2318,7 +2318,7 @@ proxy-groups:
       - 09-1197-JP
       - 09-1198-JP
       - 09-1199-JP
-      - 09-1200-JP
+      - 09-1200-JPtrojan//75110959-c7dd-4ee5-8a51-cd0e21c3111d@us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen14000?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#03-0567-US
       - 09-1201-JP
       - 09-1202-KR
       - 09-1203-KR
