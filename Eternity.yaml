@@ -476,7 +476,6 @@ proxies:
   - {name: 03-0566-US, server: sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0567-US, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0568-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0569-US, server: us2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 14000, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0570-UA, server: ua-gy.115cloud.link, port: 443, type: trojan, password: 087e0918-88a6-3049-ac4c-28585e142434, sni: ua-gy.115cloud.link, skip-cert-verify: true, udp: true}
   - {name: 03-0571-CN, server: sg-gy.115cloud.link, port: 26768, type: vmess, uuid: 087e0918-88a6-3049-ac4c-28585e142434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0572-CN, server: uk-zl-gy.115cloud.link, port: 18085, type: vmess, uuid: 087e0918-88a6-3049-ac4c-28585e142434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -879,6 +878,7 @@ proxies:
   - {name: 04-0971-US, server: 142.4.100.201, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.22567471.xyz}}, udp: true}
   - {name: 04-0972-CN, server: as.xcv2r.com, port: 29029, type: ss, cipher: chacha20-ietf-poly1305, password: 10a1ba48-69aa-471f-b276-f020bab0ff01, udp: true}
   - {name: 04-0973-CN, server: 36.137.198.17, port: 10801, type: trojan, password: d5b435d3-de65-45d8-a536-717218d1183f, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 04-0974-US, server: usshs2.gophers.gay, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-0975-BR, server: ssrsub.t11.trojan.tel, port: 80, type: trojan, password: 95418a4e-91e4-4d42-b339-b2efb8d24b70, skip-cert-verify: true, udp: true}
   - {name: 04-0976-RELAY, server: 172.67.98.182, port: 80, type: vmess, uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dld.shabijichang.com}}, udp: true}
   - {name: 04-0977-TW, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
@@ -1183,7 +1183,6 @@ proxies:
   - {name: 09-1278-MM, server: 154.93.51.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vwaLNKA2RW2cOJKNAHiaw2, udp: true}
   - {name: 09-1279-US, server: 64.31.55.101, port: 30033, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: 10-1280-HK, server: 156.245.8.248, port: 30000, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.81678034.xyz}}, udp: true}
-  - {name: 10-1281-RELAY, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}, udp: true}
   - {name: 10-1282-RELAY, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
   - {name: 10-1283-RELAY, server: lt1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
   - {name: 10-1284-NL, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.28115361.xyz}}, udp: true}
@@ -1209,6 +1208,7 @@ proxies:
   - {name: 11-1305-SG, server: direct-ca1.xn--pzypc.store, port: 80, type: vmess, uuid: 92b87a58-eee6-4377-a438-aac96d95192f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: ca1.xn--pzypc.store}}, udp: true}
   - {name: 11-1306-RELAY, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v003.ssrsub.com}}, udp: true}
   - {name: 11-1307-SG, server: direct-ca4.xn--pzypc.store, port: 80, type: vmess, uuid: 92b87a58-eee6-4377-a438-aac96d95192f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: ca4.xn--pzypc.store}}, udp: true}
+  - {name: 11-1308-RELAY, server: 162.159.140.6, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
   - {name: 11-1309-RELAY, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: e5f9073b-a23c-487f-b2a8-e5eb6abad21d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}, udp: true}
   - {name: 12-1310-CN, server: fujimount01.linkzoones.xyz, port: 30101, type: vmess, uuid: d139fcb2-2587-39ab-bbcf-be4d02904bb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1311-CN, server: fujimount02.linkzoones.xyz, port: 30106, type: vmess, uuid: d139fcb2-2587-39ab-bbcf-be4d02904bb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1757,7 +1757,6 @@ proxy-groups:
       - 03-0566-US
       - 03-0567-US
       - 03-0568-US
-      - 03-0569-US
       - 03-0570-UA
       - 03-0571-CN
       - 03-0572-CN
@@ -2160,6 +2159,7 @@ proxy-groups:
       - 04-0971-US
       - 04-0972-CN
       - 04-0973-CN
+      - 04-0974-US
       - 04-0975-BR
       - 04-0976-RELAY
       - 04-0977-TW
@@ -2464,7 +2464,6 @@ proxy-groups:
       - 09-1278-MM
       - 09-1279-US
       - 10-1280-HK
-      - 10-1281-RELAY
       - 10-1282-RELAY
       - 10-1283-RELAY
       - 10-1284-NL
@@ -2490,6 +2489,7 @@ proxy-groups:
       - 11-1305-SG
       - 11-1306-RELAY
       - 11-1307-SG
+      - 11-1308-RELAY
       - 11-1309-RELAY
       - 12-1310-CN
       - 12-1311-CN
