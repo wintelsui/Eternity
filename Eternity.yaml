@@ -919,7 +919,6 @@ proxies:
   - {name: 04-1009-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 56a00699-1857-46ac-a861-60d3c17e1b9f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 04-1010-RELAY, server: sg.wyhkaa0.cf, port: 8080, type: vmess, uuid: d0837e78-e2da-4a91-cda5-c70b5382a82f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}, udp: true}
   - {name: 04-1011-CN, server: cm1-nc.go001.buzz, port: 19551, type: ss, cipher: chacha20-ietf-poly1305, password: 2e201a3c-e855-4414-a9c0-5d6e6fedca07, udp: true}
-  - {name: 04-1012-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1013-FR, server: 57.128.32.84, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1014-US, server: 198.2.202.88, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.65825524.xyz}}, udp: true}
   - {name: 04-1015-CN, server: uk.shawbrothersstudio.com, port: 19923, type: ss, cipher: chacha20-ietf-poly1305, password: yCf03vE7phaImZaVjeAF3L, udp: true}
@@ -930,6 +929,7 @@ proxies:
   - {name: 04-1020-CN, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 3d0a99a6-a995-4c9a-9729-245ecb4b43f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-1021-DE, server: 3.71.240.163, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-1022-RELAY, server: 172.67.99.73, port: 80, type: vmess, uuid: 03c88715-2d98-41ea-a327-40b56f1288cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}, udp: true}
+  - {name: 04-1023-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1024-CN, server: jscm01.celerlink.one, port: 41020, type: ss, cipher: chacha20-ietf-poly1305, password: 3525588ee14ea924, udp: true}
   - {name: 04-1025-RELAY, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}, udp: true}
   - {name: 04-1026-RELAY, server: 162.159.142.236, port: 80, type: vmess, uuid: de242451-40f7-4900-b577-bc50442f4266, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1654431, headers: {Host: jp3-7fw9rgyfdqg5roq2.xn--9kq476ja.com}}, udp: true}
@@ -2271,7 +2271,6 @@ proxy-groups:
       - 04-1009-US
       - 04-1010-RELAY
       - 04-1011-CN
-      - 04-1012-US
       - 04-1013-FR
       - 04-1014-US
       - 04-1015-CN
@@ -2282,6 +2281,7 @@ proxy-groups:
       - 04-1020-CN
       - 04-1021-DE
       - 04-1022-RELAY
+      - 04-1023-US
       - 04-1024-CN
       - 04-1025-RELAY
       - 04-1026-RELAY
