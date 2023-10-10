@@ -876,6 +876,7 @@ proxies:
   - {name: 04-0968-RELAY, server: cf1.trojan.tel, port: 2095, type: vmess, uuid: 95418a4e-91e4-4d42-b339-b2efb8d24b70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v2.trojan.tel}}, udp: true}
   - {name: 04-0969-RELAY, server: zfc.windowsupdate1.com, port: 80, type: vmess, uuid: 976cf01f-b22e-4bb4-c980-81352649d5a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /decf, headers: {Host: ka-cf.tlers.cf}}, udp: true}
   - {name: 04-0970-JP, server: 84.17.34.108, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 04-0971-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0972-CN, server: us02.shawbrothersstudio.com, port: 43642, type: ss, cipher: chacha20-ietf-poly1305, password: hg9h5KpMmJLli6W6Qjd2yi, udp: true}
   - {name: 04-0973-CN, server: north.steamdownload.top, port: 16202, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: north.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 04-0974-FR, server: 141.95.126.100, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -922,7 +923,6 @@ proxies:
   - {name: 04-1015-AU, server: 54.252.213.127, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JosjzSvfhlg5ahepnwLgkQ, udp: true}
   - {name: 04-1016-GB, server: 35.179.52.19, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-1017-CN, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 1d95c335-f7d7-4ec5-8d39-3390dde72dda, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 04-1018-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 04-1019-FR, server: 62.210.88.168, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1020-JP, server: 84.17.34.108, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1021-SG, server: 3.0.139.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -2191,6 +2191,7 @@ proxy-groups:
       - 04-0968-RELAY
       - 04-0969-RELAY
       - 04-0970-JP
+      - 04-0971-US
       - 04-0972-CN
       - 04-0973-CN
       - 04-0974-FR
@@ -2237,7 +2238,6 @@ proxy-groups:
       - 04-1015-AU
       - 04-1016-GB
       - 04-1017-CN
-      - 04-1018-US
       - 04-1019-FR
       - 04-1020-JP
       - 04-1021-SG
