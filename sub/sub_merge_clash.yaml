@@ -261,7 +261,7 @@ proxies:
   - {name: 02-0259-CN, server: 201201level1.unclemanco.com, port: 9044, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e126f83974.download.windowsupdate.com}, udp: true}
   - {name: 02-0260-CN, server: 201201level1.unclemanco.com, port: 36201, type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr, plugin: obfs, plugin-opts: {mode: http, host: e126f83974.download.windowsupdate.com}, udp: true}
   - {name: 02-0261-CN, server: 201201level1.unclemanco.com, port: 10021, type: ss, cipher: aes-128-gcm, password: aa2x2sa2/1a, plugin: obfs, plugin-opts: {mode: http, host: e126f83974.download.windowsupdate.com}, udp: true}
-  - {name: 02-0262-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: dff9b5b0-d489-4075-b90f-fea7bf258e84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: usc03.galenet.online}}, udp: true}
+  - {name: 02-0262-JP, server: cdn.chigua.tk, port: 80, type: vmess, uuid: dff9b5b0-d489-4075-b90f-fea7bf258e84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: usc03.galenet.online}}, udp: true}
   - {name: 02-0263-GOOGLE, server: 8.8.8.8, port: 22266, type: ss, cipher: chacha20-ietf-poly1305, password: 26026c90-49d9-484b-8763-4431638a3878, udp: true}
   - {name: 02-0264-CN, server: 91zx.ljydw.top, port: 39999, type: trojan, password: 26026c90-49d9-484b-8763-4431638a3878, sni: 911us2.ljydw.top, skip-cert-verify: true, udp: true}
   - {name: 02-0265-CN, server: 91zx.ljydw.top, port: 25559, type: trojan, password: 26026c90-49d9-484b-8763-4431638a3878, sni: 914lxb.ljydw.top, skip-cert-verify: true, udp: true}
@@ -989,7 +989,7 @@ proxies:
   - {name: 04-0987-GB, server: ukld2.gophers.gay, port: 20600, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
   - {name: 04-0988-FR, server: 15.237.86.179, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0989-CN, server: 183.232.170.32, port: 30007, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: 183.232.170.32, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 04-0990-DE, server: beeconf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: ezesBXesf3RKBCp1vqKuIx, udp: true}
+  - {name: 04-0990-FR, server: beeconf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: ezesBXesf3RKBCp1vqKuIx, udp: true}
   - {name: 04-0991-US, server: 198.2.202.88, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1695993071029, headers: {Host: www.65825524.xyz}}, udp: true}
   - {name: 04-0992-RELAY, server: 23.227.39.18, port: 443, type: trojan, password: ae7214ed-f476-4407-befa-63b46ea2eb06, sni: pus1.pqjc.buzz, skip-cert-verify: true, udp: true}
   - {name: 04-0993-SG, server: 13.215.193.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
