@@ -296,6 +296,7 @@ proxies:
   - {name: 02-0386-HK, server: bhk145.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk145.qiaqia.win}}, udp: true}
   - {name: 02-0387-HK, server: bhk153.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk153.qiaqia.win}}, udp: true}
   - {name: 02-0388-HK, server: bhk161.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk161.qiaqia.win}}, udp: true}
+  - {name: 02-0389-HK, server: bhk169.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk169.qiaqia.win}}, udp: true}
   - {name: 02-0390-HK, server: bhk177.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk177.qiaqia.win}}, udp: true}
   - {name: 02-0391-HK, server: ahk02.qiaqia.win, port: 8972, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ahk02.qiaqia.win}}, udp: true}
   - {name: 02-0392-HK, server: bhk02.qiaqia.win, port: 8080, type: vmess, uuid: 3291f4f7-698d-3bf2-b85d-6b0716003e59, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk02.qiaqia.win}}, udp: true}
@@ -863,7 +864,6 @@ proxies:
   - {name: 04-0956-US, server: 192.203.230.18, port: 2096, type: vmess, uuid: 12859d73-1c81-4909-e071-c1aacfeea221, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us, headers: {Host: us2.fakeopen.link}}, udp: true}
   - {name: 04-0957-DE, server: 18.195.171.162, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0958-CN, server: yidong.liulangdiqiu.cyou, port: 10718, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b, udp: true}
-  - {name: 04-0959-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 04-0960-CN, server: as.xcv2r.com, port: 29029, type: ss, cipher: chacha20-ietf-poly1305, password: 143dc103-1099-42c8-8c3a-bd1f71386607, udp: true}
   - {name: 04-0961-CN, server: foshan.chiguayun.cc, port: 27127, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678, udp: true}
   - {name: 04-0962-US, server: us1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: a3f221f8-43d6-4363-8624-ce62d3db0202, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
@@ -919,6 +919,7 @@ proxies:
   - {name: 04-1012-FR, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 04-1013-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1014-JP, server: hk1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 56a00699-1857-46ac-a861-60d3c17e1b9f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 04-1015-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 04-1016-DE, server: masting.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: XlUFgoOqDlVqlZFD3Js0YA, udp: true}
   - {name: 04-1017-US, server: 38.26.135.24, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696339269262, headers: {Host: www.39838266.xyz}}, udp: true}
   - {name: 04-1018-RELAY, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}, udp: true}
@@ -1286,7 +1287,6 @@ proxies:
   - {name: 12-1384-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 997b64ef-84dc-3f2d-9543-68b2ec97db0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1385-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 997b64ef-84dc-3f2d-9543-68b2ec97db0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1386-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 997b64ef-84dc-3f2d-9543-68b2ec97db0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-1387-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 997b64ef-84dc-3f2d-9543-68b2ec97db0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1388-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: Zs9Rk12jZtTtNkIg, udp: true}
   - {name: 12-1389-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: Zs9Rk12jZtTtNkIg, udp: true}
   - {name: 12-1390-CN, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: Zs9Rk12jZtTtNkIg, udp: true}
@@ -1602,6 +1602,7 @@ proxy-groups:
       - 02-0386-HK
       - 02-0387-HK
       - 02-0388-HK
+      - 02-0389-HK
       - 02-0390-HK
       - 02-0391-HK
       - 02-0392-HK
@@ -2169,7 +2170,6 @@ proxy-groups:
       - 04-0956-US
       - 04-0957-DE
       - 04-0958-CN
-      - 04-0959-US
       - 04-0960-CN
       - 04-0961-CN
       - 04-0962-US
@@ -2225,6 +2225,7 @@ proxy-groups:
       - 04-1012-FR
       - 04-1013-US
       - 04-1014-JP
+      - 04-1015-US
       - 04-1016-DE
       - 04-1017-US
       - 04-1018-RELAY
@@ -2592,7 +2593,6 @@ proxy-groups:
       - 12-1384-JP
       - 12-1385-JP
       - 12-1386-JP
-      - 12-1387-JP
       - 12-1388-CN
       - 12-1389-CN
       - 12-1390-CN
