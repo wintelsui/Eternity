@@ -159,7 +159,6 @@ proxies:
   - {name: 02-0151-CN, server: 1.76po.com, port: 15014, type: vmess, uuid: e3dc1a9a-3212-4637-a799-faccb79f39f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0152-CN, server: 1.76po.com, port: 17744, type: vmess, uuid: e3dc1a9a-3212-4637-a799-faccb79f39f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 02-0153-CN, server: js1.76po.com, port: 51594, type: vmess, uuid: e3dc1a9a-3212-4637-a799-faccb79f39f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 02-0154-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 3ac80032-3c12-4a8f-9bef-9ddeddd00c64, skip-cert-verify: true, udp: true}
   - {name: 02-0155-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 3ac80032-3c12-4a8f-9bef-9ddeddd00c64, udp: true}
   - {name: 02-0156-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 3ac80032-3c12-4a8f-9bef-9ddeddd00c64, udp: true}
   - {name: 02-0157-CN, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 3ac80032-3c12-4a8f-9bef-9ddeddd00c64, udp: true}
@@ -296,6 +295,7 @@ proxies:
   - {name: 02-0386-HK, server: bhk145.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk145.qiaqia.win}}, udp: true}
   - {name: 02-0387-HK, server: bhk153.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk153.qiaqia.win}}, udp: true}
   - {name: 02-0388-HK, server: bhk161.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk161.qiaqia.win}}, udp: true}
+  - {name: 02-0389-HK, server: bhk169.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk169.qiaqia.win}}, udp: true}
   - {name: 02-0390-HK, server: bhk177.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk177.qiaqia.win}}, udp: true}
   - {name: 02-0391-HK, server: ahk02.qiaqia.win, port: 8972, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ahk02.qiaqia.win}}, udp: true}
   - {name: 02-0392-HK, server: bhk02.qiaqia.win, port: 8080, type: vmess, uuid: 07d7e892-07c1-396d-a5dc-a1e12a0f5f39, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk02.qiaqia.win}}, udp: true}
@@ -1360,7 +1360,6 @@ proxy-groups:
       - 02-0151-CN
       - 02-0152-CN
       - 02-0153-CN
-      - 02-0154-JP
       - 02-0155-JP
       - 02-0156-HK
       - 02-0157-CN
@@ -1497,6 +1496,7 @@ proxy-groups:
       - 02-0386-HK
       - 02-0387-HK
       - 02-0388-HK
+      - 02-0389-HK
       - 02-0390-HK
       - 02-0391-HK
       - 02-0392-HK
