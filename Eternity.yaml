@@ -472,7 +472,6 @@ proxies:
   - {name: 03-0562-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 03-0563-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 03-0564-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
-  - {name: 03-0565-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 03-0566-NOWHERE, server: speedip.eu.org, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsuyun, headers: {Host: speedip.eu.org}}, udp: true}
   - {name: 03-0567-CN, server: starspeed.tbh.iosds.com, port: 47120, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
   - {name: 03-0568-CN, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: e099f4a1-934d-4c18-b3d4-7786a22e2403, udp: true}
@@ -481,6 +480,7 @@ proxies:
   - {name: 03-0571-US, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: yd.xingsu.fun}}, udp: true}
   - {name: 03-0572-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 3d8fbf76-181d-40e0-bc0e-d2f251211f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 03-0573-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: ea0594f1-2318-452f-a7a6-ff8c5c70ae51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}, udp: true}
+  - {name: 03-0574-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: ea0594f1-2318-452f-a7a6-ff8c5c70ae51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0575-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-0576-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-0577-RELAY, server: 172.64.195.161, port: 443, type: vmess, uuid: cf1bdd67-7b34-3782-b747-430a55cb21c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -778,6 +778,7 @@ proxies:
   - {name: 04-0869-CN, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: aadd6f2f-e35e-42d7-a284-da7a9f0280bc, udp: true}
   - {name: 04-0870-CN, server: gg.58n.net, port: 54178, type: trojan, password: 5cab4559-8ae3-387e-b883-faaef0f36909, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0871-RELAY, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}, udp: true}
+  - {name: 04-0872-CA, server: 143.244.43.216, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0873-SE, server: 195.181.166.174, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0874-TW, server: tw3.411api-snisajdnjkndd.com, port: 64000, type: trojan, password: f8be07e9-4455-463f-ab36-770c5c5a39bb, sni: tw3.411api-snisajdnjkndd.com, skip-cert-verify: true, udp: true}
   - {name: 04-0875-CN, server: hefei.chiguayun.cc, port: 27125, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678, udp: true}
@@ -828,7 +829,6 @@ proxies:
   - {name: 04-0921-CH, server: 94.131.12.97, port: 6476, type: ss, cipher: chacha20-ietf-poly1305, password: UYgSGkLbT57ql15g3N18sN, udp: true}
   - {name: 04-0922-CN, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 3994cb7a-a825-4d02-b740-be545155ec39, udp: true}
   - {name: 04-0923-RELAY, server: singapore.com, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
-  - {name: 04-0924-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-0925-FR, server: 51.158.54.230, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0926-DE, server: 192.46.234.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: T1pb7XxxrolvPSb0u2xSOA, udp: true}
   - {name: 04-0927-RELAY, server: usshs2.gophers.gay, port: 20800, type: ss, cipher: chacha20-ietf-poly1305, password: f5d95005-be14-40fc-bedc-e4a1133a5701, udp: true}
@@ -1327,12 +1327,11 @@ proxies:
   - {name: 16-1438-RELAY, server: 104.27.15.231, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue03}, udp: true}
   - {name: 16-1439-SG, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: bd23a31e-7a2c-4065-8ca4-cd2d5d2bf5ba, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 16-1440-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 0c3a3cc8-aff3-475c-8d8a-87c3ca3cb37b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}, udp: true}
-  - {name: 16-1441-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@143.244.43.216110#04-0872-CA, server: zxpfgo.ssplane.cn, port: 28038, type: ss, cipher: chacha20-ietf-poly1305, password: 57b62841-625e-4fc0-a4b7-cf9c59d6965e, udp: true}
+  - {name: "16-1441-SGtrojan//f43beeb4-8149-4ade-b2a0-1fccb00e0ed6@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#03-0565-CA", server: zxpfgo.ssplane.cn, port: 28038, type: ss, cipher: chacha20-ietf-poly1305, password: 57b62841-625e-4fc0-a4b7-cf9c59d6965e, udp: true}
   - {name: 16-1442-NL, server: 156.225.67.153, port: 443, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691664136858}, udp: true}
   - {name: 16-1443-RELAY, server: 190.93.246.241, port: 80, type: vmess, uuid: dd8068db-5cfb-43a9-ba23-b156a70fbb06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray"}, udp: true}
   - {name: 16-1444-NOWHERE, server: tjcu.artehr.org, port: 32003, type: ss, cipher: chacha20-ietf-poly1305, password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2, udp: true}
   - {name: 16-1445-DE, server: 3.70.238.92, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 16-1446-US, server: 192.74.232.239, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691558839133}, udp: true}
   - {name: 40-1447-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 926600:ubbfbG, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 40-1448-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 926600:ubbfbG, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 40-1449-CN, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 926600:ubbfbG, obfs-param: download.windowsupdate.com, udp: true}
@@ -1870,7 +1869,6 @@ proxy-groups:
       - 03-0562-RELAY
       - 03-0563-RELAY
       - 03-0564-RELAY
-      - 03-0565-CA
       - 03-0566-NOWHERE
       - 03-0567-CN
       - 03-0568-CN
@@ -1879,6 +1877,7 @@ proxy-groups:
       - 03-0571-US
       - 03-0572-SG
       - 03-0573-RELAY
+      - 03-0574-RELAY
       - 03-0575-RELAY
       - 03-0576-RELAY
       - 03-0577-RELAY
@@ -2176,6 +2175,7 @@ proxy-groups:
       - 04-0869-CN
       - 04-0870-CN
       - 04-0871-RELAY
+      - 04-0872-CA
       - 04-0873-SE
       - 04-0874-TW
       - 04-0875-CN
@@ -2226,7 +2226,6 @@ proxy-groups:
       - 04-0921-CH
       - 04-0922-CN
       - 04-0923-RELAY
-      - 04-0924-FR
       - 04-0925-FR
       - 04-0926-DE
       - 04-0927-RELAY
@@ -2725,12 +2724,11 @@ proxy-groups:
       - 16-1438-RELAY
       - 16-1439-SG
       - 16-1440-RELAY
-      - 16-1441-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@143.244.43.216110#04-0872-CA
+      - 16-1441-SGtrojan//f43beeb4-8149-4ade-b2a0-1fccb00e0ed6@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#03-0565-CA
       - 16-1442-NL
       - 16-1443-RELAY
       - 16-1444-NOWHERE
       - 16-1445-DE
-      - 16-1446-US
       - 40-1447-CN
       - 40-1448-CN
       - 40-1449-CN
