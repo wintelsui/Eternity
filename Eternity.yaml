@@ -481,6 +481,7 @@ proxies:
   - {name: 03-0571-US, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e099f4a1-934d-4c18-b3d4-7786a22e2403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: yd.xingsu.fun}}, udp: true}
   - {name: 03-0572-KR, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 3d8fbf76-181d-40e0-bc0e-d2f251211f37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 03-0573-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: ea0594f1-2318-452f-a7a6-ff8c5c70ae51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}, udp: true}
+  - {name: 03-0574-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: ea0594f1-2318-452f-a7a6-ff8c5c70ae51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0575-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-0576-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-0577-RELAY, server: 172.64.195.161, port: 443, type: vmess, uuid: cf1bdd67-7b34-3782-b747-430a55cb21c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -884,7 +885,6 @@ proxies:
   - {name: 04-0976-RELAY, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ns1.v2-vip.fun}}, udp: true}
   - {name: 04-0977-TW, server: tw3.411api-snisajdnjkndd.com, port: 64000, type: trojan, password: f8be07e9-4455-463f-ab36-770c5c5a39bb, sni: tw3.411api-snisajdnjkndd.com, skip-cert-verify: true, udp: true}
   - {name: 04-0978-RELAY, server: 104.17.126.23, port: 443, type: trojan, password: 35f59fa7-10ed-40da-a91c-ed5ab9ea13b9, sni: k1us3.djjc.sbs, skip-cert-verify: true, udp: true}
-  - {name: 04-0979-IE, server: 52.49.103.144, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0980-CN, server: hefei.chiguayun.cc, port: 27118, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678, udp: true}
   - {name: 04-0981-ZA, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-0982-US, server: 129.146.203.143, port: 20353, type: vmess, uuid: 10c5146f-838f-4598-ac89-7b9472b9ec43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -1321,7 +1321,6 @@ proxies:
   - {name: 16-1432-NOWHERE, server: tjcu.artehr.org, port: 32003, type: ss, cipher: chacha20-ietf-poly1305, password: 00fd945f-7eb9-4c03-8d47-d0044fe3fae2, udp: true}
   - {name: 16-1433-RELAY, server: 104.27.15.231, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue03}, udp: true}
   - {name: 16-1434-FR, server: 15.237.192.59, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 16-1435-US, server: 192.74.232.239, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691558839133}, udp: true}
   - {name: 16-1436-DE, server: 3.70.238.92, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 40-1437-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 926600:ubbfbG, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 40-1438-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 926600:ubbfbG, obfs-param: download.windowsupdate.com, udp: true}
@@ -1869,6 +1868,7 @@ proxy-groups:
       - 03-0571-US
       - 03-0572-KR
       - 03-0573-RELAY
+      - 03-0574-RELAY
       - 03-0575-RELAY
       - 03-0576-RELAY
       - 03-0577-RELAY
@@ -2272,7 +2272,6 @@ proxy-groups:
       - 04-0976-RELAY
       - 04-0977-TW
       - 04-0978-RELAY
-      - 04-0979-IE
       - 04-0980-CN
       - 04-0981-ZA
       - 04-0982-US
@@ -2709,7 +2708,6 @@ proxy-groups:
       - 16-1432-NOWHERE
       - 16-1433-RELAY
       - 16-1434-FR
-      - 16-1435-US
       - 16-1436-DE
       - 40-1437-CN
       - 40-1438-CN
