@@ -741,6 +741,7 @@ proxies:
   - {name: 04-0833-JP, server: 84.17.34.108, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0834-DE, server: 18.195.176.116, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0835-JP, server: bgpfororacc.20226899.xyz, port: 48013, type: trojan, password: ccbdc122-db63-4d56-b995-f3e27fcf4de9, skip-cert-verify: true, udp: true}
+  - {name: 04-0836-US, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c, udp: true}
   - {name: 04-0837-TW, server: rzuee-1075-tr-0.d-hinet-02.ddll.bond, port: 889, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: true, udp: true}
   - {name: 04-0838-CN, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: f909362a-4a7c-4785-a870-a2cfd1a5e226, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0839-FR, server: 13.39.211.19, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -846,7 +847,6 @@ proxies:
   - {name: 04-0942-CN, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 6eb87422-6071-41a2-922f-1192d3bcf3d9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0943-RELAY, server: singapore.com, port: 80, type: vmess, uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}, udp: true}
   - {name: 04-0944-CN, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}, udp: true}
-  - {name: 04-0945-CA, server: 143.244.43.216, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0946-CN, server: 1.76po.com, port: 23392, type: ss, cipher: chacha20-ietf-poly1305, password: 10a1ba48-69aa-471f-b276-f020bab0ff01, udp: true}
   - {name: 04-0947-AL, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-0948-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}, udp: true}
@@ -1942,6 +1942,7 @@ proxy-groups:
       - 04-0833-JP
       - 04-0834-DE
       - 04-0835-JP
+      - 04-0836-US
       - 04-0837-TW
       - 04-0838-CN
       - 04-0839-FR
@@ -2047,7 +2048,6 @@ proxy-groups:
       - 04-0942-CN
       - 04-0943-RELAY
       - 04-0944-CN
-      - 04-0945-CA
       - 04-0946-CN
       - 04-0947-AL
       - 04-0948-RELAY
