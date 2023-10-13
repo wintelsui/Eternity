@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1296`
+高速节点数量: `1297`
 <details>
   <summary>展开复制节点</summary>
 
@@ -809,6 +809,7 @@ Fork from TopFreeProxies.
     trojan://0cc6b4268dea0ba8@211.72.35.155:3389?allowInsecure=1#04-0937-TW
     trojan://f909362a-4a7c-4785-a870-a2cfd1a5e226@sg.kunlun-ppg.com:10827?allowInsecure=1&sni=alibaba-node.cn#04-0938-CN
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.37.251:443#04-0939-FR
+    ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@143.244.43.216:80#04-0940-CA
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.27.48:989#04-0941-FR
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDk0Mi1ISyIsImFkZCI6IjEwMy40OC4xNjkuMTY2IiwicG9ydCI6IjU3NzU0IiwidHlwZSI6Im5vbmUiLCJpZCI6ImE3ODMyMzBiLWNkNjYtNDQ5Mi05NTE3LTdmNmNmNTY5ZTFjOSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm0/ZWQ9MjA0OCIsImhvc3QiOiJ5bHNsLmt4a2luZy5ldS5vcmciLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.54.231:443#04-0943-FR
@@ -831,7 +832,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNzM5Y2U4NWQzYjllMTQ1@jscm01.celerlink.one:41020#04-0960-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDk2MS1SRUxBWSIsImFkZCI6IjEwNC4yMi4xLjEyNiIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoic3ViLnlpZmVuamljaGFuZy50b3AiLCJ0bHMiOiIifQ==
     trojan://9b9e582b-5755-4ecd-839b-bff55bfd7ab1@sg2.ifastcdncache.com:23850?allowInsecure=1&sni=sg2.ifastcdncache.com#04-0962-SG
-    ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163:443#04-0963-US
     trojan://d5b435d3-de65-45d8-a536-717218d1183f@36.137.198.120:10831?allowInsecure=1&sni=alibaba-node.cn#04-0964-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDk2NS1SRUxBWSIsImFkZCI6ImZkLnNoYWJpamljaGFuZy5jb20iLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTU3YzVkN2YtYmE5NC00MDVmLTg4ZjAtMTgyOGQ0ZmUwYzJiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoic2xzLnNoYWJpamljaGFuZy5jb20iLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6N3BhQzk3SWlMWENvaEpJUzkxSUhU@51.142.185.220:31005#04-0966-GB
@@ -1156,6 +1156,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI4OC1OT1dIRVJFIiwiYWRkIjoiVjMwOS5iZ3BuZXQudG9wIiwicG9ydCI6IjI2MzA5IiwidHlwZSI6Im5vbmUiLCJpZCI6ImVmMzYxYzgzLThiODktMzk1MC05YzliLTZjY2MxNzdlNjI4NSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL3JheSIsImhvc3QiOiI0MjZoay5mYW5zOC54eXoiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI4OS1UVyIsImFkZCI6IjYxLjIyMi4yMDIuMTQwIiwicG9ydCI6IjMzNzkyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU1NWNkMTgyLTAxYjAtNGZiNy1hNTEwLTM2MzcwMWE0OTFjNSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjYxLjIyMi4yMDIuMTQwIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI5MC1OT1dIRVJFIiwiYWRkIjoiVjIwMy5iZ3BuZXQudG9wIiwicG9ydCI6IjI2MjAzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImVmMzYxYzgzLThiODktMzk1MC05YzliLTZjY2MxNzdlNjI4NSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiI2MS4yMjIuMjAyLjE0MCIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI5MS1KUCIsImFkZCI6IjE0MC4yMzguNDguMTk0IiwicG9ydCI6Ijg4ODgiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjRmMWRmYWQtMTI2Ny00Mjk3LThlODgtMGU5YjhlZjQ3ZTQ3IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IjYxLjIyMi4yMDIuMTQwIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI5Mi1SRUxBWSIsImFkZCI6IjEwNC4xNi4yMy4zIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIyNDhmNGY2Zi0yNzBjLTQ3ZjctYmVhOC1lZDlkODk0NDAwNTQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ5emtveWViLTc1OTUzMzMua295ZWIuYXBwIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI5My1OT1dIRVJFIiwiYWRkIjoiMS5lenlkZmRkLmNvbSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGVlNDhhZDgtMTc4Yy00MGEyLTljNTItYTE0ZTkwYTA2ZTQ5IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ubXNsIiwiaG9zdCI6IjEuZXp5ZGZkZC5jb20iLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTI5NC1DTiIsImFkZCI6IjExMi4yOS4xNTYuMjQ4IiwicG9ydCI6IjYyMDkyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ1MzMyYzgxLTE2MWEtMzdjYS05YTY0LTllMDljNjIzYjM5NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4iLCJob3N0IjoiZS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
@@ -1315,7 +1316,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTQ2MS1SRUxBWSIsImFkZCI6IjEwNC4yNy4xNS4yMzEiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZGQ0MWI1Y2ItYjcyZS00YThjLWM3NWEtM2VjYzkyOGQ2ZWIzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ibHVlMDMiLCJob3N0IjoiZWNjLnZ0Y3NzLnRvcCIsInRscyI6IiJ9
     trojan://bd23a31e-7a2c-4065-8ca4-cd2d5d2bf5ba@pqawssg2.aiopen.cfd:443?allowInsecure=1&sni=18-140-66-207.nhost.00cdn.com#16-1462-SG
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTQ2My1SRUxBWSIsImFkZCI6ImZkLnNoYWJpamljaGFuZy5jb20iLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMGMzYTNjYzgtYWZmMy00NzVjLThkOGEtODdjM2NhM2NiMzdiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoieWhuc2Iuc2hhYmlqaWNoYW5nLmNvbSIsInRscyI6IiJ9
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1N2I2Mjg0MS02MjVlLTRmYzAtYTRiNy1jZjljNTlkNjk2NWU@zxpfgo.ssplane.cn:28038#16-1464-SG
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1N2I2Mjg0MS02MjVlLTRmYzAtYTRiNy1jZjljNTlkNjk2NWU@zxpfgo.ssplane.cn:28038#16-1464-SGss%2F%2FYWVzLTEyOC1jZmI6c2hhZG93c29ja3M%40156.146.38.163443%2304-0963-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTQ2NS1OTCIsImFkZCI6IjE1Ni4yMjUuNjcuMTUzIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJhN2ZhOGYxNC00ZmI2LTQyODAtOTAwNS1kNmJiZTk5YzVkYTkiLCJhaWQiOiI2NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9wYXRoLzE2OTE2NjQxMzY4NTgiLCJob3N0Ijoid3d3Ljg0NTUwMTc5Lnh5eiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTQ2Ni1SRUxBWSIsImFkZCI6IjE5MC45My4yNDYuMjQxIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRkODA2OGRiLTVjZmItNDNhOS1iYTIzLWIxNTZhNzBmYmIwNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvQGhvcGV2MnJheSxAaG9wZXYycmF5IiwiaG9zdCI6ImdiM3ZtLmNkbi0wMy5saXZlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTQ2Ny1OTCIsImFkZCI6IjE1Ni4yMjUuNjcuMTA0IiwicG9ydCI6IjMwMDAwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjI5YTVkNDhlLTI0ZjEtNDhmZC1hNWUxLTlhNDZjYjMxMDMyZiIsImFpZCI6IjY0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTY5Njk0NDgwNjk2MSIsImhvc3QiOiJ3d3cuNDE3NTgxMTIueHl6IiwidGxzIjoiIn0=
@@ -1331,11 +1332,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1400`
+合并节点总数: `1375`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1400`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1375`
 
 
 ## 仓库声明
