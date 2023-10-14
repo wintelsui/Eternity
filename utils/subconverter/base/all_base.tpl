@@ -8,6 +8,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: 192.168.1.253:9090
 secret: 0
 redir-port: 7892
+external-ui: /opt/app/clash/clash_webs/
 
 
 dns:
@@ -56,8 +57,6 @@ sniffer:
   skip-domain:
     - 'courier.push.apple.com'
     - 'Mijia Cloud'
-external-ui: /opt/app/clash/clash_webs/
-
 
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
