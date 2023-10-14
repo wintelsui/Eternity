@@ -157,6 +157,7 @@ proxies:
   - {name: 02-0198-RELAY, server: 104.17.242.11, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0199-RELAY, server: 104.23.133.198, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0200-RELAY, server: amv.997755.xyz, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: amv.997755.xyz}}, udp: true}
+  - {name: 02-0201-RELAY, server: aab.997755.xyz, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: aab.997755.xyz}}, udp: true}
   - {name: 02-0202-RELAY, server: 104.17.48.156, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0203-RELAY, server: xuk.997755.xyz, port: 443, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: xuk.997755.xyz}}, udp: true}
   - {name: 02-0204-RELAY, server: 104.18.147.250, port: 8080, type: vmess, uuid: 5098575e-2b4e-3ed0-9054-1fe11c3f13c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -648,7 +649,6 @@ proxies:
   - {name: 04-0690-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: fa105da2-604e-4f0f-a976-4fec1b244aac, udp: true}
   - {name: 04-0691-RELAY, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}, udp: true}
   - {name: 04-0692-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: f43beeb4-8149-4ade-b2a0-1fccb00e0ed6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
-  - {name: 04-0693-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0695-FR, server: www.outline.network.ak1919.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YzQwY, udp: true}
   - {name: 04-0696-US, server: www.75409854.xyz, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}, udp: true}
   - {name: 04-0697-US, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694429908748}, udp: true}
@@ -756,7 +756,7 @@ proxies:
   - {name: 04-0799-GB, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-0800-RELAY, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0801-FR, server: 138.199.14.94, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 04-0802-US, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: bd23a31e-7a2c-4065-8ca4-cd2d5d2bf5ba, sni: "18-140-66-207.nhost.00cdn.com#16-1303-SGtrojan://xxoo@us.blazeppn.info:443?allowInsecure=1", skip-cert-verify: true, udp: true}
+  - {name: 04-0802-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 04-0803-CN, server: hefei.chiguayun.cc, port: 27137, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678, udp: true}
   - {name: 04-0804-GB, server: 51.142.185.220, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: z7paC97IiLXCohJIS91IHT, udp: true}
   - {name: 04-0805-LT, server: 212.24.103.3, port: 2053, type: trojan, password: 2228e29d-942a-4ee8-b3c0-f4a846e3f355, skip-cert-verify: true, udp: true}
@@ -1071,7 +1071,6 @@ proxies:
   - {name: 11-1118-RELAY, server: sdyg2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sdyg2.shabijichang.com}}, udp: true}
   - {name: 11-1119-RELAY, server: 104.18.202.232, port: 80, type: vmess, uuid: 0349ae50-68fc-11ee-b037-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-1120-RELAY, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
-  - {name: 11-1121-RELAY, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}, udp: true}
   - {name: 11-1122-RELAY, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}, udp: true}
   - {name: 11-1123-RELAY, server: sbl3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl3.shabijichang.com}}, udp: true}
   - {name: 11-1124-RELAY, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}, udp: true}
@@ -1418,6 +1417,7 @@ proxy-groups:
       - 02-0198-RELAY
       - 02-0199-RELAY
       - 02-0200-RELAY
+      - 02-0201-RELAY
       - 02-0202-RELAY
       - 02-0203-RELAY
       - 02-0204-RELAY
@@ -1909,7 +1909,6 @@ proxy-groups:
       - 04-0690-CN
       - 04-0691-RELAY
       - 04-0692-RELAY
-      - 04-0693-US
       - 04-0695-FR
       - 04-0696-US
       - 04-0697-US
@@ -2332,7 +2331,6 @@ proxy-groups:
       - 11-1118-RELAY
       - 11-1119-RELAY
       - 11-1120-RELAY
-      - 11-1121-RELAY
       - 11-1122-RELAY
       - 11-1123-RELAY
       - 11-1124-RELAY
