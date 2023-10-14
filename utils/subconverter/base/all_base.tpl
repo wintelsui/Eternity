@@ -6,9 +6,10 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: 192.168.1.253:9090
-{% if default(request.clash.dns, "") == "1" %}
 secret: 0
 redir-port: 7892
+{% if default(request.clash.dns, "") == "1" %}
+
 dns:
   enable: true
   ipv6: false
