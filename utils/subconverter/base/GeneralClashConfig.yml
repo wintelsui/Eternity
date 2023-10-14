@@ -10,7 +10,7 @@ port: 7890
 socks-port: 7891
 
 # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
-# redir-port: 7892
+redir-port: 7892
 
 # 允许局域网的连接（可用来共享代理）
 allow-lan: true
@@ -29,7 +29,57 @@ mode: Rule
 log-level: info
 
 # Clash 的 RESTful API
-external-controller: '127.0.0.1:9090'
+#external-controller: '127.0.0.1:9090'
+secret: 0
+redir-port: 7892
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:8053
+  default-nameserver:
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  use-hosts: true
+  fake-ip-filter:
+    - '+.*'
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+  fallback:
+    - tcp://8.8.8.8:53
+    - tcp://8.8.4.4:53
+    - tcp://208.67.222.222:443
+    - tcp://208.67.220.220:443
+    - https://dns.google/dns-query
+    - https://1.0.0.1/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.googleapis.com'
+      - '+.youtube.com'
+      - '+.appspot.com'
+      - '+.telegram.com'
+      - '+.facebook.com'
+      - '+.twitter.com'
+      - '+.blogger.com'
+      - '+.gmail.com'
+      - '+.gvt1.com'
+sniffer:
+  enable: true
+  override-destination: true
+  sniff:
+    http: {ports: [80, 8080]}
+    tls: {ports: [443, 8443]}
+  skip-domain:
+    - 'courier.push.apple.com'
+    - 'Mijia Cloud'
+external-ui: /opt/app/clash/clash_webs/
+
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
