@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 192.168.1.253:9090
 proxies:
   - {name: 02-0000-CN, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 710aeb9b-1e07-46ec-8216-3a5cd3546115, udp: true}
   - {name: 02-0001-CN, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 710aeb9b-1e07-46ec-8216-3a5cd3546115, udp: true}
