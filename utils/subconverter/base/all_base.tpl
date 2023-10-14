@@ -8,7 +8,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: 192.168.1.253:9090
 secret: 0
 redir-port: 7892
-#{% if default(request.clash.dns, "") == "1" %}
+
 
 dns:
   enable: true
@@ -58,7 +58,7 @@ sniffer:
     - 'Mijia Cloud'
 external-ui: /opt/app/clash/clash_webs/
 
-{% endif %}
+
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
