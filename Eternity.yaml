@@ -206,6 +206,7 @@ proxies:
   - {name: 02-0247-RELAY, server: 104.18.23.100, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0248-RELAY, server: sdh.369777.xyz, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: sdh.369777.xyz}}, udp: true}
   - {name: 02-0249-RELAY, server: 172.67.75.237, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
+  - {name: 02-0250-RELAY, server: lgb.369777.xyz, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: lgb.369777.xyz}}, udp: true}
   - {name: 02-0251-RELAY, server: 104.17.185.3, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0252-RELAY, server: 104.18.45.250, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0253-RELAY, server: sha.997755.xyz, port: 443, type: vmess, uuid: 8cbdcc21-b085-334a-912d-ee6fdd1e8535, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: sha.997755.xyz}}, udp: true}
@@ -1155,7 +1156,6 @@ proxies:
   - {name: 09-1204-CN, server: 61.136.232.135, port: 10803, type: trojan, password: 24c4170d-1c80-4586-8ddd-c71431ba3eb0, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 09-1205-US, server: v29.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.online}}, udp: true}
   - {name: 09-1206-GB, server: 35.179.78.37, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 09-1207-IE, server: 52.48.91.208, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1208-JP, server: 54.168.244.142, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 09-1209-JP, server: 54.168.244.142, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 09-1210-JP, server: 54.168.244.142, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
@@ -1242,7 +1242,6 @@ proxies:
   - {name: 12-1303-CN, server: mapleleaf01.linkzoones.xyz, port: 30601, type: vmess, uuid: 8b1efedf-58fd-3524-914d-bb4f2c92ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1304-JP, server: dir01.netorigins2u.site, port: 30864, type: vmess, uuid: 8b1efedf-58fd-3524-914d-bb4f2c92ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1305-JP, server: dir01.netorigins2u.site, port: 30201, type: vmess, uuid: 8b1efedf-58fd-3524-914d-bb4f2c92ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12-1306-JP, server: dir01.netorigins2u.site, port: 30101, type: vmess, uuid: 8b1efedf-58fd-3524-914d-bb4f2c92ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1307-JP, server: dir01.netorigins2u.site, port: 30501, type: vmess, uuid: 8b1efedf-58fd-3524-914d-bb4f2c92ea2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12-1308-CN, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: Gwje4tHDsu1oVPqH, udp: true}
   - {name: 12-1309-CN, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: Gwje4tHDsu1oVPqH, udp: true}
@@ -1340,7 +1339,7 @@ proxies:
   - {name: 16-1401-GOOGLE, server: sblarm.kaolll.tech, port: 80, type: vmess, uuid: 1da9d412-beb1-48cf-ac3e-ebc16403447b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}, udp: true}
   - {name: 16-1402-NL, server: 156.225.67.153, port: 443, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691664136858}, udp: true}
   - {name: 16-1403-NL, server: 156.225.67.232, port: 443, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691664136858}, udp: true}
-  - {name: 16-1405-US, server: 198.2.204.170, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691664136858}, udp: true}
+  - {name: 16-1404-SG, server: si4co.09vpn.com, port: 80, type: vmess, uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: si4co.09vpn.com}}, udp: true}
   - {name: 40-1406-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 928506:zldcSr, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 40-1407-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 928506:zldcSr, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 40-1408-CN, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 928506:zldcSr, obfs-param: download.windowsupdate.com, udp: true}
@@ -1558,6 +1557,7 @@ proxy-groups:
       - 02-0247-RELAY
       - 02-0248-RELAY
       - 02-0249-RELAY
+      - 02-0250-RELAY
       - 02-0251-RELAY
       - 02-0252-RELAY
       - 02-0253-RELAY
@@ -2507,7 +2507,6 @@ proxy-groups:
       - 09-1204-CN
       - 09-1205-US
       - 09-1206-GB
-      - 09-1207-IE
       - 09-1208-JP
       - 09-1209-JP
       - 09-1210-JP
@@ -2594,7 +2593,6 @@ proxy-groups:
       - 12-1303-CN
       - 12-1304-JP
       - 12-1305-JP
-      - 12-1306-JP
       - 12-1307-JP
       - 12-1308-CN
       - 12-1309-CN
@@ -2692,7 +2690,7 @@ proxy-groups:
       - 16-1401-GOOGLE
       - 16-1402-NL
       - 16-1403-NL
-      - 16-1405-US
+      - 16-1404-SG
       - 40-1406-CN
       - 40-1407-CN
       - 40-1408-CN
@@ -3000,7 +2998,6 @@ proxy-groups:
       - 12-1291-CN
       - 12-1296-CN
       - 12-1301-CN
-      - 12-1306-JP
       - 12-1311-CN
       - 12-1316-CN
       - 13-1321-NL
@@ -3256,7 +3253,6 @@ proxy-groups:
       - 08-1187-CN
       - 08-1192-HK
       - 09-1202-CN
-      - 09-1207-IE
       - 09-1212-SG
       - 10-1217-TW
       - 10-1222-NL
@@ -3841,6 +3837,7 @@ proxy-groups:
       - 16-1389-CN
       - 16-1394-CN
       - 16-1399-NOWHERE
+      - 16-1404-SG
       - 40-1409-CN
       - 40-1414-CN
       - 40-1419-CN
@@ -3887,6 +3884,7 @@ proxy-groups:
       - 02-0235-RELAY
       - 02-0240-RELAY
       - 02-0245-RELAY
+      - 02-0250-RELAY
       - 02-0255-RELAY
       - 02-0260-RELAY
       - 02-0265-CN
@@ -4113,7 +4111,6 @@ proxy-groups:
       - 16-1390-MY
       - 16-1395-SG
       - 16-1400-CN
-      - 16-1405-US
       - 40-1410-CN
       - 40-1415-CN
       - 40-1420-CN
