@@ -202,6 +202,7 @@ proxies:
   - {name: 02-0243-RELAY, server: 104.19.26.183, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0244-RELAY, server: fhc.997755.xyz, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: fhc.997755.xyz}}, udp: true}
   - {name: 02-0245-RELAY, server: 172.64.34.108, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
+  - {name: 02-0246-RELAY, server: shc.997755.xyz, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: shc.997755.xyz}}, udp: true}
   - {name: 02-0247-RELAY, server: 104.18.23.100, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0248-RELAY, server: sdh.369777.xyz, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: sdh.369777.xyz}}, udp: true}
   - {name: 02-0249-RELAY, server: 172.67.75.237, port: 443, type: vmess, uuid: 02678b18-f827-328e-9f7d-8557c03b1b8e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -344,7 +345,7 @@ proxies:
   - {name: 03-0386-US, server: px-002.xiaoxiaobujidao.xyz, port: 55506, type: vmess, uuid: ffbd4a77-297b-3ec8-8631-b592334aafac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/xiaodao?ed=2048", headers: {Host: px-002.xiaoxiaobujidao.xyz}}, udp: true}
   - {name: 03-0387-US, server: hk1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0388-US, server: jp1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0390-US, server: sg2-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0389-US, server: sg1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0391-US, server: us1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 75110959-c7dd-4ee5-8a51-cd0e21c3111d, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0392-RELAY, server: us1.cou.gay, port: 443, type: vmess, uuid: bd3036dd-99f7-4246-83b2-c69eaf231b8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/us1?ed=2048", headers: {Host: us1.cou.gay}}, udp: true}
   - {name: 03-0393-US, server: cf.13d7s.site, port: 443, type: vmess, uuid: bd3036dd-99f7-4246-83b2-c69eaf231b8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/us1?ed=2048", headers: {Host: cf.13d7s.site}}, udp: true}
@@ -510,7 +511,6 @@ proxies:
   - {name: 03-0553-US, server: yd.xingsu.fun, port: 80, type: vmess, uuid: 6cc1b03a-2eab-4f13-ab25-32e7622f0a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xingsu, headers: {Host: yd.xingsu.fun}}, udp: true}
   - {name: 03-0554-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 81702dcb-92f7-41cd-baf5-4119b1d18a41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 03-0555-RELAY, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: da0f8b77-01f5-43a6-a543-9a26f3f814f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}, udp: true}
-  - {name: 03-0556-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: da0f8b77-01f5-43a6-a543-9a26f3f814f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0557-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-0558-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-0559-RELAY, server: 172.64.195.161, port: 443, type: vmess, uuid: 571d39c4-d526-3419-8b67-639d34108dda, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -1451,6 +1451,7 @@ proxy-groups:
       - 02-0243-RELAY
       - 02-0244-RELAY
       - 02-0245-RELAY
+      - 02-0246-RELAY
       - 02-0247-RELAY
       - 02-0248-RELAY
       - 02-0249-RELAY
@@ -1593,7 +1594,7 @@ proxy-groups:
       - 03-0386-US
       - 03-0387-US
       - 03-0388-US
-      - 03-0390-US
+      - 03-0389-US
       - 03-0391-US
       - 03-0392-RELAY
       - 03-0393-US
@@ -1759,7 +1760,6 @@ proxy-groups:
       - 03-0553-US
       - 03-0554-SG
       - 03-0555-RELAY
-      - 03-0556-RELAY
       - 03-0557-RELAY
       - 03-0558-RELAY
       - 03-0559-RELAY
@@ -2586,6 +2586,7 @@ proxy-groups:
       - 02-0231-RELAY
       - 02-0236-RELAY
       - 02-0241-RELAY
+      - 02-0246-RELAY
       - 02-0251-RELAY
       - 02-0256-RELAY
       - 02-0261-RELAY
@@ -2647,7 +2648,6 @@ proxy-groups:
       - 03-0541-DE
       - 03-0546-RELAY
       - 03-0551-CN
-      - 03-0556-RELAY
       - 03-0561-RELAY
       - 03-0566-RELAY
       - 03-0571-RELAY
@@ -3374,6 +3374,7 @@ proxy-groups:
       - 02-0374-CN
       - 02-0379-CN
       - 03-0384-JP
+      - 03-0389-US
       - 03-0394-RELAY
       - 03-0399-RELAY
       - 03-0404-JP
@@ -3626,7 +3627,6 @@ proxy-groups:
       - 02-0375-CN
       - 02-0380-NOWHERE
       - 03-0385-JP
-      - 03-0390-US
       - 03-0395-JP
       - 03-0400-RELAY
       - 03-0405-VN
