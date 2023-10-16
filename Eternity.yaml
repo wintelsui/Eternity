@@ -218,6 +218,7 @@ proxies:
   - {name: 02-0259-RELAY, server: 104.17.242.11, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0260-RELAY, server: 104.23.133.198, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0261-RELAY, server: amv.997755.xyz, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: amv.997755.xyz}}, udp: true}
+  - {name: 02-0262-RELAY, server: aab.997755.xyz, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: aab.997755.xyz}}, udp: true}
   - {name: 02-0263-RELAY, server: 104.17.48.156, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
   - {name: 02-0264-RELAY, server: xuk.997755.xyz, port: 443, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet, headers: {Host: xuk.997755.xyz}}, udp: true}
   - {name: 02-0265-RELAY, server: 104.18.147.250, port: 8080, type: vmess, uuid: 4a472c65-c623-3e9a-9dc1-474d353faf55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wwwnet}, udp: true}
@@ -641,7 +642,6 @@ proxies:
   - {name: 04-0683-FR, server: 57.128.32.83, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0684-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
   - {name: 04-0685-DE, server: 18.153.47.169, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 04-0686-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0687-RELAY, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}, udp: true}
   - {name: 04-0688-FR, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0689-RELAY, server: 104.31.16.196, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -863,7 +863,6 @@ proxies:
   - {name: 09-0911-FR, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 09-0912-FR, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0913-FR, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: None, udp: true}
-  - {name: 09-0914-GB, server: 38.59.224.200, port: 80, type: vmess, uuid: ac0561d9-e88e-4f52-85c0-1a2192665c62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0915-FR, server: 51.195.202.124, port: 2053, type: trojan, password: bb106072-8b31-4ae8-b94d-be5c6c1b7ab4, sni: MARKETVPN1AB841.ddns.net, skip-cert-verify: true, udp: true}
   - {name: 09-0916-GB, server: 13.42.126.155, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 09-0917-NL, server: 156.245.8.130, port: 30000, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697288722266}, udp: true}
@@ -880,6 +879,7 @@ proxies:
   - {name: 09-0929-SG, server: 138.2.99.127, port: 47936, type: vmess, uuid: 62a8c6c3-1804-42cb-aab0-074ce3102145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0930-CN, server: 38.95.233.5, port: 80, type: vmess, uuid: 4c11d77a-06fb-4fe8-968c-1e3c92275a91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0931-NL, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
+  - {name: 09-0932-US, server: 172.233.194.102, port: 80, type: vmess, uuid: 29b88e63-9092-4375-a551-c4ee4702cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0933-NL, server: 45.199.138.205, port: 30000, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697288722266}, udp: true}
   - {name: 09-0934-US, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0935-US, server: 142.4.113.241, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
@@ -1249,6 +1249,7 @@ proxy-groups:
       - 02-0259-RELAY
       - 02-0260-RELAY
       - 02-0261-RELAY
+      - 02-0262-RELAY
       - 02-0263-RELAY
       - 02-0264-RELAY
       - 02-0265-RELAY
@@ -1672,7 +1673,6 @@ proxy-groups:
       - 04-0683-FR
       - 04-0684-RELAY
       - 04-0685-DE
-      - 04-0686-US
       - 04-0687-RELAY
       - 04-0688-FR
       - 04-0689-RELAY
@@ -1894,7 +1894,6 @@ proxy-groups:
       - 09-0911-FR
       - 09-0912-FR
       - 09-0913-FR
-      - 09-0914-GB
       - 09-0915-FR
       - 09-0916-GB
       - 09-0917-NL
@@ -1911,6 +1910,7 @@ proxy-groups:
       - 09-0929-SG
       - 09-0930-CN
       - 09-0931-NL
+      - 09-0932-US
       - 09-0933-NL
       - 09-0934-US
       - 09-0935-US
@@ -2238,7 +2238,6 @@ proxy-groups:
       - 04-0671-CN
       - 04-0676-CN
       - 04-0681-RELAY
-      - 04-0686-US
       - 04-0691-RELAY
       - 04-0696-RELAY
       - 04-0701-US
@@ -2364,6 +2363,7 @@ proxy-groups:
       - 02-0247-RELAY
       - 02-0252-RELAY
       - 02-0257-RELAY
+      - 02-0262-RELAY
       - 02-0267-CN
       - 02-0272-CN
       - 02-0277-GOOGLE
@@ -2496,6 +2496,7 @@ proxy-groups:
       - 09-0917-NL
       - 09-0922-JP
       - 09-0927-KR
+      - 09-0932-US
       - 09-0937-US
       - 10-0942-NL
       - 10-0947-CN
@@ -2910,7 +2911,6 @@ proxy-groups:
       - 08-0899-HK
       - 09-0904-CN
       - 09-0909-CN
-      - 09-0914-GB
       - 09-0919-IM
       - 09-0924-JP
       - 09-0929-SG
