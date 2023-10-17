@@ -220,6 +220,7 @@ proxies:
   - {name: 03-163-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: 95be64e0-c28c-42c4-8ffd-ced9b092d996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
   - {name: 03-164-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: 95be64e0-c28c-42c4-8ffd-ced9b092d996, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 03-165-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 8bb5bf5f-8136-4a3c-bf3e-de04bf4b98ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
+  - {name: 03-166-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 93f39935-131c-4f0c-8659-2ef7d2b0bd23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-167-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 03-168-RELAY, server: www.jichang.pro, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: www.jichang.pro}}, udp: true}
   - {name: 03-169-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: d875c921-9026-3650-94f0-700622a1e5d6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -430,7 +431,6 @@ proxies:
   - {name: 04-375-CN, server: n1.oubiiv.lol, port: 41981, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-376-DE, server: 3.79.249.0, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-377-US, server: 198.2.244.55, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 04-378-US, server: www.outline.network.ak1889.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
   - {name: 04-379-RELAY, server: 104.17.159.62, port: 80, type: vmess, uuid: ab53cdf0-1de3-4e68-ad56-1c47a2d2842c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-380-CN, server: us02.shawbrothersstudio.com, port: 43642, type: ss, cipher: chacha20-ietf-poly1305, password: hg9h5KpMmJLli6W6Qjd2yi, udp: true}
   - {name: 04-381-CN, server: tg_mfbpn_d4.52vpn.eu.org, port: 11006, type: trojan, password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce, sni: tg_mfbpn_d4.52vpn.eu.org, skip-cert-verify: true, udp: true}
@@ -468,6 +468,7 @@ proxies:
   - {name: 04-413-FR, server: 62.210.88.152, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-414-CN, server: n1.oubiiv.lol, port: 11325, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-415-RELAY, server: 188.114.99.29, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 04-416-US, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-417-US, server: 38.59.240.181, port: 34990, type: vmess, uuid: 9058a989-b5ba-455f-bb8b-1c0e5039b98e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-418-FR, server: 51.159.221.229, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-419-CN, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 9af5d599-a28a-4753-8e15-49fb8e7a963c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -824,7 +825,6 @@ proxies:
   - {name: 19-779-FR, server: 146.59.111.184, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-780-NL, server: 185.246.153.12, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: verRi65HGFTh76sGesh, udp: true}
   - {name: 19-781-RELAY, server: 104.20.77.131, port: 443, type: vmess, uuid: 91a4ed1f-f693-4685-a6be-f0981d6f2613, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss28885}, udp: true}
-  - {name: 19-782-CN, server: 38.95.232.241, port: 80, type: vmess, uuid: 13e7c2c4-e859-4094-844e-7ef859db683a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 19-783-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 19-784-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 19-785-JP, server: 84.17.34.108, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1092,6 +1092,7 @@ proxy-groups:
       - 03-163-RELAY
       - 03-164-CA
       - 03-165-SG
+      - 03-166-RELAY
       - 03-167-RELAY
       - 03-168-RELAY
       - 03-169-CN
@@ -1302,7 +1303,6 @@ proxy-groups:
       - 04-375-CN
       - 04-376-DE
       - 04-377-US
-      - 04-378-US
       - 04-379-RELAY
       - 04-380-CN
       - 04-381-CN
@@ -1340,6 +1340,7 @@ proxy-groups:
       - 04-413-FR
       - 04-414-CN
       - 04-415-RELAY
+      - 04-416-US
       - 04-417-US
       - 04-418-FR
       - 04-419-CN
@@ -1696,7 +1697,6 @@ proxy-groups:
       - 19-779-FR
       - 19-780-NL
       - 19-781-RELAY
-      - 19-782-CN
       - 19-783-FR
       - 19-784-FR
       - 19-785-JP
@@ -1836,6 +1836,7 @@ proxy-groups:
       - 03-151-JP
       - 03-156-RELAY
       - 03-161-RELAY
+      - 03-166-RELAY
       - 03-171-CN
       - 03-176-CN
       - 03-181-DE
@@ -1885,6 +1886,7 @@ proxy-groups:
       - 04-401-RELAY
       - 04-406-NL
       - 04-411-CN
+      - 04-416-US
       - 04-421-CN
       - 04-426-CN
       - 04-431-CN
@@ -2134,7 +2136,6 @@ proxy-groups:
       - 19-767-DE
       - 19-772-GB
       - 19-777-RELAY
-      - 19-782-CN
       - 22-787-CN
       - 22-792-CN
       - 24-797-RELAY
@@ -2232,7 +2233,6 @@ proxy-groups:
       - 04-358-CN
       - 04-363-JP
       - 04-368-RELAY
-      - 04-378-US
       - 04-383-KR
       - 04-388-SE
       - 04-393-AT
