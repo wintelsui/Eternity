@@ -930,6 +930,7 @@ proxies:
   - {name: 04-0971-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
   - {name: 04-0972-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
   - {name: 04-0973-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
+  - {name: 04-0974-RELAY, server: vps.pangchun.top, port: 443, type: vmess, uuid: 99a7f227-b79d-4d46-8e6b-e3edd78f56e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cfvmess, headers: {Host: vps.pangchun.top}}, udp: true}
   - {name: 04-0975-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 04-0976-RELAY, server: asb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}, udp: true}
   - {name: 04-0977-RELAY, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ns1.v2-vip.fun}}, udp: true}
@@ -942,7 +943,6 @@ proxies:
   - {name: 04-0984-RELAY, server: 162.159.137.9, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0985-NL, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696944806961}, udp: true}
   - {name: 04-0986-RELAY, server: db5.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db5.shabijichang.com}}, udp: true}
-  - {name: 04-0987-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0988-IE, server: 18.203.118.190, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0989-GB, server: 18.170.169.20, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0990-FR, server: 35.181.192.228, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -1046,7 +1046,6 @@ proxies:
   - {name: 04-1088-CN, server: south.steamdownload.top, port: 16102, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: south.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 04-1089-RELAY, server: api.jquery.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: api.jquery.com}}, udp: true}
   - {name: 04-1090-CN, server: n3.oubiiv.lol, port: 14687, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
-  - {name: 04-1091-GB, server: v2line.telegram.channel.1311.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2line.telegram.channel.1311.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}, udp: true}
   - {name: 04-1092-CN, server: south.steamdownload.top, port: 16105, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: south.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 04-1093-CN, server: n2.oubiiv.lol, port: 14445, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-1094-CN, server: 61.136.232.135, port: 10803, type: trojan, password: 24c4170d-1c80-4586-8ddd-c71431ba3eb0, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1101,6 +1100,7 @@ proxies:
   - {name: 04-1144-CN, server: n4.oubiiv.lol, port: 14835, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-1145-CN, server: cdn.node.user-sub.pddns-usersdk.com, port: 17002, type: vmess, uuid: 7e58a29d-ffd1-3f23-ba3b-f21b4a034efd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
   - {name: 04-1146-RELAY, server: 172.67.192.114, port: 2052, type: vmess, uuid: c94dabd2-f8e8-4021-fd57-402239ed650a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 04-1147-US, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 04-1148-FR, server: 51.159.221.203, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1149-CN, server: gg.58n.net, port: 45168, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-1150-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1446,7 +1446,7 @@ proxies:
   - {name: 25-1498-US, server: 198.2.207.118, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
   - {name: 25-1499-JP, server: kr-cdn-6273819.starnetcn.top, port: 53782, type: vmess, uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1791euidqihd, headers: {Host: kr-cdn-6273819.starnetcn.top}}, udp: true}
   - {name: 25-1500-US, server: 192.74.232.250, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
-  - {name: 25-1501-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1147-US, server: 18.139.217.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 25-1501-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0987-US, server: 18.139.217.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 28-1502-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
   - {name: 28-1503-CN, server: 183.238.202.173, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 30-1504-RELAY, server: ru2.eurodns.tk, port: 80, type: vmess, uuid: fcc57041-d742-32e5-8cbd-3c1b532381f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ru2-vpsbuy, headers: {Host: ru2.eurodns.tk}}, udp: true}
@@ -2397,6 +2397,7 @@ proxy-groups:
       - 04-0971-CN
       - 04-0972-CN
       - 04-0973-CN
+      - 04-0974-RELAY
       - 04-0975-RELAY
       - 04-0976-RELAY
       - 04-0977-RELAY
@@ -2409,7 +2410,6 @@ proxy-groups:
       - 04-0984-RELAY
       - 04-0985-NL
       - 04-0986-RELAY
-      - 04-0987-US
       - 04-0988-IE
       - 04-0989-GB
       - 04-0990-FR
@@ -2513,7 +2513,6 @@ proxy-groups:
       - 04-1088-CN
       - 04-1089-RELAY
       - 04-1090-CN
-      - 04-1091-GB
       - 04-1092-CN
       - 04-1093-CN
       - 04-1094-CN
@@ -2568,6 +2567,7 @@ proxy-groups:
       - 04-1144-CN
       - 04-1145-CN
       - 04-1146-RELAY
+      - 04-1147-US
       - 04-1148-FR
       - 04-1149-CN
       - 04-1150-CN
@@ -2913,7 +2913,7 @@ proxy-groups:
       - 25-1498-US
       - 25-1499-JP
       - 25-1500-US
-      - 25-1501-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1147-US
+      - 25-1501-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0987-US
       - 28-1502-RELAY
       - 28-1503-CN
       - 30-1504-RELAY
@@ -3191,7 +3191,6 @@ proxy-groups:
       - 04-1076-CN
       - 04-1081-ZA
       - 04-1086-CN
-      - 04-1091-GB
       - 04-1096-CN
       - 04-1101-US
       - 04-1106-CN
@@ -3271,7 +3270,7 @@ proxy-groups:
       - 24-1486-FR
       - 24-1491-FR
       - 25-1496-US
-      - 25-1501-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1147-US
+      - 25-1501-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0987-US
       - 30-1506-RELAY
       - 40-1511-CN
       - 40-1516-CN
@@ -3466,7 +3465,6 @@ proxy-groups:
       - 04-0972-CN
       - 04-0977-RELAY
       - 04-0982-RELAY
-      - 04-0987-US
       - 04-0992-IE
       - 04-0997-RELAY
       - 04-1002-RELAY
@@ -3498,6 +3496,7 @@ proxy-groups:
       - 04-1132-CN
       - 04-1137-CN
       - 04-1142-FR
+      - 04-1147-US
       - 04-1152-CN
       - 04-1157-CN
       - 04-1162-RELAY
@@ -3567,7 +3566,7 @@ proxy-groups:
       - 24-1487-RELAY
       - 24-1492-RELAY
       - 25-1497-US
-      - 25-1501-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1147-US
+      - 25-1501-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0987-US
       - 28-1502-RELAY
       - 30-1507-RELAY
       - 40-1512-CN
@@ -4056,6 +4055,7 @@ proxy-groups:
       - 04-0959-CN
       - 04-0964-CN
       - 04-0969-CN
+      - 04-0974-RELAY
       - 04-0979-RELAY
       - 04-0984-RELAY
       - 04-0989-GB
