@@ -926,6 +926,7 @@ proxies:
   - {name: 04-0967-CN, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
   - {name: 04-0968-CN, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
   - {name: 04-0969-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 4721e719-7e4e-4e0e-967d-20aac38c5ba5, udp: true}
+  - {name: 04-0970-RELAY, server: vps.pangchun.top, port: 443, type: vmess, uuid: 99a7f227-b79d-4d46-8e6b-e3edd78f56e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cfvmess, headers: {Host: vps.pangchun.top}}, udp: true}
   - {name: 04-0971-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 04-0972-RELAY, server: asb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}, udp: true}
   - {name: 04-0973-RELAY, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ns1.v2-vip.fun}}, udp: true}
@@ -938,11 +939,9 @@ proxies:
   - {name: 04-0980-RELAY, server: 162.159.137.9, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0981-NL, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696944806961}, udp: true}
   - {name: 04-0982-RELAY, server: db5.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db5.shabijichang.com}}, udp: true}
-  - {name: 04-0983-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0984-IE, server: 18.203.118.190, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0985-GB, server: 18.170.169.20, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0986-FR, server: 35.181.192.228, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 04-0987-GB, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0988-IE, server: 52.215.119.194, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0989-SE, server: 13.49.217.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0990-GB, server: 18.130.126.39, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -1097,6 +1096,7 @@ proxies:
   - {name: 04-1140-CN, server: n4.oubiiv.lol, port: 14835, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-1141-CN, server: cdn.node.user-sub.pddns-usersdk.com, port: 17002, type: vmess, uuid: 7e58a29d-ffd1-3f23-ba3b-f21b4a034efd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
   - {name: 04-1142-RELAY, server: 172.67.192.114, port: 2052, type: vmess, uuid: c94dabd2-f8e8-4021-fd57-402239ed650a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 04-1143-US, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 04-1144-FR, server: 51.159.221.203, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1145-CN, server: gg.58n.net, port: 45168, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-1146-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1442,7 +1442,7 @@ proxies:
   - {name: 25-1494-US, server: 198.2.207.118, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
   - {name: 25-1495-JP, server: kr-cdn-6273819.starnetcn.top, port: 53782, type: vmess, uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1791euidqihd, headers: {Host: kr-cdn-6273819.starnetcn.top}}, udp: true}
   - {name: 25-1496-US, server: 192.74.232.250, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1697376782879}, udp: true}
-  - {name: 25-1497-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1143-US, server: 18.139.217.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 25-1497-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0983-US, server: 18.139.217.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 28-1498-RELAY, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}, udp: true}
   - {name: 30-1499-RELAY, server: ru2.eurodns.tk, port: 80, type: vmess, uuid: fcc57041-d742-32e5-8cbd-3c1b532381f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ru2-vpsbuy, headers: {Host: ru2.eurodns.tk}}, udp: true}
   - {name: 30-1500-RELAY, server: v338.eurodns.tk, port: 80, type: vmess, uuid: fcc57041-d742-32e5-8cbd-3c1b532381f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maomao, headers: {Host: v338.eurodns.tk}}, udp: true}
@@ -2333,6 +2333,7 @@ proxy-groups:
       - 04-0967-CN
       - 04-0968-CN
       - 04-0969-CN
+      - 04-0970-RELAY
       - 04-0971-RELAY
       - 04-0972-RELAY
       - 04-0973-RELAY
@@ -2345,11 +2346,9 @@ proxy-groups:
       - 04-0980-RELAY
       - 04-0981-NL
       - 04-0982-RELAY
-      - 04-0983-US
       - 04-0984-IE
       - 04-0985-GB
       - 04-0986-FR
-      - 04-0987-GB
       - 04-0988-IE
       - 04-0989-SE
       - 04-0990-GB
@@ -2504,6 +2503,7 @@ proxy-groups:
       - 04-1140-CN
       - 04-1141-CN
       - 04-1142-RELAY
+      - 04-1143-US
       - 04-1144-FR
       - 04-1145-CN
       - 04-1146-CN
@@ -2849,7 +2849,7 @@ proxy-groups:
       - 25-1494-US
       - 25-1495-JP
       - 25-1496-US
-      - 25-1497-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1143-US
+      - 25-1497-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0983-US
       - 28-1498-RELAY
       - 30-1499-RELAY
       - 30-1500-RELAY
@@ -3335,7 +3335,6 @@ proxy-groups:
       - 04-0972-RELAY
       - 04-0977-RELAY
       - 04-0982-RELAY
-      - 04-0987-GB
       - 04-0992-FR
       - 04-0997-RELAY
       - 04-1002-NOWHERE
@@ -3435,7 +3434,7 @@ proxy-groups:
       - 24-1482-RELAY
       - 24-1487-FR
       - 25-1492-US
-      - 25-1497-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1143-US
+      - 25-1497-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0983-US
       - 30-1502-RELAY
   - name: 测速3分组
     type: url-test
@@ -3618,7 +3617,6 @@ proxy-groups:
       - 04-0968-CN
       - 04-0973-RELAY
       - 04-0978-RELAY
-      - 04-0983-US
       - 04-0988-IE
       - 04-0993-RELAY
       - 04-0998-RELAY
@@ -3650,6 +3648,7 @@ proxy-groups:
       - 04-1128-CN
       - 04-1133-CN
       - 04-1138-FR
+      - 04-1143-US
       - 04-1148-CN
       - 04-1153-CN
       - 04-1158-RELAY
@@ -3719,7 +3718,7 @@ proxy-groups:
       - 24-1483-RELAY
       - 24-1488-RELAY
       - 25-1493-US
-      - 25-1497-SGss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.38.163443#04-1143-US
+      - 25-1497-SGss//YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192443#04-0983-US
       - 28-1498-RELAY
       - 30-1503-RELAY
   - name: 测速4分组
@@ -4186,6 +4185,7 @@ proxy-groups:
       - 04-0955-CN
       - 04-0960-CN
       - 04-0965-CN
+      - 04-0970-RELAY
       - 04-0975-RELAY
       - 04-0980-RELAY
       - 04-0985-GB
