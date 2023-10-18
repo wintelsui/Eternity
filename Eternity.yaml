@@ -995,6 +995,7 @@ proxies:
   - {name: 04-1037-GB, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1038-CN, server: north.steamdownload.top, port: 16204, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: north.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 04-1039-RELAY, server: 172.64.152.228, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 04-1040-IE, server: 3.248.33.30, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-1041-IE, server: 54.217.227.111, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-1042-CN, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-1043-US, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
@@ -1254,7 +1255,6 @@ proxies:
   - {name: 09-1303-FR, server: 35.181.188.250, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1304-GB, server: 13.43.69.5, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1307-IE, server: 63.35.132.91, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 09-1308-IE, server: 108.129.38.71, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1309-JP, server: jp6.421421.xyz, port: 20230, type: trojan, password: 7a10fed2-dab0-4b5a-a111-86c9e8065053, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 09-1310-SE, server: 16.171.72.166, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1311-US, server: 54.203.21.175, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -2437,6 +2437,7 @@ proxy-groups:
       - 04-1037-GB
       - 04-1038-CN
       - 04-1039-RELAY
+      - 04-1040-IE
       - 04-1041-IE
       - 04-1042-CN
       - 04-1043-US
@@ -2696,7 +2697,6 @@ proxy-groups:
       - 09-1303-FR
       - 09-1304-GB
       - 09-1307-IE
-      - 09-1308-IE
       - 09-1309-JP
       - 09-1310-SE
       - 09-1311-US
@@ -3764,7 +3764,6 @@ proxy-groups:
       - 09-1293-CN
       - 09-1298-CN
       - 09-1303-FR
-      - 09-1308-IE
       - 10-1313-RELAY
       - 10-1318-CN
       - 11-1323-NOWHERE
@@ -4297,6 +4296,7 @@ proxy-groups:
       - 04-1025-FR
       - 04-1030-NL
       - 04-1035-FR
+      - 04-1040-IE
       - 04-1045-CN
       - 04-1050-FR
       - 04-1055-CN
