@@ -971,6 +971,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@198.244.231.26:443#04-1037-GB
     trojan://52a68d5a-a02b-4343-a321-9bee99602561@north.steamdownload.top:16204?allowInsecure=1&sni=north.steamdownload.top#04-1038-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTAzOS1SRUxBWSIsImFkZCI6IjE3Mi42NC4xNTIuMjI4IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
+    trojan://telegram-id-privatevpns@3.248.33.30:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#04-1040-IE
     trojan://telegram-id-privatevpns@54.217.227.111:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#04-1041-IE
     trojan://ba9431e2-5192-46ec-abb6-4e8614b64d85@hk.kunlun-ppg.com:10806?allowInsecure=1&sni=alibaba-node.cn#04-1042-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151:443#04-1043-US
@@ -1230,7 +1231,6 @@ Fork from TopFreeProxies.
     trojan://telegram-id-privatevpns@35.181.188.250:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1303-FR
     trojan://telegram-id-directvpn@13.43.69.5:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1304-GB
     trojan://telegram-id-directvpn@63.35.132.91:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1307-IE
-    trojan://telegram-id-privatevpns@108.129.38.71:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1308-IE
     trojan://7a10fed2-dab0-4b5a-a111-86c9e8065053@jp6.421421.xyz:20230?allowInsecure=1&sni=421421.xyz#09-1309-JP
     trojan://telegram-id-privatevpns@16.171.72.166:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1310-SE
     trojan://telegram-id-directvpn@54.203.21.175:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#09-1311-US
@@ -1468,11 +1468,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1542`
+合并节点总数: `1506`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1542`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1506`
 
 
 ## 仓库声明
