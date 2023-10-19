@@ -801,6 +801,7 @@ proxies:
   - {name: 03-0842-RELAY, server: layer1.looooooongnet.lol, port: 443, type: vmess, uuid: 664108d6-9879-419f-9bfe-ab8c4583d717, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: layer1.looooooongnet.lol}}, udp: true}
   - {name: 03-0843-GB, server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: 664108d6-9879-419f-9bfe-ab8c4583d717, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: douk.looooooongnet.lol, headers: {Host: douk.looooooongnet.lol}}, udp: true}
   - {name: 03-0844-US, server: dous.looooooongnet.lol, port: 443, type: vmess, uuid: 664108d6-9879-419f-9bfe-ab8c4583d717, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: dous.looooooongnet.lol, headers: {Host: dous.looooooongnet.lol}}, udp: true}
+  - {name: 03-0845-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: fe4923f3-6bf8-423f-8f65-ef8f157caa5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0846-US, server: 108.181.10.17, port: 80, type: vmess, uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0847-CA, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 03-0848-NO, server: 165.231.120.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -817,7 +818,6 @@ proxies:
   - {name: 04-0859-FR, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 04-0860-GB, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0861-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 04-0862-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0863-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
   - {name: 04-0864-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 04-0865-RELAY, server: 162.159.137.86, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1020,6 +1020,7 @@ proxies:
   - {name: 04-1063-RELAY, server: auth0.openai.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: auth0.openai.com}}, udp: true}
   - {name: 04-1064-RELAY, server: 104.31.16.58, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-1065-US, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 04-1066-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 04-1067-GB, server: 195.181.165.151, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1068-FR, server: 162.19.59.164, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1070-CN, server: gg.58n.net, port: 17629, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: z258.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1321,7 +1322,6 @@ proxies:
   - {name: 19-1372-GB, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1373-FR, server: 146.59.111.195, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1374-FR, server: 146.59.71.220, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 19-1375-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 19-1376-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 19-1377-RELAY, server: 104.21.11.206, port: 443, type: vmess, uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss51068}, udp: true}
   - {name: 19-1378-RELAY, server: 104.19.155.206, port: 443, type: vmess, uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss51068}, udp: true}
@@ -2118,6 +2118,7 @@ proxy-groups:
       - 03-0842-RELAY
       - 03-0843-GB
       - 03-0844-US
+      - 03-0845-RELAY
       - 03-0846-US
       - 03-0847-CA
       - 03-0848-NO
@@ -2134,7 +2135,6 @@ proxy-groups:
       - 04-0859-FR
       - 04-0860-GB
       - 04-0861-US
-      - 04-0862-US
       - 04-0863-RELAY
       - 04-0864-RELAY
       - 04-0865-RELAY
@@ -2337,6 +2337,7 @@ proxy-groups:
       - 04-1063-RELAY
       - 04-1064-RELAY
       - 04-1065-US
+      - 04-1066-US
       - 04-1067-GB
       - 04-1068-FR
       - 04-1070-CN
@@ -2638,7 +2639,6 @@ proxy-groups:
       - 19-1372-GB
       - 19-1373-FR
       - 19-1374-FR
-      - 19-1375-FR
       - 19-1376-FR
       - 19-1377-RELAY
       - 19-1378-RELAY
@@ -2886,6 +2886,7 @@ proxy-groups:
       - 04-1051-RELAY
       - 04-1056-RELAY
       - 04-1061-FR
+      - 04-1066-US
       - 04-1071-FR
       - 05-1076-CN
       - 05-1081-CN
@@ -3113,7 +3114,6 @@ proxy-groups:
       - 03-0847-CA
       - 03-0852-SG
       - 04-0857-FR
-      - 04-0862-US
       - 04-0867-RELAY
       - 04-0872-RELAY
       - 04-0877-NO
@@ -3906,6 +3906,7 @@ proxy-groups:
       - 03-0830-CN
       - 03-0835-CN
       - 03-0840-CN
+      - 03-0845-RELAY
       - 03-0850-SE
       - 03-0855-FR
       - 04-0860-GB
@@ -4011,7 +4012,6 @@ proxy-groups:
       - 19-1360-FR
       - 19-1365-FR
       - 19-1370-FR
-      - 19-1375-FR
       - 19-1380-RELAY
       - 22-1385-CN
       - 22-1390-CN
