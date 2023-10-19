@@ -185,7 +185,6 @@ proxies:
   - {name: 02-0128-US, server: pxvip101.qlgq1.pw, port: 30443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 02-0129-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 02-0130-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 02-0131-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 02-0132-US, server: svvip102.qlgq1.pw, port: 10443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 02-0133-US, server: svvip102.qlgq1.pw, port: 20443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 02-0134-US, server: svvip102.qlgq1.pw, port: 30443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -752,6 +751,7 @@ proxies:
   - {name: 03-0793-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0794-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0795-US, server: pxvip101.qlgq1.pw, port: 10443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 03-0796-US, server: pxvip101.qlgq1.pw, port: 20443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0797-US, server: pxvip101.qlgq1.pw, port: 30443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0798-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0799-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -935,6 +935,7 @@ proxies:
   - {name: 04-0978-FR, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 04-0979-FR, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 04-0980-GB, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 04-0981-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0982-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0983-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
   - {name: 04-0984-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
@@ -947,6 +948,7 @@ proxies:
   - {name: 04-0991-RELAY, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yd1.992688.xyz}}, udp: true}
   - {name: 04-0992-RELAY, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0993-GB, server: 51.89.206.18, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: WGH062UnLY4e6op5LokqdB, udp: true}
+  - {name: 04-0994-GB, server: 198.244.228.191, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0995-IT, server: 204.216.213.62, port: 21102, type: ss, cipher: chacha20-ietf-poly1305, password: b1cff6f1-5743-4515-b4e3-95c0bbe69c07, udp: true}
   - {name: 04-0996-NO, server: 46.29.238.88, port: 4432, type: ss, cipher: chacha20-ietf-poly1305, password: iZr/OIc+toNbTPYlBT8f8ltn/y5OGSrxNYu72JrWDKE=, udp: true}
   - {name: 04-0997-NL, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438}, udp: true}
@@ -993,7 +995,7 @@ proxies:
   - {name: 04-1038-CN, server: b2.oubiiv.lol, port: 32046, type: ss, cipher: chacha20-ietf-poly1305, password: 8d9efee6-05d2-42e1-8485-79b6f4351b25, udp: true}
   - {name: 04-1039-DE, server: 5.199.143.230, port: 443, type: trojan, password: 517ccb0754, sni: de1.connecton.surf, skip-cert-verify: true, udp: true}
   - {name: 04-1040-FR, server: 51.158.200.76, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 04-1041-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 04-1041-US, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: e9480e40-67db-3bd0-a08b-e96ca4254464, sni: "hkvip103.qlgq1.pw#03-0822-HKtrojan://xxoo@us.blazeppn.info:443?allowInsecure=1", skip-cert-verify: true, udp: true}
   - {name: 04-1042-GB, server: 198.244.231.74, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1043-NL, server: 51.158.202.175, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-1044-CN, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 1c06fc31-518b-44ad-9db3-69818c8dbec6, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1270,7 +1272,7 @@ proxies:
   - {name: 09-1321-GB, server: 13.42.70.24, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 09-1322-GB, server: 51.38.65.155, port: 443, type: trojan, password: 9e942c10-6d5f-11ee-8a80-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 09-1325-IE, server: 34.246.17.155, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 09-1326-IE, server: 34.249.47.153, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: 09-1326-IE, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 51acbf66-4d25-396f-8a56-63f9a51a178d, sni: "lavip101.qlgq1.pw#02-0131-UStrojan://telegram-id-privatevpns@34.249.47.153:22222?allowInsecure=1", skip-cert-verify: true, udp: true}
   - {name: 09-1327-IE, server: 34.240.21.228, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1328-SE, server: 13.51.192.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-1329-SE, server: 16.171.86.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
@@ -1559,7 +1561,6 @@ proxy-groups:
       - 02-0128-US
       - 02-0129-US
       - 02-0130-US
-      - 02-0131-US
       - 02-0132-US
       - 02-0133-US
       - 02-0134-US
@@ -2126,6 +2127,7 @@ proxy-groups:
       - 03-0793-JP
       - 03-0794-JP
       - 03-0795-US
+      - 03-0796-US
       - 03-0797-US
       - 03-0798-US
       - 03-0799-US
@@ -2309,6 +2311,7 @@ proxy-groups:
       - 04-0978-FR
       - 04-0979-FR
       - 04-0980-GB
+      - 04-0981-US
       - 04-0982-US
       - 04-0983-RELAY
       - 04-0984-RELAY
@@ -2321,6 +2324,7 @@ proxy-groups:
       - 04-0991-RELAY
       - 04-0992-RELAY
       - 04-0993-GB
+      - 04-0994-GB
       - 04-0995-IT
       - 04-0996-NO
       - 04-0997-NL
@@ -2833,7 +2837,6 @@ proxy-groups:
       - 02-0116-SG
       - 02-0121-JP
       - 02-0126-US
-      - 02-0131-US
       - 02-0136-US
       - 02-0141-GB
       - 02-0146-HK
@@ -2946,6 +2949,7 @@ proxy-groups:
       - 03-0781-DE
       - 03-0786-SG
       - 03-0791-JP
+      - 03-0796-US
       - 03-0801-US
       - 03-0806-GB
       - 03-0811-AE
@@ -2982,6 +2986,7 @@ proxy-groups:
       - 04-0966-CN
       - 04-0971-CN
       - 04-0976-FR
+      - 04-0981-US
       - 04-0986-RELAY
       - 04-0991-RELAY
       - 04-0996-NO
@@ -3820,6 +3825,7 @@ proxy-groups:
       - 04-0979-FR
       - 04-0984-RELAY
       - 04-0989-RELAY
+      - 04-0994-GB
       - 04-0999-SG
       - 04-1004-IE
       - 04-1009-NOWHERE
