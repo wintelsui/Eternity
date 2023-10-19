@@ -836,6 +836,7 @@ proxies:
   - {name: 04-0877-FR, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 04-0878-GB, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0879-US, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 04-0880-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0881-RELAY, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: singapore.com}}, udp: true}
   - {name: 04-0882-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 04-0883-RELAY, server: 162.159.137.86, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -928,7 +929,6 @@ proxies:
   - {name: 04-0970-CN, server: gg.58n.net, port: 20076, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0971-RELAY, server: go.gujuji.top, port: 8080, type: vmess, uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.gujuji.top}}, udp: true}
   - {name: 04-0972-RELAY, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
-  - {name: 04-0973-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0974-HK, server: 103.48.169.166, port: 57754, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vm?ed=2048"}, udp: true}
   - {name: 04-0975-RELAY, server: x.36d.gay, port: 2052, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: x.36d.gay}}, udp: true}
   - {name: 04-0976-RELAY, server: 2606:4700:8d79:b18f:77e3:9f5f:10cb:b654, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -2147,6 +2147,7 @@ proxy-groups:
       - 04-0877-FR
       - 04-0878-GB
       - 04-0879-US
+      - 04-0880-US
       - 04-0881-RELAY
       - 04-0882-RELAY
       - 04-0883-RELAY
@@ -2239,7 +2240,6 @@ proxy-groups:
       - 04-0970-CN
       - 04-0971-RELAY
       - 04-0972-RELAY
-      - 04-0973-US
       - 04-0974-HK
       - 04-0975-RELAY
       - 04-0976-RELAY
@@ -3386,7 +3386,6 @@ proxy-groups:
       - 04-0958-CN
       - 04-0963-CN
       - 04-0968-FR
-      - 04-0973-US
       - 04-0978-CN
       - 04-0983-ES
       - 04-0988-RELAY
@@ -3899,6 +3898,7 @@ proxy-groups:
       - 04-0865-NOWHERE
       - 04-0870-NOWHERE
       - 04-0875-FR
+      - 04-0880-US
       - 04-0885-RELAY
       - 04-0890-RELAY
       - 04-0895-NO
