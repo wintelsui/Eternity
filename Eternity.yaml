@@ -422,7 +422,6 @@ proxies:
   - {name: 04-0366-RELAY, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}, udp: true}
   - {name: 04-0367-RELAY, server: 104.26.10.141, port: 2053, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0368-CN, server: gg.58n.net, port: 20059, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 04-0369-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0370-CZ, server: 143.244.58.102, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0371-UA, server: 194.38.23.137, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: NeVavl43FD6DgFoim7S6HGks, udp: true}
   - {name: 04-0372-JP, server: 84.17.34.108, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -963,7 +962,7 @@ proxies:
   - {name: 40-0914-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: 260da6e7-906d-4a2e-bd45-bc8025a8009d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 40-0915-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: 260da6e7-906d-4a2e-bd45-bc8025a8009d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 40-0916-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: 260da6e7-906d-4a2e-bd45-bc8025a8009d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
-  - {name: 40-0917-CA, server: zf.zsr-seoul2.661145.xyz, port: 31162, type: trojan, password: 38e30d36-defb-464a-80c8-514cca56b152, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 40-0917-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: 260da6e7-906d-4a2e-bd45-bc8025a8009d, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 40-0918-CN, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 3d2afabb-ea3b-44e8-91a3-cee399bb02b5, udp: true}
   - {name: 40-0919-CN, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 3d2afabb-ea3b-44e8-91a3-cee399bb02b5, udp: true}
   - {name: 40-0920-CN, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 3d2afabb-ea3b-44e8-91a3-cee399bb02b5, udp: true}
@@ -1800,7 +1799,6 @@ proxy-groups:
       - 04-0366-RELAY
       - 04-0367-RELAY
       - 04-0368-CN
-      - 04-0369-US
       - 04-0370-CZ
       - 04-0371-UA
       - 04-0372-JP
@@ -3722,7 +3720,6 @@ proxy-groups:
       - 04-0354-DE
       - 04-0359-CN
       - 04-0364-CN
-      - 04-0369-US
       - 04-0374-NOWHERE
       - 04-0379-JP
       - 04-0384-US
