@@ -285,6 +285,7 @@ proxies:
   - {name: 03-0228-RELAY, server: layer1.looooooongnet.lol, port: 443, type: vmess, uuid: ba3fb912-8b6c-4682-ae84-5585e67036f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: layer1.looooooongnet.lol}}, udp: true}
   - {name: 03-0229-GB, server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: ba3fb912-8b6c-4682-ae84-5585e67036f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: douk.looooooongnet.lol, headers: {Host: douk.looooooongnet.lol}}, udp: true}
   - {name: 03-0230-US, server: dous.looooooongnet.lol, port: 443, type: vmess, uuid: ba3fb912-8b6c-4682-ae84-5585e67036f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: dous.looooooongnet.lol, headers: {Host: dous.looooooongnet.lol}}, udp: true}
+  - {name: 03-0231-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: f881124f-9a2f-40a1-8f0d-aaa510197738, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0232-CA, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 03-0233-NO, server: 165.231.120.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 03-0234-FR, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -419,7 +420,6 @@ proxies:
   - {name: 04-0363-RELAY, server: 104.21.36.26, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0364-GB, server: 198.244.231.27, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0365-AU, server: au.doushimeng.com, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: ddc398d8-bcd3-4523-a2b0-3fad2464ece8, udp: true}
-  - {name: 04-0366-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0367-GB, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0368-CN, server: gg.58n.net, port: 17806, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0369-IR, server: unlimited1.mamaanderson.com, port: 26295, type: vmess, uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: unlimited1.mamaanderson.com}}, udp: true}
@@ -465,6 +465,7 @@ proxies:
   - {name: 04-0410-NL, server: 45.155.249.151, port: 80, type: vmess, uuid: 9d5e69d2-46cf-4865-95fe-a2ee8c52a013, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0411-FR, server: 51.158.54.207, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0412-PR, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 04-0413-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0414-RELAY, server: 172.67.159.72, port: 80, type: vmess, uuid: 9276a391-5372-4ebf-8f72-020033569e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0415-KR, server: 13.125.176.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 04-0416-SG, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -473,7 +474,6 @@ proxies:
   - {name: 04-0419-FR, server: 51.159.222.35, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0420-IE, server: 54.171.18.118, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0421-DE, server: 3.79.138.121, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 04-0422-GB, server: 51.104.194.81, port: 51000, type: ss, cipher: chacha20-ietf-poly1305, password: MYC2rdkydCyYksvKb2QvLK, udp: true}
   - {name: 04-0423-RELAY, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 28645c6e-8ad9-44c0-8ecd-d76f8a285262, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=11932", headers: {Host: fd.shabijichang.com}}, udp: true}
   - {name: 04-0424-CN, server: 183.213.200.225, port: 28154, type: trojan, password: Mdb811a0, sni: www.icloud.com, skip-cert-verify: true, udp: true}
   - {name: 04-0425-CN, server: gg.58n.net, port: 20130, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
@@ -1730,6 +1730,7 @@ proxy-groups:
       - 03-0228-RELAY
       - 03-0229-GB
       - 03-0230-US
+      - 03-0231-RELAY
       - 03-0232-CA
       - 03-0233-NO
       - 03-0234-FR
@@ -1864,7 +1865,6 @@ proxy-groups:
       - 04-0363-RELAY
       - 04-0364-GB
       - 04-0365-AU
-      - 04-0366-US
       - 04-0367-GB
       - 04-0368-CN
       - 04-0369-IR
@@ -1910,6 +1910,7 @@ proxy-groups:
       - 04-0410-NL
       - 04-0411-FR
       - 04-0412-PR
+      - 04-0413-US
       - 04-0414-RELAY
       - 04-0415-KR
       - 04-0416-SG
@@ -1918,7 +1919,6 @@ proxy-groups:
       - 04-0419-FR
       - 04-0420-IE
       - 04-0421-DE
-      - 04-0422-GB
       - 04-0423-RELAY
       - 04-0424-CN
       - 04-0425-CN
@@ -2995,6 +2995,7 @@ proxy-groups:
       - 03-0216-CN
       - 03-0221-CN
       - 03-0226-CN
+      - 03-0231-RELAY
       - 03-0236-FR
       - 03-0241-SG
       - 04-0246-FR
@@ -3021,7 +3022,6 @@ proxy-groups:
       - 04-0351-GB
       - 04-0356-GB
       - 04-0361-RELAY
-      - 04-0366-US
       - 04-0371-CN
       - 04-0376-CN
       - 04-0381-CN
@@ -3326,7 +3326,6 @@ proxy-groups:
       - 04-0407-CN
       - 04-0412-PR
       - 04-0417-CN
-      - 04-0422-GB
       - 04-0427-RELAY
       - 04-0432-CN
       - 04-0437-CN
@@ -3615,6 +3614,7 @@ proxy-groups:
       - 04-0398-RELAY
       - 04-0403-CN
       - 04-0408-US
+      - 04-0413-US
       - 04-0418-KE
       - 04-0423-RELAY
       - 04-0428-FR
