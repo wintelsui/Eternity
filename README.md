@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1465`
+高速节点数量: `1464`
 <details>
   <summary>展开复制节点</summary>
 
@@ -1151,7 +1151,6 @@ Fork from TopFreeProxies.
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@lavip101.qlgq1.pw:20443?allowInsecure=1&sni=lavip101.qlgq1.pw#40-1132-US
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@lavip101.qlgq1.pw:30443?allowInsecure=1&sni=lavip101.qlgq1.pw#40-1133-US
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@svvip102.qlgq1.pw:10443?allowInsecure=1&sni=svvip102.qlgq1.pw#40-1134-US
-    trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@svvip102.qlgq1.pw:20443?allowInsecure=1&sni=svvip102.qlgq1.pw#40-1135-US
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@svvip102.qlgq1.pw:30443?allowInsecure=1&sni=svvip102.qlgq1.pw#40-1136-US
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@svvip102.qlgq1.pw:40443?allowInsecure=1&sni=svvip102.qlgq1.pw#40-1137-US
     trojan://54c1eb2c-173e-3288-aad1-1eb632a3fa1d@svvip102.qlgq1.pw:50443?allowInsecure=1&sni=svvip102.qlgq1.pw#40-1138-US
@@ -1500,11 +1499,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1576`
+合并节点总数: `1575`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1576`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1575`
 
 
 ## 仓库声明
