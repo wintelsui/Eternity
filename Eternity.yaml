@@ -144,6 +144,7 @@ proxies:
   - {name: 03-0087-CN, server: tw.nodegroups.ink, port: 33221, type: vmess, uuid: 2752530e-4db9-39e3-9052-0ea3326e29f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0088-CN, server: hk.nodegroups.ink, port: 49001, type: vmess, uuid: 2752530e-4db9-39e3-9052-0ea3326e29f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0089-CN, server: 111.47.212.12, port: 59500, type: vmess, uuid: b4989548-df52-4423-a969-8b9d8f8674d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 03-0090-JP, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 35231d05-6f0a-42be-9ea6-8bba09929ef4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 03-0091-CN, server: gg.58n.net, port: 20301, type: trojan, password: 5d62fb0a-20ff-33fd-aa15-60b489dbb8b8, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 03-0092-CN, server: gg.58n.net, port: 17629, type: trojan, password: 5d62fb0a-20ff-33fd-aa15-60b489dbb8b8, sni: z258.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 03-0093-CN, server: gg.58n.net, port: 28678, type: trojan, password: 5d62fb0a-20ff-33fd-aa15-60b489dbb8b8, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -432,7 +433,7 @@ proxies:
   - {name: 04-0376-CN, server: gg.58n.net, port: 20130, type: trojan, password: f504fd96-a098-3861-bafe-13ba6080f9a5, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0377-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0378-IE, server: 99.81.96.61, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 04-0379-IE, server: US.Sanjose1.zhoushuren.top, port: 35632, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 04-0379-IE, server: 54.74.11.198, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0380-SE, server: 13.51.153.96, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 04-0381-DE, server: 3.71.92.131, port: 33108, type: ss, cipher: chacha20-ietf-poly1305, password: Wc9mwaXoVeyznoAXxvaxok, udp: true}
   - {name: 04-0382-RELAY, server: cloudconebbb.gorgorchicken.one, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudconebbb.gorgorchicken.one}}, udp: true}
@@ -676,7 +677,7 @@ proxies:
   - {name: 10-0628-RELAY, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 10-0629-RELAY, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}, udp: true}
   - {name: 10-0630-RELAY, server: hdlb3.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hdlb3.shabijichang.com}}, udp: true}
-  - {name: 11-0632-IE, server: 54.76.165.95, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 11-0632-IE, server: US.Sanjose1.zhoushuren.top, port: 35632, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 11-0633-RELAY, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 11-0634-US, server: 54.186.250.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 11-0635-RELAY, server: 104.16.181.135, port: 2052, type: vmess, uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1388,7 +1389,6 @@ proxies:
   - {name: 40-1440-KR, server: zf.zsr-seoul.661145.xyz, port: 44742, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: a.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1441-KR, server: zf.zsr-seoul.661145.xyz, port: 25972, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: b.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1442-KR, server: zf.zsr-seoul2.661145.xyz, port: 43804, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: c.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 40-1443-KR, server: zf.zsr-seoul2.661145.xyz, port: 31162, type: trojan, password: af3ed50f-40c7-4bff-ab28-e1305bb3fa13, sni: d.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1444-NOWHERE, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce459ff-a3de-4dd9-b93d-d692aeb3070f, udp: true}
   - {name: 40-1445-RELAY, server: welfare.kk-proxy.pro, port: 443, type: vmess, uuid: 9ce459ff-a3de-4dd9-b93d-d692aeb3070f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ec3a017507e0/, headers: {Host: welfare.kk-proxy.pro}}, udp: true}
   - {name: 40-1446-CN, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: e7c3de68-cf9c-4910-bbd4-472354f7d121, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -1545,6 +1545,7 @@ proxy-groups:
       - 03-0087-CN
       - 03-0088-CN
       - 03-0089-CN
+      - 03-0090-JP
       - 03-0091-CN
       - 03-0092-CN
       - 03-0093-CN
@@ -2789,7 +2790,6 @@ proxy-groups:
       - 40-1440-KR
       - 40-1441-KR
       - 40-1442-KR
-      - 40-1443-KR
       - 40-1444-NOWHERE
       - 40-1445-RELAY
       - 40-1446-CN
@@ -3695,7 +3695,6 @@ proxy-groups:
       - 40-1428-KR
       - 40-1433-KR
       - 40-1438-KR
-      - 40-1443-KR
       - 40-1448-CN
       - 40-1453-CN
       - 40-1458-CN
@@ -4013,6 +4012,7 @@ proxy-groups:
       - 03-0075-CN
       - 03-0080-CN
       - 03-0085-CN
+      - 03-0090-JP
       - 03-0095-CN
       - 03-0100-CN
       - 03-0105-CN
