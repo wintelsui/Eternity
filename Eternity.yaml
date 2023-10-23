@@ -91,6 +91,7 @@ proxies:
   - {name: 03-0034-RELAY, server: jp1.cou.gay, port: 443, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/jp1?ed=2048", headers: {Host: jp1.cou.gay}}, udp: true}
   - {name: 03-0035-RELAY, server: cfip.gay, port: 443, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/jp1?ed=2048", headers: {Host: cfip.gay}}, udp: true}
   - {name: 03-0036-NOWHERE, server: 443.cf.bestl.de, port: 443, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/jp1?ed=2048", headers: {Host: 443.cf.bestl.de}}, udp: true}
+  - {name: 03-0037-US, server: 108.181.113.100, port: 20070, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0038-JP, server: ora-jp5.cou.gay, port: 20402, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0039-KR, server: ora-kr4.cou.gay, port: 24602, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0040-SG, server: ora-sg4.cou.gay, port: 23502, type: vmess, uuid: edc2025e-cf29-42ff-a3ff-5ce463cc6865, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -264,7 +265,6 @@ proxies:
   - {name: 03-0208-RELAY, server: layer1.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: layer1.looooooongnet.lol}}, udp: true}
   - {name: 03-0209-GB, server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: douk.looooooongnet.lol, headers: {Host: douk.looooooongnet.lol}}, udp: true}
   - {name: 03-0210-US, server: dous.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: dous.looooooongnet.lol, headers: {Host: dous.looooooongnet.lol}}, udp: true}
-  - {name: 03-0211-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 6931a025-3720-4908-b97f-3de04e2c8942, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0212-CA, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 03-0213-FR, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 03-0214-GB, server: 3.11.11.241, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
@@ -494,6 +494,7 @@ proxies:
   - {name: 04-0438-CN, server: south.steamdownload.top, port: 16105, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: south.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 04-0439-RELAY, server: 104.31.16.14, port: 443, type: vmess, uuid: b2e52930-6c4e-11ee-b334-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@hopev2ray}, udp: true}
   - {name: 04-0440-CN, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: 83f57eb7-6608-43c8-ba0b-b75d311943ba, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 04-0441-GB, server: 51.104.194.81, port: 51000, type: ss, cipher: chacha20-ietf-poly1305, password: MYC2rdkydCyYksvKb2QvLK, udp: true}
   - {name: 04-0442-US, server: 198.2.244.22, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0444-US, server: 38.54.167.230, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0445-CN, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -507,7 +508,6 @@ proxies:
   - {name: 04-0453-RELAY, server: 172.67.159.72, port: 80, type: vmess, uuid: 9276a391-5372-4ebf-8f72-020033569e52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0454-US, server: 142.4.98.225, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-0455-FR, server: 51.158.200.65, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 04-0456-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 04-0457-CN, server: tg_mfbpn_d4.52vpn.eu.org, port: 11007, type: trojan, password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce, sni: tg_mfbpn_d4.52vpn.eu.org, skip-cert-verify: true, udp: true}
   - {name: 04-0458-CN, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: f507a7d1-ecf8-4936-809d-4b3047e4db6e, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 04-0459-RELAY, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: waynn.makeup}}, udp: true}
@@ -1132,6 +1132,7 @@ proxies:
   - {name: 40-1087-US, server: pxvip101.qlgq1.pw, port: 30443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 40-1088-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 40-1089-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 40-1090-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 40-1091-US, server: svvip102.qlgq1.pw, port: 10443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 40-1092-US, server: svvip102.qlgq1.pw, port: 20443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 40-1093-US, server: svvip102.qlgq1.pw, port: 30443, type: trojan, password: 2f6907cb-c720-339f-a294-17b4241f7dfe, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -1419,7 +1420,6 @@ proxies:
   - {name: 40-1473-KR, server: zf.zsr-seoul2.661145.xyz, port: 40008, type: vmess, uuid: 23143d74-f5eb-4b24-9cd4-af5247680625, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vchghd43565hfdfsd, headers: {Host: zf.zsr-seoul2.661145.xyz}}, udp: true}
   - {name: 40-1474-KR, server: zf.zsr-seoul.661145.xyz, port: 26740, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: 1.ndy588502.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1475-KR, server: zf.zsr-seoul.661145.xyz, port: 24594, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: 1.ca58851.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 40-1476-US, server: US.Sanjose1.zhoushuren.top, port: 35632, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: US.Sanjose1.zhoushuren.top, skip-cert-verify: true, udp: true}
   - {name: 40-1477-KR, server: zf.zsr-seoul.661145.xyz, port: 53647, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: zhengjjs.588500.xyz, skip-cert-verify: true, udp: true}
   - {name: 40-1478-TW, server: zsr.tw.hinet.661145.xyz, port: 42593, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: mf9.zhoushuren.me, skip-cert-verify: true, udp: true}
   - {name: 40-1479-KR, server: zf.zsr-seoul.661145.xyz, port: 58351, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: 1.zhudaidaohang.com, skip-cert-verify: true, udp: true}
@@ -1440,7 +1440,6 @@ proxies:
   - {name: 40-1494-KR, server: zf.zsr-seoul.661145.xyz, port: 44742, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: a.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1495-KR, server: zf.zsr-seoul.661145.xyz, port: 25972, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: b.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1496-KR, server: zf.zsr-seoul2.661145.xyz, port: 43804, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: c.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 40-1497-KR, server: zf.zsr-seoul2.661145.xyz, port: 31162, type: trojan, password: 23143d74-f5eb-4b24-9cd4-af5247680625, sni: d.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1498-NOWHERE, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce459ff-a3de-4dd9-b93d-d692aeb3070f, udp: true}
   - {name: 40-1499-RELAY, server: welfare.kk-proxy.pro, port: 443, type: vmess, uuid: 9ce459ff-a3de-4dd9-b93d-d692aeb3070f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ec3a017507e0/, headers: {Host: welfare.kk-proxy.pro}}, udp: true}
   - {name: 40-1500-CN, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: cca7b36f-092e-405f-adff-93c37e9ff49c, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -1544,6 +1543,7 @@ proxy-groups:
       - 03-0034-RELAY
       - 03-0035-RELAY
       - 03-0036-NOWHERE
+      - 03-0037-US
       - 03-0038-JP
       - 03-0039-KR
       - 03-0040-SG
@@ -1717,7 +1717,6 @@ proxy-groups:
       - 03-0208-RELAY
       - 03-0209-GB
       - 03-0210-US
-      - 03-0211-RELAY
       - 03-0212-CA
       - 03-0213-FR
       - 03-0214-GB
@@ -1947,6 +1946,7 @@ proxy-groups:
       - 04-0438-CN
       - 04-0439-RELAY
       - 04-0440-CN
+      - 04-0441-GB
       - 04-0442-US
       - 04-0444-US
       - 04-0445-CN
@@ -1960,7 +1960,6 @@ proxy-groups:
       - 04-0453-RELAY
       - 04-0454-US
       - 04-0455-FR
-      - 04-0456-US
       - 04-0457-CN
       - 04-0458-CN
       - 04-0459-RELAY
@@ -2585,6 +2584,7 @@ proxy-groups:
       - 40-1087-US
       - 40-1088-US
       - 40-1089-US
+      - 40-1090-US
       - 40-1091-US
       - 40-1092-US
       - 40-1093-US
@@ -2872,7 +2872,6 @@ proxy-groups:
       - 40-1473-KR
       - 40-1474-KR
       - 40-1475-KR
-      - 40-1476-US
       - 40-1477-KR
       - 40-1478-TW
       - 40-1479-KR
@@ -2893,7 +2892,6 @@ proxy-groups:
       - 40-1494-KR
       - 40-1495-KR
       - 40-1496-KR
-      - 40-1497-KR
       - 40-1498-NOWHERE
       - 40-1499-RELAY
       - 40-1500-CN
@@ -3007,7 +3005,6 @@ proxy-groups:
       - 03-0196-CN
       - 03-0201-CN
       - 03-0206-CN
-      - 03-0211-RELAY
       - 03-0216-NL
       - 03-0221-SE
       - 04-0226-CN
@@ -3053,9 +3050,9 @@ proxy-groups:
       - 04-0426-US
       - 04-0431-HK
       - 04-0436-US
+      - 04-0441-GB
       - 04-0446-US
       - 04-0451-FR
-      - 04-0456-US
       - 04-0461-CH
       - 04-0466-FR
       - 04-0471-CN
@@ -3236,7 +3233,6 @@ proxy-groups:
       - 40-1461-KR
       - 40-1466-IN
       - 40-1471-KR
-      - 40-1476-US
       - 40-1481-KR
       - 40-1486-KR
       - 40-1491-KR
@@ -3264,6 +3260,7 @@ proxy-groups:
       - 03-0022-US
       - 03-0027-RELAY
       - 03-0032-RELAY
+      - 03-0037-US
       - 03-0042-RELAY
       - 03-0047-RELAY
       - 03-0052-RELAY
@@ -3534,7 +3531,6 @@ proxy-groups:
       - 40-1482-KR
       - 40-1487-KR
       - 40-1492-KR
-      - 40-1497-KR
       - 40-1502-CN
       - 40-1507-CN
       - 40-1512-CN
@@ -4356,6 +4352,7 @@ proxy-groups:
       - 40-1075-SG
       - 40-1080-JP
       - 40-1085-US
+      - 40-1090-US
       - 40-1095-US
       - 40-1100-GB
       - 40-1105-HK
