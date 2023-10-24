@@ -216,6 +216,7 @@ proxies:
   - {name: 03-0159-DE, server: fkvip101.qlgq1.pw, port: 40443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0160-DE, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0161-SG, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 03-0162-SG, server: sgvip101.qlgq1.pw, port: 20443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0163-SG, server: sgvip101.qlgq1.pw, port: 30443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0164-SG, server: sgvip101.qlgq1.pw, port: 40443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0165-SG, server: sgvip101.qlgq1.pw, port: 50443, type: trojan, password: 8bb2fab3-d717-3671-b08f-fa6fb7ede970, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -1395,7 +1396,6 @@ proxies:
   - {name: 40-1449-KR, server: zf.zsr-seoul.661145.xyz, port: 44742, type: trojan, password: f43749cf-309a-4c74-9c7d-9f7ec1eea041, sni: a.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1450-KR, server: zf.zsr-seoul.661145.xyz, port: 25972, type: trojan, password: f43749cf-309a-4c74-9c7d-9f7ec1eea041, sni: b.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1451-KR, server: zf.zsr-seoul2.661145.xyz, port: 43804, type: trojan, password: f43749cf-309a-4c74-9c7d-9f7ec1eea041, sni: c.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 40-1452-KR, server: zf.zsr-seoul2.661145.xyz, port: 31162, type: trojan, password: f43749cf-309a-4c74-9c7d-9f7ec1eea041, sni: d.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1453-CN, server: ep.superjj.cc, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
   - {name: 40-1454-CN, server: ep.superjj.cc, port: 50011, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
   - {name: 40-1455-CN, server: ep.superjj.cc, port: 50021, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
@@ -1629,6 +1629,7 @@ proxy-groups:
       - 03-0159-DE
       - 03-0160-DE
       - 03-0161-SG
+      - 03-0162-SG
       - 03-0163-SG
       - 03-0164-SG
       - 03-0165-SG
@@ -2808,7 +2809,6 @@ proxy-groups:
       - 40-1449-KR
       - 40-1450-KR
       - 40-1451-KR
-      - 40-1452-KR
       - 40-1453-CN
       - 40-1454-CN
       - 40-1455-CN
@@ -3203,6 +3203,7 @@ proxy-groups:
       - 03-0147-CN
       - 03-0152-VN
       - 03-0157-DE
+      - 03-0162-SG
       - 03-0167-JP
       - 03-0172-US
       - 03-0177-US
@@ -3436,7 +3437,6 @@ proxy-groups:
       - 40-1437-KR
       - 40-1442-KR
       - 40-1447-KR
-      - 40-1452-KR
       - 40-1457-CN
       - 40-1462-CN
       - 40-1467-CN
