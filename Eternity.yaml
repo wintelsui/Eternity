@@ -265,6 +265,7 @@ proxies:
   - {name: 03-0208-RELAY, server: layer1.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: layer1.looooooongnet.lol}}, udp: true}
   - {name: 03-0209-GB, server: douk.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: douk.looooooongnet.lol, headers: {Host: douk.looooooongnet.lol}}, udp: true}
   - {name: 03-0210-US, server: dous.looooooongnet.lol, port: 443, type: vmess, uuid: 2a69ddca-fba0-4376-a041-35d596d9842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: dous.looooooongnet.lol, headers: {Host: dous.looooooongnet.lol}}, udp: true}
+  - {name: 03-0211-RELAY, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: ce6d6e65-b348-41fe-92cf-012014c6fbb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}, udp: true}
   - {name: 03-0212-RELAY, server: 172.67.173.71, port: 2052, type: vmess, uuid: b63efdd5-bdb8-4eb4-f918-9846cd7321e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0213-CA, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 03-0214-FR, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -935,6 +936,7 @@ proxies:
   - {name: 40-0888-RELAY, server: 104.21.34.30, port: 80, type: vmess, uuid: d34e42da-eb59-45fd-951f-c1bb9c9cc018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 40-0889-PH, server: nph-1.biyaoshidian.top, port: 443, type: vmess, uuid: 30d3af59-cc1e-3fca-9148-de8822ede869, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nph-1.biyaoshidian.top}}, udp: true}
   - {name: 40-0890-PH, server: ph-2.biyaoshidian.top, port: 443, type: vmess, uuid: 30d3af59-cc1e-3fca-9148-de8822ede869, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: ph-2.biyaoshidian.top}}, udp: true}
+  - {name: 40-0891-HK, server: nhk-2.biyaoshidian.top, port: 443, type: vmess, uuid: 30d3af59-cc1e-3fca-9148-de8822ede869, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.biyaoshidian.top}}, udp: true}
   - {name: 40-0892-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 5a28c137-9472-4404-b4a8-2bb328bbe3d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 40-0893-GOOGLE, server: tw1.pay.edu.kg, port: 443, type: vmess, uuid: 5a28c137-9472-4404-b4a8-2bb328bbe3d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.pay.edu.kg}}, udp: true}
   - {name: 40-0894-GOOGLE, server: tw2.pay.edu.kg, port: 443, type: vmess, uuid: 5a28c137-9472-4404-b4a8-2bb328bbe3d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw2.pay.edu.kg}}, udp: true}
@@ -1180,7 +1182,6 @@ proxies:
   - {name: 40-1233-CN, server: jp1.susenl.com, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: 3Wj1TmpN2A36jj6r, udp: true}
   - {name: 40-1234-RELAY, server: go.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.gujuji.top}}, udp: true}
   - {name: 40-1235-RELAY, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: 40-1236-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
   - {name: 40-1237-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 40-1238-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
   - {name: 40-1239-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
@@ -1353,7 +1354,6 @@ proxies:
   - {name: 40-1406-KR, server: zf.zsr-seoul.661145.xyz, port: 44742, type: trojan, password: 75d074ff-b7e4-4dd0-9b5d-66bc986290ab, sni: a.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1407-KR, server: zf.zsr-seoul.661145.xyz, port: 25972, type: trojan, password: 75d074ff-b7e4-4dd0-9b5d-66bc986290ab, sni: b.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1408-KR, server: zf.zsr-seoul2.661145.xyz, port: 43804, type: trojan, password: 75d074ff-b7e4-4dd0-9b5d-66bc986290ab, sni: c.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 40-1409-KR, server: zf.zsr-seoul2.661145.xyz, port: 31162, type: trojan, password: 75d074ff-b7e4-4dd0-9b5d-66bc986290ab, sni: d.longwangtaobao.eu.org, skip-cert-verify: true, udp: true}
   - {name: 40-1410-CN, server: ep.superjj.cc, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
   - {name: 40-1411-CN, server: ep.superjj.cc, port: 50011, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
   - {name: 40-1412-CN, server: ep.superjj.cc, port: 50021, type: ss, cipher: chacha20-ietf-poly1305, password: 5b2fca8f-07a3-40fc-8c3d-4a940f3b9ae5, udp: true}
@@ -1636,6 +1636,7 @@ proxy-groups:
       - 03-0208-RELAY
       - 03-0209-GB
       - 03-0210-US
+      - 03-0211-RELAY
       - 03-0212-RELAY
       - 03-0213-CA
       - 03-0214-FR
@@ -2306,6 +2307,7 @@ proxy-groups:
       - 40-0888-RELAY
       - 40-0889-PH
       - 40-0890-PH
+      - 40-0891-HK
       - 40-0892-GOOGLE
       - 40-0893-GOOGLE
       - 40-0894-GOOGLE
@@ -2551,7 +2553,6 @@ proxy-groups:
       - 40-1233-CN
       - 40-1234-RELAY
       - 40-1235-RELAY
-      - 40-1236-RELAY
       - 40-1237-RELAY
       - 40-1238-RELAY
       - 40-1239-RELAY
@@ -2724,7 +2725,6 @@ proxy-groups:
       - 40-1406-KR
       - 40-1407-KR
       - 40-1408-KR
-      - 40-1409-KR
       - 40-1410-CN
       - 40-1411-CN
       - 40-1412-CN
@@ -2843,6 +2843,7 @@ proxy-groups:
       - 03-0196-CN
       - 03-0201-CN
       - 03-0206-CN
+      - 03-0211-RELAY
       - 03-0216-RELAY
       - 03-0221-SG
       - 04-0226-US
@@ -2976,6 +2977,7 @@ proxy-groups:
       - 40-0876-CN
       - 40-0881-KR
       - 40-0886-GB
+      - 40-0891-HK
       - 40-0896-RELAY
       - 40-0901-RELAY
       - 40-0906-CN
@@ -3025,7 +3027,6 @@ proxy-groups:
       - 40-1221-CN
       - 40-1226-CN
       - 40-1231-CN
-      - 40-1236-RELAY
       - 40-1241-RELAY
       - 40-1246-US
       - 40-1251-SG
@@ -3891,7 +3892,6 @@ proxy-groups:
       - 40-1394-KR
       - 40-1399-KR
       - 40-1404-KR
-      - 40-1409-KR
       - 40-1414-CN
       - 40-1419-CN
       - 40-1424-CN
