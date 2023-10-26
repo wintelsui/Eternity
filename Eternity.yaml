@@ -204,6 +204,7 @@ proxies:
   - {name: 03-0147-JP, server: jpvip102.qlgq1.pw, port: 10443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0148-JP, server: jpvip102.qlgq1.pw, port: 20443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0149-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 03-0150-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0151-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0152-US, server: pxvip101.qlgq1.pw, port: 10443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 03-0153-US, server: pxvip101.qlgq1.pw, port: 20443, type: trojan, password: 3133c8f3-b534-3a23-ae7e-45770b3f583c, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -680,6 +681,7 @@ proxies:
   - {name: 11-0630-SG, server: 47.245.90.49, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true}
   - {name: 11-0631-CN, server: 120.241.46.222, port: 63011, type: vmess, uuid: 798b440f-b27d-3247-88be-3e2767daef83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 11-0632-CN, server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 11-0633-RELAY, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}, udp: true}
   - {name: 11-0634-RELAY, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}, udp: true}
   - {name: 11-0635-SG, server: 143.42.65.135, port: 80, type: vmess, uuid: 831596b2-fed1-4239-af88-e0630394545a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net}, udp: true}
   - {name: 19-0636-RELAY, server: 188.114.96.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
@@ -825,7 +827,6 @@ proxies:
   - {name: 40-0776-CN, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 4bf257bb-3138-434e-af64-e40fef539e4a, udp: true}
   - {name: 40-0777-RELAY, server: go.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.gujuji.top}}, udp: true}
   - {name: 40-0778-RELAY, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: 40-0779-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
   - {name: 40-0780-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 40-0781-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
   - {name: 40-0782-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: 1b3c312d-01e5-4b5f-8052-5983a7a6a1a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
@@ -1319,7 +1320,6 @@ proxies:
   - {name: 40-1369-JP, server: jp.fanqiecloud.top, port: 21402, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
   - {name: 40-1370-KR, server: kr.fanqiecloud.top, port: 21504, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
   - {name: 40-1371-SG, server: sg.fanqiecloud.top, port: 24352, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
-  - {name: 40-1372-TW, server: tw.fanqiecloud.top, port: 12482, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
   - {name: 40-1373-US, server: cf.fanqiecloud.top, port: 20749, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
   - {name: 40-1374-BR, server: bx.fanqiecloud.top, port: 20902, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
   - {name: 40-1375-IT, server: it.fanqiecloud.top, port: 22802, type: ss, cipher: chacha20-ietf-poly1305, password: cd5bf1a9-7fde-47e1-a45e-f85dbd79f8a1, udp: true}
@@ -1544,6 +1544,7 @@ proxy-groups:
       - 03-0147-JP
       - 03-0148-JP
       - 03-0149-JP
+      - 03-0150-JP
       - 03-0151-JP
       - 03-0152-US
       - 03-0153-US
@@ -2020,6 +2021,7 @@ proxy-groups:
       - 11-0630-SG
       - 11-0631-CN
       - 11-0632-CN
+      - 11-0633-RELAY
       - 11-0634-RELAY
       - 11-0635-SG
       - 19-0636-RELAY
@@ -2165,7 +2167,6 @@ proxy-groups:
       - 40-0776-CN
       - 40-0777-RELAY
       - 40-0778-RELAY
-      - 40-0779-RELAY
       - 40-0780-RELAY
       - 40-0781-RELAY
       - 40-0782-RELAY
@@ -2659,7 +2660,6 @@ proxy-groups:
       - 40-1369-JP
       - 40-1370-KR
       - 40-1371-SG
-      - 40-1372-TW
       - 40-1373-US
       - 40-1374-BR
       - 40-1375-IT
@@ -3263,7 +3263,6 @@ proxy-groups:
       - 40-1357-CN
       - 40-1362-GOOGLE
       - 40-1367-RELAY
-      - 40-1372-TW
       - 40-1377-RELAY
       - 40-1382-CN
       - 40-1387-CN
@@ -3406,6 +3405,7 @@ proxy-groups:
       - 11-0618-SG
       - 11-0623-HK
       - 11-0628-RELAY
+      - 11-0633-RELAY
       - 19-0638-RELAY
       - 19-0643-RELAY
       - 19-0648-RELAY
@@ -3705,7 +3705,6 @@ proxy-groups:
       - 40-0764-CN
       - 40-0769-CN
       - 40-0774-CN
-      - 40-0779-RELAY
       - 40-0784-RELAY
       - 40-0789-RELAY
       - 40-0794-CN
@@ -3852,6 +3851,7 @@ proxy-groups:
       - 03-0135-CN
       - 03-0140-DE
       - 03-0145-SG
+      - 03-0150-JP
       - 03-0155-US
       - 03-0160-US
       - 03-0165-GB
