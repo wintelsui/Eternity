@@ -1035,7 +1035,6 @@ proxies:
   - {name: 12-1088-CN, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1089-CN, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1090-CN, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 63ff2f38-836d-479a-a287-64d31722f192, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 12-1091-US, server: 172.233.194.102, port: 80, type: vmess, uuid: 29b88e63-9092-4375-a551-c4ee4702cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-1092-CN, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1093-CN, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 63ff2f38-836d-479a-a287-64d31722f192, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1094-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
@@ -1175,7 +1174,6 @@ proxies:
   - {name: 12-1229-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-1230-CN, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1231-CN, server: cdn.node.user-sub.pddns-usersdk.com, port: 12002, type: vmess, uuid: facf2892-f5b6-3792-a168-4ef50347d098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
-  - {name: 12-1232-KR, server: 43.200.6.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-1233-JP, server: 52.195.228.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-1234-CN, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 86bf7b8a-b8af-478f-99fc-7054813c32aa, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1235-CN, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: 63ff2f38-836d-479a-a287-64d31722f192, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1297,6 +1295,7 @@ proxies:
   - {name: 12-1351-RELAY, server: ip.sb, port: 8080, type: vmess, uuid: 465d9acd-57ed-4940-9a50-2be91058a939, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jianjiao, headers: {Host: ip.sb}}, udp: true}
   - {name: 12-1352-CN, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 86bf7b8a-b8af-478f-99fc-7054813c32aa, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1353-CN, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 86bf7b8a-b8af-478f-99fc-7054813c32aa, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 12-1354-US, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-1355-CN, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: b9c9d240-cf94-48b5-b38f-dfb36c6394cf, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1356-KR, server: 43.202.52.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-1357-CN, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: 9e8a3545-8189-4ddb-9f0e-3b1e857fc17c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1319,6 +1318,7 @@ proxies:
   - {name: 12-1374-CN, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: b9c9d240-cf94-48b5-b38f-dfb36c6394cf, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1375-CN, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1376-CN, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 12-1377-KR, server: a9.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 14f82e70-0493-4463-9b3a-53f6cb4b885e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mp4, headers: {Host: a9.wuxianliulianng.xyz}}, udp: true}
   - {name: 12-1378-CN, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: bd5ad33d-d267-4393-928a-50f425d1b68c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1379-CN, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: d122dba7-1e79-47c0-8597-5e34087518bc, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1380-CN, server: cdn.node.user-sub.pddns-usersdk.com, port: 11302, type: vmess, uuid: facf2892-f5b6-3792-a168-4ef50347d098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c512ec2b8a61, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
@@ -1539,7 +1539,6 @@ proxies:
   - {name: 18-1601-RELAY, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true}
   - {name: 18-1602-RELAY, server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true}
   - {name: 18-1603-KR, server: 130.162.144.196, port: 443, type: vmess, uuid: 2d08a9f8-204f-4c11-aab5-f5bb8daf9b4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2d08a9f8-204f-4c11-aab5-f5bb8daf9b4c}, udp: true}
-  - {name: 18-1604-FI, server: 37.143.129.56, port: 443, type: trojan, password: 44c5578a7c, sni: fi1.connecton.surf, skip-cert-verify: true, udp: true}
   - {name: 18-1607-FR, server: 51.159.221.230, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1609-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /acetaffy.top, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz}}, udp: true}
   - {name: 19-1618-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1549,6 +1548,7 @@ proxies:
   - {name: 29-1749-FR, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 36-1754-SG, server: sg1.lianpi.xyz, port: 56138, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4, udp: true}
   - {name: 36-1755-US, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 36-1756-SG, server: 146.190.94.141, port: 42358, type: vmess, uuid: 6e4edbd8-7854-4ef5-c9c6-49e95822e4fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@ONHIT_EHI}, udp: true}
   - {name: 36-1759-US, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2541,7 +2541,6 @@ proxy-groups:
       - 12-1088-CN
       - 12-1089-CN
       - 12-1090-CN
-      - 12-1091-US
       - 12-1092-CN
       - 12-1093-CN
       - 12-1094-US
@@ -2681,7 +2680,6 @@ proxy-groups:
       - 12-1229-GB
       - 12-1230-CN
       - 12-1231-CN
-      - 12-1232-KR
       - 12-1233-JP
       - 12-1234-CN
       - 12-1235-CN
@@ -2803,6 +2801,7 @@ proxy-groups:
       - 12-1351-RELAY
       - 12-1352-CN
       - 12-1353-CN
+      - 12-1354-US
       - 12-1355-CN
       - 12-1356-KR
       - 12-1357-CN
@@ -2825,6 +2824,7 @@ proxy-groups:
       - 12-1374-CN
       - 12-1375-CN
       - 12-1376-CN
+      - 12-1377-KR
       - 12-1378-CN
       - 12-1379-CN
       - 12-1380-CN
@@ -3045,7 +3045,6 @@ proxy-groups:
       - 18-1601-RELAY
       - 18-1602-RELAY
       - 18-1603-KR
-      - 18-1604-FI
       - 18-1607-FR
       - 19-1609-RELAY
       - 19-1618-US
@@ -3055,6 +3054,7 @@ proxy-groups:
       - 29-1749-FR
       - 36-1754-SG
       - 36-1755-US
+      - 36-1756-SG
       - 36-1759-US
   - name: 自动选择
     type: url-test
@@ -3266,7 +3266,6 @@ proxy-groups:
       - 12-1076-CN
       - 12-1081-CN
       - 12-1086-CN
-      - 12-1091-US
       - 12-1096-CN
       - 12-1101-CN
       - 12-1106-CN
@@ -3368,6 +3367,7 @@ proxy-groups:
       - 17-1596-MA
       - 18-1601-RELAY
       - 27-1681-IR
+      - 36-1756-SG
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3598,7 +3598,6 @@ proxy-groups:
       - 12-1217-US
       - 12-1222-CN
       - 12-1227-CN
-      - 12-1232-KR
       - 12-1237-CN
       - 12-1242-CN
       - 12-1247-CN
@@ -3627,6 +3626,7 @@ proxy-groups:
       - 12-1362-RELAY
       - 12-1367-CN
       - 12-1372-CN
+      - 12-1377-KR
       - 12-1382-CN
       - 12-1387-CN
       - 12-1392-CN
@@ -4230,6 +4230,7 @@ proxy-groups:
       - 12-1339-CN
       - 12-1344-US
       - 12-1349-CN
+      - 12-1354-US
       - 12-1359-GB
       - 12-1364-CN
       - 12-1369-CN
@@ -4278,7 +4279,6 @@ proxy-groups:
       - 17-1589-CN
       - 17-1594-CN
       - 18-1599-FI
-      - 18-1604-FI
       - 19-1609-RELAY
       - 29-1749-FR
       - 36-1754-SG
