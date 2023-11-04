@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-0000-RELAY, server: free.v2aff.link, port: 2053, type: vmess, uuid: 3d1fa900-f0be-4007-888d-609e8f0c4fef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2dassa, headers: {Host: free.v2aff.link}}, udp: true}
   - {name: 04-0001-CN, server: host-001.crazyspeed.xyz, port: 30501, type: ss, cipher: chacha20-ietf-poly1305, password: 3d1fa900-f0be-4007-888d-609e8f0c4fef, udp: true}
   - {name: 04-0002-CN, server: host-002.crazyspeed.xyz, port: 30502, type: ss, cipher: chacha20-ietf-poly1305, password: 3d1fa900-f0be-4007-888d-609e8f0c4fef, udp: true}
   - {name: 04-0003-CN, server: host-003.crazyspeed.xyz, port: 30503, type: ss, cipher: chacha20-ietf-poly1305, password: 3d1fa900-f0be-4007-888d-609e8f0c4fef, udp: true}
@@ -508,7 +509,6 @@ proxies:
   - {name: 04-0550-HK, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: acb6d4fa-5fd3-38a2-be14-0f506ead5a5b, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0551-RELAY, server: go.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.gujuji.top}}, udp: true}
   - {name: 04-0552-RELAY, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
-  - {name: 04-0553-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
   - {name: 04-0554-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 04-0555-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
   - {name: 04-0556-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
@@ -1519,6 +1519,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-0000-RELAY
       - 04-0001-CN
       - 04-0002-CN
       - 04-0003-CN
@@ -1973,7 +1974,6 @@ proxy-groups:
       - 04-0550-HK
       - 04-0551-RELAY
       - 04-0552-RELAY
-      - 04-0553-RELAY
       - 04-0554-RELAY
       - 04-0555-RELAY
       - 04-0556-RELAY
@@ -3670,7 +3670,6 @@ proxy-groups:
       - 04-0538-AE
       - 04-0543-HK
       - 04-0548-HK
-      - 04-0553-RELAY
       - 04-0558-RELAY
       - 04-0563-CN
       - 04-0568-CN
@@ -4172,6 +4171,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0000-RELAY
       - 04-0005-CN
       - 04-0010-CN
       - 04-0015-CN
