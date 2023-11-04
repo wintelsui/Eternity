@@ -54,7 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0000-RELAY, server: free.v2aff.link, port: 2053, type: vmess, uuid: c95c9c77-183d-418a-a247-e04bda38d7ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2dassa, headers: {Host: free.v2aff.link}}, udp: true}
   - {name: 04-0001-CN, server: host-001.crazyspeed.xyz, port: 30501, type: ss, cipher: chacha20-ietf-poly1305, password: c95c9c77-183d-418a-a247-e04bda38d7ad, udp: true}
   - {name: 04-0002-CN, server: host-002.crazyspeed.xyz, port: 30502, type: ss, cipher: chacha20-ietf-poly1305, password: c95c9c77-183d-418a-a247-e04bda38d7ad, udp: true}
   - {name: 04-0003-CN, server: host-003.crazyspeed.xyz, port: 30503, type: ss, cipher: chacha20-ietf-poly1305, password: c95c9c77-183d-418a-a247-e04bda38d7ad, udp: true}
@@ -692,6 +691,7 @@ proxies:
   - {name: 11-0733-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
   - {name: 11-0734-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 11-0735-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
+  - {name: 11-0736-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
   - {name: 11-0737-RELAY, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
   - {name: 11-0738-RELAY, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
   - {name: 11-0739-RELAY, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: c534ed39-0f8f-4fa7-9c11-75c7067589b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
@@ -960,6 +960,7 @@ proxies:
   - {name: 12-1003-ZA, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-1004-RELAY, server: x.36d.gay, port: 2052, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: x.36d.gay}}, udp: true}
   - {name: 12-1005-JP, server: 84.17.34.110, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 12-1006-US, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-1007-CN, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: ba9431e2-5192-46ec-abb6-4e8614b64d85, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1008-NOWHERE, server: south.steamdownload.top, port: 16105, type: trojan, password: 52a68d5a-a02b-4343-a321-9bee99602561, sni: south.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-1009-RELAY, server: www.zula.ir, port: 443, type: vmess, uuid: 0f88df7c-138a-45ca-8931-65b42676d643, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.zula.ir}}, udp: true}
@@ -1227,7 +1228,6 @@ proxies:
   - {name: 19-1278-CN, server: 120.241.46.222, port: 62011, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1279-CN, server: 120.241.46.222, port: 64091, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1280-CN, server: 120.241.46.223, port: 61051, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 19-1281-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1282-CN, server: 120.241.46.222, port: 61002, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1283-RELAY, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
   - {name: 19-1284-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -1430,7 +1430,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 04-0000-RELAY
       - 04-0001-CN
       - 04-0002-CN
       - 04-0003-CN
@@ -2068,6 +2067,7 @@ proxy-groups:
       - 11-0733-RELAY
       - 11-0734-RELAY
       - 11-0735-RELAY
+      - 11-0736-RELAY
       - 11-0737-RELAY
       - 11-0738-RELAY
       - 11-0739-RELAY
@@ -2336,6 +2336,7 @@ proxy-groups:
       - 12-1003-ZA
       - 12-1004-RELAY
       - 12-1005-JP
+      - 12-1006-US
       - 12-1007-CN
       - 12-1008-NOWHERE
       - 12-1009-RELAY
@@ -2603,7 +2604,6 @@ proxy-groups:
       - 19-1278-CN
       - 19-1279-CN
       - 19-1280-CN
-      - 19-1281-US
       - 19-1282-CN
       - 19-1283-RELAY
       - 19-1284-RELAY
@@ -2939,6 +2939,7 @@ proxy-groups:
       - 11-0721-RELAY
       - 11-0726-JP
       - 11-0731-RELAY
+      - 11-0736-RELAY
       - 11-0741-RELAY
       - 11-0746-CN
       - 11-0751-CN
@@ -2992,6 +2993,7 @@ proxy-groups:
       - 12-0991-GB
       - 12-0996-CN
       - 12-1001-IN
+      - 12-1006-US
       - 12-1011-NL
       - 12-1016-SG
       - 12-1021-SG
@@ -3043,7 +3045,6 @@ proxy-groups:
       - 18-1266-CN
       - 19-1271-US
       - 19-1276-CN
-      - 19-1281-US
       - 19-1286-RELAY
       - 19-1291-RELAY
       - 19-1296-NOWHERE
@@ -3923,7 +3924,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0000-RELAY
       - 04-0005-CN
       - 04-0010-CN
       - 04-0015-CN
