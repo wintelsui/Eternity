@@ -1095,7 +1095,6 @@ proxies:
   - {name: 12-1139-CN, server: yidong.liulangdiqiu.life, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
   - {name: 12-1140-RELAY, server: www.zula.ir, port: 443, type: vmess, uuid: 0f88df7c-138a-45ca-8931-65b42676d643, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.zula.ir}}, udp: true}
   - {name: 12-1141-IR, server: 176.126.120.38, port: 55007, type: vmess, uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-1142-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 13-1143-CN, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 6849a639-1de6-433f-ae9e-18907bf8f318, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 13-1144-CN, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 6849a639-1de6-433f-ae9e-18907bf8f318, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 13-1145-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 6849a639-1de6-433f-ae9e-18907bf8f318, udp: true}
@@ -1332,6 +1331,7 @@ proxies:
   - {name: 19-1382-CN, server: 120.241.46.222, port: 62011, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1383-CN, server: 120.241.46.222, port: 64091, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1384-CN, server: 120.241.46.223, port: 61051, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 19-1385-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1386-CN, server: 120.241.46.222, port: 61002, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1387-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 19-1388-RELAY, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
@@ -2574,7 +2574,6 @@ proxy-groups:
       - 12-1139-CN
       - 12-1140-RELAY
       - 12-1141-IR
-      - 12-1142-US
       - 13-1143-CN
       - 13-1144-CN
       - 13-1145-CN
@@ -2811,6 +2810,7 @@ proxy-groups:
       - 19-1382-CN
       - 19-1383-CN
       - 19-1384-CN
+      - 19-1385-US
       - 19-1386-CN
       - 19-1387-RELAY
       - 19-1388-RELAY
@@ -3523,7 +3523,6 @@ proxy-groups:
       - 12-1127-CN
       - 12-1132-GB
       - 12-1137-CN
-      - 12-1142-US
       - 13-1147-CN
       - 13-1152-CN
       - 13-1157-CN
@@ -4468,6 +4467,7 @@ proxy-groups:
       - 18-1370-CN
       - 19-1375-US
       - 19-1380-CN
+      - 19-1385-US
       - 19-1390-RELAY
       - 19-1395-RELAY
       - 19-1400-CN
