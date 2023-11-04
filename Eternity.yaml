@@ -508,6 +508,7 @@ proxies:
   - {name: 04-0549-RELAY, server: go.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.gujuji.top}}, udp: true}
   - {name: 04-0550-RELAY, server: ca-new01.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-new01.gujuji.top}}, udp: true}
   - {name: 04-0551-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
+  - {name: 04-0552-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 04-0553-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
   - {name: 04-0554-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
   - {name: 04-0555-RELAY, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: cf74ae10-b1fc-4cb8-9065-3da0801bda62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
@@ -620,7 +621,6 @@ proxies:
   - {name: 11-0662-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: dafe91c4-02fd-4727-83b3-7acf0e42e561, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 11-0663-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: dafe91c4-02fd-4727-83b3-7acf0e42e561, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 11-0664-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: dafe91c4-02fd-4727-83b3-7acf0e42e561, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
-  - {name: 11-0665-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: dafe91c4-02fd-4727-83b3-7acf0e42e561, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 11-0666-RELAY, server: 104.18.72.238, port: 80, type: vmess, uuid: 7732156c-2968-3048-ba97-b2aba9dd845d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /E6QkCpqXGX5EUZJd}, udp: true}
   - {name: 11-0667-CN, server: hzyd.299c.cc, port: 33558, type: ss, cipher: aes-256-gcm, password: JpBzXXyfx108uEyD, udp: true}
   - {name: 11-0668-CN, server: us-gy.115cloud.link, port: 42492, type: ss, cipher: aes-256-gcm, password: JpBzXXyfx108uEyD, udp: true}
@@ -735,7 +735,6 @@ proxies:
   - {name: 11-0777-RELAY, server: us-new01.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new01.gujuji.top}}, udp: true}
   - {name: 11-0778-RELAY, server: us-new02.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new02.gujuji.top}}, udp: true}
   - {name: 11-0779-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
-  - {name: 11-0780-RELAY, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}, udp: true}
   - {name: 11-0781-RELAY, server: uk-new01.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}, udp: true}
   - {name: 11-0782-RELAY, server: fr-new01.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr-new01.gujuji.top}}, udp: true}
   - {name: 11-0783-RELAY, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
@@ -1225,6 +1224,7 @@ proxies:
   - {name: 19-1275-CN, server: 120.241.46.222, port: 62011, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1276-CN, server: 120.241.46.222, port: 64091, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1277-CN, server: 120.241.46.223, port: 61051, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 19-1278-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 19-1279-CN, server: 120.241.46.222, port: 61002, type: vmess, uuid: c262002b-8dc8-346f-8b01-28e1825a6a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 19-1280-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 19-1281-RELAY, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
@@ -1884,6 +1884,7 @@ proxy-groups:
       - 04-0549-RELAY
       - 04-0550-RELAY
       - 04-0551-RELAY
+      - 04-0552-RELAY
       - 04-0553-RELAY
       - 04-0554-RELAY
       - 04-0555-RELAY
@@ -1996,7 +1997,6 @@ proxy-groups:
       - 11-0662-RELAY
       - 11-0663-RELAY
       - 11-0664-RELAY
-      - 11-0665-CA
       - 11-0666-RELAY
       - 11-0667-CN
       - 11-0668-CN
@@ -2111,7 +2111,6 @@ proxy-groups:
       - 11-0777-RELAY
       - 11-0778-RELAY
       - 11-0779-RELAY
-      - 11-0780-RELAY
       - 11-0781-RELAY
       - 11-0782-RELAY
       - 11-0783-RELAY
@@ -2601,6 +2600,7 @@ proxy-groups:
       - 19-1275-CN
       - 19-1276-CN
       - 19-1277-CN
+      - 19-1278-US
       - 19-1279-CN
       - 19-1280-RELAY
       - 19-1281-RELAY
@@ -3180,6 +3180,7 @@ proxy-groups:
       - 04-0537-AE
       - 04-0542-HK
       - 04-0547-HK
+      - 04-0552-RELAY
       - 04-0557-RELAY
       - 04-0562-CN
       - 04-0567-CN
@@ -3601,6 +3602,7 @@ proxy-groups:
       - 18-1263-US
       - 19-1268-US
       - 19-1273-CN
+      - 19-1278-US
       - 19-1283-RELAY
       - 19-1288-RELAY
       - 19-1293-CN
@@ -4038,7 +4040,6 @@ proxy-groups:
       - 11-0650-KR
       - 11-0655-IT
       - 11-0660-RELAY
-      - 11-0665-CA
       - 11-0670-CN
       - 11-0675-DE
       - 11-0680-SG
@@ -4061,7 +4062,6 @@ proxy-groups:
       - 11-0765-JP
       - 11-0770-CN
       - 11-0775-RELAY
-      - 11-0780-RELAY
       - 11-0785-RELAY
       - 11-0790-CN
       - 11-0795-CN
