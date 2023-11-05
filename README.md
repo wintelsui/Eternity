@@ -26,12 +26,11 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1197`
+高速节点数量: `1198`
 <details>
   <summary>展开复制节点</summary>
 
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAwMC1SRUxBWSIsImFkZCI6ImZyZWUudjJhZmYubGluayIsInBvcnQiOiIyMDUzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjE5ZmJjYzZiLTEyMTQtNDI0OC1iYWJmLTlkMTE2OGZkZGY5YiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjJkYXNzYSIsImhvc3QiOiJmcmVlLnYyYWZmLmxpbmsiLCJ0bHMiOiJ0bHMifQ==
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-004.crazyspeed.xyz:30504#04-0004-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-005.crazyspeed.xyz:30505#04-0005-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-006.crazyspeed.xyz:30506#04-0006-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-007.crazyspeed.xyz:30507#04-0007-CN
@@ -1067,6 +1066,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTMtMTE0MC1DTiIsImFkZCI6IjJkM2U2czAxLm1jZnJvbnQueHl6IiwicG9ydCI6IjMxODg0IiwidHlwZSI6Im5vbmUiLCJpZCI6IjkyOTUwYmY3LWJiNGQtNDhiNi05MmJlLTVjODM5ZTMwNWNkYiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJlczAxLmxvdmVtYy54eXoiLCJ0bHMiOiIifQ==
     trojan://92950bf7-bb4d-48b6-92be-5c839e305cdb@dir01.netorigins2u.site:31501?allowInsecure=1&sni=us01.lovemc.xyz#13-1141-JP
     trojan://92950bf7-bb4d-48b6-92be-5c839e305cdb@dir01.netorigins2u.site:31864?allowInsecure=1&sni=hu01.lovemc.xyz#13-1142-JP
+    trojan://92950bf7-bb4d-48b6-92be-5c839e305cdb@dir01.netorigins2u.site:31116?allowInsecure=1&sni=jp01.lovemc.xyz#13-1143-JP
     trojan://92950bf7-bb4d-48b6-92be-5c839e305cdb@dir01.netorigins2u.site:31201?allowInsecure=1&sni=sg01.lovemc.xyz#13-1144-JP
     trojan://aa001751-4ebf-4a62-9a70-d3d28f2f936c@hk.kunlun-ppg.com:10801?allowInsecure=1&sni=alibaba-node.cn#15-1145-CN
     trojan://aa001751-4ebf-4a62-9a70-d3d28f2f936c@hk.kunlun-ppg.com:10802?allowInsecure=1&sni=alibaba-node.cn#15-1146-CN
@@ -1224,19 +1224,20 @@ Fork from TopFreeProxies.
     trojan://op2o51YGRO@104.22.3.78:2083?allowInsecure=1&sni=rayeganvasehame.flchlast.online#27-1304-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMjctMTMwNS1SRUxBWSIsImFkZCI6IjEwNC4yMS40LjI5IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoibGlua3Z3cyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@84.17.53.163:80#29-1351-CH
+    vmess://eyJ2IjoiMiIsInBzIjoiMjktMTM1NS1SRUxBWSIsImFkZCI6Im1tMi5zaGFiaWppY2hhbmcuY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImM0NTg2OTVkLTY5MDgtNDVjMy05NTEyLWUwYzQ2NDE4NDU0YyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im1tMi5zaGFiaWppY2hhbmcuY29tIiwidGxzIjoiIn0=
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.54.209:443#29-1357-FR
-    vmess://eyJ2IjoiMiIsInBzIjoiMzYtMTM3MS1LUiIsImFkZCI6ImhrbmF0Lnh5eiIsInBvcnQiOiI0MDAyNCIsInR5cGUiOiJub25lIiwiaWQiOiJiMjZjMjhlZS0yNWJhLTQ3NjctYTdlNy0zOWJjYzBhYWE3YTIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Imxpbmt2d3MiLCJob3N0IjoiaGtuYXQueHl6IiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMzYtMTM3MS1LUiIsImFkZCI6ImhrbmF0Lnh5eiIsInBvcnQiOiI0MDAyNCIsInR5cGUiOiJub25lIiwiaWQiOiJiMjZjMjhlZS0yNWJhLTQ3NjctYTdlNy0zOWJjYzBhYWE3YTIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoibW0yLnNoYWJpamljaGFuZy5jb20iLCJ0bHMiOiIifQ==
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `1399`
+合并节点总数: `1461`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1399`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1461`
 
 
 ## 仓库声明
