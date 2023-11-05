@@ -30,6 +30,7 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-007.crazyspeed.xyz:30507#04-0007-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-008.crazyspeed.xyz:30508#04-0008-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-009.crazyspeed.xyz:30509#04-0009-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOWZiY2M2Yi0xMjE0LTQyNDgtYmFiZi05ZDExNjhmZGRmOWI@host-010.crazyspeed.xyz:30510#04-0010-CN
@@ -1226,18 +1227,17 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMjctMTM3NS1SUyIsImFkZCI6IjM3LjEyMC4xOTMuMTAyIiwicG9ydCI6IjUyOTIwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjU3MTcwZmYwLTcxODAtNDY2NC04ZjYxLThkZWJkZGEzNDVmNyIsImFpZCI6IjY0IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.54.209:443#29-1436-FR
     ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.68.134.9:5601#36-1443-US
-    vmess://eyJ2IjoiMiIsInBzIjoiMzYtMTQ1MC1SRUxBWSIsImFkZCI6Im1sMy5zaGFiaWppY2hhbmcuY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImM0NTg2OTVkLTY5MDgtNDVjMy05NTEyLWUwYzQ2NDE4NDU0YyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im1sMy5zaGFiaWppY2hhbmcuY29tIiwidGxzIjoiIn0=
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `1478`
+合并节点总数: `1468`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1478`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1468`
 
 
 ## 仓库声明
