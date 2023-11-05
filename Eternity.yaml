@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-0007-CN, server: host-007.crazyspeed.xyz, port: 30507, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0008-CN, server: host-008.crazyspeed.xyz, port: 30508, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0009-CN, server: host-009.crazyspeed.xyz, port: 30509, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0010-CN, server: host-010.crazyspeed.xyz, port: 30510, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
@@ -1250,7 +1251,6 @@ proxies:
   - {name: 27-1375-RS, server: 37.120.193.102, port: 52920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 29-1436-FR, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 36-1443-US, server: 38.68.134.9, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 36-1450-RELAY, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1261,6 +1261,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-0007-CN
       - 04-0008-CN
       - 04-0009-CN
       - 04-0010-CN
@@ -2457,7 +2458,6 @@ proxy-groups:
       - 27-1375-RS
       - 29-1436-FR
       - 36-1443-US
-      - 36-1450-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2719,6 +2719,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0007-CN
       - 04-0012-CN
       - 04-0017-CN
       - 04-0022-CN
@@ -3689,7 +3690,6 @@ proxy-groups:
       - 18-1300-SE
       - 18-1305-CN
       - 27-1375-RS
-      - 36-1450-RELAY
   - name: 广告拦截
     type: select
     proxies:
