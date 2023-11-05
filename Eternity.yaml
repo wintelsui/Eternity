@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0000-RELAY, server: free.v2aff.link, port: 2053, type: vmess, uuid: 19fbcc6b-1214-4248-babf-9d1168fddf9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2dassa, headers: {Host: free.v2aff.link}}, udp: true}
-  - {name: 04-0004-CN, server: host-004.crazyspeed.xyz, port: 30504, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0005-CN, server: host-005.crazyspeed.xyz, port: 30505, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0006-CN, server: host-006.crazyspeed.xyz, port: 30506, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
   - {name: 04-0007-CN, server: host-007.crazyspeed.xyz, port: 30507, type: ss, cipher: chacha20-ietf-poly1305, password: 19fbcc6b-1214-4248-babf-9d1168fddf9b, udp: true}
@@ -1091,6 +1090,7 @@ proxies:
   - {name: 13-1140-CN, server: 2d3e6s01.mcfront.xyz, port: 31884, type: vmess, uuid: 92950bf7-bb4d-48b6-92be-5c839e305cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 13-1141-JP, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 92950bf7-bb4d-48b6-92be-5c839e305cdb, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 13-1142-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 92950bf7-bb4d-48b6-92be-5c839e305cdb, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1143-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 92950bf7-bb4d-48b6-92be-5c839e305cdb, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 13-1144-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 92950bf7-bb4d-48b6-92be-5c839e305cdb, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 15-1145-CN, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: aa001751-4ebf-4a62-9a70-d3d28f2f936c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 15-1146-CN, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: aa001751-4ebf-4a62-9a70-d3d28f2f936c, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1248,6 +1248,7 @@ proxies:
   - {name: 27-1304-RELAY, server: 104.22.3.78, port: 2083, type: trojan, password: op2o51YGRO, sni: rayeganvasehame.flchlast.online, skip-cert-verify: true, udp: true}
   - {name: 27-1305-RELAY, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 29-1351-CH, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 29-1355-RELAY, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}, udp: true}
   - {name: 29-1357-FR, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 36-1371-KR, server: hknat.xyz, port: 40024, type: vmess, uuid: b26c28ee-25ba-4767-a7e7-39bcc0aaa7a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -1261,7 +1262,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0000-RELAY
-      - 04-0004-CN
       - 04-0005-CN
       - 04-0006-CN
       - 04-0007-CN
@@ -2297,6 +2297,7 @@ proxy-groups:
       - 13-1140-CN
       - 13-1141-JP
       - 13-1142-JP
+      - 13-1143-JP
       - 13-1144-JP
       - 15-1145-CN
       - 15-1146-CN
@@ -2454,6 +2455,7 @@ proxy-groups:
       - 27-1304-RELAY
       - 27-1305-RELAY
       - 29-1351-CH
+      - 29-1355-RELAY
       - 29-1357-FR
       - 36-1371-KR
   - name: 自动选择
@@ -3166,6 +3168,7 @@ proxy-groups:
       - 13-1128-CN
       - 13-1133-CN
       - 13-1138-CN
+      - 13-1143-JP
       - 15-1148-CN
       - 15-1153-CN
       - 15-1158-CN
@@ -3203,7 +3206,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0004-CN
       - 04-0009-CN
       - 04-0014-CN
       - 04-0019-CN
@@ -3687,6 +3689,7 @@ proxy-groups:
       - 27-1295-RELAY
       - 27-1300-RELAY
       - 27-1305-RELAY
+      - 29-1355-RELAY
   - name: 广告拦截
     type: select
     proxies:
