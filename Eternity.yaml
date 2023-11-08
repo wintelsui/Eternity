@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0000-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 53d03c7d-e845-4e80-a1f8-f1c7f3fd09a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
+  - {name: 04-0003-RELAY, server: free.v2aff.link, port: 2053, type: vmess, uuid: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2dassa, headers: {Host: free.v2aff.link}}, udp: true}
   - {name: 04-0015-CN, server: host-012.crazyspeed.xyz, port: 30602, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
   - {name: 04-0016-CN, server: host-013.crazyspeed.xyz, port: 30603, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
   - {name: 04-0017-CN, server: host-014.crazyspeed.xyz, port: 30604, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
@@ -1244,12 +1245,12 @@ proxies:
   - {name: 36-1438-IE, server: 52.18.244.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1439-SE, server: 5.42.75.176, port: 8080, type: vmess, uuid: 4080ef66-31f7-4cf5-b0a4-c031a8450783, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 36-1441-VN, server: 103.173.255.21, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-vn.windowsupdatea.com, skip-cert-verify: true, udp: true}
+  - {name: 36-1442-VN, server: 103.173.255.234, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-vn.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 36-1443-GB, server: 18.135.107.32, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1445-RELAY, server: main.doctorweb.sbs, port: 2082, type: vmess, uuid: 137b3288-0fbe-4ac1-b73e-a2de0c543635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: main.doctorweb.sbs}}, udp: true}
   - {name: 36-1446-SE, server: 51.20.21.130, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1447-CN, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 36-1449-IE, server: 52.16.120.126, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 36-1451-RELAY, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}, udp: true}
+  - {name: 36-1449-IE, server: pxvip101.qlgq1.pw, port: 20443, type: trojan, password: 80815bce-3bed-3d9f-94fa-a6c5544fb0d1, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1261,6 +1262,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0000-RELAY
+      - 04-0003-RELAY
       - 04-0015-CN
       - 04-0016-CN
       - 04-0017-CN
@@ -2450,12 +2452,12 @@ proxy-groups:
       - 36-1438-IE
       - 36-1439-SE
       - 36-1441-VN
+      - 36-1442-VN
       - 36-1443-GB
       - 36-1445-RELAY
       - 36-1446-SE
       - 36-1447-CN
       - 36-1449-IE
-      - 36-1451-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2711,7 +2713,6 @@ proxy-groups:
       - 19-1306-RELAY
       - 36-1441-VN
       - 36-1446-SE
-      - 36-1451-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2955,12 +2956,14 @@ proxy-groups:
       - 19-1302-JP
       - 19-1307-RELAY
       - 36-1437-KR
+      - 36-1442-VN
       - 36-1447-CN
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0003-RELAY
       - 04-0018-CN
       - 04-0023-CN
       - 04-0028-CN
