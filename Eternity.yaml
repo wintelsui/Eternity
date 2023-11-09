@@ -56,8 +56,6 @@ sniffer:
 proxies:
   - {name: 04-0000-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 53d03c7d-e845-4e80-a1f8-f1c7f3fd09a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
   - {name: 04-0003-RELAY, server: free.v2aff.link, port: 2053, type: vmess, uuid: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2dassa, headers: {Host: free.v2aff.link}}, udp: true}
-  - {name: 04-0015-CN, server: host-012.crazyspeed.xyz, port: 30602, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
-  - {name: 04-0016-CN, server: host-013.crazyspeed.xyz, port: 30603, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
   - {name: 04-0017-CN, server: host-014.crazyspeed.xyz, port: 30604, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
   - {name: 04-0018-CN, server: host-015.crazyspeed.xyz, port: 30605, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
   - {name: 04-0019-CN, server: host-016.crazyspeed.xyz, port: 30606, type: ss, cipher: chacha20-ietf-poly1305, password: 3f9e1bee-82f6-4f8f-a127-d8d551845baa, udp: true}
@@ -941,6 +939,7 @@ proxies:
   - {name: 12-0995-CN, server: yidong.liulangdiqiu.life, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
   - {name: 12-0996-US, server: snxao52s.xn--8zrwc997j78ud7a.com, port: 12109, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91911:uFGcmn, obfs-param: a59ff91911.baidu.com, udp: true}
   - {name: 12-0997-RELAY, server: 23.227.38.45, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jus3.jsjc.sbs, skip-cert-verify: true, udp: true}
+  - {name: 12-0998-US, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0999-FR, server: 172.232.55.139, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: BVhHkwkUQdPlyKruTmRdfk, udp: true}
   - {name: 12-1000-US, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1001-CN, server: gtm.ktmwan.com, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a, udp: true}
@@ -1247,8 +1246,9 @@ proxies:
   - {name: 32-1436-SE, server: 13.51.227.122, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 32-1438-IR, server: de1.cloudfa.pw, port: 2083, type: vmess, uuid: 212bf56c-2203-40ee-abc7-9bdb6c39eca4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de1.cloudfa.pw}}, udp: true}
   - {name: 36-1441-RELAY, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}, udp: true}
-  - {name: 36-1444-US, server: 216.73.158.35, port: 443, type: vmess, uuid: 186b8bd9-6f05-48bc-80dc-f36e84ffa601, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws}, udp: true}
+  - {name: 36-1447-CN, server: 183.233.187.214, port: 38262, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-1448-RELAY, server: family.mgtajhiz.ir, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}, udp: true}
+  - {name: 36-1453-CN, server: 112.29.94.23, port: 49006, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 37-1454-SE, server: 5.42.75.176, port: 8080, type: vmess, uuid: 4080ef66-31f7-4cf5-b0a4-c031a8450783, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1262,8 +1262,6 @@ proxy-groups:
       - 测速5分组
       - 04-0000-RELAY
       - 04-0003-RELAY
-      - 04-0015-CN
-      - 04-0016-CN
       - 04-0017-CN
       - 04-0018-CN
       - 04-0019-CN
@@ -2147,6 +2145,7 @@ proxy-groups:
       - 12-0995-CN
       - 12-0996-US
       - 12-0997-RELAY
+      - 12-0998-US
       - 12-0999-FR
       - 12-1000-US
       - 12-1001-CN
@@ -2453,8 +2452,9 @@ proxy-groups:
       - 32-1436-SE
       - 32-1438-IR
       - 36-1441-RELAY
-      - 36-1444-US
+      - 36-1447-CN
       - 36-1448-RELAY
+      - 36-1453-CN
       - 37-1454-SE
   - name: 自动选择
     type: url-test
@@ -2471,7 +2471,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0016-CN
       - 04-0021-CN
       - 04-0026-CN
       - 04-0031-CN
@@ -2952,6 +2951,7 @@ proxy-groups:
       - 19-1297-NOWHERE
       - 19-1302-NOWHERE
       - 27-1307-RELAY
+      - 36-1447-CN
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3135,6 +3135,7 @@ proxy-groups:
       - 12-0983-FR
       - 12-0988-CN
       - 12-0993-GB
+      - 12-0998-US
       - 12-1003-US
       - 12-1008-US
       - 12-1013-CN
@@ -3197,6 +3198,7 @@ proxy-groups:
       - 32-1433-US
       - 32-1438-IR
       - 36-1448-RELAY
+      - 36-1453-CN
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3439,7 +3441,6 @@ proxy-groups:
       - 27-1309-RELAY
       - 27-1399-US
       - 29-1424-CH
-      - 36-1444-US
       - 37-1454-SE
   - name: 测速5分组
     type: url-test
@@ -3447,7 +3448,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0000-RELAY
-      - 04-0015-CN
       - 04-0020-CN
       - 04-0025-CN
       - 04-0030-CN
