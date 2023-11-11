@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1198`
+高速节点数量: `1197`
 <details>
   <summary>展开复制节点</summary>
 
@@ -75,7 +75,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjVkZmRmYy1kYWJmLTQ1YmEtOTJjOC03MjVmNTIyNTI0MDU@host-058.crazyspeed.xyz:19005#04-0057-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjVkZmRmYy1kYWJmLTQ1YmEtOTJjOC03MjVmNTIyNTI0MDU@host-059.crazyspeed.xyz:19006#04-0058-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjVkZmRmYy1kYWJmLTQ1YmEtOTJjOC03MjVmNTIyNTI0MDU@host-060.crazyspeed.xyz:19008#04-0059-CN
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNzNkNjU1OC05YjI2LTQ2ODEtYWYwYy04YjRiMjQ2MDM2Mzc@zzjsyd.jjyhk.com:13334#04-0060-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNzNkNjU1OC05YjI2LTQ2ODEtYWYwYy04YjRiMjQ2MDM2Mzc@zj.xn--iiq222b6igvp5c.com:57243#04-0061-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNzNkNjU1OC05YjI2LTQ2ODEtYWYwYy04YjRiMjQ2MDM2Mzc@zzshyd1.jjyhk.com:12694#04-0062-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNzNkNjU1OC05YjI2LTQ2ODEtYWYwYy04YjRiMjQ2MDM2Mzc@zzzjlt.jjyhk.com:11191#04-0063-CN
@@ -102,7 +101,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA4NC1DTiIsImFkZCI6IjExMi4yOS4yMDAuMTciLCJwb3J0IjoiMTIxMzAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWY2M2Q5NTMtMmYxYy0zNTdkLTgxZDctODhkNzUyYjMyMzZlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYjAwIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA4NS1DTiIsImFkZCI6IjExMi4yOS4yMDAuMjIiLCJwb3J0IjoiMjgwMDUiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWY2M2Q5NTMtMmYxYy0zNTdkLTgxZDctODhkNzUyYjMyMzZlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYjAwIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA4Ni1SRUxBWSIsImFkZCI6InNkLmRiLWxpbmsuaW4iLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWY2M2Q5NTMtMmYxYy0zNTdkLTgxZDctODhkNzUyYjMyMzZlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYjAwIiwiaG9zdCI6InNkLmRiLWxpbmsuaW4iLCJ0bHMiOiIifQ==
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOGNjNTg0Yy02NTQyLTQ0YjQtOGZhZC1lYjdmODgyOTJlZmM@141.147.162.254:15424#04-0087-JP
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOGNjNTg0Yy02NTQyLTQ0YjQtOGZhZC1lYjdmODgyOTJlZmM@s8.daxiongda.top:18609#04-0088-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOGNjNTg0Yy02NTQyLTQ0YjQtOGZhZC1lYjdmODgyOTJlZmM@s7.daxiongda.top:43774#04-0089-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxOGNjNTg0Yy02NTQyLTQ0YjQtOGZhZC1lYjdmODgyOTJlZmM@s7.daxiongda.top:40631#04-0090-KR
@@ -131,6 +129,7 @@ Fork from TopFreeProxies.
     trojan://78c53a56-9fa9-4c13-99e6-3ffaa9a45efe@hzyd.xn--icty41bzxj.cn:62403?allowInsecure=1&sni=yinhe.588511.xyz#04-0113-CN
     trojan://78c53a56-9fa9-4c13-99e6-3ffaa9a45efe@hzyd.xn--icty41bzxj.cn:50354?allowInsecure=1&sni=DMIT_HK_ZSR2.661145.xyz#04-0114-CN
     trojan://78c53a56-9fa9-4c13-99e6-3ffaa9a45efe@zsr.tw.hinet.661145.xyz:58850?allowInsecure=1&sni=zsr.tw.hinet.661145.xyz#04-0115-TW
+    trojan://78c53a56-9fa9-4c13-99e6-3ffaa9a45efe@zsr.tw.hinet.661145.xyz:58850?allowInsecure=1&sni=zsr.tw.hinet.661145.xyz#04-0116-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3OGM1M2E1Ni05ZmE5LTRjMTMtOTllNi0zZmZhYTlhNDVlZmU@zj.xn--icty41bzxj.cn:21367#04-0117-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDExOC1DTiIsImFkZCI6InpqLnhuLS1pY3R5NDFienhqLmNuIiwicG9ydCI6IjI3MDc1IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc4YzUzYTU2LTlmYTktNGMxMy05OWU2LTNmZmFhOWE0NWVmZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdmNmZHlGRFNGU2ZkZnNkIiwiaG9zdCI6InpqLnhuLS1pY3R5NDFienhqLmNuIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDExOS1DTiIsImFkZCI6InpqLnhuLS1pY3R5NDFienhqLmNuIiwicG9ydCI6IjIyOTE5IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc4YzUzYTU2LTlmYTktNGMxMy05OWU2LTNmZmFhOWE0NWVmZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdmZobnI1Njg2NyIsImhvc3QiOiJ6ai54bi0taWN0eTQxYnp4ai5jbiIsInRscyI6IiJ9
@@ -850,7 +849,6 @@ Fork from TopFreeProxies.
     trojan://67d0774c-d934-340f-a5ca-bd6473114d77@gy.58n.net:20076?allowInsecure=1&sni=x76.flybar.work#11-0931-CN
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.195.96:110#11-0932-FR
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.195.96:80#11-0933-FR
-    vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDkzNC1VUyIsImFkZCI6IjM4LjU5LjI0MS4xMzciLCJwb3J0IjoiMjEwNzAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjAxMTg2MDgtMGU3YS00ZDJjLThjYjAtOTM0M2MyOWI5NzJhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@165.231.120.102:989#11-0935-NO
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@51.158.195.96:443#11-0936-FR
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.27.48:989#11-0937-FR
@@ -1047,6 +1045,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTItMTEyOC1DTiIsImFkZCI6ImpwLmoudjMuMi5raWtpNzg5LmNvbSIsInBvcnQiOiIyMzE0MiIsInR5cGUiOiJub25lIiwiaWQiOiJhMmY4OGJiMS1jMmY4LTMyODEtYTliNy02Zjg5Y2I4ZWI1MWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzczNmU2NWU2LWIwZWUtNGY4NC04Mjg1LTllM2RmODVmZmY1Yy5saXZlMjM4Lm0zdTgiLCJob3N0IjoianAuai52My4yLmtpa2k3ODkuY29tIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWViYWY1NC05NDczLTQ4MzYtODY4Ni04MjZhMzQ3OTUzZGQ@yidong.liulangdiqiu.life:10701#12-1129-CN
     trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@112.120.127.9:443?allowInsecure=1&sni=glc-hkt2.windowsupdatea.com#12-1130-HK
+    ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.179.192:443#12-1131-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWViYWY1NC05NDczLTQ4MzYtODY4Ni04MjZhMzQ3OTUzZGQ@yidong.liulangdiqiu.life:10704#12-1132-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYWNkNzkyNi00NDk1LTQwZmMtOTRkNS1kYmRjMjMxYjdlNmE@uydyfkghjrtcsdx.youcansee.cyou:20165#12-1133-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWViYWY1NC05NDczLTQ4MzYtODY4Ni04MjZhMzQ3OTUzZGQ@yidong.liulangdiqiu.life:10717#12-1134-CN
@@ -1215,8 +1214,6 @@ Fork from TopFreeProxies.
     trojan://bcb0dcf9-94f8-44f8-8802-2621d6671d8a@4o5a3u01.mcfront.xyz:31821?allowInsecure=1&sni=au01.lovemc.xyz#13-1298-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTM2OC1VUyIsImFkZCI6Im4xNjk5MjUzNzY5LmFhaWdlZm0uY24iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk4MmZhZGQxLTNlNWYtNGFhMy04NTUyLWVkNmZkYTIzNDE0YSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im4xNjk5MjUzNzY5LmFhaWdlZm0uY24iLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTM2OS1ISyIsImFkZCI6Im4xNjk5NTEwNTczLml6d2h2YW4uY24iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkNjc5OGQ5LTE0ODQtNGQ4My05Y2Q2LWI2MjAwNzY0Nzg3OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im4xNjk5NTEwNTczLml6d2h2YW4uY24iLCJ0bHMiOiJ0bHMifQ==
-    vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTM3MS1KUCIsImFkZCI6ImpwZC56ZXJvZGlzay5zaXRlIiwicG9ydCI6IjQ4NDkzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY4ZWY3YzQ3LTk3MzUtNDM5Yy1hNDJiLTM1NWJhZTIyNDY1NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImpwZC56ZXJvZGlzay5zaXRlIiwidGxzIjoidGxzIn0=
-    ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@89.187.169.38:443#17-1419-DE
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@146.59.110.240:443#17-1420-FR
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@57.128.32.81:443#17-1421-FR
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@198.244.231.34:443#17-1422-GB
@@ -1226,18 +1223,20 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTktMTQ3NS1ISyIsImFkZCI6IjguMjE3LjEzMC44OSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIzYzJhZmYwNS05ZTA1LTQ1ZTAtYTc4Zi1jYTFhY2RmYWEyMjciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTktMTQ4MS1UUiIsImFkZCI6IjIxMi42NC4xOTMuNTAiLCJwb3J0IjoiMjA4NyIsInR5cGUiOiJub25lIiwiaWQiOiJkMjJhZTRkNi04NjNiLTQ1MDEtOTIwYS05OWFjNGEzYzc1MWIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTktMTQ4Mi1JTCIsImFkZCI6Ijk1LjE2NC42MS4yNyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI3M2Y1MTk0Ny1jZTc3LTRkMTktYTY1Mi00Njc4NjM0OTI2MzQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwiaG9zdCI6IiIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMjctMTQ4NS1JUiIsImFkZCI6IjMxLjE0LjExNC41MiIsInBvcnQiOiI0NjUzNyIsInR5cGUiOiJub25lIiwiaWQiOiJlZjI0NWJiOC0zMDFlLTQxOGUtYWMzMi0yNjRlZjE5N2RiYmEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@84.17.53.163:80#29-1518-CH
+    trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@141.193.68.81:443?allowInsecure=1&sni=glc-us3.windowsupdatea.com#36-1535-US
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `1563`
+合并节点总数: `1571`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1563`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1571`
 
 
 ## 仓库声明
