@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0000-RELAY, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 53d03c7d-e845-4e80-a1f8-f1c7f3fd09a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}, udp: true}
+  - {name: 04-0064-CN, server: zzzjlt.jjyhk.com, port: 11917, type: ss, cipher: chacha20-ietf-poly1305, password: 173d6558-9b26-4681-af0c-8b4b24603637, udp: true}
   - {name: 04-0065-CN, server: zzshdx.jjyhk.com, port: 11917, type: ss, cipher: chacha20-ietf-poly1305, password: 173d6558-9b26-4681-af0c-8b4b24603637, udp: true}
   - {name: 04-0066-DE, server: zzjsyd.jjyhk.com, port: 11914, type: ss, cipher: chacha20-ietf-poly1305, password: 173d6558-9b26-4681-af0c-8b4b24603637, udp: true}
   - {name: 04-0067-DE, server: zzjsyd.jjyhk.com, port: 13322, type: ss, cipher: chacha20-ietf-poly1305, password: 173d6558-9b26-4681-af0c-8b4b24603637, udp: true}
@@ -669,7 +670,7 @@ proxies:
   - {name: 11-0774-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: 0e3330c6-3bf1-4c17-a37d-4ce3668741b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 11-0775-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: 0e3330c6-3bf1-4c17-a37d-4ce3668741b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 11-0776-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: 0e3330c6-3bf1-4c17-a37d-4ce3668741b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
-  - {name: 11-0777-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: 0e3330c6-3bf1-4c17-a37d-4ce3668741b7, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 11-0777-CA, server: hk3.visaapp.top, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 11-0778-IS, server: is-gy.115cloud.link, port: 38860, type: trojan, password: b113ccb9-217b-37c4-8217-05b0a34fcfdc, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
   - {name: 11-0779-TR, server: tr-gy.115cloud.link, port: 54621, type: trojan, password: b113ccb9-217b-37c4-8217-05b0a34fcfdc, sni: tr-gy.115cloud.link, skip-cert-verify: true, udp: true}
   - {name: 11-0780-US, server: us-cf-gy.115cloud.link, port: 43612, type: trojan, password: b113ccb9-217b-37c4-8217-05b0a34fcfdc, sni: us-cf-gy.115cloud.link, skip-cert-verify: true, udp: true}
@@ -717,6 +718,7 @@ proxies:
   - {name: 11-0822-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0823-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0824-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 11-0825-HK, server: hkvip103.qlgq1.pw, port: 10443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0826-HK, server: hkvip103.qlgq1.pw, port: 20443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0827-HK, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0828-HK, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: 79a0408f-9e40-3adf-acec-ae49dc113506, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -820,6 +822,7 @@ proxies:
   - {name: 11-0926-FR, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 11-0927-FR, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 11-0928-FR, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 11-0929-FR, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 11-0930-US, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
   - {name: 11-0931-RELAY, server: 104.21.31.183, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 11-0932-RELAY, server: 162.159.135.234, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
@@ -972,6 +975,7 @@ proxies:
   - {name: 12-1079-RELAY, server: 2606:4700:17:f039:e4ff:9e5e:2ea1:1548, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-1080-CN, server: tg_mfbpn_d4.52vpn.eu.org, port: 11008, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1081-CN, server: yidong.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
+  - {name: 12-1082-US, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1083-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/iMGdpGpR, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 12-1084-KR, server: 43.202.49.222, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
   - {name: 12-1085-CN, server: tg_mfbpn_d4.52vpn.eu.org, port: 11015, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1007,7 +1011,6 @@ proxies:
   - {name: 12-1115-GB, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-1116-CN, server: yidong.liulangdiqiu.life, port: 10717, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
   - {name: 12-1117-US, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20127, type: ss, cipher: chacha20-ietf-poly1305, password: 89bd657a-464e-447a-8cf9-512c87f23fcc, udp: true}
-  - {name: 12-1118-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-1119-GB, server: 13.41.180.122, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-1120-RELAY, server: 2606:4700:8d79:97e7:c19a:8019:121f:1b77, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-1121-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: a9a37f79-231c-4b57-849d-3717c1b561b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
@@ -1037,7 +1040,6 @@ proxies:
   - {name: 12-1146-CN, server: ah1.kiki789.com, port: 23036, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: ah1.kiki789.com}}, udp: true}
   - {name: 12-1147-CN, server: tg_mfbpn_d5.52vpn.eu.org, port: 11033, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-1148-RELAY, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-1149-US, server: us1.bot-hosting.net, port: 20616, type: vmess, uuid: 8c94dfd8-52dd-451c-8c85-26770cd41768, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: us1.bot-hosting.net}}, udp: true}
   - {name: 12-1150-CN, server: u-s01.wamn.cc, port: 35013, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b, udp: true}
   - {name: 12-1151-CN, server: yidong.liulangdiqiu.life, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
   - {name: 12-1152-CN, server: hefei.chiguayun.shop, port: 27132, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b, udp: true}
@@ -1188,10 +1190,10 @@ proxies:
   - {name: 15-1297-CN, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 6891a1a4-1740-4a72-87a4-bdc740437c96, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 15-1298-CN, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 6891a1a4-1740-4a72-87a4-bdc740437c96, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 16-1332-JP, server: jpd.zerodisk.site, port: 48493, type: vmess, uuid: f8ef7c47-9735-439c-a42b-355bae224656, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpd.zerodisk.site}}, udp: true}
+  - {name: 16-1336-HK, server: 112.120.127.9, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 16-1339-KR, server: 3.35.156.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-1340-KR, server: 43.201.52.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-1341-KR, server: 13.125.72.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1346-DE, server: 89.187.169.38, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 17-1347-DE, server: 212.224.113.4, port: 9973, type: ss, cipher: chacha20-ietf-poly1305, password: hxHPXYrb, udp: true}
   - {name: 17-1348-EG, server: 38.54.59.99, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 17-1349-FR, server: 162.19.204.81, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1201,30 +1203,28 @@ proxies:
   - {name: 17-1360-SG, server: 18.141.177.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1361-SG, server: 54.255.184.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1363-TR, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 17-1364-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1365-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1366-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1369-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
   - {name: 17-1370-TW, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1371-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1372-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
   - {name: 17-1373-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1374-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
   - {name: 17-1375-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1376-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1379-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1377-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
   - {name: 17-1380-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
   - {name: 17-1381-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1383-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1382-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
   - {name: 17-1384-TW, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1385-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1386-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
   - {name: 17-1388-TW, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
   - {name: 17-1389-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
   - {name: 17-1390-TW, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
   - {name: 17-1393-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1394-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
-  - {name: 17-1395-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
   - {name: 17-1397-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
   - {name: 17-1398-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
   - {name: 17-1400-TW, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1402-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 6bbe3014-9fce-4700-9b39-adc2bd657f63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
   - {name: 17-1412-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 2e3f1868-eeff-4a5c-995e-9e1a2cdf1bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
+  - {name: 17-1414-TW, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 2e3f1868-eeff-4a5c-995e-9e1a2cdf1bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}, udp: true}
   - {name: 17-1426-TW, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: ffe4a0e2-65d0-4492-a2d4-f5955986fe89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
   - {name: 17-1427-TW, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
   - {name: 17-1429-US, server: 52.24.174.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1235,9 +1235,9 @@ proxies:
   - {name: 19-1469-TW, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
   - {name: 19-1470-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
   - {name: 19-1471-TW, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}, udp: true}
+  - {name: 19-1473-TW, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}, udp: true}
   - {name: 19-1476-IL, server: 95.164.61.27, port: 80, type: vmess, uuid: 73f51947-ce77-4d19-a652-467863492634, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 27-1513-ES, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 27-1514-US, server: 47.88.106.47, port: 80, type: vmess, uuid: 52fe86cc-db7f-43d0-83f8-7e4c91a61f35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qRV8zMMajQyex4KWUBkia1vvH}, udp: true}
   - {name: 27-1520-NOWHERE, server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 27-1521-US, server: 52.23.176.97, port: 34511, type: ss, cipher: chacha20-ietf-poly1305, password: 5k55aIUjJaaQ8YjE6772wF, udp: true}
   - {name: 27-1522-GB, server: 52.142.191.186, port: 54452, type: ss, cipher: chacha20-ietf-poly1305, password: ftCnIAAQAsscwLno5J2cqd, udp: true}
@@ -1246,6 +1246,7 @@ proxies:
   - {name: 32-1543-FR, server: 162.19.59.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 32-1544-CY, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 36-1547-FR, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 36-1548-FR, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 36-1549-FR, server: 54.36.174.181, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 36-1550-FR, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 36-1556-FR, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -1261,6 +1262,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0000-RELAY
+      - 04-0064-CN
       - 04-0065-CN
       - 04-0066-DE
       - 04-0067-DE
@@ -1923,6 +1925,7 @@ proxy-groups:
       - 11-0822-HK
       - 11-0823-HK
       - 11-0824-HK
+      - 11-0825-HK
       - 11-0826-HK
       - 11-0827-HK
       - 11-0828-HK
@@ -2026,6 +2029,7 @@ proxy-groups:
       - 11-0926-FR
       - 11-0927-FR
       - 11-0928-FR
+      - 11-0929-FR
       - 11-0930-US
       - 11-0931-RELAY
       - 11-0932-RELAY
@@ -2178,6 +2182,7 @@ proxy-groups:
       - 12-1079-RELAY
       - 12-1080-CN
       - 12-1081-CN
+      - 12-1082-US
       - 12-1083-RELAY
       - 12-1084-KR
       - 12-1085-CN
@@ -2213,7 +2218,6 @@ proxy-groups:
       - 12-1115-GB
       - 12-1116-CN
       - 12-1117-US
-      - 12-1118-FR
       - 12-1119-GB
       - 12-1120-RELAY
       - 12-1121-TW
@@ -2243,7 +2247,6 @@ proxy-groups:
       - 12-1146-CN
       - 12-1147-CN
       - 12-1148-RELAY
-      - 12-1149-US
       - 12-1150-CN
       - 12-1151-CN
       - 12-1152-CN
@@ -2394,10 +2397,10 @@ proxy-groups:
       - 15-1297-CN
       - 15-1298-CN
       - 16-1332-JP
+      - 16-1336-HK
       - 16-1339-KR
       - 16-1340-KR
       - 16-1341-KR
-      - 17-1346-DE
       - 17-1347-DE
       - 17-1348-EG
       - 17-1349-FR
@@ -2407,30 +2410,28 @@ proxy-groups:
       - 17-1360-SG
       - 17-1361-SG
       - 17-1363-TR
-      - 17-1364-TW
-      - 17-1365-TW
-      - 17-1366-TW
-      - 17-1369-TW
       - 17-1370-TW
+      - 17-1371-TW
+      - 17-1372-TW
       - 17-1373-TW
-      - 17-1374-TW
       - 17-1375-TW
-      - 17-1376-TW
-      - 17-1379-TW
+      - 17-1377-TW
       - 17-1380-TW
       - 17-1381-TW
-      - 17-1383-TW
+      - 17-1382-TW
       - 17-1384-TW
+      - 17-1385-TW
+      - 17-1386-TW
       - 17-1388-TW
       - 17-1389-TW
       - 17-1390-TW
       - 17-1393-TW
-      - 17-1394-TW
-      - 17-1395-TW
       - 17-1397-TW
       - 17-1398-TW
       - 17-1400-TW
+      - 17-1402-TW
       - 17-1412-TW
+      - 17-1414-TW
       - 17-1426-TW
       - 17-1427-TW
       - 17-1429-US
@@ -2441,9 +2442,9 @@ proxy-groups:
       - 19-1469-TW
       - 19-1470-TW
       - 19-1471-TW
+      - 19-1473-TW
       - 19-1476-IL
       - 27-1513-ES
-      - 27-1514-US
       - 27-1520-NOWHERE
       - 27-1521-US
       - 27-1522-GB
@@ -2452,6 +2453,7 @@ proxy-groups:
       - 32-1543-FR
       - 32-1544-CY
       - 36-1547-FR
+      - 36-1548-FR
       - 36-1549-FR
       - 36-1550-FR
       - 36-1556-FR
@@ -2697,12 +2699,12 @@ proxy-groups:
       - 15-1286-CN
       - 15-1291-CN
       - 15-1296-CN
+      - 16-1336-HK
       - 16-1341-KR
-      - 17-1346-DE
       - 17-1361-SG
-      - 17-1366-TW
-      - 17-1376-TW
+      - 17-1371-TW
       - 17-1381-TW
+      - 17-1386-TW
       - 17-1426-TW
       - 18-1441-SE
       - 19-1471-TW
@@ -2898,6 +2900,7 @@ proxy-groups:
       - 12-1067-CN
       - 12-1072-US
       - 12-1077-US
+      - 12-1082-US
       - 12-1087-CN
       - 12-1092-CN
       - 12-1097-CN
@@ -2943,7 +2946,11 @@ proxy-groups:
       - 15-1297-CN
       - 16-1332-JP
       - 17-1347-DE
+      - 17-1372-TW
+      - 17-1377-TW
+      - 17-1382-TW
       - 17-1397-TW
+      - 17-1402-TW
       - 17-1412-TW
       - 17-1427-TW
       - 17-1432-MA
@@ -3148,7 +3155,6 @@ proxy-groups:
       - 12-1103-CN
       - 12-1108-RELAY
       - 12-1113-CN
-      - 12-1118-FR
       - 12-1123-CH
       - 12-1128-RELAY
       - 12-1133-RELAY
@@ -3188,17 +3194,19 @@ proxy-groups:
       - 17-1348-EG
       - 17-1363-TR
       - 17-1373-TW
-      - 17-1383-TW
       - 17-1388-TW
       - 17-1393-TW
       - 17-1398-TW
+      - 19-1473-TW
       - 27-1513-ES
       - 32-1543-FR
+      - 36-1548-FR
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0064-CN
       - 04-0069-CN
       - 04-0074-CN
       - 04-0079-CN
@@ -3351,6 +3359,7 @@ proxy-groups:
       - 11-0914-CN
       - 11-0919-CN
       - 11-0924-FR
+      - 11-0929-FR
       - 12-0934-CN
       - 12-0939-CN
       - 12-0944-CN
@@ -3394,7 +3403,6 @@ proxy-groups:
       - 12-1134-US
       - 12-1139-SG
       - 12-1144-NL
-      - 12-1149-US
       - 12-1154-FR
       - 12-1159-FR
       - 12-1164-CN
@@ -3427,16 +3435,11 @@ proxy-groups:
       - 16-1339-KR
       - 17-1349-FR
       - 17-1359-SG
-      - 17-1364-TW
-      - 17-1369-TW
-      - 17-1374-TW
-      - 17-1379-TW
       - 17-1384-TW
       - 17-1389-TW
-      - 17-1394-TW
+      - 17-1414-TW
       - 17-1429-US
       - 19-1469-TW
-      - 27-1514-US
       - 32-1544-CY
       - 36-1549-FR
       - 36-1559-FR
@@ -3578,6 +3581,7 @@ proxy-groups:
       - 11-0810-US
       - 11-0815-GB
       - 11-0820-HK
+      - 11-0825-HK
       - 11-0830-RELAY
       - 11-0835-SG
       - 11-0840-CN
@@ -3676,12 +3680,11 @@ proxy-groups:
       - 17-1350-DE
       - 17-1355-JP
       - 17-1360-SG
-      - 17-1365-TW
       - 17-1370-TW
       - 17-1375-TW
       - 17-1380-TW
+      - 17-1385-TW
       - 17-1390-TW
-      - 17-1395-TW
       - 17-1400-TW
       - 17-1435-US
       - 19-1470-TW
