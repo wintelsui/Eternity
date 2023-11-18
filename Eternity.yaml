@@ -901,13 +901,13 @@ proxies:
   - {name: 12-0944-CN, server: hkp10.network-cdn-gw.cc, port: 48810, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
   - {name: 12-0945-CN, server: hefei.chiguayun.shop, port: 27132, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b, udp: true}
   - {name: 12-0946-FR, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 12-0947-CA, server: 143.244.43.216, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-0948-CN, server: yidong.liulangdiqiu.life, port: 10717, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd, udp: true}
   - {name: 12-0949-CN, server: 120.233.30.219, port: 10825, type: trojan, password: d864e4c9-a625-4142-82ae-a129fa40f36b, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 12-0950-JP, server: 84.17.34.108, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-0951-GB, server: 52.56.170.248, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-0952-CN, server: foshan.chiguayun.shop, port: 27135, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b, udp: true}
   - {name: 12-0953-CN, server: h-k02.wamn.cc, port: 35006, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b, udp: true}
-  - {name: 12-0954-CA, server: 143.244.43.216, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-0955-CN, server: cccn.kiki789.com, port: 23156, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: cccn.kiki789.com}}, udp: true}
   - {name: 12-0956-CN, server: j-p01.wamn.cc, port: 35009, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b, udp: true}
   - {name: 12-0957-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/nYAwpBbW, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -2107,13 +2107,13 @@ proxy-groups:
       - 12-0944-CN
       - 12-0945-CN
       - 12-0946-FR
+      - 12-0947-CA
       - 12-0948-CN
       - 12-0949-CN
       - 12-0950-JP
       - 12-0951-GB
       - 12-0952-CN
       - 12-0953-CN
-      - 12-0954-CA
       - 12-0955-CN
       - 12-0956-CN
       - 12-0957-RELAY
@@ -2885,6 +2885,7 @@ proxy-groups:
       - 12-0932-CN
       - 12-0937-JP
       - 12-0942-RELAY
+      - 12-0947-CA
       - 12-0952-CN
       - 12-0957-RELAY
       - 12-0962-JP
@@ -3375,7 +3376,6 @@ proxy-groups:
       - 12-0939-CN
       - 12-0944-CN
       - 12-0949-CN
-      - 12-0954-CA
       - 12-0959-HK
       - 12-0964-CN
       - 12-0969-JP
