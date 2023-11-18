@@ -877,13 +877,13 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODU0M2E0Yi0xZDNjLTRhNTItOTUwZi1hMzZhZDI0Y2EyOGU@hkp10.network-cdn-gw.cc:48810#12-0944-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTBiYjQ3OC0wMjkyLTQwMDAtYTQyNS1kYjBkOTI2N2NjOGI@hefei.chiguayun.shop:27132#12-0945-CN
     ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@54.36.174.181:6697#12-0946-FR
+    ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@143.244.43.216:443#12-0947-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWViYWY1NC05NDczLTQ4MzYtODY4Ni04MjZhMzQ3OTUzZGQ@yidong.liulangdiqiu.life:10717#12-0948-CN
     trojan://d864e4c9-a625-4142-82ae-a129fa40f36b@120.233.30.219:10825?allowInsecure=1&sni=alibaba-node.cn#12-0949-CN
     ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@84.17.34.108:443#12-0950-JP
     trojan://telegram-id-privatevpns@52.56.170.248:22222?allowInsecure=1&sni=trj.rollingnext.co.uk#12-0951-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTBiYjQ3OC0wMjkyLTQwMDAtYTQyNS1kYjBkOTI2N2NjOGI@foshan.chiguayun.shop:27135#12-0952-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NTA4YWFiOS1mNjk1LTRkYTUtOTVmOC1lOTM2NmUyMDRkMWI@h-k02.wamn.cc:35006#12-0953-CN
-    ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@143.244.43.216:80#12-0954-CA
     vmess://eyJ2IjoiMiIsInBzIjoiMTItMDk1NS1DTiIsImFkZCI6ImNjY24ua2lraTc4OS5jb20iLCJwb3J0IjoiMjMxNTYiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTJmODhiYjEtYzJmOC0zMjgxLWE5YjctNmY4OWNiOGViNTFmIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii84MWJkZGMxZDgtODQwNC00NGIxLTljNzYtMjUwMjlmOWJmNDI5LmxpdmUyMzgubTN1OCIsImhvc3QiOiJjY2NuLmtpa2k3ODkuY29tIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NTA4YWFiOS1mNjk1LTRkYTUtOTVmOC1lOTM2NmUyMDRkMWI@j-p01.wamn.cc:35009#12-0956-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTItMDk1Ny1SRUxBWSIsImFkZCI6ImNmY2RuMS5zYW5mZW5jZG45LmNvbSIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUwNmQ5M2VjLWZmZGItNDFjZC1iYmMzLTM2NzAzOWM0YjE4ZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdmlkZW8vbllBd3BCYlciLCJob3N0IjoiY2ZjZG4xLnNhbmZlbmNkbjkuY29tIiwidGxzIjoiIn0=
@@ -1232,11 +1232,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1321`
+合并节点总数: `1553`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1321`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1553`
 
 
 ## 仓库声明
