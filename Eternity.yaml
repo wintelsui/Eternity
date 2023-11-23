@@ -65,11 +65,6 @@ proxies:
   - {name: 04-0042-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 6fdeddc4-88bc-43f2-b8f0-37bed954d98b, skip-cert-verify: true, udp: true}
   - {name: 04-0043-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 6fdeddc4-88bc-43f2-b8f0-37bed954d98b, udp: true}
   - {name: 04-0044-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 6fdeddc4-88bc-43f2-b8f0-37bed954d98b, udp: true}
-  - {name: 04-0079-CN, server: gdct001.theyydsnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
-  - {name: 04-0080-CN, server: gdct003.theyydsnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
-  - {name: 04-0081-CN, server: gdct002.theyydsnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
-  - {name: 04-0082-CN, server: gdct001.theyydsnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
-  - {name: 04-0083-CN, server: gdct003.theyydsnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
   - {name: 04-0084-CN, server: gdct002.theyydsnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
   - {name: 04-0085-CN, server: gdct001.theyydsnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
   - {name: 04-0086-CN, server: gdct003.theyydsnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebad7d7-e412-44a8-b93e-01ee9441a967, udp: true}
@@ -500,6 +495,7 @@ proxies:
   - {name: 04-0511-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0512-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0513-HK, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0514-HK, server: hkvip103.qlgq1.pw, port: 20443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0515-HK, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0516-HK, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0517-HK, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: 5250b2f6-1bb8-3010-a169-a09b5e96b5a9, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -674,7 +670,6 @@ proxies:
   - {name: 11-0784-US, server: pxvip101.qlgq1.pw, port: 30443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0785-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0786-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 11-0787-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0788-US, server: svvip102.qlgq1.pw, port: 10443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0789-US, server: svvip102.qlgq1.pw, port: 20443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0790-US, server: svvip102.qlgq1.pw, port: 30443, type: trojan, password: 87432cb3-518c-3d46-b7d2-3fe696be3934, sni: svvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -1189,16 +1184,13 @@ proxies:
   - {name: 12-1304-DE, server: 162.19.170.225, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1310-US, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8, udp: true}
   - {name: 12-1314-MA, server: 188.214.157.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 12-1317-US, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c, udp: true}
   - {name: 12-1319-FR, server: 51.158.61.155, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 16-1460-JP, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1464-CH, server: 5.182.36.245, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: ndJuPjq7WbFDjB4oacljGw, udp: true}
   - {name: 17-1486-CN, server: zx02.endhigh.xyz, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 17-1488-CN, server: zx02.endhigh.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
   - {name: 17-1510-CN, server: cm01.newcome.xyz, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: 17-1516-KR, server: 43.201.255.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1518-SG, server: 3.1.79.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 18-1523-FR, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 18-1527-RELAY, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
   - {name: 18-1528-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 19-1558-VN, server: 103.166.185.63, port: 80, type: vmess, uuid: 057177db-f003-40dc-a14b-488e8ceefcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zingfast.vn}, udp: true}
   - {name: 19-1559-VN, server: 103.166.185.37, port: 80, type: vmess, uuid: 057177db-f003-40dc-a14b-488e8ceefcaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zingfast.vn}, udp: true}
@@ -1226,24 +1218,32 @@ proxies:
   - {name: 36-1614-FR, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 36-1617-FR, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 36-1618-FR, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 36-1619-FR, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 36-1620-FR, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 36-1621-FR, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 36-1623-FR, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 38-1626-CN, server: 17.jijiyun.quest, port: 25117, type: vmess, uuid: 22bd1177-fa7d-3825-a963-714b07d97845, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.jijiyun.quest}}, udp: true}
   - {name: 38-1628-CN, server: 19.jijiyun.quest, port: 25119, type: vmess, uuid: 22bd1177-fa7d-3825-a963-714b07d97845, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.jijiyun.quest}}, udp: true}
-  - {name: 39-1631-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1632-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1633-CN, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1634-CN, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1635-CN, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 39-1637-CN, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 39-1642-CN, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 39-1644-CN, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 39-1660-CN, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1636-CN, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1640-CN, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1646-CN, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1652-CN, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1653-CN, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1654-CN, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1655-CN, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1657-CN, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1661-CN, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 39-1666-CN, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1663-CN, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1664-CN, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1665-CN, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1670-CN, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1671-CN, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1672-CN, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1673-CN, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1675-CN, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1676-CN, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1677-CN, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 39-1678-CN, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 972658:LvgAHs, obfs-param: download.windowsupdate.com, udp: true}
@@ -1272,11 +1272,6 @@ proxy-groups:
       - 04-0042-JP
       - 04-0043-JP
       - 04-0044-HK
-      - 04-0079-CN
-      - 04-0080-CN
-      - 04-0081-CN
-      - 04-0082-CN
-      - 04-0083-CN
       - 04-0084-CN
       - 04-0085-CN
       - 04-0086-CN
@@ -1707,6 +1702,7 @@ proxy-groups:
       - 04-0511-HK
       - 04-0512-HK
       - 04-0513-HK
+      - 04-0514-HK
       - 04-0515-HK
       - 04-0516-HK
       - 04-0517-HK
@@ -1881,7 +1877,6 @@ proxy-groups:
       - 11-0784-US
       - 11-0785-US
       - 11-0786-US
-      - 11-0787-US
       - 11-0788-US
       - 11-0789-US
       - 11-0790-US
@@ -2396,16 +2391,13 @@ proxy-groups:
       - 12-1304-DE
       - 12-1310-US
       - 12-1314-MA
-      - 12-1317-US
       - 12-1319-FR
+      - 16-1460-JP
       - 17-1464-CH
       - 17-1486-CN
-      - 17-1488-CN
       - 17-1510-CN
-      - 17-1516-KR
       - 17-1518-SG
       - 18-1523-FR
-      - 18-1527-RELAY
       - 18-1528-SE
       - 19-1558-VN
       - 19-1559-VN
@@ -2433,24 +2425,32 @@ proxy-groups:
       - 36-1614-FR
       - 36-1617-FR
       - 36-1618-FR
-      - 36-1619-FR
       - 36-1620-FR
       - 36-1621-FR
       - 36-1623-FR
       - 38-1626-CN
       - 38-1628-CN
-      - 39-1631-CN
+      - 39-1632-CN
       - 39-1633-CN
       - 39-1634-CN
       - 39-1635-CN
-      - 39-1637-CN
-      - 39-1642-CN
-      - 39-1644-CN
-      - 39-1660-CN
+      - 39-1636-CN
+      - 39-1640-CN
+      - 39-1646-CN
+      - 39-1652-CN
+      - 39-1653-CN
+      - 39-1654-CN
+      - 39-1655-CN
+      - 39-1657-CN
       - 39-1661-CN
-      - 39-1666-CN
+      - 39-1663-CN
+      - 39-1664-CN
+      - 39-1665-CN
       - 39-1670-CN
+      - 39-1671-CN
       - 39-1672-CN
+      - 39-1673-CN
+      - 39-1675-CN
       - 39-1676-CN
       - 39-1677-CN
       - 39-1678-CN
@@ -2475,7 +2475,6 @@ proxy-groups:
     proxies:
       - 04-0011-US
       - 04-0016-AU
-      - 04-0081-CN
       - 04-0086-CN
       - 04-0091-CN
       - 04-0096-CN
@@ -2700,16 +2699,16 @@ proxy-groups:
       - 12-1291-CN
       - 12-1296-RELAY
       - 17-1486-CN
-      - 17-1516-KR
       - 19-1561-VN
       - 19-1566-HK
       - 19-1571-JP
       - 19-1576-DE
       - 36-1621-FR
       - 38-1626-CN
-      - 39-1631-CN
+      - 39-1636-CN
+      - 39-1646-CN
       - 39-1661-CN
-      - 39-1666-CN
+      - 39-1671-CN
       - 39-1676-CN
       - 39-1681-CN
   - name: 测速2分组
@@ -2719,7 +2718,6 @@ proxy-groups:
     proxies:
       - 04-0017-IT
       - 04-0042-JP
-      - 04-0082-CN
       - 04-0087-CN
       - 04-0092-CN
       - 04-0097-CN
@@ -2840,7 +2838,6 @@ proxy-groups:
       - 11-0772-SG
       - 11-0777-JP
       - 11-0782-US
-      - 11-0787-US
       - 11-0792-US
       - 11-0797-GB
       - 11-0802-HK
@@ -2943,15 +2940,14 @@ proxy-groups:
       - 12-1287-DE
       - 12-1292-FR
       - 12-1297-US
-      - 12-1317-US
-      - 18-1527-RELAY
       - 19-1562-VN
       - 19-1567-HK
       - 19-1572-JP
       - 19-1577-CA
       - 36-1617-FR
-      - 39-1637-CN
-      - 39-1642-CN
+      - 39-1632-CN
+      - 39-1652-CN
+      - 39-1657-CN
       - 39-1672-CN
       - 39-1677-CN
   - name: 测速3分组
@@ -2961,7 +2957,6 @@ proxy-groups:
     proxies:
       - 04-0013-US
       - 04-0043-JP
-      - 04-0083-CN
       - 04-0088-CN
       - 04-0093-CN
       - 04-0098-CN
@@ -3186,7 +3181,6 @@ proxy-groups:
       - 12-1288-CN
       - 12-1293-FR
       - 12-1298-CN
-      - 17-1488-CN
       - 17-1518-SG
       - 18-1523-FR
       - 18-1528-SE
@@ -3199,6 +3193,9 @@ proxy-groups:
       - 36-1623-FR
       - 38-1628-CN
       - 39-1633-CN
+      - 39-1653-CN
+      - 39-1663-CN
+      - 39-1673-CN
       - 39-1678-CN
   - name: 测速4分组
     type: url-test
@@ -3208,7 +3205,6 @@ proxy-groups:
       - 04-0004-KR
       - 04-0009-TW
       - 04-0044-HK
-      - 04-0079-CN
       - 04-0084-CN
       - 04-0089-CN
       - 04-0094-CN
@@ -3295,6 +3291,7 @@ proxy-groups:
       - 04-0499-US
       - 04-0504-GB
       - 04-0509-HK
+      - 04-0514-HK
       - 04-0519-CN
       - 04-0524-CN
       - 04-0529-CN
@@ -3442,9 +3439,9 @@ proxy-groups:
       - 19-1579-AU
       - 27-1589-US
       - 36-1614-FR
-      - 36-1619-FR
       - 39-1634-CN
-      - 39-1644-CN
+      - 39-1654-CN
+      - 39-1664-CN
       - 39-1679-CN
   - name: 测速5分组
     type: url-test
@@ -3453,7 +3450,6 @@ proxy-groups:
     proxies:
       - 04-0000-CN
       - 04-0010-AE
-      - 04-0080-CN
       - 04-0085-CN
       - 04-0090-CN
       - 04-0095-CN
@@ -3678,6 +3674,7 @@ proxy-groups:
       - 12-1295-CN
       - 12-1300-GB
       - 12-1310-US
+      - 16-1460-JP
       - 17-1510-CN
       - 19-1560-VN
       - 19-1565-HK
@@ -3686,8 +3683,11 @@ proxy-groups:
       - 29-1600-CH
       - 36-1620-FR
       - 39-1635-CN
-      - 39-1660-CN
+      - 39-1640-CN
+      - 39-1655-CN
+      - 39-1665-CN
       - 39-1670-CN
+      - 39-1675-CN
       - 39-1680-CN
       - 39-1685-CN
   - name: 广告拦截
