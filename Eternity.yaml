@@ -65,23 +65,6 @@ proxies:
   - {name: 04-0012-US, server: us.doushimeng.com, port: 20603, type: ss, cipher: chacha20-ietf-poly1305, password: 47ee15eb-d681-4512-bc61-4b0b14f84aa7, udp: true}
   - {name: 04-0015-AU, server: au.doushimeng.com, port: 24652, type: ss, cipher: chacha20-ietf-poly1305, password: 47ee15eb-d681-4512-bc61-4b0b14f84aa7, udp: true}
   - {name: 04-0016-IT, server: it.doushimeng.com, port: 21102, type: ss, cipher: chacha20-ietf-poly1305, password: 47ee15eb-d681-4512-bc61-4b0b14f84aa7, udp: true}
-  - {name: 04-0023-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 75746f02-0c44-4426-98af-28d9aa6cbe95, skip-cert-verify: true, udp: true}
-  - {name: 04-0024-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 75746f02-0c44-4426-98af-28d9aa6cbe95, udp: true}
-  - {name: 04-0025-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 75746f02-0c44-4426-98af-28d9aa6cbe95, udp: true}
-  - {name: 04-0031-CN, server: tls.biubiufast.quest, port: 32102, type: trojan, password: 75746f02-0c44-4426-98af-28d9aa6cbe95, sni: hk15.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: 04-0032-CN, server: tls.biubiufast.quest, port: 32103, type: trojan, password: 75746f02-0c44-4426-98af-28d9aa6cbe95, sni: sfo6.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: 04-0033-CN, server: gdct001.theyydsnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0034-CN, server: gdct003.theyydsnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0035-CN, server: shcm002.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0036-CN, server: gdct001.theyydsnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0037-CN, server: gdct003.theyydsnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0038-CN, server: shcm002.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0039-CN, server: gdct001.theyydsnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0040-CN, server: gdct003.theyydsnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0041-CN, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0042-CN, server: gdct001.theyydsnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0043-CN, server: gdct003.theyydsnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0044-CN, server: shcm002.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
   - {name: 04-0045-CN, server: gdct001.theyydsnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
   - {name: 04-0046-CN, server: gdct003.theyydsnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
   - {name: 04-0047-CN, server: shcm002.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
@@ -127,65 +110,65 @@ proxies:
   - {name: 04-0087-CN, server: gdct001.theyydsnode.top, port: 45175, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
   - {name: 04-0088-CN, server: gdct003.theyydsnode.top, port: 10515, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
   - {name: 04-0089-CN, server: shcm002.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 6e8acb6a-74ae-433e-b7db-3b330dd6cc5c, udp: true}
-  - {name: 04-0090-CN, server: cngzm01.tangguo.pro, port: 6018, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0091-CN, server: cngzm01.tangguo.pro, port: 6016, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0092-CN, server: cngzm01.tangguo.pro, port: 6022, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0093-CN, server: cngzm01.tangguo.pro, port: 6046, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0094-CN, server: cnnym01.tangguo.pro, port: 31058, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0095-CN, server: cnnym01.tangguo.pro, port: 31065, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0096-CN, server: cnnym01.tangguo.pro, port: 31071, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0097-CN, server: cnnym01.tangguo.pro, port: 31093, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0098-CN, server: cngzm01.tangguo.pro, port: 6026, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0099-CN, server: cngzm01.tangguo.pro, port: 6028, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0100-CN, server: cngzm01.tangguo.pro, port: 6050, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0101-CN, server: cnnym01.tangguo.pro, port: 31019, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0102-CN, server: cnnym01.tangguo.pro, port: 31020, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0103-CN, server: cnnym01.tangguo.pro, port: 31041, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0104-CN, server: cngzm01.tangguo.pro, port: 6030, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0105-CN, server: cngzm01.tangguo.pro, port: 6044, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0106-CN, server: cnnym01.tangguo.pro, port: 31097, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0107-CN, server: cnnym01.tangguo.pro, port: 31099, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0108-CN, server: cngzm01.tangguo.pro, port: 6063, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0109-CN, server: cngzm01.tangguo.pro, port: 6064, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0110-CN, server: cnnym01.tangguo.pro, port: 31110, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0111-CN, server: cnnym01.tangguo.pro, port: 31122, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0112-CN, server: cngzm02.tangguo.pro, port: 51116, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0113-CN, server: cngzm02.tangguo.pro, port: 51109, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0114-CN, server: cngzm02.tangguo.pro, port: 51119, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0115-CN, server: cngzm02.tangguo.pro, port: 51120, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0116-CN, server: cnfsm01.tangguo.pro, port: 21077, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0117-CN, server: cnfsm01.tangguo.pro, port: 21078, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0118-CN, server: cnyzm01.tangguo.pro, port: 21047, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0119-CN, server: cnyzm01.tangguo.pro, port: 21048, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0120-CN, server: cnyzm01.tangguo.pro, port: 21082, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0121-CN, server: cnyzm01.tangguo.pro, port: 21083, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0122-CN, server: cnczu01.tangguo.pro, port: 21057, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0123-CN, server: cnczu01.tangguo.pro, port: 21101, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0124-CN, server: cnfsm01.tangguo.pro, port: 21072, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0125-CN, server: cnfsm01.tangguo.pro, port: 21081, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0126-CN, server: cngzm02.tangguo.pro, port: 51117, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0127-CN, server: cngzm02.tangguo.pro, port: 51115, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0128-CN, server: cnyzm01.tangguo.pro, port: 21053, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0129-CN, server: cnyzm01.tangguo.pro, port: 21054, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0130-CN, server: cnczu01.tangguo.pro, port: 21073, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0131-CN, server: cnczu01.tangguo.pro, port: 21108, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0132-CN, server: cnczu01.tangguo.pro, port: 21075, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0133-CN, server: cnczu01.tangguo.pro, port: 21070, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0134-CN, server: cngzm02.tangguo.pro, port: 51091, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0135-CN, server: cngzm02.tangguo.pro, port: 51106, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0136-CN, server: cnyzm01.tangguo.pro, port: 21084, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0137-CN, server: cnyzm01.tangguo.pro, port: 21089, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0138-CN, server: cngzm02.tangguo.pro, port: 51061, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0139-CN, server: cngzm02.tangguo.pro, port: 51062, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0140-CN, server: cnyzm01.tangguo.pro, port: 21090, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0141-CN, server: cnyzm01.tangguo.pro, port: 21049, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0142-CN, server: cnyzm01.tangguo.pro, port: 21051, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0143-CN, server: cnyzm01.tangguo.pro, port: 21052, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0144-CN, server: cnczu01.tangguo.pro, port: 21096, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0145-CN, server: cnczu01.tangguo.pro, port: 21102, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0146-CN, server: cnipsz00.tangguo.pro, port: 21006, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0147-CN, server: cnipsz00.tangguo.pro, port: 21007, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
-  - {name: 04-0148-CN, server: cnipsz00.tangguo.pro, port: 21008, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132561:Ak3ItD, obfs-param: 04677132561.itunes.apple.com, udp: true}
+  - {name: 04-0090-CN, server: cngzm01.tangguo.pro, port: 6018, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0091-CN, server: cngzm01.tangguo.pro, port: 6016, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0092-CN, server: cngzm01.tangguo.pro, port: 6022, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0093-CN, server: cngzm01.tangguo.pro, port: 6046, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0094-CN, server: cnnym01.tangguo.pro, port: 31058, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0095-CN, server: cnnym01.tangguo.pro, port: 31065, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0096-CN, server: cnnym01.tangguo.pro, port: 31071, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0097-CN, server: cnnym01.tangguo.pro, port: 31093, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0098-CN, server: cngzm01.tangguo.pro, port: 6026, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0099-CN, server: cngzm01.tangguo.pro, port: 6028, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0100-CN, server: cngzm01.tangguo.pro, port: 6050, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0101-CN, server: cnnym01.tangguo.pro, port: 31019, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0102-CN, server: cnnym01.tangguo.pro, port: 31020, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0103-CN, server: cnnym01.tangguo.pro, port: 31041, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0104-CN, server: cngzm01.tangguo.pro, port: 6030, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0105-CN, server: cngzm01.tangguo.pro, port: 6044, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0106-CN, server: cnnym01.tangguo.pro, port: 31097, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0107-CN, server: cnnym01.tangguo.pro, port: 31099, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0108-CN, server: cngzm01.tangguo.pro, port: 6063, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0109-CN, server: cngzm01.tangguo.pro, port: 6064, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0110-CN, server: cnnym01.tangguo.pro, port: 31110, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0111-CN, server: cnnym01.tangguo.pro, port: 31122, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0112-CN, server: cngzm02.tangguo.pro, port: 51116, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0113-CN, server: cngzm02.tangguo.pro, port: 51109, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0114-CN, server: cngzm02.tangguo.pro, port: 51119, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0115-CN, server: cngzm02.tangguo.pro, port: 51120, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0116-CN, server: cnfsm01.tangguo.pro, port: 21077, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0117-CN, server: cnfsm01.tangguo.pro, port: 21078, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0118-CN, server: cnyzm01.tangguo.pro, port: 21047, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0119-CN, server: cnyzm01.tangguo.pro, port: 21048, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0120-CN, server: cnyzm01.tangguo.pro, port: 21082, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0121-CN, server: cnyzm01.tangguo.pro, port: 21083, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0122-CN, server: cnczu01.tangguo.pro, port: 21057, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0123-CN, server: cnczu01.tangguo.pro, port: 21101, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0124-CN, server: cnfsm01.tangguo.pro, port: 21072, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0125-CN, server: cnfsm01.tangguo.pro, port: 21081, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0126-CN, server: cngzm02.tangguo.pro, port: 51117, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0127-CN, server: cngzm02.tangguo.pro, port: 51115, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0128-CN, server: cnyzm01.tangguo.pro, port: 21053, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0129-CN, server: cnyzm01.tangguo.pro, port: 21054, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0130-CN, server: cnczu01.tangguo.pro, port: 21073, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0131-CN, server: cnczu01.tangguo.pro, port: 21108, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0132-CN, server: cnczu01.tangguo.pro, port: 21075, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0133-CN, server: cnczu01.tangguo.pro, port: 21070, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0134-CN, server: cngzm02.tangguo.pro, port: 51091, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0135-CN, server: cngzm02.tangguo.pro, port: 51106, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0136-CN, server: cnyzm01.tangguo.pro, port: 21084, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0137-CN, server: cnyzm01.tangguo.pro, port: 21089, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0138-CN, server: cngzm02.tangguo.pro, port: 51061, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0139-CN, server: cngzm02.tangguo.pro, port: 51062, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0140-CN, server: cnyzm01.tangguo.pro, port: 21090, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0141-CN, server: cnyzm01.tangguo.pro, port: 21049, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0142-CN, server: cnyzm01.tangguo.pro, port: 21051, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0143-CN, server: cnyzm01.tangguo.pro, port: 21052, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0144-CN, server: cnczu01.tangguo.pro, port: 21096, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0145-CN, server: cnczu01.tangguo.pro, port: 21102, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0146-CN, server: cnipsz00.tangguo.pro, port: 21006, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0147-CN, server: cnipsz00.tangguo.pro, port: 21007, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
+  - {name: 04-0148-CN, server: cnipsz00.tangguo.pro, port: 21008, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 132563:eXKw4l, obfs-param: 1c13b132563.itunes.apple.com, udp: true}
   - {name: 04-0149-TW, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}, udp: true}
   - {name: 04-0150-TW, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nbq12.ntbq.dynu.net}}, udp: true}
   - {name: 04-0151-TW, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: nbq13.ntbq.dynu.net}}, udp: true}
@@ -195,25 +178,25 @@ proxies:
   - {name: 04-0155-TW, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}, udp: true}
   - {name: 04-0156-TW, server: tc11.twtc.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.twtc.dynu.net}}, udp: true}
   - {name: 04-0157-TW, server: tc12.twtc.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: tc12.twtc.dynu.net}}, udp: true}
-  - {name: 04-0158-CN, server: yt201.jdxx9.com, port: 16386, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0159-CN, server: yt201.jdxx9.com, port: 16385, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0160-CN, server: tz69.jdxx9.com, port: 15985, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0161-CN, server: tz69.jdxx9.com, port: 15986, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0162-CN, server: tz69.jdxx9.com, port: 15987, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0163-CN, server: tz69.jdxx9.com, port: 16085, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0164-CN, server: tz69.jdxx9.com, port: 16086, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0165-CN, server: tz69.jdxx9.com, port: 16087, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0166-CN, server: yt201.jdxx9.com, port: 16486, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0167-CN, server: yt201.jdxx9.com, port: 16487, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0168-CN, server: yt201.jdxx9.com, port: 16489, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0169-CN, server: yt201.jdxx9.com, port: 16488, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0170-CN, server: yt201.jdxx9.com, port: 16490, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0171-CN, server: yt201.jdxx9.com, port: 16390, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0172-CN, server: yt201.jdxx9.com, port: 15886, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0173-CN, server: yt201.jdxx9.com, port: 15887, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0174-CN, server: yt201.jdxx9.com, port: 15888, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0175-CN, server: yt201.jdxx9.com, port: 15889, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
-  - {name: 04-0176-CN, server: yt201.jdxx9.com, port: 15890, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9520:1DKhVN, obfs-param: 5c8f09520.download.windowsupdate.com, udp: true}
+  - {name: 04-0158-CN, server: yt201.jdxx9.com, port: 16386, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0159-CN, server: yt201.jdxx9.com, port: 16385, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0160-CN, server: tz69.jdxx9.com, port: 15985, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0161-CN, server: tz69.jdxx9.com, port: 15986, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0162-CN, server: tz69.jdxx9.com, port: 15987, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0163-CN, server: tz69.jdxx9.com, port: 16085, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0164-CN, server: tz69.jdxx9.com, port: 16086, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0165-CN, server: tz69.jdxx9.com, port: 16087, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0166-CN, server: yt201.jdxx9.com, port: 16486, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0167-CN, server: yt201.jdxx9.com, port: 16487, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0168-CN, server: yt201.jdxx9.com, port: 16489, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0169-CN, server: yt201.jdxx9.com, port: 16488, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0170-CN, server: yt201.jdxx9.com, port: 16490, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0171-CN, server: yt201.jdxx9.com, port: 16390, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0172-CN, server: yt201.jdxx9.com, port: 15886, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0173-CN, server: yt201.jdxx9.com, port: 15887, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0174-CN, server: yt201.jdxx9.com, port: 15888, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0175-CN, server: yt201.jdxx9.com, port: 15889, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
+  - {name: 04-0176-CN, server: yt201.jdxx9.com, port: 15890, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9530:p5bYDh, obfs-param: af18e9530.download.windowsupdate.com, udp: true}
   - {name: 04-0177-CN, server: dnspsdhaitun.ncsuwei.top, port: 14109, type: vmess, uuid: c208dcd8-697b-3f6d-a1dd-96f04c238889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: 04-0178-CN, server: dnspsdhaitun.ncsuwei.top, port: 14110, type: vmess, uuid: c208dcd8-697b-3f6d-a1dd-96f04c238889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: 04-0179-CN, server: dnspsdhaitun.ncsuwei.top, port: 12001, type: vmess, uuid: c208dcd8-697b-3f6d-a1dd-96f04c238889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
@@ -336,6 +319,7 @@ proxies:
   - {name: 04-0296-RELAY, server: cdnikuancdnikuan.ikuan.dev, port: 8080, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Onlinemedicallearningvideos/HEAC*?ed=2048", headers: {Host: cdnikuancdnikuan.ikuan.dev}}, udp: true}
   - {name: 04-0297-RELAY, server: cdnikuancdnikuan.ikuan.dev, port: 2052, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Onlinemedicallearningvideos/HEAC*?ed=2048", headers: {Host: cdnikuancdnikuan.ikuan.dev}}, udp: true}
   - {name: 04-0298-RELAY, server: freenodecdn.ikuan.dev, port: 2095, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cloudvideo?ed=1024", headers: {Host: freenodecdn.ikuan.dev}}, udp: true}
+  - {name: 04-0299-RELAY, server: lon01.freenode.pro, port: 443, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /update.microsoft.com, headers: {Host: lon01.freenode.pro}}, udp: true}
   - {name: 04-0300-RELAY, server: cewcastlecdn2111.ikuan.dev, port: 2086, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/update.microsoft.com?ed=2048", headers: {Host: cewcastlecdn2111.ikuan.dev}}, udp: true}
   - {name: 04-0301-RELAY, server: cdnikuancdnikuan.ikuan.dev, port: 2095, type: vmess, uuid: d9446ca3-c535-469f-a7b7-907025a79e6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/cloudvideo?ed=1024", headers: {Host: cdnikuancdnikuan.ikuan.dev}}, udp: true}
   - {name: 04-0302-CN, server: whcm.pangupy.com, port: 24480, type: ss, cipher: chacha20-ietf-poly1305, password: 1b1b4699-9208-44b7-a111-64c0e14107d5, udp: true}
@@ -346,15 +330,16 @@ proxies:
   - {name: 04-0307-CN, server: whcm.pangupy.com, port: 47542, type: ss, cipher: chacha20-ietf-poly1305, password: 1b1b4699-9208-44b7-a111-64c0e14107d5, udp: true}
   - {name: 04-0308-CN, server: whcm.pangupy.com, port: 16298, type: ss, cipher: chacha20-ietf-poly1305, password: 1b1b4699-9208-44b7-a111-64c0e14107d5, udp: true}
   - {name: 04-0309-CN, server: whcm.pangupy.com, port: 23430, type: ss, cipher: chacha20-ietf-poly1305, password: 1b1b4699-9208-44b7-a111-64c0e14107d5, udp: true}
-  - {name: 04-0310-CN, server: 120.52.18.31, port: 41082, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0311-CN, server: 120.52.18.31, port: 44003, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0312-CN, server: 120.52.18.31, port: 27326, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0313-CN, server: 120.52.18.31, port: 29639, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0314-CN, server: 120.52.18.31, port: 24887, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0315-CN, server: 120.52.18.31, port: 51500, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0316-CN, server: 120.52.18.31, port: 44183, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0310-CN, server: 120.52.18.31, port: 51500, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0311-CN, server: 120.52.18.31, port: 24887, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0312-CN, server: 120.52.18.31, port: 44183, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0313-CN, server: 120.52.18.31, port: 44003, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0314-CN, server: 120.52.18.31, port: 27326, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0315-CN, server: 120.52.18.31, port: 41082, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0316-CN, server: 120.52.18.31, port: 29639, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
   - {name: 04-0317-CN, server: 120.52.18.31, port: 63669, type: vmess, uuid: 89da7d0b-cd90-3095-9216-cb4f2d176283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
   - {name: 04-0318-US, server: us.fanqiecloud.top, port: 22752, type: ss, cipher: chacha20-ietf-poly1305, password: 30e5ee68-bcbd-4584-a89f-e97f9aace6db, udp: true}
+  - {name: 04-0319-US, server: us2.fanqiecloud.top, port: 23552, type: ss, cipher: chacha20-ietf-poly1305, password: 30e5ee68-bcbd-4584-a89f-e97f9aace6db, udp: true}
   - {name: 04-0320-JP, server: jp.fanqiecloud.top, port: 21852, type: ss, cipher: chacha20-ietf-poly1305, password: 30e5ee68-bcbd-4584-a89f-e97f9aace6db, udp: true}
   - {name: 04-0321-KR, server: kr.fanqiecloud.top, port: 24954, type: ss, cipher: chacha20-ietf-poly1305, password: 30e5ee68-bcbd-4584-a89f-e97f9aace6db, udp: true}
   - {name: 04-0322-RELAY, server: dl4.fanqiecloud.top, port: 2086, type: vmess, uuid: 30e5ee68-bcbd-4584-a89f-e97f9aace6db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dl4.fanqiecloud.top}}, udp: true}
@@ -381,101 +366,101 @@ proxies:
   - {name: 04-0343-CN, server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 086d22dc-9803-38f0-88ec-ea76d05573f7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
   - {name: 04-0344-CN, server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 086d22dc-9803-38f0-88ec-ea76d05573f7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
   - {name: 04-0345-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 086d22dc-9803-38f0-88ec-ea76d05573f7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: 04-0346-CN, server: zj.xn--icty41bzxj.cn, port: 55794, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 3.zhudaidaohang.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0347-CN, server: guangzhou.mixi.bio, port: 59003, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0348-CN, server: zhejiangyidong.mixi.bio, port: 59103, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: akhk2.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0349-CN, server: zhejiangyidong.mixi.bio, port: 58853, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: akhk3.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0350-CN, server: zhejiangyidong.mixi.bio, port: 65488, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: akhk4.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0351-CN, server: zj.xn--icty41bzxj.cn, port: 44603, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0352-CN, server: bj.xn--icty41bzxj.cn, port: 44603, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0353-CN, server: bj.xn--icty41bzxj.cn, port: 23789, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0354-TW, server: zsr.tw.hinet.661145.xyz, port: 58850, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zsr.tw.hinet.661145.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0355-TW, server: zsr.tw.hinet.661145.xyz, port: 58850, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zsr.tw.hinet.661145.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0356-CN, server: zj.xn--icty41bzxj.cn, port: 21367, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0357-CN, server: zhejiangyidong.mixi.bio, port: 52761, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0358-CN, server: zj.xn--icty41bzxj.cn, port: 22919, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vfhnr56867, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0359-CN, server: zj.xn--icty41bzxj.cn, port: 18270, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdf34434343ff9999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0360-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 32296, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0361-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 32297, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0362-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 30681, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0363-CN, server: zj.xn--icty41bzxj.cn, port: 27075, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdyFDSFSfdfsd, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0364-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 30680, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0365-CN, server: zj.xn--icty41bzxj.cn, port: 28888, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0366-CN, server: zj.xn--icty41bzxj.cn, port: 35521, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0367-CN, server: zj.xn--icty41bzxj.cn, port: 48952, type: ss, cipher: aes-128-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0368-CN, server: zj.xn--icty41bzxj.cn, port: 10154, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy99999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0369-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 50081, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0370-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 16971, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0371-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 10861, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0372-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 23628, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0373-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 55035, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0374-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 25600, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0375-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 47447, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0376-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 39171, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0377-CN, server: sz.xn--icty41bzxj.cn, port: 36449, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0378-CN, server: sz.xn--icty41bzxj.cn, port: 48887, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0379-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 25342, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0380-CN, server: zj.xn--icty41bzxj.cn, port: 37693, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0381-CN, server: zj.xn--icty41bzxj.cn, port: 46758, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0382-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 21583, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0383-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 55444, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0384-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 22082, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0385-CN, server: sz.xn--icty41bzxj.cn, port: 22081, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0386-CN, server: sz.xn--icty41bzxj.cn, port: 36298, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0387-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 53239, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0388-CN, server: sz.xn--icty41bzxj.cn, port: 32109, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0389-CN, server: sz.xn--icty41bzxj.cn, port: 53661, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0390-CN, server: sz.xn--icty41bzxj.cn, port: 32343, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0391-CN, server: sz.xn--icty41bzxj.cn, port: 32344, type: ss, cipher: chacha20-ietf-poly1305, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0392-CN, server: zj.xn--icty41bzxj.cn, port: 46416, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy56udfgsd43565hfdfsd, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0393-CN, server: zj.xn--icty41bzxj.cn, port: 48723, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy99999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0394-CN, server: zj.xn--icty41bzxj.cn, port: 33255, type: vmess, uuid: 3c0ecfcb-1310-47da-9710-3906e22c180d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdfffffff9999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
-  - {name: 04-0395-CN, server: sz.xn--icty41bzxj.cn, port: 24059, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0396-CN, server: sz.xn--icty41bzxj.cn, port: 51031, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0397-CN, server: sz.xn--icty41bzxj.cn, port: 51047, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0398-CN, server: sz.xn--icty41bzxj.cn, port: 45407, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0399-CN, server: sz.xn--icty41bzxj.cn, port: 16675, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0400-CN, server: sz.xn--icty41bzxj.cn, port: 38925, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0401-CN, server: sz.xn--icty41bzxj.cn, port: 47557, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0402-CN, server: sz.xn--icty41bzxj.cn, port: 28783, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0403-CN, server: sz.xn--icty41bzxj.cn, port: 25460, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0404-CN, server: sz.xn--icty41bzxj.cn, port: 55623, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0405-CN, server: sz.xn--icty41bzxj.cn, port: 19593, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0406-CN, server: sz.xn--icty41bzxj.cn, port: 10701, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0407-CN, server: sz.xn--icty41bzxj.cn, port: 20722, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0408-CN, server: sz.xn--icty41bzxj.cn, port: 48250, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0409-CN, server: sz.xn--icty41bzxj.cn, port: 45128, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0410-CN, server: sz.xn--icty41bzxj.cn, port: 59675, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0411-CN, server: bj.xn--icty41bzxj.cn, port: 53188, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0412-CN, server: sz.xn--icty41bzxj.cn, port: 28977, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 2.ndy588501.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 04-0413-CN, server: zhejiangyidong.mixi.bio, port: 29803, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 3.ndy588501.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 04-0414-TW, server: zsr.tw.hinet.661145.xyz, port: 42140, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0415-CN, server: hb.xn--icty41bzxj.cn, port: 33455, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: trq.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0416-CN, server: zj.xn--icty41bzxj.cn, port: 50022, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: zsr-do-sg-03.661145.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0417-CN, server: bj.xn--icty41bzxj.cn, port: 19106, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0418-CN, server: bj.xn--icty41bzxj.cn, port: 45804, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0419-IN, server: doyindu1.zhoushuren.me, port: 34532, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: doyindu1.zhoushuren.me, skip-cert-verify: true, udp: true}
-  - {name: 04-0420-CN, server: js.xn--icty41bzxj.cn, port: 41964, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0421-CN, server: zj.xn--icty41bzxj.cn, port: 19238, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0422-CN, server: sz.xn--icty41bzxj.cn, port: 17934, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: lingche-yelusal.588500.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0423-CN, server: zj.xn--icty41bzxj.cn, port: 54889, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0424-CN, server: sz.xn--icty41bzxj.cn, port: 15096, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 2.ndy588502.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 04-0425-CN, server: zj.xn--icty41bzxj.cn, port: 40527, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0426-CN, server: js.xn--icty41bzxj.cn, port: 59351, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0427-CN, server: zj.xn--icty41bzxj.cn, port: 29089, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0428-CN, server: sz.xn--icty41bzxj.cn, port: 18792, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: Ireland-aws-ls-ip-172-26-13-218.zhoushuren.me, skip-cert-verify: true, udp: true}
-  - {name: 04-0429-CN, server: sz.xn--icty41bzxj.cn, port: 37484, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: aws-se-zsr-ip-172-26-16-185.661145.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0430-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 52299, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 1.ndy588502.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 04-0431-JP, server: awsjp1.588511.xyz, port: 24123, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: awsjp1.588511.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0432-JP, server: awsjp2.588511.xyz, port: 34311, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: awsjp2.588511.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-0433-CN, server: zj.xn--icty41bzxj.cn, port: 59930, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0434-CN, server: bj.xn--icty41bzxj.cn, port: 21206, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0435-CN, server: zj.xn--icty41bzxj.cn, port: 10540, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0436-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 31514, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: 1.ca58851.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 04-0437-TW, server: zsr.tw.hinet.661145.xyz, port: 42593, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: mf9.zhoushuren.me, skip-cert-verify: true, udp: true}
-  - {name: 04-0438-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 23068, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0439-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 40780, type: ss, cipher: aes-256-gcm, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, udp: true}
-  - {name: 04-0440-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 41423, type: trojan, password: 3c0ecfcb-1310-47da-9710-3906e22c180d, sni: lingche-zhijiage.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0346-CN, server: zj.xn--icty41bzxj.cn, port: 55794, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 3.zhudaidaohang.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0347-CN, server: guangzhou.mixi.bio, port: 59003, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0348-CN, server: zhejiangyidong.mixi.bio, port: 59103, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: akhk2.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0349-CN, server: zhejiangyidong.mixi.bio, port: 58853, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: akhk3.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0350-CN, server: zhejiangyidong.mixi.bio, port: 65488, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: akhk4.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0351-CN, server: zj.xn--icty41bzxj.cn, port: 44603, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0352-CN, server: bj.xn--icty41bzxj.cn, port: 44603, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0353-CN, server: bj.xn--icty41bzxj.cn, port: 23789, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0354-TW, server: zsr.tw.hinet.661145.xyz, port: 58850, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zsr.tw.hinet.661145.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0355-TW, server: zsr.tw.hinet.661145.xyz, port: 58850, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zsr.tw.hinet.661145.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0356-CN, server: zj.xn--icty41bzxj.cn, port: 21367, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0357-CN, server: zhejiangyidong.mixi.bio, port: 52761, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0358-CN, server: zj.xn--icty41bzxj.cn, port: 22919, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vfhnr56867, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0359-CN, server: zj.xn--icty41bzxj.cn, port: 18270, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdf34434343ff9999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0360-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 32296, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0361-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 32297, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0362-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 30681, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0363-CN, server: zj.xn--icty41bzxj.cn, port: 27075, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdyFDSFSfdfsd, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0364-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 30680, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0365-CN, server: zj.xn--icty41bzxj.cn, port: 28888, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0366-CN, server: zj.xn--icty41bzxj.cn, port: 35521, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0367-CN, server: zj.xn--icty41bzxj.cn, port: 48952, type: ss, cipher: aes-128-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0368-CN, server: zj.xn--icty41bzxj.cn, port: 10154, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy99999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0369-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 50081, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0370-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 16971, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0371-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 10861, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0372-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 23628, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0373-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 55035, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0374-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 25600, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0375-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 47447, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0376-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 39171, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0377-CN, server: sz.xn--icty41bzxj.cn, port: 36449, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0378-CN, server: sz.xn--icty41bzxj.cn, port: 48887, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0379-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 25342, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0380-CN, server: zj.xn--icty41bzxj.cn, port: 37693, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0381-CN, server: zj.xn--icty41bzxj.cn, port: 46758, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0382-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 21583, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0383-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 55444, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0384-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 22082, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0385-CN, server: sz.xn--icty41bzxj.cn, port: 22081, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0386-CN, server: sz.xn--icty41bzxj.cn, port: 36298, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0387-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 53239, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0388-CN, server: sz.xn--icty41bzxj.cn, port: 32109, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0389-CN, server: sz.xn--icty41bzxj.cn, port: 53661, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0390-CN, server: sz.xn--icty41bzxj.cn, port: 32343, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0391-CN, server: sz.xn--icty41bzxj.cn, port: 32344, type: ss, cipher: chacha20-ietf-poly1305, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0392-CN, server: zj.xn--icty41bzxj.cn, port: 46416, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy56udfgsd43565hfdfsd, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0393-CN, server: zj.xn--icty41bzxj.cn, port: 48723, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdy99999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0394-CN, server: zj.xn--icty41bzxj.cn, port: 33255, type: vmess, uuid: 127e2862-8be7-4436-835c-c01fbae5cff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vcfdfffffff9999d, headers: {Host: zj.xn--icty41bzxj.cn}}, udp: true}
+  - {name: 04-0395-CN, server: sz.xn--icty41bzxj.cn, port: 24059, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0396-CN, server: sz.xn--icty41bzxj.cn, port: 51031, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0397-CN, server: sz.xn--icty41bzxj.cn, port: 51047, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0398-CN, server: sz.xn--icty41bzxj.cn, port: 45407, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0399-CN, server: sz.xn--icty41bzxj.cn, port: 16675, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0400-CN, server: sz.xn--icty41bzxj.cn, port: 38925, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0401-CN, server: sz.xn--icty41bzxj.cn, port: 47557, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0402-CN, server: sz.xn--icty41bzxj.cn, port: 28783, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0403-CN, server: sz.xn--icty41bzxj.cn, port: 25460, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0404-CN, server: sz.xn--icty41bzxj.cn, port: 55623, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0405-CN, server: sz.xn--icty41bzxj.cn, port: 19593, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0406-CN, server: sz.xn--icty41bzxj.cn, port: 10701, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0407-CN, server: sz.xn--icty41bzxj.cn, port: 20722, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0408-CN, server: sz.xn--icty41bzxj.cn, port: 48250, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0409-CN, server: sz.xn--icty41bzxj.cn, port: 45128, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0410-CN, server: sz.xn--icty41bzxj.cn, port: 59675, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zf.zsr-seoul.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0411-CN, server: bj.xn--icty41bzxj.cn, port: 53188, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0412-CN, server: sz.xn--icty41bzxj.cn, port: 28977, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 2.ndy588501.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 04-0413-CN, server: zhejiangyidong.mixi.bio, port: 29803, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 3.ndy588501.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 04-0414-TW, server: zsr.tw.hinet.661145.xyz, port: 42140, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0415-CN, server: hb.xn--icty41bzxj.cn, port: 33455, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: trq.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0416-CN, server: zj.xn--icty41bzxj.cn, port: 50022, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: zsr-do-sg-03.661145.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0417-CN, server: bj.xn--icty41bzxj.cn, port: 19106, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0418-CN, server: bj.xn--icty41bzxj.cn, port: 45804, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0419-IN, server: doyindu1.zhoushuren.me, port: 34532, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: doyindu1.zhoushuren.me, skip-cert-verify: true, udp: true}
+  - {name: 04-0420-CN, server: js.xn--icty41bzxj.cn, port: 41964, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0421-CN, server: zj.xn--icty41bzxj.cn, port: 19238, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0422-CN, server: sz.xn--icty41bzxj.cn, port: 17934, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: lingche-yelusal.588500.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0423-CN, server: zj.xn--icty41bzxj.cn, port: 54889, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0424-CN, server: sz.xn--icty41bzxj.cn, port: 15096, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 2.ndy588502.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 04-0425-CN, server: zj.xn--icty41bzxj.cn, port: 40527, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0426-CN, server: js.xn--icty41bzxj.cn, port: 59351, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0427-CN, server: zj.xn--icty41bzxj.cn, port: 29089, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0428-CN, server: sz.xn--icty41bzxj.cn, port: 18792, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: Ireland-aws-ls-ip-172-26-13-218.zhoushuren.me, skip-cert-verify: true, udp: true}
+  - {name: 04-0429-CN, server: sz.xn--icty41bzxj.cn, port: 37484, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: aws-se-zsr-ip-172-26-16-185.661145.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0430-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 52299, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 1.ndy588502.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 04-0431-JP, server: awsjp1.588511.xyz, port: 24123, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: awsjp1.588511.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0432-JP, server: awsjp2.588511.xyz, port: 34311, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: awsjp2.588511.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-0433-CN, server: zj.xn--icty41bzxj.cn, port: 59930, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0434-CN, server: bj.xn--icty41bzxj.cn, port: 21206, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0435-CN, server: zj.xn--icty41bzxj.cn, port: 10540, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0436-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 31514, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: 1.ca58851.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 04-0437-TW, server: zsr.tw.hinet.661145.xyz, port: 42593, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: mf9.zhoushuren.me, skip-cert-verify: true, udp: true}
+  - {name: 04-0438-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 23068, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0439-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 40780, type: ss, cipher: aes-256-gcm, password: 127e2862-8be7-4436-835c-c01fbae5cff9, udp: true}
+  - {name: 04-0440-CN, server: dahuguangs.xn--icty41bzxj.cn, port: 41423, type: trojan, password: 127e2862-8be7-4436-835c-c01fbae5cff9, sni: lingche-zhijiage.588500.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-0441-TW, server: twzz.passwalls.com, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 542e898d-b951-4629-9afa-19608a231017, udp: true}
   - {name: 04-0442-TW, server: twzz.passwalls.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 542e898d-b951-4629-9afa-19608a231017, udp: true}
   - {name: 04-0443-TW, server: twzz.passwalls.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 542e898d-b951-4629-9afa-19608a231017, udp: true}
@@ -550,7 +535,7 @@ proxies:
   - {name: 04-0512-CA, server: us-gy02.115cloud.link, port: 22222, type: trojan, password: e3005649-bbbb-309c-adde-6145db452ea6, sni: us-gy02.115cloud.link, skip-cert-verify: true, udp: true}
   - {name: 04-0513-GB, server: uk-gy.115cloud.link, port: 52560, type: trojan, password: e3005649-bbbb-309c-adde-6145db452ea6, sni: uk-gy.115cloud.link, skip-cert-verify: true, udp: true}
   - {name: 04-0514-JP, server: us-gy.115cloud.link, port: 33233, type: ss, cipher: aes-256-gcm, password: JhnfLsANAzYhgLMG, udp: true}
-  - {name: 04-0515-CN, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980176:oaBoNz, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0515-CN, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 04-0516-CN, server: host-001.crazyspeed.xyz, port: 30501, type: ss, cipher: chacha20-ietf-poly1305, password: dcadcb2a-e9ea-47c8-8b19-9a6bc34e886f, udp: true}
   - {name: 04-0517-CN, server: host-002.crazyspeed.xyz, port: 30502, type: ss, cipher: chacha20-ietf-poly1305, password: dcadcb2a-e9ea-47c8-8b19-9a6bc34e886f, udp: true}
   - {name: 04-0518-CN, server: host-003.crazyspeed.xyz, port: 30503, type: ss, cipher: chacha20-ietf-poly1305, password: dcadcb2a-e9ea-47c8-8b19-9a6bc34e886f, udp: true}
@@ -669,7 +654,7 @@ proxies:
   - {name: 11-0729-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: c5027ed5-33cd-42d5-9894-d5c6160b3987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 11-0730-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: c5027ed5-33cd-42d5-9894-d5c6160b3987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 11-0731-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: c5027ed5-33cd-42d5-9894-d5c6160b3987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
-  - {name: 11-0732-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: c5027ed5-33cd-42d5-9894-d5c6160b3987, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 11-0732-CA, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 11-0733-CN, server: node.websitea.xyz, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 641547ab-b4e9-40a6-9ece-951ec11ffb96, udp: true}
   - {name: 11-0734-CN, server: node.websitea.xyz, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: 641547ab-b4e9-40a6-9ece-951ec11ffb96, udp: true}
   - {name: 11-0735-CN, server: node.websitea.xyz, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 641547ab-b4e9-40a6-9ece-951ec11ffb96, udp: true}
@@ -707,6 +692,7 @@ proxies:
   - {name: 11-0767-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0768-US, server: pxvip101.qlgq1.pw, port: 10443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0769-US, server: pxvip101.qlgq1.pw, port: 20443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 11-0770-US, server: pxvip101.qlgq1.pw, port: 30443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: pxvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0771-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0772-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0773-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 2037014b-4a17-35df-9388-bd51f1bfd971, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -762,7 +748,7 @@ proxies:
   - {name: 11-0823-KR, server: zfkr1.30803080.xyz, port: 20210, type: vmess, uuid: 2d9bdfc5-95ba-4e2c-b680-db96e2affee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yongdong, headers: {Host: zfkr1.30803080.xyz}}, udp: true}
   - {name: 11-0824-KR, server: zfkr1.30803080.xyz, port: 20211, type: vmess, uuid: 2d9bdfc5-95ba-4e2c-b680-db96e2affee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yongdong, headers: {Host: zfkr1.30803080.xyz}}, udp: true}
   - {name: 11-0825-KR, server: zfkr1.30803080.xyz, port: 20212, type: vmess, uuid: 2d9bdfc5-95ba-4e2c-b680-db96e2affee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yongdong, headers: {Host: zfkr1.30803080.xyz}}, udp: true}
-  - {name: 11-0826-KR, server: fd.xuefox.link, port: 443, type: vmess, uuid: 4438fe94-4126-4f3e-8505-2d43b58afb31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: fd.xuefox.link}}, udp: true}
+  - {name: 11-0826-HK, server: fd.xuefox.link, port: 443, type: vmess, uuid: 4438fe94-4126-4f3e-8505-2d43b58afb31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: fd.xuefox.link}}, udp: true}
   - {name: 11-0827-RELAY, server: about.above.pp.ua, port: 443, type: vmess, uuid: 4438fe94-4126-4f3e-8505-2d43b58afb31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: about.above.pp.ua}}, udp: true}
   - {name: 11-0828-KR, server: yx.s2.gay, port: 443, type: vmess, uuid: 4438fe94-4126-4f3e-8505-2d43b58afb31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: yx.s2.gay}}, udp: true}
   - {name: 11-0829-RELAY, server: www.summerpockets.com, port: 443, type: vmess, uuid: 4438fe94-4126-4f3e-8505-2d43b58afb31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /D26xvdqUdCpvvPTz4R, headers: {Host: www.summerpockets.com}}, udp: true}
@@ -1128,7 +1114,6 @@ proxies:
   - {name: 12-1190-CN, server: hefei.chiguayun.shop, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b, udp: true}
   - {name: 12-1191-US, server: us1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 12-1192-KR, server: jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 22402, type: trojan, password: e5c65270-bef7-4d38-b8c1-03274edf545f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 12-1193-GB, server: 13.87.74.71, port: 14564, type: ss, cipher: chacha20-ietf-poly1305, password: Q1qlRknoN9PwGeExWVyTKg, udp: true}
   - {name: 12-1194-CN, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a, udp: true}
   - {name: 12-1195-CN, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 44e0be59-7777-49d7-8b2d-d4b0a287c2a8, udp: true}
   - {name: 12-1196-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: da8f15b8-badb-4501-b5ef-debcaf7fe294, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/wmXBjoZA, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -1148,6 +1133,7 @@ proxies:
   - {name: 12-1210-GB, server: 198.244.231.28, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1211-CN, server: s-g04.wamn.cc, port: 35028, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b, udp: true}
   - {name: 12-1212-KR, server: hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20352, type: trojan, password: e5c65270-bef7-4d38-b8c1-03274edf545f, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 12-1213-KR, server: UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 22452, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 12-1214-GB, server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}, udp: true}
   - {name: 12-1215-EE, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}, udp: true}
   - {name: 12-1216-CN, server: kr01.network-cdn-gw.cc, port: 41117, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
@@ -1161,7 +1147,6 @@ proxies:
   - {name: 12-1224-CN, server: au.network-cdn-gw.cc, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e, udp: true}
   - {name: 12-1225-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-1226-CN, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 44e0be59-7777-49d7-8b2d-d4b0a287c2a8, udp: true}
-  - {name: 12-1227-KR, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20202, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 12-1228-JP, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.takeshi.wiki}}, udp: true}
   - {name: 12-1229-GB, server: 198.244.228.191, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1230-KR, server: 43.201.5.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1213,43 +1198,59 @@ proxies:
   - {name: 12-1278-DE, server: b2.talamala.co, port: 53797, type: vmess, uuid: 2946527d-830f-429d-8969-f6acb68b0876, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b2.talamala.co}}, udp: true}
   - {name: 12-1279-US, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8, udp: true}
   - {name: 12-1280-SG, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 13-1281-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1282-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1283-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1284-CN, server: 5m4h0k02.6vczxw.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1285-CN, server: 5m4h0k03.6vczxw.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1286-CN, server: 2d1t5w01.6vczxw.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1287-CN, server: 2d1t5w02.6vczxw.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1288-CN, server: 2d1t5w03.6vczxw.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1289-CN, server: 6w7j3p01.6vczxw.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1290-CN, server: 6w7j3p02.6vczxw.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1291-CN, server: 6w7j3p03.6vczxw.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1292-CN, server: 1c7s2g01.6vczxw.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1293-CN, server: 1c7s2g02.6vczxw.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1294-CN, server: 1c7s2g03.6vczxw.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1295-CN, server: 4a2u0a01.6vczxw.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1296-CN, server: 4a2u0a02.6vczxw.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1297-CN, server: 4a2u0a03.6vczxw.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: fc0084b2-460f-4913-b4df-2f803ad32790, udp: true}
-  - {name: 13-1298-CN, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: fc0084b2-460f-4913-b4df-2f803ad32790, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1299-CN, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: fc0084b2-460f-4913-b4df-2f803ad32790, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1300-CN, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: fc0084b2-460f-4913-b4df-2f803ad32790, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1281-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1282-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1283-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1284-CN, server: 5m4h0k02.6vczxw.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1285-CN, server: 5m4h0k03.6vczxw.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1286-CN, server: 2d1t5w01.6vczxw.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1287-CN, server: 2d1t5w02.6vczxw.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1288-CN, server: 2d1t5w03.6vczxw.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1289-CN, server: 6w7j3p01.6vczxw.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1290-CN, server: 6w7j3p02.6vczxw.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1291-CN, server: 6w7j3p03.6vczxw.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1292-CN, server: 1c7s2g01.6vczxw.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1293-CN, server: 1c7s2g02.6vczxw.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1294-CN, server: 1c7s2g03.6vczxw.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1295-CN, server: 4a2u0a01.6vczxw.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1296-CN, server: 4a2u0a02.6vczxw.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1297-CN, server: 4a2u0a03.6vczxw.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: f2611811-3efe-4465-bbe4-c58a48857053, udp: true}
+  - {name: 13-1298-CN, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: f2611811-3efe-4465-bbe4-c58a48857053, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1299-CN, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: f2611811-3efe-4465-bbe4-c58a48857053, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1300-CN, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: f2611811-3efe-4465-bbe4-c58a48857053, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 16-1416-IT, server: 172.232.194.131, port: 2443, type: ss, cipher: aes-256-gcm, password: F+eM0SV9+4NTpCceBYIwkx931Ftq9s10oXdvpg/tIM8=, udp: true}
   - {name: 16-1418-SG, server: 54.169.147.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-1419-SG, server: 54.151.253.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1435-JP, server: 52.195.236.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16-1420-JP, server: 13.230.220.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1436-IS, server: 89.221.224.94, port: 80, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, skip-cert-verify: true, udp: true}
   - {name: 17-1437-TR, server: 193.46.56.210, port: 2443, type: ss, cipher: aes-256-gcm, password: QD5y4idwNj, udp: true}
   - {name: 17-1443-IT, server: www.outline.network.ak2000.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 2443, type: ss, cipher: aes-256-gcm, password: F+eM0SV9+4NTpCceBYIwkx931Ftq9s10oXdvpg/tIM8=, udp: true}
-  - {name: 18-1454-RELAY, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
   - {name: 29-1500-CH, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 29-1511-RELAY, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
-  - {name: 36-1517-NL, server: hdfy7c1.cpionline.co, port: 443, type: trojan, password: 01596265-168b-46a7-bcb7-25662c7a9546, sni: hdfy7c1.cpionline.co, skip-cert-verify: true, udp: true}
-  - {name: 36-1520-CZ, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}, udp: true}
-  - {name: 36-1525-SG, server: 207.148.69.120, port: 2, type: vmess, uuid: 156f3305-4a2f-47d3-887a-c31d240c48fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 36-1527-RELAY, server: usd.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: usd.yj2022.gq}}, udp: true}
-  - {name: 36-1529-HK, server: 212.192.15.68, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: hk3.visaapp.top, skip-cert-verify: true, udp: true}
-  - {name: 36-1534-RELAY, server: de-new01.gujuji.top, port: 8080, type: vmess, uuid: 0158e0e0-593e-4d7f-9391-c59934c86891, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.gujuji.top}}, udp: true}
-  - {name: 39-1597-CN, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980176:oaBoNz, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 36-1516-CZ, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}, udp: true}
+  - {name: 36-1518-NL, server: hdfy7d1.jahangirkh.eu.org, port: 443, type: trojan, password: 01596265-168b-46a7-bcb7-25662c7a9546, skip-cert-verify: true, udp: true}
+  - {name: 36-1525-TW, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true, udp: true}
+  - {name: 36-1529-DE, server: 91.107.142.165, port: 57646, type: vmess, uuid: a1bf2163-08a4-41f5-d5d4-7217d1b81244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 36-1530-SG, server: 207.148.69.120, port: 2, type: vmess, uuid: 156f3305-4a2f-47d3-887a-c31d240c48fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 36-1534-SG, server: aws-hk03.aikun.online, port: 443, type: trojan, password: fa9a512a-eab5-4cdf-b559-14922eb3948e, sni: cdn-65135431546231.78321.xyz, skip-cert-verify: true, udp: true}
+  - {name: 36-1535-AU, server: au.takeshi.wiki, port: 80, type: vmess, uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: au.takeshi.wiki}}, udp: true}
+  - {name: 36-1536-HK, server: 212.192.15.68, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: hk3.visaapp.top, skip-cert-verify: true, udp: true}
+  - {name: 36-1537-SG, server: 146.190.104.50, port: 35353, type: vmess, uuid: 40d08177-7358-4e46-b05a-7752d5d7619f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 39-1547-CN, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1565-CN, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1566-CN, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1567-CN, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1568-CN, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1569-CN, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1570-CN, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1571-CN, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1582-CN, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1583-CN, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1584-CN, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1585-CN, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1586-CN, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1587-CN, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 39-1588-CN, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 980188:yM7iAe, obfs-param: download.windowsupdate.com, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1271,23 +1272,6 @@ proxy-groups:
       - 04-0012-US
       - 04-0015-AU
       - 04-0016-IT
-      - 04-0023-JP
-      - 04-0024-JP
-      - 04-0025-HK
-      - 04-0031-CN
-      - 04-0032-CN
-      - 04-0033-CN
-      - 04-0034-CN
-      - 04-0035-CN
-      - 04-0036-CN
-      - 04-0037-CN
-      - 04-0038-CN
-      - 04-0039-CN
-      - 04-0040-CN
-      - 04-0041-CN
-      - 04-0042-CN
-      - 04-0043-CN
-      - 04-0044-CN
       - 04-0045-CN
       - 04-0046-CN
       - 04-0047-CN
@@ -1542,6 +1526,7 @@ proxy-groups:
       - 04-0296-RELAY
       - 04-0297-RELAY
       - 04-0298-RELAY
+      - 04-0299-RELAY
       - 04-0300-RELAY
       - 04-0301-RELAY
       - 04-0302-CN
@@ -1561,6 +1546,7 @@ proxy-groups:
       - 04-0316-CN
       - 04-0317-CN
       - 04-0318-US
+      - 04-0319-US
       - 04-0320-JP
       - 04-0321-KR
       - 04-0322-RELAY
@@ -1913,6 +1899,7 @@ proxy-groups:
       - 11-0767-JP
       - 11-0768-US
       - 11-0769-US
+      - 11-0770-US
       - 11-0771-US
       - 11-0772-US
       - 11-0773-US
@@ -1968,7 +1955,7 @@ proxy-groups:
       - 11-0823-KR
       - 11-0824-KR
       - 11-0825-KR
-      - 11-0826-KR
+      - 11-0826-HK
       - 11-0827-RELAY
       - 11-0828-KR
       - 11-0829-RELAY
@@ -2334,7 +2321,6 @@ proxy-groups:
       - 12-1190-CN
       - 12-1191-US
       - 12-1192-KR
-      - 12-1193-GB
       - 12-1194-CN
       - 12-1195-CN
       - 12-1196-RELAY
@@ -2354,6 +2340,7 @@ proxy-groups:
       - 12-1210-GB
       - 12-1211-CN
       - 12-1212-KR
+      - 12-1213-KR
       - 12-1214-GB
       - 12-1215-EE
       - 12-1216-CN
@@ -2367,7 +2354,6 @@ proxy-groups:
       - 12-1224-CN
       - 12-1225-RELAY
       - 12-1226-CN
-      - 12-1227-KR
       - 12-1228-JP
       - 12-1229-GB
       - 12-1230-KR
@@ -2442,20 +2428,36 @@ proxy-groups:
       - 16-1416-IT
       - 16-1418-SG
       - 16-1419-SG
-      - 17-1435-JP
+      - 16-1420-JP
       - 17-1436-IS
       - 17-1437-TR
       - 17-1443-IT
-      - 18-1454-RELAY
       - 29-1500-CH
       - 29-1511-RELAY
-      - 36-1517-NL
-      - 36-1520-CZ
-      - 36-1525-SG
-      - 36-1527-RELAY
-      - 36-1529-HK
-      - 36-1534-RELAY
-      - 39-1597-CN
+      - 36-1516-CZ
+      - 36-1518-NL
+      - 36-1525-TW
+      - 36-1529-DE
+      - 36-1530-SG
+      - 36-1534-SG
+      - 36-1535-AU
+      - 36-1536-HK
+      - 36-1537-SG
+      - 39-1547-CN
+      - 39-1565-CN
+      - 39-1566-CN
+      - 39-1567-CN
+      - 39-1568-CN
+      - 39-1569-CN
+      - 39-1570-CN
+      - 39-1571-CN
+      - 39-1582-CN
+      - 39-1583-CN
+      - 39-1584-CN
+      - 39-1585-CN
+      - 39-1586-CN
+      - 39-1587-CN
+      - 39-1588-CN
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2473,9 +2475,6 @@ proxy-groups:
     proxies:
       - 04-0001-SG
       - 04-0016-IT
-      - 04-0031-CN
-      - 04-0036-CN
-      - 04-0041-CN
       - 04-0046-CN
       - 04-0051-CN
       - 04-0056-CN
@@ -2613,7 +2612,7 @@ proxy-groups:
       - 11-0811-KR
       - 11-0816-US
       - 11-0821-RU
-      - 11-0826-KR
+      - 11-0826-HK
       - 11-0831-KR
       - 11-0836-CN
       - 11-0841-KR
@@ -2711,6 +2710,11 @@ proxy-groups:
       - 16-1416-IT
       - 17-1436-IS
       - 29-1511-RELAY
+      - 36-1516-CZ
+      - 36-1536-HK
+      - 39-1566-CN
+      - 39-1571-CN
+      - 39-1586-CN
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2718,9 +2722,6 @@ proxy-groups:
     proxies:
       - 04-0002-SG
       - 04-0012-US
-      - 04-0032-CN
-      - 04-0037-CN
-      - 04-0042-CN
       - 04-0047-CN
       - 04-0052-CN
       - 04-0057-CN
@@ -2937,7 +2938,6 @@ proxy-groups:
       - 12-1212-KR
       - 12-1217-RELAY
       - 12-1222-CN
-      - 12-1227-KR
       - 12-1232-RELAY
       - 12-1237-VN
       - 12-1242-CN
@@ -2953,9 +2953,11 @@ proxy-groups:
       - 13-1292-CN
       - 13-1297-CN
       - 17-1437-TR
-      - 36-1517-NL
-      - 36-1527-RELAY
-      - 39-1597-CN
+      - 36-1537-SG
+      - 39-1547-CN
+      - 39-1567-CN
+      - 39-1582-CN
+      - 39-1587-CN
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2963,10 +2965,6 @@ proxy-groups:
     proxies:
       - 04-0003-JP
       - 04-0008-TW
-      - 04-0023-JP
-      - 04-0033-CN
-      - 04-0038-CN
-      - 04-0043-CN
       - 04-0048-CN
       - 04-0053-CN
       - 04-0058-CN
@@ -3176,10 +3174,10 @@ proxy-groups:
       - 12-1178-CN
       - 12-1183-DE
       - 12-1188-CN
-      - 12-1193-GB
       - 12-1198-GB
       - 12-1203-CN
       - 12-1208-NOWHERE
+      - 12-1213-KR
       - 12-1218-KR
       - 12-1223-RELAY
       - 12-1228-JP
@@ -3199,6 +3197,10 @@ proxy-groups:
       - 13-1298-CN
       - 16-1418-SG
       - 17-1443-IT
+      - 36-1518-NL
+      - 39-1568-CN
+      - 39-1583-CN
+      - 39-1588-CN
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3206,10 +3208,6 @@ proxy-groups:
     proxies:
       - 04-0004-KR
       - 04-0009-AE
-      - 04-0024-JP
-      - 04-0034-CN
-      - 04-0039-CN
-      - 04-0044-CN
       - 04-0049-CN
       - 04-0054-CN
       - 04-0059-CN
@@ -3260,9 +3258,11 @@ proxy-groups:
       - 04-0284-CN
       - 04-0289-KR
       - 04-0294-RELAY
+      - 04-0299-RELAY
       - 04-0304-CN
       - 04-0309-CN
       - 04-0314-CN
+      - 04-0319-US
       - 04-0324-KR
       - 04-0329-IT
       - 04-0334-RELAY
@@ -3438,9 +3438,10 @@ proxy-groups:
       - 13-1294-CN
       - 13-1299-CN
       - 16-1419-SG
-      - 18-1454-RELAY
-      - 36-1529-HK
-      - 36-1534-RELAY
+      - 36-1529-DE
+      - 36-1534-SG
+      - 39-1569-CN
+      - 39-1584-CN
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3449,9 +3450,6 @@ proxy-groups:
       - 04-0000-SG
       - 04-0010-US
       - 04-0015-AU
-      - 04-0025-HK
-      - 04-0035-CN
-      - 04-0040-CN
       - 04-0045-CN
       - 04-0050-CN
       - 04-0055-CN
@@ -3578,6 +3576,7 @@ proxy-groups:
       - 11-0755-DE
       - 11-0760-SG
       - 11-0765-JP
+      - 11-0770-US
       - 11-0775-US
       - 11-0780-GB
       - 11-0785-AE
@@ -3683,10 +3682,14 @@ proxy-groups:
       - 13-1290-CN
       - 13-1295-CN
       - 13-1300-CN
-      - 17-1435-JP
+      - 16-1420-JP
       - 29-1500-CH
-      - 36-1520-CZ
-      - 36-1525-SG
+      - 36-1525-TW
+      - 36-1530-SG
+      - 36-1535-AU
+      - 39-1565-CN
+      - 39-1570-CN
+      - 39-1585-CN
   - name: 广告拦截
     type: select
     proxies:
