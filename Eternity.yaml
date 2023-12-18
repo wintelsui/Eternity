@@ -55,15 +55,15 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0000-RELAY, server: de-cdn.ikuan.dev, port: 2052, type: vmess, uuid: 2bcdd095-f4dc-4b4c-b514-3048aa4909a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: de-cdn.ikuan.dev}}, udp: true}
+  - {name: 04-0008-RELAY, server: lon01.freenode.pro, port: 443, type: vmess, uuid: 2bcdd095-f4dc-4b4c-b514-3048aa4909a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /update.microsoft.com, headers: {Host: lon01.freenode.pro}}, udp: true}
   - {name: 04-0011-TW, server: b11.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b11, headers: {Host: b11.ntbq.dynu.net}}, udp: true}
   - {name: 04-0012-TW, server: nb12.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b12, headers: {Host: nb12.ntbq.dynu.net}}, udp: true}
   - {name: 04-0013-TW, server: b13.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b13, headers: {Host: b13.ntbq.dynu.net}}, udp: true}
   - {name: 04-0014-TW, server: nb22.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b22, headers: {Host: nb22.ntbq.dynu.net}}, udp: true}
   - {name: 04-0015-TW, server: nb23.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: nb23.ntbq.dynu.net}}, udp: true}
   - {name: 04-0016-TW, server: nb24.ntbq.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b24, headers: {Host: nb24.ntbq.dynu.net}}, udp: true}
-  - {name: 04-0021-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: f6ec7435-ef6d-44e8-ba91-54a3e65509d1, skip-cert-verify: true, udp: true}
-  - {name: 04-0022-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: f6ec7435-ef6d-44e8-ba91-54a3e65509d1, udp: true}
-  - {name: 04-0023-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: f6ec7435-ef6d-44e8-ba91-54a3e65509d1, udp: true}
+  - {name: 04-0018-TW, server: c11.twtc.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: c11.twtc.dynu.net}}, udp: true}
+  - {name: 04-0019-TW, server: c12.twtc.dynu.net, port: 443, type: vmess, uuid: cd8fd89b-096f-49a0-afe4-908734e32a99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: c12.twtc.dynu.net}}, udp: true}
   - {name: 04-0033-SG, server: sg3.doushimeng.com, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
   - {name: 04-0034-SG, server: sgggg.doushimeng.com, port: 21552, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
   - {name: 04-0035-JP, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
@@ -73,13 +73,6 @@ proxies:
   - {name: 04-0044-US, server: us.doushimeng.com, port: 20453, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
   - {name: 04-0047-AU, server: au.doushimeng.com, port: 24652, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
   - {name: 04-0048-IT, server: it.doushimeng.com, port: 21102, type: ss, cipher: chacha20-ietf-poly1305, password: 40b80b5c-a288-4dac-bfdb-c1bdf7491e5b, udp: true}
-  - {name: 04-0052-US, server: us.fanqiecloud.top, port: 22752, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0053-US, server: us2.fanqiecloud.top, port: 23552, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0054-JP, server: jp.fanqiecloud.top, port: 21852, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0055-KR, server: kr.fanqiecloud.top, port: 24954, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0057-KR, server: kr2.fanqiecloud.top, port: 20852, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0058-KR, server: kr3.fanqiecloud.top, port: 20102, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
-  - {name: 04-0059-SG, server: sg.fanqiecloud.top, port: 24352, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
   - {name: 04-0060-TW, server: tw.fanqiecloud.top, port: 48875, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
   - {name: 04-0061-CA, server: cf.fanqiecloud.top, port: 22554, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
   - {name: 04-0062-BR, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 35d9afa9-31ed-4449-9cbe-4f21f6377db0, udp: true}
@@ -161,43 +154,43 @@ proxies:
   - {name: 04-0138-KR, server: s2.956256.xyz, port: 18609, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0139-KR, server: s1.956256.xyz, port: 11644, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0140-KR, server: s1.956256.xyz, port: 33286, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
+  - {name: 04-0141-KR, server: s2.956256.xyz, port: 20803, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0142-US, server: 74.48.98.249, port: 8080, type: vmess, uuid: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/quanstring?ed=2048"}, udp: true}
-  - {name: 04-0143-TW, server: twzz1.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0144-TW, server: twzz1.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0145-TW, server: twzz2.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0146-TW, server: twzz2.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0147-TW, server: twzz3.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0148-TW, server: twzz3.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0149-CN, server: cnshdxzz.newbluecloud.top, port: 28439, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0150-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 49017, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0151-TW, server: twzz1.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0152-TW, server: twzz1.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0153-TW, server: twzz2.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0154-TW, server: twzz3.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0155-CN, server: cnshdxzz.newbluecloud.top, port: 40680, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0156-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 35441, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0157-TW, server: twzz1.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0158-TW, server: twzz2.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0159-TW, server: twzz2.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0160-TW, server: twzz3.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0161-CN, server: cnshdxzz.newbluecloud.top, port: 48812, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0162-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 26769, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0163-TW, server: twzz1.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0164-TW, server: twzz2.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0165-TW, server: twzz3.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0166-TW, server: twzz3.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0167-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 54395, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0168-CN, server: cnshdxzz.newbluecloud.top, port: 39405, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0169-TW, server: twzz1.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0170-TW, server: twzz1.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0171-TW, server: twzz2.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0172-TW, server: twzz3.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0173-CN, server: cnshdxzz.newbluecloud.top, port: 12045, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0174-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 10548, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0175-TW, server: twzz1.shiyuanyinian.xyz, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0176-TW, server: twzz2.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0177-TW, server: twzz2.shiyuanyinian.xyz, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
-  - {name: 04-0178-TW, server: twzz3.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 65dcab6e-e778-4330-9a0b-1d9d56faba49, udp: true}
+  - {name: 04-0143-TW, server: twzz1.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0144-TW, server: twzz1.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0145-TW, server: twzz2.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0146-TW, server: twzz2.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0148-TW, server: twzz3.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0149-CN, server: cnshdxzz.newbluecloud.top, port: 28439, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0150-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 49017, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0151-TW, server: twzz1.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0152-TW, server: twzz1.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0153-TW, server: twzz2.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0154-TW, server: twzz3.shiyuanyinian.xyz, port: 61000, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0155-CN, server: cnshdxzz.newbluecloud.top, port: 40680, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0156-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 35441, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0157-TW, server: twzz1.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0158-TW, server: twzz2.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0159-TW, server: twzz2.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0160-TW, server: twzz3.shiyuanyinian.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0161-CN, server: cnshdxzz.newbluecloud.top, port: 48812, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0162-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 26769, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0163-TW, server: twzz1.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0164-TW, server: twzz2.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0165-TW, server: twzz3.shiyuanyinian.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0166-TW, server: twzz3.shiyuanyinian.xyz, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0167-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 54395, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0168-CN, server: cnshdxzz.newbluecloud.top, port: 39405, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0169-TW, server: twzz1.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0170-TW, server: twzz1.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0171-TW, server: twzz2.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0172-TW, server: twzz3.shiyuanyinian.xyz, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0173-CN, server: cnshdxzz.newbluecloud.top, port: 12045, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0174-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 10548, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0175-TW, server: twzz1.shiyuanyinian.xyz, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0176-TW, server: twzz2.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0177-TW, server: twzz2.shiyuanyinian.xyz, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
+  - {name: 04-0178-TW, server: twzz3.shiyuanyinian.xyz, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 5a401972-5100-49bf-8595-72348f827395, udp: true}
   - {name: 04-0179-DE, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0180-DE, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0181-DE, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -213,6 +206,7 @@ proxies:
   - {name: 04-0191-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0192-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0193-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0194-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0195-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0196-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0197-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -225,13 +219,13 @@ proxies:
   - {name: 04-0204-HK, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0205-HK, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0206-HK, server: hkvip103.qlgq1.pw, port: 50443, type: trojan, password: c5d06be0-f77c-34a4-89f8-13de7ea1b91d, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 04-0305-IS, server: is-gy.115cloud.link, port: 38860, type: trojan, password: c8193d49-34c1-378b-bd99-87017fbed572, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 04-0306-DE, server: de-gy.115cloud.link, port: 35681, type: trojan, password: c8193d49-34c1-378b-bd99-87017fbed572, sni: de-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 04-0307-RELAY, server: cf-ip.115cloud.link, port: 2052, type: vmess, uuid: c8193d49-34c1-378b-bd99-87017fbed572, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Edwhmayc, headers: {Host: cf-ip.115cloud.link}}, udp: true}
-  - {name: 04-0308-US, server: us-gy02.115cloud.link, port: 13889, type: trojan, password: c8193d49-34c1-378b-bd99-87017fbed572, sni: us-gy02.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 04-0309-GB, server: uk-gy.115cloud.link, port: 52560, type: trojan, password: c8193d49-34c1-378b-bd99-87017fbed572, sni: uk-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 04-0310-KR, server: kr-gy.115cloud.link, port: 22122, type: trojan, password: c8193d49-34c1-378b-bd99-87017fbed572, sni: kr-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: 04-0311-CN, server: us-gy.115cloud.link, port: 33233, type: ss, cipher: aes-256-gcm, password: 2cmbzXl6Lx4N7xLr, udp: true}
+  - {name: 04-0305-IS, server: is-gy.115cloud.link, port: 38860, type: trojan, password: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 04-0306-DE, server: de-gy.115cloud.link, port: 35681, type: trojan, password: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, sni: de-gy.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 04-0307-RELAY, server: cf-ip.115cloud.link, port: 2052, type: vmess, uuid: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Edwhmayc, headers: {Host: cf-ip.115cloud.link}}, udp: true}
+  - {name: 04-0308-US, server: us-gy02.115cloud.link, port: 13889, type: trojan, password: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, sni: us-gy02.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 04-0309-GB, server: uk-gy.115cloud.link, port: 52560, type: trojan, password: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, sni: uk-gy.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 04-0310-KR, server: kr-gy.115cloud.link, port: 22122, type: trojan, password: 0805ee47-3e30-3b2e-be09-c32086ec3d7d, sni: kr-gy.115cloud.link, skip-cert-verify: true, udp: true}
+  - {name: 04-0311-CN, server: us-gy.115cloud.link, port: 33233, type: ss, cipher: aes-256-gcm, password: ehtxGeNcbM0jRarU, udp: true}
   - {name: 04-0312-CN, server: gy.58n.net, port: 20301, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0313-CN, server: gy.58n.net, port: 17629, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: z258.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0314-CN, server: gy.58n.net, port: 28678, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -273,62 +267,62 @@ proxies:
   - {name: 04-0350-CN, server: gy.58n.net, port: 20059, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0351-CN, server: gy.58n.net, port: 20071, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0352-CN, server: gy.58n.net, port: 20076, type: trojan, password: c90cd601-f111-3bad-951e-8d216cc1c153, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 04-0353-CN, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0354-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0355-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0356-CN, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0357-CN, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0358-CN, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0359-CN, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0360-CN, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0361-CN, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0362-CN, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0363-CN, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0364-CN, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0365-CN, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0366-CN, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0367-CN, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0368-CN, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0369-CN, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0370-CN, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0371-CN, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0372-CN, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0373-CN, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0374-CN, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0375-CN, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0376-CN, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0377-CN, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0378-CN, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0379-CN, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0380-CN, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0381-CN, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0382-CN, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0383-CN, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0384-CN, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0385-CN, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0386-CN, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0387-CN, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0388-CN, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0389-CN, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0390-CN, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0391-CN, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0392-CN, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0393-CN, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0394-CN, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0395-CN, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0396-CN, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0397-CN, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0398-CN, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0399-CN, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0400-CN, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0401-CN, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0402-CN, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0403-CN, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0404-CN, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0405-CN, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0406-CN, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0407-CN, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 04-0408-CN, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994280:ZWjx6u, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0353-CN, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0354-CN, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0355-CN, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0356-CN, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0357-CN, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0358-CN, server: ntemp19.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0359-CN, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0360-CN, server: n62.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0361-CN, server: n06.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0362-CN, server: ntemp01.boom.skin, port: 10000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0363-CN, server: ntemp02.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0364-CN, server: ntemp03.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0365-CN, server: ntemp04.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0366-CN, server: ntemp05.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0367-CN, server: ntemp06.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0368-CN, server: ntemp07.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0369-CN, server: ntemp08.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0370-CN, server: ntemp09.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0371-CN, server: us1.edge.boom.skin, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0372-CN, server: us2.edge.boom.skin, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0373-CN, server: us3.edge.boom.skin, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0374-CN, server: us4.edge.boom.skin, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0375-CN, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0376-CN, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0377-CN, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0378-CN, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0379-CN, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0380-CN, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0381-CN, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0382-CN, server: n170.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0383-CN, server: nk8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0384-CN, server: nk9.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0385-CN, server: nka.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0386-CN, server: nkb.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0387-CN, server: nkc.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0388-CN, server: nkd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0389-CN, server: nke.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0390-CN, server: jp1.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0391-CN, server: jp2.boom.skin, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0392-CN, server: jp3.boom.skin, port: 32000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0393-CN, server: jp4.boom.skin, port: 33000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0394-CN, server: jp5.boom.skin, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0395-CN, server: nn8.boom.skin, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0396-CN, server: nn9.boom.skin, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0397-CN, server: nna.boom.skin, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0398-CN, server: nn11.boom.skin, port: 50000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0399-CN, server: opt1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0400-CN, server: opt20.boom.skin, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0401-CN, server: opt2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0402-CN, server: opt3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0403-CN, server: opt4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0404-CN, server: opt5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0405-CN, server: opt16.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0406-CN, server: opt17.boom.skin, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0407-CN, server: opt18.boom.skin, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 04-0408-CN, server: opt19.boom.skin, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 994288:3otCjb, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 04-0409-CN, server: cngzm01.tangguo.pro, port: 6018, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133217:CfXbun, obfs-param: 513dd133217.itunes.apple.com, udp: true}
   - {name: 04-0410-CN, server: cngzm01.tangguo.pro, port: 6016, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133217:CfXbun, obfs-param: 513dd133217.itunes.apple.com, udp: true}
   - {name: 04-0411-CN, server: cngzm01.tangguo.pro, port: 6022, type: ssr, cipher: aes-128-cfb, password: Iz46Mk, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133217:CfXbun, obfs-param: 513dd133217.itunes.apple.com, udp: true}
@@ -467,14 +461,14 @@ proxies:
   - {name: 04-0544-CN, server: dnspsdhaitun.ncsuwei.top, port: 13004, type: vmess, uuid: d93779d9-797c-3e84-9a1d-f6689d470051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: 04-0545-CN, server: dnspsdhaitun.ncsuwei.top, port: 13002, type: vmess, uuid: d93779d9-797c-3e84-9a1d-f6689d470051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
   - {name: 04-0546-CN, server: dnspsdhaitun.ncsuwei.top, port: 17002, type: vmess, uuid: d93779d9-797c-3e84-9a1d-f6689d470051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af483582-6269-468c-93af-c512ec2b1a61, headers: {Host: dnspsdhaitun.ncsuwei.top}}, udp: true}
-  - {name: 04-0547-CN, server: 112.26.46.141, port: 61005, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0548-CN, server: 112.26.46.141, port: 63004, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0549-CN, server: 112.26.46.141, port: 62002, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0550-CN, server: 112.26.46.129, port: 61005, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0551-CN, server: 112.26.46.139, port: 61092, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0552-CN, server: 112.26.46.129, port: 63001, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0553-CN, server: 112.26.46.129, port: 63092, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
-  - {name: 04-0554-CN, server: 112.26.46.141, port: 64051, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0547-CN, server: 112.26.46.141, port: 64092, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0548-CN, server: 112.26.46.129, port: 63006, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0549-CN, server: 112.26.46.139, port: 64011, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0550-CN, server: 112.26.46.139, port: 61006, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0551-CN, server: 112.26.46.129, port: 62006, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0552-CN, server: 112.26.46.139, port: 62051, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0553-CN, server: 112.26.46.129, port: 63051, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
+  - {name: 04-0554-CN, server: 112.26.46.141, port: 61006, type: vmess, uuid: 61d1110b-d303-3211-9b76-9bf417d2f80a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00}, udp: true}
   - {name: 04-0555-CN, server: gdct001.theyydsnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 9df3c256-482f-4e73-b174-151f94395fe6, udp: true}
   - {name: 04-0556-CN, server: gdct003.theyydsnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 9df3c256-482f-4e73-b174-151f94395fe6, udp: true}
   - {name: 04-0557-CN, server: shcm002.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 9df3c256-482f-4e73-b174-151f94395fe6, udp: true}
@@ -1016,10 +1010,9 @@ proxies:
   - {name: 12-1094-US, server: mg_trojan.yunjisuan.cf, port: 14866, type: trojan, password: fe2ff945-6428-491a-81ab-7f97c6b77216, sni: mg_trojan.yunjisuan.cf, skip-cert-verify: true, udp: true}
   - {name: 12-1095-CZ, server: 94.131.97.10, port: 80, type: vmess, uuid: 13c4fa1d-c558-4cd0-8108-c1f64cd399ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 12-1096-NOWHERE, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}, udp: true}
-  - {name: 12-1097-CA, server: 143.244.43.216, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 12-1097-CAss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.81443#12-1101-GB, server: 143.244.43.216, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1098-RELAY, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rlhrwtqusd.site}}, udp: true}
   - {name: 12-1099-DE, server: 5.75.207.123, port: 37138, type: vmess, uuid: d56fd71b-f819-43fd-a61d-3593d742d682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-1101-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-1102-KR, server: 43.201.247.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-1103-GB, server: Telegram-Channel.hkbb0.66688888.xyz, port: 2092, type: vmess, uuid: 7b4680c5-222f-4a29-84c0-226d16dab9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram:@hkaa0, headers: {Host: Telegram-Channel.hkbb0.66688888.xyz}}, udp: true}
   - {name: 12-1104-SE, server: 37.19.222.213, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1042,137 +1035,137 @@ proxies:
   - {name: 12-1122-GB, server: 198.244.231.24, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1123-RELAY, server: torlqsbztdo.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torlqsbztdo.site}}, udp: true}
   - {name: 12-1124-FR, server: 162.19.59.160, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 13-1125-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1126-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1127-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1128-CN, server: 5m4h0k02.6vczxw.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1129-CN, server: 5m4h0k03.6vczxw.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1130-CN, server: 2d1t5w01.6vczxw.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1131-CN, server: 2d1t5w02.6vczxw.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1132-CN, server: 2d1t5w03.6vczxw.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1133-CN, server: 6w7j3p01.6vczxw.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1134-CN, server: 6w7j3p02.6vczxw.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1135-CN, server: 6w7j3p03.6vczxw.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1136-CN, server: 1c7s2g01.6vczxw.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1137-CN, server: 1c7s2g02.6vczxw.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1138-CN, server: 1c7s2g03.6vczxw.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1139-CN, server: 4a2u0a01.6vczxw.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1140-CN, server: 4a2u0a02.6vczxw.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1141-CN, server: 4a2u0a03.6vczxw.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, udp: true}
-  - {name: 13-1142-CN, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1143-CN, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1144-CN, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1145-CN, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1146-CN, server: 6w7j3p02.mcfront.xyz, port: 31106, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: jp02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1147-CN, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: jp03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1148-CN, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1149-CN, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1150-CN, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1151-CN, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: tw01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1152-CN, server: 2d1t5w02.mcfront.xyz, port: 31306, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: tw02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1153-CN, server: 2d1t5w03.mcfront.xyz, port: 31311, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: tw03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1154-CN, server: 1c7s2g01.mcfront.xyz, port: 31201, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1155-CN, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: sg02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1156-CN, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: sg03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1157-CN, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1158-CN, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1159-CN, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1160-CN, server: 4a2u0a01.mcfront.xyz, port: 31501, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1161-CN, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: us02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1162-CN, server: 4a2u0a03.mcfront.xyz, port: 31511, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: us03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1163-CN, server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1164-CN, server: 4a2u0a05.mcfront.xyz, port: 31506, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1165-CN, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1166-CN, server: 8l2k1r01.mcfront.xyz, port: 31401, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: kr01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1167-CN, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1168-CN, server: 1a4p0h01.mcfront.xyz, port: 31801, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: ph01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1169-CN, server: 1a4p0h04.mcfront.xyz, port: 31801, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1170-CN, server: 4t1r5u01.mcfront.xyz, port: 31851, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: ru01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1171-CN, server: 4t1r5u04.mcfront.xyz, port: 31851, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1172-CN, server: 6e3m6y01.mcfront.xyz, port: 31887, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: my01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1173-CN, server: 6e3m6y04.mcfront.xyz, port: 31887, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1174-CN, server: 2c2t8h01.mcfront.xyz, port: 31904, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: th01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1175-CN, server: 2c2t8h04.mcfront.xyz, port: 31904, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1176-CN, server: 7c1a1r01.mcfront.xyz, port: 31861, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: ar01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1177-CN, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1178-CN, server: 3c2h4u01.mcfront.xyz, port: 31864, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1179-CN, server: 3c2h4u04.mcfront.xyz, port: 31864, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1180-CN, server: 4t1u6r01.mcfront.xyz, port: 31868, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: tr01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1181-CN, server: 4t1u6r04.mcfront.xyz, port: 31868, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1182-CN, server: 4w7u4a01.mcfront.xyz, port: 31871, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: ua01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1183-CN, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1184-CN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: vn01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1185-CN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1186-CN, server: 7c6i2r01.mcfront.xyz, port: 31877, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: br01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1187-CN, server: 7c6i2r04.mcfront.xyz, port: 31877, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1188-CN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: in01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1189-CN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1190-CN, server: 4o5a3u01.mcfront.xyz, port: 31821, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: au01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1191-CN, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1192-CN, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: uk01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1193-CN, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1194-CN, server: 9t1d5e01.mcfront.xyz, port: 31841, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: de01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1195-CN, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1196-CN, server: 4c3p1t01.mcfront.xyz, port: 31881, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: pt01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1197-CN, server: 4c3p1t01.mcfront.xyz, port: 31881, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1198-CN, server: 3d1c4a01.mcfront.xyz, port: 31701, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: ca01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1199-CN, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1200-CN, server: 2d3e6s01.mcfront.xyz, port: 31884, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: es01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1201-CN, server: 2d3e6s01.mcfront.xyz, port: 31884, type: vmess, uuid: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 13-1202-JP, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1203-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1204-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1205-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 50b9eb0c-5c7f-4979-ade4-12613ed2b4f3, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 15-1206-CN, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1207-CN, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1208-CN, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1209-CN, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1210-CN, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1211-CN, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1212-CN, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1213-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1214-CN, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1215-CN, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1216-CN, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1217-CN, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1218-CN, server: jp.kunlun-ppg.com, port: 10813, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1219-CN, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1220-CN, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1221-CN, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1222-CN, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1223-CN, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1224-CN, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1225-CN, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1226-CN, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1227-CN, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1228-CN, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1229-CN, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1230-CN, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1231-CN, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1232-CN, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1233-CN, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1234-CN, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1235-CN, server: sg.kunlun-ppg.com, port: 10830, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1236-CN, server: sg.kunlun-ppg.com, port: 10831, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1237-CN, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1238-CN, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1239-CN, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1240-CN, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1241-CN, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1242-CN, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1243-CN, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1244-CN, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1245-CN, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1246-CN, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1247-CN, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1248-CN, server: other.kunlun-ppg.com, port: 10843, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1249-CN, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1250-CN, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1251-CN, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1252-CN, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1253-CN, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1254-CN, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: 15-1255-CN, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 8b266e70-bf2e-4df5-9ca6-8154715cfe31, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 13-1125-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1126-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1127-CN, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1128-CN, server: 5m4h0k02.6vczxw.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1129-CN, server: 5m4h0k03.6vczxw.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1130-CN, server: 2d1t5w01.6vczxw.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1131-CN, server: 2d1t5w02.6vczxw.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1132-CN, server: 2d1t5w03.6vczxw.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1133-CN, server: 6w7j3p01.6vczxw.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1134-CN, server: 6w7j3p02.6vczxw.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1135-CN, server: 6w7j3p03.6vczxw.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1136-CN, server: 1c7s2g01.6vczxw.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1137-CN, server: 1c7s2g02.6vczxw.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1138-CN, server: 1c7s2g03.6vczxw.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1139-CN, server: 4a2u0a01.6vczxw.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1140-CN, server: 4a2u0a02.6vczxw.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1141-CN, server: 4a2u0a03.6vczxw.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, udp: true}
+  - {name: 13-1142-CN, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1143-CN, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1144-CN, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1145-CN, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1146-CN, server: 6w7j3p02.mcfront.xyz, port: 31106, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: jp02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1147-CN, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: jp03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1148-CN, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1149-CN, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1150-CN, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1151-CN, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: tw01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1152-CN, server: 2d1t5w02.mcfront.xyz, port: 31306, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: tw02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1153-CN, server: 2d1t5w03.mcfront.xyz, port: 31311, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: tw03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1154-CN, server: 1c7s2g01.mcfront.xyz, port: 31201, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1155-CN, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: sg02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1156-CN, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: sg03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1157-CN, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1158-CN, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1159-CN, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1160-CN, server: 4a2u0a01.mcfront.xyz, port: 31501, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1161-CN, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: us02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1162-CN, server: 4a2u0a03.mcfront.xyz, port: 31511, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: us03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1163-CN, server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1164-CN, server: 4a2u0a05.mcfront.xyz, port: 31506, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1165-CN, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1166-CN, server: 8l2k1r01.mcfront.xyz, port: 31401, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: kr01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1167-CN, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1168-CN, server: 1a4p0h01.mcfront.xyz, port: 31801, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: ph01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1169-CN, server: 1a4p0h04.mcfront.xyz, port: 31801, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1170-CN, server: 4t1r5u01.mcfront.xyz, port: 31851, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: ru01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1171-CN, server: 4t1r5u04.mcfront.xyz, port: 31851, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1172-CN, server: 6e3m6y01.mcfront.xyz, port: 31887, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: my01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1173-CN, server: 6e3m6y04.mcfront.xyz, port: 31887, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1174-CN, server: 2c2t8h01.mcfront.xyz, port: 31904, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: th01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1175-CN, server: 2c2t8h04.mcfront.xyz, port: 31904, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1176-CN, server: 7c1a1r01.mcfront.xyz, port: 31861, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: ar01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1177-CN, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1178-CN, server: 3c2h4u01.mcfront.xyz, port: 31864, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1179-CN, server: 3c2h4u04.mcfront.xyz, port: 31864, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1180-CN, server: 4t1u6r01.mcfront.xyz, port: 31868, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: tr01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1181-CN, server: 4t1u6r04.mcfront.xyz, port: 31868, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1182-CN, server: 4w7u4a01.mcfront.xyz, port: 31871, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: ua01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1183-CN, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1184-CN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: vn01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1185-CN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1186-CN, server: 7c6i2r01.mcfront.xyz, port: 31877, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: br01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1187-CN, server: 7c6i2r04.mcfront.xyz, port: 31877, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1188-CN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: in01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1189-CN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1190-CN, server: 4o5a3u01.mcfront.xyz, port: 31821, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: au01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1191-CN, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1192-CN, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: uk01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1193-CN, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1194-CN, server: 9t1d5e01.mcfront.xyz, port: 31841, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: de01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1195-CN, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1196-CN, server: 4c3p1t01.mcfront.xyz, port: 31881, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: pt01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1197-CN, server: 4c3p1t01.mcfront.xyz, port: 31881, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1198-CN, server: 3d1c4a01.mcfront.xyz, port: 31701, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: ca01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1199-CN, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1200-CN, server: 2d3e6s01.mcfront.xyz, port: 31884, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: es01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1201-CN, server: 2d3e6s01.mcfront.xyz, port: 31884, type: vmess, uuid: 781ccd4f-2139-4180-9bee-cc1485806dfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 13-1202-JP, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1203-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1204-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 13-1205-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 781ccd4f-2139-4180-9bee-cc1485806dfa, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 15-1206-CN, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1207-CN, server: hk.kunlun-ppg.com, port: 10802, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1208-CN, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1209-CN, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1210-CN, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1211-CN, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1212-CN, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1213-CN, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1214-CN, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1215-CN, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1216-CN, server: jp.kunlun-ppg.com, port: 10811, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1217-CN, server: jp.kunlun-ppg.com, port: 10812, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1218-CN, server: jp.kunlun-ppg.com, port: 10813, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1219-CN, server: jp.kunlun-ppg.com, port: 10814, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1220-CN, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1221-CN, server: jp.kunlun-ppg.com, port: 10816, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1222-CN, server: jp.kunlun-ppg.com, port: 10817, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1223-CN, server: jp.kunlun-ppg.com, port: 10818, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1224-CN, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1225-CN, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1226-CN, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1227-CN, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1228-CN, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1229-CN, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1230-CN, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1231-CN, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1232-CN, server: sg.kunlun-ppg.com, port: 10827, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1233-CN, server: sg.kunlun-ppg.com, port: 10828, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1234-CN, server: sg.kunlun-ppg.com, port: 10829, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1235-CN, server: sg.kunlun-ppg.com, port: 10830, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1236-CN, server: sg.kunlun-ppg.com, port: 10831, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1237-CN, server: sg.kunlun-ppg.com, port: 10832, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1238-CN, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1239-CN, server: sg.kunlun-ppg.com, port: 10834, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1240-CN, server: other.kunlun-ppg.com, port: 10835, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1241-CN, server: other.kunlun-ppg.com, port: 10836, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1242-CN, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1243-CN, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1244-CN, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1245-CN, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1246-CN, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1247-CN, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1248-CN, server: other.kunlun-ppg.com, port: 10843, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1249-CN, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1250-CN, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1251-CN, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1252-CN, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1253-CN, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1254-CN, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: 15-1255-CN, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 274d1c37-8964-4aff-9f93-823b874574f9, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 16-1258-CN, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 16-1259-CN, server: service.ouluyun9803.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 16-1261-TW, server: nb23.ntbq.dynu.net, port: 443, type: vmess, uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b23, headers: {Host: nb23.ntbq.dynu.net}}, udp: true}
@@ -1184,6 +1177,7 @@ proxies:
   - {name: 17-1267-CN, server: cm03.newcome.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 46961:1210-Tha, obfs-param: 5d3ee46961.microsoft.com, udp: true}
   - {name: 17-1268-CN, server: cm01.newcome.xyz, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com, udp: true}
   - {name: 17-1269-CN, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
+  - {name: 17-1270-CN, server: ppg-sg.05xuzdqs5j.com, port: 10830, type: trojan, password: ffc7bc9d-e04e-453f-ba61-12549d0f83e5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 17-1271-CN, server: ppg-sg.05xuzdqs5j.com, port: 10831, type: trojan, password: ffc7bc9d-e04e-453f-ba61-12549d0f83e5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 17-1272-CN, server: ppg-hk.05xuzdqs5j.com, port: 10809, type: trojan, password: ffc7bc9d-e04e-453f-ba61-12549d0f83e5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
   - {name: 17-1273-CN, server: ppg-sg.05xuzdqs5j.com, port: 10832, type: trojan, password: ffc7bc9d-e04e-453f-ba61-12549d0f83e5, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
@@ -1216,21 +1210,20 @@ proxies:
   - {name: 17-1301-JP, server: 54.65.229.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1302-JP, server: 43.206.212.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1303-JP, server: 43.206.229.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 17-1304-JP, server: 18.183.113.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1305-JP, server: tg_mfbpn_ahk2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1309-KR, server: 52.78.207.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1310-KR, server: 43.202.3.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1312-KR, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1313-KR, server: tg_mfbpn_ajp2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1314-KR, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1315-KR, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1316-KR, server: tg_mfbpn_asg2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1317-KR, server: 43.202.56.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1318-KR, server: UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 20152, type: trojan, password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 17-1325-SG, server: 52.221.200.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 17-1324-SG, server: 18.141.147.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1326-SG, server: 18.142.250.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1328-SG, server: 52.221.217.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1332-TW, server: c12.twtc.dynu.net, port: 443, type: vmess, uuid: 1161bb83-4eb3-47f1-adba-39309399b9c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub2, headers: {Host: c12.twtc.dynu.net}}, udp: true}
   - {name: 17-1333-TW, server: c11.twtc.dynu.net, port: 443, type: vmess, uuid: 1161bb83-4eb3-47f1-adba-39309399b9c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: c11.twtc.dynu.net}}, udp: true}
+  - {name: 17-1336-US, server: 54.70.3.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1341-GR, server: 94.131.8.32, port: 8880, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 17-1342-GR, server: 94.131.8.32, port: 2095, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 17-1343-PT, server: 94.131.10.135, port: 80, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
@@ -1239,17 +1232,25 @@ proxies:
   - {name: 18-1350-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 27-1379-US, server: 47.254.30.243, port: 80, type: vmess, uuid: 468cde3d-26b5-4007-a20a-1cd19f46d5d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /KXwHGCrIVG4NYiB2}, udp: true}
   - {name: 29-1385-CH, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 36-1399-FR, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 36-1400-TW, server: 45.121.48.172, port: 10001, type: vmess, uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 36-1401-CH, server: 94.131.12.58, port: 26669, type: ss, cipher: chacha20-ietf-poly1305, password: B0ry56X2AxfFgcgI7sHDWD, udp: true}
-  - {name: 36-1403-KR, server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21152, type: trojan, password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
-  - {name: 36-1406-HK, server: 118.142.55.62, port: 443, type: trojan, password: c992f6f9af7144d29fd0f31967a769d4, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
-  - {name: 36-1407-NL, server: 79.132.128.60, port: 21524, type: vmess, uuid: 839102ad-842f-43e5-e589-ac10a3c78571, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 36-1411-CA, server: frontend.kuangbiaoyun.com, port: 40006, type: trojan, password: 9737c85e-ad5c-48f5-93f6-9bdb0361d04c, skip-cert-verify: true, udp: true}
-  - {name: 36-1413-SG, server: sg3.36routes.online, port: 80, type: vmess, uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg3.36routes.online}}, udp: true}
-  - {name: 36-1418-HK, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0, udp: true}
-  - {name: 36-1419-HK, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
-  - {name: 40-1437-CN, server: yt201.jdxx9.com, port: 15890, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9786:cSKZJT, obfs-param: b03e19786.download.windowsupdate.com, udp: true}
+  - {name: 36-1400-SG, server: 47.236.123.100, port: 33681, type: vmess, uuid: 7202d11f-2759-4d8c-e1d1-14cb138e4205, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 36-1402-FR, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 36-1404-HK, server: 47.243.108.41, port: 10841, type: ss, cipher: aes-256-gcm, password: rUx8mqUsI0, udp: true}
+  - {name: 36-1405-HK, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp, udp: true}
+  - {name: 36-1406-FR, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 36-1411-HK, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
+  - {name: 36-1413-FR, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 36-1414-JP, server: 64.176.47.200, port: 29414, type: vmess, uuid: 4d5e8aa2-0641-4323-e92c-2c061cdc8e34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 36-1415-FR, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 36-1416-KR, server: unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20152, type: trojan, password: ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 36-1417-FI, server: 45.159.249.231, port: 38584, type: ss, cipher: chacha20-ietf-poly1305, password: zIPjynKNVVaBnKK0UZ5zu2, udp: true}
+  - {name: 36-1418-FR, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 36-1420-FR, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 36-1423-US, server: lucky.slowvpn.xyz, port: 30202, type: vmess, uuid: edbd6a7c-5ed6-4524-af31-72ed12ac155e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lucky.slowvpn.xyz}}, udp: true}
+  - {name: 36-1424-US, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 36-1425-HK, server: 118.142.55.62, port: 443, type: trojan, password: c992f6f9af7144d29fd0f31967a769d4, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
+  - {name: 36-1426-FR, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 36-1427-HK, server: 118.142.55.54, port: 443, type: trojan, password: c992f6f9af7144d29fd0f31967a769d4, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
+  - {name: 36-1428-FR, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1261,15 +1262,15 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0000-RELAY
+      - 04-0008-RELAY
       - 04-0011-TW
       - 04-0012-TW
       - 04-0013-TW
       - 04-0014-TW
       - 04-0015-TW
       - 04-0016-TW
-      - 04-0021-JP
-      - 04-0022-JP
-      - 04-0023-HK
+      - 04-0018-TW
+      - 04-0019-TW
       - 04-0033-SG
       - 04-0034-SG
       - 04-0035-JP
@@ -1279,13 +1280,6 @@ proxy-groups:
       - 04-0044-US
       - 04-0047-AU
       - 04-0048-IT
-      - 04-0052-US
-      - 04-0053-US
-      - 04-0054-JP
-      - 04-0055-KR
-      - 04-0057-KR
-      - 04-0058-KR
-      - 04-0059-SG
       - 04-0060-TW
       - 04-0061-CA
       - 04-0062-BR
@@ -1367,12 +1361,12 @@ proxy-groups:
       - 04-0138-KR
       - 04-0139-KR
       - 04-0140-KR
+      - 04-0141-KR
       - 04-0142-US
       - 04-0143-TW
       - 04-0144-TW
       - 04-0145-TW
       - 04-0146-TW
-      - 04-0147-TW
       - 04-0148-TW
       - 04-0149-CN
       - 04-0150-CN
@@ -1419,6 +1413,7 @@ proxy-groups:
       - 04-0191-JP
       - 04-0192-JP
       - 04-0193-JP
+      - 04-0194-US
       - 04-0195-US
       - 04-0196-US
       - 04-0197-HK
@@ -2222,10 +2217,9 @@ proxy-groups:
       - 12-1094-US
       - 12-1095-CZ
       - 12-1096-NOWHERE
-      - 12-1097-CA
+      - 12-1097-CAss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.81443#12-1101-GB
       - 12-1098-RELAY
       - 12-1099-DE
-      - 12-1101-GB
       - 12-1102-KR
       - 12-1103-GB
       - 12-1104-SE
@@ -2390,6 +2384,7 @@ proxy-groups:
       - 17-1267-CN
       - 17-1268-CN
       - 17-1269-CN
+      - 17-1270-CN
       - 17-1271-CN
       - 17-1272-CN
       - 17-1273-CN
@@ -2422,21 +2417,20 @@ proxy-groups:
       - 17-1301-JP
       - 17-1302-JP
       - 17-1303-JP
+      - 17-1304-JP
       - 17-1305-JP
-      - 17-1309-KR
       - 17-1310-KR
-      - 17-1312-KR
       - 17-1313-KR
       - 17-1314-KR
       - 17-1315-KR
       - 17-1316-KR
       - 17-1317-KR
       - 17-1318-KR
-      - 17-1325-SG
+      - 17-1324-SG
       - 17-1326-SG
-      - 17-1328-SG
       - 17-1332-TW
       - 17-1333-TW
+      - 17-1336-US
       - 17-1341-GR
       - 17-1342-GR
       - 17-1343-PT
@@ -2445,17 +2439,25 @@ proxy-groups:
       - 18-1350-SE
       - 27-1379-US
       - 29-1385-CH
-      - 36-1399-FR
-      - 36-1400-TW
-      - 36-1401-CH
-      - 36-1403-KR
-      - 36-1406-HK
-      - 36-1407-NL
-      - 36-1411-CA
-      - 36-1413-SG
-      - 36-1418-HK
-      - 36-1419-HK
-      - 40-1437-CN
+      - 36-1400-SG
+      - 36-1402-FR
+      - 36-1404-HK
+      - 36-1405-HK
+      - 36-1406-FR
+      - 36-1411-HK
+      - 36-1413-FR
+      - 36-1414-JP
+      - 36-1415-FR
+      - 36-1416-KR
+      - 36-1417-FI
+      - 36-1418-FR
+      - 36-1420-FR
+      - 36-1423-US
+      - 36-1424-US
+      - 36-1425-HK
+      - 36-1426-FR
+      - 36-1427-HK
+      - 36-1428-FR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2473,7 +2475,6 @@ proxy-groups:
     proxies:
       - 04-0011-TW
       - 04-0016-TW
-      - 04-0021-JP
       - 04-0036-KR
       - 04-0061-CA
       - 04-0066-AU
@@ -2491,6 +2492,7 @@ proxy-groups:
       - 04-0126-CN
       - 04-0131-CN
       - 04-0136-NOWHERE
+      - 04-0141-KR
       - 04-0146-TW
       - 04-0151-TW
       - 04-0156-CN
@@ -2662,7 +2664,7 @@ proxy-groups:
       - 12-1086-RELAY
       - 12-1091-CH
       - 12-1096-NOWHERE
-      - 12-1101-GB
+      - 12-1097-CAss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.81443#12-1101-GB
       - 12-1106-KR
       - 12-1111-RELAY
       - 12-1121-RELAY
@@ -2703,21 +2705,20 @@ proxy-groups:
       - 17-1301-JP
       - 17-1316-KR
       - 17-1326-SG
+      - 17-1336-US
       - 17-1341-GR
-      - 36-1401-CH
-      - 36-1406-HK
-      - 36-1411-CA
+      - 36-1406-FR
+      - 36-1411-HK
+      - 36-1416-KR
+      - 36-1426-FR
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 04-0012-TW
-      - 04-0022-JP
       - 04-0042-US
       - 04-0047-AU
-      - 04-0052-US
-      - 04-0057-KR
       - 04-0062-BR
       - 04-0067-AU
       - 04-0072-RELAY
@@ -2735,7 +2736,6 @@ proxy-groups:
       - 04-0132-CN
       - 04-0137-KR
       - 04-0142-US
-      - 04-0147-TW
       - 04-0152-TW
       - 04-0157-TW
       - 04-0162-CN
@@ -2905,7 +2905,7 @@ proxy-groups:
       - 12-1082-SG
       - 12-1087-US
       - 12-1092-US
-      - 12-1097-CA
+      - 12-1097-CAss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.81443#12-1101-GB
       - 12-1102-KR
       - 12-1107-SE
       - 12-1112-US
@@ -2946,23 +2946,22 @@ proxy-groups:
       - 17-1292-CN
       - 17-1297-GB
       - 17-1302-JP
-      - 17-1312-KR
       - 17-1317-KR
       - 17-1332-TW
       - 17-1342-GR
-      - 36-1407-NL
-      - 40-1437-CN
+      - 36-1402-FR
+      - 36-1417-FI
+      - 36-1427-HK
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0008-RELAY
       - 04-0013-TW
-      - 04-0023-HK
+      - 04-0018-TW
       - 04-0033-SG
       - 04-0048-IT
-      - 04-0053-US
-      - 04-0058-KR
       - 04-0063-GB
       - 04-0068-RELAY
       - 04-0073-IN
@@ -3194,22 +3193,21 @@ proxy-groups:
       - 17-1303-JP
       - 17-1313-KR
       - 17-1318-KR
-      - 17-1328-SG
       - 17-1333-TW
       - 17-1343-PT
-      - 36-1403-KR
-      - 36-1413-SG
-      - 36-1418-HK
+      - 36-1413-FR
+      - 36-1418-FR
+      - 36-1423-US
+      - 36-1428-FR
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 04-0014-TW
+      - 04-0019-TW
       - 04-0034-SG
       - 04-0044-US
-      - 04-0054-JP
-      - 04-0059-SG
       - 04-0064-IT
       - 04-0069-RELAY
       - 04-0074-CN
@@ -3236,6 +3234,7 @@ proxy-groups:
       - 04-0179-DE
       - 04-0184-SG
       - 04-0189-JP
+      - 04-0194-US
       - 04-0199-HK
       - 04-0204-HK
       - 04-0309-GB
@@ -3436,12 +3435,14 @@ proxy-groups:
       - 17-1284-CN
       - 17-1289-CN
       - 17-1294-CN
-      - 17-1309-KR
+      - 17-1304-JP
       - 17-1314-KR
+      - 17-1324-SG
       - 17-1344-GR
       - 27-1379-US
-      - 36-1399-FR
-      - 36-1419-HK
+      - 36-1404-HK
+      - 36-1414-JP
+      - 36-1424-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3451,7 +3452,6 @@ proxy-groups:
       - 04-0015-TW
       - 04-0035-JP
       - 04-0040-TW
-      - 04-0055-KR
       - 04-0060-TW
       - 04-0065-DE
       - 04-0070-RELAY
@@ -3673,6 +3673,7 @@ proxy-groups:
       - 15-1250-CN
       - 15-1255-CN
       - 16-1265-SG
+      - 17-1270-CN
       - 17-1275-CN
       - 17-1280-CN
       - 17-1285-CN
@@ -3682,11 +3683,14 @@ proxy-groups:
       - 17-1305-JP
       - 17-1310-KR
       - 17-1315-KR
-      - 17-1325-SG
       - 17-1345-PT
       - 18-1350-SE
       - 29-1385-CH
-      - 36-1400-TW
+      - 36-1400-SG
+      - 36-1405-HK
+      - 36-1415-FR
+      - 36-1420-FR
+      - 36-1425-HK
   - name: 广告拦截
     type: select
     proxies:
