@@ -62,10 +62,13 @@ proxies:
   - {name: 04-0015-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 294193a6-d06f-40b2-bd44-7f7d93c988c2, skip-cert-verify: true, udp: true}
   - {name: 04-0016-JP, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 294193a6-d06f-40b2-bd44-7f7d93c988c2, udp: true}
   - {name: 04-0017-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 294193a6-d06f-40b2-bd44-7f7d93c988c2, udp: true}
+  - {name: 04-0026-CN, server: yt201.jdxx9.com, port: 16386, type: ssr, cipher: chacha20-ietf, password: nk0hfn6pb2s, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 9786:cSKZJT, obfs-param: b03e19786.download.windowsupdate.com, udp: true}
   - {name: 04-0027-SG, server: sg3.doushimeng.com, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
   - {name: 04-0028-SG, server: sgggg.doushimeng.com, port: 21552, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
   - {name: 04-0029-JP, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
   - {name: 04-0030-KR, server: kr.doushimeng.com, port: 22903, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
+  - {name: 04-0031-RELAY, server: dl6.doushimeng.com, port: 80, type: vmess, uuid: d5745c1c-fabb-4b35-a7f3-dc0388e32398, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl6.doushimeng.com}}, udp: true}
+  - {name: 04-0032-RELAY, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: d5745c1c-fabb-4b35-a7f3-dc0388e32398, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl4.doushimeng.com}}, udp: true}
   - {name: 04-0033-KR, server: dl1.doushimeng.com, port: 80, type: vmess, uuid: d5745c1c-fabb-4b35-a7f3-dc0388e32398, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl1.doushimeng.com}}, udp: true}
   - {name: 04-0034-TW, server: tw.doushimeng.com, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
   - {name: 04-0035-AE, server: db.doushimeng.com, port: 23202, type: ss, cipher: chacha20-ietf-poly1305, password: d5745c1c-fabb-4b35-a7f3-dc0388e32398, udp: true}
@@ -166,7 +169,7 @@ proxies:
   - {name: 04-0130-NOWHERE, server: 139HZ.xn--fiqa108dbd596g538d.com, port: 12919, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0131-KR, server: s1.956256.xyz, port: 43774, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0132-KR, server: s2.956256.xyz, port: 18609, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
-  - {name: "04-0133-KRtrojan//f5a24f98-589c-42c4-aa92-3e37993af700@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0884-CA", server: s1.956256.xyz, port: 11644, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
+  - {name: 04-0133-KR, server: s1.956256.xyz, port: 11644, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0134-KR, server: s1.956256.xyz, port: 33286, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0135-KR, server: s2.956256.xyz, port: 20803, type: ss, cipher: chacha20-ietf-poly1305, password: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, udp: true}
   - {name: 04-0136-US, server: 74.48.98.249, port: 8080, type: vmess, uuid: 2ca78e40-f58b-4041-b6b4-4300e5a6fc66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/quanstring?ed=2048"}, udp: true}
@@ -819,6 +822,7 @@ proxies:
   - {name: 11-0881-RELAY, server: v14.583182.xyz, port: 8443, type: vmess, uuid: f5a24f98-589c-42c4-aa92-3e37993af700, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583182.xyz}}, udp: true}
   - {name: 11-0882-RELAY, server: v15.583182.xyz, port: 2053, type: vmess, uuid: f5a24f98-589c-42c4-aa92-3e37993af700, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583182.xyz}}, udp: true}
   - {name: 11-0883-RELAY, server: v16.583182.xyz, port: 8443, type: vmess, uuid: f5a24f98-589c-42c4-aa92-3e37993af700, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583182.xyz}}, udp: true}
+  - {name: 11-0884-CA, server: t5.583181.xyz, port: 1272, type: trojan, password: f5a24f98-589c-42c4-aa92-3e37993af700, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 11-0885-DE, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: 338f9184-6509-3e5b-bea4-d24083c02451, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0886-DE, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: 338f9184-6509-3e5b-bea4-d24083c02451, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-0887-DE, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: 338f9184-6509-3e5b-bea4-d24083c02451, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -1053,10 +1057,9 @@ proxies:
   - {name: 12-1117-CN, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: 36fd133b-144b-489e-9311-908dd7b6b17a, udp: true}
   - {name: 12-1118-SG, server: 146.190.99.71, port: 21378, type: vmess, uuid: f9819b76-b627-4635-a9c5-c54c46a9db10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-1120-CN, server: any.hmbiplc-02.com, port: 53649, type: ss, cipher: chacha20-ietf-poly1305, password: 36fd133b-144b-489e-9311-908dd7b6b17a, udp: true}
-  - {name: 12-1121-US, server: hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 37d2266b-d239-47ea-8d26-35583da9e3d5, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 12-1121-US, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 12-1122-FR, server: 162.19.83.13, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 12-1123-CN, server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: 36fd133b-144b-489e-9311-908dd7b6b17a, udp: true}
-  - {name: 12-1124-JP, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true, udp: true}
   - {name: 12-1125-KR, server: UNLK4.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 21152, type: trojan, password: 37d2266b-d239-47ea-8d26-35583da9e3d5, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
   - {name: 12-1126-RELAY, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-1127-RELAY, server: 104.21.91.254, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1233,16 +1236,13 @@ proxies:
   - {name: 17-1303-CN, server: cm01.newcome.xyz, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:1119_jE165t, obfs-param: 511df45641.microsoft.com, udp: true}
   - {name: 17-1306-HK, server: 183.179.168.53, port: 443, type: trojan, password: df6f27115ac04e4494b2ddd034259611, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
   - {name: 17-1307-JP, server: 43.206.212.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1308-JP, server: 52.195.170.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1309-JP, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1310-KR, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1311-KR, server: tg_mfbpn_asg2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1313-SG, server: 54.151.131.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1314-SG, server: 18.142.178.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1315-US, server: 47.88.77.45, port: 40547, type: ss, cipher: chacha20-ietf-poly1305, password: PsWNykrcPfRePC1YToWi2p, udp: true}
   - {name: 18-1325-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 27-1356-US, server: 47.254.30.243, port: 80, type: vmess, uuid: 468cde3d-26b5-4007-a20a-1cd19f46d5d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /KXwHGCrIVG4NYiB2}, udp: true}
   - {name: 29-1359-CH, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 36-1375-HK, server: 47.57.232.119, port: 2119, type: ss, cipher: aes-256-gcm, password: 3B9vFTBSlp, udp: true}
   - {name: 36-1377-IE, server: 95.164.44.203, port: 8080, type: vmess, uuid: 6f0cca5e-cf21-4279-871e-ca26d9c955a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 36-1378-GR, server: 94.131.8.32, port: 80, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 36-1380-IE, server: 95.164.44.203, port: 2086, type: vmess, uuid: 6f0cca5e-cf21-4279-871e-ca26d9c955a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
@@ -1270,10 +1270,13 @@ proxy-groups:
       - 04-0015-JP
       - 04-0016-JP
       - 04-0017-HK
+      - 04-0026-CN
       - 04-0027-SG
       - 04-0028-SG
       - 04-0029-JP
       - 04-0030-KR
+      - 04-0031-RELAY
+      - 04-0032-RELAY
       - 04-0033-KR
       - 04-0034-TW
       - 04-0035-AE
@@ -1374,7 +1377,7 @@ proxy-groups:
       - 04-0130-NOWHERE
       - 04-0131-KR
       - 04-0132-KR
-      - 04-0133-KRtrojan//f5a24f98-589c-42c4-aa92-3e37993af700@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0884-CA
+      - 04-0133-KR
       - 04-0134-KR
       - 04-0135-KR
       - 04-0136-US
@@ -2027,6 +2030,7 @@ proxy-groups:
       - 11-0881-RELAY
       - 11-0882-RELAY
       - 11-0883-RELAY
+      - 11-0884-CA
       - 11-0885-DE
       - 11-0886-DE
       - 11-0887-DE
@@ -2264,7 +2268,6 @@ proxy-groups:
       - 12-1121-US
       - 12-1122-FR
       - 12-1123-CN
-      - 12-1124-JP
       - 12-1125-KR
       - 12-1126-RELAY
       - 12-1127-RELAY
@@ -2441,16 +2444,13 @@ proxy-groups:
       - 17-1303-CN
       - 17-1306-HK
       - 17-1307-JP
-      - 17-1308-JP
       - 17-1309-JP
-      - 17-1310-KR
-      - 17-1311-KR
-      - 17-1313-SG
       - 17-1314-SG
       - 17-1315-US
       - 18-1325-SE
       - 27-1356-US
       - 29-1359-CH
+      - 36-1375-HK
       - 36-1377-IE
       - 36-1378-GR
       - 36-1380-IE
@@ -2477,6 +2477,8 @@ proxy-groups:
     proxies:
       - 04-0011-TW
       - 04-0016-JP
+      - 04-0026-CN
+      - 04-0031-RELAY
       - 04-0036-US
       - 04-0041-AU
       - 04-0046-US
@@ -2712,7 +2714,6 @@ proxy-groups:
       - 16-1296-KR
       - 17-1301-CN
       - 17-1306-HK
-      - 17-1311-KR
       - 27-1356-US
   - name: 测速2分组
     type: url-test
@@ -2722,6 +2723,7 @@ proxy-groups:
       - 04-0012-TW
       - 04-0017-HK
       - 04-0027-SG
+      - 04-0032-RELAY
       - 04-0037-RELAY
       - 04-0042-IT
       - 04-0047-US
@@ -2984,7 +2986,7 @@ proxy-groups:
       - 04-0118-CN
       - 04-0123-CN
       - 04-0128-NOWHERE
-      - 04-0133-KRtrojan//f5a24f98-589c-42c4-aa92-3e37993af700@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0884-CA
+      - 04-0133-KR
       - 04-0138-TW
       - 04-0143-CN
       - 04-0148-TW
@@ -3197,8 +3199,6 @@ proxy-groups:
       - 15-1283-CN
       - 16-1293-KR
       - 17-1303-CN
-      - 17-1308-JP
-      - 17-1313-SG
       - 36-1378-GR
       - 36-1383-IE
       - 36-1388-GR
@@ -3228,7 +3228,6 @@ proxy-groups:
       - 04-0119-CN
       - 04-0124-CN
       - 04-0129-NOWHERE
-      - 04-0133-KRtrojan//f5a24f98-589c-42c4-aa92-3e37993af700@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0884-CA
       - 04-0134-KR
       - 04-0139-TW
       - 04-0144-CN
@@ -3360,6 +3359,7 @@ proxy-groups:
       - 11-0869-CN
       - 11-0874-CN
       - 11-0879-RELAY
+      - 11-0884-CA
       - 11-0889-DE
       - 11-0894-SG
       - 11-0899-JP
@@ -3406,7 +3406,6 @@ proxy-groups:
       - 12-1104-KR
       - 12-1109-DE
       - 12-1114-FR
-      - 12-1124-JP
       - 12-1129-CN
       - 12-1134-SG
       - 12-1139-RELAY
@@ -3690,9 +3689,9 @@ proxy-groups:
       - 16-1290-CN
       - 16-1295-JP
       - 17-1300-CN
-      - 17-1310-KR
       - 17-1315-US
       - 18-1325-SE
+      - 36-1375-HK
       - 36-1380-IE
   - name: 广告拦截
     type: select
