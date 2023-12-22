@@ -190,7 +190,7 @@ proxies:
   - {name: 04-0135-TW, server: twzz1.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
   - {name: 04-0136-TW, server: twzz2.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
   - {name: 04-0137-TW, server: twzz2.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
-  - {name: "04-0138-TWtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA", server: twzz3.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
+  - {name: 04-0138-TW, server: twzz3.shiyuanyinian.xyz, port: 60000, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
   - {name: 04-0139-TW, server: twzz3.shiyuanyinian.xyz, port: 60001, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
   - {name: 04-0140-CN, server: cnshdxzz.newbluecloud.top, port: 28439, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
   - {name: 04-0141-CN, server: gz-vvv-sz-dnm.newbluecloud.top, port: 49017, type: ss, cipher: chacha20-ietf-poly1305, password: ac6d5310-426f-49e7-827c-e4a214b73c0c, udp: true}
@@ -1138,7 +1138,7 @@ proxies:
   - {name: 17-1188-JP, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1189-HK, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true, udp: true}
   - {name: 17-1190-KR, server: 43.201.104.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1191-KR, server: 43.201.247.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "17-1191-KRtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA", server: 43.201.247.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1192-KR, server: tg_mfbpn_asg2.52vpn.eu.org, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1193-RELAY, server: us-new03.gujuji.top, port: 8080, type: vmess, uuid: 3bbea0a7-6b6a-47fb-8c0a-7d535a5ea56e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-new03.gujuji.top}}, udp: true}
   - {name: 17-1194-RU, server: 31.172.76.10, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1397,7 +1397,7 @@ proxy-groups:
       - 04-0135-TW
       - 04-0136-TW
       - 04-0137-TW
-      - 04-0138-TWtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
+      - 04-0138-TW
       - 04-0139-TW
       - 04-0140-CN
       - 04-0141-CN
@@ -2345,7 +2345,7 @@ proxy-groups:
       - 17-1188-JP
       - 17-1189-HK
       - 17-1190-KR
-      - 17-1191-KR
+      - 17-1191-KRtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 17-1192-KR
       - 17-1193-RELAY
       - 17-1194-RU
@@ -2690,7 +2690,7 @@ proxy-groups:
       - 17-1176-CN
       - 17-1181-HK
       - 17-1186-JP
-      - 17-1191-KR
+      - 17-1191-KRtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 17-1196-SG
       - 17-1201-SG
       - 18-1211-US
@@ -2745,7 +2745,6 @@ proxy-groups:
       - 04-0127-NOWHERE
       - 04-0132-NOWHERE
       - 04-0137-TW
-      - 04-0138-TWtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 04-0142-TW
       - 04-0147-CN
       - 04-0152-CN
@@ -2934,6 +2933,7 @@ proxy-groups:
       - 17-1177-DE
       - 17-1182-JP
       - 17-1187-JP
+      - 17-1191-KRtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 17-1192-KR
       - 17-1197-SG
       - 17-1202-SG
@@ -2988,7 +2988,7 @@ proxy-groups:
       - 04-0123-CN
       - 04-0128-NOWHERE
       - 04-0133-US
-      - 04-0138-TWtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
+      - 04-0138-TW
       - 04-0143-TW
       - 04-0148-TW
       - 04-0153-CN
@@ -3231,7 +3231,6 @@ proxy-groups:
       - 04-0124-NOWHERE
       - 04-0129-NOWHERE
       - 04-0134-TW
-      - 04-0138-TWtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 04-0139-TW
       - 04-0144-TW
       - 04-0149-TW
@@ -3422,6 +3421,7 @@ proxy-groups:
       - 17-1179-HK
       - 17-1184-JP
       - 17-1189-HK
+      - 17-1191-KRtrojan//cdabe687-41e1-408e-bc39-46d00607992d@t5.583181.xyz1272?allowInsecure=1&sni=www.baidu.com#11-0929-CA
       - 17-1194-RU
       - 17-1199-SG
       - 17-1204-TW
