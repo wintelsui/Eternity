@@ -100,6 +100,7 @@ proxies:
   - {name: 04-0044-TW, server: tw.fanqiecloud.top, port: 48875, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
   - {name: 04-0045-CA, server: cf.fanqiecloud.top, port: 22554, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
   - {name: 04-0046-BR, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
+  - {name: 04-0047-GB, server: uk.fanqiecloud.top, port: 24504, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
   - {name: 04-0048-IT, server: it.fanqiecloud.top, port: 39052, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
   - {name: 04-0049-RELAY, server: dl3.fanqiecloud.top, port: 2052, type: vmess, uuid: d8d541aa-6a5c-49b4-9592-a48c23a5f859, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dl3.fanqiecloud.top}}, udp: true}
   - {name: 04-0050-DE, server: de.fanqiecloud.top, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: d8d541aa-6a5c-49b4-9592-a48c23a5f859, udp: true}
@@ -890,7 +891,6 @@ proxies:
   - {name: 11-0934-JP, server: iij2.csznet.eu.org, port: 3306, type: vmess, uuid: 6dd86cb3-a76d-4bae-9e0d-362fa478a95c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: iij2.csznet.eu.org}}, udp: true}
   - {name: 11-0935-GB, server: kr01.host.csznet.eu.org, port: 443, type: vmess, uuid: 6dd86cb3-a76d-4bae-9e0d-362fa478a95c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: kr01.host.csznet.eu.org}}, udp: true}
   - {name: 11-0936-RELAY, server: cf.best.lafuseessub.uk, port: 443, type: vmess, uuid: 0a4defdd-924d-4781-9d95-ff05c28860e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lafusees, headers: {Host: cf.best.lafuseessub.uk}}, udp: true}
-  - {name: 11-0937-FR, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 11-0938-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 11-0939-US, server: best-charm-pediatrician.glitch.me, port: 443, type: vmess, uuid: 1d5fb496-19fb-48fb-9880-a147326dee62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess, headers: {Host: best-charm-pediatrician.glitch.me}}, udp: true}
   - {name: 11-0940-NO, server: 165.231.120.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1071,7 +1071,6 @@ proxies:
   - {name: 17-1164-SG, server: 103.172.116.94, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
   - {name: 17-1165-CN, server: xijinping.19890604.day, port: 10812, type: trojan, password: 722a9210-a79d-4e97-948c-4d09602f98d4, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
   - {name: 17-1167-SG, server: 103.172.116.103, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 17-1168-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 17-1169-SG, server: 103.172.116.103, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
   - {name: 17-1171-SG, server: 103.172.116.94, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
   - {name: 17-1172-LU, server: 92.38.163.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1113,6 +1112,7 @@ proxies:
   - {name: 17-1237-FR, server: 92.223.55.4, port: 443, type: vmess, uuid: 8dbd3db3-c530-4ec0-a929-be4da535f663, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray}, udp: true}
   - {name: 17-1238-AT, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 17-1239-SG, server: 103.172.116.94, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: 17-1240-US, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2, udp: true}
   - {name: 17-1241-SG, server: 103.172.116.79, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 17-1242-SG, server: 103.172.116.103, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 17-1243-SG, server: 103.172.116.103, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
@@ -1298,6 +1298,7 @@ proxy-groups:
       - 04-0044-TW
       - 04-0045-CA
       - 04-0046-BR
+      - 04-0047-GB
       - 04-0048-IT
       - 04-0049-RELAY
       - 04-0050-DE
@@ -2088,7 +2089,6 @@ proxy-groups:
       - 11-0934-JP
       - 11-0935-GB
       - 11-0936-RELAY
-      - 11-0937-FR
       - 11-0938-US
       - 11-0939-US
       - 11-0940-NO
@@ -2269,7 +2269,6 @@ proxy-groups:
       - 17-1164-SG
       - 17-1165-CN
       - 17-1167-SG
-      - 17-1168-US
       - 17-1169-SG
       - 17-1171-SG
       - 17-1172-LU
@@ -2311,6 +2310,7 @@ proxy-groups:
       - 17-1237-FR
       - 17-1238-AT
       - 17-1239-SG
+      - 17-1240-US
       - 17-1241-SG
       - 17-1242-SG
       - 17-1243-SG
@@ -2708,6 +2708,7 @@ proxy-groups:
       - 04-0032-SG
       - 04-0037-US
       - 04-0042-KR
+      - 04-0047-GB
       - 04-0052-AU
       - 04-0057-RELAY
       - 04-0062-CN
@@ -2865,7 +2866,6 @@ proxy-groups:
       - 11-0922-HK
       - 11-0927-HK
       - 11-0932-TR
-      - 11-0937-FR
       - 11-0942-RU
       - 13-0947-CN
       - 13-0952-CN
@@ -3144,7 +3144,6 @@ proxy-groups:
       - 17-1128-CN
       - 17-1143-SG
       - 17-1148-DE
-      - 17-1168-US
       - 17-1183-SG
       - 17-1193-DE
       - 17-1203-UA
@@ -3638,6 +3637,7 @@ proxy-groups:
       - 17-1215-DE
       - 17-1225-SG
       - 17-1235-SG
+      - 17-1240-US
       - 17-1245-CN
       - 17-1250-SG
       - 17-1255-SG
