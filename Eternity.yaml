@@ -1228,15 +1228,15 @@ proxies:
   - {name: 15-1296-CN, server: tank.19890604.day, port: 10832, type: trojan, password: 00cda5e8-bf39-4512-a7c5-9bac5b9c2ab5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-1297-CN, server: tank.19890604.day, port: 10833, type: trojan, password: 00cda5e8-bf39-4512-a7c5-9bac5b9c2ab5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 16-1320-KR, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 16-1322-KR, server: 43.201.55.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-1324-JP, server: 52.195.171.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-1325-JP, server: 54.250.240.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16-1326-JP, server: 18.181.211.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 17-1339-EE, server: ee2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ee2-vmess.sshmax.xyz}}, udp: true}
   - {name: 17-1340-GB, server: fast_2ray_telchannelll.fast2rayy.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 17-1345-KR, server: p222.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 17-1347-KR, server: 125.141.31.70, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 17-1348-KR, server: 125.141.31.71, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 17-1349-PT, server: pt2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pt2-vmess.sshmax.xyz}}, udp: true}
+  - {name: 17-1350-SG, server: 52.221.191.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1351-TR, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 17-1357-ZA, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory, udp: true}
   - {name: 18-1359-BA, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1244,10 +1244,10 @@ proxies:
   - {name: 18-1364-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 18-1366-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-1372-US, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 19-1376-VN, server: skyht2.vpndata.vn, port: 80, type: vmess, uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VPNDATA.VPN, headers: {Host: skyht2.vpndata.vn}}, udp: true}
   - {name: 19-1393-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: 36-1414-US, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c, udp: true}
+  - {name: 36-1416-US, server: 52.10.34.186, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1417-GB, server: 52.56.68.7, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 36-1418-TW, server: 36.232.158.210, port: 6122, type: vmess, uuid: a209ff8c-d691-496c-8c1f-32d2e995b603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-1422-PT, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 38-1423-GOOGLE, server: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev, port: 443, type: vmess, uuid: d380a471-e7b0-4aef-b228-0c6e908bf9e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev}}, udp: true}
 proxy-groups:
@@ -2434,15 +2434,15 @@ proxy-groups:
       - 15-1296-CN
       - 15-1297-CN
       - 16-1320-KR
+      - 16-1322-KR
       - 16-1324-JP
       - 16-1325-JP
-      - 16-1326-JP
-      - 17-1339-EE
       - 17-1340-GB
       - 17-1345-KR
       - 17-1347-KR
       - 17-1348-KR
       - 17-1349-PT
+      - 17-1350-SG
       - 17-1351-TR
       - 17-1357-ZA
       - 18-1359-BA
@@ -2450,10 +2450,10 @@ proxy-groups:
       - 18-1364-US
       - 18-1366-FR
       - 18-1372-US
+      - 19-1376-VN
       - 19-1393-RELAY
-      - 36-1414-US
+      - 36-1416-US
       - 36-1417-GB
-      - 36-1418-TW
       - 36-1422-PT
       - 38-1423-GOOGLE
   - name: 自动选择
@@ -2707,9 +2707,10 @@ proxy-groups:
       - 15-1286-CN
       - 15-1291-CN
       - 15-1296-CN
-      - 16-1326-JP
       - 17-1351-TR
       - 18-1366-FR
+      - 19-1376-VN
+      - 36-1416-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2951,6 +2952,7 @@ proxy-groups:
       - 15-1287-CN
       - 15-1292-CN
       - 15-1297-CN
+      - 16-1322-KR
       - 17-1347-KR
       - 17-1357-ZA
       - 18-1372-US
@@ -3198,7 +3200,6 @@ proxy-groups:
       - 17-1348-KR
       - 18-1363-FR
       - 19-1393-RELAY
-      - 36-1418-TW
       - 38-1423-GOOGLE
   - name: 测速4分组
     type: url-test
@@ -3440,11 +3441,9 @@ proxy-groups:
       - 15-1289-CN
       - 15-1294-CN
       - 16-1324-JP
-      - 17-1339-EE
       - 17-1349-PT
       - 18-1359-BA
       - 18-1364-US
-      - 36-1414-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3687,6 +3686,7 @@ proxy-groups:
       - 16-1325-JP
       - 17-1340-GB
       - 17-1345-KR
+      - 17-1350-SG
   - name: 广告拦截
     type: select
     proxies:
