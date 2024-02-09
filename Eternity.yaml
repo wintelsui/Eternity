@@ -54,13 +54,8 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0031-CN, server: us-gy.115cloud.link, port: 33233, type: ss, cipher: aes-256-gcm, password: n7wvO4Hv34CZjMQJ, udp: true}
   - {name: 04-0032-SG, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3dbb16-d855-41af-9de6-e611f68a7b52, udp: true}
   - {name: 04-0033-JP, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3dbb16-d855-41af-9de6-e611f68a7b52, udp: true}
-  - {name: 04-0034-US, server: us4.doushimeng.com, port: 35652, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3dbb16-d855-41af-9de6-e611f68a7b52, udp: true}
-  - {name: 04-0035-RELAY, server: dl3s.doushimeng.com, port: 2082, type: vmess, uuid: 0f3dbb16-d855-41af-9de6-e611f68a7b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl3s.doushimeng.com}}, udp: true}
-  - {name: 04-0036-CN, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 7420864b-42c0-47f9-a324-612f356d8ae9, udp: true}
-  - {name: 04-0037-CN, server: shcm002.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 7420864b-42c0-47f9-a324-612f356d8ae9, udp: true}
   - {name: 04-0038-CN, server: gdct003.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 7420864b-42c0-47f9-a324-612f356d8ae9, udp: true}
   - {name: 04-0039-CN, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 7420864b-42c0-47f9-a324-612f356d8ae9, udp: true}
   - {name: 04-0040-CN, server: gdct003.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 7420864b-42c0-47f9-a324-612f356d8ae9, udp: true}
@@ -1221,18 +1216,24 @@ proxies:
   - {name: 13-1295-CN, server: 2d3e6s01.m1k2s.xyz, port: 31884, type: vmess, uuid: e4957540-9d6d-4895-bca4-48161f43f84a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 13-1296-JP, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: e4957540-9d6d-4895-bca4-48161f43f84a, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 13-1297-JP, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: e4957540-9d6d-4895-bca4-48161f43f84a, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1298-JP, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: e4957540-9d6d-4895-bca4-48161f43f84a, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 13-1299-JP, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: e4957540-9d6d-4895-bca4-48161f43f84a, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
   - {name: 16-1359-KR, server: p220.panda001.net, port: 53258, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 16-1362-JP, server: 13.114.96.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16-1364-SG, server: 18.139.227.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16-1363-SG, server: 3.1.103.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 17-1401-FR, server: 146.59.207.100, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
   - {name: 17-1402-FR, server: 146.59.192.162, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
   - {name: 17-1403-FR, server: 146.59.200.89, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
+  - {name: 17-1404-FR, server: 57.128.173.202, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 17-1405-FR, server: 146.59.203.191, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
+  - {name: 17-1406-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 17-1410-GB, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 17-1411-GB, server: fast_2ray_telchannelll.fast2rayy.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 17-1416-HK, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 17-1429-KR, server: 125.141.26.7, port: 2020, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 17-1430-NL, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
+  - {name: 17-1431-SG, server: 103.172.116.79, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 17-1432-SG, server: 103.172.116.79, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: 17-1433-SG, server: 103.172.116.79, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 17-1434-SG, server: 103.172.116.79, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
   - {name: 17-1435-SG, server: 103.172.116.79, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
   - {name: 17-1436-SG, server: 103.172.116.79, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: 17-1437-SG, server: 103.172.116.79, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
@@ -1245,11 +1246,10 @@ proxies:
   - {name: 18-1470-US, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 27-1487-FR, server: 146.59.204.6, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
   - {name: 32-1509-RELAY, server: server26.beheshtbaneh.com, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: 32-1515-RELAY, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
+  - {name: 36-1518-SE, server: 13.48.90.61, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1523-GB, server: 18.171.254.16, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 36-1524-SG, server: 146.190.99.160, port: 27249, type: vmess, uuid: 58a7e71e-05a7-4406-b8d5-8d69bc4d009c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /MOBITEL}, udp: true}
-  - {name: 36-1529-US, server: 54.70.110.183, port: 13147, type: trojan, password: YccGyFfkTVqR, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-1534-NL, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
+  - {name: 36-1531-FR, server: 35.180.237.124, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1260,13 +1260,8 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 04-0031-CN
       - 04-0032-SG
       - 04-0033-JP
-      - 04-0034-US
-      - 04-0035-RELAY
-      - 04-0036-CN
-      - 04-0037-CN
       - 04-0038-CN
       - 04-0039-CN
       - 04-0040-CN
@@ -2427,18 +2422,24 @@ proxy-groups:
       - 13-1295-CN
       - 13-1296-JP
       - 13-1297-JP
-      - 13-1298-JP
-      - 13-1299-JP
       - 16-1359-KR
       - 16-1362-JP
-      - 16-1364-SG
+      - 16-1363-SG
       - 17-1401-FR
       - 17-1402-FR
       - 17-1403-FR
+      - 17-1404-FR
+      - 17-1405-FR
+      - 17-1406-GB
+      - 17-1410-GB
+      - 17-1411-GB
       - 17-1416-HK
       - 17-1429-KR
+      - 17-1430-NL
+      - 17-1431-SG
       - 17-1432-SG
       - 17-1433-SG
+      - 17-1434-SG
       - 17-1435-SG
       - 17-1436-SG
       - 17-1437-SG
@@ -2451,11 +2452,10 @@ proxy-groups:
       - 18-1470-US
       - 27-1487-FR
       - 32-1509-RELAY
-      - 32-1515-RELAY
+      - 36-1518-SE
       - 36-1523-GB
       - 36-1524-SG
-      - 36-1529-US
-      - 36-1534-NL
+      - 36-1531-FR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2471,8 +2471,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0031-CN
-      - 04-0036-CN
       - 04-0041-CN
       - 04-0046-CN
       - 04-0051-CN
@@ -2706,16 +2704,19 @@ proxy-groups:
       - 13-1291-CN
       - 13-1296-JP
       - 17-1401-FR
+      - 17-1406-GB
+      - 17-1411-GB
       - 17-1416-HK
+      - 17-1431-SG
       - 17-1436-SG
       - 17-1441-SG
+      - 36-1531-FR
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 04-0032-SG
-      - 04-0037-CN
       - 04-0042-CN
       - 04-0047-CN
       - 04-0052-CN
@@ -3191,18 +3192,18 @@ proxy-groups:
       - 13-1283-CN
       - 13-1288-CN
       - 13-1293-CN
-      - 13-1298-JP
+      - 16-1363-SG
       - 17-1403-FR
       - 17-1433-SG
       - 17-1438-SG
       - 18-1463-US
+      - 36-1518-SE
       - 36-1523-GB
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0034-US
       - 04-0039-CN
       - 04-0044-CN
       - 04-0049-CN
@@ -3436,21 +3437,18 @@ proxy-groups:
       - 13-1284-CN
       - 13-1289-CN
       - 13-1294-CN
-      - 13-1299-JP
       - 16-1359-KR
-      - 16-1364-SG
+      - 17-1404-FR
       - 17-1429-KR
+      - 17-1434-SG
       - 17-1439-SG
       - 32-1509-RELAY
       - 36-1524-SG
-      - 36-1529-US
-      - 36-1534-NL
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0035-RELAY
       - 04-0040-CN
       - 04-0045-CN
       - 04-0050-CN
@@ -3683,10 +3681,12 @@ proxy-groups:
       - 13-1285-CN
       - 13-1290-CN
       - 13-1295-CN
+      - 17-1405-FR
+      - 17-1410-GB
+      - 17-1430-NL
       - 17-1435-SG
       - 17-1440-SG
       - 18-1470-US
-      - 32-1515-RELAY
   - name: 广告拦截
     type: select
     proxies:
