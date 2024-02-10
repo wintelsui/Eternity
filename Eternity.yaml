@@ -56,6 +56,8 @@ sniffer:
 proxies:
   - {name: 04-0032-SG, server: sg3.doushimeng.com, port: 20053, type: ss, cipher: chacha20-ietf-poly1305, password: e96e8895-859a-4024-882c-8687ba72d5be, udp: true}
   - {name: 04-0033-JP, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: e96e8895-859a-4024-882c-8687ba72d5be, udp: true}
+  - {name: 04-0036-CN, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 4de54b26-2a0c-4876-8dc4-0faf20b8f288, udp: true}
+  - {name: 04-0037-CN, server: shcm002.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 4de54b26-2a0c-4876-8dc4-0faf20b8f288, udp: true}
   - {name: 04-0038-CN, server: gdct003.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 4de54b26-2a0c-4876-8dc4-0faf20b8f288, udp: true}
   - {name: 04-0039-CN, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 4de54b26-2a0c-4876-8dc4-0faf20b8f288, udp: true}
   - {name: 04-0040-CN, server: gdct003.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 4de54b26-2a0c-4876-8dc4-0faf20b8f288, udp: true}
@@ -1216,6 +1218,7 @@ proxies:
   - {name: 15-1295-CN, server: tiananmen.19890604.day, port: 10805, type: trojan, password: 19ce112f-4680-47cf-af52-67214a0f734d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-1296-CN, server: tiananmen.19890604.day, port: 10806, type: trojan, password: 19ce112f-4680-47cf-af52-67214a0f734d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-1297-CN, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 19ce112f-4680-47cf-af52-67214a0f734d, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 16-1341-TW, server: e001.panda003.net, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 17-1387-FR, server: 146.59.207.100, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
   - {name: 17-1388-FR, server: 51.210.123.74, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
   - {name: 17-1389-FR, server: 146.59.192.162, port: 80, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}, udp: true}
@@ -1244,12 +1247,9 @@ proxies:
   - {name: 18-1455-US, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 27-1477-GB, server: 3.9.61.128, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 32-1500-RELAY, server: server26.beheshtbaneh.com, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: 36-1511-GB, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2LVVFxxHJSBMdGdl, udp: true}
-  - {name: 36-1512-US, server: 35.93.118.137, port: 14604, type: trojan, password: WGcMZQRnObqt, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-1519-GB, server: 35.177.96.94, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 36-1522-US, server: 44.201.254.190, port: 14599, type: trojan, password: PSyoCvRbbSQk, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-1527-SG, server: 18.141.189.31, port: 14614, type: trojan, password: 9T9qrXuC5PXU, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-1528-SG, server: 146.190.105.70, port: 42513, type: vmess, uuid: d78e91ae-ea30-484f-8a5a-7d27b2b2014a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 36-1531-DE, server: 18.192.242.115, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1533-GB, server: 18.130.104.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1263,6 +1263,8 @@ proxy-groups:
       - 测速5分组
       - 04-0032-SG
       - 04-0033-JP
+      - 04-0036-CN
+      - 04-0037-CN
       - 04-0038-CN
       - 04-0039-CN
       - 04-0040-CN
@@ -2423,6 +2425,7 @@ proxy-groups:
       - 15-1295-CN
       - 15-1296-CN
       - 15-1297-CN
+      - 16-1341-TW
       - 17-1387-FR
       - 17-1388-FR
       - 17-1389-FR
@@ -2451,12 +2454,9 @@ proxy-groups:
       - 18-1455-US
       - 27-1477-GB
       - 32-1500-RELAY
-      - 36-1511-GB
-      - 36-1512-US
       - 36-1519-GB
-      - 36-1522-US
-      - 36-1527-SG
       - 36-1528-SG
+      - 36-1531-DE
       - 36-1533-GB
   - name: 自动选择
     type: url-test
@@ -2473,6 +2473,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0036-CN
       - 04-0041-CN
       - 04-0046-CN
       - 04-0051-CN
@@ -2705,16 +2706,18 @@ proxy-groups:
       - 13-1286-CN
       - 15-1291-CN
       - 15-1296-CN
+      - 16-1341-TW
       - 17-1391-GB
       - 17-1416-SG
       - 17-1421-SG
-      - 36-1511-GB
+      - 36-1531-DE
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 04-0032-SG
+      - 04-0037-CN
       - 04-0042-CN
       - 04-0047-CN
       - 04-0052-CN
@@ -2953,9 +2956,6 @@ proxy-groups:
       - 17-1422-SG
       - 18-1447-FR
       - 27-1477-GB
-      - 36-1512-US
-      - 36-1522-US
-      - 36-1527-SG
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
