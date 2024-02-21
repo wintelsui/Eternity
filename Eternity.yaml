@@ -79,6 +79,7 @@ proxies:
   - {name: 04-022-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-023-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-024-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-025-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-026-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-027-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-028-HK, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -348,6 +349,7 @@ proxies:
   - {name: 11-390-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 11-391-NL, server: 91.228.56.194, port: 80, type: vmess, uuid: b106699a-9de4-4316-90b5-0cd55835fafb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-392-DE, server: 38.54.13.212, port: 23026, type: vmess, uuid: ef4d0930-3788-4410-9305-fae4ba652ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef4d0930}, udp: true}
+  - {name: 11-393-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 11-394-FR, server: 45.155.169.91, port: 80, type: vmess, uuid: eb5bf043-1840-4239-f724-5a758c53290e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-395-IT, server: 95.164.46.154, port: 80, type: vmess, uuid: 431fda16-e0f8-4884-b4fd-965f03f86471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 12-396-RELAY, server: 104.21.224.2, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -601,7 +603,6 @@ proxies:
   - {name: 12-644-RELAY, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-645-US, server: 38.68.134.9, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 12-646-US, server: 38.75.136.135, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 12-647-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-648-CN, server: south.eeeeeef998.buzz, port: 16401, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-649-GB, server: 51.142.159.23, port: 32790, type: ss, cipher: chacha20-ietf-poly1305, password: 5ii16fmPTms8icYnYvxUfa, udp: true}
   - {name: 12-650-CN, server: stream04.tdm-anime.moe, port: 19042, type: ss, cipher: aes-256-gcm, password: 1298b28e-4ac9-428e-9e24-02c689a2ff72, udp: true}
@@ -621,7 +622,6 @@ proxies:
   - {name: 12-664-US, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 12-665-CN, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 12-666-FR, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
-  - {name: 12-667-US, server: 205.134.180.137, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: g13S7doXar0A, udp: true}
   - {name: 12-668-CN, server: east.eeeeeef998.buzz, port: 16302, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-669-RELAY, server: iranserver.com, port: 443, type: vmess, uuid: 659f69df-a947-4d92-97fb-c27ec41ec916, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iranserver.com}}, udp: true}
   - {name: 12-670-FASTLY, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: gov.uk}}, udp: true}
@@ -640,6 +640,7 @@ proxies:
   - {name: 12-683-NL, server: masting.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: XlUFgoOqDlVqlZFD3Js0YA, udp: true}
   - {name: 12-684-FI, server: 65.109.242.89, port: 443, type: trojan, password: n8KmWr0Tdr, sni: winstonsilver.click, skip-cert-verify: true, udp: true}
   - {name: 12-685-BA, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 12-686-US, server: 205.134.180.145, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hgLCgfLRgB6d, udp: true}
   - {name: 12-687-HK, server: lux.mjt000.com, port: 443, type: trojan, password: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, sni: lux.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 12-688-RELAY, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-689-CN, server: east.eeeeeef998.buzz, port: 13005, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
@@ -776,7 +777,6 @@ proxies:
   - {name: 22-822-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-823-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-824-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 22-825-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-826-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-827-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 867b8e57-9355-40dc-a696-9ca2518b091e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-828-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -885,6 +885,7 @@ proxy-groups:
       - 04-022-US
       - 04-023-HK
       - 04-024-HK
+      - 04-025-HK
       - 04-026-HK
       - 04-027-HK
       - 04-028-HK
@@ -1154,6 +1155,7 @@ proxy-groups:
       - 11-390-RELAY
       - 11-391-NL
       - 11-392-DE
+      - 11-393-RELAY
       - 11-394-FR
       - 11-395-IT
       - 12-396-RELAY
@@ -1407,7 +1409,6 @@ proxy-groups:
       - 12-644-RELAY
       - 12-645-US
       - 12-646-US
-      - 12-647-GB
       - 12-648-CN
       - 12-649-GB
       - 12-650-CN
@@ -1427,7 +1428,6 @@ proxy-groups:
       - 12-664-US
       - 12-665-CN
       - 12-666-FR
-      - 12-667-US
       - 12-668-CN
       - 12-669-RELAY
       - 12-670-FASTLY
@@ -1446,6 +1446,7 @@ proxy-groups:
       - 12-683-NL
       - 12-684-FI
       - 12-685-BA
+      - 12-686-US
       - 12-687-HK
       - 12-688-RELAY
       - 12-689-CN
@@ -1582,7 +1583,6 @@ proxy-groups:
       - 22-822-TW
       - 22-823-TW
       - 22-824-TW
-      - 22-825-TW
       - 22-826-TW
       - 22-827-TW
       - 22-828-TW
@@ -1788,6 +1788,7 @@ proxy-groups:
       - 12-671-RELAY
       - 12-676-HK
       - 12-681-SG
+      - 12-686-US
       - 12-691-CN
       - 12-696-CN
       - 12-701-RELAY
@@ -1943,11 +1944,9 @@ proxy-groups:
       - 12-632-RELAY
       - 12-637-RELAY
       - 12-642-RELAY
-      - 12-647-GB
       - 12-652-CN
       - 12-657-CN
       - 12-662-GB
-      - 12-667-US
       - 12-672-CN
       - 12-677-CN
       - 12-682-US
@@ -2057,6 +2056,7 @@ proxy-groups:
       - 11-378-NOWHERE
       - 11-383-CN
       - 11-388-RELAY
+      - 11-393-RELAY
       - 12-398-RELAY
       - 12-403-RELAY
       - 12-408-RELAY
@@ -2333,6 +2333,7 @@ proxy-groups:
       - 04-010-SG
       - 04-015-JP
       - 04-020-US
+      - 04-025-HK
       - 04-030-HK
       - 04-035-CN
       - 04-040-CN
@@ -2472,7 +2473,6 @@ proxy-groups:
       - 16-810-RELAY
       - 22-815-RU
       - 22-820-TW
-      - 22-825-TW
       - 22-830-TW
       - 22-835-GB
       - 24-840-FASTLY
