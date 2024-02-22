@@ -641,6 +641,7 @@ proxies:
   - {name: 12-683-CN, server: m.cnmjcn.com, port: 16622, type: vmess, uuid: e418915e-6459-414d-bc76-bbcbda621f0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}, udp: true}
   - {name: 12-684-JP, server: sg.mjt000.com, port: 443, type: trojan, password: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, sni: sg.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 12-685-CN, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
+  - {name: 12-686-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-687-CN, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 12-688-CN, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}, udp: true}
   - {name: 12-689-FR, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -654,7 +655,6 @@ proxies:
   - {name: 12-697-GB, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-698-US, server: 38.14.107.249, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-699-CN, server: m.cnmjcn.com, port: 16620, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}, udp: true}
-  - {name: 12-700-US, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2, udp: true}
   - {name: 12-701-KE, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-702-JP, server: jp.mjt000.com, port: 443, type: trojan, password: e418915e-6459-414d-bc76-bbcbda621f0f, sni: jp.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 12-703-JP, server: 3.112.234.88, port: 14823, type: trojan, password: drFRrXAf4GSx, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
@@ -1443,6 +1443,7 @@ proxy-groups:
       - 12-683-CN
       - 12-684-JP
       - 12-685-CN
+      - 12-686-US
       - 12-687-CN
       - 12-688-CN
       - 12-689-FR
@@ -1456,7 +1457,6 @@ proxy-groups:
       - 12-697-GB
       - 12-698-US
       - 12-699-CN
-      - 12-700-US
       - 12-701-KE
       - 12-702-JP
       - 12-703-JP
@@ -1780,6 +1780,7 @@ proxy-groups:
       - 12-671-CN
       - 12-676-CN
       - 12-681-CN
+      - 12-686-US
       - 12-691-GB
       - 12-696-GB
       - 12-701-KE
@@ -2436,7 +2437,6 @@ proxy-groups:
       - 12-685-CN
       - 12-690-US
       - 12-695-UA
-      - 12-700-US
       - 12-705-GB
       - 12-710-US
       - 12-715-CN
