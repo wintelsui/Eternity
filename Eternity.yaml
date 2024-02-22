@@ -372,6 +372,7 @@ proxies:
   - {name: 11-413-RELAY, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-414-RELAY, server: 104.21.225.0, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-415-RELAY, server: 104.21.225.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 11-416-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 11-417-JP, server: 35.78.208.18, port: 25555, type: vmess, uuid: 1b43dd14-e339-47f8-88ab-6a2c200c871b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-418-LT, server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 11-419-RELAY, server: my.vultr.com, port: 8080, type: vmess, uuid: 4e3e02e6-af84-4eb0-820e-0b0a1f89d1fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@memeukv@meli.eu.org@vmess@8080@1T, headers: {Host: my.vultr.com}}, udp: true}
@@ -621,7 +622,6 @@ proxies:
   - {name: 12-663-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 12-664-RELAY, server: 104.21.235.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-665-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
-  - {name: 12-666-RELAY, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
   - {name: 12-667-RELAY, server: 104.21.231.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-668-RELAY, server: 104.21.231.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-669-RELAY, server: 104.21.225.7, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -668,7 +668,6 @@ proxies:
   - {name: 12-710-CN, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 12-711-CN, server: m.cnmjcn.com, port: 16618, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}, udp: true}
   - {name: 12-712-CN, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
-  - {name: 12-713-US, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2, udp: true}
   - {name: 12-714-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-715-CN, server: east.eeeeeef998.buzz, port: 15004, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-716-ZA, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -727,6 +726,7 @@ proxies:
   - {name: 12-771-CN, server: east.eeeeeef998.buzz, port: 13004, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-772-CN, server: south.eeeeeef998.buzz, port: 14001, type: trojan, password: f47274d5-f44b-442e-add0-891d81d69df9, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
   - {name: 12-773-CN, server: yes.cnmjcn.net, port: 16622, type: vmess, uuid: e418915e-6459-414d-bc76-bbcbda621f0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
+  - {name: 12-774-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-775-CN, server: m.cnmjcn.com, port: 16622, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}, udp: true}
   - {name: 12-776-BE, server: be3-vmess.sshmax.xyz, port: 2052, type: vmess, uuid: 81e08848-0baa-4712-9e9b-301b77d0627b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: be3-vmess.sshmax.xyz}}, udp: true}
   - {name: 12-777-RELAY, server: 104.18.202.250, port: 2082, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -798,6 +798,7 @@ proxies:
   - {name: 22-843-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-844-TW, server: 114.37.158.127, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-845-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-846-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-847-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-848-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-849-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -845,7 +846,6 @@ proxies:
   - {name: 36-891-KR, server: 13.125.117.176, port: 14372, type: trojan, password: PRgNM6BusxYP, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-892-SG, server: 54.255.129.154, port: 14374, type: trojan, password: B3iopIkr9zaR, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-893-LU, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray}, udp: true}
-  - {name: 36-894-JP, server: 52.68.233.154, port: 14372, type: trojan, password: r1lsXOYz9C7g, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1174,6 +1174,7 @@ proxy-groups:
       - 11-413-RELAY
       - 11-414-RELAY
       - 11-415-RELAY
+      - 11-416-RELAY
       - 11-417-JP
       - 11-418-LT
       - 11-419-RELAY
@@ -1423,7 +1424,6 @@ proxy-groups:
       - 12-663-RELAY
       - 12-664-RELAY
       - 12-665-RELAY
-      - 12-666-RELAY
       - 12-667-RELAY
       - 12-668-RELAY
       - 12-669-RELAY
@@ -1470,7 +1470,6 @@ proxy-groups:
       - 12-710-CN
       - 12-711-CN
       - 12-712-CN
-      - 12-713-US
       - 12-714-FI
       - 12-715-CN
       - 12-716-ZA
@@ -1529,6 +1528,7 @@ proxy-groups:
       - 12-771-CN
       - 12-772-CN
       - 12-773-CN
+      - 12-774-US
       - 12-775-CN
       - 12-776-BE
       - 12-777-RELAY
@@ -1600,6 +1600,7 @@ proxy-groups:
       - 22-843-TW
       - 22-844-TW
       - 22-845-TW
+      - 22-846-TW
       - 22-847-TW
       - 22-848-TW
       - 22-849-TW
@@ -1647,7 +1648,6 @@ proxy-groups:
       - 36-891-KR
       - 36-892-SG
       - 36-893-LU
-      - 36-894-JP
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1726,6 +1726,7 @@ proxy-groups:
       - 11-401-CN
       - 11-406-RELAY
       - 11-411-RELAY
+      - 11-416-RELAY
       - 12-421-RELAY
       - 12-426-RELAY
       - 12-431-RELAY
@@ -1775,7 +1776,6 @@ proxy-groups:
       - 12-651-CN
       - 12-656-NL
       - 12-661-RELAY
-      - 12-666-RELAY
       - 12-671-RELAY
       - 12-676-RELAY
       - 12-681-MX
@@ -1810,6 +1810,7 @@ proxy-groups:
       - 16-831-CN
       - 22-836-GOOGLE
       - 22-841-TW
+      - 22-846-TW
       - 22-851-TW
       - 22-856-TW
       - 22-861-DE
@@ -2111,7 +2112,6 @@ proxy-groups:
       - 12-698-BA
       - 12-703-US
       - 12-708-GB
-      - 12-713-US
       - 12-718-PA
       - 12-723-JP
       - 12-728-CN
@@ -2287,6 +2287,7 @@ proxy-groups:
       - 12-759-FR
       - 12-764-JP
       - 12-769-CN
+      - 12-774-US
       - 15-779-CN
       - 15-784-CN
       - 15-789-CN
@@ -2310,7 +2311,6 @@ proxy-groups:
       - 36-879-LU
       - 36-884-RELAY
       - 36-889-VN
-      - 36-894-JP
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
