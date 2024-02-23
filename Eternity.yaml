@@ -764,6 +764,7 @@ proxies:
   - {name: 22-811-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-812-TW, server: 114.37.158.127, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-813-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-814-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-815-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 22-816-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-817-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -833,7 +834,6 @@ proxies:
   - {name: 36-881-RELAY, server: 104.21.225.249, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-882-RELAY, server: 104.21.225.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-883-RELAY, server: 104.21.225.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: 36-884-SG, server: 18.143.131.82, port: 16553, type: trojan, password: lylRoxWuTKNA, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-885-RELAY, server: 104.21.225.105, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8"}, udp: true}
   - {name: 36-886-US, server: 23.158.200.180, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 36-887-CN, server: yes.cnmjcn.net, port: 16645, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
@@ -1570,6 +1570,7 @@ proxy-groups:
       - 22-811-TW
       - 22-812-TW
       - 22-813-TW
+      - 22-814-TW
       - 22-815-RELAY
       - 22-816-TW
       - 22-817-TW
@@ -1639,7 +1640,6 @@ proxy-groups:
       - 36-881-RELAY
       - 36-882-RELAY
       - 36-883-RELAY
-      - 36-884-SG
       - 36-885-RELAY
       - 36-886-US
       - 36-887-CN
@@ -2305,6 +2305,7 @@ proxy-groups:
       - 16-799-CN
       - 22-804-GOOGLE
       - 22-809-TW
+      - 22-814-TW
       - 22-819-TW
       - 22-824-TW
       - 22-829-CA
@@ -2318,7 +2319,6 @@ proxy-groups:
       - 36-869-RELAY
       - 36-874-RELAY
       - 36-879-RELAY
-      - 36-884-SG
       - 36-889-RELAY
       - 36-894-RELAY
       - 36-899-RELAY
