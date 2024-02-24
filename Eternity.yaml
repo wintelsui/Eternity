@@ -576,6 +576,7 @@ proxies:
   - {name: 12-618-GB, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx, udp: true}
   - {name: 12-619-RELAY, server: 190.93.245.119, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm}, udp: true}
   - {name: 12-620-CN, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 33adff35-a68c-4937-a954-c3e75177d230, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 12-621-GB, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-622-FASTLY, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: gov.uk}}, udp: true}
   - {name: 12-623-RELAY, server: 104.21.225.134, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-624-US, server: 38.121.43.142, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -680,6 +681,7 @@ proxies:
   - {name: 22-727-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 22-728-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-729-TW, server: 114.37.158.127, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-730-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-731-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-732-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-733-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -797,7 +799,6 @@ proxies:
   - {name: 36-845-RELAY, server: 104.21.224.3, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 36-846-NL, server: 154.85.0.48, port: 41000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/271624282113}, udp: true}
   - {name: 36-847-RELAY, server: 172.67.255.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: 36-848-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 36-849-RELAY, server: 104.21.225.115, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 36-850-RELAY, server: 104.21.225.255, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 36-851-RELAY, server: 104.21.237.66, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -817,7 +818,6 @@ proxies:
   - {name: 36-865-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 36-866-RELAY, server: 104.21.225.98, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8"}, udp: true}
   - {name: 36-867-RELAY, server: 104.21.225.33, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: 36-868-JP, server: 13.231.46.130, port: 13078, type: trojan, password: u2kdwJ60K5KV, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-869-RELAY, server: 104.21.236.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1351,6 +1351,7 @@ proxy-groups:
       - 12-618-GB
       - 12-619-RELAY
       - 12-620-CN
+      - 12-621-GB
       - 12-622-FASTLY
       - 12-623-RELAY
       - 12-624-US
@@ -1455,6 +1456,7 @@ proxy-groups:
       - 22-727-RELAY
       - 22-728-TW
       - 22-729-TW
+      - 22-730-TW
       - 22-731-TW
       - 22-732-TW
       - 22-733-TW
@@ -1572,7 +1574,6 @@ proxy-groups:
       - 36-845-RELAY
       - 36-846-NL
       - 36-847-RELAY
-      - 36-848-RELAY
       - 36-849-RELAY
       - 36-850-RELAY
       - 36-851-RELAY
@@ -1592,7 +1593,6 @@ proxy-groups:
       - 36-865-RELAY
       - 36-866-RELAY
       - 36-867-RELAY
-      - 36-868-JP
       - 36-869-RELAY
   - name: 自动选择
     type: url-test
@@ -1713,6 +1713,7 @@ proxy-groups:
       - 12-606-KR
       - 12-611-HK
       - 12-616-RELAY
+      - 12-621-GB
       - 12-626-GB
       - 12-631-RELAY
       - 12-636-US
@@ -2074,11 +2075,9 @@ proxy-groups:
       - 36-833-DE
       - 36-838-RELAY
       - 36-843-RELAY
-      - 36-848-RELAY
       - 36-853-RELAY
       - 36-858-CA
       - 36-863-RELAY
-      - 36-868-JP
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2367,6 +2366,7 @@ proxy-groups:
       - 16-715-CN
       - 16-720-CN
       - 22-725-RU
+      - 22-730-TW
       - 22-735-TW
       - 22-740-TW
       - 22-745-CA
