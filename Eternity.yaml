@@ -58,7 +58,6 @@ proxies:
   - {name: 04-001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-002-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-003-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 04-009-DE, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-010-SG, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-011-SG, server: sgvip101.qlgq1.pw, port: 20443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-012-SG, server: sgvip101.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -353,6 +352,7 @@ proxies:
   - {name: 11-399-RELAY, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-400-RELAY, server: 104.21.225.235, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-401-RELAY, server: 104.21.225.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 11-402-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 11-403-RELAY, server: 104.21.225.184, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-404-LT, server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 12-405-CN, server: node000003.likeone.lol, port: 26681, type: trojan, password: 7418247d-8fd7-4357-a4c9-cd5038149d2f, sni: gdct003.jcnode.top, skip-cert-verify: true, udp: true}
@@ -626,7 +626,6 @@ proxies:
   - {name: 12-673-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-674-RELAY, server: 172.67.255.23, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 12-675-RELAY, server: 104.21.225.244, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-676-US, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8, udp: true}
   - {name: 12-677-RELAY, server: 141.101.123.105, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-678-RELAY, server: 172.67.253.71, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-679-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -637,7 +636,6 @@ proxies:
   - {name: 12-684-CN, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 12-685-GB, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 12-686-RELAY, server: 167.68.5.89, port: 443, type: trojan, password: e439dbaa-33d1-4b6d-a894-2c0ecebcb58c, sni: 61us3.pqjc.buzz, skip-cert-verify: true, udp: true}
-  - {name: 12-687-GB, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-688-KR, server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21852, type: trojan, password: 7ea8830e-3120-4973-a0b6-4c25219eadfc, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
   - {name: 12-689-ZA, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-690-RELAY, server: 104.21.31.183, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -664,6 +662,7 @@ proxies:
   - {name: 12-712-RELAY, server: 188.114.96.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-713-CN, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 12-714-RELAY, server: 172.67.253.158, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
+  - {name: 12-715-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-716-US, server: 35.90.9.236, port: 14978, type: trojan, password: prfHUEwMu52R, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 12-717-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-718-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -848,8 +847,9 @@ proxies:
   - {name: 36-902-GB, server: 35.177.188.10, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 36-905-GB, server: jseyu.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 36-921-GB, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 36-955-DE, server: 18.192.214.134, port: 15271, type: trojan, password: OdZmqwlMAVpC, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-957-GB, server: 3.8.175.243, port: 15267, type: trojan, password: PDlxLBLphqh9, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 36-924-GB, server: 18.132.100.141, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-949-FR, server: 35.181.185.183, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-954-GB, server: 3.11.115.174, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -864,7 +864,6 @@ proxy-groups:
       - 04-001-TW
       - 04-002-TW
       - 04-003-TW
-      - 04-009-DE
       - 04-010-SG
       - 04-011-SG
       - 04-012-SG
@@ -1159,6 +1158,7 @@ proxy-groups:
       - 11-399-RELAY
       - 11-400-RELAY
       - 11-401-RELAY
+      - 11-402-RELAY
       - 11-403-RELAY
       - 11-404-LT
       - 12-405-CN
@@ -1432,7 +1432,6 @@ proxy-groups:
       - 12-673-FR
       - 12-674-RELAY
       - 12-675-RELAY
-      - 12-676-US
       - 12-677-RELAY
       - 12-678-RELAY
       - 12-679-GB
@@ -1443,7 +1442,6 @@ proxy-groups:
       - 12-684-CN
       - 12-685-GB
       - 12-686-RELAY
-      - 12-687-GB
       - 12-688-KR
       - 12-689-ZA
       - 12-690-RELAY
@@ -1470,6 +1468,7 @@ proxy-groups:
       - 12-712-RELAY
       - 12-713-CN
       - 12-714-RELAY
+      - 12-715-US
       - 12-716-US
       - 12-717-GB
       - 12-718-FR
@@ -1654,8 +1653,9 @@ proxy-groups:
       - 36-902-GB
       - 36-905-GB
       - 36-921-GB
-      - 36-955-DE
-      - 36-957-GB
+      - 36-924-GB
+      - 36-949-FR
+      - 36-954-GB
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1785,7 +1785,6 @@ proxy-groups:
       - 12-661-CN
       - 12-666-RELAY
       - 12-671-SG
-      - 12-676-US
       - 12-681-RELAY
       - 12-686-RELAY
       - 12-691-JP
@@ -1894,6 +1893,7 @@ proxy-groups:
       - 11-387-RELAY
       - 11-392-RELAY
       - 11-397-RELAY
+      - 11-402-RELAY
       - 12-407-CN
       - 12-412-CN
       - 12-417-CN
@@ -1950,7 +1950,6 @@ proxy-groups:
       - 12-672-LU
       - 12-677-RELAY
       - 12-682-US
-      - 12-687-GB
       - 12-692-CN
       - 12-697-CN
       - 12-702-RELAY
@@ -1993,7 +1992,6 @@ proxy-groups:
       - 36-892-RELAY
       - 36-897-GB
       - 36-902-GB
-      - 36-957-GB
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2161,7 +2159,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-009-DE
       - 04-014-SG
       - 04-019-JP
       - 04-024-HK
@@ -2321,6 +2318,9 @@ proxy-groups:
       - 36-889-RELAY
       - 36-894-RELAY
       - 36-899-RELAY
+      - 36-924-GB
+      - 36-949-FR
+      - 36-954-GB
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2449,6 +2449,7 @@ proxy-groups:
       - 12-700-CN
       - 12-705-NL
       - 12-710-SG
+      - 12-715-US
       - 12-720-RELAY
       - 12-725-JP
       - 12-730-RELAY
@@ -2486,7 +2487,6 @@ proxy-groups:
       - 36-895-RELAY
       - 36-900-RELAY
       - 36-905-GB
-      - 36-955-DE
   - name: 广告拦截
     type: select
     proxies:
