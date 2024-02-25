@@ -58,7 +58,6 @@ proxies:
   - {name: 04-001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-002-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-003-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 04-007-DE, server: fkvip101.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-008-DE, server: fkvip101.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-009-DE, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-010-SG, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -847,9 +846,10 @@ proxies:
   - {name: 36-898-RELAY, server: 172.67.253.175, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 36-899-JP, server: 43.206.232.131, port: 15023, type: trojan, password: vJIxQWm2X8Im, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-900-RELAY, server: 104.21.239.96, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 36-901-IE, server: 34.246.88.125, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-906-JP, server: 89.187.28.20, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: s8X1UijWsESfAbNOSWa94o, udp: true}
+  - {name: 36-924-FR, server: 52.47.93.148, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-943-VN, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, skip-cert-verify: true, udp: true}
-  - {name: 36-952-SG, server: 13.212.251.85, port: 15030, type: trojan, password: 7J7pGYiHp8KT, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -864,7 +864,6 @@ proxy-groups:
       - 04-001-TW
       - 04-002-TW
       - 04-003-TW
-      - 04-007-DE
       - 04-008-DE
       - 04-009-DE
       - 04-010-SG
@@ -1653,9 +1652,10 @@ proxy-groups:
       - 36-898-RELAY
       - 36-899-JP
       - 36-900-RELAY
+      - 36-901-IE
       - 36-906-JP
+      - 36-924-FR
       - 36-943-VN
-      - 36-952-SG
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1828,6 +1828,7 @@ proxy-groups:
       - 27-886-RELAY
       - 36-891-RELAY
       - 36-896-RELAY
+      - 36-901-IE
       - 36-906-JP
   - name: 测速2分组
     type: url-test
@@ -1835,7 +1836,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-002-TW
-      - 04-007-DE
       - 04-012-SG
       - 04-017-JP
       - 04-022-US
@@ -1992,7 +1992,6 @@ proxy-groups:
       - 27-887-RELAY
       - 36-892-RELAY
       - 36-897-RELAY
-      - 36-952-SG
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2323,6 +2322,7 @@ proxy-groups:
       - 36-889-RELAY
       - 36-894-RELAY
       - 36-899-JP
+      - 36-924-FR
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
