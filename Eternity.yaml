@@ -60,6 +60,7 @@ proxies:
   - {name: 04-0003-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0017-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0019-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0020-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0021-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0022-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0023-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -87,7 +88,7 @@ proxies:
   - {name: 04-0045-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: af7cacdb-dc49-3bd7-ab7b-2b31fb04c07f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-0144-JP, server: 54.95.145.74, port: 443, type: trojan, password: 50ecf36b-cf5c-3acd-bf7e-a8d1361d0d0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0145-JP, server: 43.206.113.108, port: 443, type: trojan, password: 50ecf36b-cf5c-3acd-bf7e-a8d1361d0d0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0146-US, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0146-US, server: 34.213.222.122, port: 443, type: trojan, password: 50ecf36b-cf5c-3acd-bf7e-a8d1361d0d0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0147-US, server: 103.136.185.27, port: 5477, type: trojan, password: 50ecf36b-cf5c-3acd-bf7e-a8d1361d0d0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0148-US, server: 103.136.185.28, port: 3494, type: trojan, password: 50ecf36b-cf5c-3acd-bf7e-a8d1361d0d0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0149-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -820,7 +821,7 @@ proxies:
   - {name: 24-0880-DE, server: 18.153.144.117, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0881-KR, server: 13.209.18.35, port: 15417, type: trojan, password: moxBMJ3Lnuzf, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0882-GB, server: 3.8.254.223, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 24-0883-CA, server: 3.98.4.55, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-0883-CA, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0884-JP, server: 52.199.224.89, port: 16380, type: trojan, password: DQKHsy1hpW3W, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0885-SE, server: 13.48.93.56, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0886-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
@@ -837,20 +838,19 @@ proxies:
   - {name: 24-0897-DE, server: 3.125.67.196, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0898-CN, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-0899-RELAY, server: 104.21.225.7, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 24-0900-CA, server: 35.183.105.233, port: 15398, type: trojan, password: PGqvG4PC9cLn, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0905-ES, server: 94.131.117.240, port: 443, type: trojan, password: b556587e-6b3a-4cca-b379-714bfae91515, skip-cert-verify: true, udp: true}
   - {name: 24-0909-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
+  - {name: 24-0910-DE, server: 18.194.66.245, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0912-NL, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
   - {name: 24-0914-ES, server: es-full.privateip.net, port: 443, type: trojan, password: b556587e-6b3a-4cca-b379-714bfae91515, skip-cert-verify: true, udp: true}
   - {name: 24-0920-JP, server: 89.187.28.20, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: s8X1UijWsESfAbNOSWa94o, udp: true}
   - {name: 24-0921-GB, server: jseyu.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 36-0939-KZ, server: 95.164.114.43, port: 443, type: trojan, password: 180c7f40-c29e-445d-8056-ae92f3b451d7, skip-cert-verify: true, udp: true}
+  - {name: 36-0941-FR, server: 35.181.196.129, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-0946-VN, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, skip-cert-verify: true, udp: true}
-  - {name: 36-0971-US, server: 13.58.160.83, port: 16547, type: trojan, password: Myjt9VkluaNR, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-0974-US, server: 3.227.8.204, port: 16555, type: trojan, password: aFm0vOlvU9Az, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-0979-TW, server: b23.ntbq.dynu.net, port: 5681, type: vmess, uuid: de92df70-f63f-47ca-a551-b2a95f636a25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-0993-IT, server: 95.164.46.235, port: 443, type: trojan, password: 915dc116-70c6-403b-8a03-18d885c311bf, skip-cert-verify: true, udp: true}
-  - {name: 36-1007-GB, server: 3.8.175.243, port: 16553, type: trojan, password: f36NgyteSYkP, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 36-0997-GB, server: 18.134.109.28, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -867,6 +867,7 @@ proxy-groups:
       - 04-0003-TW
       - 04-0017-JP
       - 04-0019-JP
+      - 04-0020-US
       - 04-0021-US
       - 04-0022-US
       - 04-0023-HK
@@ -1644,20 +1645,19 @@ proxy-groups:
       - 24-0897-DE
       - 24-0898-CN
       - 24-0899-RELAY
-      - 24-0900-CA
       - 24-0905-ES
       - 24-0909-NL
+      - 24-0910-DE
       - 24-0912-NL
       - 24-0914-ES
       - 24-0920-JP
       - 24-0921-GB
       - 36-0939-KZ
+      - 36-0941-FR
       - 36-0946-VN
-      - 36-0971-US
-      - 36-0974-US
       - 36-0979-TW
       - 36-0993-IT
-      - 36-1007-GB
+      - 36-0997-GB
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1830,8 +1830,8 @@ proxy-groups:
       - 24-0891-SG
       - 24-0896-RELAY
       - 24-0921-GB
+      - 36-0941-FR
       - 36-0946-VN
-      - 36-0971-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1996,7 +1996,7 @@ proxy-groups:
       - 24-0892-GB
       - 24-0897-DE
       - 24-0912-NL
-      - 36-1007-GB
+      - 36-0997-GB
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2324,7 +2324,6 @@ proxy-groups:
       - 24-0909-NL
       - 24-0914-ES
       - 36-0939-KZ
-      - 36-0974-US
       - 36-0979-TW
   - name: 测速5分组
     type: url-test
@@ -2332,6 +2331,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0000-TW
+      - 04-0020-US
       - 04-0025-HK
       - 04-0030-HK
       - 04-0035-KR
@@ -2487,8 +2487,8 @@ proxy-groups:
       - 24-0885-SE
       - 24-0890-RELAY
       - 24-0895-SE
-      - 24-0900-CA
       - 24-0905-ES
+      - 24-0910-DE
       - 24-0920-JP
   - name: 广告拦截
     type: select
