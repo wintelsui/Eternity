@@ -494,6 +494,7 @@ proxies:
   - {name: 12-542-RELAY, server: 23.227.39.24, port: 8080, type: vmess, uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm}, udp: true}
   - {name: 12-543-RELAY, server: 104.24.208.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-544-RELAY, server: 104.21.225.127, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 12-545-RELAY, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}, udp: true}
   - {name: 12-546-RELAY, server: 190.93.246.2, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm}, udp: true}
   - {name: 12-547-RELAY, server: 188.114.96.111, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm}, udp: true}
   - {name: 12-548-RELAY, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -544,7 +545,6 @@ proxies:
   - {name: 12-593-RELAY, server: 198.41.220.170, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm}, udp: true}
   - {name: 12-594-RELAY, server: 190.93.246.235, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm}, udp: true}
   - {name: 12-595-RELAY, server: 173.245.49.137, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm}, udp: true}
-  - {name: 12-596-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 12-597-RELAY, server: 162.159.153.11, port: 8080, type: vmess, uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm}, udp: true}
   - {name: 12-598-RELAY, server: 172.67.84.5, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm}, udp: true}
   - {name: 12-599-RELAY, server: 104.21.231.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -1300,6 +1300,7 @@ proxy-groups:
       - 12-542-RELAY
       - 12-543-RELAY
       - 12-544-RELAY
+      - 12-545-RELAY
       - 12-546-RELAY
       - 12-547-RELAY
       - 12-548-RELAY
@@ -1350,7 +1351,6 @@ proxy-groups:
       - 12-593-RELAY
       - 12-594-RELAY
       - 12-595-RELAY
-      - 12-596-RELAY
       - 12-597-RELAY
       - 12-598-RELAY
       - 12-599-RELAY
@@ -1768,7 +1768,6 @@ proxy-groups:
       - 12-581-RELAY
       - 12-586-RELAY
       - 12-591-RELAY
-      - 12-596-RELAY
       - 12-601-RELAY
       - 12-606-RELAY
       - 12-611-RELAY
@@ -2416,6 +2415,7 @@ proxy-groups:
       - 12-530-RU
       - 12-535-RELAY
       - 12-540-RELAY
+      - 12-545-RELAY
       - 12-550-RELAY
       - 12-555-RELAY
       - 12-560-RELAY
