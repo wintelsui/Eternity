@@ -54,12 +54,10 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0000-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0002-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0003-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0004-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0015-SG, server: sgvip101.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0016-JP, server: jpvip102.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0017-JP, server: jpvip102.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0018-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -72,6 +70,7 @@ proxies:
   - {name: 04-0026-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0027-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0028-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0029-HK, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0030-HK, server: hkvip103.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0031-HK, server: hkvip103.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0032-HK, server: hkvip103.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -91,7 +90,7 @@ proxies:
   - {name: 04-0046-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 45c25111-c2ab-30ec-bf46-16c3f3aca30e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-0145-JP, server: 54.95.145.74, port: 443, type: trojan, password: 43c02920-2754-3e37-a207-cb40398318d0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0146-JP, server: 43.206.113.108, port: 443, type: trojan, password: 43c02920-2754-3e37-a207-cb40398318d0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0147-US, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0147-US, server: 34.213.222.122, port: 443, type: trojan, password: 43c02920-2754-3e37-a207-cb40398318d0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0148-US, server: 103.136.185.27, port: 5477, type: trojan, password: 43c02920-2754-3e37-a207-cb40398318d0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0149-US, server: 103.136.185.28, port: 3494, type: trojan, password: 43c02920-2754-3e37-a207-cb40398318d0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0150-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -844,13 +843,14 @@ proxies:
   - {name: 24-0901-US, server: 95.164.116.35, port: 443, type: trojan, password: c38059a9-02f4-436c-891e-3818cd601e5a, skip-cert-verify: true, udp: true}
   - {name: 24-0907-VN, server: 103.154.63.16, port: 443, type: trojan, password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f, skip-cert-verify: true, udp: true}
   - {name: 24-0908-AT, server: 95.164.9.144, port: 2927, type: ss, cipher: chacha20-ietf-poly1305, password: ug4Fu79SEREdFGlt2sUyT4, udp: true}
-  - {name: 24-0915-AT, server: 212.113.106.243, port: 13022, type: ss, cipher: chacha20-ietf-poly1305, password: w5drAL7PfCIwQ2ycUuoDsV2Ls, udp: true}
+  - {name: 24-0912-IE, server: 99.80.98.145, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0918-BE, server: 38.180.18.119, port: 12904, type: ss, cipher: chacha20-ietf-poly1305, password: DoUTWA1KHYt0kHsvxo5VoG, udp: true}
+  - {name: 24-0922-IT, server: 95.164.46.235, port: 443, type: trojan, password: 915dc116-70c6-403b-8a03-18d885c311bf, skip-cert-verify: true, udp: true}
   - {name: 36-0949-US, server: 96.126.127.7, port: 443, type: trojan, password: fbd8e1fb-099e-4e42-89fe-3c41a617148d, skip-cert-verify: true, udp: true}
   - {name: 36-0967-ES, server: es-full.privateip.net, port: 443, type: trojan, password: b556587e-6b3a-4cca-b379-714bfae91515, skip-cert-verify: true, udp: true}
-  - {name: 36-0974-JP, server: 13.231.79.116, port: 12964, type: trojan, password: rMpNkkRLbvGj, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 36-0983-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 534b846f-d7cd-4990-bf8f-34e278a7cad6, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 36-1015-US, server: 198.58.109.150, port: 443, type: trojan, password: 5b518ad5-b272-4134-b174-cfe8946c8147, skip-cert-verify: true, udp: true}
+  - {name: 36-1015-US, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: "b12.ntbq.dynu.net#04-0000-TWtrojan://5b518ad5-b272-4134-b174-cfe8946c8147@198.58.109.150:443?allowInsecure=1", skip-cert-verify: true, udp: true}
+  - {name: 36-1016-KZ, server: 95.164.114.43, port: 443, type: trojan, password: 180c7f40-c29e-445d-8056-ae92f3b451d7, sni: kz-full.privateip.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -861,12 +861,10 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 04-0000-TW
       - 04-0001-TW
       - 04-0002-TW
       - 04-0003-TW
       - 04-0004-TW
-      - 04-0015-SG
       - 04-0016-JP
       - 04-0017-JP
       - 04-0018-JP
@@ -879,6 +877,7 @@ proxy-groups:
       - 04-0026-HK
       - 04-0027-HK
       - 04-0028-HK
+      - 04-0029-HK
       - 04-0030-HK
       - 04-0031-HK
       - 04-0032-HK
@@ -1651,13 +1650,14 @@ proxy-groups:
       - 24-0901-US
       - 24-0907-VN
       - 24-0908-AT
-      - 24-0915-AT
+      - 24-0912-IE
       - 24-0918-BE
+      - 24-0922-IT
       - 36-0949-US
       - 36-0967-ES
-      - 36-0974-JP
       - 36-0983-TW
       - 36-1015-US
+      - 36-1016-KZ
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1831,6 +1831,7 @@ proxy-groups:
       - 24-0891-RELAY
       - 24-0896-RELAY
       - 24-0901-US
+      - 36-1016-KZ
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1995,6 +1996,8 @@ proxy-groups:
       - 24-0892-GB
       - 24-0897-GB
       - 24-0907-VN
+      - 24-0912-IE
+      - 24-0922-IT
       - 36-0967-ES
   - name: 测速3分组
     type: url-test
@@ -2169,6 +2172,7 @@ proxy-groups:
       - 04-0004-TW
       - 04-0019-JP
       - 04-0024-HK
+      - 04-0029-HK
       - 04-0034-JP
       - 04-0039-CN
       - 04-0044-CN
@@ -2323,14 +2327,11 @@ proxy-groups:
       - 24-0894-US
       - 24-0899-RELAY
       - 36-0949-US
-      - 36-0974-JP
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0000-TW
-      - 04-0015-SG
       - 04-0020-JP
       - 04-0025-HK
       - 04-0030-HK
@@ -2488,7 +2489,6 @@ proxy-groups:
       - 24-0890-ES
       - 24-0895-GB
       - 24-0900-SE
-      - 24-0915-AT
       - 36-1015-US
   - name: 广告拦截
     type: select
