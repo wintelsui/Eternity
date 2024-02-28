@@ -54,9 +54,11 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-0000-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0002-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0003-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0009-DE, server: fkvip101.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0010-DE, server: fkvip101.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0011-SG, server: sgvip101.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0012-SG, server: sgvip101.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: sgvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -68,6 +70,7 @@ proxies:
   - {name: 04-0018-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0019-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0020-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0021-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0022-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0023-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0024-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -93,11 +96,11 @@ proxies:
   - {name: 04-0044-CN, server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 45c25111-c2ab-30ec-bf46-16c3f3aca30e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
   - {name: 04-0045-CN, server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 45c25111-c2ab-30ec-bf46-16c3f3aca30e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
   - {name: 04-0046-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 45c25111-c2ab-30ec-bf46-16c3f3aca30e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: 04-0145-JP, server: 54.95.145.74, port: 443, type: trojan, password: 1f7ec783-3e8f-39f7-ac86-46a0c427b3ab, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0146-JP, server: 43.206.113.108, port: 443, type: trojan, password: 1f7ec783-3e8f-39f7-ac86-46a0c427b3ab, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0147-US, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 02819b45-a79f-41e6-8cac-c23371c25cb3, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0148-US, server: 103.136.185.27, port: 5478, type: trojan, password: 1f7ec783-3e8f-39f7-ac86-46a0c427b3ab, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0149-US, server: 103.136.185.28, port: 3494, type: trojan, password: 1f7ec783-3e8f-39f7-ac86-46a0c427b3ab, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0145-JP, server: 54.95.145.74, port: 443, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0146-JP, server: 43.206.113.108, port: 443, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0147-US, server: 34.213.222.122, port: 443, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0148-US, server: 103.136.185.27, port: 5478, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0149-US, server: 103.136.185.28, port: 3494, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0150-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0151-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0152-CN, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -124,31 +127,31 @@ proxies:
   - {name: 04-0173-CN, server: frontend.yijianlian.app, port: 54590, type: trojan, password: b73b3b90-63d8-49f4-a00e-02af7d937632, skip-cert-verify: true, udp: true}
   - {name: 04-0174-CN, server: frontend.yijianlian.app, port: 54000, type: trojan, password: b73b3b90-63d8-49f4-a00e-02af7d937632, skip-cert-verify: true, udp: true}
   - {name: 04-0175-CN, server: frontend.yijianlian.app, port: 54001, type: trojan, password: b73b3b90-63d8-49f4-a00e-02af7d937632, skip-cert-verify: true, udp: true}
-  - {name: 04-0176-TW, server: tw3.passwallwall.shop, port: 1548, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0177-TW, server: tw3.passwallwall.shop, port: 1548, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0178-TW, server: tw3.passwallwall.shop, port: 45687, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0179-TW, server: tw3.passwallwall.shop, port: 45688, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0180-US, server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0181-US, server: JP2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER322221T, headers: {Host: JP2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0182-US, server: SG1-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER322221T, headers: {Host: SG1-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0183-US, server: AU3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: AU3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0184-US, server: ID3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: ID3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0185-CA, server: CA2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 45924, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: CA2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0186-IN, server: IN3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4593, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: IN3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0187-GB, server: UK2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4592, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: UK2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0188-DE, server: DE3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: DE3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0189-US, server: FR2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: FR2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0190-NL, server: NL3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: NL3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0191-US, server: US2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: US2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
-  - {name: 04-0192-TW, server: tw3.passwallwall.shop, port: 10000, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0193-TW, server: tw3.passwallwall.shop, port: 19708, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0194-TW, server: tw3.passwallwall.shop, port: 42432, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0195-TW, server: tw3.passwallwall.shop, port: 22974, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0196-TW, server: tw3.passwallwall.shop, port: 31375, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0197-TW, server: tw3.passwallwall.shop, port: 50042, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0198-TW, server: tw3.passwallwall.shop, port: 16766, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0199-TW, server: tw3.passwallwall.shop, port: 15562, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
-  - {name: 04-0200-TW, server: tw3.passwallwall.shop, port: 33850, type: vmess, uuid: a83f89ab-12a7-45fc-82ab-21a6b721cdb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0176-TW, server: tw3.passwallwall.shop, port: 1548, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0177-TW, server: tw3.passwallwall.shop, port: 1548, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0178-TW, server: tw3.passwallwall.shop, port: 45687, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0179-TW, server: tw3.passwallwall.shop, port: 45688, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0180-US, server: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: IT-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0181-US, server: JP2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER322221T, headers: {Host: JP2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0182-US, server: SG1-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER322221T, headers: {Host: SG1-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0183-US, server: AU3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: AU3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0184-US, server: ID3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: ID3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0185-CA, server: CA2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 45924, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: CA2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0186-IN, server: IN3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4593, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: IN3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0187-GB, server: UK2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4592, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: UK2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0188-DE, server: DE3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: DE3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0189-US, server: FR2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: FR2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0190-NL, server: NL3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: NL3-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0191-US, server: US2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz, port: 4591, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3212221T, headers: {Host: US2-Direct-Uuw5tkPYXwxSlzJG.fly64jfgwhale.xyz}}, udp: true}
+  - {name: 04-0192-TW, server: tw3.passwallwall.shop, port: 10000, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0193-TW, server: tw3.passwallwall.shop, port: 19708, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0194-TW, server: tw3.passwallwall.shop, port: 42432, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0195-TW, server: tw3.passwallwall.shop, port: 22974, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0196-TW, server: tw3.passwallwall.shop, port: 31375, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0197-TW, server: tw3.passwallwall.shop, port: 50042, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0198-TW, server: tw3.passwallwall.shop, port: 16766, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0199-TW, server: tw3.passwallwall.shop, port: 15562, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
+  - {name: 04-0200-TW, server: tw3.passwallwall.shop, port: 33850, type: vmess, uuid: c5132fb1-07df-4276-bb9d-a1f27412b12f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WER3R21T, headers: {Host: tw3.passwallwall.shop}}, udp: true}
   - {name: 04-0201-JP, server: jp.doushimeng.com, port: 51653, type: ss, cipher: chacha20-ietf-poly1305, password: 7f874603-50bc-477b-a1bc-4af79d09d16e, udp: true}
   - {name: 04-0202-RELAY, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: 7f874603-50bc-477b-a1bc-4af79d09d16e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl4.doushimeng.com}}, udp: true}
   - {name: 04-0203-NOWHERE, server: us5.doushimeng.free.hr, port: 20060, type: ss, cipher: chacha20-ietf-poly1305, password: 7f874603-50bc-477b-a1bc-4af79d09d16e, udp: true}
@@ -350,7 +353,7 @@ proxies:
   - {name: 11-0399-CN, server: gy.58n.net, port: 20059, type: trojan, password: d180f72d-df2e-3db2-8324-a9a49a30cefb, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 11-0400-CN, server: gy.58n.net, port: 20071, type: trojan, password: d180f72d-df2e-3db2-8324-a9a49a30cefb, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 11-0401-CN, server: gy.58n.net, port: 20076, type: trojan, password: d180f72d-df2e-3db2-8324-a9a49a30cefb, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 11-0402-KR, server: www.flybar.top, port: 10086, type: trojan, password: VqKLTmUl1ZhJQVGp, skip-cert-verify: true, udp: true}
+  - {name: 11-0402-US, server: www.flybar.top, port: 10086, type: trojan, password: VqKLTmUl1ZhJQVGp, skip-cert-verify: true, udp: true}
   - {name: 11-0403-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: f41404d6-2169-4eb8-932e-fcf9d83afd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 11-0404-RELAY, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}, udp: true}
   - {name: 11-0405-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
@@ -621,7 +624,6 @@ proxies:
   - {name: 12-0671-CN, server: node000001.likeone.lol, port: 26681, type: trojan, password: be73a5f8-1f00-4494-8a3a-aae0200d1ed1, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-0672-RELAY, server: 104.21.225.212, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0673-SG, server: sg-singapore-oracle-4f34e8.ip1.shop, port: 41603, type: trojan, password: 13tfB0OPVA, skip-cert-verify: true, udp: true}
-  - {name: 12-0674-US, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-0675-RELAY, server: 188.114.98.0, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0676-RELAY, server: 104.21.225.222, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8"}, udp: true}
   - {name: 12-0677-RELAY, server: 172.67.229.39, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -691,7 +693,6 @@ proxies:
   - {name: 12-0742-DE, server: 129.159.241.172, port: 443, type: vmess, uuid: e02d9d22-7b5a-420f-8ef0-5e762c61eca2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0743-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-0744-US, server: 169.197.141.186, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ, udp: true}
-  - {name: 12-0745-US, server: 38.14.107.247, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0746-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0747-GB, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 12-0748-RELAY, server: 104.21.228.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -709,54 +710,54 @@ proxies:
   - {name: 12-0760-RELAY, server: 172.67.229.38, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0761-HK, server: twitter.xxmd.online, port: 6002, type: trojan, password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0, skip-cert-verify: true, udp: true}
   - {name: 12-0762-RELAY, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 15-0763-CN, server: tiananmen.19890604.day, port: 10801, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0764-CN, server: tiananmen.19890604.day, port: 10802, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0765-CN, server: tiananmen.19890604.day, port: 10803, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0766-CN, server: tiananmen.19890604.day, port: 10804, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0767-CN, server: tiananmen.19890604.day, port: 10805, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0768-CN, server: tiananmen.19890604.day, port: 10806, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0769-CN, server: tiananmen.19890604.day, port: 10807, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0770-CN, server: tiananmen.19890604.day, port: 10808, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0771-CN, server: tiananmen.19890604.day, port: 10809, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0772-CN, server: tiananmen.19890604.day, port: 10810, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0773-CN, server: xijinping.19890604.day, port: 10811, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0774-CN, server: xijinping.19890604.day, port: 10812, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0775-CN, server: xijinping.19890604.day, port: 10813, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0776-CN, server: xijinping.19890604.day, port: 10814, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0777-CN, server: xijinping.19890604.day, port: 10815, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0778-CN, server: xijinping.19890604.day, port: 10816, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0779-CN, server: xijinping.19890604.day, port: 10817, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0780-CN, server: xijinping.19890604.day, port: 10818, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0781-CN, server: falungong.19890604.day, port: 10819, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0782-CN, server: falungong.19890604.day, port: 10820, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0783-CN, server: falungong.19890604.day, port: 10821, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0784-CN, server: falungong.19890604.day, port: 10822, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0785-CN, server: falungong.19890604.day, port: 10823, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0786-CN, server: falungong.19890604.day, port: 10824, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0787-CN, server: falungong.19890604.day, port: 10825, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0788-CN, server: falungong.19890604.day, port: 10826, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0789-CN, server: tank.19890604.day, port: 10827, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0790-CN, server: tank.19890604.day, port: 10828, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0791-CN, server: tank.19890604.day, port: 10829, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0792-CN, server: tank.19890604.day, port: 10830, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0793-CN, server: tank.19890604.day, port: 10831, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0794-CN, server: tank.19890604.day, port: 10832, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0795-CN, server: tank.19890604.day, port: 10833, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0796-CN, server: tank.19890604.day, port: 10834, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0797-CN, server: xibaozi.19890604.day, port: 10835, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0798-CN, server: xibaozi.19890604.day, port: 10836, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0799-CN, server: xibaozi.19890604.day, port: 10837, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0800-CN, server: xibaozi.19890604.day, port: 10838, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0801-CN, server: xibaozi.19890604.day, port: 10839, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0802-CN, server: xibaozi.19890604.day, port: 10840, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0803-CN, server: xibaozi.19890604.day, port: 10841, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0804-CN, server: xibaozi.19890604.day, port: 10844, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0805-CN, server: xibaozi.19890604.day, port: 10845, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0806-CN, server: xibaozi.19890604.day, port: 10846, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0807-CN, server: xibaozi.19890604.day, port: 10847, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0808-CN, server: xibaozi.19890604.day, port: 10848, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0809-CN, server: xibaozi.19890604.day, port: 10849, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 15-0810-CN, server: xibaozi.19890604.day, port: 10850, type: trojan, password: a1be0a6f-17d8-4b76-9831-bf746a49e4e9, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0763-CN, server: tiananmen.19890604.day, port: 10801, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0764-CN, server: tiananmen.19890604.day, port: 10802, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0765-CN, server: tiananmen.19890604.day, port: 10803, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0766-CN, server: tiananmen.19890604.day, port: 10804, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0767-CN, server: tiananmen.19890604.day, port: 10805, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0768-CN, server: tiananmen.19890604.day, port: 10806, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0769-CN, server: tiananmen.19890604.day, port: 10807, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0770-CN, server: tiananmen.19890604.day, port: 10808, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0771-CN, server: tiananmen.19890604.day, port: 10809, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0772-CN, server: tiananmen.19890604.day, port: 10810, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0773-CN, server: xijinping.19890604.day, port: 10811, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0774-CN, server: xijinping.19890604.day, port: 10812, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0775-CN, server: xijinping.19890604.day, port: 10813, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0776-CN, server: xijinping.19890604.day, port: 10814, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0777-CN, server: xijinping.19890604.day, port: 10815, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0778-CN, server: xijinping.19890604.day, port: 10816, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0779-CN, server: xijinping.19890604.day, port: 10817, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0780-CN, server: xijinping.19890604.day, port: 10818, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0781-CN, server: falungong.19890604.day, port: 10819, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0782-CN, server: falungong.19890604.day, port: 10820, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0783-CN, server: falungong.19890604.day, port: 10821, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0784-CN, server: falungong.19890604.day, port: 10822, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0785-CN, server: falungong.19890604.day, port: 10823, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0786-CN, server: falungong.19890604.day, port: 10824, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0787-CN, server: falungong.19890604.day, port: 10825, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0788-CN, server: falungong.19890604.day, port: 10826, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0789-CN, server: tank.19890604.day, port: 10827, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0790-CN, server: tank.19890604.day, port: 10828, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0791-CN, server: tank.19890604.day, port: 10829, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0792-CN, server: tank.19890604.day, port: 10830, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0793-CN, server: tank.19890604.day, port: 10831, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0794-CN, server: tank.19890604.day, port: 10832, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0795-CN, server: tank.19890604.day, port: 10833, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0796-CN, server: tank.19890604.day, port: 10834, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0797-CN, server: xibaozi.19890604.day, port: 10835, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0798-CN, server: xibaozi.19890604.day, port: 10836, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0799-CN, server: xibaozi.19890604.day, port: 10837, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0800-CN, server: xibaozi.19890604.day, port: 10838, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0801-CN, server: xibaozi.19890604.day, port: 10839, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0802-CN, server: xibaozi.19890604.day, port: 10840, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0803-CN, server: xibaozi.19890604.day, port: 10841, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0804-CN, server: xibaozi.19890604.day, port: 10844, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0805-CN, server: xibaozi.19890604.day, port: 10845, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0806-CN, server: xibaozi.19890604.day, port: 10846, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0807-CN, server: xibaozi.19890604.day, port: 10847, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0808-CN, server: xibaozi.19890604.day, port: 10848, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0809-CN, server: xibaozi.19890604.day, port: 10849, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 15-0810-CN, server: xibaozi.19890604.day, port: 10850, type: trojan, password: e20ad044-dae1-4799-9b75-4dbbe62302a2, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 16-0813-CN, server: tiananmen.19890604.day, port: 10808, type: trojan, password: e15e0386-7cf9-46ca-aea2-3c754d411d3b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 16-0814-HK, server: 202.64.1.167, port: 443, type: trojan, password: 88349750abe04184894d17233942a673, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
   - {name: 16-0815-CN, server: xijinping.19890604.day, port: 10818, type: trojan, password: e15e0386-7cf9-46ca-aea2-3c754d411d3b, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
@@ -830,7 +831,6 @@ proxies:
   - {name: 24-0883-RELAY, server: 172.67.84.5, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm}, udp: true}
   - {name: 24-0884-RELAY, server: 104.21.30.249, port: 2052, type: vmess, uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-0885-US, server: 13.58.160.83, port: 14394, type: trojan, password: F5aOx1fNT37g, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 24-0886-JP, server: 13.231.41.180, port: 14408, type: trojan, password: ylxZbAWoTciE, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0887-US, server: 35.87.154.110, port: 13415, type: trojan, password: MOWkIRrfpOsP, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0888-RELAY, server: 162.159.58.139, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm}, udp: true}
   - {name: 24-0889-FR, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
@@ -845,12 +845,11 @@ proxies:
   - {name: 24-0898-FR, server: 13.39.104.72, port: 14404, type: trojan, password: sfKq2x38QBhz, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-0899-RELAY, server: 104.21.225.178, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-0900-US, server: 34.216.64.56, port: 14412, type: trojan, password: lz4aQ4nfzh1P, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 24-0903-IT, server: it-full.privateip.net, port: 443, type: trojan, password: 915dc116-70c6-403b-8a03-18d885c311bf, skip-cert-verify: true, udp: true}
-  - {name: 36-0947-US, server: 34.218.78.89, port: 14499, type: trojan, password: jybh8TG80QUY, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-0956-KR, server: 13.125.140.205, port: 14492, type: trojan, password: mba3vFCjSPQz, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-0975-GB, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 36-0993-CA, server: 15.223.68.190, port: 14493, type: trojan, password: TepGg6lSk6Mq, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: 36-0994-US, server: 44.208.123.112, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-0960-US, server: tr-full.privateip.net, port: 443, type: trojan, password: c38059a9-02f4-436c-891e-3818cd601e5a, skip-cert-verify: true, udp: true}
+  - {name: 36-0970-NL, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
+  - {name: 36-0977-IE, server: 54.73.206.121, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-0986-GB, server: 18.170.245.138, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-0989-GB, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -861,9 +860,11 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-0000-TW
       - 04-0001-TW
       - 04-0002-TW
       - 04-0003-TW
+      - 04-0009-DE
       - 04-0010-DE
       - 04-0011-SG
       - 04-0012-SG
@@ -875,6 +876,7 @@ proxy-groups:
       - 04-0018-JP
       - 04-0019-JP
       - 04-0020-JP
+      - 04-0021-US
       - 04-0022-US
       - 04-0023-US
       - 04-0024-HK
@@ -1157,7 +1159,7 @@ proxy-groups:
       - 11-0399-CN
       - 11-0400-CN
       - 11-0401-CN
-      - 11-0402-KR
+      - 11-0402-US
       - 11-0403-SG
       - 11-0404-RELAY
       - 11-0405-RELAY
@@ -1428,7 +1430,6 @@ proxy-groups:
       - 12-0671-CN
       - 12-0672-RELAY
       - 12-0673-SG
-      - 12-0674-US
       - 12-0675-RELAY
       - 12-0676-RELAY
       - 12-0677-RELAY
@@ -1498,7 +1499,6 @@ proxy-groups:
       - 12-0742-DE
       - 12-0743-FR
       - 12-0744-US
-      - 12-0745-US
       - 12-0746-RELAY
       - 12-0747-GB
       - 12-0748-RELAY
@@ -1637,7 +1637,6 @@ proxy-groups:
       - 24-0883-RELAY
       - 24-0884-RELAY
       - 24-0885-US
-      - 24-0886-JP
       - 24-0887-US
       - 24-0888-RELAY
       - 24-0889-FR
@@ -1652,12 +1651,11 @@ proxy-groups:
       - 24-0898-FR
       - 24-0899-RELAY
       - 24-0900-US
-      - 24-0903-IT
-      - 36-0947-US
-      - 36-0956-KR
-      - 36-0975-GB
-      - 36-0993-CA
-      - 36-0994-US
+      - 36-0960-US
+      - 36-0970-NL
+      - 36-0977-IE
+      - 36-0986-GB
+      - 36-0989-GB
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1676,6 +1674,7 @@ proxy-groups:
       - 04-0001-TW
       - 04-0011-SG
       - 04-0016-JP
+      - 04-0021-US
       - 04-0026-HK
       - 04-0031-HK
       - 04-0036-KR
@@ -1827,10 +1826,9 @@ proxy-groups:
       - 24-0871-RELAY
       - 24-0876-RELAY
       - 24-0881-RELAY
-      - 24-0886-JP
       - 24-0891-RELAY
       - 24-0896-RELAY
-      - 36-0956-KR
+      - 36-0986-GB
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1895,7 +1893,7 @@ proxy-groups:
       - 11-0387-CN
       - 11-0392-CN
       - 11-0397-CN
-      - 11-0402-KR
+      - 11-0402-US
       - 11-0407-RELAY
       - 11-0412-RELAY
       - 11-0417-RELAY
@@ -1994,7 +1992,7 @@ proxy-groups:
       - 24-0887-US
       - 24-0892-DE
       - 24-0897-RELAY
-      - 36-0947-US
+      - 36-0977-IE
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2159,13 +2157,12 @@ proxy-groups:
       - 24-0888-RELAY
       - 24-0893-RELAY
       - 24-0898-FR
-      - 24-0903-IT
-      - 36-0993-CA
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0009-DE
       - 04-0014-SG
       - 04-0019-JP
       - 04-0024-HK
@@ -2278,7 +2275,6 @@ proxy-groups:
       - 12-0659-CN
       - 12-0664-CN
       - 12-0669-CN
-      - 12-0674-US
       - 12-0679-GB
       - 12-0684-ES
       - 12-0689-CN
@@ -2323,12 +2319,13 @@ proxy-groups:
       - 24-0889-FR
       - 24-0894-RELAY
       - 24-0899-RELAY
-      - 36-0994-US
+      - 36-0989-GB
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0000-TW
       - 04-0010-DE
       - 04-0015-SG
       - 04-0020-JP
@@ -2457,7 +2454,6 @@ proxy-groups:
       - 12-0730-CN
       - 12-0735-LU
       - 12-0740-CL
-      - 12-0745-US
       - 12-0750-JP
       - 12-0755-RELAY
       - 12-0760-RELAY
@@ -2489,7 +2485,8 @@ proxy-groups:
       - 24-0890-RELAY
       - 24-0895-RELAY
       - 24-0900-US
-      - 36-0975-GB
+      - 36-0960-US
+      - 36-0970-NL
   - name: 广告拦截
     type: select
     proxies:
