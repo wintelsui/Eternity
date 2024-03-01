@@ -587,7 +587,6 @@ proxies:
   - {name: 12-634-RELAY, server: lxcus.inekokkk.top, port: 80, type: vmess, uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lxcus.inekokkk.top}}, udp: true}
   - {name: 12-635-US, server: 38.68.134.85, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 12-636-CN, server: 231103level2.unclemanco.com, port: 39003, type: ssr, cipher: aes-256-cfb, password: ayds23sd1, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
-  - {name: 12-637-GB, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 12-638-HK, server: cb56dd690da64a74880b91e1224f5ec6.2.ss03.net, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-639-US, server: 38.107.226.146, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 12-640-CA, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -697,6 +696,7 @@ proxies:
   - {name: 16-747-CN, server: service.ouluyun9803.com, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 16-748-CN, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 16-749-CN, server: service.ouluyun9803.com, port: 26669, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
+  - {name: 16-750-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 16-751-RELAY, server: 104.21.226.254, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 16-752-SG, server: 18.143.132.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-753-SG, server: 13.250.104.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1294,7 +1294,6 @@ proxy-groups:
       - 12-634-RELAY
       - 12-635-US
       - 12-636-CN
-      - 12-637-GB
       - 12-638-HK
       - 12-639-US
       - 12-640-CA
@@ -1404,6 +1403,7 @@ proxy-groups:
       - 16-747-CN
       - 16-748-CN
       - 16-749-CN
+      - 16-750-RELAY
       - 16-751-RELAY
       - 16-752-SG
       - 16-753-SG
@@ -1724,7 +1724,6 @@ proxy-groups:
       - 12-622-US
       - 12-627-US
       - 12-632-SG
-      - 12-637-GB
       - 12-642-HK
       - 12-647-NL
       - 12-652-JP
@@ -2180,6 +2179,7 @@ proxy-groups:
       - 15-735-CN
       - 16-740-CN
       - 16-745-RELAY
+      - 16-750-RELAY
       - 22-755-GOOGLE
       - 22-760-RELAY
       - 22-765-TW
