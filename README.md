@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `481`
+高速节点数量: `482`
 <details>
   <summary>展开复制节点</summary>
 
@@ -84,6 +84,7 @@ Fork from TopFreeProxies.
     trojan://59f1ebe5-16c4-3c12-950d-c5688f5d414e@54.95.145.74:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-149-JP
     trojan://59f1ebe5-16c4-3c12-950d-c5688f5d414e@43.206.113.108:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-150-JP
     trojan://59f1ebe5-16c4-3c12-950d-c5688f5d414e@34.213.222.122:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-151-US
+    trojan://59f1ebe5-16c4-3c12-950d-c5688f5d414e@103.136.185.27:5478?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-152-US
     trojan://59f1ebe5-16c4-3c12-950d-c5688f5d414e@103.136.185.28:3494?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-153-US
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk01.bigmeyear.org:20001#04-154-CN
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk02.bigmeyear.org:20232#04-155-CN
@@ -516,11 +517,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `585`
+合并节点总数: `584`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `585`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `584`
 
 
 ## 仓库声明
