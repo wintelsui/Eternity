@@ -108,6 +108,7 @@ proxies:
   - {name: 04-149-JP, server: 54.95.145.74, port: 443, type: trojan, password: 59f1ebe5-16c4-3c12-950d-c5688f5d414e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 43.206.113.108, port: 443, type: trojan, password: 59f1ebe5-16c4-3c12-950d-c5688f5d414e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-151-US, server: 34.213.222.122, port: 443, type: trojan, password: 59f1ebe5-16c4-3c12-950d-c5688f5d414e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 103.136.185.27, port: 5478, type: trojan, password: 59f1ebe5-16c4-3c12-950d-c5688f5d414e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-153-US, server: 103.136.185.28, port: 3494, type: trojan, password: 59f1ebe5-16c4-3c12-950d-c5688f5d414e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-154-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-155-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -598,6 +599,7 @@ proxy-groups:
       - 04-149-JP
       - 04-150-JP
       - 04-151-US
+      - 04-152-US
       - 04-153-US
       - 04-154-CN
       - 04-155-CN
@@ -1148,6 +1150,7 @@ proxy-groups:
       - 04-037-HK
       - 04-042-CN
       - 04-047-CN
+      - 04-152-US
       - 04-157-CN
       - 04-162-CN
       - 04-167-CN
