@@ -563,7 +563,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTItNjM0LVJFTEFZIiwiYWRkIjoibHhjdXMuaW5la29ra2sudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjEwNWNkZmY2LTE0ZDYtNGYzMS1kZjY5LWQyZDU4YzAwM2M4YiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Imx4Y3VzLmluZWtva2trLnRvcCIsInRscyI6IiJ9
     ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.68.134.85:8882#12-635-US
     ssr://MjMxMTAzbGV2ZWwyLnVuY2xlbWFuY28uY29tOjM5MDAzOmF1dGhfYWVzMTI4X3NoYTE6YWVzLTI1Ni1jZmI6aHR0cF9zaW1wbGU6WVhsa2N6SXpjMlF4Lz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz1NVEl0TmpNMkxVTk8mb2Jmc3BhcmFtPU5qaGxOMkkyTVRZeE1DNWtiM2R1Ykc5aFpDNTNhVzVrYjNkemRYQmtZWFJsTG1OdmJRJnByb3RvcGFyYW09TmpFMk1UQTZSelZuWkhsdw
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#12-637-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNjZlNWJiMy1kOGNiLTQyMTMtOTY4My1jZGJhNDBlNTNiOTM@cb56dd690da64a74880b91e1224f5ec6.2.ss03.net:12361#12-638-HK
     ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.107.226.146:3389#12-639-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@134.195.196.178:804#12-640-CA
@@ -673,6 +672,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZmExN2EwZC01ZTdkLTQ4NzEtOTc2ZS1mMTE2ZTA4MTgxMjM@service.ouluyun9803.com:26666#16-747-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZmExN2EwZC01ZTdkLTQ4NzEtOTc2ZS1mMTE2ZTA4MTgxMjM@service.ouluyun9803.com:20009#16-748-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZmExN2EwZC01ZTdkLTQ4NzEtOTc2ZS1mMTE2ZTA4MTgxMjM@service.ouluyun9803.com:26669#16-749-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMTYtNzUwLVJFTEFZIiwiYWRkIjoid3d3LmJyaWdodG9jZWFuLmxvbCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIyODI2YjQ0LTVjMWEtNGI0Yi1kYmFhLTgzYTJlOGJkOTVmMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Ind3dy5icmlnaHRvY2Vhbi5sb2wiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNzUxLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNi4yNTQiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWQ9MjA0OCIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.143.132.154:443#16-752-SG
     ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.250.104.109:443#16-753-SG
@@ -733,11 +733,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `832`
+合并节点总数: `823`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `832`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `823`
 
 
 ## 仓库声明
