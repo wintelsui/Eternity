@@ -211,7 +211,6 @@ proxies:
   - {name: 04-259-CN, server: freeno1us.beednsvip.top, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20120:tGSfpV, obfs-param: bdf4520120.microsoft.com, udp: true}
   - {name: 11-260-HK, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: fd1cf3cb-a6fe-46f6-a0c1-31089fbe3d20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
   - {name: 11-261-JP, server: jp.littleqqq.co, port: 62193, type: vmess, uuid: fd1cf3cb-a6fe-46f6-a0c1-31089fbe3d20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: jp.littleqqq.co}}, udp: true}
-  - {name: 11-262-US, server: us.littleqqq.co, port: 21859, type: vmess, uuid: fd1cf3cb-a6fe-46f6-a0c1-31089fbe3d20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /live/UKPZrSI3K7dtNJmn, headers: {Host: us.littleqqq.co}}, udp: true}
   - {name: 11-263-JP, server: jp.doushimeng.com, port: 51653, type: ss, cipher: chacha20-ietf-poly1305, password: 70473775-9593-4a9a-b34b-17babf163787, udp: true}
   - {name: 11-264-NOWHERE, server: krv6.doushimeng.free.hr, port: 55257, type: ss, cipher: chacha20-ietf-poly1305, password: 70473775-9593-4a9a-b34b-17babf163787, udp: true}
   - {name: 11-265-RELAY, server: dl3s.doushimeng.com, port: 2086, type: vmess, uuid: 70473775-9593-4a9a-b34b-17babf163787, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl3s.doushimeng.com}}, udp: true}
@@ -406,7 +405,6 @@ proxies:
   - {name: 11-454-DE, server: www.flybar.top, port: 10086, type: trojan, password: XnssMS2WAIRbQs59, skip-cert-verify: true, udp: true}
   - {name: 11-455-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: bcd1488f-42e4-473d-87f9-52f695e7a715, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 11-456-DE, server: 38.54.13.212, port: 23026, type: vmess, uuid: ef4d0930-3788-4410-9305-fae4ba652ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef4d0930}, udp: true}
-  - {name: 11-457-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 11-458-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-459-RELAY, server: 104.21.225.153, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-460-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
@@ -649,6 +647,7 @@ proxies:
   - {name: 12-698-SG, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-699-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 12-700-LU, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 12-701-US, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8, udp: true}
   - {name: 12-702-GB, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: 12-703-HK, server: cb56dd690da64a74880b91e1224f5ec6.2.ss03.net, port: 12344, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-704-NOWHERE, server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
@@ -667,6 +666,7 @@ proxies:
   - {name: 12-717-CN, server: 231103level1.unclemanco.com, port: 28006, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
   - {name: 12-718-ZA, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory, udp: true}
   - {name: 12-719-HK, server: cb56dd690da64a74880b91e1224f5ec6.7.ss03.net, port: 22406, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
+  - {name: 12-720-RELAY, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}, udp: true}
   - {name: 15-721-CN, server: tiananmen.19890604.day, port: 10801, type: trojan, password: fb302ec1-5673-4c16-a681-5237b805b099, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-722-CN, server: tiananmen.19890604.day, port: 10802, type: trojan, password: fb302ec1-5673-4c16-a681-5237b805b099, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-723-CN, server: tiananmen.19890604.day, port: 10803, type: trojan, password: fb302ec1-5673-4c16-a681-5237b805b099, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
@@ -744,6 +744,7 @@ proxies:
   - {name: 22-797-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-798-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 867b8e57-9355-40dc-a696-9ca2518b091e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-799-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-800-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 60ab817e-0566-44cb-becd-6b51698d5672, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 24-813-TR, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
   - {name: 24-815-KZ, server: kz-full.privateip.net, port: 443, type: trojan, password: 62011b3d-2706-4a97-98b7-9986003c5fe0, skip-cert-verify: true, udp: true}
   - {name: 24-816-GB, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
@@ -918,7 +919,6 @@ proxy-groups:
       - 04-259-CN
       - 11-260-HK
       - 11-261-JP
-      - 11-262-US
       - 11-263-JP
       - 11-264-NOWHERE
       - 11-265-RELAY
@@ -1113,7 +1113,6 @@ proxy-groups:
       - 11-454-DE
       - 11-455-SG
       - 11-456-DE
-      - 11-457-RELAY
       - 11-458-RELAY
       - 11-459-RELAY
       - 11-460-RELAY
@@ -1356,6 +1355,7 @@ proxy-groups:
       - 12-698-SG
       - 12-699-RELAY
       - 12-700-LU
+      - 12-701-US
       - 12-702-GB
       - 12-703-HK
       - 12-704-NOWHERE
@@ -1374,6 +1374,7 @@ proxy-groups:
       - 12-717-CN
       - 12-718-ZA
       - 12-719-HK
+      - 12-720-RELAY
       - 15-721-CN
       - 15-722-CN
       - 15-723-CN
@@ -1451,6 +1452,7 @@ proxy-groups:
       - 22-797-TW
       - 22-798-TW
       - 22-799-TW
+      - 22-800-TW
       - 24-813-TR
       - 24-815-KZ
       - 24-816-GB
@@ -1592,6 +1594,7 @@ proxy-groups:
       - 12-686-US
       - 12-691-HK
       - 12-696-US
+      - 12-701-US
       - 12-706-RELAY
       - 12-711-CN
       - 12-716-HK
@@ -1647,7 +1650,6 @@ proxy-groups:
       - 04-247-CN
       - 04-252-CN
       - 04-257-CN
-      - 11-262-US
       - 11-267-CN
       - 11-272-DE
       - 11-277-SG
@@ -1686,7 +1688,6 @@ proxy-groups:
       - 11-442-CN
       - 11-447-CN
       - 11-452-CN
-      - 11-457-RELAY
       - 11-462-RELAY
       - 11-467-RELAY
       - 11-472-RELAY
@@ -2174,6 +2175,7 @@ proxy-groups:
       - 12-705-HK
       - 12-710-CN
       - 12-715-RELAY
+      - 12-720-RELAY
       - 15-725-CN
       - 15-730-CN
       - 15-735-CN
@@ -2189,6 +2191,7 @@ proxy-groups:
       - 22-785-GOOGLE
       - 22-790-TW
       - 22-795-TW
+      - 22-800-TW
       - 24-815-KZ
   - name: 广告拦截
     type: select
