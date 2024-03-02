@@ -61,7 +61,6 @@ proxies:
   - {name: 04-004-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 6c7e728e-29d9-41be-8be0-1e56b536e840, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-005-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 6c7e728e-29d9-41be-8be0-1e56b536e840, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-006-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 6c7e728e-29d9-41be-8be0-1e56b536e840, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 04-008-TW, server: c12.twtc.dynu.net, port: 13911, type: trojan, password: 6c7e728e-29d9-41be-8be0-1e56b536e840, sni: c12.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: us1.n305.dynu.net, port: 16389, type: trojan, password: 6c7e728e-29d9-41be-8be0-1e56b536e840, sni: us1.n305.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-010-DE, server: fkvip101.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-011-DE, server: fkvip101.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: fkvip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -82,7 +81,7 @@ proxies:
   - {name: 04-026-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-027-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-028-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 04-030-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-029-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-031-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-032-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-033-HK, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -747,9 +746,10 @@ proxies:
   - {name: 24-796-RELAY, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-797-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
   - {name: 24-798-GB, server: 35.178.75.105, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 24-799-US, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-799-US, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 27-800-RELAY, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 36-816-HK, server: 47.243.190.181, port: 7001, type: trojan, password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0, sni: vip.xxmd.online, skip-cert-verify: true, udp: true}
+  - {name: 36-823-SE, server: 13.50.65.106, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-829-RELAY, server: de-01.cloudlion.me, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-01.cloudlion.me}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -768,7 +768,6 @@ proxy-groups:
       - 04-004-TW
       - 04-005-TW
       - 04-006-TW
-      - 04-008-TW
       - 04-009-US
       - 04-010-DE
       - 04-011-DE
@@ -789,7 +788,7 @@ proxy-groups:
       - 04-026-US
       - 04-027-US
       - 04-028-HK
-      - 04-030-HK
+      - 04-029-HK
       - 04-031-HK
       - 04-032-HK
       - 04-033-HK
@@ -1457,6 +1456,7 @@ proxy-groups:
       - 24-799-US
       - 27-800-RELAY
       - 36-816-HK
+      - 36-823-SE
       - 36-829-RELAY
   - name: 自动选择
     type: url-test
@@ -1762,7 +1762,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-003-TW
-      - 04-008-TW
       - 04-013-DE
       - 04-018-SG
       - 04-023-JP
@@ -1900,6 +1899,7 @@ proxy-groups:
       - 24-788-IT
       - 24-793-RELAY
       - 24-798-GB
+      - 36-823-SE
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1910,6 +1910,7 @@ proxy-groups:
       - 04-014-DE
       - 04-019-SG
       - 04-024-JP
+      - 04-029-HK
       - 04-034-HK
       - 04-039-SG
       - 04-044-CN
@@ -2057,7 +2058,6 @@ proxy-groups:
       - 04-015-SG
       - 04-020-JP
       - 04-025-US
-      - 04-030-HK
       - 04-035-HK
       - 04-040-KR
       - 04-045-CN
