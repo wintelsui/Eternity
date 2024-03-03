@@ -107,7 +107,7 @@ proxies:
   - {name: 04-050-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 7baad75a-2036-3a14-a546-d51747d71561, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-149-JP, server: 54.95.145.74, port: 443, type: trojan, password: c4b23720-e287-32e4-8419-d8ab718e6de4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 43.206.113.108, port: 443, type: trojan, password: c4b23720-e287-32e4-8419-d8ab718e6de4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-151-US, server: 34.213.222.122, port: 443, type: trojan, password: c4b23720-e287-32e4-8419-d8ab718e6de4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 103.136.185.27, port: 5479, type: trojan, password: c4b23720-e287-32e4-8419-d8ab718e6de4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-153-US, server: 103.136.185.28, port: 3494, type: trojan, password: c4b23720-e287-32e4-8419-d8ab718e6de4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-154-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-155-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -667,6 +667,7 @@ proxies:
   - {name: 24-714-TW, server: 61.228.179.198, port: 19489, type: trojan, password: 645f0af0-dec8-48db-862f-82b6346408b4, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 24-715-US, server: 107.22.239.101, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-716-TW, server: 114.45.76.8, port: 18912, type: trojan, password: 645f0af0-dec8-48db-862f-82b6346408b4, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 24-717-GB, server: 35.177.59.105, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 24-718-KZ, server: 95.164.114.43, port: 443, type: trojan, password: 62011b3d-2706-4a97-98b7-9986003c5fe0, skip-cert-verify: true, udp: true}
   - {name: 24-719-RELAY, server: 104.21.46.66, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-720-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
@@ -680,7 +681,6 @@ proxies:
   - {name: 24-728-IE, server: 63.33.75.225, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-729-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-730-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
-  - {name: 24-731-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-732-GB, server: jseyu.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-733-KZ, server: kz-full.privateip.net, port: 443, type: trojan, password: 62011b3d-2706-4a97-98b7-9986003c5fe0, skip-cert-verify: true, udp: true}
   - {name: 24-734-FR, server: 52.47.74.170, port: 12375, type: trojan, password: LT0mITkGJQ25, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
@@ -787,7 +787,7 @@ proxy-groups:
       - 04-050-CN
       - 04-149-JP
       - 04-150-JP
-      - 04-151-US
+      - 04-152-US
       - 04-153-US
       - 04-154-CN
       - 04-155-CN
@@ -1347,6 +1347,7 @@ proxy-groups:
       - 24-714-TW
       - 24-715-US
       - 24-716-TW
+      - 24-717-GB
       - 24-718-KZ
       - 24-719-RELAY
       - 24-720-CN
@@ -1360,7 +1361,6 @@ proxy-groups:
       - 24-728-IE
       - 24-729-NL
       - 24-730-RELAY
-      - 24-731-GB
       - 24-732-GB
       - 24-733-KZ
       - 24-734-FR
@@ -1429,7 +1429,6 @@ proxy-groups:
       - 04-036-HK
       - 04-041-CN
       - 04-046-CN
-      - 04-151-US
       - 04-156-CN
       - 04-161-CN
       - 04-166-CN
@@ -1544,7 +1543,6 @@ proxy-groups:
       - 24-716-TW
       - 24-721-TW
       - 24-726-IT
-      - 24-731-GB
       - 24-736-TW
       - 27-741-RELAY
       - 27-746-RELAY
@@ -1568,6 +1566,7 @@ proxy-groups:
       - 04-037-HK
       - 04-042-CN
       - 04-047-CN
+      - 04-152-US
       - 04-157-CN
       - 04-162-CN
       - 04-167-CN
@@ -1679,6 +1678,7 @@ proxy-groups:
       - 22-702-TW
       - 22-707-TW
       - 22-712-DE
+      - 24-717-GB
       - 24-722-FR
       - 24-727-ZA
       - 24-732-GB
