@@ -108,7 +108,7 @@ proxies:
   - {name: 04-149-JP, server: 54.95.145.74, port: 443, type: trojan, password: 9df41430-fb36-360d-a50a-8bb97369bb92, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 43.206.113.108, port: 443, type: trojan, password: 9df41430-fb36-360d-a50a-8bb97369bb92, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-151-US, server: 34.213.222.122, port: 443, type: trojan, password: 9df41430-fb36-360d-a50a-8bb97369bb92, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-153-US, server: 103.136.185.28, port: 3494, type: trojan, password: 9df41430-fb36-360d-a50a-8bb97369bb92, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 103.136.185.27, port: 5479, type: trojan, password: 9df41430-fb36-360d-a50a-8bb97369bb92, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-154-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-155-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-156-CN, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -646,6 +646,7 @@ proxies:
   - {name: 22-692-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-693-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-694-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: 22-695-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-696-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-697-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-698-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -677,7 +678,7 @@ proxies:
   - {name: 24-724-SE, server: 13.48.113.179, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-725-SE, server: 51.21.114.201, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-726-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
-  - {name: 24-727-IE, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-727-IE, server: 34.251.192.33, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-728-RELAY, server: 104.16.192.155, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: jobscareerfortoday.com, skip-cert-verify: true, udp: true}
   - {name: 24-729-FASTLY, server: fastly.com, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fastly.com}}, udp: true}
   - {name: 27-730-RELAY, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -708,8 +709,6 @@ proxies:
   - {name: 36-755-HK, server: 91.149.236.44, port: 26639, type: vmess, uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8/}, udp: true}
   - {name: 36-756-GB, server: 13.43.194.15, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-757-TR, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
-  - {name: 36-758-GB, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 36-759-JP, server: 150.230.96.46, port: 33003, type: vmess, uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@dns68提供技术支持}, udp: true}
   - {name: 36-760-CA, server: 15.157.88.42, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-761-IT, server: it-full.privateip.net, port: 443, type: trojan, password: 31583130-de1f-44ce-a433-1dbb108e1846, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -776,7 +775,7 @@ proxy-groups:
       - 04-149-JP
       - 04-150-JP
       - 04-151-US
-      - 04-153-US
+      - 04-152-US
       - 04-154-CN
       - 04-155-CN
       - 04-156-CN
@@ -1314,6 +1313,7 @@ proxy-groups:
       - 22-692-TW
       - 22-693-TW
       - 22-694-RELAY
+      - 22-695-TW
       - 22-696-TW
       - 22-697-TW
       - 22-698-TW
@@ -1376,8 +1376,6 @@ proxy-groups:
       - 36-755-HK
       - 36-756-GB
       - 36-757-TR
-      - 36-758-GB
-      - 36-759-JP
       - 36-760-CA
       - 36-761-IT
   - name: 自动选择
@@ -1542,6 +1540,7 @@ proxy-groups:
       - 04-037-HK
       - 04-042-CN
       - 04-047-CN
+      - 04-152-US
       - 04-157-CN
       - 04-162-CN
       - 04-167-CN
@@ -1678,7 +1677,6 @@ proxy-groups:
       - 04-038-JP
       - 04-043-CN
       - 04-048-CN
-      - 04-153-US
       - 04-158-CN
       - 04-163-CN
       - 04-168-CN
@@ -1798,7 +1796,6 @@ proxy-groups:
       - 27-743-RELAY
       - 36-748-RELAY
       - 36-753-RELAY
-      - 36-758-GB
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1935,7 +1932,6 @@ proxy-groups:
       - 27-744-RELAY
       - 36-749-ES
       - 36-754-JP
-      - 36-759-JP
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2060,6 +2056,7 @@ proxy-groups:
       - 16-680-RELAY
       - 22-685-RU
       - 22-690-TW
+      - 22-695-TW
       - 22-700-TW
       - 22-705-TW
       - 22-710-DE
