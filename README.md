@@ -222,7 +222,6 @@ Fork from TopFreeProxies.
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@jpvip102.qlgq1.pw:50443?allowInsecure=1&sni=jpvip102.qlgq1.pw#11-287-JP
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@lavip101.qlgq1.pw:10443?allowInsecure=1&sni=lavip101.qlgq1.pw#11-288-US
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@lavip101.qlgq1.pw:20443?allowInsecure=1&sni=lavip101.qlgq1.pw#11-289-US
-    trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@lavip101.qlgq1.pw:30443?allowInsecure=1&sni=lavip101.qlgq1.pw#11-290-US
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@hkvip102.qlgq1.pw:10443?allowInsecure=1&sni=hkvip102.qlgq1.pw#11-291-HK
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@hkvip102.qlgq1.pw:20443?allowInsecure=1&sni=hkvip102.qlgq1.pw#11-292-HK
     trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@hkvip102.qlgq1.pw:30443?allowInsecure=1&sni=hkvip102.qlgq1.pw#11-293-HK
@@ -644,11 +643,12 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjEwNWJiZC1iZTBkLTQ1YjItODJhZC0zMWZkMTA3MWMxZDI@service.ouluyun9803.com:26667#24-713-CN
     trojan://telegram-id-privatevpns@18.199.110.96:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-714-DE
     trojan://telegram-id-directvpn@13.51.84.114:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-715-SE
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#24-718-GB
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#24-717-GB
     trojan://01f378e3-16fb-41ba-be7e-e23a7813275e@tr-full.privateip.net:443?allowInsecure=1#24-719-TR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNlpDSGVhYlVTZktqZlFFdko0SERW@185.242.86.156:54170#24-720-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@beecomf.xyz:8080#24-721-CA
     trojan://89edf49e-e625-4902-a94b-d1acc926b96d@104.21.13.125:443?allowInsecure=1&sni=2jp3.pqjc.buzz#24-722-RELAY
+    trojan://telegram-id-directvpn@52.6.118.20:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-723-US
     trojan://telegram-id-privatevpns@18.158.9.51:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-724-DE
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtNzI1LVJFTEFZIiwiYWRkIjoibHhjdXMuaW5la29ra2sudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjEwNWNkZmY2LTE0ZDYtNGYzMS1kZjY5LWQyZDU4YzAwM2M4YiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Imx4Y3VzLmluZWtva2trLnRvcCIsInRscyI6InRscyJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@v1.arvancode.eu.org:443#24-726-GB
@@ -675,11 +675,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `744`
+合并节点总数: `739`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `744`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `739`
 
 
 ## 仓库声明
