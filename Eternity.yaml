@@ -621,6 +621,7 @@ proxies:
   - {name: 22-666-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-667-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 22-668-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-669-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-670-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-671-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 8907aeec-189d-48d9-b557-fb242a4d8127, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-672-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 867b8e57-9355-40dc-a696-9ca2518b091e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -636,7 +637,7 @@ proxies:
   - {name: 22-682-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 22-683-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-684-TR, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
-  - {name: 24-685-IE, server: 52.215.88.111, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-685-IE, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-686-ES, server: 172.233.107.119, port: 14294, type: ss, cipher: 2022-blake3-aes-256-gcm, password: jpGIHGIB41FfpEVAqih6yb9xbVkKNE5N7Itlo/eB3+A=, udp: true}
   - {name: 24-687-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 24-688-GB, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
@@ -658,6 +659,7 @@ proxies:
   - {name: 24-704-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: f8c92b3b, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 24-705-RELAY, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 8df7d5fa-cecb-4816-a943-be94929543f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm, headers: {Host: yh1.dtku41.xyz}}, udp: true}
   - {name: 24-706-TW, server: 36.233.251.126, port: 12388, type: trojan, password: bc22f8b6-a366-4c09-812f-64da5a6a15b1, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 24-707-FR, server: beecomf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 24-708-KZ, server: 95.164.114.43, port: 443, type: trojan, password: 62011b3d-2706-4a97-98b7-9986003c5fe0, sni: kz-full.privateip.net, skip-cert-verify: true, udp: true}
   - {name: 24-709-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-710-KR, server: 64.110.79.53, port: 42752, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -688,7 +690,6 @@ proxies:
   - {name: 36-736-SE, server: 13.51.229.112, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-737-RELAY, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm, headers: {Host: yh1.dtku41.xyz}}, udp: true}
   - {name: 36-738-CN, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: ce760e28-0dc6-40ab-ba8a-9d5b90a157e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 36-739-KR, server: kr.pxiz.site, port: 28902, type: vmess, uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.pxiz.site}}, udp: true}
   - {name: 36-740-CN, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: ce760e28-0dc6-40ab-ba8a-9d5b90a157e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-741-RELAY, server: 162.159.130.208, port: 8080, type: vmess, uuid: 8df7d5fa-cecb-4816-a943-be94929543f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm}, udp: true}
   - {name: 36-742-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
@@ -1273,6 +1274,7 @@ proxy-groups:
       - 22-666-TW
       - 22-667-RELAY
       - 22-668-TW
+      - 22-669-TW
       - 22-670-TW
       - 22-671-TW
       - 22-672-TW
@@ -1310,6 +1312,7 @@ proxy-groups:
       - 24-704-RELAY
       - 24-705-RELAY
       - 24-706-TW
+      - 24-707-FR
       - 24-708-KZ
       - 24-709-NL
       - 24-710-KR
@@ -1340,7 +1343,6 @@ proxy-groups:
       - 36-736-SE
       - 36-737-RELAY
       - 36-738-CN
-      - 36-739-KR
       - 36-740-CN
       - 36-741-RELAY
       - 36-742-RELAY
@@ -1619,6 +1621,7 @@ proxy-groups:
       - 24-692-GB
       - 24-697-TW
       - 24-702-ES
+      - 24-707-FR
       - 27-712-RELAY
       - 27-717-RELAY
       - 27-722-RELAY
@@ -1875,6 +1878,7 @@ proxy-groups:
       - 22-654-GOOGLE
       - 22-659-RU
       - 22-664-TW
+      - 22-669-TW
       - 22-674-TW
       - 22-679-IE
       - 24-684-TR
@@ -1888,7 +1892,6 @@ proxy-groups:
       - 27-724-RELAY
       - 36-729-RELAY
       - 36-734-CN
-      - 36-739-KR
       - 36-744-RELAY
   - name: 测速5分组
     type: url-test
