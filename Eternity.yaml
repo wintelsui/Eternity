@@ -246,7 +246,6 @@ proxies:
   - {name: 11-287-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-288-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-289-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 11-290-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-291-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-292-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-293-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -668,11 +667,12 @@ proxies:
   - {name: 24-713-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-714-DE, server: 18.199.110.96, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-715-SE, server: 13.51.84.114, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 24-718-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 24-717-GB, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-719-TR, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e, skip-cert-verify: true, udp: true}
   - {name: 24-720-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-721-CA, server: beecomf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 24-722-RELAY, server: 104.21.13.125, port: 443, type: trojan, password: 89edf49e-e625-4902-a94b-d1acc926b96d, sni: 2jp3.pqjc.buzz, skip-cert-verify: true, udp: true}
+  - {name: 24-723-US, server: 52.6.118.20, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-724-DE, server: 18.158.9.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-725-RELAY, server: lxcus.inekokkk.top, port: 80, type: vmess, uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lxcus.inekokkk.top}}, udp: true}
   - {name: 24-726-GB, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
@@ -895,7 +895,6 @@ proxy-groups:
       - 11-287-JP
       - 11-288-US
       - 11-289-US
-      - 11-290-US
       - 11-291-HK
       - 11-292-HK
       - 11-293-HK
@@ -1317,11 +1316,12 @@ proxy-groups:
       - 24-713-CN
       - 24-714-DE
       - 24-715-SE
-      - 24-718-GB
+      - 24-717-GB
       - 24-719-TR
       - 24-720-NL
       - 24-721-CA
       - 24-722-RELAY
+      - 24-723-US
       - 24-724-DE
       - 24-725-RELAY
       - 24-726-GB
@@ -1610,6 +1610,7 @@ proxy-groups:
       - 22-702-TW
       - 22-707-IE
       - 24-712-TW
+      - 24-717-GB
       - 24-722-RELAY
       - 24-727-CN
       - 27-732-RELAY
@@ -1742,7 +1743,7 @@ proxy-groups:
       - 22-703-TW
       - 22-708-GB
       - 24-713-CN
-      - 24-718-GB
+      - 24-723-US
       - 27-728-RELAY
       - 27-733-RELAY
       - 27-738-RELAY
@@ -1925,7 +1926,6 @@ proxy-groups:
       - 11-275-DE
       - 11-280-SG
       - 11-285-JP
-      - 11-290-US
       - 11-295-HK
       - 11-300-HK
       - 11-305-CN
