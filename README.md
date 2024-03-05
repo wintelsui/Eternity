@@ -605,6 +605,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNGMzYjA5ZC05NjYxLTRmMWItOTU0ZS0zZWQ0MjJiOTUzMDQ@aa.websitea.xyz:20039#11-671-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNGMzYjA5ZC05NjYxLTRmMWItOTU0ZS0zZWQ0MjJiOTUzMDQ@aa.websitea.xyz:20041#11-672-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjczLVNHIiwiYWRkIjoiY2RuLmNoaWd1YS50ayIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmODA1Yzk1Zi0zMWI5LTRmZmUtYWI1MC04MTQ3ZjQ4MzdiYmUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3VzYzAzIiwiaG9zdCI6ImNkbi5jaGlndWEudGsiLCJ0bHMiOiIifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjc0LVJFTEFZIiwiYWRkIjoid3d3LmNvbGRzdG9uZS5jbHViIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3LmNvbGRzdG9uZS5jbHViIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjc1LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4yMjMiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWQ9MjA0OCIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjc2LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4zOCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI3MDIyOTgyZi1kYTRjLTQ4YzktYzY2MC1iMjMxNWFiZGNmN2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjc3LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4xMDAiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
@@ -864,7 +865,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjEwNWJiZC1iZTBkLTQ1YjItODJhZC0zMWZkMTA3MWMxZDI@service.ouluyun9803.com:20005#24-935-CN
     trojan://31583130-de1f-44ce-a433-1dbb108e1846@it-full.privateip.net:443?allowInsecure=1#24-936-IT
     trojan://414dff55-922a-4dc8-b5d3-b6517942b25a@east.eeeeeef998.buzz:15005?allowInsecure=1&sni=data.steamdownload.top#24-937-KR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#24-938-GB
     trojan://351ec5ba-6dda-4716-aa52-1d6482071417@b22.ntbq.dynu.net:19489?allowInsecure=1&sni=b22.ntbq.dynu.net#24-939-TW
     trojan://telegram-id-directvpn@108.128.214.59:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-940-IE
     trojan://telegram-id-privatevpns@52.215.88.111:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-941-IE
@@ -904,11 +904,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `973`
+合并节点总数: `975`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `973`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `975`
 
 
 ## 仓库声明
