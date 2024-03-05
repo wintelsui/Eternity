@@ -629,6 +629,7 @@ proxies:
   - {name: 11-671-CN, server: aa.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-672-CN, server: aa.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-673-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: f805c95f-31b9-4ffe-ab50-8147f4837bbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
+  - {name: 11-674-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-675-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-676-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-677-RELAY, server: 104.21.225.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -888,7 +889,6 @@ proxies:
   - {name: 24-935-CN, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-936-IT, server: it-full.privateip.net, port: 443, type: trojan, password: 31583130-de1f-44ce-a433-1dbb108e1846, skip-cert-verify: true, udp: true}
   - {name: 24-937-KR, server: east.eeeeeef998.buzz, port: 15005, type: trojan, password: 414dff55-922a-4dc8-b5d3-b6517942b25a, sni: data.steamdownload.top, skip-cert-verify: true, udp: true}
-  - {name: 24-938-GB, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-939-TW, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 351ec5ba-6dda-4716-aa52-1d6482071417, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 24-940-IE, server: 108.128.214.59, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-941-IE, server: 52.215.88.111, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
@@ -1507,6 +1507,7 @@ proxy-groups:
       - 11-671-CN
       - 11-672-CN
       - 11-673-SG
+      - 11-674-RELAY
       - 11-675-RELAY
       - 11-676-RELAY
       - 11-677-RELAY
@@ -1766,7 +1767,6 @@ proxy-groups:
       - 24-935-CN
       - 24-936-IT
       - 24-937-KR
-      - 24-938-GB
       - 24-939-TW
       - 24-940-IE
       - 24-941-IE
@@ -2340,7 +2340,6 @@ proxy-groups:
       - 22-923-DE
       - 24-928-TW
       - 24-933-RELAY
-      - 24-938-GB
       - 24-943-FASTLY
       - 27-948-RELAY
       - 27-953-RELAY
@@ -2466,6 +2465,7 @@ proxy-groups:
       - 11-659-CN
       - 11-664-IT
       - 11-669-CN
+      - 11-674-RELAY
       - 11-679-RELAY
       - 11-684-RELAY
       - 11-689-RELAY
