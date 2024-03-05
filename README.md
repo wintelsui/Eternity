@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `884`
+高速节点数量: `885`
 <details>
   <summary>展开复制节点</summary>
 
@@ -621,6 +621,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNGMzYjA5ZC05NjYxLTRmMWItOTU0ZS0zZWQ0MjJiOTUzMDQ@node.websitea.xyz:20039#11-687-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNGMzYjA5ZC05NjYxLTRmMWItOTU0ZS0zZWQ0MjJiOTUzMDQ@node.websitea.xyz:20041#11-688-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjg5LVNHIiwiYWRkIjoiY2RuLmNoaWd1YS50ayIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmODA1Yzk1Zi0zMWI5LTRmZmUtYWI1MC04MTQ3ZjQ4MzdiYmUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3VzYzAzIiwiaG9zdCI6ImNkbi5jaGlndWEudGsiLCJ0bHMiOiIifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjkwLVJFTEFZIiwiYWRkIjoid3d3LmNvbGRzdG9uZS5jbHViIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3LmNvbGRzdG9uZS5jbHViIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjkxLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4yMjMiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWQ9MjA0OCIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjkyLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4zOCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI3MDIyOTgyZi1kYTRjLTQ4YzktYzY2MC1iMjMxNWFiZGNmN2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtNjkzLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIyNS4xMDAiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
@@ -888,7 +889,7 @@ Fork from TopFreeProxies.
     trojan://telegram-id-privatevpns@35.176.51.255:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-960-GB
     trojan://31583130-de1f-44ce-a433-1dbb108e1846@it-full.privateip.net:443?allowInsecure=1#24-961-IT
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#24-962-GB
-    trojan://telegram-id-privatevpns@52.215.88.111:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-963-IE
+    trojan://telegram-id-directvpn@52.60.255.203:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-963-IE
     vmess://eyJ2IjoiMiIsInBzIjoiMjctOTY0LVJFTEFZIiwiYWRkIjoiMTcyLjY3LjY4LjI0NiIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjctOTY1LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjMwLjI1NCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjctOTY2LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjc1LjI0NiIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9vcGhlbGlhLm1vbTo0NDMvbGlua3Z3cyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
@@ -919,11 +920,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `988`
+合并节点总数: `977`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `988`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `977`
 
 
 ## 仓库声明
