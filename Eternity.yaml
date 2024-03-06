@@ -462,6 +462,7 @@ proxies:
   - {name: 04-0503-JP, server: 52.198.170.174, port: 443, type: trojan, password: dfa26bf0-2341-32d4-a4c5-174c42c65455, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0504-JP, server: 35.75.14.186, port: 443, type: trojan, password: dfa26bf0-2341-32d4-a4c5-174c42c65455, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0505-US, server: 35.166.68.46, port: 443, type: trojan, password: dfa26bf0-2341-32d4-a4c5-174c42c65455, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0506-US, server: 103.136.185.27, port: 5481, type: trojan, password: dfa26bf0-2341-32d4-a4c5-174c42c65455, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0507-US, server: 103.136.185.28, port: 3495, type: trojan, password: dfa26bf0-2341-32d4-a4c5-174c42c65455, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 11-0508-CN, server: cu1.guguyun.xyz, port: 27500, type: vmess, uuid: 5b2f6e0f-f8f6-4062-a53c-8b0de139031e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sg, headers: {Host: cu1.guguyun.xyz}}, udp: true}
   - {name: 11-0509-CN, server: cu1.guguyun.xyz, port: 27600, type: vmess, uuid: 5b2f6e0f-f8f6-4062-a53c-8b0de139031e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hk, headers: {Host: cu1.guguyun.xyz}}, udp: true}
@@ -838,7 +839,6 @@ proxies:
   - {name: 12-0880-US, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2, udp: true}
   - {name: 12-0881-RELAY, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kellie.makeup}}, udp: true}
   - {name: 12-0882-RELAY, server: muriel.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: muriel.makeup}}, udp: true}
-  - {name: 12-0883-GB, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx, udp: true}
   - {name: 12-0884-CN, server: 111.12.60.29, port: 2200, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4, udp: true}
   - {name: 12-0885-ZA, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory, udp: true}
   - {name: 12-0886-CN, server: 231103level2.unclemanco.com, port: 1000, type: ssr, cipher: chacha20-ietf, password: ayucjrsll, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
@@ -853,6 +853,7 @@ proxies:
   - {name: 12-0895-CN, server: 231103level1.unclemanco.com, port: 27777, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
   - {name: 12-0896-CN, server: east.2333lol.fuckddos.shop, port: 24551, type: ss, cipher: chacha20-ietf-poly1305, password: 0ef40172-50ce-465f-86d9-fe8ff495cf83, udp: true}
   - {name: 12-0897-US, server: 66.42.84.121, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v2-002797.kailib.com, skip-cert-verify: true, udp: true}
+  - {name: 12-0898-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-0899-RELAY, server: fbi.gov, port: 8080, type: vmess, uuid: 6f7e94e7-4a60-4aa4-9369-4f44ec2ae876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fbi.gov}}, udp: true}
   - {name: 15-0900-CN, server: tiananmen.19890604.day, port: 10801, type: trojan, password: aa7dc2f0-74fb-4deb-b41f-8926953d92ba, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 15-0901-CN, server: tiananmen.19890604.day, port: 10802, type: trojan, password: aa7dc2f0-74fb-4deb-b41f-8926953d92ba, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
@@ -956,7 +957,6 @@ proxies:
   - {name: 24-1003-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-1004-GB, server: 18.175.36.19, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-1005-GB, server: 18.171.109.69, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 24-1006-CA, server: 15.156.151.14, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-1007-RELAY, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-1008-GB, server: jseyu.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-1009-CN, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
@@ -1441,6 +1441,7 @@ proxy-groups:
       - 04-0503-JP
       - 04-0504-JP
       - 04-0505-US
+      - 04-0506-US
       - 04-0507-US
       - 11-0508-CN
       - 11-0509-CN
@@ -1817,7 +1818,6 @@ proxy-groups:
       - 12-0880-US
       - 12-0881-RELAY
       - 12-0882-RELAY
-      - 12-0883-GB
       - 12-0884-CN
       - 12-0885-ZA
       - 12-0886-CN
@@ -1832,6 +1832,7 @@ proxy-groups:
       - 12-0895-CN
       - 12-0896-CN
       - 12-0897-US
+      - 12-0898-FR
       - 12-0899-RELAY
       - 15-0900-CN
       - 15-0901-CN
@@ -1935,7 +1936,6 @@ proxy-groups:
       - 24-1003-CN
       - 24-1004-GB
       - 24-1005-GB
-      - 24-1006-CA
       - 24-1007-RELAY
       - 24-1008-GB
       - 24-1009-CN
@@ -2099,6 +2099,7 @@ proxy-groups:
       - 04-0491-CN
       - 04-0496-CN
       - 04-0501-CN
+      - 04-0506-US
       - 11-0511-CN
       - 11-0516-CN
       - 11-0521-RELAY
@@ -2197,7 +2198,6 @@ proxy-groups:
       - 22-0991-DE
       - 24-0996-DE
       - 24-1001-FR
-      - 24-1006-CA
       - 24-1011-RELAY
       - 27-1016-RELAY
       - 27-1021-RELAY
@@ -2572,9 +2572,9 @@ proxy-groups:
       - 12-0868-ES
       - 12-0873-VN
       - 12-0878-LU
-      - 12-0883-GB
       - 12-0888-RELAY
       - 12-0893-GB
+      - 12-0898-FR
       - 15-0903-CN
       - 15-0908-CN
       - 15-0913-CN
