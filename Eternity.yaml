@@ -376,6 +376,7 @@ proxies:
   - {name: 04-0417-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0418-TW, server: c11.twtc.dynu.net, port: 13989, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0419-TW, server: c12.twtc.dynu.net, port: 14656, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: c12.twtc.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0420-US, server: us1.n305.dynu.net, port: 16389, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: us1.n305.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0421-CN, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 5f72cdbe-a6d2-48d8-82d0-e3560dc0abc6, udp: true}
   - {name: 04-0422-CN, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: 5f72cdbe-a6d2-48d8-82d0-e3560dc0abc6, udp: true}
   - {name: 04-0423-CN, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: 5f72cdbe-a6d2-48d8-82d0-e3560dc0abc6, udp: true}
@@ -399,7 +400,6 @@ proxies:
   - {name: 04-0441-JP, server: 52.198.170.174, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0442-JP, server: 35.75.14.186, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-US, server: 35.166.68.46, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0444-US, server: 103.136.185.27, port: 5481, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0445-US, server: 103.136.185.28, port: 3495, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0446-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 15dfa65a-83b0-3cee-83e3-26c125c1feb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0447-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: e3QKx2NY6v8Q0xsK, udp: true}
@@ -1291,6 +1291,7 @@ proxy-groups:
       - 04-0417-TW
       - 04-0418-TW
       - 04-0419-TW
+      - 04-0420-US
       - 04-0421-CN
       - 04-0422-CN
       - 04-0423-CN
@@ -1314,7 +1315,6 @@ proxy-groups:
       - 04-0441-JP
       - 04-0442-JP
       - 04-0443-US
-      - 04-0444-US
       - 04-0445-US
       - 04-0446-HK
       - 04-0447-CN
@@ -2516,7 +2516,6 @@ proxy-groups:
       - 04-0429-CN
       - 04-0434-CN
       - 04-0439-CN
-      - 04-0444-US
       - 04-0449-CN
       - 04-0454-CN
       - 04-0459-CN
@@ -2698,6 +2697,7 @@ proxy-groups:
       - 04-0405-CN
       - 04-0410-CN
       - 04-0415-TW
+      - 04-0420-US
       - 04-0425-CN
       - 04-0430-CN
       - 04-0435-CN
