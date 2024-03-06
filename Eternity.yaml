@@ -464,6 +464,7 @@ proxies:
   - {name: 04-0505-CN, server: freeno1us.beednsvip.top, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20179:3YaBjN, obfs-param: 1faee20179.microsoft.com, udp: true}
   - {name: 04-0506-JP, server: 52.198.170.174, port: 443, type: trojan, password: a42d03c1-c2a7-3ef0-928b-4a77c40b2ace, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0507-JP, server: 35.75.14.186, port: 443, type: trojan, password: a42d03c1-c2a7-3ef0-928b-4a77c40b2ace, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0508-US, server: 35.166.68.46, port: 443, type: trojan, password: a42d03c1-c2a7-3ef0-928b-4a77c40b2ace, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0509-US, server: 103.136.185.27, port: 5481, type: trojan, password: a42d03c1-c2a7-3ef0-928b-4a77c40b2ace, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0510-US, server: 103.136.185.28, port: 3495, type: trojan, password: a42d03c1-c2a7-3ef0-928b-4a77c40b2ace, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 11-0511-HK, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 9991d06b-160e-4bcb-b572-92f6387b0039, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
@@ -860,6 +861,7 @@ proxies:
   - {name: 16-0905-US, server: 34.220.129.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-0906-JP, server: 18.183.92.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-0907-SG, server: 13.213.70.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16-0908-GB, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: 22-0909-GOOGLE, server: speedo4602000.buzz, port: 443, type: trojan, password: 5a03441d-8d05-4a04-b5d8-648ab4fb8380, sni: speedo4602000.buzz, skip-cert-verify: true, udp: true}
   - {name: 22-0910-GOOGLE, server: speedo4602000.buzz, port: 443, type: vmess, uuid: 5a03441d-8d05-4a04-b5d8-648ab4fb8380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cibyvws, headers: {Host: speedo4602000.buzz}}, udp: true}
   - {name: 22-0911-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.darkroom.lol}}, udp: true}
@@ -954,9 +956,7 @@ proxies:
   - {name: 27-1001-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 36-1002-DE, server: 3.79.145.171, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1003-US, server: 142.0.134.134, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
-  - {name: 36-1004-GB, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 36-1005-GB, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: 36-1006-US, server: 34.227.202.2, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1007-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 36-1008-HK, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 36-1009-US, server: 38.14.107.234, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
@@ -1385,6 +1385,7 @@ proxy-groups:
       - 04-0505-CN
       - 04-0506-JP
       - 04-0507-JP
+      - 04-0508-US
       - 04-0509-US
       - 04-0510-US
       - 11-0511-HK
@@ -1781,6 +1782,7 @@ proxy-groups:
       - 16-0905-US
       - 16-0906-JP
       - 16-0907-SG
+      - 16-0908-GB
       - 22-0909-GOOGLE
       - 22-0910-GOOGLE
       - 22-0911-RELAY
@@ -1875,9 +1877,7 @@ proxy-groups:
       - 27-1001-RELAY
       - 36-1002-DE
       - 36-1003-US
-      - 36-1004-GB
       - 36-1005-GB
-      - 36-1006-US
       - 36-1007-GB
       - 36-1008-HK
       - 36-1009-US
@@ -2081,7 +2081,6 @@ proxy-groups:
       - 27-0991-RELAY
       - 27-0996-RELAY
       - 27-1001-RELAY
-      - 36-1006-US
       - 36-1011-FR
   - name: 测速2分组
     type: url-test
@@ -2357,6 +2356,7 @@ proxy-groups:
       - 04-0493-CN
       - 04-0498-CN
       - 04-0503-CN
+      - 04-0508-US
       - 11-0513-US
       - 11-0518-RELAY
       - 11-0523-DE
@@ -2435,6 +2435,7 @@ proxy-groups:
       - 15-0888-CN
       - 16-0898-KR
       - 16-0903-RELAY
+      - 16-0908-GB
       - 22-0913-RU
       - 22-0923-TW
       - 22-0928-TW
@@ -2641,7 +2642,6 @@ proxy-groups:
       - 27-0989-RELAY
       - 27-0994-RELAY
       - 27-0999-RELAY
-      - 36-1004-GB
       - 36-1009-US
       - 36-1014-GB
   - name: 测速5分组
