@@ -251,7 +251,6 @@ proxies:
   - {name: 04-0292-RELAY, server: jp5.pay.edu.kg, port: 443, type: vmess, uuid: 5b913830-0c69-43ac-a5a4-da7aa739e38d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp5.pay.edu.kg}}, udp: true}
   - {name: 04-0293-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0294-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-0295-US, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0296-CN, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0297-IT, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0298-CN, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -378,7 +377,6 @@ proxies:
   - {name: 04-0419-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0420-TW, server: c11.twtc.dynu.net, port: 13989, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0421-TW, server: nc12.twtc.dynu.net, port: 14656, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: nc12.twtc.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0422-US, server: us1.n305.dynu.net, port: 16389, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: us1.n305.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-0423-CN, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: 7481137d-72b0-4a23-b96c-a35c783f1921, udp: true}
   - {name: 04-0424-CN, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: 7481137d-72b0-4a23-b96c-a35c783f1921, udp: true}
   - {name: 04-0425-CN, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: 7481137d-72b0-4a23-b96c-a35c783f1921, udp: true}
@@ -402,6 +400,7 @@ proxies:
   - {name: 04-0443-JP, server: 35.77.221.44, port: 443, type: trojan, password: 2c83270d-c6fb-36eb-8ada-bf34378a680a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0444-JP, server: 35.75.14.186, port: 443, type: trojan, password: 2c83270d-c6fb-36eb-8ada-bf34378a680a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0445-US, server: 35.167.122.148, port: 443, type: trojan, password: 2c83270d-c6fb-36eb-8ada-bf34378a680a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0446-US, server: 103.136.185.27, port: 5482, type: trojan, password: 2c83270d-c6fb-36eb-8ada-bf34378a680a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0447-US, server: 103.136.185.28, port: 3496, type: trojan, password: 2c83270d-c6fb-36eb-8ada-bf34378a680a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0448-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: fe197d98-e576-393c-ae17-8b435f5aa437, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0449-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: UkwHhLjIIBCpGIA2, udp: true}
@@ -947,6 +946,7 @@ proxies:
   - {name: 36-0994-RELAY, server: 23.227.39.12, port: 8080, type: vmess, uuid: 1a855748-ec07-408a-a3a2-7e1099a30616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 1a855748-ec07-408a-a3a2-7e1099a30616-vm}, udp: true}
   - {name: 36-0995-RELAY, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 36-0996-IE, server: 52.178.198.187, port: 56999, type: ss, cipher: chacha20-ietf-poly1305, password: qhxqQu1xM4zn3C4XBNnTVl, udp: true}
+  - {name: 36-0997-US, server: 18.189.75.99, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-0998-TW, server: 125.224.138.241, port: 13989, type: trojan, password: f7def183-ec24-4b77-86ee-7b8a2ba8e351, sni: c11.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 36-0999-DE, server: 94.131.111.32, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NGQzMzQz, udp: true}
   - {name: 36-1000-GB, server: 13.42.112.195, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
@@ -1163,7 +1163,6 @@ proxy-groups:
       - 04-0292-RELAY
       - 04-0293-CN
       - 04-0294-CN
-      - 04-0295-US
       - 04-0296-CN
       - 04-0297-IT
       - 04-0298-CN
@@ -1290,7 +1289,6 @@ proxy-groups:
       - 04-0419-TW
       - 04-0420-TW
       - 04-0421-TW
-      - 04-0422-US
       - 04-0423-CN
       - 04-0424-CN
       - 04-0425-CN
@@ -1314,6 +1312,7 @@ proxy-groups:
       - 04-0443-JP
       - 04-0444-JP
       - 04-0445-US
+      - 04-0446-US
       - 04-0447-US
       - 04-0448-HK
       - 04-0449-CN
@@ -1859,6 +1858,7 @@ proxy-groups:
       - 36-0994-RELAY
       - 36-0995-RELAY
       - 36-0996-IE
+      - 36-0997-US
       - 36-0998-TW
       - 36-0999-DE
       - 36-1000-GB
@@ -1952,6 +1952,7 @@ proxy-groups:
       - 04-0431-CN
       - 04-0436-CN
       - 04-0441-CN
+      - 04-0446-US
       - 04-0451-CN
       - 04-0456-CN
       - 04-0461-CN
@@ -2133,7 +2134,6 @@ proxy-groups:
       - 04-0407-CN
       - 04-0412-CN
       - 04-0417-TW
-      - 04-0422-US
       - 04-0427-CN
       - 04-0432-CN
       - 04-0437-CN
@@ -2247,6 +2247,7 @@ proxy-groups:
       - 27-0982-RELAY
       - 27-0987-RELAY
       - 27-0992-RELAY
+      - 36-0997-US
       - 36-1002-RELAY
   - name: 测速3分组
     type: url-test
@@ -2664,7 +2665,6 @@ proxy-groups:
       - 04-0280-CN
       - 04-0285-CN
       - 04-0290-RELAY
-      - 04-0295-US
       - 04-0300-IT
       - 04-0305-CN
       - 04-0310-CN
