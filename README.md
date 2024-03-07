@@ -865,11 +865,11 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpacUtMbTV2UDF2SWVPekt2aDJFUnpK@188.94.155.82:35152#24-933-KZ
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjEwNWJiZC1iZTBkLTQ1YjItODJhZC0zMWZkMTA3MWMxZDI@service.ouluyun9803.com:26667#24-934-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNlpDSGVhYlVTZktqZlFFdko0SERW@185.242.86.156:54170#24-935-NL
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.Org:443#24-936-GB
     trojan://telegram-id-directvpn@15.157.172.51:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-937-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.samanehha.co:443#24-938-GB
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtOTM5LVJFTEFZIiwiYWRkIjoidXM2NS5uZXRmaWx4LmxpdmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjBmMTI0MzUtYmI1NS00ZGEyLWNiN2QtNGZlYTM0ZWNmYTM3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidXM2NS5uZXRmaWx4LmxpdmUiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtOTQwLUZBU1RMWSIsImFkZCI6ImZhc3RseS5hbGlwYXkub3ZoIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjY2Y2NiMTFmLTc1YTctNDI4Mi04YTYwLTMxZmVkNDQ3NDAxZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXJpZXM/ZWQ9MjA0OCIsImhvc3QiOiJmYXN0bHkuYWxpcGF5Lm92aCIsInRscyI6InRscyJ9
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@v1.arvancode.eu.org:443#24-941-GB
     trojan://telegram-id-privatevpns@18.133.17.72:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-942-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#24-943-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkeUZsNDhqUGdYbDBFWXpyS0g5d012@95.164.38.179:65037#24-944-NO
@@ -925,11 +925,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `993`
+合并节点总数: `992`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `993`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `992`
 
 
 ## 仓库声明
