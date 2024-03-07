@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `893`
+高速节点数量: `894`
 <details>
   <summary>展开复制节点</summary>
 
@@ -351,6 +351,7 @@ Fork from TopFreeProxies.
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@ty12t.twty.dynu.net:18912?allowInsecure=1&sni=ty12t.twty.dynu.net#04-416-TW
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@c11.twtc.dynu.net:13989?allowInsecure=1&sni=c11.twtc.dynu.net#04-417-TW
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@c12.twtc.dynu.net:14656?allowInsecure=1&sni=c12.twtc.dynu.net#04-418-TW
+    trojan://e9391493-54bf-4fff-b6c5-945dc7442971@112.120.127.194:443?allowInsecure=1&sni=us1.n305.dynu.net#04-419-US
     ss://YWVzLTI1Ni1nY206MzQ1ZjgxYWMtMWRkOC00NmE5LTg4MmQtYTY4NDZlNDI1YzA4@hk1.iepl.cooc.icu:21881#04-420-CN
     ss://YWVzLTI1Ni1nY206MzQ1ZjgxYWMtMWRkOC00NmE5LTg4MmQtYTY4NDZlNDI1YzA4@hk2.iepl.cooc.icu:22881#04-421-CN
     ss://YWVzLTI1Ni1nY206MzQ1ZjgxYWMtMWRkOC00NmE5LTg4MmQtYTY4NDZlNDI1YzA4@jp1.iepl.cooc.icu:47100#04-422-CN
@@ -841,6 +842,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTEwLVJFTEFZIiwiYWRkIjoid3d3LmRhcmtyb29tLmxvbCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIyODI2YjQ0LTVjMWEtNGI0Yi1kYmFhLTgzYTJlOGJkOTVmMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJOb25lIiwiaG9zdCI6Ind3dy5kYXJrcm9vbS5sb2wiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTExLVJVIiwiYWRkIjoiNDUuMTQ0LjIuMTEzIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImMzN2Y1ZmU2LTU2MjEtNDEyZi04Yjc4LTFkNjE5N2FkZTAxNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJOb25lIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTEyLVJVIiwiYWRkIjoiNDUuMTQ0LjIuMTEzIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImMzN2Y1ZmU2LTU2MjEtNDEyZi04Yjc4LTFkNjE5N2FkZTAxNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJOb25lIiwiaG9zdCI6IiIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMjItOTEzLVRXIiwiYWRkIjoiYjIzLm50YnEuZHludS5uZXQiLCJwb3J0IjoiMjAyNCIsInR5cGUiOiJub25lIiwiaWQiOiJkZTk1NThmMy1kMTFiLTQxMGUtYWIyNy0yNjk1NmRkZTI1NmQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ik5vbmUiLCJob3N0IjoiYjIzLm50YnEuZHludS5uZXQiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTE0LVJFTEFZIiwiYWRkIjoid3d3Lnl3bm91dmJhbGUuYml6IiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ik5vbmUiLCJob3N0Ijoid3d3Lnl3bm91dmJhbGUuYml6IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTE1LVJFTEFZIiwiYWRkIjoid3d3LmNvbGRzdG9uZS5jbHViIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ik5vbmUiLCJob3N0Ijoid3d3LmNvbGRzdG9uZS5jbHViIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMjItOTE2LVRXIiwiYWRkIjoibmIyMi5udGJxLmR5bnUubmV0IiwicG9ydCI6IjEyMDAyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIzMmMzYTYyLWYyOTktNGQ3MC05YTk3LThiNTgyMGI5M2YxYSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiTm9uZSIsImhvc3QiOiJ3d3cuY29sZHN0b25lLmNsdWIiLCJ0bHMiOiIifQ==
@@ -871,7 +873,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@18.134.217.92:443#24-942-GB
     trojan://telegram-id-directvpn@13.37.48.11:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-943-FR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNlpDSGVhYlVTZktqZlFFdko0SERW@185.242.86.156:54170#24-944-NL
-    trojan://e9391493-54bf-4fff-b6c5-945dc7442971@112.120.127.194:443?allowInsecure=1&sni=glc-hkt2.windowsupdatea.com#24-945-HK
     trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@104.16.192.146:443?allowInsecure=1&sni=jobscareertoday.com#24-946-RELAY
     trojan://telegram-id-directvpn@18.197.240.230:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-947-DE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNTAxYzgyYzcyZDc5MGI4@119.23.104.213:8474#24-949-CN
