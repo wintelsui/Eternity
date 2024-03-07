@@ -376,7 +376,6 @@ Fork from TopFreeProxies.
     trojan://cb59ed07-0192-3c01-8a96-79eeda2f0089@43.207.43.59:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-441-JP
     trojan://cb59ed07-0192-3c01-8a96-79eeda2f0089@35.75.14.186:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-442-JP
     trojan://cb59ed07-0192-3c01-8a96-79eeda2f0089@35.166.68.46:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-443-US
-    trojan://cb59ed07-0192-3c01-8a96-79eeda2f0089@103.136.185.27:5482?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-444-US
     trojan://cb59ed07-0192-3c01-8a96-79eeda2f0089@103.136.185.28:3496?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-445-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtNDQ2LUhLIiwiYWRkIjoibmhrLTIuZHVndXNpdGUzLnRvcCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMTVkZmE2NWEtODNiMC0zY2VlLTgzZTMtMjZjMTI1YzFmZWI0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92IiwiaG9zdCI6Im5oay0yLmR1Z3VzaXRlMy50b3AiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuSklJREYzcFowS2FtNUpv@gz.xiyun.co:10031#04-447-CN
@@ -871,6 +870,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.Org:443#24-941-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNTAxYzgyYzcyZDc5MGI4@119.23.104.213:8474#24-942-CN
     trojan://telegram-id-directvpn@13.37.48.11:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-943-FR
+    trojan://telegram-id-directvpn@15.157.172.51:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-944-CA
     trojan://telegram-id-privatevpns@18.133.17.72:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-945-GB
     ss://YWVzLTI1Ni1nY206N0JjTGRzTzFXd2VvR0QwWA@193.243.147.128:40368#24-946-FR
     trojan://e9391493-54bf-4fff-b6c5-945dc7442971@112.120.127.194:443?allowInsecure=1&sni=glc-hkt2.windowsupdatea.com#24-947-HK
@@ -928,11 +928,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `997`
+合并节点总数: `1003`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `997`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1003`
 
 
 ## 仓库声明
