@@ -889,11 +889,11 @@ proxies:
   - {name: 24-933-KZ, server: 188.94.155.82, port: 35152, type: ss, cipher: chacha20-ietf-poly1305, password: ZqKLm5vP1vIeOzKvh2ERzJ, udp: true}
   - {name: 24-934-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-935-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
+  - {name: 24-936-GB, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-937-CA, server: 15.157.172.51, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-938-GB, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-939-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 24-940-FASTLY, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fastly.alipay.ovh}}, udp: true}
-  - {name: 24-941-GB, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: 24-942-GB, server: 18.133.17.72, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-943-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-944-NO, server: 95.164.38.179, port: 65037, type: ss, cipher: chacha20-ietf-poly1305, password: dyFl48jPgXl0EYzrKH9wMv, udp: true}
@@ -1788,11 +1788,11 @@ proxy-groups:
       - 24-933-KZ
       - 24-934-CN
       - 24-935-NL
+      - 24-936-GB
       - 24-937-CA
       - 24-938-GB
       - 24-939-RELAY
       - 24-940-FASTLY
-      - 24-941-GB
       - 24-942-GB
       - 24-943-GB
       - 24-944-NO
@@ -2023,7 +2023,7 @@ proxy-groups:
       - 22-921-TW
       - 22-926-TW
       - 22-931-DE
-      - 24-941-GB
+      - 24-936-GB
       - 24-946-FASTLY
       - 27-951-RELAY
       - 27-956-RELAY
