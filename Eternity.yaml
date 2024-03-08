@@ -282,6 +282,7 @@ proxies:
   - {name: 04-0323-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0324-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0325-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0326-US, server: lavip101.qlgq1.pw, port: 10444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0327-US, server: lavip101.qlgq1.pw, port: 20444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0328-US, server: lavip101.qlgq1.pw, port: 30444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0329-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -400,7 +401,7 @@ proxies:
   - {name: 04-0442-JP, server: 35.77.221.44, port: 443, type: trojan, password: 097a8350-8e00-30df-ac51-f97c9b2e09d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-JP, server: 35.75.14.186, port: 443, type: trojan, password: 097a8350-8e00-30df-ac51-f97c9b2e09d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0444-US, server: 35.167.122.148, port: 443, type: trojan, password: 097a8350-8e00-30df-ac51-f97c9b2e09d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0445-US, server: 103.136.185.27, port: 5482, type: trojan, password: 097a8350-8e00-30df-ac51-f97c9b2e09d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0445-US, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0446-US, server: 103.136.185.28, port: 3496, type: trojan, password: 097a8350-8e00-30df-ac51-f97c9b2e09d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0447-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 53bef2cc-75eb-3407-a989-68bdf50bc087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0448-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: q9AMuWL34WaZHdRJ, udp: true}
@@ -874,7 +875,6 @@ proxies:
   - {name: 24-0920-DE, server: 3.73.221.146, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0921-FASTLY, server: fastly.com, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fastly.com}}, udp: true}
   - {name: 24-0922-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
-  - {name: 24-0923-US, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0924-IE, server: 54.155.34.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0925-IE, server: 52.208.125.170, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0927-DE, server: 95.164.68.116, port: 443, type: trojan, password: 0453eb8b-8b3a-42c5-9040-cb1495279898, sni: cdn.appsflyer.com, skip-cert-verify: true, udp: true}
@@ -1227,6 +1227,7 @@ proxy-groups:
       - 04-0323-JP
       - 04-0324-JP
       - 04-0325-JP
+      - 04-0326-US
       - 04-0327-US
       - 04-0328-US
       - 04-0329-HK
@@ -1819,7 +1820,6 @@ proxy-groups:
       - 24-0920-DE
       - 24-0921-FASTLY
       - 24-0922-RELAY
-      - 24-0923-US
       - 24-0924-IE
       - 24-0925-IE
       - 24-0927-DE
@@ -1994,6 +1994,7 @@ proxy-groups:
       - 04-0311-DE
       - 04-0316-SG
       - 04-0321-JP
+      - 04-0326-US
       - 04-0331-HK
       - 04-0336-HK
       - 04-0341-CN
@@ -2496,7 +2497,6 @@ proxy-groups:
       - 22-0908-TW
       - 22-0913-CA
       - 24-0918-CN
-      - 24-0923-US
       - 24-0928-NL
       - 27-0933-RELAY
       - 27-0938-RELAY
