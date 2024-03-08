@@ -281,6 +281,7 @@ proxies:
   - {name: 04-0322-JP, server: jpvip102.qlgq1.pw, port: 20443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0323-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0324-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-0325-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0326-US, server: lavip101.qlgq1.pw, port: 10444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0327-US, server: lavip101.qlgq1.pw, port: 20444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0328-US, server: lavip101.qlgq1.pw, port: 30444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -400,8 +401,8 @@ proxies:
   - {name: 04-0442-JP, server: 35.77.221.44, port: 443, type: trojan, password: 51a81dc7-bb7f-3364-91a8-032171339b24, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-JP, server: 35.75.14.186, port: 443, type: trojan, password: 51a81dc7-bb7f-3364-91a8-032171339b24, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0444-US, server: 35.167.122.148, port: 443, type: trojan, password: 51a81dc7-bb7f-3364-91a8-032171339b24, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0445-US, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0446-US, server: 103.136.185.28, port: 3496, type: trojan, password: 51a81dc7-bb7f-3364-91a8-032171339b24, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0445-US, server: 103.136.185.27, port: 5482, type: trojan, password: 51a81dc7-bb7f-3364-91a8-032171339b24, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0446-US, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0447-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: fe197d98-e576-393c-ae17-8b435f5aa437, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0448-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: F1UhWdsHdJ8QiRRH, udp: true}
   - {name: 04-0449-CN, server: gz.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: F1UhWdsHdJ8QiRRH, udp: true}
@@ -899,7 +900,6 @@ proxies:
   - {name: 24-0945-DE, server: de2.trojanvpn.de, port: 443, type: trojan, password: 0453eb8b-8b3a-42c5-9040-cb1495279898, sni: cdn.appsflyer.com, skip-cert-verify: true, udp: true}
   - {name: 24-0946-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-0947-DE, server: 95.164.68.116, port: 443, type: trojan, password: 0453eb8b-8b3a-42c5-9040-cb1495279898, sni: cdn.appsflyer.com, skip-cert-verify: true, udp: true}
-  - {name: 24-0948-HK, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 27-0949-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 27-0950-RELAY, server: 104.26.8.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 27-0951-RELAY, server: 172.67.170.103, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -1205,6 +1205,7 @@ proxy-groups:
       - 04-0322-JP
       - 04-0323-JP
       - 04-0324-JP
+      - 04-0325-JP
       - 04-0326-US
       - 04-0327-US
       - 04-0328-US
@@ -1823,7 +1824,6 @@ proxy-groups:
       - 24-0945-DE
       - 24-0946-CN
       - 24-0947-DE
-      - 24-0948-HK
       - 27-0949-RELAY
       - 27-0950-RELAY
       - 27-0951-RELAY
@@ -2452,7 +2452,6 @@ proxy-groups:
       - 22-0933-GB
       - 24-0938-IE
       - 24-0943-DE
-      - 24-0948-HK
       - 27-0953-RELAY
       - 27-0958-RELAY
       - 27-0963-RELAY
@@ -2703,6 +2702,7 @@ proxy-groups:
       - 04-0310-CN
       - 04-0315-DE
       - 04-0320-SG
+      - 04-0325-JP
       - 04-0330-HK
       - 04-0335-HK
       - 04-0340-CN
