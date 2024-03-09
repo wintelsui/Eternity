@@ -640,7 +640,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcwNy1OT1dIRVJFIiwiYWRkIjoiaG95b3ZlcnNlZGV2Ni4xMmlwLmNjIiwicG9ydCI6IjIwMDAxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImUwNzNlY2Q2LTE3NWEtNDcwMC1hY2RkLTA4YTM2NTJjOTIzNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhveW92ZXJzZWRldjYuMTJpcC5jYyIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcwOC1OT1dIRVJFIiwiYWRkIjoiYWN1c3Y2LjEyaXAuY2MiLCJwb3J0IjoiMjAwMDEiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTA3M2VjZDYtMTc1YS00NzAwLWFjZGQtMDhhMzY1MmM5MjM3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYWN1c3Y2LjEyaXAuY2MiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcwOS1OT1dIRVJFIiwiYWRkIjoid2F3b2pwdjYuMTJpcC5jYyIsInBvcnQiOiIyMDAwMSIsInR5cGUiOiJub25lIiwiaWQiOiJlMDczZWNkNi0xNzVhLTQ3MDAtYWNkZC0wOGEzNjUyYzkyMzciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3YXdvanB2Ni4xMmlwLmNjIiwidGxzIjoiIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcxMC1SRUxBWSIsImFkZCI6Ind3dy5icmlnaHRvY2Vhbi5sb2wiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyMjgyNmI0NC01YzFhLTRiNGItZGJhYS04M2EyZThiZDk1ZjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3d3cuYnJpZ2h0b2NlYW4ubG9sIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcxMS1SRUxBWSIsImFkZCI6IjEwNC4yMS4yMjUuMjIzIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjcwMjI5ODJmLWRhNGMtNDhjOS1jNjYwLWIyMzE1YWJkY2Y3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvP2VkPTIwNDgiLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcxMi1SRUxBWSIsImFkZCI6IjEwNC4yMS4yMjUuMzgiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDcxMy1SRUxBWSIsImFkZCI6IjEwNC4yMS4yMjUuMTUzIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjcwMjI5ODJmLWRhNGMtNDhjOS1jNjYwLWIyMzE1YWJkY2Y3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
@@ -894,6 +893,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6aDdFVERRUnZIQ3NJSVBJclNId0hh@52.178.209.160:2606#24-0964-IE
     trojan://a6292090-afe1-4640-97a7-4f1d1d877cf1@104.25.255.254:443?allowInsecure=1&sni=hdfy8c1.foriran.me#24-0965-RELAY
     trojan://telegram-id-privatevpns@108.129.3.23:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-0966-IE
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#24-0967-GB
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtMDk2OC1SRUxBWSIsImFkZCI6IjEwNC4xNy4xMjMuNTUiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxZDQ3Mjg4YS02OTlkLTQ1Y2EtYjRmMC00ZTViMzY5NDBlNmYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3FaVHRweWE/ZWQ9MjA0OCIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     ss://YWVzLTI1Ni1nY206NGY1ZDdmNGMtYzRjMi00OGI2LWFhMmItOWFmNWQ1NjliMjAw@114.37.189.98:36881#24-0969-TW
     trojan://e9391493-54bf-4fff-b6c5-945dc7442971@112.120.127.150:443?allowInsecure=1&sni=glc-hkt1.windowsupdatea.com#24-0970-HK
@@ -999,11 +999,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1067`
+合并节点总数: `1095`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1067`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1095`
 
 
 ## 仓库声明
