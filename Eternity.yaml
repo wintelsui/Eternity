@@ -282,7 +282,6 @@ proxies:
   - {name: 04-0323-JP, server: jpvip102.qlgq1.pw, port: 30443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0324-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0325-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 04-0326-US, server: lavip101.qlgq1.pw, port: 10444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0327-US, server: lavip101.qlgq1.pw, port: 20444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0328-US, server: lavip101.qlgq1.pw, port: 30444, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-0329-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -880,8 +879,8 @@ proxies:
   - {name: 24-0924-SE, server: 13.49.140.227, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0925-SE, server: 13.50.93.129, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0926-RELAY, server: 104.21.69.44, port: 443, type: trojan, password: 08176cae-b29d-4d1b-bebe-02214588a269, sni: nl1.trojanvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 24-0927-CA, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 24-0928-IE, server: 18.188.238.189, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-0927-CA, server: 15.157.113.141, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-0928-IE, server: 54.73.106.253, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0929-RELAY, server: 104.16.192.146, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: jobscareertoday.com, skip-cert-verify: true, udp: true}
   - {name: 24-0930-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
   - {name: 24-0932-IE, server: 52.178.209.160, port: 2606, type: ss, cipher: chacha20-ietf-poly1305, password: zh7ETDQRvHCsIIPIrSHwHa, udp: true}
@@ -952,7 +951,6 @@ proxies:
   - {name: 36-0997-US, server: 167.88.61.175, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 36-0998-RELAY, server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-0999-US, server: 167.88.61.175, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 36-1000-GB, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: 36-1001-US, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 36-1002-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 36-1003-RELAY, server: 104.21.226.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
@@ -965,6 +963,7 @@ proxies:
   - {name: 36-1010-RELAY, server: 104.21.234.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1011-RELAY, server: 104.21.225.7, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1012-RELAY, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf.openxai.link}}, udp: true}
+  - {name: 36-1013-US, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1014-GB, server: 35.176.109.217, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1015-LU, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray}, udp: true}
   - {name: 36-1016-IE, server: 52.178.196.157, port: 11429, type: ss, cipher: chacha20-ietf-poly1305, password: i7CDBphJenDsfdEqcM8yUH, udp: true}
@@ -1209,7 +1208,6 @@ proxy-groups:
       - 04-0323-JP
       - 04-0324-JP
       - 04-0325-JP
-      - 04-0326-US
       - 04-0327-US
       - 04-0328-US
       - 04-0329-HK
@@ -1879,7 +1877,6 @@ proxy-groups:
       - 36-0997-US
       - 36-0998-RELAY
       - 36-0999-US
-      - 36-1000-GB
       - 36-1001-US
       - 36-1002-GB
       - 36-1003-RELAY
@@ -1892,6 +1889,7 @@ proxy-groups:
       - 36-1010-RELAY
       - 36-1011-RELAY
       - 36-1012-RELAY
+      - 36-1013-US
       - 36-1014-GB
       - 36-1015-LU
       - 36-1016-IE
@@ -1958,7 +1956,6 @@ proxy-groups:
       - 04-0311-DE
       - 04-0316-SG
       - 04-0321-JP
-      - 04-0326-US
       - 04-0331-HK
       - 04-0336-HK
       - 04-0341-CN
@@ -2472,6 +2469,7 @@ proxy-groups:
       - 36-0998-RELAY
       - 36-1003-RELAY
       - 36-1008-RELAY
+      - 36-1013-US
       - 36-1018-FASTLY
   - name: 测速4分组
     type: url-test
@@ -2846,7 +2844,6 @@ proxy-groups:
       - 27-0985-RELAY
       - 27-0990-RELAY
       - 27-0995-RELAY
-      - 36-1000-GB
       - 36-1005-RELAY
       - 36-1010-RELAY
       - 36-1015-LU
