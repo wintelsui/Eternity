@@ -401,8 +401,8 @@ proxies:
   - {name: 04-0442-JP, server: 35.77.221.44, port: 443, type: trojan, password: eb570379-fb19-38a7-b575-1022806fa80b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-JP, server: 35.75.14.186, port: 443, type: trojan, password: eb570379-fb19-38a7-b575-1022806fa80b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0444-US, server: 35.167.122.148, port: 443, type: trojan, password: eb570379-fb19-38a7-b575-1022806fa80b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0445-US, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0446-US, server: 103.136.185.28, port: 3496, type: trojan, password: eb570379-fb19-38a7-b575-1022806fa80b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0445-US, server: 103.136.185.27, port: 5482, type: trojan, password: eb570379-fb19-38a7-b575-1022806fa80b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0446-US, server: 112.120.127.150, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0447-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 53bef2cc-75eb-3407-a989-68bdf50bc087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0448-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: PsWTWXUlQB98fBLu, udp: true}
   - {name: 04-0449-CN, server: gz.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: PsWTWXUlQB98fBLu, udp: true}
@@ -958,7 +958,7 @@ proxies:
   - {name: 36-1003-RELAY, server: de-01.cloudlion.me, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-01.cloudlion.me}}, udp: true}
   - {name: 36-1004-RELAY, server: 104.21.224.3, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1005-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
-  - {name: 36-1007-IE, server: 52.178.209.160, port: 2606, type: ss, cipher: chacha20-ietf-poly1305, password: zh7ETDQRvHCsIIPIrSHwHa, udp: true}
+  - {name: 36-1008-IE, server: 52.178.196.34, port: 54559, type: ss, cipher: chacha20-ietf-poly1305, password: wP1HHo24lGRUoVTBJwv92o, udp: true}
   - {name: 36-1009-IE, server: 54.73.106.253, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1010-RELAY, server: 104.21.237.87, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1011-SE, server: 13.50.93.129, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
@@ -1887,7 +1887,7 @@ proxy-groups:
       - 36-1003-RELAY
       - 36-1004-RELAY
       - 36-1005-RELAY
-      - 36-1007-IE
+      - 36-1008-IE
       - 36-1009-IE
       - 36-1010-RELAY
       - 36-1011-SE
@@ -2286,7 +2286,6 @@ proxy-groups:
       - 27-0992-RELAY
       - 36-0997-SE
       - 36-1002-RELAY
-      - 36-1007-IE
       - 36-1012-GB
       - 36-1017-IE
       - 36-1022-CZ
@@ -2476,6 +2475,7 @@ proxy-groups:
       - 27-0993-RELAY
       - 36-0998-RELAY
       - 36-1003-RELAY
+      - 36-1008-IE
       - 36-1013-RELAY
       - 36-1018-IE
   - name: 测速4分组
