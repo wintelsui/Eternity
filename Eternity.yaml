@@ -435,8 +435,8 @@ proxies:
   - {name: 04-0476-JP, server: 18.183.202.123, port: 443, type: trojan, password: e3c83a3f-ce76-314e-b2ec-e2a3720f801c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0477-JP, server: 35.78.222.249, port: 443, type: trojan, password: e3c83a3f-ce76-314e-b2ec-e2a3720f801c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0478-US, server: 34.221.23.179, port: 443, type: trojan, password: e3c83a3f-ce76-314e-b2ec-e2a3720f801c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0479-US, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0480-US, server: 103.136.185.28, port: 3497, type: trojan, password: e3c83a3f-ce76-314e-b2ec-e2a3720f801c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0479-US, server: 103.136.185.27, port: 5483, type: trojan, password: e3c83a3f-ce76-314e-b2ec-e2a3720f801c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0480-US, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0481-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 7479940c-a48a-35c2-9ed7-db2f20835653, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0482-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: OefzLd4SxdUrh2qo, udp: true}
   - {name: 04-0483-CN, server: gz.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: OefzLd4SxdUrh2qo, udp: true}
