@@ -622,6 +622,7 @@ proxies:
   - {name: 11-0664-NOWHERE, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: afb65eb8-c992-4533-ad82-69b43bbf5842, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
   - {name: 11-0665-RELAY, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-0666-DE, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 12-0667-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0668-RELAY, server: 172.67.169.158, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0669-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0670-AR, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -816,7 +817,7 @@ proxies:
   - {name: 16-0862-GB, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: 16-0863-RELAY, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-0864-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
-  - {name: 16-0865-JP, server: 13.231.243.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "16-0865-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US", server: 13.231.243.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-0866-SG, server: 52.221.242.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-0867-US, server: 34.209.89.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-0868-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
@@ -854,7 +855,7 @@ proxies:
   - {name: 24-0901-RELAY, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 24-0902-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-0903-RELAY, server: 104.21.232.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: "24-0904-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US", server: 185.39.31.6, port: 63911, type: ss, cipher: chacha20-ietf-poly1305, password: 2vJE1irAprpW4EMXayTBWx, udp: true}
+  - {name: 24-0904-JP, server: 185.39.31.6, port: 63911, type: ss, cipher: chacha20-ietf-poly1305, password: 2vJE1irAprpW4EMXayTBWx, udp: true}
   - {name: 24-0905-RELAY, server: 104.21.238.92, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 24-0906-GB, server: 3.9.45.88, port: 443, type: ss, cipher: chacha20-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-0907-FASTLY, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fastly.alipay.ovh}}, udp: true}
@@ -960,7 +961,6 @@ proxies:
   - {name: 36-1007-RELAY, server: 104.21.236.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1008-RELAY, server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1009-CN, server: 120.238.122.158, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
-  - {name: 36-1010-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 36-1011-FR, server: 13.39.101.172, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1012-RELAY, server: 104.21.238.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1013-RELAY, server: 104.21.226.34, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
@@ -1543,6 +1543,7 @@ proxy-groups:
       - 11-0664-NOWHERE
       - 11-0665-RELAY
       - 11-0666-DE
+      - 12-0667-RELAY
       - 12-0668-RELAY
       - 12-0669-RELAY
       - 12-0670-AR
@@ -1737,7 +1738,7 @@ proxy-groups:
       - 16-0862-GB
       - 16-0863-RELAY
       - 16-0864-RELAY
-      - 16-0865-JP
+      - 16-0865-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
       - 16-0866-SG
       - 16-0867-US
       - 16-0868-GB
@@ -1775,7 +1776,7 @@ proxy-groups:
       - 24-0901-RELAY
       - 24-0902-NL
       - 24-0903-RELAY
-      - 24-0904-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
+      - 24-0904-JP
       - 24-0905-RELAY
       - 24-0906-GB
       - 24-0907-FASTLY
@@ -1881,7 +1882,6 @@ proxy-groups:
       - 36-1007-RELAY
       - 36-1008-RELAY
       - 36-1009-CN
-      - 36-1010-RELAY
       - 36-1011-FR
       - 36-1012-RELAY
       - 36-1013-RELAY
@@ -2053,6 +2053,7 @@ proxy-groups:
       - 16-0851-CN
       - 16-0856-CN
       - 16-0861-CN
+      - 16-0865-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
       - 16-0866-SG
       - 22-0871-RELAY
       - 22-0876-RELAY
@@ -2061,7 +2062,6 @@ proxy-groups:
       - 22-0891-TW
       - 22-0896-DE
       - 24-0901-RELAY
-      - 24-0904-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
       - 24-0906-GB
       - 24-0911-RELAY
       - 24-0916-GB
@@ -2203,6 +2203,7 @@ proxy-groups:
       - 11-0652-IT
       - 11-0657-NOWHERE
       - 11-0662-NOWHERE
+      - 12-0667-RELAY
       - 12-0672-RELAY
       - 12-0677-RELAY
       - 12-0682-CN
@@ -2623,7 +2624,7 @@ proxy-groups:
       - 22-0884-TW
       - 22-0889-TW
       - 24-0899-RELAY
-      - 24-0904-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
+      - 24-0904-JP
       - 24-0909-RELAY
       - 24-0914-RELAY
       - 27-0919-RELAY
@@ -2803,7 +2804,7 @@ proxy-groups:
       - 15-0845-CN
       - 16-0855-JP
       - 16-0860-RELAY
-      - 16-0865-JP
+      - 16-0865-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
       - 22-0870-GOOGLE
       - 22-0875-RELAY
       - 22-0880-TW
@@ -2811,7 +2812,6 @@ proxy-groups:
       - 22-0890-TW
       - 22-0895-DE
       - 24-0900-IE
-      - 24-0904-JPtrojan//4aaa33bb-f38f-3205-bc97-5f7f8de59af9@103.136.185.283497?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0481-US
       - 24-0905-RELAY
       - 24-0910-IE
       - 24-0915-SE
@@ -2833,7 +2833,6 @@ proxy-groups:
       - 36-0995-IE
       - 36-1000-RELAY
       - 36-1005-RELAY
-      - 36-1010-RELAY
   - name: 广告拦截
     type: select
     proxies:
