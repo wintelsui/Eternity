@@ -442,6 +442,7 @@ proxies:
   - {name: 04-0483-JP, server: 3.113.249.52, port: 443, type: trojan, password: 7694999c-0272-3b10-ae9e-635fe3f016f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0484-US, server: 52.88.80.155, port: 443, type: trojan, password: 7694999c-0272-3b10-ae9e-635fe3f016f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0485-US, server: 103.136.185.27, port: 5485, type: trojan, password: 7694999c-0272-3b10-ae9e-635fe3f016f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0486-US, server: 103.136.185.28, port: 3497, type: trojan, password: 7694999c-0272-3b10-ae9e-635fe3f016f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0487-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 12535267-a1b0-37ba-babb-757345dc6e36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0488-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: KnOliXyYseAEsMZ2, udp: true}
   - {name: 04-0489-CN, server: gz.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: KnOliXyYseAEsMZ2, udp: true}
@@ -1008,7 +1009,6 @@ proxies:
   - {name: 36-1052-CN, server: 50022.baidu-cdn.top, port: 50022, type: vmess, uuid: e80442e2-4577-4b33-8d9b-798d816974bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-1053-CN, server: 4t1u6r04.m3c5wy.xyz, port: 31868, type: vmess, uuid: e35b58a7-37ff-4b57-b692-e40fa6e85d9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-1054-CN, server: 3c2h4u04.m3c5wy.xyz, port: 31864, type: vmess, uuid: e35b58a7-37ff-4b57-b692-e40fa6e85d9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 36-1055-US, server: 24.199.103.101, port: 35678, type: ss, cipher: aes-256-gcm, password: DuE6Gplaap, udp: true}
   - {name: 36-1056-RELAY, server: 104.21.239.99, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1058-RELAY, server: 104.21.231.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1059-RELAY, server: 104.21.234.73, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
@@ -1438,6 +1438,7 @@ proxy-groups:
       - 04-0483-JP
       - 04-0484-US
       - 04-0485-US
+      - 04-0486-US
       - 04-0487-HK
       - 04-0488-CN
       - 04-0489-CN
@@ -2004,7 +2005,6 @@ proxy-groups:
       - 36-1052-CN
       - 36-1053-CN
       - 36-1054-CN
-      - 36-1055-US
       - 36-1056-RELAY
       - 36-1058-RELAY
       - 36-1059-RELAY
@@ -2128,6 +2128,7 @@ proxy-groups:
       - 04-0471-CN
       - 04-0476-CN
       - 04-0481-TW
+      - 04-0486-US
       - 04-0491-CN
       - 04-0496-CN
       - 04-0501-CN
@@ -3050,7 +3051,6 @@ proxy-groups:
       - 36-1040-RELAY
       - 36-1045-RELAY
       - 36-1050-RELAY
-      - 36-1055-US
       - 36-1060-RELAY
       - 36-1065-RELAY
       - 36-1070-CN
