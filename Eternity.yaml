@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0000-JP, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
+  - {name: 04-0102-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: 8138be2c-590e-431d-9095-59938c626b45, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0103-CN, server: gcdddd0001.likeone.lol, port: 51031, type: trojan, password: 8138be2c-590e-431d-9095-59938c626b45, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0104-CN, server: gcdddd0003.likeone.lol, port: 51031, type: trojan, password: 8138be2c-590e-431d-9095-59938c626b45, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0105-CN, server: gcdddd0003.likeone.lol, port: 58464, type: trojan, password: 8138be2c-590e-431d-9095-59938c626b45, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -743,7 +744,6 @@ proxies:
   - {name: 12-0789-RELAY, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0790-RELAY, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm}, udp: true}
   - {name: 12-0791-RELAY, server: de-01.cloudlion.me, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-01.cloudlion.me}}, udp: true}
-  - {name: 12-0792-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0793-RELAY, server: 172.67.169.158, port: 8080, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0794-AR, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-0795-RELAY, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: yh2.dtku41.xyz}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0000-JP
+      - 04-0102-CN
       - 04-0103-CN
       - 04-0104-CN
       - 04-0105-CN
@@ -1740,7 +1741,6 @@ proxy-groups:
       - 12-0789-RELAY
       - 12-0790-RELAY
       - 12-0791-RELAY
-      - 12-0792-RELAY
       - 12-0793-RELAY
       - 12-0794-AR
       - 12-0795-RELAY
@@ -2255,6 +2255,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0102-CN
       - 04-0107-CN
       - 04-0112-CN
       - 04-0117-CN
@@ -2392,7 +2393,6 @@ proxy-groups:
       - 12-0777-RELAY
       - 12-0782-RELAY
       - 12-0787-IE
-      - 12-0792-RELAY
       - 12-0797-CN
       - 12-0802-CN
       - 12-0807-CN
