@@ -349,8 +349,8 @@ proxies:
   - {name: 04-390-JP, server: 18.183.202.123, port: 443, type: trojan, password: efab5e68-b508-343c-ba0e-2cf5f87b7920, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-391-JP, server: 3.113.249.52, port: 443, type: trojan, password: efab5e68-b508-343c-ba0e-2cf5f87b7920, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-392-US, server: 52.88.80.155, port: 443, type: trojan, password: efab5e68-b508-343c-ba0e-2cf5f87b7920, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-393-US, server: 103.136.185.27, port: 5485, type: trojan, password: efab5e68-b508-343c-ba0e-2cf5f87b7920, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-394-US, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-393-US, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-394-US, server: 103.136.185.28, port: 3497, type: trojan, password: efab5e68-b508-343c-ba0e-2cf5f87b7920, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-395-US, server: us.fanqiecloud.top, port: 28252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-396-US, server: us2.fanqiecloud.top, port: 23553, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-397-JP, server: jp.fanqiecloud.top, port: 51652, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
@@ -691,9 +691,9 @@ proxies:
   - {name: 27-736-RELAY, server: 162.159.133.234, port: 2083, type: trojan, password: qG9K8AGnn9XH5jUqeFu96g, sni: cdn13.cdn2cdn.com, skip-cert-verify: true, udp: true}
   - {name: 36-737-RELAY, server: 104.21.69.44, port: 443, type: trojan, password: EnCONaDGCw, sni: dui-punishment-pending-wu.trycloudflare.com, skip-cert-verify: true, udp: true}
   - {name: 36-738-GB, server: 18.171.163.179, port: 12316, type: trojan, password: zXDvAXdYmuvI, sni: appsvs.shop, skip-cert-verify: true, udp: true}
-  - {name: 36-739-IE, server: 34.248.123.55, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-739-IE, server: 52.60.255.203, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-740-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: 36-741-FR, server: 52.60.255.203, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 36-741-FR, server: 35.181.227.191, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
