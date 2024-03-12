@@ -721,6 +721,7 @@ proxies:
   - {name: 11-0764-RELAY, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-0765-RELAY, server: 104.21.225.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-0766-RELAY, server: 104.21.225.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 11-0767-DE, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0768-RELAY, server: 23.227.38.22, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm}, udp: true}
   - {name: 12-0769-RELAY, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: yh1.dtku41.xyz}}, udp: true}
   - {name: 12-0770-RELAY, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm}, udp: true}
@@ -806,7 +807,6 @@ proxies:
   - {name: 12-0850-CN, server: gcdddd0005.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 3a02a0f8-e697-4131-a873-f4d6f7d0025b, udp: true}
   - {name: 12-0851-RELAY, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 12-0852-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: 12-0853-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0854-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: 1f9a0b99-034c-4cc5-a219-837431d21551, skip-cert-verify: true, udp: true}
   - {name: 12-0855-CN, server: gcdddd0001.likeone.lol, port: 51031, type: trojan, password: 1f9a0b99-034c-4cc5-a219-837431d21551, skip-cert-verify: true, udp: true}
   - {name: 12-0856-CN, server: gcdddd0003.likeone.lol, port: 51031, type: trojan, password: 1f9a0b99-034c-4cc5-a219-837431d21551, skip-cert-verify: true, udp: true}
@@ -1690,6 +1690,7 @@ proxy-groups:
       - 11-0764-RELAY
       - 11-0765-RELAY
       - 11-0766-RELAY
+      - 11-0767-DE
       - 12-0768-RELAY
       - 12-0769-RELAY
       - 12-0770-RELAY
@@ -1775,7 +1776,6 @@ proxy-groups:
       - 12-0850-CN
       - 12-0851-RELAY
       - 12-0852-RELAY
-      - 12-0853-RELAY
       - 12-0854-CN
       - 12-0855-CN
       - 12-0856-CN
@@ -2328,6 +2328,7 @@ proxy-groups:
       - 11-0752-RELAY
       - 11-0757-RELAY
       - 11-0762-RELAY
+      - 11-0767-DE
       - 12-0772-RELAY
       - 12-0777-RELAY
       - 12-0782-RELAY
@@ -2542,7 +2543,6 @@ proxy-groups:
       - 12-0838-CN
       - 12-0843-CN
       - 12-0848-CN
-      - 12-0853-RELAY
       - 12-0858-CN
       - 12-0863-CN
       - 12-0868-CN
