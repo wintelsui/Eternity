@@ -512,8 +512,8 @@ proxies:
   - {name: 04-0579-JP, server: 18.183.202.123, port: 443, type: trojan, password: f0a33143-21aa-3240-bcf8-cd6401b1bf45, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0580-JP, server: 3.112.108.170, port: 443, type: trojan, password: f0a33143-21aa-3240-bcf8-cd6401b1bf45, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0581-US, server: 52.88.80.155, port: 443, type: trojan, password: f0a33143-21aa-3240-bcf8-cd6401b1bf45, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0582-US, server: 103.136.185.27, port: 5486, type: trojan, password: f0a33143-21aa-3240-bcf8-cd6401b1bf45, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0583-US, server: tw3.233235.xyz, port: 58517, type: trojan, password: e49291db-08f5-4749-8dac-e5df481b9ac5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0582-US, server: tw3.233235.xyz, port: 58517, type: trojan, password: e49291db-08f5-4749-8dac-e5df481b9ac5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0583-US, server: 103.136.185.28, port: 3498, type: trojan, password: f0a33143-21aa-3240-bcf8-cd6401b1bf45, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0584-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0585-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0586-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -1037,9 +1037,9 @@ proxies:
   - {name: 11-1278-US, server: sjc006.sfrae.net, port: 44220, type: ss, cipher: aes-256-gcm, password: 4577b329-ade5-4c93-a704-2cd5996b1894, udp: true}
   - {name: 11-1279-US, server: sjc006.sfrae.net, port: 44221, type: ss, cipher: aes-256-gcm, password: 4577b329-ade5-4c93-a704-2cd5996b1894, udp: true}
   - {name: 11-1401-TW, server: 188.253.6.35, port: 20009, type: vmess, uuid: 22174ad2-00d5-4e62-a0d2-f87b57a7d5f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 16-1623-US, server: sjc002.sfrae.net, port: 44214, type: ss, cipher: aes-256-gcm, password: fade2b35-7872-442e-a54e-6ccf9b970476, udp: true}
   - {name: 17-1626-CN, server: america.569883.xyz, port: 10038, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
   - {name: 17-1627-CN, server: america.569883.xyz, port: 10037, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
+  - {name: 17-1629-CN, server: america.569883.xyz, port: 10036, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
   - {name: 17-1632-CN, server: america.569883.xyz, port: 10039, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2034,9 +2034,9 @@ proxy-groups:
       - 11-1278-US
       - 11-1279-US
       - 11-1401-TW
-      - 16-1623-US
       - 17-1626-CN
       - 17-1627-CN
+      - 17-1629-CN
       - 17-1632-CN
   - name: 自动选择
     type: url-test
@@ -2659,7 +2659,6 @@ proxy-groups:
       - 10-1203-GB
       - 11-1273-US
       - 11-1278-US
-      - 16-1623-US
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2859,6 +2858,7 @@ proxy-groups:
       - 06-1084-TW
       - 11-1274-US
       - 11-1279-US
+      - 17-1629-CN
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
