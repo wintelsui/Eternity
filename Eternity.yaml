@@ -55,6 +55,8 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-HK, server: 8.217.147.230, port: 80, type: vmess, uuid: f898582b-33de-4bea-aee1-d83e9a369c7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mls.html}, udp: true}
+  - {name: 03-0002-CN, server: gtm1.ktmwan.com, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: e59a3d9e-201d-4818-823c-c29c3f16841e, udp: true}
+  - {name: 03-0003-CN, server: taiwan.569883.xyz, port: 10027, type: ss, cipher: aes-128-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
   - {name: 03-0004-CN, server: 36.140.180.162, port: 10027, type: ss, cipher: aes-128-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
   - {name: 03-0005-CN, server: gtm1.ktmwan.com, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: e59a3d9e-201d-4818-823c-c29c3f16841e, udp: true}
   - {name: 03-0006-RELAY, server: 104.21.239.76, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
@@ -538,7 +540,6 @@ proxies:
   - {name: 06-0582-SG, server: 8.222.224.162, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0583-SG, server: 8.222.167.147, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0584-RELAY, server: 162.159.137.249, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm}, udp: true}
-  - {name: 06-0585-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 06-0586-SG, server: 8.222.215.228, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0587-SG, server: 8.222.153.11, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0588-SG, server: 8.222.240.47, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1039,7 +1040,6 @@ proxies:
   - {name: 11-1087-CN, server: 112.29.200.93, port: 29711, type: vmess, uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-1088-NOWHERE, server: jzyd.12ip.cc, port: 24252, type: vmess, uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jzyd.12ip.cc}}, udp: true}
   - {name: 11-1089-TW, server: 188.253.6.35, port: 20009, type: vmess, uuid: 9f659bb9-94fd-420e-9bf0-ae5b6ab736f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-1187-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 12-1320-KR, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1052,6 +1052,8 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 03-0000-HK
+      - 03-0002-CN
+      - 03-0003-CN
       - 03-0004-CN
       - 03-0005-CN
       - 03-0006-RELAY
@@ -1535,7 +1537,6 @@ proxy-groups:
       - 06-0582-SG
       - 06-0583-SG
       - 06-0584-RELAY
-      - 06-0585-RELAY
       - 06-0586-SG
       - 06-0587-SG
       - 06-0588-SG
@@ -2036,7 +2037,6 @@ proxy-groups:
       - 11-1087-CN
       - 11-1088-NOWHERE
       - 11-1089-TW
-      - 12-1187-RELAY
       - 12-1320-KR
   - name: 自动选择
     type: url-test
@@ -2255,6 +2255,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0002-CN
       - 03-0007-RELAY
       - 03-0012-RELAY
       - 03-0017-CN
@@ -2451,12 +2452,12 @@ proxy-groups:
       - 11-1077-CN
       - 11-1082-CN
       - 11-1087-CN
-      - 12-1187-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0003-CN
       - 03-0008-RELAY
       - 03-0013-RELAY
       - 03-0018-CN
@@ -2959,7 +2960,6 @@ proxy-groups:
       - 06-0570-SG
       - 06-0575-SG
       - 06-0580-SG
-      - 06-0585-RELAY
       - 06-0590-SG
       - 06-0595-SG
       - 06-0600-SG
