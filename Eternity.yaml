@@ -540,6 +540,7 @@ proxies:
   - {name: 06-0582-SG, server: 8.222.224.162, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0583-SG, server: 8.222.167.147, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0584-RELAY, server: 162.159.137.249, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm}, udp: true}
+  - {name: 06-0585-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 06-0586-SG, server: 8.222.215.228, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0587-SG, server: 8.222.153.11, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0588-SG, server: 8.222.240.47, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -733,7 +734,6 @@ proxies:
   - {name: 07-0779-US, server: us-n1.speedyyun.com, port: 25314, type: vmess, uuid: bffbeb1e-b2ec-4b87-bd19-11f609fc4ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /victorias, headers: {Host: us-n1.speedyyun.com}}, udp: true}
   - {name: 07-0780-RELAY, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-0781-RELAY, server: 172.67.166.194, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-0782-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 07-0783-CN, server: cnone.nnslink.xyz, port: 21102, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lius02.996yyds.org, skip-cert-verify: true, udp: true}
   - {name: 07-0784-RELAY, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-0785-US, server: us03.421421.xyz, port: 20230, type: trojan, password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf, sni: 421421.xyz, skip-cert-verify: true, udp: true}
@@ -1536,6 +1536,7 @@ proxy-groups:
       - 06-0582-SG
       - 06-0583-SG
       - 06-0584-RELAY
+      - 06-0585-RELAY
       - 06-0586-SG
       - 06-0587-SG
       - 06-0588-SG
@@ -1729,7 +1730,6 @@ proxy-groups:
       - 07-0779-US
       - 07-0780-RELAY
       - 07-0781-RELAY
-      - 07-0782-RELAY
       - 07-0783-CN
       - 07-0784-RELAY
       - 07-0785-US
@@ -2389,7 +2389,6 @@ proxy-groups:
       - 07-0767-CN
       - 07-0772-RELAY
       - 07-0777-RELAY
-      - 07-0782-RELAY
       - 07-0787-RELAY
       - 07-0792-RELAY
       - 07-0797-RELAY
@@ -2958,6 +2957,7 @@ proxy-groups:
       - 06-0570-SG
       - 06-0575-SG
       - 06-0580-SG
+      - 06-0585-RELAY
       - 06-0590-SG
       - 06-0595-SG
       - 06-0600-SG
