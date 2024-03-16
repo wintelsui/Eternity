@@ -349,9 +349,9 @@ proxies:
   - {name: 04-0390-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: e1b38882-95e4-4a50-be12-6e229fa319e8, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0391-JP, server: 18.183.202.123, port: 443, type: trojan, password: 8beca190-0bab-3afa-ae11-758239a3c16f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0392-JP, server: 35.74.25.65, port: 443, type: trojan, password: 8beca190-0bab-3afa-ae11-758239a3c16f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0393-US, server: 138.2.114.255, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0393-US, server: 52.88.80.155, port: 443, type: trojan, password: 8beca190-0bab-3afa-ae11-758239a3c16f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0394-US, server: 103.136.185.27, port: 5487, type: trojan, password: 8beca190-0bab-3afa-ae11-758239a3c16f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0395-US, server: 103.136.185.28, port: 3498, type: trojan, password: 8beca190-0bab-3afa-ae11-758239a3c16f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0395-US, server: 138.2.114.255, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0396-IT, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0397-IT, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0398-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -744,6 +744,7 @@ proxies:
   - {name: 08-0787-RELAY, server: 185.135.9.208, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws}, udp: true}
   - {name: 08-0788-RELAY, server: 104.18.202.232, port: 2087, type: vmess, uuid: 1a066ded-15cf-47c5-99b8-da006adf55d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: string}, udp: true}
   - {name: 08-0789-RELAY, server: 104.17.173.8, port: 2086, type: vmess, uuid: 3d840eb7-9400-4caf-a511-e4724a003ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw}, udp: true}
+  - {name: 08-0790-RU, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0791-RELAY, server: 188.114.98.224, port: 8443, type: vmess, uuid: e85f22d2-5423-4d22-b4b8-a7e30ab4684a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0792-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 08-0793-RELAY, server: 172.67.204.84, port: 2096, type: vmess, uuid: 6a91ce2e-c570-4fa4-a497-c6386fb48a15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
@@ -758,7 +759,6 @@ proxies:
   - {name: 10-0802-RELAY, server: 172.67.196.16, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0803-RELAY, server: 104.21.32.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0804-RELAY, server: irene.lat, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: irene.lat}}, udp: true}
-  - {name: 10-0805-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-0806-RELAY, server: 172.67.196.112, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0807-RELAY, server: 172.67.184.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0808-RELAY, server: 172.67.174.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -1655,6 +1655,7 @@ proxy-groups:
       - 08-0787-RELAY
       - 08-0788-RELAY
       - 08-0789-RELAY
+      - 08-0790-RU
       - 08-0791-RELAY
       - 08-0792-RELAY
       - 08-0793-RELAY
@@ -1669,7 +1670,6 @@ proxy-groups:
       - 10-0802-RELAY
       - 10-0803-RELAY
       - 10-0804-RELAY
-      - 10-0805-GB
       - 10-0806-RELAY
       - 10-0807-RELAY
       - 10-0808-RELAY
@@ -2760,9 +2760,9 @@ proxy-groups:
       - 07-0775-RELAY
       - 07-0780-NL
       - 08-0785-RELAY
+      - 08-0790-RU
       - 10-0795-RELAY
       - 10-0800-RELAY
-      - 10-0805-GB
       - 10-0810-RELAY
       - 10-0815-RELAY
       - 10-0820-RELAY
