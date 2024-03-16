@@ -349,9 +349,9 @@ proxies:
   - {name: 04-0390-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 6bcc0796-8f16-43e8-b161-5f7c682b7bf8, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0391-JP, server: 18.183.202.123, port: 443, type: trojan, password: 7d38136c-83d8-3c9b-bf4b-db501f86ffda, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0392-JP, server: 35.74.25.65, port: 443, type: trojan, password: 7d38136c-83d8-3c9b-bf4b-db501f86ffda, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0393-US, server: 52.88.80.155, port: 443, type: trojan, password: 7d38136c-83d8-3c9b-bf4b-db501f86ffda, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0393-US, server: 138.2.114.255, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0394-US, server: 103.136.185.27, port: 5487, type: trojan, password: 7d38136c-83d8-3c9b-bf4b-db501f86ffda, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0395-US, server: 138.2.114.255, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0395-US, server: 103.136.185.28, port: 3498, type: trojan, password: 7d38136c-83d8-3c9b-bf4b-db501f86ffda, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0396-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0397-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0398-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -731,7 +731,6 @@ proxies:
   - {name: 10-0774-RELAY, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0775-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-0776-IS, server: is1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 50eeadca-5798-4517-8549-1b25bdcff7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: is1-vmess.sshmax.xyz}}, udp: true}
-  - {name: 10-0777-TR, server: tr2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: 9f32eecf-6104-4739-9dbf-0fc931738f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: tr2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-0778-BE, server: be2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: a12724eb-0697-466d-8560-8951989609c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-0779-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0780-RELAY, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -747,6 +746,7 @@ proxies:
   - {name: 10-0790-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-0791-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-0792-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
+  - {name: 10-0793-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-0794-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-0795-RELAY, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
   - {name: 10-0796-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1638,7 +1638,6 @@ proxy-groups:
       - 10-0774-RELAY
       - 10-0775-RELAY
       - 10-0776-IS
-      - 10-0777-TR
       - 10-0778-BE
       - 10-0779-RELAY
       - 10-0780-RELAY
@@ -1654,6 +1653,7 @@ proxy-groups:
       - 10-0790-RELAY
       - 10-0791-PT
       - 10-0792-GB
+      - 10-0793-GB
       - 10-0794-RELAY
       - 10-0795-RELAY
       - 10-0796-US
@@ -2194,7 +2194,6 @@ proxy-groups:
       - 08-0762-RELAY
       - 08-0767-RELAY
       - 08-0772-RELAY
-      - 10-0777-TR
       - 10-0782-RELAY
       - 10-0787-RELAY
       - 10-0792-GB
@@ -2381,6 +2380,7 @@ proxy-groups:
       - 10-0778-BE
       - 10-0783-RELAY
       - 10-0788-RELAY
+      - 10-0793-GB
       - 10-0798-RELAY
       - 10-0803-RELAY
       - 10-0808-RELAY
