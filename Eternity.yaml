@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-000-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 19720c54-855a-453b-bb8f-63dd5ef457ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
+  - {name: 04-001-RELAY, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 19720c54-855a-453b-bb8f-63dd5ef457ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
   - {name: 04-002-RELAY, server: tw2.daishuvpn.win, port: 443, type: vmess, uuid: 19720c54-855a-453b-bb8f-63dd5ef457ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw2.daishuvpn.win}}, udp: true}
   - {name: 04-003-RELAY, server: tw3.daishuvpn.win, port: 443, type: vmess, uuid: 19720c54-855a-453b-bb8f-63dd5ef457ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw3.daishuvpn.win}}, udp: true}
   - {name: 04-004-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: 19720c54-855a-453b-bb8f-63dd5ef457ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.pay.edu.kg}}, udp: true}
@@ -512,7 +513,6 @@ proxies:
   - {name: 10-555-RELAY, server: 172.67.196.16, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-556-RELAY, server: 104.21.32.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-557-RELAY, server: irene.lat, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: irene.lat}}, udp: true}
-  - {name: 10-558-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-559-RELAY, server: 172.67.196.112, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-560-RELAY, server: 172.67.184.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-561-RELAY, server: 172.67.174.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -719,6 +719,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-000-GOOGLE
+      - 04-001-RELAY
       - 04-002-RELAY
       - 04-003-RELAY
       - 04-004-RELAY
@@ -1176,7 +1177,6 @@ proxy-groups:
       - 10-555-RELAY
       - 10-556-RELAY
       - 10-557-RELAY
-      - 10-558-GB
       - 10-559-RELAY
       - 10-560-RELAY
       - 10-561-RELAY
@@ -1387,6 +1387,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-001-RELAY
       - 04-006-RELAY
       - 04-011-NOWHERE
       - 04-016-CN
@@ -1750,7 +1751,6 @@ proxy-groups:
       - 08-543-RELAY
       - 10-548-RELAY
       - 10-553-RELAY
-      - 10-558-GB
       - 10-563-RELAY
       - 10-568-GB
       - 10-573-RELAY
