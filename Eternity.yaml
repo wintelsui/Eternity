@@ -57,6 +57,7 @@ proxies:
   - {name: 04-000-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-001-RELAY, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
   - {name: 04-002-RELAY, server: tw2.daishuvpn.win, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw2.daishuvpn.win}}, udp: true}
+  - {name: 04-003-RELAY, server: tw3.daishuvpn.win, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw3.daishuvpn.win}}, udp: true}
   - {name: 04-004-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.pay.edu.kg}}, udp: true}
   - {name: 04-005-RELAY, server: jp4.pay.edu.kg, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp4.pay.edu.kg}}, udp: true}
   - {name: 04-006-RELAY, server: jp5.pay.edu.kg, port: 443, type: vmess, uuid: d69196a2-b4d1-48e0-b860-e042e9e10a2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp5.pay.edu.kg}}, udp: true}
@@ -347,7 +348,7 @@ proxies:
   - {name: 04-389-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 4e17fe71-8b6d-4cca-bcb0-cf73cbd30bb4, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-390-JP, server: 18.183.202.123, port: 443, type: trojan, password: 4967de11-b48f-337f-9ea0-81cbea73e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-391-JP, server: 35.78.218.38, port: 443, type: trojan, password: 4967de11-b48f-337f-9ea0-81cbea73e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-393-US, server: 103.136.185.27, port: 5488, type: trojan, password: 4967de11-b48f-337f-9ea0-81cbea73e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-392-US, server: 52.88.80.155, port: 443, type: trojan, password: 4967de11-b48f-337f-9ea0-81cbea73e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-394-US, server: 103.136.185.28, port: 3498, type: trojan, password: 4967de11-b48f-337f-9ea0-81cbea73e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-395-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-396-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -520,7 +521,6 @@ proxies:
   - {name: 10-564-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-565-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-566-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
-  - {name: 10-567-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-568-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-569-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-570-RELAY, server: 104.21.14.95, port: 443, type: trojan, password: 01a7ed92-3ff7-4872-84a8-fcb4757783c7, sni: rsfndc1.cpionline.us, skip-cert-verify: true, udp: true}
@@ -701,6 +701,7 @@ proxy-groups:
       - 04-000-GOOGLE
       - 04-001-RELAY
       - 04-002-RELAY
+      - 04-003-RELAY
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
@@ -991,7 +992,7 @@ proxy-groups:
       - 04-389-CN
       - 04-390-JP
       - 04-391-JP
-      - 04-393-US
+      - 04-392-US
       - 04-394-US
       - 04-395-NOWHERE
       - 04-396-NOWHERE
@@ -1164,7 +1165,6 @@ proxy-groups:
       - 10-564-RELAY
       - 10-565-PT
       - 10-566-GB
-      - 10-567-GB
       - 10-568-RELAY
       - 10-569-US
       - 10-570-RELAY
@@ -1538,6 +1538,7 @@ proxy-groups:
       - 04-377-CN
       - 04-382-CN
       - 04-387-CN
+      - 04-392-US
       - 04-397-NOWHERE
       - 04-402-NOWHERE
       - 04-407-CN
@@ -1572,7 +1573,6 @@ proxy-groups:
       - 10-552-RELAY
       - 10-557-GB
       - 10-562-RELAY
-      - 10-567-GB
       - 10-572-RELAY
       - 10-577-RELAY
       - 10-582-RELAY
@@ -1611,6 +1611,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-003-RELAY
       - 04-008-NOWHERE
       - 04-013-CN
       - 04-018-KR
@@ -1669,7 +1670,6 @@ proxy-groups:
       - 04-378-CN
       - 04-383-CN
       - 04-388-CN
-      - 04-393-US
       - 04-398-NOWHERE
       - 04-403-NOWHERE
       - 04-408-CN
