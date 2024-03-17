@@ -348,8 +348,8 @@ proxies:
   - {name: 04-389-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 6bcc0796-8f16-43e8-b161-5f7c682b7bf8, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-390-JP, server: 18.183.202.123, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-391-JP, server: 35.78.218.38, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-392-US, server: 52.88.80.155, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-393-US, server: 103.136.185.27, port: 5488, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-394-US, server: 103.136.185.28, port: 3498, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-395-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-396-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-397-IT, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -989,8 +989,8 @@ proxy-groups:
       - 04-389-CN
       - 04-390-JP
       - 04-391-JP
+      - 04-392-US
       - 04-393-US
-      - 04-394-US
       - 04-395-NOWHERE
       - 04-396-NOWHERE
       - 04-397-IT
@@ -1530,6 +1530,7 @@ proxy-groups:
       - 04-377-CN
       - 04-382-CN
       - 04-387-CN
+      - 04-392-US
       - 04-397-IT
       - 04-402-US
       - 04-407-CN
@@ -1792,7 +1793,6 @@ proxy-groups:
       - 04-379-CN
       - 04-384-CN
       - 04-389-CN
-      - 04-394-US
       - 04-399-KR
       - 04-404-NOWHERE
       - 04-409-CN
