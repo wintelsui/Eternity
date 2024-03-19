@@ -61,7 +61,6 @@ proxies:
   - {name: 04-004-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: c52854ff-d4be-4873-8316-f6b100d362f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.pay.edu.kg}}, udp: true}
   - {name: 04-005-RELAY, server: jp4.pay.edu.kg, port: 443, type: vmess, uuid: c52854ff-d4be-4873-8316-f6b100d362f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp4.pay.edu.kg}}, udp: true}
   - {name: 04-006-RELAY, server: jp5.pay.edu.kg, port: 443, type: vmess, uuid: c52854ff-d4be-4873-8316-f6b100d362f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp5.pay.edu.kg}}, udp: true}
-  - {name: "04-007-JPtrojan//521bb04c-ec1c-38ff-84ab-b69a908a8443@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-332-US", server: jp.doushimeng.com, port: 51653, type: ss, cipher: chacha20-ietf-poly1305, password: fc206cd1-9644-460f-95dc-06525aed9fe5, udp: true}
   - {name: 04-008-NOWHERE, server: krv6.doushimeng.free.hr, port: 55257, type: ss, cipher: chacha20-ietf-poly1305, password: fc206cd1-9644-460f-95dc-06525aed9fe5, udp: true}
   - {name: 04-009-NOWHERE, server: dl3s.doushimeng.com, port: 2086, type: vmess, uuid: fc206cd1-9644-460f-95dc-06525aed9fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl3s.doushimeng.com}}, udp: true}
   - {name: 04-010-NOWHERE, server: dl3s.doushimeng.com, port: 2082, type: vmess, uuid: fc206cd1-9644-460f-95dc-06525aed9fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /asdas, headers: {Host: dl3s.doushimeng.com}}, udp: true}
@@ -288,6 +287,7 @@ proxies:
   - {name: 04-329-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 23935575-7bfe-4e2f-89bb-954291ad3415, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-330-JP, server: 18.183.202.123, port: 443, type: trojan, password: 521bb04c-ec1c-38ff-84ab-b69a908a8443, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-JP, server: 35.74.22.4, port: 443, type: trojan, password: 521bb04c-ec1c-38ff-84ab-b69a908a8443, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-332-US, server: 52.88.80.155, port: 443, type: trojan, password: 521bb04c-ec1c-38ff-84ab-b69a908a8443, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-US, server: 103.136.185.27, port: 5490, type: trojan, password: 521bb04c-ec1c-38ff-84ab-b69a908a8443, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-US, server: 103.136.185.28, port: 3500, type: trojan, password: 521bb04c-ec1c-38ff-84ab-b69a908a8443, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-335-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -415,6 +415,7 @@ proxies:
   - {name: 06-457-SG, server: 8.222.169.182, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-458-SG, server: 8.222.215.228, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-459-SG, server: 8.222.182.10, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 06-460-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 06-461-SG, server: 8.222.221.197, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-462-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-463-JP, server: 02.appleid.bf, port: 443, type: vmess, uuid: 90734c5b-0028-42c8-bf7f-b6df116316a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CAT, headers: {Host: 02.appleid.bf}}, udp: true}
@@ -440,7 +441,6 @@ proxies:
   - {name: 06-483-TW, server: tw60.233235.xyz, port: 34633, type: trojan, password: 73840f48-04fe-48f3-b0f8-fa2b051bb035, sni: usmax05.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-484-TW, server: tw60.233235.xyz, port: 34633, type: trojan, password: 7be1cf8f-c48f-4fbd-a98b-6cf54e16919b, sni: usmax05.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-485-TW, server: tw60.233235.xyz, port: 53858, type: trojan, password: 73840f48-04fe-48f3-b0f8-fa2b051bb035, sni: hkmax04.170203.xyz, skip-cert-verify: true, udp: true}
-  - {name: 06-486-US, server: aws.appleid.bf, port: 443, type: vmess, uuid: 90734c5b-0028-42c8-bf7f-b6df116316a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /CAT, headers: {Host: aws.appleid.bf}}, udp: true}
   - {name: 06-487-TW, server: tw1.170203.xyz, port: 35667, type: trojan, password: 73840f48-04fe-48f3-b0f8-fa2b051bb035, sni: 2usmax01.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-488-TW, server: tw5.170203.xyz, port: 26322, type: trojan, password: 73840f48-04fe-48f3-b0f8-fa2b051bb035, sni: uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-489-TW, server: tw1.170203.xyz, port: 15059, type: trojan, password: 73840f48-04fe-48f3-b0f8-fa2b051bb035, sni: usmax05.170203.xyz, skip-cert-verify: true, udp: true}
@@ -705,7 +705,6 @@ proxies:
   - {name: 12-748-RELAY, server: yh3.freeh1.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: yh3.freeh1.xyz}}, udp: true}
   - {name: 12-749-RELAY, server: 172.67.132.6, port: 2096, type: trojan, password: 4db45bb4-dcca-4d37-a639-cb55213ee406, sni: channel.v2bamdad.tech, skip-cert-verify: true, udp: true}
   - {name: 12-750-RELAY, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-751-RELAY, server: mahilu.site, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
   - {name: 12-752-RELAY, server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 3f09c198-da80-44ce-a72b-40bc600b2321, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 12-753-US, server: 108.181.23.161, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1IKYjV0r/}, udp: true}
   - {name: 12-754-RELAY, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm}, udp: true}
@@ -859,7 +858,6 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
-      - 04-007-JPtrojan//521bb04c-ec1c-38ff-84ab-b69a908a8443@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-332-US
       - 04-008-NOWHERE
       - 04-009-NOWHERE
       - 04-010-NOWHERE
@@ -1086,6 +1084,7 @@ proxy-groups:
       - 04-329-CN
       - 04-330-JP
       - 04-331-JP
+      - 04-332-US
       - 04-333-US
       - 04-334-US
       - 04-335-NOWHERE
@@ -1213,6 +1212,7 @@ proxy-groups:
       - 06-457-SG
       - 06-458-SG
       - 06-459-SG
+      - 06-460-RELAY
       - 06-461-SG
       - 06-462-CN
       - 06-463-JP
@@ -1238,7 +1238,6 @@ proxy-groups:
       - 06-483-TW
       - 06-484-TW
       - 06-485-TW
-      - 06-486-US
       - 06-487-TW
       - 06-488-TW
       - 06-489-TW
@@ -1503,7 +1502,6 @@ proxy-groups:
       - 12-748-RELAY
       - 12-749-RELAY
       - 12-750-RELAY
-      - 12-751-RELAY
       - 12-752-RELAY
       - 12-753-US
       - 12-754-RELAY
@@ -1732,7 +1730,6 @@ proxy-groups:
       - 06-471-SG
       - 06-476-TW
       - 06-481-CN
-      - 06-486-US
       - 06-491-DE
       - 06-496-TW
       - 06-501-TW
@@ -1785,7 +1782,6 @@ proxy-groups:
       - 12-736-RELAY
       - 12-741-RELAY
       - 12-746-RELAY
-      - 12-751-RELAY
       - 12-756-RELAY
       - 12-761-CN
       - 12-766-CN
@@ -1818,7 +1814,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-002-RELAY
-      - 04-007-JPtrojan//521bb04c-ec1c-38ff-84ab-b69a908a8443@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-332-US
       - 04-012-CN
       - 04-017-KR
       - 04-022-KR
@@ -1863,6 +1858,7 @@ proxy-groups:
       - 04-317-CN
       - 04-322-CN
       - 04-327-CN
+      - 04-332-US
       - 04-337-NOWHERE
       - 04-342-NOWHERE
       - 04-347-CN
@@ -2377,6 +2373,7 @@ proxy-groups:
       - 06-445-SG
       - 06-450-SG
       - 06-455-SG
+      - 06-460-RELAY
       - 06-465-DE
       - 06-470-TW
       - 06-475-CN
