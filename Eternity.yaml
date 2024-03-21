@@ -288,7 +288,6 @@ proxies:
   - {name: 04-329-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 7291b9ad-32d1-4805-aea3-397989d580ae, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-330-JP, server: 18.183.202.123, port: 443, type: trojan, password: 0aa73d4f-4bb1-30b5-a0d9-e68da84f9a30, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-JP, server: 35.74.79.234, port: 443, type: trojan, password: 0aa73d4f-4bb1-30b5-a0d9-e68da84f9a30, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-332-US, server: 52.88.80.155, port: 443, type: trojan, password: 0aa73d4f-4bb1-30b5-a0d9-e68da84f9a30, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-US, server: 103.136.185.27, port: 5491, type: trojan, password: 0aa73d4f-4bb1-30b5-a0d9-e68da84f9a30, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-US, server: 103.136.185.28, port: 3500, type: trojan, password: 0aa73d4f-4bb1-30b5-a0d9-e68da84f9a30, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-335-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -623,6 +622,7 @@ proxies:
   - {name: 08-664-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-665-HK, server: 223.17.12.192, port: 20759, type: vmess, uuid: 9e5ca8f4-0abc-404e-926e-43a88b971d49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 08-666-HK, server: 152.32.190.239, port: 4431, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-667-US, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-668-IR, server: 185.132.81.204, port: 25192, type: vmess, uuid: 855f81bd-2880-4305-ab7d-b1f7e460dde4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-669-RELAY, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-670-RELAY, server: 172.67.166.31, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -812,7 +812,6 @@ proxies:
   - {name: 12-855-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 16-858-CN, server: vip.basicnode.host, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 10182:Ed7u0G, obfs-param: 5db9910182.microsoft.com, udp: true}
   - {name: 16-859-HK, server: 47.242.155.183, port: 2053, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 16-860-HK, server: 38.207.174.231, port: 10000, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-861-CN, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 66e030b0-e51c-11ee-b858-086e190000d9, udp: true}
   - {name: 16-862-CN, server: vip.basicnode.host, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 10182:Ed7u0G, obfs-param: 5db9910182.microsoft.com, udp: true}
   - {name: 16-863-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ba4e86e7-d4f7-4c4e-aa8f-a91b8cd9de8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -1070,7 +1069,6 @@ proxy-groups:
       - 04-329-CN
       - 04-330-JP
       - 04-331-JP
-      - 04-332-US
       - 04-333-US
       - 04-334-US
       - 04-335-NOWHERE
@@ -1405,6 +1403,7 @@ proxy-groups:
       - 08-664-HK
       - 08-665-HK
       - 08-666-HK
+      - 08-667-US
       - 08-668-IR
       - 08-669-RELAY
       - 08-670-RELAY
@@ -1594,7 +1593,6 @@ proxy-groups:
       - 12-855-RELAY
       - 16-858-CN
       - 16-859-HK
-      - 16-860-HK
       - 16-861-CN
       - 16-862-CN
       - 16-863-RELAY
@@ -1827,7 +1825,6 @@ proxy-groups:
       - 04-317-CN
       - 04-322-CN
       - 04-327-CN
-      - 04-332-US
       - 04-337-NOWHERE
       - 04-342-NOWHERE
       - 04-347-CN
@@ -1894,6 +1891,7 @@ proxy-groups:
       - 08-652-US
       - 08-657-RELAY
       - 08-662-IR
+      - 08-667-US
       - 08-672-RELAY
       - 10-677-BE
       - 10-682-RELAY
@@ -2412,7 +2410,6 @@ proxy-groups:
       - 12-845-CN
       - 12-850-CN
       - 12-855-RELAY
-      - 16-860-HK
       - 16-865-CN
       - 31-870-FR
   - name: 广告拦截
