@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-000-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 6900e3ef-8e23-4672-9910-151ffcb3d28d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
+  - {name: 04-001-RELAY, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 6900e3ef-8e23-4672-9910-151ffcb3d28d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
   - {name: 04-002-RELAY, server: tw2.daishuvpn.win, port: 443, type: vmess, uuid: 6900e3ef-8e23-4672-9910-151ffcb3d28d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw2.daishuvpn.win}}, udp: true}
   - {name: 04-003-RELAY, server: tw3.daishuvpn.win, port: 443, type: vmess, uuid: 6900e3ef-8e23-4672-9910-151ffcb3d28d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw3.daishuvpn.win}}, udp: true}
   - {name: 04-004-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: 6900e3ef-8e23-4672-9910-151ffcb3d28d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.pay.edu.kg}}, udp: true}
@@ -450,7 +451,6 @@ proxies:
   - {name: 10-492-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-493-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-494-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
-  - {name: 10-495-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-496-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-497-RELAY, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
   - {name: 10-498-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -626,6 +626,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-000-GOOGLE
+      - 04-001-RELAY
       - 04-002-RELAY
       - 04-003-RELAY
       - 04-004-RELAY
@@ -1021,7 +1022,6 @@ proxy-groups:
       - 10-492-RELAY
       - 10-493-PT
       - 10-494-GB
-      - 10-495-GB
       - 10-496-RELAY
       - 10-497-RELAY
       - 10-498-US
@@ -1201,6 +1201,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-001-RELAY
       - 04-006-RELAY
       - 04-011-NOWHERE
       - 04-016-CN
@@ -1748,7 +1749,6 @@ proxy-groups:
       - 10-480-RELAY
       - 10-485-GB
       - 10-490-RELAY
-      - 10-495-GB
       - 10-500-RELAY
       - 10-505-RELAY
       - 10-510-RELAY
