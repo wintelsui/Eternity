@@ -288,6 +288,7 @@ proxies:
   - {name: 04-329-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: ac1b4bf0-9494-409b-84b5-b36a7e31127d, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-330-JP, server: 18.183.202.123, port: 443, type: trojan, password: d6ba60a4-c5b4-3d0f-9a2c-851da48759ae, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-JP, server: 35.74.79.234, port: 443, type: trojan, password: d6ba60a4-c5b4-3d0f-9a2c-851da48759ae, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-332-US, server: 52.88.80.155, port: 443, type: trojan, password: d6ba60a4-c5b4-3d0f-9a2c-851da48759ae, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-US, server: 103.136.185.27, port: 5493, type: trojan, password: d6ba60a4-c5b4-3d0f-9a2c-851da48759ae, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-US, server: 103.136.185.28, port: 3500, type: trojan, password: d6ba60a4-c5b4-3d0f-9a2c-851da48759ae, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-335-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -412,7 +413,6 @@ proxies:
   - {name: 08-454-RELAY, server: fragment---join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: fragment---join.outline-vpn.cloud}}, udp: true}
   - {name: 08-455-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 08-456-RELAY, server: before2--join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: before2--join.outline-vpn.cloud}}, udp: true}
-  - {name: 08-457-US, server: 147.135.26.48, port: 47212, type: vmess, uuid: c46ec369-6de2-4f4c-a788-001703eefdd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-458-IR, server: 185.132.81.204, port: 16678, type: vmess, uuid: 3b9d0f5b-d062-4ee1-c9b2-ff0ca5df62ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-460-SG, server: 8.222.187.115, port: 47104, type: vmess, uuid: a6c4321a-83fb-490b-ecae-2a6340c55d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-461-RELAY, server: 172.67.229.37, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
@@ -873,6 +873,7 @@ proxy-groups:
       - 04-329-CN
       - 04-330-JP
       - 04-331-JP
+      - 04-332-US
       - 04-333-US
       - 04-334-US
       - 04-335-NOWHERE
@@ -997,7 +998,6 @@ proxy-groups:
       - 08-454-RELAY
       - 08-455-RELAY
       - 08-456-RELAY
-      - 08-457-US
       - 08-458-IR
       - 08-460-SG
       - 08-461-RELAY
@@ -1395,6 +1395,7 @@ proxy-groups:
       - 04-317-CN
       - 04-322-CN
       - 04-327-CN
+      - 04-332-US
       - 04-337-NOWHERE
       - 04-342-KR
       - 04-347-CN
@@ -1419,7 +1420,6 @@ proxy-groups:
       - 06-442-CN
       - 08-447-RELAY
       - 08-452-RELAY
-      - 08-457-US
       - 08-462-RELAY
       - 08-467-IR
       - 08-472-US
