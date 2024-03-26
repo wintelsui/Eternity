@@ -292,14 +292,14 @@ proxies:
   - {name: 04-333-US, server: 103.136.185.28, port: 3500, type: trojan, password: 7113fd47-3c83-3409-a43a-be29790f213f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-335-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-336-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-337-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-336-KR, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-337-KR, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-338-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-339-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-340-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-339-KR, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-340-DE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-341-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-342-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-343-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-342-US, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-343-IT, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-344-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-345-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-346-CN, server: jp03.bigmeyear.org, port: 30250, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -892,14 +892,14 @@ proxy-groups:
       - 04-333-US
       - 04-334-NOWHERE
       - 04-335-NOWHERE
-      - 04-336-NOWHERE
-      - 04-337-NOWHERE
+      - 04-336-KR
+      - 04-337-KR
       - 04-338-NOWHERE
-      - 04-339-NOWHERE
-      - 04-340-NOWHERE
+      - 04-339-KR
+      - 04-340-DE
       - 04-341-NOWHERE
-      - 04-342-NOWHERE
-      - 04-343-NOWHERE
+      - 04-342-US
+      - 04-343-IT
       - 04-344-CN
       - 04-345-CN
       - 04-346-CN
@@ -1306,7 +1306,7 @@ proxy-groups:
       - 04-321-CN
       - 04-326-CN
       - 04-331-US
-      - 04-336-NOWHERE
+      - 04-336-KR
       - 04-341-NOWHERE
       - 04-346-CN
       - 04-351-CN
@@ -1430,8 +1430,8 @@ proxy-groups:
       - 04-322-CN
       - 04-327-CN
       - 04-332-US
-      - 04-337-NOWHERE
-      - 04-342-NOWHERE
+      - 04-337-KR
+      - 04-342-US
       - 04-347-CN
       - 04-352-CN
       - 04-357-CN
@@ -1555,7 +1555,7 @@ proxy-groups:
       - 04-328-CN
       - 04-333-US
       - 04-338-NOWHERE
-      - 04-343-NOWHERE
+      - 04-343-IT
       - 04-348-CN
       - 04-353-CN
       - 04-358-CN
@@ -1678,7 +1678,7 @@ proxy-groups:
       - 04-324-CN
       - 04-329-JP
       - 04-334-NOWHERE
-      - 04-339-NOWHERE
+      - 04-339-KR
       - 04-344-CN
       - 04-349-CN
       - 04-354-CN
@@ -1801,7 +1801,7 @@ proxy-groups:
       - 04-325-CN
       - 04-330-JP
       - 04-335-NOWHERE
-      - 04-340-NOWHERE
+      - 04-340-DE
       - 04-345-CN
       - 04-350-CN
       - 04-355-CN
