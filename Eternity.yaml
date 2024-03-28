@@ -198,16 +198,16 @@ proxies:
   - {name: 04-239-CN, server: sz.zj.my.1.76po.com, port: 31018, type: trojan, password: a213432a-ae77-44ba-88e7-3d0006dc57d9, sni: in-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-240-CN, server: sz.zj.my.1.76po.com, port: 31019, type: trojan, password: a213432a-ae77-44ba-88e7-3d0006dc57d9, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-241-RELAY, server: dl5.fanqiecloud.top, port: 2082, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dl5.fanqiecloud.top}}, udp: true}
-  - {name: 04-242-US, server: us.fanqiecloud.top, port: 28252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-242-NOWHERE, server: us.fanqiecloud.top, port: 28252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-243-NOWHERE, server: us2.fanqiecloud.top, port: 23553, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-244-NOWHERE, server: jp.fanqiecloud.top, port: 51652, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-244-IT, server: jp.fanqiecloud.top, port: 51652, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-245-RELAY, server: dldd.fanqiecloud.top, port: 2086, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dldd.fanqiecloud.top}}, udp: true}
   - {name: 04-246-NOWHERE, server: kr2.fanqiecloud.top, port: 62252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-247-NOWHERE, server: kr3.fanqiecloud.top, port: 55252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-248-RELAY, server: kr.fanqiecloud.free.hr, port: 51062, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-249-NOWHERE, server: sg.fanqiecloud.top, port: 42760, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-250-NOWHERE, server: cf.fanqiecloud.top, port: 23704, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-251-KR, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-251-IT, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-252-GB, server: uk.fanqiecloud.top, port: 24504, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-253-NOWHERE, server: de.fanqiecloud.top, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-254-RELAY, server: dlaa.fanqiecloud.top, port: 2095, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dlaa.fanqiecloud.top}}, udp: true}
@@ -287,7 +287,7 @@ proxies:
   - {name: 04-328-US, server: 103.136.185.27, port: 5495, type: trojan, password: d7dc7b31-9f58-38d4-a7ed-2ab35fad08d4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-329-US, server: 103.136.185.28, port: 3500, type: trojan, password: d7dc7b31-9f58-38d4-a7ed-2ab35fad08d4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-330-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-331-KR, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-331-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-332-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-333-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-334-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -447,7 +447,6 @@ proxies:
   - {name: 08-488-US, server: 192.177.98.189, port: 11698, type: vmess, uuid: 8587ceb2-dc65-4bc3-9d25-f13239c1cc52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-489-US, server: 107.175.136.164, port: 26852, type: vmess, uuid: c5f6f530-e119-470f-ec61-b590f8caa2dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c5f6f530}, udp: true}
   - {name: 08-490-RELAY, server: 104.21.32.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 08-491-RU, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-492-US, server: 192.177.98.110, port: 30285, type: vmess, uuid: 3f38ae13-44bb-4d1e-ae1a-1ce782c83640, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-493-IR, server: 185.83.90.50, port: 41254, type: vmess, uuid: 39a94956-8a49-4f82-a3a4-93f7d17521d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-494-US, server: 192.177.171.194, port: 34426, type: vmess, uuid: c0335d65-2393-4e20-e840-e913ae9fe4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -455,7 +454,7 @@ proxies:
   - {name: 08-496-US, server: 205.234.231.148, port: 35000, type: vmess, uuid: 260877c8-e970-44b5-97fe-9ef0052158d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-497-US, server: 136.0.8.85, port: 45603, type: vmess, uuid: 5fb7da30-9b7d-4e99-cbf6-124e5165b786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-498-DE, server: 104.164.11.115, port: 38264, type: vmess, uuid: b67a0801-f298-4e1b-a80a-f538cdb32845, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-499-US, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
+  - {name: 08-499-FR, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 08-500-GB, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-501-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-502-US, server: 207.148.31.167, port: 30587, type: vmess, uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -468,6 +467,7 @@ proxies:
   - {name: 10-509-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 10-510-RELAY, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-511-IS, server: is1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 50eeadca-5798-4517-8549-1b25bdcff7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: is1-vmess.sshmax.xyz}}, udp: true}
+  - {name: 10-512-TR, server: tr2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: 9f32eecf-6104-4739-9dbf-0fc931738f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: tr2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-513-BE, server: be2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: a12724eb-0697-466d-8560-8951989609c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-514-RELAY, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-515-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -808,16 +808,16 @@ proxy-groups:
       - 04-239-CN
       - 04-240-CN
       - 04-241-RELAY
-      - 04-242-US
+      - 04-242-NOWHERE
       - 04-243-NOWHERE
-      - 04-244-NOWHERE
+      - 04-244-IT
       - 04-245-RELAY
       - 04-246-NOWHERE
       - 04-247-NOWHERE
       - 04-248-RELAY
       - 04-249-NOWHERE
       - 04-250-NOWHERE
-      - 04-251-KR
+      - 04-251-IT
       - 04-252-GB
       - 04-253-NOWHERE
       - 04-254-RELAY
@@ -897,7 +897,7 @@ proxy-groups:
       - 04-328-US
       - 04-329-US
       - 04-330-NOWHERE
-      - 04-331-KR
+      - 04-331-NOWHERE
       - 04-332-NOWHERE
       - 04-333-NOWHERE
       - 04-334-NOWHERE
@@ -1057,7 +1057,6 @@ proxy-groups:
       - 08-488-US
       - 08-489-US
       - 08-490-RELAY
-      - 08-491-RU
       - 08-492-US
       - 08-493-IR
       - 08-494-US
@@ -1065,7 +1064,7 @@ proxy-groups:
       - 08-496-US
       - 08-497-US
       - 08-498-DE
-      - 08-499-US
+      - 08-499-FR
       - 08-500-GB
       - 08-501-US
       - 08-502-US
@@ -1078,6 +1077,7 @@ proxy-groups:
       - 10-509-RELAY
       - 10-510-RELAY
       - 10-511-IS
+      - 10-512-TR
       - 10-513-BE
       - 10-514-RELAY
       - 10-515-RELAY
@@ -1309,7 +1309,7 @@ proxy-groups:
       - 04-236-CN
       - 04-241-RELAY
       - 04-246-NOWHERE
-      - 04-251-KR
+      - 04-251-IT
       - 04-256-RELAY
       - 04-261-RELAY
       - 04-266-TW
@@ -1325,7 +1325,7 @@ proxy-groups:
       - 04-316-CN
       - 04-321-CN
       - 04-326-JP
-      - 04-331-KR
+      - 04-331-NOWHERE
       - 04-336-NOWHERE
       - 04-341-CN
       - 04-346-CN
@@ -1357,7 +1357,6 @@ proxy-groups:
       - 08-476-RELAY
       - 08-481-US
       - 08-486-HK
-      - 08-491-RU
       - 08-496-US
       - 08-501-US
       - 08-506-RELAY
@@ -1432,7 +1431,7 @@ proxy-groups:
       - 04-227-CN
       - 04-232-CN
       - 04-237-CN
-      - 04-242-US
+      - 04-242-NOWHERE
       - 04-247-NOWHERE
       - 04-252-GB
       - 04-257-RELAY
@@ -1486,6 +1485,7 @@ proxy-groups:
       - 08-497-US
       - 08-502-US
       - 08-507-RELAY
+      - 10-512-TR
       - 10-517-RELAY
       - 10-522-RELAY
       - 10-527-PT
@@ -1682,7 +1682,7 @@ proxy-groups:
       - 04-229-CN
       - 04-234-CN
       - 04-239-CN
-      - 04-244-NOWHERE
+      - 04-244-IT
       - 04-249-NOWHERE
       - 04-254-RELAY
       - 04-259-NOWHERE
@@ -1733,7 +1733,7 @@ proxy-groups:
       - 08-484-US
       - 08-489-US
       - 08-494-US
-      - 08-499-US
+      - 08-499-FR
       - 08-504-RELAY
       - 10-509-RELAY
       - 10-514-RELAY
