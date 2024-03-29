@@ -446,7 +446,7 @@ proxies:
   - {name: 08-487-RELAY, server: 503.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 503.outline-vpn.cloud}}, udp: true}
   - {name: 08-488-US, server: 66.225.228.113, port: 42208, type: vmess, uuid: 0185ef42-1f45-45ca-9894-c122020f95db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-489-US, server: 54.86.237.50, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-491-US, server: 207.246.125.165, port: 34102, type: vmess, uuid: 307e4f69-7b73-4ed1-e1fe-d687c324e025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-490-US, server: 207.148.22.152, port: 52686, type: vmess, uuid: f4bbe44f-535b-4234-b9f2-5b88f7dba906, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-492-US, server: 140.82.42.183, port: 55160, type: vmess, uuid: 2e18b966-a7de-48e1-d991-5ddb63410df6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-493-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-494-US, server: 104.168.117.136, port: 52002, type: vmess, uuid: 97f3f5ba-4aed-4d9d-9976-64e9b1121fbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1044,7 +1044,7 @@ proxy-groups:
       - 08-487-RELAY
       - 08-488-US
       - 08-489-US
-      - 08-491-US
+      - 08-490-US
       - 08-492-US
       - 08-493-HK
       - 08-494-US
@@ -1333,7 +1333,6 @@ proxy-groups:
       - 08-476-RELAY
       - 08-481-RELAY
       - 08-486-RELAY
-      - 08-491-US
       - 08-496-US
       - 08-501-US
       - 08-506-US
@@ -1823,6 +1822,7 @@ proxy-groups:
       - 08-475-RELAY
       - 08-480-RELAY
       - 08-485-RELAY
+      - 08-490-US
       - 08-495-US
       - 08-500-IR
       - 08-505-DE
