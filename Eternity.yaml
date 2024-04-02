@@ -202,16 +202,16 @@ proxies:
   - {name: 04-243-CN, server: sz.zj.my.1.76po.com, port: 31018, type: trojan, password: 5ca5b7b1-735b-4ca6-877a-b3c687877d0a, sni: in-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-244-CN, server: sz.zj.my.1.76po.com, port: 31019, type: trojan, password: 5ca5b7b1-735b-4ca6-877a-b3c687877d0a, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-245-RELAY, server: dl5.fanqiecloud.top, port: 2082, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dl5.fanqiecloud.top}}, udp: true}
-  - {name: 04-246-NOWHERE, server: us.fanqiecloud.top, port: 28252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-246-IT, server: us.fanqiecloud.top, port: 28252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-247-NOWHERE, server: us2.fanqiecloud.top, port: 23553, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-248-NOWHERE, server: jp.fanqiecloud.top, port: 51652, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-248-IT, server: jp.fanqiecloud.top, port: 51652, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-249-RELAY, server: dldd.fanqiecloud.top, port: 2086, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dldd.fanqiecloud.top}}, udp: true}
   - {name: 04-250-NOWHERE, server: kr2.fanqiecloud.top, port: 62252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-251-NOWHERE, server: kr3.fanqiecloud.top, port: 55252, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-252-RELAY, server: kr.fanqiecloud.free.hr, port: 51062, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-253-NOWHERE, server: sg.fanqiecloud.top, port: 42760, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-254-NOWHERE, server: cf.fanqiecloud.top, port: 23704, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-255-IT, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-254-DE, server: cf.fanqiecloud.top, port: 23704, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-255-NOWHERE, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-256-GB, server: uk.fanqiecloud.top, port: 24504, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-257-NOWHERE, server: de.fanqiecloud.top, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-258-RELAY, server: dlaa.fanqiecloud.top, port: 2095, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dlaa.fanqiecloud.top}}, udp: true}
@@ -289,15 +289,15 @@ proxies:
   - {name: 04-330-US, server: 52.88.80.155, port: 443, type: trojan, password: 173b2aa3-a312-32ee-a644-6c29442dac10, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-US, server: 103.136.185.27, port: 5499, type: trojan, password: 173b2aa3-a312-32ee-a644-6c29442dac10, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-332-US, server: 103.136.185.28, port: 3504, type: trojan, password: 173b2aa3-a312-32ee-a644-6c29442dac10, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-333-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-334-DE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-335-US, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-336-US, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-337-US, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-338-US, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-339-US, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-340-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-341-US, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-333-KR, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-334-KR, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-335-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-336-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-337-KR, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-338-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-339-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-340-DE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-341-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-342-US, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-343-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-344-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -841,16 +841,16 @@ proxy-groups:
       - 04-243-CN
       - 04-244-CN
       - 04-245-RELAY
-      - 04-246-NOWHERE
+      - 04-246-IT
       - 04-247-NOWHERE
-      - 04-248-NOWHERE
+      - 04-248-IT
       - 04-249-RELAY
       - 04-250-NOWHERE
       - 04-251-NOWHERE
       - 04-252-RELAY
       - 04-253-NOWHERE
-      - 04-254-NOWHERE
-      - 04-255-IT
+      - 04-254-DE
+      - 04-255-NOWHERE
       - 04-256-GB
       - 04-257-NOWHERE
       - 04-258-RELAY
@@ -928,15 +928,15 @@ proxy-groups:
       - 04-330-US
       - 04-331-US
       - 04-332-US
-      - 04-333-NOWHERE
-      - 04-334-DE
-      - 04-335-US
-      - 04-336-US
-      - 04-337-US
-      - 04-338-US
-      - 04-339-US
-      - 04-340-NOWHERE
-      - 04-341-US
+      - 04-333-KR
+      - 04-334-KR
+      - 04-335-NOWHERE
+      - 04-336-NOWHERE
+      - 04-337-KR
+      - 04-338-NOWHERE
+      - 04-339-NOWHERE
+      - 04-340-DE
+      - 04-341-NOWHERE
       - 04-342-US
       - 04-343-CN
       - 04-344-CN
@@ -1366,7 +1366,7 @@ proxy-groups:
       - 04-231-CN
       - 04-236-CN
       - 04-241-CN
-      - 04-246-NOWHERE
+      - 04-246-IT
       - 04-251-NOWHERE
       - 04-256-GB
       - 04-261-RELAY
@@ -1384,8 +1384,8 @@ proxy-groups:
       - 04-321-CN
       - 04-326-CN
       - 04-331-US
-      - 04-336-US
-      - 04-341-US
+      - 04-336-NOWHERE
+      - 04-341-NOWHERE
       - 04-346-CN
       - 04-351-CN
       - 04-356-CN
@@ -1515,7 +1515,7 @@ proxy-groups:
       - 04-322-CN
       - 04-327-CN
       - 04-332-US
-      - 04-337-US
+      - 04-337-KR
       - 04-342-US
       - 04-347-CN
       - 04-352-CN
@@ -1628,7 +1628,7 @@ proxy-groups:
       - 04-233-CN
       - 04-238-CN
       - 04-243-CN
-      - 04-248-NOWHERE
+      - 04-248-IT
       - 04-253-NOWHERE
       - 04-258-RELAY
       - 04-263-NOWHERE
@@ -1645,8 +1645,8 @@ proxy-groups:
       - 04-318-CN
       - 04-323-CN
       - 04-328-JP
-      - 04-333-NOWHERE
-      - 04-338-US
+      - 04-333-KR
+      - 04-338-NOWHERE
       - 04-343-CN
       - 04-348-CN
       - 04-353-CN
@@ -1759,7 +1759,7 @@ proxy-groups:
       - 04-239-CN
       - 04-244-CN
       - 04-249-RELAY
-      - 04-254-NOWHERE
+      - 04-254-DE
       - 04-259-NOWHERE
       - 04-264-NOWHERE
       - 04-269-TW
@@ -1775,8 +1775,8 @@ proxy-groups:
       - 04-319-CN
       - 04-324-CN
       - 04-329-JP
-      - 04-334-DE
-      - 04-339-US
+      - 04-334-KR
+      - 04-339-NOWHERE
       - 04-344-CN
       - 04-349-CN
       - 04-354-CN
@@ -1890,7 +1890,7 @@ proxy-groups:
       - 04-240-CN
       - 04-245-RELAY
       - 04-250-NOWHERE
-      - 04-255-IT
+      - 04-255-NOWHERE
       - 04-260-RELAY
       - 04-265-RELAY
       - 04-270-TW
@@ -1906,8 +1906,8 @@ proxy-groups:
       - 04-320-CN
       - 04-325-CN
       - 04-330-US
-      - 04-335-US
-      - 04-340-NOWHERE
+      - 04-335-NOWHERE
+      - 04-340-DE
       - 04-345-CN
       - 04-350-CN
       - 04-355-CN
