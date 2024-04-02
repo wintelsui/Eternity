@@ -286,7 +286,7 @@ proxies:
   - {name: 04-327-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: ecb58c21-c6ce-4eb2-81d7-b478c66c9d1e, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-328-JP, server: 54.168.41.43, port: 443, type: trojan, password: 771d819a-2e08-3abb-b181-ea2ccaec5fa1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-329-JP, server: 35.74.79.234, port: 443, type: trojan, password: 771d819a-2e08-3abb-b181-ea2ccaec5fa1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-330-US, server: nc12.twtc.dynu.net, port: 14656, type: trojan, password: 7170dcdc-7866-4bb6-957d-a5aa046e7c0f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-330-US, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 3bedceff-1956-4f2c-a9c1-45c74568a560, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-US, server: 103.136.185.27, port: 5499, type: trojan, password: 771d819a-2e08-3abb-b181-ea2ccaec5fa1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-332-US, server: 103.136.185.28, port: 3504, type: trojan, password: 771d819a-2e08-3abb-b181-ea2ccaec5fa1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -414,6 +414,7 @@ proxies:
   - {name: 06-455-CN, server: v3-js-jp.as9929.uk, port: 53495, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-456-CN, server: v3-js-us.as9929.uk, port: 19387, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-457-CN, server: 106.75.176.128, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
+  - {name: 06-458-TW, server: nc12.twtc.dynu.net, port: 14656, type: trojan, password: 7170dcdc-7866-4bb6-957d-a5aa046e7c0f, sni: nc12.twtc.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 06-459-CN, server: 8980k6.ceova9qgbqsqmfdy-jp01.my777999.top, port: 38999, type: ss, cipher: chacha20-ietf-poly1305, password: 861de7db-5ada-4b36-903c-0ad6ba25d75a, udp: true}
   - {name: 06-460-CN, server: v3-js-sg.as9929.uk, port: 22466, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-461-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: 158141ca-528d-407d-88f2-c0ddca399b26, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
@@ -628,7 +629,6 @@ proxies:
   - {name: 16-673-CN, server: mf838f.micloud.buzz, port: 46038, type: vmess, uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf838f.micloud.buzz}}, udp: true}
   - {name: 16-674-CN, server: hk.1.thap.xyz, port: 24767, type: ss, cipher: chacha20-ietf-poly1305, password: d3339e8c-9425-4466-90ac-a8d7a3043b9b, udp: true}
   - {name: 16-675-HK, server: 144.48.32.10, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/303417111801}, udp: true}
-  - {name: 16-676-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 3bedceff-1956-4f2c-a9c1-45c74568a560, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 16-677-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 16-678-RELAY, server: 104.21.224.221, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-679-RELAY, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -1054,6 +1054,7 @@ proxy-groups:
       - 06-455-CN
       - 06-456-CN
       - 06-457-CN
+      - 06-458-TW
       - 06-459-CN
       - 06-460-CN
       - 06-461-TW
@@ -1268,7 +1269,6 @@ proxy-groups:
       - 16-673-CN
       - 16-674-CN
       - 16-675-HK
-      - 16-676-TW
       - 16-677-RELAY
       - 16-678-RELAY
       - 16-679-RELAY
@@ -1453,7 +1453,6 @@ proxy-groups:
       - 12-656-CN
       - 12-661-CN
       - 12-666-CN
-      - 16-676-TW
       - 16-681-CN
       - 32-686-RELAY
       - 32-691-RELAY
@@ -1674,6 +1673,7 @@ proxy-groups:
       - 06-443-TW
       - 06-448-RELAY
       - 06-453-CN
+      - 06-458-TW
       - 06-463-TW
       - 06-468-CN
       - 08-473-RELAY
@@ -9735,12 +9735,6 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
- - DOMAIN-SUFFIX,v1.mk,全球直连
- - DOMAIN-SUFFIX,d1.mk,全球直连
- - DOMAIN-SUFFIX,dlj.mk,全球直连
- - DOMAIN-SUFFIX,suo.yt,全球直连
- - DOMAIN-SUFFIX,sub.cm,全球直连
- - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
