@@ -243,6 +243,7 @@ proxies:
   - {name: 04-284-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-285-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-286-CN, server: n00007.bzdqsmzngpyyng.sbs, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
+  - {name: 04-287-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-288-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-289-CN, server: n00007.bzdqsmzngpyyng.sbs, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-290-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
@@ -278,7 +279,6 @@ proxies:
   - {name: 04-320-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-321-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-322-CN, server: n00007.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
-  - {name: 04-323-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-324-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 04412a2f-5062-4092-9c9e-a90bd9b9df2b, udp: true}
   - {name: 04-325-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: 84df7cae-bfec-4f55-ba78-083b4ccab4f9, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-326-CN, server: gcdddd0001.likeone.lol, port: 51031, type: trojan, password: 84df7cae-bfec-4f55-ba78-083b4ccab4f9, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -447,8 +447,8 @@ proxies:
   - {name: 08-489-RELAY, server: 162.159.0.33, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm}, udp: true}
   - {name: 08-490-SG, server: 146.190.84.34, port: 26012, type: vmess, uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-491-RELAY, server: 104.21.30.254, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 9, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 08-492-US, server: 207.148.31.167, port: 30587, type: vmess, uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-493-US, server: 140.82.20.60, port: 39164, type: vmess, uuid: 0520cc8d-b5ae-4880-e193-c2cbc9f8627a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-494-US, server: 137.220.61.211, port: 51990, type: vmess, uuid: 05dbd633-11ce-4f8c-db9d-02eb60eb4db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-495-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-496-US, server: 75.102.51.61, port: 12732, type: vmess, uuid: 191ba971-0f63-402e-bbc9-9e9eb2604b0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-497-US, server: 149.28.46.252, port: 18118, type: vmess, uuid: e223876d-ae70-4889-f6cf-15097a008888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -878,6 +878,7 @@ proxy-groups:
       - 04-284-CN
       - 04-285-CN
       - 04-286-CN
+      - 04-287-CN
       - 04-288-CN
       - 04-289-CN
       - 04-290-CN
@@ -913,7 +914,6 @@ proxy-groups:
       - 04-320-CN
       - 04-321-CN
       - 04-322-CN
-      - 04-323-CN
       - 04-324-CN
       - 04-325-CN
       - 04-326-CN
@@ -1082,8 +1082,8 @@ proxy-groups:
       - 08-489-RELAY
       - 08-490-SG
       - 08-491-RELAY
-      - 08-492-US
       - 08-493-US
+      - 08-494-US
       - 08-495-RELAY
       - 08-496-US
       - 08-497-US
@@ -1499,6 +1499,7 @@ proxy-groups:
       - 04-272-CN
       - 04-277-CN
       - 04-282-CN
+      - 04-287-CN
       - 04-292-CN
       - 04-297-CN
       - 04-302-CN
@@ -1539,7 +1540,6 @@ proxy-groups:
       - 08-477-RELAY
       - 08-482-RELAY
       - 08-487-US
-      - 08-492-US
       - 08-497-US
       - 08-502-RELAY
       - 10-507-RELAY
@@ -1634,7 +1634,6 @@ proxy-groups:
       - 04-308-CN
       - 04-313-CN
       - 04-318-CN
-      - 04-323-CN
       - 04-328-CN
       - 04-333-CN
       - 04-338-CN
@@ -1798,6 +1797,7 @@ proxy-groups:
       - 08-479-RELAY
       - 08-484-US
       - 08-489-RELAY
+      - 08-494-US
       - 08-499-IR
       - 10-504-RELAY
       - 10-509-RELAY
@@ -9720,12 +9720,6 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
- - DOMAIN-SUFFIX,v1.mk,全球直连
- - DOMAIN-SUFFIX,d1.mk,全球直连
- - DOMAIN-SUFFIX,dlj.mk,全球直连
- - DOMAIN-SUFFIX,suo.yt,全球直连
- - DOMAIN-SUFFIX,sub.cm,全球直连
- - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
