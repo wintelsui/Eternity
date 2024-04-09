@@ -166,6 +166,7 @@ proxies:
   - {name: 04-109-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-110-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-111-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-112-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-113-US, server: us02.freeflyingcloud.xyz, port: 30020, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: us02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-114-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-115-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -457,20 +458,19 @@ proxies:
   - {name: 08-499-US, server: 104.249.173.159, port: 40118, type: vmess, uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-500-US, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sd23dss}, udp: true}
   - {name: 08-501-FR, server: 213.32.63.176, port: 8954, type: vmess, uuid: 43d3c519-fb90-4e1c-ab72-ab921f6d3d04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-502-US, server: 64.176.199.51, port: 23534, type: vmess, uuid: d7da6369-ea95-4ccf-c721-85200794a62e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-US, server: 50.118.138.74, port: 41496, type: vmess, uuid: 74367726-82a6-480b-ba0a-c79979f36db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-505-US, server: 104.243.16.88, port: 42015, type: vmess, uuid: a684d384-5631-4ef3-c8f8-e1a98d2fc2c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-506-US, server: 107.172.25.132, port: 18117, type: vmess, uuid: e2cfd504-b51f-42a4-cc18-665f82f2549c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-507-RELAY, server: 104.16.60.8, port: 2083, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws}, udp: true}
   - {name: 08-508-RELAY, server: 104.21.31.189, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 08-509-US, server: 207.246.108.107, port: 40193, type: vmess, uuid: 10979bca-b26b-42ae-801c-b2efbd1bf8b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-510-US, server: 156.235.89.249, port: 59526, type: vmess, uuid: 9d940d04-9617-4e67-d458-161283255660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-511-TW, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-512-US, server: 149.28.120.218, port: 24721, type: vmess, uuid: 538f45a8-cfeb-4c29-9903-f8ccec575160, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-513-US, server: 149.248.0.91, port: 36565, type: vmess, uuid: bb41e22d-fda9-4ef9-ca7a-a4b68c9db866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-514-GB, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-515-US, server: 137.220.61.211, port: 51990, type: vmess, uuid: 05dbd633-11ce-4f8c-db9d-02eb60eb4db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-516-MO, server: 27.109.160.174, port: 54866, type: vmess, uuid: be77618a-737e-4260-cc87-e405073f91dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /免费节点分享TG频道@WSBVPN}, udp: true}
   - {name: 08-517-US, server: 205.234.233.68, port: 445, type: vmess, uuid: ff982b62-2d2e-4ebe-befc-6e3d5177857c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-518-RELAY, server: 104.26.9.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-519-RELAY, server: maureen.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maureen.autos}}, udp: true}
@@ -509,6 +509,7 @@ proxies:
   - {name: 12-552-RELAY, server: fbi.gov, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: fbi.gov}}, udp: true}
   - {name: 12-553-RELAY, server: yh3.freeh1.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: yh3.freeh1.xyz}}, udp: true}
   - {name: 12-554-RELAY, server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: 3f09c198-da80-44ce-a72b-40bc600b2321, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
+  - {name: 12-555-US, server: 108.181.23.161, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1IKYjV0r/}, udp: true}
   - {name: 12-556-RELAY, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm}, udp: true}
   - {name: 12-557-RELAY, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm}, udp: true}
   - {name: 12-558-RELAY, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm}, udp: true}
@@ -815,6 +816,7 @@ proxy-groups:
       - 04-109-KR
       - 04-110-JP
       - 04-111-SG
+      - 04-112-AU
       - 04-113-US
       - 04-114-US
       - 04-115-RU
@@ -1106,20 +1108,19 @@ proxy-groups:
       - 08-499-US
       - 08-500-US
       - 08-501-FR
-      - 08-502-US
       - 08-503-US
       - 08-504-HK
       - 08-505-US
       - 08-506-US
       - 08-507-RELAY
       - 08-508-RELAY
+      - 08-509-US
       - 08-510-US
       - 08-511-TW
       - 08-512-US
       - 08-513-US
       - 08-514-GB
       - 08-515-US
-      - 08-516-MO
       - 08-517-US
       - 10-518-RELAY
       - 10-519-RELAY
@@ -1158,6 +1159,7 @@ proxy-groups:
       - 12-552-RELAY
       - 12-553-RELAY
       - 12-554-RELAY
+      - 12-555-US
       - 12-556-RELAY
       - 12-557-RELAY
       - 12-558-RELAY
@@ -1440,7 +1442,6 @@ proxy-groups:
       - 08-501-FR
       - 08-506-US
       - 08-511-TW
-      - 08-516-MO
       - 10-521-RELAY
       - 10-526-RELAY
       - 10-531-RELAY
@@ -1512,6 +1513,7 @@ proxy-groups:
       - 04-097-NOWHERE
       - 04-102-TW
       - 04-107-TW
+      - 04-112-AU
       - 04-117-GB
       - 04-122-GOOGLE
       - 04-127-US
@@ -1570,7 +1572,6 @@ proxy-groups:
       - 08-487-RELAY
       - 08-492-RELAY
       - 08-497-RELAY
-      - 08-502-US
       - 08-507-RELAY
       - 08-512-US
       - 08-517-US
@@ -1838,6 +1839,7 @@ proxy-groups:
       - 08-494-RELAY
       - 08-499-US
       - 08-504-HK
+      - 08-509-US
       - 08-514-GB
       - 10-519-RELAY
       - 10-524-RELAY
@@ -1980,6 +1982,7 @@ proxy-groups:
       - 12-540-RELAY
       - 12-545-RELAY
       - 12-550-RELAY
+      - 12-555-US
       - 12-565-CN
       - 12-570-CN
       - 12-575-CN
