@@ -171,7 +171,7 @@ proxies:
   - {name: 04-114-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 0c682abc-cb45-47cc-881b-40dafeff2403, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-115-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 0c682abc-cb45-47cc-881b-40dafeff2403, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-116-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 0c682abc-cb45-47cc-881b-40dafeff2403, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-117-GB, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-117-GB, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-118-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: 0c682abc-cb45-47cc-881b-40dafeff2403, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-119-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-120-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -220,6 +220,7 @@ proxies:
   - {name: 04-163-TW, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 29f2546a-52c4-4f4e-bb9c-29635ff782e0, udp: true}
   - {name: 04-164-JP, server: 35.78.196.235, port: 443, type: trojan, password: 946327f3-8fa6-3ad9-a50c-63599c783858, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-165-JP, server: 35.74.79.234, port: 443, type: trojan, password: 946327f3-8fa6-3ad9-a50c-63599c783858, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-166-US, server: 52.88.80.155, port: 443, type: trojan, password: 946327f3-8fa6-3ad9-a50c-63599c783858, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-167-US, server: 103.136.185.27, port: 5499, type: trojan, password: 946327f3-8fa6-3ad9-a50c-63599c783858, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-168-US, server: 103.136.185.28, port: 3504, type: trojan, password: 946327f3-8fa6-3ad9-a50c-63599c783858, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-267-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
@@ -362,7 +363,6 @@ proxies:
   - {name: 04-404-JP, server: jpvip102.qlgq.fun, port: 61235, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: jpvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-405-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-406-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-407-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-408-HK, server: hkvip102.qlgq.fun, port: 12249, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-409-HK, server: hkvip102.qlgq.fun, port: 22249, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-410-HK, server: hkvip102.qlgq.fun, port: 32249, type: trojan, password: 53a3352f-1a81-3547-9d22-cff0199f131e, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -405,7 +405,7 @@ proxies:
   - {name: 04-447-NOWHERE, server: in.fanqiecloud.top, port: 22460, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-448-NOWHERE, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-449-SG, server: sg.colacloud.site, port: 42752, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
-  - {name: "04-450-KRtrojan//946327f3-8fa6-3ad9-a50c-63599c783858@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-166-US", server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
+  - {name: 04-450-KR, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 06-451-KR, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 22707ae0-26b9-412a-89be-01e6abbc0f9c, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-452-KR, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 476f4ce0-7cd2-4081-b24e-be26b135e4a2, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-453-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
@@ -429,6 +429,7 @@ proxies:
   - {name: 06-471-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 1ee58d08-3651-40ed-abc2-9bb7840b9fd3, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-472-CN, server: 42.240.130.243, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
   - {name: 06-473-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 905ab1ed-d561-495b-a3bb-a567f7c7c0b7, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 06-474-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-475-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-476-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 1ee58d08-3651-40ed-abc2-9bb7840b9fd3, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-477-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 905ab1ed-d561-495b-a3bb-a567f7c7c0b7, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -454,7 +455,6 @@ proxies:
   - {name: 08-497-CA, server: 104.234.69.243, port: 53259, type: vmess, uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-498-US, server: 108.61.84.6, port: 15937, type: vmess, uuid: ef239c2f-9105-4cf9-c99c-b70d25982390, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-499-US, server: 135.148.62.165, port: 59988, type: vmess, uuid: cfd7a05c-82cf-436d-abce-8b2245b76472, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-500-US, server: 5.161.192.172, port: 33764, type: vmess, uuid: f96e9397-08be-4227-e26a-f3a55a3976de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-501-US, server: 149.28.228.215, port: 22195, type: vmess, uuid: f865bc43-b129-443e-d00a-7d303b25c4a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-502-VN, server: 103.173.254.106, port: 1850, type: vmess, uuid: c6c1f641-651f-4781-b9e2-c4e4858a619a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
   - {name: 08-503-RELAY, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -869,6 +869,7 @@ proxy-groups:
       - 04-163-TW
       - 04-164-JP
       - 04-165-JP
+      - 04-166-US
       - 04-167-US
       - 04-168-US
       - 04-267-TW
@@ -1011,7 +1012,6 @@ proxy-groups:
       - 04-404-JP
       - 04-405-US
       - 04-406-US
-      - 04-407-US
       - 04-408-HK
       - 04-409-HK
       - 04-410-HK
@@ -1054,7 +1054,7 @@ proxy-groups:
       - 04-447-NOWHERE
       - 04-448-NOWHERE
       - 04-449-SG
-      - 04-450-KRtrojan//946327f3-8fa6-3ad9-a50c-63599c783858@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-166-US
+      - 04-450-KR
       - 06-451-KR
       - 06-452-KR
       - 06-453-RELAY
@@ -1078,6 +1078,7 @@ proxy-groups:
       - 06-471-US
       - 06-472-CN
       - 06-473-GB
+      - 06-474-US
       - 06-475-FR
       - 06-476-RU
       - 06-477-FR
@@ -1103,7 +1104,6 @@ proxy-groups:
       - 08-497-CA
       - 08-498-US
       - 08-499-US
-      - 08-500-US
       - 08-501-US
       - 08-502-VN
       - 08-503-RELAY
@@ -1390,6 +1390,7 @@ proxy-groups:
       - 04-151-CN
       - 04-156-CN
       - 04-161-CN
+      - 04-166-US
       - 04-271-TW
       - 04-276-CN
       - 04-281-CN
@@ -1426,7 +1427,6 @@ proxy-groups:
       - 04-436-NOWHERE
       - 04-441-RELAY
       - 04-446-RELAY
-      - 04-450-KRtrojan//946327f3-8fa6-3ad9-a50c-63599c783858@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-166-US
       - 06-451-KR
       - 06-456-RELAY
       - 06-461-AU
@@ -1552,7 +1552,6 @@ proxy-groups:
       - 04-392-DE
       - 04-397-SG
       - 04-402-JP
-      - 04-407-US
       - 04-412-HK
       - 04-417-HK
       - 04-422-CN
@@ -1832,6 +1831,7 @@ proxy-groups:
       - 06-459-AU
       - 06-464-AU
       - 06-469-US
+      - 06-474-US
       - 06-479-FR
       - 06-484-GB
       - 08-489-RELAY
@@ -1959,7 +1959,7 @@ proxy-groups:
       - 04-435-NOWHERE
       - 04-440-NOWHERE
       - 04-445-NOWHERE
-      - 04-450-KRtrojan//946327f3-8fa6-3ad9-a50c-63599c783858@52.88.80.155443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-166-US
+      - 04-450-KR
       - 06-455-FR
       - 06-460-US
       - 06-465-RU
@@ -1969,7 +1969,6 @@ proxy-groups:
       - 08-485-RELAY
       - 08-490-RELAY
       - 08-495-US
-      - 08-500-US
       - 08-505-US
       - 08-510-US
       - 10-515-RELAY
