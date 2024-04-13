@@ -219,7 +219,7 @@ proxies:
   - {name: 04-163-TW, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 897f85dc-99ab-4ce6-97a2-f4605f8b6891, udp: true}
   - {name: 04-164-JP, server: 35.78.196.235, port: 443, type: trojan, password: 58ff2c2b-49eb-36a1-8d78-4cda613c7553, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-165-JP, server: 35.74.79.234, port: 443, type: trojan, password: 58ff2c2b-49eb-36a1-8d78-4cda613c7553, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-166-US, server: 52.88.80.155, port: 443, type: trojan, password: 58ff2c2b-49eb-36a1-8d78-4cda613c7553, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-166-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-167-US, server: 103.136.185.27, port: 5499, type: trojan, password: 58ff2c2b-49eb-36a1-8d78-4cda613c7553, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-168-US, server: 103.136.185.28, port: 3504, type: trojan, password: 58ff2c2b-49eb-36a1-8d78-4cda613c7553, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-267-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
@@ -432,6 +432,7 @@ proxies:
   - {name: 08-474-US, server: 23.94.104.164, port: 1194, type: vmess, uuid: 7d309a75-5d7b-409b-f3f6-6f7a45d3f3ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-475-US, server: 149.28.228.215, port: 22195, type: vmess, uuid: f865bc43-b129-443e-d00a-7d303b25c4a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-476-IR, server: 31.47.45.149, port: 54986, type: vmess, uuid: 4e97a39f-9918-4b37-bbcf-7bc7f2bb57fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-477-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-478-JP, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-479-IR, server: 85.9.97.203, port: 8081, type: vmess, uuid: f8ab8e4f-f1d3-4f50-862f-844676bbfe05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-480-AE, server: 217.195.200.95, port: 52908, type: vmess, uuid: 00fb9e85-6783-486a-ba5f-c98f277aedf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1056,6 +1057,7 @@ proxy-groups:
       - 08-474-US
       - 08-475-US
       - 08-476-IR
+      - 08-477-US
       - 08-478-JP
       - 08-479-IR
       - 08-480-AE
@@ -1511,6 +1513,7 @@ proxy-groups:
       - 08-462-RELAY
       - 08-467-RELAY
       - 08-472-US
+      - 08-477-US
       - 08-482-FR
       - 08-487-RELAY
       - 10-492-RELAY
