@@ -246,7 +246,6 @@ proxies:
   - {name: 04-287-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-288-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-289-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-290-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-291-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-292-AE, server: ae01.freeflyingcloud.xyz, port: 52102, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: ae01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-293-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 915d8ea0-5cc0-3d79-b85f-f4f432ab5cb7, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -524,6 +523,7 @@ proxies:
   - {name: 08-566-DE, server: 199.247.3.99, port: 2635, type: vmess, uuid: efc57cff-bc4b-42e3-ff01-942f81037a43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-567-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-568-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-569-FR, server: 162.19.25.207, port: 44513, type: vmess, uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-570-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-571-GB, server: 154.62.185.162, port: 35816, type: vmess, uuid: 6cebbdaa-74ce-43ce-dfe2-1cecba9cecb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-572-US, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sd23dss}, udp: true}
@@ -953,7 +953,6 @@ proxy-groups:
       - 04-287-AU
       - 04-288-RU
       - 04-289-FR
-      - 04-290-GB
       - 04-291-IT
       - 04-292-AE
       - 04-293-DE
@@ -1231,6 +1230,7 @@ proxy-groups:
       - 08-566-DE
       - 08-567-US
       - 08-568-GB
+      - 08-569-FR
       - 08-570-RELAY
       - 08-571-GB
       - 08-572-US
@@ -2000,6 +2000,7 @@ proxy-groups:
       - 06-554-DE
       - 06-559-RELAY
       - 06-564-RELAY
+      - 08-569-FR
       - 08-574-US
       - 08-579-RELAY
       - 10-584-RELAY
@@ -2089,7 +2090,6 @@ proxy-groups:
       - 04-275-CN
       - 04-280-CN
       - 04-285-JP
-      - 04-290-GB
       - 04-295-DE
       - 04-300-SG
       - 04-305-JP
