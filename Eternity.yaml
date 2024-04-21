@@ -431,7 +431,6 @@ proxies:
   - {name: 08-473-FI, server: 65.108.241.240, port: 34697, type: vmess, uuid: 4dc8871c-337c-4804-8d61-15c6a0de9ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-474-US, server: 38.46.1.235, port: 49828, type: vmess, uuid: ef281126-77e1-44e6-aa83-159c488ce37f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-475-DE, server: 199.247.3.99, port: 2672, type: vmess, uuid: f7078a40-43cc-4cb7-f209-660686eabf1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-476-JP, server: 141.147.168.112, port: 44402, type: trojan, password: 6d257b63-0632-4dd6-b021-3085f8dc28b2, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 08-477-IN, server: 13.201.236.209, port: 53837, type: vmess, uuid: 252b7ece-80eb-4c7b-93f4-cb0166e53325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-478-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: 6d257b63-0632-4dd6-b021-3085f8dc28b2, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 08-479-RELAY, server: 185.146.173.59, port: 2083, type: vmess, uuid: 587fe4b8-5ed8-46a1-8ae4-0a07efd35855, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 2083vmess}, udp: true}
@@ -612,6 +611,7 @@ proxies:
   - {name: 16-655-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 16-656-JP, server: 54.249.13.12, port: 80, type: vmess, uuid: cc8624d9-9012-41fc-a425-0039ad48ae85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 16-657-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
+  - {name: 16-658-JP, server: 18.179.199.9, port: 80, type: vmess, uuid: 146f5892-29b5-4f91-b96c-62a0f92c7690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed"}, udp: true}
   - {name: 16-659-CN, server: mmjp11.micloud.buzz, port: 46011, type: vmess, uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmjp11.micloud.buzz}}, udp: true}
   - {name: 16-660-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: aa385f39-d784-4b80-9725-c3904a337cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
   - {name: 16-661-CN, server: mmsg16.micloud.buzz, port: 46016, type: vmess, uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmsg16.micloud.buzz}}, udp: true}
@@ -1058,7 +1058,6 @@ proxy-groups:
       - 08-473-FI
       - 08-474-US
       - 08-475-DE
-      - 08-476-JP
       - 08-477-IN
       - 08-478-JP
       - 08-479-RELAY
@@ -1239,6 +1238,7 @@ proxy-groups:
       - 16-655-RELAY
       - 16-656-JP
       - 16-657-RELAY
+      - 16-658-JP
       - 16-659-CN
       - 16-660-RELAY
       - 16-661-CN
@@ -1388,7 +1388,6 @@ proxy-groups:
       - 06-456-CN
       - 06-466-RELAY
       - 06-471-CN
-      - 08-476-JP
       - 08-481-JP
       - 08-486-CN
       - 10-491-RELAY
@@ -1681,6 +1680,7 @@ proxy-groups:
       - 12-643-CN
       - 12-648-CN
       - 16-653-CN
+      - 16-658-JP
       - 16-663-CN
       - 16-668-RELAY
       - 31-673-RELAY
