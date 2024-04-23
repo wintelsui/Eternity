@@ -101,7 +101,7 @@ proxies:
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 35.78.196.235, port: 443, type: trojan, password: f176b653-94e9-3d46-a1f7-36ae0ce92984, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.74.79.234, port: 443, type: trojan, password: f176b653-94e9-3d46-a1f7-36ae0ce92984, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-047-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-047-US, server: 52.88.80.155, port: 443, type: trojan, password: f176b653-94e9-3d46-a1f7-36ae0ce92984, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: f176b653-94e9-3d46-a1f7-36ae0ce92984, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: f176b653-94e9-3d46-a1f7-36ae0ce92984, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
@@ -268,7 +268,6 @@ proxies:
   - {name: 04-309-JP, server: jpvip102.qlgq.fun, port: 61236, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: jpvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-310-JP, server: jpvip102.qlgq.fun, port: 61235, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: jpvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-311-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-312-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-313-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-314-HK, server: hkvip102.qlgq.fun, port: 12249, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-315-HK, server: hkvip102.qlgq.fun, port: 22249, type: trojan, password: a9a5b494-363b-3431-9a55-56074d1fd83f, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -432,12 +431,12 @@ proxies:
   - {name: 06-473-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 0f823acc-0136-4203-8151-7fd99677f5aa, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-474-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 06-475-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 06-476-RELAY, server: us219.netfilx.live, port: 80, type: vmess, uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us219.netfilx.live}}, udp: true}
   - {name: 06-477-RELAY, server: 141.101.122.250, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm}, udp: true}
   - {name: 06-478-US, server: 23.26.98.120, port: 998, type: vmess, uuid: a9753cbd-8e34-49c5-be50-c4dbf55e2a12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-479-NL, server: 156.253.5.63, port: 15843, type: vmess, uuid: 63d39605-332b-4e67-aa33-aa142d897730, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-480-CN, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-481-RELAY, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-482-GB, server: 51.195.140.87, port: 35995, type: vmess, uuid: 28f08493-de6d-486e-84f5-5abe092ff78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-483-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-484-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-485-SG, server: 152.42.218.53, port: 80, type: vmess, uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -535,7 +534,6 @@ proxies:
   - {name: 06-577-US, server: 144.202.59.26, port: 57061, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-578-US, server: 168.235.82.103, port: 16123, type: vmess, uuid: fa09f016-0460-4bcf-d209-197b7f3d270e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-579-US, server: 45.76.18.197, port: 20703, type: vmess, uuid: ae710bf3-229a-4f31-d990-971b831c8985, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-580-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-581-RELAY, server: zula.ir, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 06-582-US, server: 147.135.115.28, port: 59988, type: vmess, uuid: cfd7a05c-82cf-436d-abce-8b2245b76472, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-583-US, server: 135.148.62.165, port: 59988, type: vmess, uuid: cfd7a05c-82cf-436d-abce-8b2245b76472, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -552,6 +550,7 @@ proxies:
   - {name: 10-594-RELAY, server: 502.outline-vpn.cloud, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 502.outline-vpn.cloud}}, udp: true}
   - {name: 10-595-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-596-RELAY, server: 172.67.161.77, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 10-597-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-598-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-599-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-600-RELAY, server: 188.114.96.6, port: 443, type: vmess, uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: argo}, udp: true}
@@ -974,7 +973,6 @@ proxy-groups:
       - 04-309-JP
       - 04-310-JP
       - 04-311-US
-      - 04-312-US
       - 04-313-US
       - 04-314-HK
       - 04-315-HK
@@ -1138,12 +1136,12 @@ proxy-groups:
       - 06-473-KR
       - 06-474-RELAY
       - 06-475-RELAY
+      - 06-476-RELAY
       - 06-477-RELAY
       - 06-478-US
       - 06-479-NL
       - 06-480-CN
       - 06-481-RELAY
-      - 06-482-GB
       - 06-483-GB
       - 06-484-US
       - 06-485-SG
@@ -1241,7 +1239,6 @@ proxy-groups:
       - 06-577-US
       - 06-578-US
       - 06-579-US
-      - 06-580-US
       - 06-581-RELAY
       - 06-582-US
       - 06-583-US
@@ -1258,6 +1255,7 @@ proxy-groups:
       - 10-594-RELAY
       - 10-595-RELAY
       - 10-596-RELAY
+      - 10-597-US
       - 10-598-RELAY
       - 10-599-US
       - 10-600-RELAY
@@ -1547,6 +1545,7 @@ proxy-groups:
       - 06-461-US
       - 06-466-VN
       - 06-471-US
+      - 06-476-RELAY
       - 06-481-RELAY
       - 06-486-RELAY
       - 06-491-RELAY
@@ -1656,7 +1655,6 @@ proxy-groups:
       - 04-297-DE
       - 04-302-SG
       - 04-307-JP
-      - 04-312-US
       - 04-317-HK
       - 04-322-HK
       - 04-327-CN
@@ -1690,7 +1688,6 @@ proxy-groups:
       - 06-467-RELAY
       - 06-472-US
       - 06-477-RELAY
-      - 06-482-GB
       - 06-487-FR
       - 06-492-SG
       - 06-497-SG
@@ -1713,6 +1710,7 @@ proxy-groups:
       - 06-582-US
       - 08-587-NL
       - 08-592-HK
+      - 10-597-US
       - 12-602-RELAY
       - 12-607-RELAY
       - 12-612-RELAY
@@ -2143,7 +2141,6 @@ proxy-groups:
       - 06-565-CN
       - 06-570-US
       - 06-575-RU
-      - 06-580-US
       - 08-585-RELAY
       - 08-590-US
       - 10-595-RELAY
