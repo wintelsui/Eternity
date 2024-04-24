@@ -437,6 +437,7 @@ proxies:
   - {name: 06-478-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 06-479-US, server: 45.77.146.58, port: 22131, type: vmess, uuid: ad42d586-dcd1-4629-d49b-a6f2d821ad39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-480-RELAY, server: 172.67.174.42, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 06-481-RELAY, server: us219.netfilx.live, port: 80, type: vmess, uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us219.netfilx.live}}, udp: true}
   - {name: 06-482-DE, server: 92.223.124.36, port: 80, type: vmess, uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray}, udp: true}
   - {name: 06-483-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-484-RELAY, server: hms082.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms082.gwdef.sbs}}, udp: true}
@@ -445,7 +446,6 @@ proxies:
   - {name: 06-487-RELAY, server: 172.67.188.156, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-488-GB, server: 51.195.140.87, port: 35995, type: vmess, uuid: 28f08493-de6d-486e-84f5-5abe092ff78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-489-NL, server: 156.253.5.63, port: 15843, type: vmess, uuid: 63d39605-332b-4e67-aa33-aa142d897730, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-490-FR, server: 162.19.25.207, port: 44513, type: vmess, uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-491-US, server: 23.26.98.120, port: 998, type: vmess, uuid: a9753cbd-8e34-49c5-be50-c4dbf55e2a12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-492-CZ, server: 77.75.230.125, port: 8080, type: vmess, uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 06-493-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -670,7 +670,6 @@ proxies:
   - {name: 16-715-CN, server: dotu-jpv2.03ezhg0qsa.download, port: 11025, type: trojan, password: ac1f3b35-1d03-3a85-beab-258d8f23edc6, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 16-716-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: a595e9ba-b641-480f-8597-323612357ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/VDXcaM7r, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 16-717-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: a595e9ba-b641-480f-8597-323612357ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
-  - {name: 16-718-US, server: 38.145.220.68, port: 12578, type: trojan, password: 36acffd6bb2fd049%2540525113083387973, sni: node.bmrzqy.xyz, skip-cert-verify: true, udp: true}
   - {name: 16-719-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 16-720-RELAY, server: ip.sb, port: 2053, type: vmess, uuid: b2aba745-50f4-45e0-b4c0-6e230b99fb2e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: ip.sb}}, udp: true}
   - {name: 31-721-RELAY, server: 104.21.225.104, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1114,6 +1113,7 @@ proxy-groups:
       - 06-478-RELAY
       - 06-479-US
       - 06-480-RELAY
+      - 06-481-RELAY
       - 06-482-DE
       - 06-483-US
       - 06-484-RELAY
@@ -1122,7 +1122,6 @@ proxy-groups:
       - 06-487-RELAY
       - 06-488-GB
       - 06-489-NL
-      - 06-490-FR
       - 06-491-US
       - 06-492-CZ
       - 06-493-GB
@@ -1347,7 +1346,6 @@ proxy-groups:
       - 16-715-CN
       - 16-716-RELAY
       - 16-717-RELAY
-      - 16-718-US
       - 16-719-RELAY
       - 16-720-RELAY
       - 31-721-RELAY
@@ -1490,6 +1488,7 @@ proxy-groups:
       - 06-466-US
       - 06-471-RELAY
       - 06-476-RELAY
+      - 06-481-RELAY
       - 06-486-RELAY
       - 06-491-US
       - 06-496-RELAY
@@ -1811,7 +1810,6 @@ proxy-groups:
       - 12-703-CN
       - 12-708-CN
       - 16-713-CN
-      - 16-718-US
       - 31-723-RELAY
       - 31-728-RELAY
       - 31-733-RELAY
@@ -2044,7 +2042,6 @@ proxy-groups:
       - 06-475-RELAY
       - 06-480-RELAY
       - 06-485-US
-      - 06-490-FR
       - 06-495-HK
       - 06-500-RELAY
       - 06-505-RELAY
