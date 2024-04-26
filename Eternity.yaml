@@ -111,16 +111,16 @@ proxies:
   - {name: 04-054-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.pay.edu.kg}}, udp: true}
   - {name: 04-055-RELAY, server: jp4.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp4.pay.edu.kg}}, udp: true}
   - {name: 04-056-RELAY, server: jp5.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp5.pay.edu.kg}}, udp: true}
-  - {name: 04-155-DE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-156-US, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-157-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-155-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-156-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-157-US, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-158-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-159-IT, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-160-IT, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-159-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-160-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-161-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-162-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-163-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-164-KR, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-164-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-165-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-166-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-167-CN, server: jp03.bigmeyear.org, port: 30250, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -455,6 +455,7 @@ proxies:
   - {name: 06-496-RELAY, server: changupmecca.com, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hdfy4c1.iraniancpi.uk/WgCmp8pxRWBtLTlTL, headers: {Host: changupmecca.com}}, udp: true}
   - {name: 06-497-RELAY, server: 104.19.45.235, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-498-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
+  - {name: 06-499-RELAY, server: us219.netfilx.live, port: 80, type: vmess, uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us219.netfilx.live}}, udp: true}
   - {name: 06-500-RELAY, server: 104.19.46.179, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-501-GB, server: uk-full.privateip.net, port: 443, type: vmess, uuid: 31c8ace0-0495-4326-a47e-c3db49786ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: uk-full.privateip.net}}, udp: true}
   - {name: 06-502-RELAY, server: 172.67.170.103, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -462,7 +463,6 @@ proxies:
   - {name: 06-504-RELAY, server: 104.19.46.64, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-505-RELAY, server: 104.19.45.218, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-506-FR, server: 162.19.25.207, port: 44513, type: vmess, uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-507-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-508-RELAY, server: 104.19.46.172, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-509-RELAY, server: 104.19.45.243, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-510-RELAY, server: 104.19.46.170, port: 8080, type: vmess, uuid: 8d1da7dc-35e0-4565-b9e4-cb593030827e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
@@ -605,7 +605,6 @@ proxies:
   - {name: 06-647-RELAY, server: 104.19.44.204, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-648-RELAY, server: 104.19.44.151, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-649-RELAY, server: tu.mahilu.site, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tu.mahilu.site}}, udp: true}
-  - {name: 06-650-US, server: 207.148.8.155, port: 37814, type: vmess, uuid: 5998e8aa-67ad-4167-ecf2-7e767926e8b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-651-FR, server: fr-full.privateip.net, port: 443, type: vmess, uuid: 61c75239-c93a-4fae-baef-d2ede3fe6d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: fr-full.privateip.net}}, udp: true}
   - {name: 06-652-RELAY, server: 104.19.44.172, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 06-653-RELAY, server: 104.19.44.171, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
@@ -638,6 +637,7 @@ proxies:
   - {name: 06-680-RELAY, server: maxin.beauty, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maxin.beauty}}, udp: true}
   - {name: 06-681-RELAY, server: 172.67.204.84, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 06-682-RELAY, server: 104.19.44.185, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
+  - {name: 06-683-US, server: 144.202.59.26, port: 57061, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-684-CN, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
   - {name: 06-685-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 06-686-RELAY, server: 172.67.131.108, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -923,16 +923,16 @@ proxy-groups:
       - 04-054-RELAY
       - 04-055-RELAY
       - 04-056-RELAY
-      - 04-155-DE
-      - 04-156-US
-      - 04-157-NOWHERE
+      - 04-155-NOWHERE
+      - 04-156-NOWHERE
+      - 04-157-US
       - 04-158-NOWHERE
-      - 04-159-IT
-      - 04-160-IT
+      - 04-159-NOWHERE
+      - 04-160-NOWHERE
       - 04-161-NOWHERE
       - 04-162-NOWHERE
       - 04-163-NOWHERE
-      - 04-164-KR
+      - 04-164-NOWHERE
       - 04-165-CN
       - 04-166-CN
       - 04-167-CN
@@ -1267,6 +1267,7 @@ proxy-groups:
       - 06-496-RELAY
       - 06-497-RELAY
       - 06-498-RELAY
+      - 06-499-RELAY
       - 06-500-RELAY
       - 06-501-GB
       - 06-502-RELAY
@@ -1274,7 +1275,6 @@ proxy-groups:
       - 06-504-RELAY
       - 06-505-RELAY
       - 06-506-FR
-      - 06-507-GB
       - 06-508-RELAY
       - 06-509-RELAY
       - 06-510-RELAY
@@ -1417,7 +1417,6 @@ proxy-groups:
       - 06-647-RELAY
       - 06-648-RELAY
       - 06-649-RELAY
-      - 06-650-US
       - 06-651-FR
       - 06-652-RELAY
       - 06-653-RELAY
@@ -1450,6 +1449,7 @@ proxy-groups:
       - 06-680-RELAY
       - 06-681-RELAY
       - 06-682-RELAY
+      - 06-683-US
       - 06-684-CN
       - 06-685-RELAY
       - 06-686-RELAY
@@ -1695,7 +1695,7 @@ proxy-groups:
       - 04-046-JP
       - 04-051-GOOGLE
       - 04-056-RELAY
-      - 04-156-US
+      - 04-156-NOWHERE
       - 04-161-NOWHERE
       - 04-166-CN
       - 04-171-CN
@@ -1860,7 +1860,7 @@ proxy-groups:
       - 04-042-NOWHERE
       - 04-047-US
       - 04-052-GOOGLE
-      - 04-157-NOWHERE
+      - 04-157-US
       - 04-162-NOWHERE
       - 04-167-CN
       - 04-172-CN
@@ -1930,7 +1930,6 @@ proxy-groups:
       - 06-492-US
       - 06-497-RELAY
       - 06-502-RELAY
-      - 06-507-GB
       - 06-512-US
       - 06-517-US
       - 06-522-RELAY
@@ -2131,6 +2130,7 @@ proxy-groups:
       - 06-668-RELAY
       - 06-673-CN
       - 06-678-RELAY
+      - 06-683-US
       - 08-688-SE
       - 08-693-HK
       - 10-698-RELAY
@@ -2190,8 +2190,8 @@ proxy-groups:
       - 04-044-NOWHERE
       - 04-049-US
       - 04-054-RELAY
-      - 04-159-IT
-      - 04-164-KR
+      - 04-159-NOWHERE
+      - 04-164-NOWHERE
       - 04-169-CN
       - 04-174-JP
       - 04-179-CN
@@ -2258,6 +2258,7 @@ proxy-groups:
       - 06-484-RELAY
       - 06-489-RELAY
       - 06-494-US
+      - 06-499-RELAY
       - 06-504-RELAY
       - 06-509-RELAY
       - 06-514-RELAY
@@ -2355,8 +2356,8 @@ proxy-groups:
       - 04-045-JP
       - 04-050-GOOGLE
       - 04-055-RELAY
-      - 04-155-DE
-      - 04-160-IT
+      - 04-155-NOWHERE
+      - 04-160-NOWHERE
       - 04-165-CN
       - 04-170-CN
       - 04-175-HK
@@ -2454,7 +2455,6 @@ proxy-groups:
       - 06-635-RELAY
       - 06-640-RELAY
       - 06-645-RELAY
-      - 06-650-US
       - 06-655-US
       - 06-660-US
       - 06-665-RELAY
