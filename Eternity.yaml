@@ -597,6 +597,7 @@ proxies:
   - {name: 08-638-IR, server: achamachar.gaziantepspor.eu, port: 8933, type: vmess, uuid: 4b0eb979-ff34-43eb-a0ff-6f24e3431075, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-639-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-640-NL, server: 156.253.5.63, port: 15843, type: vmess, uuid: 63d39605-332b-4e67-aa33-aa142d897730, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-641-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-643-US, server: 207.246.102.64, port: 21636, type: vmess, uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-644-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-645-HK, server: 141.11.90.115, port: 47763, type: vmess, uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -622,7 +623,6 @@ proxies:
   - {name: 10-665-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-666-US, server: 205.234.233.22, port: 5129, type: vmess, uuid: 2e504818-e2e2-4183-eb75-0d1175a947de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-667-US, server: 75.102.51.45, port: 58701, type: vmess, uuid: b72eda2c-7b68-4813-ef86-086c8afc8e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-668-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-669-RELAY, server: 188.114.96.6, port: 443, type: vmess, uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: argo}, udp: true}
   - {name: 10-670-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: zula.ir}}, udp: true}
   - {name: 12-671-RELAY, server: 162.159.1.33, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm}, udp: true}
@@ -1376,6 +1376,7 @@ proxy-groups:
       - 08-638-IR
       - 08-639-US
       - 08-640-NL
+      - 08-641-US
       - 08-643-US
       - 08-644-US
       - 08-645-HK
@@ -1401,7 +1402,6 @@ proxy-groups:
       - 10-665-RELAY
       - 10-666-US
       - 10-667-US
-      - 10-668-US
       - 10-669-RELAY
       - 10-670-RELAY
       - 12-671-RELAY
@@ -1726,6 +1726,7 @@ proxy-groups:
       - 06-626-RELAY
       - 06-631-RELAY
       - 06-636-RELAY
+      - 08-641-US
       - 08-646-HK
       - 08-651-US
       - 10-656-RELAY
@@ -2045,7 +2046,6 @@ proxy-groups:
       - 08-653-HK
       - 10-658-RELAY
       - 10-663-RELAY
-      - 10-668-US
       - 12-673-RELAY
       - 12-678-RELAY
       - 12-683-RELAY
