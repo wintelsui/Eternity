@@ -457,6 +457,7 @@ proxies:
   - {name: 06-498-RELAY, server: 104.19.44.165, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳\xa0@WangCai_8"}, udp: true}
   - {name: 08-499-CN, server: 120.210.205.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-500-US, server: 45.77.146.58, port: 22131, type: vmess, uuid: ad42d586-dcd1-4629-d49b-a6f2d821ad39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-501-US, server: 207.148.8.155, port: 37814, type: vmess, uuid: 5998e8aa-67ad-4167-ecf2-7e767926e8b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-502-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-SE, server: 70.34.196.83, port: 4433, type: vmess, uuid: 88767dd1-86e2-4e60-81b1-331732c202d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-US, server: 89.213.184.201, port: 12321, type: vmess, uuid: 5a580026-35eb-4676-b636-f9e499068642, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /免费VPN分享节点TG@WSBVPN倒卖死妈}, udp: true}
@@ -482,7 +483,6 @@ proxies:
   - {name: 10-524-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-525-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 10-526-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 10-527-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-528-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-529-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-530-RELAY, server: 188.114.96.6, port: 443, type: vmess, uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: argo}, udp: true}
@@ -1066,6 +1066,7 @@ proxy-groups:
       - 06-498-RELAY
       - 08-499-CN
       - 08-500-US
+      - 08-501-US
       - 08-502-US
       - 08-503-SE
       - 08-504-US
@@ -1091,7 +1092,6 @@ proxy-groups:
       - 10-524-RELAY
       - 10-525-RELAY
       - 10-526-RELAY
-      - 10-527-US
       - 10-528-RELAY
       - 10-529-US
       - 10-530-RELAY
@@ -1358,6 +1358,7 @@ proxy-groups:
       - 06-486-RELAY
       - 06-491-RELAY
       - 06-496-RELAY
+      - 08-501-US
       - 08-506-DE
       - 08-511-HK
       - 08-516-US
@@ -1487,7 +1488,6 @@ proxy-groups:
       - 08-512-SG
       - 08-517-JP
       - 10-522-RELAY
-      - 10-527-US
       - 10-532-RELAY
       - 12-537-US
       - 12-542-RELAY
