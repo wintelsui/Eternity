@@ -372,7 +372,6 @@ proxies:
   - {name: 04-413-CN, server: gy.58n.net, port: 21247, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-414-CN, server: gy.58n.net, port: 20302, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-415-CN, server: gy.58n.net, port: 20303, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-416-CN, server: gy.58n.net, port: 20304, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-417-CN, server: gy.58n.net, port: 20305, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-418-CN, server: gy.58n.net, port: 20306, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-419-CN, server: gy.58n.net, port: 20299, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
@@ -399,6 +398,7 @@ proxies:
   - {name: 04-440-CN, server: gy.58n.net, port: 20129, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-441-CN, server: gy.58n.net, port: 20130, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-442-CN, server: gy.58n.net, port: 41767, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x114.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 04-443-CN, server: gy.58n.net, port: 54178, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: x115.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-444-CN, server: gy.58n.net, port: 20139, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z139.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-445-CN, server: gy.58n.net, port: 20140, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z140.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-446-CN, server: gy.58n.net, port: 20141, type: trojan, password: b7485a2f-114a-3c6b-a128-8329160d837b, sni: z141.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1218,7 +1218,6 @@ proxy-groups:
       - 04-413-CN
       - 04-414-CN
       - 04-415-CN
-      - 04-416-CN
       - 04-417-CN
       - 04-418-CN
       - 04-419-CN
@@ -1245,6 +1244,7 @@ proxy-groups:
       - 04-440-CN
       - 04-441-CN
       - 04-442-CN
+      - 04-443-CN
       - 04-444-CN
       - 04-445-CN
       - 04-446-CN
@@ -1815,7 +1815,6 @@ proxy-groups:
       - 04-401-CN
       - 04-406-CN
       - 04-411-CN
-      - 04-416-CN
       - 04-421-CN
       - 04-426-CN
       - 04-431-CN
@@ -2164,6 +2163,7 @@ proxy-groups:
       - 04-428-CN
       - 04-433-CN
       - 04-438-CN
+      - 04-443-CN
       - 04-448-CN
       - 04-453-NOWHERE
       - 06-458-RELAY
