@@ -348,7 +348,6 @@ Fork from TopFreeProxies.
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:21247?allowInsecure=1&sni=x91.flybar.work#04-413-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20302?allowInsecure=1&sni=z302.hongkongnode.top#04-414-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20303?allowInsecure=1&sni=z303.hongkongnode.top#04-415-CN
-    trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20304?allowInsecure=1&sni=z304.hongkongnode.top#04-416-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20305?allowInsecure=1&sni=z305.hongkongnode.top#04-417-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-418-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20299?allowInsecure=1&sni=x299.flybar.work#04-419-CN
@@ -375,6 +374,7 @@ Fork from TopFreeProxies.
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20129?allowInsecure=1&sni=x129.flybar.work#04-440-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20130?allowInsecure=1&sni=x130.flybar.work#04-441-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:41767?allowInsecure=1&sni=x114.flybar.work#04-442-CN
+    trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:54178?allowInsecure=1&sni=x115.flybar.work#04-443-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20139?allowInsecure=1&sni=z139.hongkongnode.top#04-444-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20140?allowInsecure=1&sni=z140.hongkongnode.top#04-445-CN
     trojan://b7485a2f-114a-3c6b-a128-8329160d837b@gy.58n.net:20141?allowInsecure=1&sni=z141.hongkongnode.top#04-446-CN
@@ -872,11 +872,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `938`
+合并节点总数: `940`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `938`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `940`
 
 
 ## 仓库声明
