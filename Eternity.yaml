@@ -101,8 +101,8 @@ proxies:
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 13.231.239.48, port: 443, type: trojan, password: df8c305e-98fa-3749-81b8-3e54ca295e99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 3.114.16.33, port: 443, type: trojan, password: df8c305e-98fa-3749-81b8-3e54ca295e99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-047-US, server: awssg.cfyun.top, port: 2248, type: trojan, password: e81d213d-8dd5-4207-9445-24d8903ffe0c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: df8c305e-98fa-3749-81b8-3e54ca295e99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-047-US, server: 34.219.209.205, port: 443, type: trojan, password: df8c305e-98fa-3749-81b8-3e54ca295e99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-048-US, server: awssg.cfyun.top, port: 2248, type: trojan, password: e81d213d-8dd5-4207-9445-24d8903ffe0c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: df8c305e-98fa-3749-81b8-3e54ca295e99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-051-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -391,6 +391,7 @@ proxies:
   - {name: 04-432-CN, server: gy.58n.net, port: 11215, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z268.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-433-CN, server: gy.58n.net, port: 20307, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-434-CN, server: gy.58n.net, port: 33323, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-435-CN, server: gy.58n.net, port: 36821, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-436-CN, server: gy.58n.net, port: 56783, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-437-CN, server: gy.58n.net, port: 20288, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-438-CN, server: gy.58n.net, port: 45168, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -563,7 +564,6 @@ proxies:
   - {name: 08-605-NOWHERE, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: 08-606-RELAY, server: www.speedtest.net, port: 443, type: vmess, uuid: f9f916cd-2297-45b8-bfd2-7cd0f1b2e408, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 08-607-NL, server: 163.5.194.43, port: 8081, type: vmess, uuid: 8aae35d7-787c-4f77-9f46-3694770324e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-608-ZA, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-609-RU, server: 103.113.68.233, port: 8880, type: vmess, uuid: fddb3781-7e15-4731-a933-94db110b4bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 08-610-RELAY, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-611-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -608,6 +608,7 @@ proxies:
   - {name: 12-650-RELAY, server: 162.159.5.6, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm}, udp: true}
   - {name: 12-651-JP, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
   - {name: 12-652-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
+  - {name: 12-653-US, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 12-654-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-655-CN, server: gcdddd0001.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-656-CN, server: gcdddd0003.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -1088,6 +1089,7 @@ proxy-groups:
       - 04-432-CN
       - 04-433-CN
       - 04-434-CN
+      - 04-435-CN
       - 04-436-CN
       - 04-437-CN
       - 04-438-CN
@@ -1260,7 +1262,6 @@ proxy-groups:
       - 08-605-NOWHERE
       - 08-606-RELAY
       - 08-607-NL
-      - 08-608-ZA
       - 08-609-RU
       - 08-610-RELAY
       - 08-611-US
@@ -1305,6 +1306,7 @@ proxy-groups:
       - 12-650-RELAY
       - 12-651-JP
       - 12-652-RELAY
+      - 12-653-US
       - 12-654-CN
       - 12-655-CN
       - 12-656-CN
@@ -1840,7 +1842,6 @@ proxy-groups:
       - 06-593-RELAY
       - 06-598-RELAY
       - 06-603-RELAY
-      - 08-608-ZA
       - 08-613-RELAY
       - 10-618-RELAY
       - 10-623-RELAY
@@ -1849,6 +1850,7 @@ proxy-groups:
       - 12-638-RELAY
       - 12-643-RELAY
       - 12-648-RELAY
+      - 12-653-US
       - 12-658-CN
       - 12-663-CN
       - 12-668-CN
@@ -2091,6 +2093,7 @@ proxy-groups:
       - 04-420-CN
       - 04-425-CN
       - 04-430-CN
+      - 04-435-CN
       - 04-440-CN
       - 04-445-CN
       - 04-450-CN
