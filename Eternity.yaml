@@ -102,7 +102,7 @@ proxies:
   - {name: 04-045-JP, server: 54.250.84.221, port: 443, type: trojan, password: 6055cd35-0adc-371d-afd0-dca5bca2e8c6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 18.179.3.7, port: 443, type: trojan, password: 6055cd35-0adc-371d-afd0-dca5bca2e8c6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-047-US, server: 34.219.209.205, port: 443, type: trojan, password: 6055cd35-0adc-371d-afd0-dca5bca2e8c6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-048-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: 6055cd35-0adc-371d-afd0-dca5bca2e8c6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: 6055cd35-0adc-371d-afd0-dca5bca2e8c6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-051-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -329,7 +329,6 @@ proxies:
   - {name: 04-370-CN, server: gy.58n.net, port: 43337, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-371-CN, server: gy.58n.net, port: 24603, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-372-CN, server: gy.58n.net, port: 20278, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-373-CN, server: gy.58n.net, port: 20279, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-374-CN, server: gy.58n.net, port: 59021, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-375-CN, server: gy.58n.net, port: 21247, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-376-CN, server: gy.58n.net, port: 20302, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -346,6 +345,7 @@ proxies:
   - {name: 04-387-CN, server: gy.58n.net, port: 20296, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-388-CN, server: gy.58n.net, port: 20308, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-389-CN, server: gy.58n.net, port: 16895, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
+  - {name: 04-390-CN, server: gy.58n.net, port: 21970, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-391-CN, server: gy.58n.net, port: 14846, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: x46.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-392-CN, server: gy.58n.net, port: 30767, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-393-CN, server: gy.58n.net, port: 25238, type: trojan, password: 674d5d3a-c074-3373-95b9-3797e2f14ca7, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -578,7 +578,6 @@ proxies:
   - {name: 08-620-ZA, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-621-DE, server: 162.55.6.150, port: 443, type: trojan, password: 2158f727-fb4e-483c-925f-7cc1a20cb7a2, sni: medidorr-gro-hidalgo-1.uninnet.net.mx.prod.hosts.ooklaserver.net, skip-cert-verify: true, udp: true}
   - {name: 08-622-RELAY, server: 172.67.164.78, port: 2052, type: vmess, uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-623-US, server: 192.210.167.236, port: 1200, type: vmess, uuid: 207da2a6-3c7d-4b6c-cb46-dcfaf5814053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /207da2a6}, udp: true}
   - {name: 10-624-RELAY, server: 502.outline-vpn.cloud, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 502.outline-vpn.cloud}}, udp: true}
   - {name: 10-625-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-626-RELAY, server: 104.21.15.212, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -1034,7 +1033,6 @@ proxy-groups:
       - 04-370-CN
       - 04-371-CN
       - 04-372-CN
-      - 04-373-CN
       - 04-374-CN
       - 04-375-CN
       - 04-376-CN
@@ -1051,6 +1049,7 @@ proxy-groups:
       - 04-387-CN
       - 04-388-CN
       - 04-389-CN
+      - 04-390-CN
       - 04-391-CN
       - 04-392-CN
       - 04-393-CN
@@ -1283,7 +1282,6 @@ proxy-groups:
       - 08-620-ZA
       - 08-621-DE
       - 08-622-RELAY
-      - 08-623-US
       - 10-624-RELAY
       - 10-625-RELAY
       - 10-626-RELAY
@@ -1811,7 +1809,6 @@ proxy-groups:
       - 04-358-CN
       - 04-363-CN
       - 04-368-CN
-      - 04-373-CN
       - 04-378-CN
       - 04-383-CN
       - 04-388-CN
@@ -1861,7 +1858,6 @@ proxy-groups:
       - 06-608-RELAY
       - 08-613-CA
       - 08-618-US
-      - 08-623-US
       - 10-628-RELAY
       - 10-633-US
       - 10-638-RELAY
@@ -2104,6 +2100,7 @@ proxy-groups:
       - 04-375-CN
       - 04-380-CN
       - 04-385-CN
+      - 04-390-CN
       - 04-395-CN
       - 04-400-CN
       - 04-405-CN
