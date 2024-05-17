@@ -111,7 +111,7 @@ proxies:
   - {name: 04-054-JP, server: 35.78.228.133, port: 443, type: trojan, password: 491e7d9b-b708-3482-9630-4308aef0bd03, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-US, server: 34.220.45.235, port: 443, type: trojan, password: 491e7d9b-b708-3482-9630-4308aef0bd03, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-056-US, server: 103.136.185.27, port: 5499, type: trojan, password: 491e7d9b-b708-3482-9630-4308aef0bd03, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-057-US, server: 103.136.185.28, port: 3504, type: trojan, password: 491e7d9b-b708-3482-9630-4308aef0bd03, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-057-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-058-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-059-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-060-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -283,7 +283,7 @@ proxies:
   - {name: 04-324-CN, server: sz.zj.my.1.76po.com, port: 31019, type: trojan, password: 3564db64-b581-4a31-9b7d-7366065567f0, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-325-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
   - {name: 04-326-CN, server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
-  - {name: 04-328-CN, server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
+  - {name: 04-327-CN, server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
   - {name: 04-329-CN, server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
   - {name: 04-330-CN, server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
   - {name: 04-331-CN, server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: cdb575cd-d471-3654-9c82-58315a2cca0a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
@@ -620,6 +620,7 @@ proxies:
   - {name: 10-662-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-663-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 10-664-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 10-665-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-666-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-667-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-668-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1020,7 +1021,7 @@ proxy-groups:
       - 04-324-CN
       - 04-325-CN
       - 04-326-CN
-      - 04-328-CN
+      - 04-327-CN
       - 04-329-CN
       - 04-330-CN
       - 04-331-CN
@@ -1357,6 +1358,7 @@ proxy-groups:
       - 10-662-RELAY
       - 10-663-RELAY
       - 10-664-RELAY
+      - 10-665-US
       - 10-666-RELAY
       - 10-667-US
       - 10-668-US
@@ -1730,6 +1732,7 @@ proxy-groups:
       - 04-312-CN
       - 04-317-CN
       - 04-322-CN
+      - 04-327-CN
       - 04-332-CN
       - 04-337-HK
       - 04-342-CN
@@ -1880,7 +1883,6 @@ proxy-groups:
       - 04-313-CN
       - 04-318-CN
       - 04-323-CN
-      - 04-328-CN
       - 04-333-CN
       - 04-338-CN
       - 04-343-CN
@@ -2248,6 +2250,7 @@ proxy-groups:
       - 06-650-RELAY
       - 08-655-RELAY
       - 10-660-RELAY
+      - 10-665-US
       - 10-670-RELAY
       - 12-675-RELAY
       - 12-680-RELAY
