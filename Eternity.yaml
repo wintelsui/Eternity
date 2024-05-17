@@ -67,6 +67,7 @@ proxies:
   - {name: 04-010-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-011-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-012-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-013-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-014-US, server: us05.freeflyingcloud.xyz, port: 30020, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: us05.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-015-SG, server: sg04.freeflyingcloud.xyz, port: 30018, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg04.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-016-RU, server: ru01.freeflyingcloud.xyz, port: 30003, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -108,8 +109,8 @@ proxies:
   - {name: 04-052-RELAY, server: 104.21.193.123, port: 443, type: vmess, uuid: b4a4f1db-8d09-3389-ae88-0ae8de6d6f1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.193.123}, udp: true}
   - {name: 04-053-JP, server: 35.78.71.77, port: 443, type: trojan, password: e0dbdcf2-62de-3432-ae21-b0b96915d387, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-JP, server: 35.78.228.133, port: 443, type: trojan, password: e0dbdcf2-62de-3432-ae21-b0b96915d387, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-055-US, server: 34.220.45.235, port: 443, type: trojan, password: e0dbdcf2-62de-3432-ae21-b0b96915d387, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-056-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-055-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-056-US, server: 103.136.185.27, port: 5499, type: trojan, password: e0dbdcf2-62de-3432-ae21-b0b96915d387, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-057-US, server: 103.136.185.28, port: 3504, type: trojan, password: e0dbdcf2-62de-3432-ae21-b0b96915d387, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-058-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-059-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -328,7 +329,6 @@ proxies:
   - {name: 04-370-CN, server: gy.58n.net, port: 20299, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-371-CN, server: gy.58n.net, port: 17806, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-372-CN, server: gy.58n.net, port: 30712, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 04-373-CN, server: gy.58n.net, port: 20298, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-374-CN, server: gy.58n.net, port: 20300, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: z300.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-375-CN, server: gy.58n.net, port: 20295, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-376-CN, server: gy.58n.net, port: 20296, type: trojan, password: f286f30d-c84e-3aad-8ab4-1795a4e7417f, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -804,6 +804,7 @@ proxy-groups:
       - 04-010-KR
       - 04-011-JP
       - 04-012-SG
+      - 04-013-AU
       - 04-014-US
       - 04-015-SG
       - 04-016-RU
@@ -1065,7 +1066,6 @@ proxy-groups:
       - 04-370-CN
       - 04-371-CN
       - 04-372-CN
-      - 04-373-CN
       - 04-374-CN
       - 04-375-CN
       - 04-376-CN
@@ -1837,6 +1837,7 @@ proxy-groups:
     proxies:
       - 04-003-TW
       - 04-008-TW
+      - 04-013-AU
       - 04-018-GB
       - 04-023-NOWHERE
       - 04-028-NOWHERE
@@ -1889,7 +1890,6 @@ proxy-groups:
       - 04-358-CN
       - 04-363-CN
       - 04-368-CN
-      - 04-373-CN
       - 04-378-CN
       - 04-383-CN
       - 04-388-CN
