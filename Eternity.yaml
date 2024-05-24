@@ -357,15 +357,15 @@ proxies:
   - {name: 04-398-CN, server: gy.58n.net, port: 20304, type: trojan, password: 3cf9fba8-dcbb-372e-83a8-bbf269254884, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-399-CN, server: gy.58n.net, port: 20305, type: trojan, password: 3cf9fba8-dcbb-372e-83a8-bbf269254884, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-400-CN, server: gy.58n.net, port: 20306, type: trojan, password: 3cf9fba8-dcbb-372e-83a8-bbf269254884, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-401-US, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-402-KR, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-401-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-402-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-403-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-404-DE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-404-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-405-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-406-DE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-406-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-407-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-408-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-409-IT, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-409-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-410-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-411-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-412-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -566,9 +566,9 @@ proxies:
   - {name: 31-609-RELAY, server: 172.67.204.84, port: 80, type: vmess, uuid: 753d0d83-3f5b-4821-860e-082f0b3db609, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-610-RELAY, server: 172.67.164.78, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-611-RELAY, server: russia.com, port: 2095, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
-  - {name: 31-612-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 31-613-CN, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 31-614-RU, server: 45.147.200.170, port: 56508, type: vmess, uuid: 892027cd-2cb5-40ca-9dbb-80191e28239c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 40-615-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -882,15 +882,15 @@ proxy-groups:
       - 04-398-CN
       - 04-399-CN
       - 04-400-CN
-      - 04-401-US
-      - 04-402-KR
+      - 04-401-NOWHERE
+      - 04-402-NOWHERE
       - 04-403-NOWHERE
-      - 04-404-DE
+      - 04-404-NOWHERE
       - 04-405-NOWHERE
-      - 04-406-DE
+      - 04-406-NOWHERE
       - 04-407-NOWHERE
       - 04-408-NOWHERE
-      - 04-409-IT
+      - 04-409-NOWHERE
       - 04-410-NOWHERE
       - 04-411-CN
       - 04-412-CN
@@ -1091,9 +1091,9 @@ proxy-groups:
       - 31-609-RELAY
       - 31-610-RELAY
       - 31-611-RELAY
-      - 31-612-RELAY
       - 31-613-CN
       - 31-614-RU
+      - 40-615-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1169,8 +1169,8 @@ proxy-groups:
       - 04-386-CN
       - 04-391-CN
       - 04-396-CN
-      - 04-401-US
-      - 04-406-DE
+      - 04-401-NOWHERE
+      - 04-406-NOWHERE
       - 04-411-CN
       - 04-416-CN
       - 04-421-CN
@@ -1278,7 +1278,7 @@ proxy-groups:
       - 04-387-CN
       - 04-392-CN
       - 04-397-CN
-      - 04-402-KR
+      - 04-402-NOWHERE
       - 04-407-NOWHERE
       - 04-412-CN
       - 04-417-CN
@@ -1320,7 +1320,6 @@ proxy-groups:
       - 12-597-SE
       - 16-602-CN
       - 31-607-CN
-      - 31-612-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1494,8 +1493,8 @@ proxy-groups:
       - 04-389-CN
       - 04-394-CN
       - 04-399-CN
-      - 04-404-DE
-      - 04-409-IT
+      - 04-404-NOWHERE
+      - 04-409-NOWHERE
       - 04-414-CN
       - 04-419-CN
       - 06-424-CN
@@ -1644,6 +1643,7 @@ proxy-groups:
       - 16-600-RELAY
       - 16-605-RELAY
       - 31-610-RELAY
+      - 40-615-RELAY
   - name: 广告拦截
     type: select
     proxies:
