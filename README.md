@@ -43,6 +43,7 @@ Fork from TopFreeProxies.
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@kr02.freeflyingcloud.xyz:21702?allowInsecure=1&sni=kr02.freeflyingcloud.xyz#04-010-KR
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-011-JP
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-012-SG
+    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=us05.freeflyingcloud.xyz#04-014-US
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg04.freeflyingcloud.xyz:30018?allowInsecure=1&sni=sg04.freeflyingcloud.xyz#04-015-SG
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@ru01.freeflyingcloud.xyz:30003?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-016-RU
@@ -299,7 +300,6 @@ Fork from TopFreeProxies.
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:16895?allowInsecure=1&sni=x40.flybar.work#04-366-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:21970?allowInsecure=1&sni=x41.flybar.work#04-367-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:14846?allowInsecure=1&sni=x46.flybar.work#04-368-CN
-    trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:30767?allowInsecure=1&sni=z61.hongkongnode.top#04-369-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:56783?allowInsecure=1&sni=z266.hongkongnode.top#04-370-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20288?allowInsecure=1&sni=z288.hongkongnode.top#04-371-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20298?allowInsecure=1&sni=z298.hongkongnode.top#04-372-CN
