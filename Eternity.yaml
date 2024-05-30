@@ -106,7 +106,7 @@ proxies:
   - {name: 04-049-RELAY, server: 172.64.34.46, port: 2052, type: vmess, uuid: b4a4f1db-8d09-3389-ae88-0ae8de6d6f1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.34.46}, udp: true}
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 3.113.112.171, port: 443, type: trojan, password: 9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-052-US, server: 34.221.120.118, port: 443, type: trojan, password: 9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-053-US, server: 103.136.185.27, port: 5504, type: trojan, password: 9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -287,7 +287,7 @@ proxies:
   - {name: 04-329-CN, server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: ae187c81-8709-30b3-bc41-be848fc477df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
   - {name: 04-330-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: ae187c81-8709-30b3-bc41-be848fc477df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-331-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, skip-cert-verify: true, udp: true}
-  - {name: "04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@103.136.185.275504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US", server: jp1.biubiufast.quest, port: 5205, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
+  - {name: "04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@34.221.120.118443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US", server: jp1.biubiufast.quest, port: 5205, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-333-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-334-CN, server: dl.biubiufast.quest, port: 11012, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-335-CN, server: dl.biubiufast.quest, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
@@ -571,7 +571,7 @@ proxies:
   - {name: 16-614-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
   - {name: 31-615-US, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 31-617-RELAY, server: 104.21.20.148, port: 2087, type: trojan, password: f85e2ad7-3e26-4589-b478-b0b15b9b5907, sni: us1.trojanvpn.de, skip-cert-verify: true, udp: true}
-  - {name: 40-619-FR, server: fr-full.privateip.net, port: 443, type: trojan, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, skip-cert-verify: true, udp: true}
+  - {name: 31-618-FR, server: fr-full.privateip.net, port: 443, type: trojan, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -634,7 +634,7 @@ proxy-groups:
       - 04-049-RELAY
       - 04-050-JP
       - 04-051-JP
-      - 04-052-US
+      - 04-053-US
       - 04-054-US
       - 04-055-NOWHERE
       - 04-056-NOWHERE
@@ -815,7 +815,7 @@ proxy-groups:
       - 04-329-CN
       - 04-330-CN
       - 04-331-JP
-      - 04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@103.136.185.275504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@34.221.120.118443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
       - 04-333-HK
       - 04-334-CN
       - 04-335-CN
@@ -1099,7 +1099,7 @@ proxy-groups:
       - 16-614-RELAY
       - 31-615-US
       - 31-617-RELAY
-      - 40-619-FR
+      - 31-618-FR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1233,7 +1233,6 @@ proxy-groups:
       - 04-037-RELAY
       - 04-042-RELAY
       - 04-047-RELAY
-      - 04-052-US
       - 04-057-NOWHERE
       - 04-062-DE
       - 04-067-SG
@@ -1269,7 +1268,7 @@ proxy-groups:
       - 04-317-CN
       - 04-322-CN
       - 04-327-CN
-      - 04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@103.136.185.275504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@34.221.120.118443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
       - 04-337-CN
       - 04-342-CN
       - 04-347-RELAY
@@ -1342,6 +1341,7 @@ proxy-groups:
       - 04-038-RELAY
       - 04-043-NOWHERE
       - 04-048-RELAY
+      - 04-053-US
       - 04-058-NOWHERE
       - 04-063-DE
       - 04-068-SG
@@ -1377,7 +1377,6 @@ proxy-groups:
       - 04-318-CN
       - 04-323-CN
       - 04-328-CN
-      - 04-332-JPtrojan//9b4a16d2-8cee-3ad8-9bdd-987e20a39bd1@103.136.185.275504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
       - 04-333-HK
       - 04-338-CN
       - 04-343-NOWHERE
@@ -1434,6 +1433,7 @@ proxy-groups:
       - 12-598-CN
       - 12-603-CN
       - 16-613-RELAY
+      - 31-618-FR
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1543,7 +1543,6 @@ proxy-groups:
       - 12-604-CN
       - 16-609-CN
       - 16-614-RELAY
-      - 40-619-FR
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
