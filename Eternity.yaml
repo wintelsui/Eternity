@@ -231,6 +231,7 @@ proxies:
   - {name: 08-273-RELAY, server: 172.67.164.164, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-274-RELAY, server: 172.67.171.49, port: 80, type: vmess, uuid: 10c580e4-f83b-42f1-8e6a-25fc8add4da7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE}, udp: true}
   - {name: 08-275-RELAY, server: 188.114.99.183, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 09-276-FR, server: fr-full.privateip.net, port: 443, type: vmess, uuid: d8d9a946-c231-426a-8170-069cc2f0df2f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: fr-full.privateip.net}}, udp: true}
   - {name: 09-277-DE, server: de-full.privateip.net, port: 443, type: vmess, uuid: 731bbbeb-62e8-4721-a60d-2c359f0abe02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: de-full.privateip.net}}, udp: true}
   - {name: 09-278-IT, server: it-full.privateip.net, port: 443, type: vmess, uuid: 509fd5aa-5859-4618-8de8-428b38c269ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: it-full.privateip.net}}, udp: true}
   - {name: 09-279-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: 3fc21d70-12ba-11ef-a599-1239d0255272, skip-cert-verify: true, udp: true}
@@ -444,7 +445,6 @@ proxies:
   - {name: 14-487-RELAY, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
   - {name: 14-488-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-490-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
-  - {name: 14-491-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
   - {name: 14-492-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-493-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
   - {name: 14-494-RELAY, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
@@ -692,6 +692,7 @@ proxy-groups:
       - 08-273-RELAY
       - 08-274-RELAY
       - 08-275-RELAY
+      - 09-276-FR
       - 09-277-DE
       - 09-278-IT
       - 09-279-RELAY
@@ -905,7 +906,6 @@ proxy-groups:
       - 14-487-RELAY
       - 14-488-RELAY
       - 14-490-RELAY
-      - 14-491-RELAY
       - 14-492-RELAY
       - 14-493-RELAY
       - 14-494-RELAY
@@ -1016,6 +1016,7 @@ proxy-groups:
       - 07-261-CN
       - 08-266-RELAY
       - 08-271-RELAY
+      - 09-276-FR
       - 09-281-RELAY
       - 09-286-RELAY
       - 09-291-RELAY
@@ -1058,7 +1059,6 @@ proxy-groups:
       - 13-476-US
       - 13-481-RELAY
       - 14-486-RELAY
-      - 14-491-RELAY
       - 14-496-FASTLY
       - 16-501-RELAY
       - 17-506-CN
