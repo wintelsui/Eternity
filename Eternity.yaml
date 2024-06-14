@@ -337,6 +337,7 @@ proxies:
   - {name: 09-379-GOOGLE, server: gcphk2.cfyun01.sbs, port: 443, type: trojan, password: be123688-a099-4959-bdf9-bfb23b09970c, skip-cert-verify: true, udp: true}
   - {name: 09-381-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 4ddf53d4-722e-4b3b-9191-0e6afd9671d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-382-RELAY, server: kitab.fun, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: kitab.fun}}, udp: true}
+  - {name: 09-383-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 09-384-RELAY, server: kr01.appleid.bf, port: 2086, type: vmess, uuid: 05a68409-eaf3-4682-8cdd-020480cd27f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: kr01.appleid.bf}}, udp: true}
   - {name: 09-385-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 331ed7d8-1774-4a66-8fce-1d00460f897c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-386-LU, server: lu1.xv2ray.net, port: 80, type: vmess, uuid: 8b592977-6dcd-478a-bc41-cd2870f8cc55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: lu1.xv2ray.net}}, udp: true}
@@ -550,7 +551,6 @@ proxies:
   - {name: 14-595-RELAY, server: 172.67.199.144, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-596-RELAY, server: 104.19.47.145, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2"}, udp: true}
   - {name: 14-597-RELAY, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-598-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-599-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
   - {name: 14-600-RELAY, server: hms08.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms08.gwdef.sbs}}, udp: true}
   - {name: 14-601-RELAY, server: 104.19.47.106, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2"}, udp: true}
@@ -885,6 +885,7 @@ proxy-groups:
       - 09-379-GOOGLE
       - 09-381-NOWHERE
       - 09-382-RELAY
+      - 09-383-RELAY
       - 09-384-RELAY
       - 09-385-NOWHERE
       - 09-386-LU
@@ -1098,7 +1099,6 @@ proxy-groups:
       - 14-595-RELAY
       - 14-596-RELAY
       - 14-597-RELAY
-      - 14-598-RELAY
       - 14-599-RELAY
       - 14-600-RELAY
       - 14-601-RELAY
@@ -1435,6 +1435,7 @@ proxy-groups:
       - 09-368-RELAY
       - 09-373-TH
       - 09-378-RELAY
+      - 09-383-RELAY
       - 09-388-RELAY
       - 09-393-NOWHERE
       - 10-398-RELAY
@@ -1477,7 +1478,6 @@ proxy-groups:
       - 13-583-RELAY
       - 14-588-US
       - 14-593-RELAY
-      - 14-598-RELAY
       - 14-603-RELAY
       - 16-608-RELAY
       - 27-613-FR
