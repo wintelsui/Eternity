@@ -351,7 +351,7 @@ proxies:
   - {name: 04-294-CN, server: gy.58n.net, port: 20306, type: trojan, password: 60b30b17-2929-3862-a6fe-48ee79d0342f, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-295-JP, server: 52.198.230.68, port: 443, type: trojan, password: cc189ee8-6db8-325f-b7da-6440a4abbc6f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-296-JP, server: 35.72.247.171, port: 443, type: trojan, password: cc189ee8-6db8-325f-b7da-6440a4abbc6f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-298-US, server: 103.136.185.27, port: 5514, type: trojan, password: cc189ee8-6db8-325f-b7da-6440a4abbc6f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-297-US, server: 52.33.234.43, port: 443, type: trojan, password: cc189ee8-6db8-325f-b7da-6440a4abbc6f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-299-US, server: 103.136.185.28, port: 3504, type: trojan, password: cc189ee8-6db8-325f-b7da-6440a4abbc6f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-300-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
   - {name: 04-301-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
@@ -462,7 +462,6 @@ proxies:
   - {name: 09-505-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: c3573640-3fc0-11ef-85fa-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 09-506-RELAY, server: www.speedtest.net, port: 2082, type: vmess, uuid: 1368893d-58cb-4a25-9105-a5fa3f6a1a88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80", headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-507-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
-  - {name: 09-508-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-509-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-510-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-511-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: cc142606-f36d-4004-bd2d-c5c2aa7efd4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: www.speedtest.net}}, udp: true}
@@ -659,6 +658,7 @@ proxies:
   - {name: 13-702-RELAY, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}, udp: true}
   - {name: 14-703-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-704-NOWHERE, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
+  - {name: 14-705-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-706-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 14-707-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-708-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
@@ -1077,7 +1077,7 @@ proxy-groups:
       - 04-294-CN
       - 04-295-JP
       - 04-296-JP
-      - 04-298-US
+      - 04-297-US
       - 04-299-US
       - 04-300-CN
       - 04-301-CN
@@ -1188,7 +1188,6 @@ proxy-groups:
       - 09-505-RELAY
       - 09-506-RELAY
       - 09-507-RELAY
-      - 09-508-RELAY
       - 09-509-RELAY
       - 09-510-RELAY
       - 09-511-RELAY
@@ -1385,6 +1384,7 @@ proxy-groups:
       - 13-702-RELAY
       - 14-703-RELAY
       - 14-704-NOWHERE
+      - 14-705-RELAY
       - 14-706-US
       - 14-707-RELAY
       - 14-708-RELAY
@@ -1719,6 +1719,7 @@ proxy-groups:
       - 04-282-CN
       - 04-287-CN
       - 04-292-CN
+      - 04-297-US
       - 04-302-CN
       - 04-307-CN
       - 04-312-CN
@@ -1867,7 +1868,6 @@ proxy-groups:
       - 04-283-CN
       - 04-288-CN
       - 04-293-CN
-      - 04-298-US
       - 04-303-CN
       - 04-308-CN
       - 04-313-CN
@@ -1889,7 +1889,6 @@ proxy-groups:
       - 09-493-RELAY
       - 09-498-HK
       - 09-503-RELAY
-      - 09-508-RELAY
       - 09-513-RELAY
       - 10-518-RELAY
       - 10-523-RELAY
@@ -2228,6 +2227,7 @@ proxy-groups:
       - 13-690-NOWHERE
       - 13-695-NOWHERE
       - 13-700-RELAY
+      - 14-705-RELAY
       - 14-710-RELAY
       - 14-715-RELAY
       - 17-730-CN
