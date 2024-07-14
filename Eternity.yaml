@@ -378,9 +378,9 @@ proxies:
   - {name: 04-321-CN, server: gy.58n.net, port: 20306, type: trojan, password: 60b30b17-2929-3862-a6fe-48ee79d0342f, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-322-JP, server: 52.198.230.68, port: 443, type: trojan, password: a905b110-3308-3c21-ae13-7d3d238a242e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-323-JP, server: 35.73.226.191, port: 443, type: trojan, password: a905b110-3308-3c21-ae13-7d3d238a242e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-324-US, server: 35.94.227.195, port: 443, type: trojan, password: a905b110-3308-3c21-ae13-7d3d238a242e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-324-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-325-US, server: 103.136.185.27, port: 5514, type: trojan, password: a905b110-3308-3c21-ae13-7d3d238a242e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-326-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-326-US, server: 103.136.185.28, port: 3504, type: trojan, password: a905b110-3308-3c21-ae13-7d3d238a242e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-327-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
   - {name: 04-328-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
   - {name: 04-329-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
@@ -682,7 +682,6 @@ proxies:
   - {name: 14-726-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-727-RELAY, server: 104.19.45.129, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-728-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-729-US, server: 52.25.101.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-731-CN, server: 123.88.148.9, port: 65045, type: ss, cipher: chacha20-ietf-poly1305, password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d, udp: true}
   - {name: 16-732-CN, server: 120.233.128.12, port: 22211, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618, udp: true}
   - {name: 16-733-CN, server: shcub.donghui.tech, port: 22638, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618, udp: true}
@@ -1353,7 +1352,6 @@ proxy-groups:
       - 14-726-RELAY
       - 14-727-RELAY
       - 14-728-RELAY
-      - 14-729-US
       - 16-731-CN
       - 16-732-CN
       - 16-733-CN
@@ -1939,7 +1937,6 @@ proxy-groups:
       - 14-714-NOWHERE
       - 14-719-EC
       - 14-724-RELAY
-      - 14-729-US
       - 16-734-CN
       - 34-739-RELAY
       - 34-744-RELAY
