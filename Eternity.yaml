@@ -436,11 +436,11 @@ proxies:
   - {name: 09-478-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
   - {name: 09-479-RELAY, server: cake.capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: cake.capellare.com}}, udp: true}
   - {name: 09-480-RELAY, server: f.khilei.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: f.khilei.com}}, udp: true}
+  - {name: 09-481-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-482-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-483-NOWHERE, server: kamnaf.ml, port: 2095, type: vmess, uuid: 1b7594df-1a43-4961-f3a9-741f8b8bee48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kamnaf.ml}}, udp: true}
   - {name: 09-484-NOWHERE, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: cf.yxjnode.com}}, udp: true}
   - {name: 09-485-NL, server: hidd2.afsharidempire.uk, port: 443, type: vmess, uuid: 19c80ce9-0935-41b9-b077-277621316a87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liUxUGJTGoPjd07ui73LZgwx8s, headers: {Host: hidd2.afsharidempire.uk}}, udp: true}
-  - {name: 09-486-RELAY, server: mankadmu.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: mankadmu.com}}, udp: true}
   - {name: 09-487-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 09-488-RELAY, server: ct.cfyun.top, port: 443, type: trojan, password: c5110090-c3a2-429e-b9b8-072b6535be1b, skip-cert-verify: true, udp: true}
   - {name: 09-489-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
@@ -1085,11 +1085,11 @@ proxy-groups:
       - 09-478-RELAY
       - 09-479-RELAY
       - 09-480-RELAY
+      - 09-481-RELAY
       - 09-482-RELAY
       - 09-483-NOWHERE
       - 09-484-NOWHERE
       - 09-485-NL
-      - 09-486-RELAY
       - 09-487-RELAY
       - 09-488-RELAY
       - 09-489-RELAY
@@ -1433,7 +1433,7 @@ proxy-groups:
       - 09-466-NL
       - 09-471-RELAY
       - 09-476-RELAY
-      - 09-486-RELAY
+      - 09-481-RELAY
       - 10-491-RELAY
       - 10-496-RELAY
       - 10-501-RELAY
