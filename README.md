@@ -270,8 +270,8 @@ Fork from TopFreeProxies.
     trojan://60b30b17-2929-3862-a6fe-48ee79d0342f@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-237-CN
     trojan://a7217859-f3f5-3deb-87d0-6ae5e4caa715@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-238-JP
     trojan://a7217859-f3f5-3deb-87d0-6ae5e4caa715@35.73.226.191:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-239-JP
-    trojan://e261dc84-1b52-42db-859a-ed575e0876fa@hk-2-ddns.sudatech.store:40021?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-240-US
-    trojan://a7217859-f3f5-3deb-87d0-6ae5e4caa715@103.136.185.27:5514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-241-US
+    trojan://a7217859-f3f5-3deb-87d0-6ae5e4caa715@34.215.241.10:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-240-US
+    trojan://e261dc84-1b52-42db-859a-ed575e0876fa@hk-2-ddns.sudatech.store:40021?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-241-US
     trojan://a7217859-f3f5-3deb-87d0-6ae5e4caa715@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-242-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMjQzLUNOIiwiYWRkIjoieXl5dC12Mi44OTk2OTY5OTgueHl6IiwicG9ydCI6IjIwMDExIiwidHlwZSI6Im5vbmUiLCJpZCI6IjhhNDFmMGM0LTAwNWMtNGYxOC1hN2JiLTNiMWUxM2VlMTYxMiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMjAyNCIsImhvc3QiOiJ5eXl0LXYyLjg5OTY5Njk5OC54eXoiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMjQ0LUNOIiwiYWRkIjoieXl5dC12Mi44OTk2OTY5OTgueHl6IiwicG9ydCI6IjIwMDExIiwidHlwZSI6Im5vbmUiLCJpZCI6IjhhNDFmMGM0LTAwNWMtNGYxOC1hN2JiLTNiMWUxM2VlMTYxMiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMjAyNCIsImhvc3QiOiJ5eXl0LXYyLjg5OTY5Njk5OC54eXoiLCJ0bHMiOiIifQ==
@@ -675,11 +675,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `742`
+合并节点总数: `744`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `742`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `744`
 
 
 ## 仓库声明
