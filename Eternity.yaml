@@ -464,8 +464,8 @@ proxies:
   - {name: 04-407-CN, server: gy.58n.net, port: 20306, type: trojan, password: 60b30b17-2929-3862-a6fe-48ee79d0342f, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-408-JP, server: 52.198.230.68, port: 443, type: trojan, password: 934c0ff0-bfcc-32fd-8419-149e6bff050d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-409-JP, server: 35.73.226.191, port: 443, type: trojan, password: 934c0ff0-bfcc-32fd-8419-149e6bff050d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-410-US, server: 54.190.142.224, port: 443, type: trojan, password: 934c0ff0-bfcc-32fd-8419-149e6bff050d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-411-US, server: 103.136.185.27, port: 5514, type: trojan, password: 934c0ff0-bfcc-32fd-8419-149e6bff050d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-412-US, server: 103.136.185.28, port: 3504, type: trojan, password: 934c0ff0-bfcc-32fd-8419-149e6bff050d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-413-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
   - {name: 04-414-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
   - {name: 04-415-CN, server: yyyt-v2.899696998.xyz, port: 20011, type: vmess, uuid: 8a41f0c4-005c-4f18-a7bb-3b1e13ee1612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: yyyt-v2.899696998.xyz}}, udp: true}
@@ -782,9 +782,9 @@ proxies:
   - {name: 14-825-RELAY, server: onea.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}, udp: true}
   - {name: 14-826-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-827-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
-  - {name: 14-828-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-829-RELAY, server: 104.19.45.2, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-830-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
+  - {name: 14-831-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-832-RELAY, server: hms02opi.fxiaomi.sbs, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02opi.fxiaomi.sbs}}, udp: true}
   - {name: 14-833-RELAY, server: 104.19.47.39, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2"}, udp: true}
   - {name: 14-834-RELAY, server: 172.67.169.78, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1284,8 +1284,8 @@ proxy-groups:
       - 04-407-CN
       - 04-408-JP
       - 04-409-JP
+      - 04-410-US
       - 04-411-US
-      - 04-412-US
       - 04-413-CN
       - 04-414-CN
       - 04-415-CN
@@ -1602,9 +1602,9 @@ proxy-groups:
       - 14-825-RELAY
       - 14-826-RELAY
       - 14-827-RELAY
-      - 14-828-RELAY
       - 14-829-RELAY
       - 14-830-RELAY
+      - 14-831-RELAY
       - 14-832-RELAY
       - 14-833-RELAY
       - 14-834-RELAY
@@ -1846,6 +1846,7 @@ proxy-groups:
       - 14-816-RELAY
       - 14-821-RELAY
       - 14-826-RELAY
+      - 14-831-RELAY
       - 14-836-RELAY
       - 14-841-RELAY
       - 17-846-HK
@@ -1949,7 +1950,6 @@ proxy-groups:
       - 04-397-CN
       - 04-402-CN
       - 04-407-CN
-      - 04-412-US
       - 04-417-CN
       - 04-422-CN
       - 04-427-CN
@@ -2180,7 +2180,6 @@ proxy-groups:
       - 13-813-NOWHERE
       - 14-818-RELAY
       - 14-823-RELAY
-      - 14-828-RELAY
       - 14-833-RELAY
       - 14-838-RELAY
       - 16-843-CN
@@ -2449,6 +2448,7 @@ proxy-groups:
       - 04-395-CN
       - 04-400-CN
       - 04-405-CN
+      - 04-410-US
       - 04-415-CN
       - 04-420-CN
       - 04-425-CN
