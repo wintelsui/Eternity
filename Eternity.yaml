@@ -456,7 +456,6 @@ proxies:
   - {name: 04-498-CN, server: de-01.01-vip.top, port: 31017, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: de-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-499-CN, server: in-01.01-vip.top, port: 31018, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: in-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-500-CN, server: au-01.01-vip.top, port: 31019, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
-  - {name: 06-501-RELAY, server: jp.rnmcnm.com, port: 80, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 06-502-RELAY, server: russia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: russia.com}}, udp: true}
   - {name: 07-504-RELAY, server: 104.19.42.79, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-505-RELAY, server: 172.64.198.229, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -514,6 +513,7 @@ proxies:
   - {name: 09-557-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/P7EExoE2, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 09-558-CN, server: sui.forlive.live, port: 40396, type: vmess, uuid: 545d58da-5cf4-4dd5-8760-353509720b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
   - {name: 09-559-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
+  - {name: 09-560-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-561-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 09-562-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 29acb3c8-7512-4c4d-9d3d-c14ac9e5a1c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-563-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 282929a7-7247-4bfd-84f4-39e61484f313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: www.speedtest.net}}, udp: true}
@@ -1165,7 +1165,6 @@ proxy-groups:
       - 04-498-CN
       - 04-499-CN
       - 04-500-CN
-      - 06-501-RELAY
       - 06-502-RELAY
       - 07-504-RELAY
       - 07-505-RELAY
@@ -1223,6 +1222,7 @@ proxy-groups:
       - 09-557-RELAY
       - 09-558-CN
       - 09-559-RELAY
+      - 09-560-RELAY
       - 09-561-FR
       - 09-562-RELAY
       - 09-563-RELAY
@@ -1557,7 +1557,6 @@ proxy-groups:
       - 04-486-CN
       - 04-491-CN
       - 04-496-CN
-      - 06-501-RELAY
       - 07-506-RELAY
       - 07-511-RELAY
       - 07-516-RELAY
@@ -2149,6 +2148,7 @@ proxy-groups:
       - 07-545-RELAY
       - 08-550-RELAY
       - 09-555-NOWHERE
+      - 09-560-RELAY
       - 09-565-RELAY
       - 09-570-RELAY
       - 09-575-RELAY
