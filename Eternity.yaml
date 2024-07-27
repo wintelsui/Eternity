@@ -317,6 +317,7 @@ proxies:
   - {name: 04-261-CN, server: au-01.01-vip.top, port: 31019, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-262-JP, server: 52.198.230.68, port: 443, type: trojan, password: 6d832484-820c-392f-af16-18ab71e2945b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-263-JP, server: 35.73.226.191, port: 443, type: trojan, password: 6d832484-820c-392f-af16-18ab71e2945b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-264-US, server: 54.149.239.171, port: 443, type: trojan, password: 6d832484-820c-392f-af16-18ab71e2945b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-265-US, server: 103.136.185.27, port: 5514, type: trojan, password: 6d832484-820c-392f-af16-18ab71e2945b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-266-US, server: 103.136.185.28, port: 3504, type: trojan, password: 6d832484-820c-392f-af16-18ab71e2945b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-267-CN, server: gy.58n.net, port: 20301, type: trojan, password: 88132aab-57ba-3cd9-a995-4269233cc0cd, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -675,7 +676,6 @@ proxies:
   - {name: 13-719-RELAY, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: hexsen.com}}, udp: true}
   - {name: 14-720-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
   - {name: 14-721-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-722-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-723-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-724-RELAY, server: 104.19.45.129, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-725-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -701,16 +701,15 @@ proxies:
   - {name: 14-745-RELAY, server: 104.19.45.85, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-746-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 14-747-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-748-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-749-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-750-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-751-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 14-752-RELAY, server: jp.rnmcnm.com, port: 443, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 16-753-RELAY, server: 33.6bnw.top, port: 2052, type: vmess, uuid: b0549224-831d-4cba-bab9-94fdc6a1327e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 33.6bnw.top}}, udp: true}
   - {name: 16-754-CN, server: aa01gg.sssyun.xyz, port: 32207, type: ss, cipher: chacha20-ietf-poly1305, password: b0549224-831d-4cba-bab9-94fdc6a1327e, udp: true}
   - {name: 16-755-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: a223af01-b481-4abf-a305-60d60587d1e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 16-756-CN, server: aa01gg.sssyun.xyz, port: 39204, type: ss, cipher: chacha20-ietf-poly1305, password: b0549224-831d-4cba-bab9-94fdc6a1327e, udp: true}
   - {name: 17-758-CN, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: "17-759-HKtrojan//6d832484-820c-392f-af16-18ab71e2945b@54.149.239.171443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-264-US", server: 34710.crelay.org, port: 34710, type: ss, cipher: aes-128-gcm, password: a9294cae-282a-43a1-8c3f-867c8329c747, udp: true}
   - {name: 34-760-RELAY, server: 104.19.45.11, port: 8443, type: vmess, uuid: 39135a39-e6ca-43df-a360-d859eea58d86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-761-RELAY, server: 104.17.148.22, port: 2095, type: vmess, uuid: 3bc2168a-93f0-42f8-9a66-d8215bf01ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed=2048"}, udp: true}
   - {name: 34-762-RELAY, server: 104.16.61.8, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
@@ -1003,6 +1002,7 @@ proxy-groups:
       - 04-261-CN
       - 04-262-JP
       - 04-263-JP
+      - 04-264-US
       - 04-265-US
       - 04-266-US
       - 04-267-CN
@@ -1361,7 +1361,6 @@ proxy-groups:
       - 13-719-RELAY
       - 14-720-RELAY
       - 14-721-EC
-      - 14-722-RELAY
       - 14-723-RELAY
       - 14-724-RELAY
       - 14-725-RELAY
@@ -1387,16 +1386,15 @@ proxy-groups:
       - 14-745-RELAY
       - 14-746-RELAY
       - 14-747-RELAY
-      - 14-748-US
       - 14-749-RELAY
       - 14-750-RELAY
       - 14-751-US
+      - 14-752-RELAY
       - 16-753-RELAY
       - 16-754-CN
       - 16-755-RELAY
       - 16-756-CN
       - 17-758-CN
-      - 17-759-HKtrojan//6d832484-820c-392f-af16-18ab71e2945b@54.149.239.171443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-264-US
       - 34-760-RELAY
       - 34-761-RELAY
       - 34-762-RELAY
@@ -1694,12 +1692,12 @@ proxy-groups:
       - 12-707-CN
       - 13-712-US
       - 13-717-NOWHERE
-      - 14-722-RELAY
       - 14-727-RELAY
       - 14-732-RELAY
       - 14-737-RELAY
       - 14-742-RELAY
       - 14-747-RELAY
+      - 14-752-RELAY
       - 34-762-RELAY
       - 34-767-RELAY
       - 34-772-RELAY
@@ -1838,7 +1836,6 @@ proxy-groups:
       - 14-733-RELAY
       - 14-738-RELAY
       - 14-743-RELAY
-      - 14-748-US
       - 16-753-RELAY
       - 17-758-CN
       - 34-763-RELAY
@@ -1902,6 +1899,7 @@ proxy-groups:
       - 04-249-CN
       - 04-254-CN
       - 04-259-CN
+      - 04-264-US
       - 04-269-CN
       - 04-274-CN
       - 04-279-CN
@@ -1981,7 +1979,6 @@ proxy-groups:
       - 14-744-RELAY
       - 14-749-RELAY
       - 16-754-CN
-      - 17-759-HKtrojan//6d832484-820c-392f-af16-18ab71e2945b@54.149.239.171443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-264-US
       - 34-764-RELAY
       - 34-769-RELAY
       - 34-774-RELAY
