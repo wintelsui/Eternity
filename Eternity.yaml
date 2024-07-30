@@ -304,6 +304,7 @@ proxies:
   - {name: 04-247-CN, server: au-01.01-vip.top, port: 31019, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-248-JP, server: 52.198.230.68, port: 443, type: trojan, password: 72b7d1f6-b1c7-34d0-bdae-3faf926060fe, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-249-JP, server: 35.73.226.191, port: 443, type: trojan, password: 72b7d1f6-b1c7-34d0-bdae-3faf926060fe, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-250-US, server: 34.222.239.156, port: 443, type: trojan, password: 72b7d1f6-b1c7-34d0-bdae-3faf926060fe, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-251-US, server: 103.136.185.27, port: 5514, type: trojan, password: 72b7d1f6-b1c7-34d0-bdae-3faf926060fe, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-252-US, server: 103.136.185.28, port: 3504, type: trojan, password: 72b7d1f6-b1c7-34d0-bdae-3faf926060fe, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-253-CN, server: gy.58n.net, port: 20301, type: trojan, password: 824ac722-e526-39c8-9e16-9f825932543d, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -661,7 +662,6 @@ proxies:
   - {name: 14-703-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-704-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-705-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-707-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-708-CN, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: b5abc4c0-b518-4195-88b4-57900f16fb65, udp: true}
   - {name: 16-709-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: a223af01-b481-4abf-a305-60d60587d1e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 16-710-CN, server: f10002.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 4bd14bdb-db19-4de4-a452-58b897046d2c, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -951,6 +951,7 @@ proxy-groups:
       - 04-247-CN
       - 04-248-JP
       - 04-249-JP
+      - 04-250-US
       - 04-251-US
       - 04-252-US
       - 04-253-CN
@@ -1308,7 +1309,6 @@ proxy-groups:
       - 14-703-RELAY
       - 14-704-US
       - 14-705-RELAY
-      - 14-707-US
       - 16-708-CN
       - 16-709-RELAY
       - 16-710-CN
@@ -1607,7 +1607,6 @@ proxy-groups:
       - 14-692-RELAY
       - 14-697-RELAY
       - 14-702-RELAY
-      - 14-707-US
       - 16-712-CN
       - 17-717-HK
       - 34-722-RELAY
@@ -1934,6 +1933,7 @@ proxy-groups:
       - 04-235-CN
       - 04-240-CN
       - 04-245-CN
+      - 04-250-US
       - 04-255-CN
       - 04-260-CN
       - 04-265-CN
