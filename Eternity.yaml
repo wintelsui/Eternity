@@ -278,6 +278,7 @@ proxies:
   - {name: 04-221-JP, server: 52.198.230.68, port: 443, type: trojan, password: 848d1841-e547-3f7c-bc7e-d35e394df33e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-222-JP, server: 35.73.226.191, port: 443, type: trojan, password: 848d1841-e547-3f7c-bc7e-d35e394df33e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-223-US, server: 34.221.82.178, port: 443, type: trojan, password: 848d1841-e547-3f7c-bc7e-d35e394df33e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-224-US, server: 103.136.185.27, port: 5514, type: trojan, password: 848d1841-e547-3f7c-bc7e-d35e394df33e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-225-US, server: 103.136.185.28, port: 3504, type: trojan, password: 848d1841-e547-3f7c-bc7e-d35e394df33e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-226-CN, server: gy.58n.net, port: 20301, type: trojan, password: a4740796-eeb3-3344-bef0-31ee1abfdd4a, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-227-CN, server: gy.58n.net, port: 43337, type: trojan, password: a4740796-eeb3-3344-bef0-31ee1abfdd4a, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -670,7 +671,6 @@ proxies:
   - {name: 14-712-RELAY, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
   - {name: 14-713-RELAY, server: 104.19.45.85, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-714-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-715-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-716-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-717-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-719-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -960,6 +960,7 @@ proxy-groups:
       - 04-221-JP
       - 04-222-JP
       - 04-223-US
+      - 04-224-US
       - 04-225-US
       - 04-226-CN
       - 04-227-CN
@@ -1352,7 +1353,6 @@ proxy-groups:
       - 14-712-RELAY
       - 14-713-RELAY
       - 14-714-RELAY
-      - 14-715-US
       - 14-716-RELAY
       - 14-717-RELAY
       - 14-719-RELAY
@@ -1886,6 +1886,7 @@ proxy-groups:
       - 04-209-CN
       - 04-214-CN
       - 04-219-CN
+      - 04-224-US
       - 04-229-CN
       - 04-234-CN
       - 04-239-CN
@@ -2104,7 +2105,6 @@ proxy-groups:
       - 14-700-RELAY
       - 14-705-RELAY
       - 14-710-RELAY
-      - 14-715-US
       - 17-725-CN
       - 17-730-GB
       - 17-735-TR
