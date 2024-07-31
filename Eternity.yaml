@@ -680,11 +680,11 @@ proxies:
   - {name: 14-722-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 14-723-RELAY, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
   - {name: 14-724-RELAY, server: 104.19.45.85, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-725-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 14-726-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-727-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-728-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-729-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-730-RELAY, server: jp.rnmcnm.com, port: 443, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 14-731-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-733-CN, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
   - {name: 16-734-CN, server: hkp11.network-cdn-gw.cc, port: 48810, type: ss, cipher: chacha20-ietf-poly1305, password: 3293037f-210e-4f64-8542-2af0141b8d43, udp: true}
@@ -1374,11 +1374,11 @@ proxy-groups:
       - 14-722-FR
       - 14-723-RELAY
       - 14-724-RELAY
+      - 14-725-RELAY
       - 14-726-RELAY
       - 14-727-US
       - 14-728-RELAY
       - 14-729-RELAY
-      - 14-730-RELAY
       - 14-731-RELAY
       - 16-733-CN
       - 16-734-CN
@@ -2139,7 +2139,7 @@ proxy-groups:
       - 14-710-RELAY
       - 14-715-RELAY
       - 14-720-RELAY
-      - 14-730-RELAY
+      - 14-725-RELAY
       - 16-735-CN
       - 17-740-CN
       - 17-745-FR
