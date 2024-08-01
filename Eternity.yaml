@@ -674,7 +674,6 @@ proxies:
   - {name: 14-715-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-716-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-717-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
-  - {name: 14-718-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-719-RELAY, server: 104.19.45.2, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-720-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-721-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
@@ -693,6 +692,7 @@ proxies:
   - {name: 14-734-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-736-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-737-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-738-RELAY, server: jp.rnmcnm.com, port: 443, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 14-739-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-741-CN, server: mmhk01.micloud.buzz, port: 46001, type: vmess, uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}, udp: true}
   - {name: 16-742-CN, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
@@ -1375,7 +1375,6 @@ proxy-groups:
       - 14-715-RELAY
       - 14-716-RELAY
       - 14-717-RELAY
-      - 14-718-RELAY
       - 14-719-RELAY
       - 14-720-RELAY
       - 14-721-RELAY
@@ -1394,6 +1393,7 @@ proxy-groups:
       - 14-734-RELAY
       - 14-736-RELAY
       - 14-737-RELAY
+      - 14-738-RELAY
       - 14-739-RELAY
       - 16-741-CN
       - 16-742-CN
@@ -1872,10 +1872,10 @@ proxy-groups:
       - 13-703-NOWHERE
       - 13-708-NOWHERE
       - 14-713-RELAY
-      - 14-718-RELAY
       - 14-723-RELAY
       - 14-728-RELAY
       - 14-733-RELAY
+      - 14-738-RELAY
       - 16-743-CN
       - 17-748-CN
       - 17-753-FR
