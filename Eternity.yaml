@@ -428,6 +428,7 @@ proxies:
   - {name: 07-472-KR, server: cn2.cdn.xfltd-cdn.top, port: 12065, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn2.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 07-473-RELAY, server: fr2-july.88888802.xyz, port: 443, type: trojan, password: f2191442-1436-3d79-801e-80d8de896c73, skip-cert-verify: true, udp: true}
   - {name: 07-474-FR, server: 185.234.64.146, port: 2053, type: trojan, password: 5c7941b5-c393-4eea-a76d-d44b59baf8a0, skip-cert-verify: true, udp: true}
+  - {name: 07-475-RELAY, server: us1.1vpn.sbs, port: 443, type: vmess, uuid: 27d274b4-629c-46c5-96ea-416678522ccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /rfhtrhtrhtrh, headers: {Host: us1.1vpn.sbs}}, udp: true}
   - {name: 07-476-CN, server: zzh2.gouersu.top, port: 47084, type: ss, cipher: aes-256-gcm, password: 2affd0c1-a5b4-4c1c-8800-fb2f866626e7, udp: true}
   - {name: 07-477-RELAY, server: 104.19.38.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-478-US, server: 94.131.122.157, port: 2053, type: trojan, password: 6d25dd28-80a4-4f63-80c6-f36d6ce1d25f, skip-cert-verify: true, udp: true}
@@ -440,7 +441,6 @@ proxies:
   - {name: 09-485-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 4113e36e-b25b-418b-c405-9a50dc4cfd3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-486-FASTLY, server: speedtest.net, port: 443, type: vmess, uuid: 63febc28-3dfb-4605-9a39-685f2c55da1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: speedtest.net}}, udp: true}
   - {name: 09-487-RELAY, server: parsvds.ir, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: parsvds.ir}}, udp: true}
-  - {name: 09-488-RELAY, server: harriscity.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: harriscity.com}}, udp: true}
   - {name: 09-489-RELAY, server: us2e-20240116.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us2ekjds3nay, headers: {Host: us2e-20240116.v2freevpn.com}}, udp: true}
   - {name: 09-490-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 09-491-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 5fb3d363-f936-4505-bff3-debf0956f7ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 07-472-KR
       - 07-473-RELAY
       - 07-474-FR
+      - 07-475-RELAY
       - 07-476-CN
       - 07-477-RELAY
       - 07-478-US
@@ -1064,7 +1065,6 @@ proxy-groups:
       - 09-485-RELAY
       - 09-486-FASTLY
       - 09-487-RELAY
-      - 09-488-RELAY
       - 09-489-RELAY
       - 09-490-RELAY
       - 09-491-RELAY
@@ -1638,7 +1638,6 @@ proxy-groups:
       - 07-473-RELAY
       - 07-478-US
       - 09-483-RELAY
-      - 09-488-RELAY
       - 09-493-RELAY
       - 12-498-RELAY
       - 12-503-RELAY
@@ -1893,6 +1892,7 @@ proxy-groups:
       - 07-460-KR
       - 07-465-KR
       - 07-470-CN
+      - 07-475-RELAY
       - 09-480-FASTLY
       - 09-485-RELAY
       - 09-490-RELAY
