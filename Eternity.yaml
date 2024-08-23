@@ -318,7 +318,6 @@ proxies:
   - {name: 04-361-CN, server: gy.58n.net, port: 20306, type: trojan, password: db95b327-b8d5-350d-ad90-cdac407deea6, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-362-JP, server: 52.198.230.68, port: 443, type: trojan, password: 1955c1ca-d466-3651-b468-7bd6dcd0981f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-363-JP, server: 35.73.226.191, port: 443, type: trojan, password: 1955c1ca-d466-3651-b468-7bd6dcd0981f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-364-US, server: 54.187.213.98, port: 443, type: trojan, password: 1955c1ca-d466-3651-b468-7bd6dcd0981f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-365-US, server: 103.136.185.27, port: 5514, type: trojan, password: 1955c1ca-d466-3651-b468-7bd6dcd0981f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-366-US, server: 103.136.185.28, port: 3504, type: trojan, password: 1955c1ca-d466-3651-b468-7bd6dcd0981f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-367-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 699e6fd7-d137-32b3-a9a5-7e82f4edc507, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -663,6 +662,7 @@ proxies:
   - {name: 14-708-US, server: 18.236.64.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-709-US, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-710-US, server: 34.219.154.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14-711-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-712-RELAY, server: 22.6bnw.top, port: 2052, type: vmess, uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 22.6bnw.top}}, udp: true}
   - {name: 16-713-RELAY, server: 33.6bnw.top, port: 2052, type: vmess, uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 33.6bnw.top}}, udp: true}
   - {name: 16-714-CN, server: gzyd5-1.piaomiaoxu.net, port: 28995, type: ss, cipher: aes-256-gcm, password: e9e3ecc0-df97-4664-9051-74e4a8dcfa54, udp: true}
@@ -1008,7 +1008,6 @@ proxy-groups:
       - 04-361-CN
       - 04-362-JP
       - 04-363-JP
-      - 04-364-US
       - 04-365-US
       - 04-366-US
       - 04-367-CN
@@ -1353,6 +1352,7 @@ proxy-groups:
       - 14-708-US
       - 14-709-US
       - 14-710-US
+      - 14-711-US
       - 16-712-RELAY
       - 16-713-RELAY
       - 16-714-CN
@@ -1562,6 +1562,7 @@ proxy-groups:
       - 14-696-RELAY
       - 14-701-RELAY
       - 14-706-RELAY
+      - 14-711-US
       - 16-716-CN
       - 17-721-KR
       - 17-726-KR
@@ -1913,7 +1914,6 @@ proxy-groups:
       - 04-349-CN
       - 04-354-CN
       - 04-359-CN
-      - 04-364-US
       - 04-369-CN
       - 04-374-CN
       - 04-379-DE
