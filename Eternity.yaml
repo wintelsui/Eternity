@@ -85,7 +85,6 @@ proxies:
   - {name: 02-0030-KR, server: cn2.cdn.xfltd-cdn.top, port: 12024, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0031-KR, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0032-KR, server: cn2.cdn.xfltd-cdn.top, port: 12064, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0045-CN, server: afa007d388783f3a.cdn.jiashule.com, port: 21744, type: ss, cipher: chacha20-ietf-poly1305, password: 92382089-5833-4385-8557-741652bc00a3, udp: true}
   - {name: 03-0046-CN, server: xd-zg-hkt1.bestdong.xyz, port: 60003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e3ddd07-a73a-4703-be35-09964e994fc6, udp: true}
   - {name: 03-0047-CN, server: 0e8383f2446d374c.cdn.jiashule.com, port: 41775, type: ss, cipher: chacha20-ietf-poly1305, password: 92382089-5833-4385-8557-741652bc00a3, udp: true}
   - {name: 03-0048-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ed742eb3-6bf0-44d2-a53a-c0f870c85ff7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -297,7 +296,7 @@ proxies:
   - {name: 03-0254-CN, server: xd-zg-hkt1.bestdong.xyz, port: 41015, type: ss, cipher: chacha20-ietf-poly1305, password: 43bdb100-ca12-4ec7-98cb-821f0776f274, udp: true}
   - {name: 03-0255-CN, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 95fab672-b3fc-4521-8331-9b39dcef3bdd, udp: true}
   - {name: 03-0256-CN, server: xd-zg2.bestdong.xyz, port: 26015, type: ss, cipher: chacha20-ietf-poly1305, password: 0e3ddd07-a73a-4703-be35-09964e994fc6, udp: true}
-  - {name: 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2I1NDM5NS1hMDQzLTQ2ZmEtYjcwNy1lNDM4N2EyNGE0Mzk@gy.666666222.shop20008#03-0044-CN, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 95fab672-b3fc-4521-8331-9b39dcef3bdd, udp: true}
+  - {name: 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MjM4MjA4OS01ODMzLTQzODUtODU1Ny03NDE2NTJiYzAwYTM@afa007d388783f3a.cdn.jiashule.com21744#03-0045-CN, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 95fab672-b3fc-4521-8331-9b39dcef3bdd, udp: true}
   - {name: 03-0258-CN, server: gdcub.yunnode.win, port: 15728, type: ss, cipher: chacha20-ietf-poly1305, password: e97cbbc3-f31a-4800-8379-f37ef7dbaa59, udp: true}
   - {name: 03-0259-CN, server: gdcub.yunnode.win, port: 15735, type: ss, cipher: chacha20-ietf-poly1305, password: 451455a2-492e-4bea-b5d8-ae09b117abf0, udp: true}
   - {name: 03-0260-CN, server: gd.xueyejiasu.com, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 055dc4f2-e850-4637-a907-8d438efc6e60, udp: true}
@@ -639,9 +638,10 @@ proxies:
   - {name: 03-0597-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 95245c5e-bd2d-49e9-be45-f72c52e10f48, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0598-CN, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: 95fab672-b3fc-4521-8331-9b39dcef3bdd, udp: true}
   - {name: 03-0599-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 497af58e-9247-44f4-95f6-51437525d88d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 04-0832-JP, server: 35.73.226.191, port: 443, type: trojan, password: 5ab86670-3360-355e-8886-2127990cb71c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0834-US, server: 103.136.185.27, port: 5514, type: trojan, password: 5ab86670-3360-355e-8886-2127990cb71c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0835-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 881a2fbe-d828-463e-9514-9b96a1bcbe7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0832-JP, server: 35.73.226.191, port: 443, type: trojan, password: b1a4f3ac-8fc6-3e36-9093-b56cc4f179d4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0833-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 881a2fbe-d828-463e-9514-9b96a1bcbe7e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0834-US, server: 103.136.185.27, port: 5514, type: trojan, password: b1a4f3ac-8fc6-3e36-9093-b56cc4f179d4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0835-US, server: 103.136.185.28, port: 3504, type: trojan, password: b1a4f3ac-8fc6-3e36-9093-b56cc4f179d4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 07-1045-KR, server: 82.117.226.218, port: 12004, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 07-1046-KR, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 07-1049-KR, server: 82.117.226.218, port: 12073, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
@@ -693,7 +693,6 @@ proxy-groups:
       - 02-0030-KR
       - 02-0031-KR
       - 02-0032-KR
-      - 03-0045-CN
       - 03-0046-CN
       - 03-0047-CN
       - 03-0048-KR
@@ -905,7 +904,7 @@ proxy-groups:
       - 03-0254-CN
       - 03-0255-CN
       - 03-0256-CN
-      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2I1NDM5NS1hMDQzLTQ2ZmEtYjcwNy1lNDM4N2EyNGE0Mzk@gy.666666222.shop20008#03-0044-CN
+      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MjM4MjA4OS01ODMzLTQzODUtODU1Ny03NDE2NTJiYzAwYTM@afa007d388783f3a.cdn.jiashule.com21744#03-0045-CN
       - 03-0258-CN
       - 03-0259-CN
       - 03-0260-CN
@@ -1248,6 +1247,7 @@ proxy-groups:
       - 03-0598-CN
       - 03-0599-KR
       - 04-0832-JP
+      - 04-0833-US
       - 04-0834-US
       - 04-0835-US
       - 07-1045-KR
@@ -1447,7 +1447,7 @@ proxy-groups:
       - 03-0242-CN
       - 03-0247-CN
       - 03-0252-CN
-      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2I1NDM5NS1hMDQzLTQ2ZmEtYjcwNy1lNDM4N2EyNGE0Mzk@gy.666666222.shop20008#03-0044-CN
+      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MjM4MjA4OS01ODMzLTQzODUtODU1Ny03NDE2NTJiYzAwYTM@afa007d388783f3a.cdn.jiashule.com21744#03-0045-CN
       - 03-0262-KR
       - 03-0267-KR
       - 03-0272-KR
@@ -1640,6 +1640,7 @@ proxy-groups:
       - 03-0588-CN
       - 03-0593-CN
       - 03-0598-CN
+      - 04-0833-US
       - 07-1053-JP
       - 07-1058-KR
       - 07-1103-KR
@@ -1696,7 +1697,6 @@ proxy-groups:
       - 03-0244-CN
       - 03-0249-CN
       - 03-0254-CN
-      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2I1NDM5NS1hMDQzLTQ2ZmEtYjcwNy1lNDM4N2EyNGE0Mzk@gy.666666222.shop20008#03-0044-CN
       - 03-0259-CN
       - 03-0264-KR
       - 03-0269-KR
@@ -1780,7 +1780,6 @@ proxy-groups:
       - 02-0020-KR
       - 02-0025-KR
       - 02-0030-KR
-      - 03-0045-CN
       - 03-0050-KR
       - 03-0055-KR
       - 03-0060-KR
@@ -1823,6 +1822,7 @@ proxy-groups:
       - 03-0245-CN
       - 03-0250-CN
       - 03-0255-CN
+      - 03-0257-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MjM4MjA4OS01ODMzLTQzODUtODU1Ny03NDE2NTJiYzAwYTM@afa007d388783f3a.cdn.jiashule.com21744#03-0045-CN
       - 03-0260-CN
       - 03-0265-CN
       - 03-0270-CN
