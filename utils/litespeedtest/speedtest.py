@@ -89,7 +89,7 @@ def confighandler(input_config):
         lite_config['timeout'] = input_config['timeout']
 
     with open('./config.json', 'w', encoding='utf-8') as f:
-        f.write(json.dumps(lite_config, sort_keys=False, indent=4, ensure_ascii=False))
+        f.write(json.dumps(lite_config, sort_keys=True, indent=4, ensure_ascii=False))
 
 def progressbar(current,range,desc,size=60):
     empty='*'
