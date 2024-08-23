@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 03-034-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d85f511f-554d-4946-a0c6-2c98edda6f9d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-035-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec5d0d7a-122e-4028-9e57-3e7d4ad31d78, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-036-CN, server: gdcub.yunnode.win, port: 15728, type: ss, cipher: chacha20-ietf-poly1305, password: ecc6bad3-a2d3-4165-bd40-0989b4a4bf0d, udp: true}
   - {name: 03-037-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c1490c95-2831-4cc4-9d03-f91e5bc733e7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -609,9 +610,9 @@ proxies:
   - {name: 04-687-CN, server: gy.58n.net, port: 20306, type: trojan, password: fd466c09-9e58-32e1-aa98-353bad9a5c20, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-688-JP, server: 52.198.230.68, port: 443, type: trojan, password: 76946151-33f9-31fc-8faa-99c6470a6de8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-689-JP, server: 35.73.226.191, port: 443, type: trojan, password: 76946151-33f9-31fc-8faa-99c6470a6de8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-690-US, server: 54.187.213.98, port: 443, type: trojan, password: 76946151-33f9-31fc-8faa-99c6470a6de8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-690-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c2a9314f-af45-4e2a-af42-ab2b6f9f9613, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-691-US, server: 103.136.185.27, port: 5514, type: trojan, password: 76946151-33f9-31fc-8faa-99c6470a6de8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-692-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c2a9314f-af45-4e2a-af42-ab2b6f9f9613, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-692-US, server: 103.136.185.28, port: 3504, type: trojan, password: 76946151-33f9-31fc-8faa-99c6470a6de8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-693-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
   - {name: 04-694-CN, server: gdcub.yunnode.win, port: 31641, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
   - {name: 04-695-CN, server: gdcub.yunnode.win, port: 31645, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
@@ -620,7 +621,6 @@ proxies:
   - {name: 04-698-CN, server: gdcub.yunnode.win, port: 31248, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
   - {name: 07-869-KR, server: 82.117.226.218, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 07-870-KR, server: 82.117.226.218, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-  - {name: 07-873-FR, server: 185.234.64.146, port: 2053, type: trojan, password: 5c7941b5-c393-4eea-a76d-d44b59baf8a0, skip-cert-verify: true, udp: true}
   - {name: 17-903-KR, server: cn1.cdn.xfltd-cdn.top, port: 12001, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 17-904-KR, server: cn1.cdn.xfltd-cdn.top, port: 12002, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 17-905-KR, server: cn1.cdn.xfltd-cdn.top, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
@@ -662,6 +662,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 03-034-KR
       - 03-035-KR
       - 03-036-CN
       - 03-037-KR
@@ -1228,7 +1229,6 @@ proxy-groups:
       - 04-698-CN
       - 07-869-KR
       - 07-870-KR
-      - 07-873-FR
       - 17-903-KR
       - 17-904-KR
       - 17-905-KR
@@ -1636,7 +1636,6 @@ proxy-groups:
       - 04-688-JP
       - 04-693-NOWHERE
       - 04-698-CN
-      - 07-873-FR
       - 17-903-KR
       - 17-913-KR
       - 17-918-KR
@@ -1648,6 +1647,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-034-KR
       - 03-039-CN
       - 03-044-CN
       - 03-049-KR
