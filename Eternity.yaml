@@ -632,7 +632,7 @@ proxies:
   - {name: 04-0676-CN, server: gy.58n.net, port: 20304, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0677-CN, server: gy.58n.net, port: 20305, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0678-CN, server: gy.58n.net, port: 20306, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-0679-JP, server: 52.198.230.68, port: 443, type: trojan, password: 57f34a78-9182-3dd0-8017-c68346211a41, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0679-JP, server: 52.198.230.68, port: 443, type: trojan, password: 9ba0bfb5-19fa-3802-97c3-2b2485149552, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0684-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
   - {name: 04-0685-CN, server: gdcub.yunnode.win, port: 31641, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
   - {name: 04-0686-CN, server: gdcub.yunnode.win, port: 31645, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
@@ -647,7 +647,7 @@ proxies:
   - {name: 04-0695-CN, server: 140.249.160.81, port: 31682, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
   - {name: 04-0696-CN, server: 140.249.160.81, port: 31685, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
   - {name: 04-0697-CN, server: gdcub.yunnode.win, port: 31651, type: ss, cipher: chacha20-ietf-poly1305, password: 334c2183-fbc3-4127-865b-52d51cd42d60, udp: true}
-  - {name: 04-0698-RELAY, server: 104.18.88.22, port: 2082, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.88.22}, udp: true}
+  - {name: 04-0698-RELAY, server: 172.67.105.216, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.105.216}, udp: true}
   - {name: 15-2407-CN, server: xd-zhongri1.bestdong.xyz, port: 28916, type: ss, cipher: chacha20-ietf-poly1305, password: f61217b1-4149-4a60-ba59-0f67986c5264, udp: true}
   - {name: 15-2408-CN, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: dd9bb353-18d0-46fe-95ed-49067e75e732, udp: true}
   - {name: 15-2410-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: a746e8ad-052b-419b-bc4c-dc477eb93658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
