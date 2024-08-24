@@ -54,9 +54,8 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0005-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3a87bf53-ba03-4281-aad2-17c47c3e76aa, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-  - {name: 02-0006-CN, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: 02-0017-CN, server: cn2.cdn.xfltd-cdn.top, port: 12067, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0005-KR, server: cn1.cdn.xfltd-cdn.top, port: 12012, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  - {name: 02-0017-KR, server: cn2.cdn.xfltd-cdn.top, port: 12067, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0033-CN, server: df-01.bestdong.xyz, port: 59993, type: ss, cipher: chacha20-ietf-poly1305, password: e99712e8-91f9-4037-9649-c82bd8896d33, udp: true}
   - {name: 03-0034-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2d4dc5b2-71b4-4cea-9266-d5f3c6af43dd, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0035-CN, server: ge.cooc.icu, port: 35607, type: ss, cipher: chacha20-ietf-poly1305, password: 0660137f-ffd5-4fb4-a23f-34a610a37767, udp: true}
@@ -241,6 +240,7 @@ proxies:
   - {name: 03-0215-CN, server: xd-zg-hkt1.bestdong.xyz, port: 60003, type: ss, cipher: chacha20-ietf-poly1305, password: c40bfe2f-008c-478e-aee4-698235be1e53, udp: true}
   - {name: 03-0216-CN, server: gdcub.yunnode.win, port: 15632, type: ss, cipher: chacha20-ietf-poly1305, password: 3e536375-e1d0-47aa-94ff-40839cd623db, udp: true}
   - {name: 03-0217-CN, server: xd-zg-hkt1.bestdong.xyz, port: 60003, type: ss, cipher: chacha20-ietf-poly1305, password: 2812b2c8-88d0-48a0-8ed6-d438122395bb, udp: true}
+  - {name: 03-0218-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 0660137f-ffd5-4fb4-a23f-34a610a37767, udp: true}
   - {name: 03-0219-CN, server: ll-sh1.bestdong.xyz, port: 24040, type: ss, cipher: chacha20-ietf-poly1305, password: c40bfe2f-008c-478e-aee4-698235be1e53, udp: true}
   - {name: 03-0220-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: bea059fb-8787-45a9-9fb7-0041fea44d20, udp: true}
   - {name: 03-0221-CN, server: gdcub.yunnode.win, port: 15532, type: ss, cipher: chacha20-ietf-poly1305, password: 627a74f8-493a-4ef1-bcb2-c57eb26dcf1b, udp: true}
@@ -622,14 +622,12 @@ proxies:
   - {name: 04-0696-CN, server: gy.58n.net, port: 20299, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0697-CN, server: gy.58n.net, port: 17806, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0698-CN, server: gy.58n.net, port: 30712, type: trojan, password: 2a6aa122-e0c8-333d-bbe1-d184b641ea39, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 15-2407-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 928bb71b-2166-40fa-b04d-a1020d642652, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 15-2408-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 91753285-3722-4516-9d03-b16843902ec7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 15-2409-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4131ffff-4d50-496d-9507-0440163cc6c2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2410-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b03c7119-aa91-4944-8b7a-b34a8284c817, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2411-CN, server: xd-zhongri1.bestdong.xyz, port: 28916, type: ss, cipher: chacha20-ietf-poly1305, password: a61c33fa-4b41-471d-b316-a49671e1a344, udp: true}
   - {name: 15-2412-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 89390c0b-5040-4213-8415-a3f502e545c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2413-CN, server: ll-sh1.bestdong.xyz, port: 24021, type: ss, cipher: chacha20-ietf-poly1305, password: a61c33fa-4b41-471d-b316-a49671e1a344, udp: true}
   - {name: 15-2414-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a464ce86-50b3-4203-b9ca-66ead5d1e051, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 15-2415-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: dd9bb353-18d0-46fe-95ed-49067e75e732, udp: true}
   - {name: 15-2416-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d7367d47-68dc-4824-bf50-f0ef02609982, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2417-CN, server: gdcub.yunnode.win, port: 15731, type: ss, cipher: chacha20-ietf-poly1305, password: 37423440-da82-4189-9b96-b34e0703dd0d, udp: true}
   - {name: 15-2418-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3ac0acae-a31d-478f-81b3-47a41f888ce5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -663,9 +661,8 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0005-NOWHERE
-      - 02-0006-CN
-      - 02-0017-CN
+      - 02-0005-KR
+      - 02-0017-KR
       - 03-0033-CN
       - 03-0034-KR
       - 03-0035-CN
@@ -850,6 +847,7 @@ proxy-groups:
       - 03-0215-CN
       - 03-0216-CN
       - 03-0217-CN
+      - 03-0218-AU
       - 03-0219-CN
       - 03-0220-CN
       - 03-0221-CN
@@ -1231,14 +1229,12 @@ proxy-groups:
       - 04-0696-CN
       - 04-0697-CN
       - 04-0698-CN
-      - 15-2407-KR
-      - 15-2408-KR
-      - 15-2409-KR
       - 15-2410-KR
       - 15-2411-CN
       - 15-2412-KR
       - 15-2413-CN
       - 15-2414-KR
+      - 15-2415-AU
       - 15-2416-KR
       - 15-2417-CN
       - 15-2418-KR
@@ -1277,7 +1273,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0006-CN
       - 03-0036-KR
       - 03-0041-KR
       - 03-0046-CN
@@ -1401,7 +1396,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0017-CN
+      - 02-0017-KR
       - 03-0037-CN
       - 03-0042-KR
       - 03-0047-KR
@@ -1516,7 +1511,6 @@ proxy-groups:
       - 04-0687-CN
       - 04-0692-CN
       - 04-0697-CN
-      - 15-2407-KR
       - 15-2412-KR
       - 15-2417-CN
       - 15-2422-KR
@@ -1565,6 +1559,7 @@ proxy-groups:
       - 03-0203-KR
       - 03-0208-KR
       - 03-0213-CN
+      - 03-0218-AU
       - 03-0223-KR
       - 03-0228-KR
       - 03-0233-CN
@@ -1641,7 +1636,6 @@ proxy-groups:
       - 04-0688-CN
       - 04-0693-CN
       - 04-0698-CN
-      - 15-2408-KR
       - 15-2413-CN
       - 15-2418-KR
       - 15-2423-CN
@@ -1765,7 +1759,6 @@ proxy-groups:
       - 04-0684-CN
       - 04-0689-CN
       - 04-0694-CN
-      - 15-2409-KR
       - 15-2414-KR
       - 15-2419-CN
       - 15-2424-CN
@@ -1777,7 +1770,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0005-NOWHERE
+      - 02-0005-KR
       - 03-0035-CN
       - 03-0040-CN
       - 03-0045-RELAY
@@ -1892,6 +1885,7 @@ proxy-groups:
       - 04-0690-CN
       - 04-0695-CN
       - 15-2410-KR
+      - 15-2415-AU
       - 15-2420-CN
       - 15-2425-KR
       - 15-2430-KR
