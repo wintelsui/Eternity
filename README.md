@@ -608,7 +608,7 @@ Fork from TopFreeProxies.
     trojan://2a6aa122-e0c8-333d-bbe1-d184b641ea39@gy.58n.net:20304?allowInsecure=1&sni=z304.hongkongnode.top#04-0676-CN
     trojan://2a6aa122-e0c8-333d-bbe1-d184b641ea39@gy.58n.net:20305?allowInsecure=1&sni=z305.hongkongnode.top#04-0677-CN
     trojan://2a6aa122-e0c8-333d-bbe1-d184b641ea39@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-0678-CN
-    trojan://57f34a78-9182-3dd0-8017-c68346211a41@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0679-JP
+    trojan://9ba0bfb5-19fa-3802-97c3-2b2485149552@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0679-JP
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud:1080#04-0684-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@gdcub.yunnode.win:31641#04-0685-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@gdcub.yunnode.win:31645#04-0686-CN
@@ -623,7 +623,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@140.249.160.81:31682#04-0695-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@140.249.160.81:31685#04-0696-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzRjMjE4My1mYmMzLTQxMjctODY1Yi01MmQ1MWNkNDJkNjA@gdcub.yunnode.win:31651#04-0697-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDY5OC1SRUxBWSIsImFkZCI6IjEwNC4xOC44OC4yMiIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjVmZGY3YjE4LWRkZWYtMzgwNi1hMTIwLTI1ODAwNzQyNmFmOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTguODguMjIiLCJob3N0IjoiIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDY5OC1SRUxBWSIsImFkZCI6IjE3Mi42Ny4xMDUuMjE2IiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjVmZGY3YjE4LWRkZWYtMzgwNi1hMTIwLTI1ODAwNzQyNmFmOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMTA1LjIxNiIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNjEyMTdiMS00MTQ5LTRhNjAtYmE1OS0wZjY3OTg2YzUyNjQ@xd-zhongri1.bestdong.xyz:28916#15-2407-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZDliYjM1My0xOGQwLTQ2ZmUtOTVlZC00OTA2N2U3NWU3MzI@usa2.iepl.cooc.icu:32881#15-2408-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTUtMjQxMC1SRUxBWSIsImFkZCI6ImNmLmh5Mi5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTc0NmU4YWQtMDUyYi00MTliLWJjNGMtZGM0NzdlYjkzNjU4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZjMyM2QiLCJob3N0IjoiY2YuaHkyLm9uZSIsInRscyI6IiJ9
@@ -633,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `2412`
+合并节点总数: `2441`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2412`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2441`
 
 
 ## 仓库声明
