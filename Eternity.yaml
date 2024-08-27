@@ -293,6 +293,7 @@ proxies:
   - {name: 03-0269-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56b07611-1146-4534-bdf8-dce9bf8f00eb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0270-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e25a6301-0a8c-4c7e-a3b4-5295f32965e3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0271-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3a47cc95-bdc9-4077-b326-0db54b6462eb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0272-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: b5d2c4bf-ffab-4750-ae52-f11ab14cd005, udp: true}
   - {name: 03-0273-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2e8d0d5e-e1dc-4f66-a5e5-d225a5d1481c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0274-CN, server: gdcub.yunnode.win, port: 15931, type: ss, cipher: chacha20-ietf-poly1305, password: 1d6c717d-2e22-4983-9325-47b3fa639ed4, udp: true}
   - {name: 03-0275-CN, server: xd-zg-hkt1.bestdong.xyz, port: 60003, type: ss, cipher: chacha20-ietf-poly1305, password: 23826c21-44bc-4dff-8e62-11bd92fe4b56, udp: true}
@@ -620,8 +621,6 @@ proxies:
   - {name: 03-0597-CN, server: gd.xueyejiasu.com, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 6cc33faa-e3bc-4b85-be26-b266d28675b6, udp: true}
   - {name: 03-0598-CN, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: b5d2c4bf-ffab-4750-ae52-f11ab14cd005, udp: true}
   - {name: 03-0599-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d17b802b-cbee-4ec3-82c6-e062e9fc7fa2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 15-2386-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: b39c556a-4eb1-46f6-b3f7-5d4d0b5b78b8, udp: true}
-  - {name: 15-2387-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2b6a33ab-6450-40f4-bed5-823917a1cccb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2388-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eaa7998b-1b80-4771-b1fc-0d8ea130c47b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2389-CN, server: gdcub.yunnode.win, port: 15733, type: ss, cipher: chacha20-ietf-poly1305, password: f2cf7f8a-7a2a-4bb3-8065-d91fbcaacf8e, udp: true}
   - {name: 15-2390-CN, server: gdcub.yunnode.win, port: 15733, type: ss, cipher: chacha20-ietf-poly1305, password: bbbabc4d-ff73-4a0a-b9bc-c94ae82386c5, udp: true}
@@ -901,6 +900,7 @@ proxy-groups:
       - 03-0269-KR
       - 03-0270-KR
       - 03-0271-KR
+      - 03-0272-AU
       - 03-0273-KR
       - 03-0274-CN
       - 03-0275-CN
@@ -1228,8 +1228,6 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-KR
-      - 15-2386-CN
-      - 15-2387-KR
       - 15-2388-KR
       - 15-2389-CN
       - 15-2390-CN
@@ -1388,7 +1386,6 @@ proxy-groups:
       - 03-0586-CN
       - 03-0591-CN
       - 03-0596-KR
-      - 15-2386-CN
       - 15-2391-KR
       - 15-2396-KR
       - 15-2401-CN
@@ -1447,6 +1444,7 @@ proxy-groups:
       - 03-0257-KR
       - 03-0262-KR
       - 03-0267-KR
+      - 03-0272-AU
       - 03-0277-CN
       - 03-0282-KR
       - 03-0287-CN
@@ -1512,7 +1510,6 @@ proxy-groups:
       - 03-0587-KR
       - 03-0592-CN
       - 03-0597-CN
-      - 15-2387-KR
       - 15-2392-KR
       - 15-2397-CN
       - 15-2402-CN
@@ -9328,6 +9325,7 @@ rules:
  - DOMAIN-SUFFIX,kaola.com,全球直连
  - DOMAIN-SUFFIX,knewone.com,全球直连
  - DOMAIN-SUFFIX,koowo.com,全球直连
+ - DOMAIN-SUFFIX,koyso.com,全球直连
  - DOMAIN-SUFFIX,ksyungslb.com,全球直连
  - DOMAIN-SUFFIX,kuaidi100.com,全球直连
  - DOMAIN-SUFFIX,kugou.com,全球直连
@@ -10056,7 +10054,6 @@ rules:
  - DOMAIN-SUFFIX,rtbasia.com,广告拦截
  - DOMAIN-SUFFIX,sanya1.com,广告拦截
  - DOMAIN-SUFFIX,scupio.com,广告拦截
- - DOMAIN-SUFFIX,serving-sys.com,广告拦截
  - DOMAIN-SUFFIX,shuiguo.com,广告拦截
  - DOMAIN-SUFFIX,shuzilm.cn,广告拦截
  - DOMAIN-SUFFIX,similarweb.com,广告拦截
@@ -10124,6 +10121,7 @@ rules:
  - DOMAIN-SUFFIX,wqmobile.com,广告拦截
  - DOMAIN-SUFFIX,wrating.com,广告拦截
  - DOMAIN-SUFFIX,wumii.cn,广告拦截
+ - DOMAIN-SUFFIX,wwads.cn,广告拦截
  - DOMAIN-SUFFIX,xcy8.com,广告拦截
  - DOMAIN-SUFFIX,xdrig.com,广告拦截
  - DOMAIN-SUFFIX,xiaozhen.com,广告拦截
@@ -10157,7 +10155,6 @@ rules:
  - DOMAIN-SUFFIX,zhjfad.com,广告拦截
  - DOMAIN-SUFFIX,zqzxz.com,广告拦截
  - DOMAIN-SUFFIX,zzsx8.com,广告拦截
- - DOMAIN-SUFFIX,wwads.cn,广告拦截
  - DOMAIN-SUFFIX,acuityplatform.com,广告拦截
  - DOMAIN-SUFFIX,ad-stir.com,广告拦截
  - DOMAIN-SUFFIX,ad-survey.com,广告拦截
@@ -11494,6 +11491,7 @@ rules:
  - DOMAIN,itvpnpmobile-a.akamaihd.net,节点选择
  - DOMAIN-SUFFIX,itv.com,节点选择
  - DOMAIN-SUFFIX,itvstatic.com,节点选择
+ - DOMAIN-SUFFIX,iwara.tv,节点选择
  - DOMAIN-KEYWORD,jooxweb-api,节点选择
  - DOMAIN-SUFFIX,joox.com,节点选择
  - DOMAIN-KEYWORD,japonx,节点选择
@@ -11592,7 +11590,6 @@ rules:
  - DOMAIN-SUFFIX,olevod.tv,节点选择
  - DOMAIN-SUFFIX,olevodtv.com,节点选择
  - DOMAIN-KEYWORD,openai,节点选择
- - DOMAIN,gemini.google.com,节点选择
  - DOMAIN-SUFFIX,auth0.com,节点选择
  - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
  - DOMAIN-SUFFIX,chatgpt.com,节点选择
@@ -12024,6 +12021,7 @@ rules:
  - DOMAIN-SUFFIX,answering-islam.org,节点选择
  - DOMAIN-SUFFIX,antd.org,节点选择
  - DOMAIN-SUFFIX,anthonycalzadilla.com,节点选择
+ - DOMAIN-SUFFIX,anthropic.com,节点选择
  - DOMAIN-SUFFIX,anti1984.com,节点选择
  - DOMAIN-SUFFIX,antichristendom.com,节点选择
  - DOMAIN-SUFFIX,antiwave.net,节点选择
@@ -12146,6 +12144,7 @@ rules:
  - DOMAIN-SUFFIX,axureformac.com,节点选择
  - DOMAIN-SUFFIX,azerbaycan.tv,节点选择
  - DOMAIN-SUFFIX,azerimix.com,节点选择
+ - DOMAIN-SUFFIX,azirevpn.com,节点选择
  - DOMAIN-SUFFIX,azubu.tv,节点选择
  - DOMAIN-SUFFIX,azurewebsites.net,节点选择
  - DOMAIN-SUFFIX,b-ok.cc,节点选择
@@ -12327,6 +12326,7 @@ rules:
  - DOMAIN-SUFFIX,blubrry.com,节点选择
  - DOMAIN-SUFFIX,blueangellive.com,节点选择
  - DOMAIN-SUFFIX,bmfinn.com,节点选择
+ - DOMAIN-SUFFIX,bnbstatic.com,节点选择
  - DOMAIN-SUFFIX,bnews.co,节点选择
  - DOMAIN-SUFFIX,bnext.com.tw,节点选择
  - DOMAIN-SUFFIX,bnn.co,节点选择
@@ -12679,6 +12679,7 @@ rules:
  - DOMAIN-SUFFIX,ck101.com,节点选择
  - DOMAIN-SUFFIX,clarionproject.org,节点选择
  - DOMAIN-SUFFIX,classicalguitarblog.net,节点选择
+ - DOMAIN-SUFFIX,claude.ai,节点选择
  - DOMAIN-SUFFIX,clb.org.hk,节点选择
  - DOMAIN-SUFFIX,cleansite.biz,节点选择
  - DOMAIN-SUFFIX,cleansite.info,节点选择
@@ -12697,6 +12698,7 @@ rules:
  - DOMAIN-SUFFIX,clubhouseapi.com,节点选择
  - DOMAIN-SUFFIX,clyp.it,节点选择
  - DOMAIN-SUFFIX,cmcn.org,节点选择
+ - DOMAIN-SUFFIX,cmegroup.com,节点选择
  - DOMAIN-SUFFIX,cmi.org.tw,节点选择
  - DOMAIN-SUFFIX,cmoinc.org,节点选择
  - DOMAIN-SUFFIX,cms.gov,节点选择
@@ -14380,6 +14382,7 @@ rules:
  - DOMAIN-SUFFIX,imageab.com,节点选择
  - DOMAIN-SUFFIX,imagefap.com,节点选择
  - DOMAIN-SUFFIX,imageflea.com,节点选择
+ - DOMAIN-SUFFIX,imageglass.org,节点选择
  - DOMAIN-SUFFIX,images-gaytube.com,节点选择
  - DOMAIN-SUFFIX,imageshack.us,节点选择
  - DOMAIN-SUFFIX,imagevenue.com,节点选择
@@ -14497,6 +14500,7 @@ rules:
  - DOMAIN-SUFFIX,ivacy.com,节点选择
  - DOMAIN-SUFFIX,iverycd.com,节点选择
  - DOMAIN-SUFFIX,ivpn.net,节点选择
+ - DOMAIN-SUFFIX,iwara.tv,节点选择
  - DOMAIN-SUFFIX,ixquick.com,节点选择
  - DOMAIN-SUFFIX,ixxx.com,节点选择
  - DOMAIN-SUFFIX,iyouport.com,节点选择
@@ -15630,6 +15634,7 @@ rules:
  - DOMAIN-SUFFIX,perfect-privacy.com,节点选择
  - DOMAIN-SUFFIX,perfectgirls.net,节点选择
  - DOMAIN-SUFFIX,periscope.tv,节点选择
+ - DOMAIN-SUFFIX,perplexity.ai,节点选择
  - DOMAIN-SUFFIX,persecutionblog.com,节点选择
  - DOMAIN-SUFFIX,persiankitty.com,节点选择
  - DOMAIN-SUFFIX,phapluan.org,节点选择
@@ -16397,6 +16402,7 @@ rules:
  - DOMAIN-SUFFIX,storagenewsletter.com,节点选择
  - DOMAIN-SUFFIX,stories.google,节点选择
  - DOMAIN-SUFFIX,storify.com,节点选择
+ - DOMAIN-SUFFIX,storj.io,节点选择
  - DOMAIN-SUFFIX,storm.mg,节点选择
  - DOMAIN-SUFFIX,stormmediagroup.com,节点选择
  - DOMAIN-SUFFIX,stoweboyd.com,节点选择
@@ -16731,6 +16737,7 @@ rules:
  - DOMAIN-SUFFIX,tibetswiss.ch,节点选择
  - DOMAIN-SUFFIX,tibettelegraph.com,节点选择
  - DOMAIN-SUFFIX,tibettimes.net,节点选择
+ - DOMAIN-SUFFIX,tibettruth.com,节点选择
  - DOMAIN-SUFFIX,tibetwrites.org,节点选择
  - DOMAIN-SUFFIX,ticket.com.tw,节点选择
  - DOMAIN-SUFFIX,tigervpn.com,节点选择
@@ -17056,7 +17063,7 @@ rules:
  - DOMAIN-SUFFIX,us.to,节点选择
  - DOMAIN-SUFFIX,usacn.com,节点选择
  - DOMAIN-SUFFIX,usaip.eu,节点选择
- - DOMAIN-SUFFIX,usc.edu,节点选择
+ - DOMAIN-SUFFIX,uscardforum.com,节点选择
  - DOMAIN-SUFFIX,uscnpm.org,节点选择
  - DOMAIN-SUFFIX,usembassy.gov,节点选择
  - DOMAIN-SUFFIX,usfk.mil,节点选择
@@ -17824,6 +17831,7 @@ rules:
  - DOMAIN-SUFFIX,cdninstagram.com,节点选择
  - DOMAIN-SUFFIX,instagram.com,节点选择
  - DOMAIN-SUFFIX,instagr.am,节点选择
+ - DOMAIN-SUFFIX,iwara.tv,节点选择
  - DOMAIN-SUFFIX,kakao.com,节点选择
  - DOMAIN-SUFFIX,kakao.co.kr,节点选择
  - DOMAIN-SUFFIX,kakaocdn.net,节点选择
