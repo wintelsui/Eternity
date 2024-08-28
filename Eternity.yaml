@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0005-KR, server: cn1.cdn.xfltd-cdn.top, port: 12012, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
-  - {name: 02-0015-KR, server: cn2.cdn.xfltd-cdn.top, port: 12052, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0033-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b6780d79-e4a0-46c6-940c-b81a7e9881d1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0034-CN, server: gdcub.yunnode.win, port: 15636, type: ss, cipher: chacha20-ietf-poly1305, password: b3b09f79-8e3d-4281-bc85-0c1bce641e57, udp: true}
   - {name: 03-0035-CN, server: gdcub.yunnode.win, port: 15635, type: ss, cipher: chacha20-ietf-poly1305, password: 37c2c172-9863-4416-b343-beabe13df3e4, udp: true}
@@ -623,6 +622,7 @@ proxies:
   - {name: 03-0598-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 50d294d8-a2a9-4291-b8f4-fbad17f6a33a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0599-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 535158b2-5131-4e4d-88ba-2cd4c05b09f5, udp: true}
   - {name: 03-0606-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a91d599-d12d-40de-a9c8-973f88af9fd2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 15-2498-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c6732c8d-bbec-4b10-803f-26b654a378c7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2499-CN, server: gd.xueyejiasu.com, port: 56011, type: ss, cipher: chacha20-ietf-poly1305, password: 52a4a772-a49c-4ebc-b36b-1fea0fd775a5, udp: true}
   - {name: 15-2500-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 331e2906-ea31-416c-8dda-412e958e48d2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-2501-CN, server: gdcub.yunnode.win, port: 15635, type: ss, cipher: chacha20-ietf-poly1305, password: 155a5239-0c0e-4b2c-b9ca-a5a8668dab8c, udp: true}
@@ -662,7 +662,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0005-KR
-      - 02-0015-KR
       - 03-0033-KR
       - 03-0034-CN
       - 03-0035-CN
@@ -1230,6 +1229,7 @@ proxy-groups:
       - 03-0598-KR
       - 03-0599-CN
       - 03-0606-KR
+      - 15-2498-KR
       - 15-2499-CN
       - 15-2500-KR
       - 15-2501-CN
@@ -1635,6 +1635,7 @@ proxy-groups:
       - 03-0588-CN
       - 03-0593-CN
       - 03-0598-KR
+      - 15-2498-KR
       - 15-2503-CN
       - 15-2508-KR
       - 15-2513-CN
@@ -1770,7 +1771,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0005-KR
-      - 02-0015-KR
       - 03-0035-CN
       - 03-0040-CN
       - 03-0045-KR
