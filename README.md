@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `599`
+高速节点数量: `598`
 <details>
   <summary>展开复制节点</summary>
 
@@ -179,6 +179,7 @@ Fork from TopFreeProxies.
     trojan://4fba6579-7ef4-4fd1-b33c-95bcb2957449@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0178-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NGZiMzJkZi02MmE0LTQ4MjgtOTMwMS0zOWZiNjU5NjYxNDA@gdcub.yunnode.win:15728#03-0179-CN
     trojan://6a30e8eb-b9bc-48cd-8718-2a1116ec10cf@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0180-KR
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YzAyMTc2MS1kNGY0LTQyZGUtOTdiNC04N2ViN2Q0N2Q3Mzk@jp.cooc.icu:10001#03-0181-AU
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozY2JhZDA1NS0yMGE5LTRlNTMtYWQ4Yi1kNDFhZTdkM2I0MWQ@140.249.160.81:15641#03-0182-CN
     trojan://3aee461b-f88b-4b01-9d38-194224268b2c@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0183-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZGY0MDNhMi04Yjk1LTQwY2ItOGFhZS0wMjZmYzg3YzI2YTY@gdcub.yunnode.win:19630#03-0184-CN
@@ -596,8 +597,6 @@ Fork from TopFreeProxies.
     trojan://416e63fa-7f2f-4270-9fea-994f5087a5e9@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0597-KR
     trojan://ba426eb0-a7bd-4fe1-b1f9-cdb2ba9cc736@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0598-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmODFhZDY5ZC1hMDgyLTQyZWQtOGZlYy1iNzA2MmYwZGNkZGU@gy.666666222.shop:20052#03-0599-CN
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNTBkZGY4YS1kYjRjLTQwZWItODBlMy1kMTQwNWNlMjIxMTQ@140.249.160.81:15639#15-2337-CN
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNTVhNTIzOS0wYzBlLTRiMmMtYjljYS1hNWE4NjY4ZGFiOGM@gdcub.yunnode.win:19630#15-2338-CN
     trojan://206027d8-a748-42c4-b65e-9282779e3b03@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#15-2339-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTZmOTBjNC0zMmIwLTQxYjktODZiMS1jZDRjNDhkM2ZmYjY@gdcub.yunnode.win:15532#15-2340-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NDgxM2NhNi01OTY2LTRlY2MtOWM0Zi0xNGVlZTZjYWM5MDc@0e8383f2446d374c.cdn.jiashule.com:44055#15-2341-CN
@@ -634,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `2371`
+合并节点总数: `2357`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2371`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2357`
 
 
 ## 仓库声明
