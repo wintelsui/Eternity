@@ -65,6 +65,7 @@ proxies:
   - {name: 02-0012-KR, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0013-KR, server: cn2.cdn.xfltd-cdn.top, port: 12073, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0014-KR, server: cn2.cdn.xfltd-cdn.top, port: 12051, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0015-KR, server: cn2.cdn.xfltd-cdn.top, port: 12052, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0016-KR, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0017-KR, server: cn2.cdn.xfltd-cdn.top, port: 12067, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0018-KR, server: cn2.cdn.xfltd-cdn.top, port: 12041, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
@@ -81,11 +82,6 @@ proxies:
   - {name: 02-0029-KR, server: cn2.cdn.xfltd-cdn.top, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0030-KR, server: cn2.cdn.xfltd-cdn.top, port: 12024, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0031-KR, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0032-KR, server: cn2.cdn.xfltd-cdn.top, port: 12064, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0061-CN, server: gdcub.yunnode.win, port: 15635, type: ss, cipher: chacha20-ietf-poly1305, password: dcbfc050-9a19-46de-8891-fc7fc167354b, udp: true}
-  - {name: 03-0062-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 51f003ec-480c-4cd1-addd-f5872e1232d3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0063-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b6780d79-e4a0-46c6-940c-b81a7e9881d1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0064-CN, server: gdcub.yunnode.win, port: 15628, type: ss, cipher: chacha20-ietf-poly1305, password: f6beede1-95f3-4bef-8c98-72f38d30b291, udp: true}
   - {name: 03-0065-CN, server: gzgjc123.xiyunchen.cn, port: 39413, type: ss, cipher: chacha20-ietf-poly1305, password: 60d49ba5-0ab0-4bfc-9620-01e7831bf949, udp: true}
   - {name: 03-0066-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: edbfbfb8-c7d1-4c36-961f-4ea4c4856e8c, udp: true}
   - {name: 03-0067-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f9f03f5d-8529-4c9b-8ae6-e67c2edf1bb9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -686,11 +682,11 @@ proxies:
   - {name: 03-0663-CN, server: gdcub.yunnode.win, port: 15735, type: ss, cipher: chacha20-ietf-poly1305, password: dcbfc050-9a19-46de-8891-fc7fc167354b, udp: true}
   - {name: 03-0664-CN, server: gdcub.yunnode.win, port: 15627, type: ss, cipher: chacha20-ietf-poly1305, password: 1ccb2c2f-ae6d-49ab-9721-0a965bf82071, udp: true}
   - {name: 03-0665-CN, server: gdcub.yunnode.win, port: 15729, type: ss, cipher: chacha20-ietf-poly1305, password: dcbfc050-9a19-46de-8891-fc7fc167354b, udp: true}
+  - {name: 03-0666-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dc246eba-96df-407c-8f3f-80949ed8f033, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0667-CN, server: ll-sh1.bestdong.xyz, port: 24020, type: ss, cipher: chacha20-ietf-poly1305, password: 6ca81410-fac4-4d10-821f-5dd4cea5773e, udp: true}
   - {name: 03-0668-CN, server: 140.249.160.81, port: 15641, type: ss, cipher: chacha20-ietf-poly1305, password: 1ccb2c2f-ae6d-49ab-9721-0a965bf82071, udp: true}
   - {name: 03-0669-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 90197007-ea48-41ae-8bb3-aa304613d82b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0670-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ee6dccee-c806-4694-ad7b-adecca1da28b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0671-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: be165a46-4400-44bb-beb6-b4ea90ea5b61, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0672-CN, server: gdcub.yunnode.win, port: 15634, type: ss, cipher: chacha20-ietf-poly1305, password: f01ec300-4cad-450d-9620-d4ef83518a38, udp: true}
   - {name: 03-0673-CN, server: 140.249.160.81, port: 15638, type: ss, cipher: chacha20-ietf-poly1305, password: b3b09f79-8e3d-4281-bc85-0c1bce641e57, udp: true}
   - {name: 03-0674-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b7110991-dae3-4e16-9496-fa709479872c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -804,11 +800,11 @@ proxies:
   - {name: 04-0881-CN, server: gy.58n.net, port: 20304, type: trojan, password: 63be12fe-1495-3124-b627-36da7947ac14, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0882-CN, server: gy.58n.net, port: 20305, type: trojan, password: 63be12fe-1495-3124-b627-36da7947ac14, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0883-CN, server: gy.58n.net, port: 20306, type: trojan, password: 63be12fe-1495-3124-b627-36da7947ac14, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-0884-JP, server: 52.198.230.68, port: 443, type: trojan, password: 06b225cd-9efc-33ea-b7af-df0f592e430e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0885-JP, server: 52.195.16.199, port: 443, type: trojan, password: 06b225cd-9efc-33ea-b7af-df0f592e430e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0886-US, server: 34.222.8.102, port: 443, type: trojan, password: 06b225cd-9efc-33ea-b7af-df0f592e430e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0887-US, server: 103.136.185.27, port: 5514, type: trojan, password: 06b225cd-9efc-33ea-b7af-df0f592e430e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0888-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dc246eba-96df-407c-8f3f-80949ed8f033, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0884-JP, server: 52.198.230.68, port: 443, type: trojan, password: 6076e007-ddf7-3e1d-9e36-050b71b61bf5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0885-JP, server: 52.195.16.199, port: 443, type: trojan, password: 6076e007-ddf7-3e1d-9e36-050b71b61bf5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0886-US, server: 34.222.8.102, port: 443, type: trojan, password: 6076e007-ddf7-3e1d-9e36-050b71b61bf5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0887-US, server: 103.136.185.27, port: 5514, type: trojan, password: 6076e007-ddf7-3e1d-9e36-050b71b61bf5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0888-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: be165a46-4400-44bb-beb6-b4ea90ea5b61, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0889-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 30706945-7389-45b8-8792-323a13f63abd, udp: true}
   - {name: 04-0890-CN, server: gdcub.yunnode.win, port: 31641, type: ss, cipher: chacha20-ietf-poly1305, password: 30706945-7389-45b8-8792-323a13f63abd, udp: true}
   - {name: 04-0891-CN, server: gdcub.yunnode.win, port: 31645, type: ss, cipher: chacha20-ietf-poly1305, password: 30706945-7389-45b8-8792-323a13f63abd, udp: true}
@@ -829,11 +825,15 @@ proxies:
   - {name: 07-1260-KR, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, udp: true}
   - {name: 07-1261-RU, server: sgp.cdn-sgp.xyz, port: 40045, type: vmess, uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}, udp: true}
   - {name: 07-1262-KR, server: 82.117.226.218, port: 12075, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 07-1264-KR, server: 82.117.226.218, port: 12070, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 07-1266-KR, server: 82.117.226.218, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 07-1267-KR, server: 82.117.226.218, port: 12024, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 07-1268-KR, server: 82.117.226.218, port: 12025, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, udp: true}
   - {name: 07-1269-KR, server: 82.117.226.218, port: 12031, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, udp: true}
   - {name: 07-1270-KR, server: 82.117.226.218, port: 12032, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, udp: true}
+  - {name: 07-1271-KR, server: 82.117.226.218, port: 12065, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 07-1272-KR, server: 82.117.226.218, port: 12068, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 07-1273-KR, server: 82.117.226.218, port: 12053, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, udp: true}
   - {name: 07-1274-US, server: uu.flmweb.cc, port: 40046, type: vmess, uuid: 4a289d53-0f15-4801-94af-89d0109c4532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uu.flmweb.cc}}, udp: true}
   - {name: 08-1329-RELAY, server: sg1.1vpn.sbs, port: 443, type: vmess, uuid: 4da69ed4-9949-4f14-9071-32c0d85fa298, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oihuih6788, headers: {Host: sg1.1vpn.sbs}}, udp: true}
   - {name: 08-1350-RELAY, server: jp2.1vpn.sbs, port: 443, type: vmess, uuid: 4da69ed4-9949-4f14-9071-32c0d85fa298, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yutfgujjo, headers: {Host: jp2.1vpn.sbs}}, udp: true}
@@ -848,7 +848,7 @@ proxies:
   - {name: 12-1873-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
   - {name: 12-1877-RELAY, server: sg1.1vpn.sbs, port: 443, type: vmess, uuid: 2bdb0d9d-fa18-4710-98b5-a001b2d4588a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /oihuih6788, headers: {Host: sg1.1vpn.sbs}}, udp: true}
   - {name: 12-1896-RELAY, server: jp2.1vpn.sbs, port: 443, type: vmess, uuid: 2bdb0d9d-fa18-4710-98b5-a001b2d4588a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yutfgujjo, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 12-1904-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
+  - {name: 12-1902-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -879,6 +879,7 @@ proxy-groups:
       - 02-0012-KR
       - 02-0013-KR
       - 02-0014-KR
+      - 02-0015-KR
       - 02-0016-KR
       - 02-0017-KR
       - 02-0018-KR
@@ -895,11 +896,6 @@ proxy-groups:
       - 02-0029-KR
       - 02-0030-KR
       - 02-0031-KR
-      - 02-0032-KR
-      - 03-0061-CN
-      - 03-0062-KR
-      - 03-0063-KR
-      - 03-0064-CN
       - 03-0065-CN
       - 03-0066-CN
       - 03-0067-KR
@@ -1500,11 +1496,11 @@ proxy-groups:
       - 03-0663-CN
       - 03-0664-CN
       - 03-0665-CN
+      - 03-0666-KR
       - 03-0667-CN
       - 03-0668-CN
       - 03-0669-KR
       - 03-0670-KR
-      - 03-0671-KR
       - 03-0672-CN
       - 03-0673-CN
       - 03-0674-KR
@@ -1643,11 +1639,15 @@ proxy-groups:
       - 07-1260-KR
       - 07-1261-RU
       - 07-1262-KR
+      - 07-1264-KR
       - 07-1266-KR
       - 07-1267-KR
       - 07-1268-KR
       - 07-1269-KR
       - 07-1270-KR
+      - 07-1271-KR
+      - 07-1272-KR
+      - 07-1273-KR
       - 07-1274-US
       - 08-1329-RELAY
       - 08-1350-RELAY
@@ -1662,7 +1662,7 @@ proxy-groups:
       - 12-1873-RELAY
       - 12-1877-RELAY
       - 12-1896-RELAY
-      - 12-1904-RELAY
+      - 12-1902-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1715,7 +1715,6 @@ proxy-groups:
       - 02-0011-KR
       - 02-0021-KR
       - 02-0031-KR
-      - 03-0061-CN
       - 03-0071-CN
       - 03-0081-KR
       - 03-0091-CN
@@ -1776,7 +1775,6 @@ proxy-groups:
       - 03-0641-KR
       - 03-0651-KR
       - 03-0661-KR
-      - 03-0671-KR
       - 03-0681-CN
       - 03-0691-CN
       - 03-0701-KR
@@ -1790,6 +1788,7 @@ proxy-groups:
       - 04-0881-CN
       - 04-0891-CN
       - 07-1261-RU
+      - 07-1271-KR
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1798,8 +1797,6 @@ proxy-groups:
       - 02-0002-KR
       - 02-0012-KR
       - 02-0022-KR
-      - 02-0032-KR
-      - 03-0062-KR
       - 03-0072-CN
       - 03-0082-CN
       - 03-0092-CN
@@ -1874,8 +1871,10 @@ proxy-groups:
       - 04-0882-CN
       - 04-0892-CN
       - 07-1262-KR
+      - 07-1272-KR
       - 09-1472-RELAY
       - 11-1752-RELAY
+      - 12-1902-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1884,7 +1883,6 @@ proxy-groups:
       - 02-0003-KR
       - 02-0013-KR
       - 02-0023-KR
-      - 03-0063-KR
       - 03-0073-CN
       - 03-0083-CN
       - 03-0093-KR
@@ -1958,6 +1956,7 @@ proxy-groups:
       - 04-0873-CN
       - 04-0883-CN
       - 04-0893-CN
+      - 07-1273-KR
       - 09-1513-RELAY
       - 12-1873-RELAY
   - name: 测速4分组
@@ -1968,7 +1967,6 @@ proxy-groups:
       - 02-0004-KR
       - 02-0014-KR
       - 02-0024-KR
-      - 03-0064-CN
       - 03-0074-KR
       - 03-0084-CN
       - 03-0094-CN
@@ -2042,13 +2040,14 @@ proxy-groups:
       - 04-0874-CN
       - 04-0884-JP
       - 04-0894-CN
+      - 07-1264-KR
       - 07-1274-US
-      - 12-1904-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     proxies:
+      - 02-0015-KR
       - 02-0025-KR
       - 03-0065-CN
       - 03-0075-KR
@@ -2192,6 +2191,7 @@ proxy-groups:
       - 03-0636-CN
       - 03-0646-CN
       - 03-0656-KR
+      - 03-0666-KR
       - 03-0676-CN
       - 03-0686-CN
       - 03-0696-KR
