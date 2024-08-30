@@ -11,7 +11,7 @@ def speedtest(subscription,output_range,other_config={'concurrency': 16, 'timeou
     """
     default_config = {
         'subscription': subscription, 'outputRange': '700', 'speedtestMode': 'speedonly',
-        'concurrency': 16, 'timeout': 2
+        'concurrency': 16, 'timeout': 3
     }
     config = default_config
     config.update(other_config)
