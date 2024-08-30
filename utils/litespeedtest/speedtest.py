@@ -10,8 +10,8 @@ def speedtest(subscription,output_range,other_config={'concurrency': 16, 'timeou
         timeout: Time period that cannot connect to the tested proxy
     """
     default_config = {
-        'subscription': subscription, 'outputRange': '700', 'speedtestMode': 'speedonly',
-        'concurrency': 16, 'timeout': 3
+        'subscription': subscription, 'outputRange': '800', 'speedtestMode': 'speedonly',
+        'concurrency': 16, 'timeout': 1
     }
     config = default_config
     config.update(other_config)
