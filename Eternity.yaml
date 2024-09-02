@@ -462,8 +462,8 @@ proxies:
   - {name: 04-0517-CN, server: gy.58n.net, port: 20306, type: trojan, password: 87c49cf0-89f0-3236-9b7e-3fd1e91d7ac4, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0518-JP, server: 52.198.230.68, port: 443, type: trojan, password: 5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0519-JP, server: 52.195.16.199, port: 443, type: trojan, password: 5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0520-US, server: 35.89.182.15, port: 443, type: trojan, password: 5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0521-US, server: 103.136.185.27, port: 5514, type: trojan, password: 5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0522-US, server: 103.136.185.28, port: 3504, type: trojan, password: 5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0523-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: df38c535-b84f-47ce-b4a7-b913179db979, udp: true}
   - {name: 04-0524-CN, server: gdcub.yunnode.win, port: 31641, type: ss, cipher: chacha20-ietf-poly1305, password: df38c535-b84f-47ce-b4a7-b913179db979, udp: true}
   - {name: 04-0525-CN, server: gdcub.yunnode.win, port: 31645, type: ss, cipher: chacha20-ietf-poly1305, password: df38c535-b84f-47ce-b4a7-b913179db979, udp: true}
@@ -798,7 +798,7 @@ proxies:
   - {name: 06-0855-CN, server: 02fuzai.rvxpwa.tech, port: 28951, type: ss, cipher: chacha20-ietf-poly1305, password: 563bb3ed-2704-4d3b-b9a5-a87108c753aa, udp: true}
   - {name: 06-0856-CN, server: 02fuzai.rvxpwa.tech, port: 30285, type: ss, cipher: chacha20-ietf-poly1305, password: ba6c1556-f6de-4e09-b0d7-cbca2470c351, udp: true}
   - {name: 06-0857-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 1e967172-cc9f-476e-8c91-a9b24b151242, udp: true}
-  - {name: "06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@35.89.182.15443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0520-US", server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 76fe384f-3d8d-4550-98b4-3f26ac3a48e7, udp: true}
+  - {name: "06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0522-US", server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 76fe384f-3d8d-4550-98b4-3f26ac3a48e7, udp: true}
   - {name: 06-0859-CN, server: 02fuzai.rvxpwa.tech, port: 24726, type: ss, cipher: chacha20-ietf-poly1305, password: ba6c1556-f6de-4e09-b0d7-cbca2470c351, udp: true}
   - {name: 06-0860-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 1e967172-cc9f-476e-8c91-a9b24b151242, udp: true}
   - {name: 06-0861-CN, server: 02fuzai.rvxpwa.tech, port: 19263, type: ss, cipher: chacha20-ietf-poly1305, password: ba6c1556-f6de-4e09-b0d7-cbca2470c351, udp: true}
@@ -1276,8 +1276,8 @@ proxy-groups:
       - 04-0517-CN
       - 04-0518-JP
       - 04-0519-JP
+      - 04-0520-US
       - 04-0521-US
-      - 04-0522-US
       - 04-0523-NOWHERE
       - 04-0524-CN
       - 04-0525-CN
@@ -1612,7 +1612,7 @@ proxy-groups:
       - 06-0855-CN
       - 06-0856-CN
       - 06-0857-CN
-      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@35.89.182.15443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0520-US
+      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0522-US
       - 06-0859-CN
       - 06-0860-CN
       - 06-0861-CN
@@ -1792,7 +1792,7 @@ proxy-groups:
       - 06-0831-CN
       - 06-0841-CN
       - 06-0851-CN
-      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@35.89.182.15443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0520-US
+      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0522-US
       - 06-0861-CN
       - 06-0871-CN
       - 06-0881-CN
@@ -1846,7 +1846,6 @@ proxy-groups:
       - 04-0492-CN
       - 04-0502-CN
       - 04-0512-CN
-      - 04-0522-US
       - 04-0532-CN
       - 04-0542-RELAY
       - 04-0552-CN
@@ -1880,6 +1879,7 @@ proxy-groups:
       - 06-0832-CN
       - 06-0842-CN
       - 06-0852-CN
+      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0522-US
       - 06-0862-CN
       - 06-0872-CN
       - 06-0882-CN
@@ -2392,7 +2392,7 @@ proxy-groups:
       - 06-0828-CN
       - 06-0838-CN
       - 06-0848-CN
-      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@35.89.182.15443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0520-US
+      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0522-US
       - 06-0868-CN
       - 06-0878-CN
       - 06-0888-CN
@@ -2531,6 +2531,7 @@ proxy-groups:
       - 04-0490-CN
       - 04-0500-CN
       - 04-0510-CN
+      - 04-0520-US
       - 04-0530-CN
       - 04-0540-RELAY
       - 04-0550-CN
@@ -2564,7 +2565,6 @@ proxy-groups:
       - 06-0830-RELAY
       - 06-0840-CN
       - 06-0850-CN
-      - 06-0858-TWtrojan//5e0ccdc6-4b44-3ff5-8851-f9c1d0c8f3f8@35.89.182.15443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0520-US
       - 06-0860-CN
       - 06-0870-CN
       - 06-0880-CN
