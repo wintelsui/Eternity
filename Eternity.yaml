@@ -53,6 +53,8 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-CN, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: 2a714d1d-17cb-4a3d-b1b8-02120103bd37, udp: true}
+  - {name: 03-0003-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b9f528cc-4056-4220-afdd-786be9d7b83c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0004-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73345312-d575-4ca9-874d-11be26a6e4c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0005-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 97c41f82-03db-4f8a-bf54-f923eea15e0e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0006-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bcc30fe6-0e53-491b-b8c3-46f101489e22, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0007-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8c6fce1f-1988-46f8-85b5-4451c0569a8e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -498,7 +500,7 @@ proxies:
   - {name: 04-0447-JP, server: 52.198.230.68, port: 443, type: trojan, password: e040cf9b-3bfb-3017-928b-2113cfe50021, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0448-JP, server: 52.195.16.199, port: 443, type: trojan, password: e040cf9b-3bfb-3017-928b-2113cfe50021, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0449-US, server: 52.12.203.248, port: 443, type: trojan, password: e040cf9b-3bfb-3017-928b-2113cfe50021, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0451-US, server: 103.136.185.28, port: 3504, type: trojan, password: e040cf9b-3bfb-3017-928b-2113cfe50021, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0450-US, server: 103.136.185.27, port: 5514, type: trojan, password: e040cf9b-3bfb-3017-928b-2113cfe50021, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0551-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0552-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 04-0553-RELAY, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
@@ -797,7 +799,7 @@ proxies:
   - {name: 08-0847-CN, server: tw1.nima.rip, port: 36600, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0848-CN, server: tw2.nima.rip, port: 36601, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0849-CN, server: tr1.nima.rip, port: 36900, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
-  - {name: "08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.275514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0450-US", server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 2dcb6722-2daf-43c0-8843-d5fc0c19735a, udp: true}
+  - {name: "08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0451-US", server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 2dcb6722-2daf-43c0-8843-d5fc0c19735a, udp: true}
   - {name: 08-0851-CN, server: uk1.nima.rip, port: 36800, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0852-CN, server: us1.nima.rip, port: 36500, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0853-CN, server: us2.nima.rip, port: 36501, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
@@ -846,8 +848,6 @@ proxies:
   - {name: 08-0897-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: ffdc8465-d6d5-49f2-b01c-3a30f23d1e67, udp: true}
   - {name: 08-0898-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: ffdc8465-d6d5-49f2-b01c-3a30f23d1e67, udp: true}
   - {name: 11-0973-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 63286225-0c51-4c12-8e86-b97d3db973ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiuluuiuqqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 11-1048-CN, server: unionb.fengwo.site, port: 43570, type: ss, cipher: chacha20-ietf-poly1305, password: 0a4de323-f0a6-4281-a788-fea731431b81, udp: true}
-  - {name: 12-1227-CN, server: unionb.fengwo.site, port: 43570, type: ss, cipher: chacha20-ietf-poly1305, password: 3158d613-9de7-4bbf-a389-038a4033a218, udp: true}
   - {name: 13-1393-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: d0626025-efcd-4399-a92d-ecd186f065e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiuluuiuqqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -867,6 +867,8 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 03-0000-CN
+      - 03-0003-KR
+      - 03-0004-KR
       - 03-0005-KR
       - 03-0006-KR
       - 03-0007-KR
@@ -1312,7 +1314,7 @@ proxy-groups:
       - 04-0447-JP
       - 04-0448-JP
       - 04-0449-US
-      - 04-0451-US
+      - 04-0450-US
       - 04-0551-RELAY
       - 04-0552-RELAY
       - 04-0553-RELAY
@@ -1611,7 +1613,7 @@ proxy-groups:
       - 08-0847-CN
       - 08-0848-CN
       - 08-0849-CN
-      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.275514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0450-US
+      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0451-US
       - 08-0851-CN
       - 08-0852-CN
       - 08-0853-CN
@@ -1660,8 +1662,6 @@ proxy-groups:
       - 08-0897-CN
       - 08-0898-CN
       - 11-0973-RELAY
-      - 11-1048-CN
-      - 12-1227-CN
       - 13-1393-RELAY
   - name: 负载均衡
     type: load-balance
@@ -1762,7 +1762,6 @@ proxy-groups:
       - 04-0421-HK
       - 04-0431-CN
       - 04-0441-RELAY
-      - 04-0451-US
       - 04-0551-RELAY
       - 04-0561-CN
       - 04-0571-CN
@@ -1793,6 +1792,7 @@ proxy-groups:
       - 07-0821-RELAY
       - 07-0831-RELAY
       - 08-0841-CN
+      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0451-US
       - 08-0851-CN
       - 08-0861-RELAY
       - 08-0871-CN
@@ -1889,6 +1889,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 03-0003-KR
       - 03-0013-CN
       - 03-0023-KR
       - 03-0033-KR
@@ -1976,6 +1977,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 03-0004-KR
       - 03-0014-CN
       - 03-0024-KR
       - 03-0034-KR
@@ -2306,13 +2308,12 @@ proxy-groups:
       - 07-0827-RELAY
       - 08-0837-CN
       - 08-0847-CN
-      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.275514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0450-US
+      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0451-US
       - 08-0857-RELAY
       - 08-0867-CN
       - 08-0877-CN
       - 08-0887-CN
       - 08-0897-CN
-      - 12-1227-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -2399,7 +2400,6 @@ proxy-groups:
       - 08-0878-CN
       - 08-0888-CN
       - 08-0898-CN
-      - 11-1048-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -2536,6 +2536,7 @@ proxy-groups:
       - 04-0420-HK
       - 04-0430-CN
       - 04-0440-RELAY
+      - 04-0450-US
       - 04-0560-CN
       - 04-0570-CN
       - 04-0580-CN
@@ -2565,7 +2566,7 @@ proxy-groups:
       - 07-0820-RELAY
       - 07-0830-RELAY
       - 08-0840-CN
-      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.275514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0450-US
+      - 08-0850-TWtrojan//e040cf9b-3bfb-3017-928b-2113cfe50021@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0451-US
       - 08-0860-RELAY
       - 08-0870-CN
       - 08-0880-CN
