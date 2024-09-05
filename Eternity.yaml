@@ -390,6 +390,7 @@ proxies:
   - {name: 03-0337-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: c1e2036d-5225-4f22-829a-4b6d5b31534a, udp: true}
   - {name: 03-0338-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 65ceb937-ccf8-4d42-98f6-613195f6fc9f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0339-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f6538cc4-3618-4409-a8c3-d23edcd3e306, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0340-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 37ce807b-3d8a-4002-b494-d6d47c6ad620, udp: true}
   - {name: 03-0341-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 95a47241-982b-41d5-b988-2f3ff4eca534, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0342-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: c1e2036d-5225-4f22-829a-4b6d5b31534a, udp: true}
   - {name: 03-0343-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9180a42e-5a3e-4994-849d-4dd8bf15f0af, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -483,8 +484,8 @@ proxies:
   - {name: 04-0431-RELAY, server: 172.67.86.16, port: 2052, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.86.16}, udp: true}
   - {name: 04-0432-JP, server: 52.198.230.68, port: 443, type: trojan, password: 4442faf2-9712-39db-8f2a-f840bc97f3de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0433-JP, server: 52.195.16.199, port: 443, type: trojan, password: 4442faf2-9712-39db-8f2a-f840bc97f3de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0434-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4f11810-961a-4502-948a-ff17ac78c725, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0435-US, server: 103.136.185.27, port: 5514, type: trojan, password: 4442faf2-9712-39db-8f2a-f840bc97f3de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0434-US, server: 52.12.203.248, port: 443, type: trojan, password: 4442faf2-9712-39db-8f2a-f840bc97f3de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0435-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4f11810-961a-4502-948a-ff17ac78c725, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0436-US, server: 103.136.185.28, port: 3504, type: trojan, password: 4442faf2-9712-39db-8f2a-f840bc97f3de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0536-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0537-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
@@ -539,7 +540,6 @@ proxies:
   - {name: 04-0586-CN, server: gy.58n.net, port: 20059, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x59.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0587-CN, server: gy.58n.net, port: 20071, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0588-CN, server: gy.58n.net, port: 20076, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 04-0589-CN, server: gy.58n.net, port: 20299, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0590-CN, server: gy.58n.net, port: 17806, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0591-CN, server: gy.58n.net, port: 30712, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-0592-CN, server: gy.58n.net, port: 20129, type: trojan, password: 957b3d12-414d-38e1-8627-006cdeba93f8, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
@@ -780,7 +780,7 @@ proxies:
   - {name: 08-0827-CN, server: uk1.nima.rip, port: 36800, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0828-CN, server: us1.nima.rip, port: 36500, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
   - {name: 08-0829-CN, server: us2.nima.rip, port: 36501, type: ss, cipher: chacha20-ietf-poly1305, password: 4312ae04-a9d1-4154-ad20-c0737534fb0f, udp: true}
-  - {name: 08-0830-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2NlODA3Yi0zZDhhLTQwMDItYjQ5NC1kNmQ0N2M2YWQ2MjA@jp.cooc.icu10001#03-0340-AU, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 2dcb6722-2daf-43c0-8843-d5fc0c19735a, udp: true}
+  - {name: "08-0830-UStrojan//957b3d12-414d-38e1-8627-006cdeba93f8@gy.58n.net20299?allowInsecure=1&sni=x299.flybar.work#04-0589-CN", server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 2dcb6722-2daf-43c0-8843-d5fc0c19735a, udp: true}
   - {name: 08-0831-RELAY, server: xjpv2.frtm99d.cyou, port: 2087, type: vmess, uuid: 3ba8fe0a-9487-457d-814c-c5b9826ef1ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xjpv2.frtm99d.cyou}}, udp: true}
   - {name: 08-0832-RELAY, server: v2.frtm99d.cyou, port: 2083, type: vmess, uuid: 3ba8fe0a-9487-457d-814c-c5b9826ef1ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2.frtm99d.cyou}}, udp: true}
   - {name: 08-0833-RELAY, server: twv2.frtm99d.cyou, port: 2087, type: vmess, uuid: 3ba8fe0a-9487-457d-814c-c5b9826ef1ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: twv2.frtm99d.cyou}}, udp: true}
@@ -1205,6 +1205,7 @@ proxy-groups:
       - 03-0337-CN
       - 03-0338-KR
       - 03-0339-KR
+      - 03-0340-AU
       - 03-0341-KR
       - 03-0342-CN
       - 03-0343-KR
@@ -1354,7 +1355,6 @@ proxy-groups:
       - 04-0586-CN
       - 04-0587-CN
       - 04-0588-CN
-      - 04-0589-CN
       - 04-0590-CN
       - 04-0591-CN
       - 04-0592-CN
@@ -1595,7 +1595,7 @@ proxy-groups:
       - 08-0827-CN
       - 08-0828-CN
       - 08-0829-CN
-      - 08-0830-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2NlODA3Yi0zZDhhLTQwMDItYjQ5NC1kNmQ0N2M2YWQ2MjA@jp.cooc.icu10001#03-0340-AU
+      - 08-0830-UStrojan//957b3d12-414d-38e1-8627-006cdeba93f8@gy.58n.net20299?allowInsecure=1&sni=x299.flybar.work#04-0589-CN
       - 08-0831-RELAY
       - 08-0832-RELAY
       - 08-0833-RELAY
@@ -2308,6 +2308,7 @@ proxy-groups:
       - 07-0807-RELAY
       - 08-0817-CN
       - 08-0827-CN
+      - 08-0830-UStrojan//957b3d12-414d-38e1-8627-006cdeba93f8@gy.58n.net20299?allowInsecure=1&sni=x299.flybar.work#04-0589-CN
       - 08-0837-RELAY
       - 08-0847-CN
       - 08-0857-CN
@@ -2455,7 +2456,6 @@ proxy-groups:
       - 04-0559-CN
       - 04-0569-CN
       - 04-0579-CN
-      - 04-0589-CN
       - 04-0599-CN
       - 04-0609-CN
       - 04-0619-CN
@@ -2480,6 +2480,7 @@ proxy-groups:
       - 07-0809-RELAY
       - 08-0819-CN
       - 08-0829-CN
+      - 08-0830-UStrojan//957b3d12-414d-38e1-8627-006cdeba93f8@gy.58n.net20299?allowInsecure=1&sni=x299.flybar.work#04-0589-CN
       - 08-0839-CN
       - 08-0849-CN
       - 08-0859-CN
@@ -2527,6 +2528,7 @@ proxy-groups:
       - 03-0310-KR
       - 03-0320-KR
       - 03-0330-KR
+      - 03-0340-AU
       - 03-0350-CN
       - 03-0360-CN
       - 03-0370-KR
@@ -2565,7 +2567,7 @@ proxy-groups:
       - 07-0800-RELAY
       - 08-0810-RELAY
       - 08-0820-CN
-      - 08-0830-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2NlODA3Yi0zZDhhLTQwMDItYjQ5NC1kNmQ0N2M2YWQ2MjA@jp.cooc.icu10001#03-0340-AU
+      - 08-0830-UStrojan//957b3d12-414d-38e1-8627-006cdeba93f8@gy.58n.net20299?allowInsecure=1&sni=x299.flybar.work#04-0589-CN
       - 08-0840-CN
       - 08-0850-CN
       - 08-0860-CN
