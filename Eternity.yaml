@@ -53,6 +53,17 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: hk5.mhw7e2.online, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0042-CN, server: hk5.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0043-CN, server: sg5.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0044-CN, server: jp1.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0045-CN, server: sg2.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0046-CN, server: tw2.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0047-CN, server: sg3.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0048-CN, server: hk1.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0049-CN, server: hk2.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0050-CN, server: tw4.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0051-CN, server: tw2.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: 02-0052-CN, server: hk5.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 02-0053-CN, server: 14.215.169.69, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 02-0054-CN, server: tw4.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 02-0055-CN, server: tw4.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
@@ -218,7 +229,7 @@ proxies:
   - {name: 03-0260-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 0fc80c1a-6990-4592-91a8-89c945c012a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 03-0261-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9539b310-4365-4e03-85e6-8d20102d879f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0262-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e2e69ca8-9da5-40aa-af2f-b1c57539f2b1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0263-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzZiNDI1My01MWFkLTRjMTAtYWI5Ni0xZmZmMDdlNjE3ODM@jp.cooc.icu10001#23-2374-AU, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 1d8a5e4b-cb13-43b2-859a-56db9ebed09e, udp: true}
+  - {name: 03-0263-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 1d8a5e4b-cb13-43b2-859a-56db9ebed09e, udp: true}
   - {name: 03-0264-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 31493baf-f9d2-4fdf-a460-73bb7ca66f39, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0265-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56b07611-1146-4534-bdf8-dce9bf8f00eb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0266-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6a4f84d1-fc2d-47e5-b730-38c700f236e4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -407,7 +418,6 @@ proxies:
   - {name: 03-0449-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5d9da158-1372-4378-9b41-38961712b861, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0450-RELAY, server: cf.hy2.one, port: 2082, type: vmess, uuid: f1e814d6-5201-43fe-a95e-6de2303b2909, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 03-0451-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 560a1e03-f5a7-4828-b250-dce87d110e97, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0452-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e7472ff4-aedd-4aa8-8dc5-3506a13bd0b9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0453-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 450b5ac9-89a6-48be-af3a-f1fd374759f3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0454-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 49f812fe-0299-4d6f-9f32-65fef7a8ae7c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 04-0455-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -415,6 +425,7 @@ proxies:
   - {name: 04-0457-DE, server: fkvip101.qlgq.fun, port: 31789, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0458-DE, server: fkvip102.qlgq.fun, port: 41789, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: fkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0459-DE, server: fkvip102.qlgq.fun, port: 51789, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: fkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0460-SG, server: sgvip101.qlgq.fun, port: 11223, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0461-SG, server: sgvip101.qlgq.fun, port: 21223, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0462-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0463-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: 18308d94-6450-3199-af91-432ad103e12c, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -456,18 +467,18 @@ proxies:
   - {name: 04-0499-CN, server: 140.249.160.81, port: 35638, type: ss, cipher: chacha20-ietf-poly1305, password: cb29d46d-ae58-479c-b4e7-ed9419a99ff5, udp: true}
   - {name: 04-0500-CN, server: 140.249.160.81, port: 35639, type: ss, cipher: chacha20-ietf-poly1305, password: cb29d46d-ae58-479c-b4e7-ed9419a99ff5, udp: true}
   - {name: 04-0501-CN, server: gdcub.yunnode.win, port: 12642, type: ss, cipher: chacha20-ietf-poly1305, password: cb29d46d-ae58-479c-b4e7-ed9419a99ff5, udp: true}
-  - {name: 04-0502-RELAY, server: 104.21.171.29, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.171.29}, udp: true}
-  - {name: 04-0503-RELAY, server: 172.67.4.141, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.4.141}, udp: true}
-  - {name: 04-0504-RELAY, server: 104.16.143.54, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.143.54}, udp: true}
-  - {name: 04-0505-RELAY, server: 104.24.193.121, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.193.121}, udp: true}
-  - {name: 04-0506-RELAY, server: 172.64.33.59, port: 2053, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0507-RELAY, server: 172.67.30.0, port: 443, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0508-RELAY, server: 172.67.0.124, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.0.124}, udp: true}
-  - {name: 04-0509-JP, server: 52.198.230.68, port: 443, type: trojan, password: d742ba87-3857-316e-bb79-c7014626b911, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0510-JP, server: 52.195.16.199, port: 443, type: trojan, password: d742ba87-3857-316e-bb79-c7014626b911, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0511-US, server: 34.210.82.244, port: 443, type: trojan, password: d742ba87-3857-316e-bb79-c7014626b911, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0512-US, server: 103.136.185.27, port: 5514, type: trojan, password: d742ba87-3857-316e-bb79-c7014626b911, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0513-US, server: 103.136.185.28, port: 3504, type: trojan, password: d742ba87-3857-316e-bb79-c7014626b911, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0502-RELAY, server: 172.67.61.12, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.61.12}, udp: true}
+  - {name: 04-0503-RELAY, server: 104.20.194.142, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.194.142}, udp: true}
+  - {name: 04-0504-RELAY, server: 172.64.9.26, port: 2082, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.9.26}, udp: true}
+  - {name: 04-0505-RELAY, server: 172.67.93.1, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.93.1}, udp: true}
+  - {name: 04-0506-RELAY, server: 104.20.113.35, port: 2053, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0507-RELAY, server: 172.67.101.227, port: 443, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0508-RELAY, server: 104.20.118.92, port: 2082, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.118.92}, udp: true}
+  - {name: 04-0509-JP, server: 52.198.230.68, port: 443, type: trojan, password: d3dc875a-31df-34aa-ae45-d1b4c903aea2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0510-JP, server: 52.195.16.199, port: 443, type: trojan, password: d3dc875a-31df-34aa-ae45-d1b4c903aea2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0511-US, server: 34.210.82.244, port: 443, type: trojan, password: d3dc875a-31df-34aa-ae45-d1b4c903aea2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0512-US, server: 103.136.185.27, port: 5514, type: trojan, password: d3dc875a-31df-34aa-ae45-d1b4c903aea2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0513-US, server: 103.136.185.28, port: 3504, type: trojan, password: d3dc875a-31df-34aa-ae45-d1b4c903aea2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0613-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0614-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 04-0615-RELAY, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
@@ -762,7 +773,6 @@ proxies:
   - {name: 07-0904-RELAY, server: 104.19.44.151, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 08-0905-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
   - {name: 08-0906-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
-  - {name: 08-0907-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
   - {name: 08-0908-CN, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
   - {name: 08-0909-CN, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
   - {name: 08-0910-CN, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: 99aa8705-c8a1-49c3-b3be-88fafb4584ef, udp: true}
@@ -799,56 +809,45 @@ proxies:
   - {name: 08-0941-TW, server: duoduotw.cdn-sgp.xyz, port: 40037, type: vmess, uuid: 5de9e136-2c9f-4a76-b13e-c0eec92f4193, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: duoduotw.cdn-sgp.xyz}}, udp: true}
   - {name: 10-0942-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fd3f2bd9-ef6c-4bab-b667-bb07915ebcaa, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 10-0943-CN, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 4c174a53-7529-42bb-8a36-057c14e04010, udp: true}
-  - {name: 14-1194-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1c7f7cb4-e1f6-4510-9538-1bb8c3519d36, udp: true}
-  - {name: 14-1309-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1c7f7cb4-e1f6-4510-9538-1bb8c3519d36, udp: true}
-  - {name: 15-1318-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 60697033-e1eb-4346-bc9f-5d6260bffb52, udp: true}
-  - {name: 15-1355-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 60697033-e1eb-4346-bc9f-5d6260bffb52, udp: true}
-  - {name: 19-1533-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 5fa30c6e-da1e-4ba2-a4ca-abf363b0d356, udp: true}
-  - {name: 19-1657-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 5fa30c6e-da1e-4ba2-a4ca-abf363b0d356, udp: true}
   - {name: 20-1854-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 20-1856-KR, server: 146.56.191.191, port: 443, type: trojan, password: 1dfba761-c1e0-422e-98b6-062da56afb53, sni: jkrf1.969799.xyz, skip-cert-verify: true, udp: true}
-  - {name: 20-1864-US, server: bolder-metal-comma.glitch.me, port: 80, type: vmess, uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 20-1870-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 20-1877-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 249daf1c-0cef-4772-b9f1-dadfaf989c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 22-2089-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 2b11cccc-f600-4213-8c2a-23da98f97581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 22-2137-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b0908aa8-78a0-4b6c-963b-f5436284d2cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 22-2169-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 449a30b8-b7ef-424c-9dd9-0a58581bf19a, udp: true}
   - {name: 22-2180-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 59e65435-d70d-4e62-b401-0b78d9d0090d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 22-2240-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 8ddfbf44-764b-477b-9043-5ba81dae6670, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 22-2242-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e55867de-99af-4f98-9e5c-c65571222838, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 22-2249-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 449a30b8-b7ef-424c-9dd9-0a58581bf19a, udp: true}
   - {name: 22-2259-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: cc19b227-c61e-4c66-af73-e11e98e3fc8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 22-2264-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 78eaa0db-b3d8-4751-b66d-7ee8ed58d35f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 23-2410-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 936b4253-51ad-4c10-ab96-1fff07e61783, udp: true}
-  - {name: 24-2472-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 9296a4d7-ab21-4bf0-a037-0356070c56f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2481-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 27e64ce7-9e25-4721-ba60-298a6dd2dc45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2483-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 713599b9-6e68-4c95-a20b-43ea81203d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2484-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e713caf5-4975-403e-b271-c71396a09679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2487-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 58f67e5b-ec82-406b-94ce-bc1382ccf5b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2492-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 0c97b780-c174-435b-aa54-afcbb47e20a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2499-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 2235e64b-4826-4fa6-86f5-5fad873fbf48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2522-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 50175884-0b92-48d4-a120-62a3b593c7a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2527-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 227d105c-4142-411d-9f3f-751e0ffe298d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2540-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e4bffcfb-c343-4ff6-93de-85a5a1ca98aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2545-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: f92bf259-99b5-4d76-867b-1cb03e85111e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2555-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 4dcc134d-97fd-4cbf-ab18-34b008d6b1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2568-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 2ec28af2-5ef0-4503-b72f-c9b578141e92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2569-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 7fbcaa81-921b-4e67-acaf-ea15a44e0c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2580-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 6ad50e23-ce0b-4c09-9bfe-aed529a84832, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 24-2602-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: a05991a1-576f-4e8b-8f59-b16ed270e7b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2603-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b3bd56ed-8509-44d2-8057-e63e1b678990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2604-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 73e68abe-154c-44b3-aa4b-22eaa8a4b897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2605-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b8a422aa-8e1d-4784-98b5-cb9000ea7623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2606-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b3d0c136-46cb-447e-9d0b-f7f93e9bca31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2617-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: ff5a7b20-c258-4d04-9655-88f17ea3e8fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2627-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 26587a30-c365-4c8a-80fc-05ec5e19bf8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2644-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 073b525b-fd1f-46e7-935a-c63545328ac4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2646-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 9bd3cf28-b1d2-47bf-bd99-b85e00540e8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2668-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 93d0df8f-135a-4f6a-beee-128a35b476df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2687-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 4cf16dc7-44a7-4112-8fa8-eb3fb6e08eca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2696-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: cd618682-b948-46b9-8df6-920c1f8e2aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2701-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 6d168ce1-dde6-4622-9baf-7fb56adbe546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-2707-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 344d095d-5ffa-49bf-903d-494111fbc830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 23-2396-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 23-2434-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 1dd757f5-3ca7-4354-b634-58ecca3948ac, udp: true}
+  - {name: 24-2454-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 9296a4d7-ab21-4bf0-a037-0356070c56f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2463-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 27e64ce7-9e25-4721-ba60-298a6dd2dc45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2465-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 713599b9-6e68-4c95-a20b-43ea81203d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2466-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e713caf5-4975-403e-b271-c71396a09679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2469-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 58f67e5b-ec82-406b-94ce-bc1382ccf5b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2474-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 0c97b780-c174-435b-aa54-afcbb47e20a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2481-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 2235e64b-4826-4fa6-86f5-5fad873fbf48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2504-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 50175884-0b92-48d4-a120-62a3b593c7a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2509-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 227d105c-4142-411d-9f3f-751e0ffe298d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2522-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e4bffcfb-c343-4ff6-93de-85a5a1ca98aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2527-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: f92bf259-99b5-4d76-867b-1cb03e85111e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2537-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 4dcc134d-97fd-4cbf-ab18-34b008d6b1f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2550-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 2ec28af2-5ef0-4503-b72f-c9b578141e92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2551-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 7fbcaa81-921b-4e67-acaf-ea15a44e0c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2562-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 6ad50e23-ce0b-4c09-9bfe-aed529a84832, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 24-2584-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: a05991a1-576f-4e8b-8f59-b16ed270e7b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2585-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b3bd56ed-8509-44d2-8057-e63e1b678990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2586-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 73e68abe-154c-44b3-aa4b-22eaa8a4b897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2587-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b8a422aa-8e1d-4784-98b5-cb9000ea7623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2588-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b3d0c136-46cb-447e-9d0b-f7f93e9bca31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2609-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 26587a30-c365-4c8a-80fc-05ec5e19bf8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2626-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 073b525b-fd1f-46e7-935a-c63545328ac4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2628-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 9bd3cf28-b1d2-47bf-bd99-b85e00540e8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2650-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 93d0df8f-135a-4f6a-beee-128a35b476df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2669-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 4cf16dc7-44a7-4112-8fa8-eb3fb6e08eca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2678-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: cd618682-b948-46b9-8df6-920c1f8e2aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2683-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 6d168ce1-dde6-4622-9baf-7fb56adbe546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-2689-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 344d095d-5ffa-49bf-903d-494111fbc830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -867,6 +866,17 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 02-0000-CN
+      - 02-0042-CN
+      - 02-0043-CN
+      - 02-0044-CN
+      - 02-0045-CN
+      - 02-0046-CN
+      - 02-0047-CN
+      - 02-0048-CN
+      - 02-0049-CN
+      - 02-0050-CN
+      - 02-0051-CN
+      - 02-0052-CN
       - 02-0053-CN
       - 02-0054-CN
       - 02-0055-CN
@@ -1032,7 +1042,7 @@ proxy-groups:
       - 03-0260-RELAY
       - 03-0261-KR
       - 03-0262-KR
-      - 03-0263-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzZiNDI1My01MWFkLTRjMTAtYWI5Ni0xZmZmMDdlNjE3ODM@jp.cooc.icu10001#23-2374-AU
+      - 03-0263-US
       - 03-0264-KR
       - 03-0265-KR
       - 03-0266-KR
@@ -1221,7 +1231,6 @@ proxy-groups:
       - 03-0449-KR
       - 03-0450-RELAY
       - 03-0451-KR
-      - 03-0452-KR
       - 03-0453-KR
       - 03-0454-KR
       - 04-0455-DE
@@ -1229,6 +1238,7 @@ proxy-groups:
       - 04-0457-DE
       - 04-0458-DE
       - 04-0459-DE
+      - 04-0460-SG
       - 04-0461-SG
       - 04-0462-SG
       - 04-0463-SG
@@ -1576,7 +1586,6 @@ proxy-groups:
       - 07-0904-RELAY
       - 08-0905-AU
       - 08-0906-TW
-      - 08-0907-US
       - 08-0908-CN
       - 08-0909-CN
       - 08-0910-CN
@@ -1613,56 +1622,45 @@ proxy-groups:
       - 08-0941-TW
       - 10-0942-KR
       - 10-0943-CN
-      - 14-1194-AU
-      - 14-1309-TW
-      - 15-1318-AU
-      - 15-1355-TW
-      - 19-1533-TW
-      - 19-1657-AU
       - 20-1854-JP
       - 20-1856-KR
-      - 20-1864-US
       - 20-1870-RELAY
       - 20-1877-RELAY
-      - 22-2089-RELAY
-      - 22-2137-RELAY
-      - 22-2169-TW
       - 22-2180-RELAY
       - 22-2240-RELAY
       - 22-2242-RELAY
-      - 22-2249-AU
       - 22-2259-RELAY
       - 22-2264-RELAY
-      - 23-2410-TW
-      - 24-2472-RELAY
+      - 23-2396-TW
+      - 23-2434-AU
+      - 24-2454-RELAY
+      - 24-2463-RELAY
+      - 24-2465-RELAY
+      - 24-2466-RELAY
+      - 24-2469-RELAY
+      - 24-2474-RELAY
       - 24-2481-RELAY
-      - 24-2483-RELAY
-      - 24-2484-RELAY
-      - 24-2487-RELAY
-      - 24-2492-RELAY
-      - 24-2499-RELAY
+      - 24-2504-RELAY
+      - 24-2509-RELAY
       - 24-2522-RELAY
       - 24-2527-RELAY
-      - 24-2540-RELAY
-      - 24-2545-RELAY
-      - 24-2555-RELAY
-      - 24-2568-RELAY
-      - 24-2569-RELAY
-      - 24-2580-RELAY
-      - 24-2602-RELAY
-      - 25-2603-RELAY
-      - 25-2604-RELAY
-      - 25-2605-RELAY
-      - 25-2606-RELAY
-      - 25-2617-RELAY
-      - 25-2627-RELAY
-      - 25-2644-RELAY
-      - 25-2646-RELAY
-      - 25-2668-RELAY
-      - 25-2687-RELAY
-      - 25-2696-RELAY
-      - 25-2701-RELAY
-      - 25-2707-RELAY
+      - 24-2537-RELAY
+      - 24-2550-RELAY
+      - 24-2551-RELAY
+      - 24-2562-RELAY
+      - 24-2584-RELAY
+      - 25-2585-RELAY
+      - 25-2586-RELAY
+      - 25-2587-RELAY
+      - 25-2588-RELAY
+      - 25-2609-RELAY
+      - 25-2626-RELAY
+      - 25-2628-RELAY
+      - 25-2650-RELAY
+      - 25-2669-RELAY
+      - 25-2678-RELAY
+      - 25-2683-RELAY
+      - 25-2689-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1718,6 +1716,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0051-CN
       - 02-0061-CN
       - 03-0111-KR
       - 03-0121-KR
@@ -1794,13 +1793,15 @@ proxy-groups:
       - 08-0931-CN
       - 08-0941-TW
       - 24-2481-RELAY
-      - 25-2701-RELAY
+      - 24-2551-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0042-CN
+      - 02-0052-CN
       - 02-0062-CN
       - 03-0112-KR
       - 03-0122-KR
@@ -1836,7 +1837,6 @@ proxy-groups:
       - 03-0422-CN
       - 03-0432-KR
       - 03-0442-KR
-      - 03-0452-KR
       - 04-0462-SG
       - 04-0472-US
       - 04-0482-HK
@@ -1877,16 +1877,15 @@ proxy-groups:
       - 08-0932-CN
       - 10-0942-KR
       - 22-2242-RELAY
-      - 24-2472-RELAY
-      - 24-2492-RELAY
       - 24-2522-RELAY
-      - 24-2602-RELAY
+      - 24-2562-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0043-CN
       - 02-0053-CN
       - 02-0063-CN
       - 03-0113-KR
@@ -1904,7 +1903,7 @@ proxy-groups:
       - 03-0233-RELAY
       - 03-0243-KR
       - 03-0253-KR
-      - 03-0263-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzZiNDI1My01MWFkLTRjMTAtYWI5Ni0xZmZmMDdlNjE3ODM@jp.cooc.icu10001#23-2374-AU
+      - 03-0263-US
       - 03-0273-KR
       - 03-0283-KR
       - 03-0293-KR
@@ -1964,15 +1963,15 @@ proxy-groups:
       - 08-0923-CN
       - 08-0933-CN
       - 10-0943-CN
-      - 19-1533-TW
-      - 24-2483-RELAY
-      - 25-2603-RELAY
+      - 24-2463-RELAY
+      - 25-2683-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0044-CN
       - 02-0054-CN
       - 02-0064-CN
       - 03-0114-KR
@@ -1990,7 +1989,6 @@ proxy-groups:
       - 03-0234-KR
       - 03-0244-KR
       - 03-0254-KR
-      - 03-0263-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzZiNDI1My01MWFkLTRjMTAtYWI5Ni0xZmZmMDdlNjE3ODM@jp.cooc.icu10001#23-2374-AU
       - 03-0264-KR
       - 03-0274-KR
       - 03-0284-KR
@@ -2049,19 +2047,20 @@ proxy-groups:
       - 08-0914-CN
       - 08-0924-CN
       - 08-0934-CN
-      - 14-1194-AU
       - 20-1854-JP
-      - 20-1864-US
       - 22-2264-RELAY
-      - 24-2484-RELAY
-      - 25-2604-RELAY
-      - 25-2644-RELAY
+      - 23-2434-AU
+      - 24-2454-RELAY
+      - 24-2474-RELAY
+      - 24-2504-RELAY
+      - 24-2584-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0045-CN
       - 02-0055-CN
       - 02-0065-CN
       - 03-0115-KR
@@ -2137,16 +2136,15 @@ proxy-groups:
       - 08-0915-CN
       - 08-0925-CN
       - 08-0935-KR
-      - 15-1355-TW
-      - 24-2545-RELAY
-      - 24-2555-RELAY
-      - 25-2605-RELAY
+      - 24-2465-RELAY
+      - 25-2585-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0046-CN
       - 02-0056-CN
       - 03-0116-KR
       - 03-0126-KR
@@ -2222,15 +2220,17 @@ proxy-groups:
       - 08-0926-CN
       - 08-0936-CN
       - 20-1856-KR
-      - 25-2606-RELAY
-      - 25-2646-RELAY
-      - 25-2696-RELAY
+      - 23-2396-TW
+      - 24-2466-RELAY
+      - 25-2586-RELAY
+      - 25-2626-RELAY
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0047-CN
       - 02-0057-CN
       - 03-0117-KR
       - 03-0127-CN
@@ -2301,25 +2301,20 @@ proxy-groups:
       - 07-0877-RELAY
       - 07-0887-RELAY
       - 07-0897-RELAY
-      - 08-0907-US
       - 08-0917-RELAY
       - 08-0927-CN
       - 08-0937-CN
-      - 19-1657-AU
       - 20-1877-RELAY
-      - 22-2137-RELAY
-      - 24-2487-RELAY
       - 24-2527-RELAY
-      - 25-2617-RELAY
-      - 25-2627-RELAY
-      - 25-2687-RELAY
-      - 25-2707-RELAY
+      - 24-2537-RELAY
+      - 25-2587-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0048-CN
       - 02-0058-CN
       - 03-0118-KR
       - 03-0128-KR
@@ -2394,15 +2389,16 @@ proxy-groups:
       - 08-0918-RELAY
       - 08-0928-CN
       - 08-0938-CN
-      - 15-1318-AU
-      - 24-2568-RELAY
-      - 25-2668-RELAY
+      - 25-2588-RELAY
+      - 25-2628-RELAY
+      - 25-2678-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0049-CN
       - 02-0059-CN
       - 03-0119-KR
       - 03-0129-KR
@@ -2477,13 +2473,12 @@ proxy-groups:
       - 08-0919-RELAY
       - 08-0929-CN
       - 08-0939-CN
-      - 14-1309-TW
-      - 22-2089-RELAY
-      - 22-2169-TW
-      - 22-2249-AU
       - 22-2259-RELAY
-      - 24-2499-RELAY
-      - 24-2569-RELAY
+      - 24-2469-RELAY
+      - 24-2509-RELAY
+      - 25-2609-RELAY
+      - 25-2669-RELAY
+      - 25-2689-RELAY
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -2491,6 +2486,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-0000-CN
+      - 02-0050-CN
       - 02-0060-CN
       - 03-0120-KR
       - 03-0130-RELAY
@@ -2526,6 +2522,7 @@ proxy-groups:
       - 03-0430-KR
       - 03-0440-KR
       - 03-0450-RELAY
+      - 04-0460-SG
       - 04-0470-US
       - 04-0480-HK
       - 04-0490-CN
@@ -2567,9 +2564,8 @@ proxy-groups:
       - 20-1870-RELAY
       - 22-2180-RELAY
       - 22-2240-RELAY
-      - 23-2410-TW
-      - 24-2540-RELAY
-      - 24-2580-RELAY
+      - 24-2550-RELAY
+      - 25-2650-RELAY
   - name: 广告拦截
     type: select
     proxies:
