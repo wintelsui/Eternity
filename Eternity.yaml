@@ -52,19 +52,19 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0440-JP, server: 43.206.126.97, port: 443, type: trojan, password: dd4675a6-c0e6-3a39-b838-2cd7cd33cfcc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0441-JP, server: 54.95.41.90, port: 443, type: trojan, password: dd4675a6-c0e6-3a39-b838-2cd7cd33cfcc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0440-JP, server: 43.206.126.97, port: 443, type: trojan, password: 8a50c232-2800-3858-9313-902fb2f3c676, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0441-JP, server: 54.95.41.90, port: 443, type: trojan, password: 8a50c232-2800-3858-9313-902fb2f3c676, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0442-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2014b726-6776-4f1b-9488-3cc9543cd3a8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0443-US, server: 103.136.185.27, port: 5515, type: trojan, password: dd4675a6-c0e6-3a39-b838-2cd7cd33cfcc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0443-US, server: 103.136.185.27, port: 5515, type: trojan, password: 8a50c232-2800-3858-9313-902fb2f3c676, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0550-CN, server: gdcub.yunnode.win, port: 31644, type: ss, cipher: chacha20-ietf-poly1305, password: 6ea274ec-1440-4e47-b047-6958857060d7, udp: true}
-  - {name: 04-0580-CN, server: 103.136.185.28, port: 3505, type: trojan, password: dd4675a6-c0e6-3a39-b838-2cd7cd33cfcc, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0586-CN, server: gy.58n.net, port: 20298, type: trojan, password: cb7c4967-213e-3831-bf38-92e889f61b60, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0598-CN, server: gy.58n.net, port: 17806, type: trojan, password: cb7c4967-213e-3831-bf38-92e889f61b60, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 05-0691-RELAY, server: lanlan.lancdn.vip, port: 443, type: vmess, uuid: be1c709d-016f-4dd0-a9cf-cfb736d9c5a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lanlan.lancdn.vip}}, udp: true}
   - {name: 05-0692-RELAY, server: lanlan.lancdn.vip, port: 443, type: vmess, uuid: 7f1289a0-8f82-4b29-a4be-4155a4f9402b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lanlan.lancdn.vip}}, udp: true}
   - {name: 05-0693-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: be1c709d-016f-4dd0-a9cf-cfb736d9c5a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 05-0694-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 7f1289a0-8f82-4b29-a4be-4155a4f9402b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 06-0705-RELAY, server: lanlan.lancdn.vip, port: 443, type: vmess, uuid: 0fe2de73-1fb3-4cdc-a05b-82847b577925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lanlan.lancdn.vip}}, udp: true}
   - {name: 06-0708-RELAY, server: lanlan.lancdn.vip, port: 443, type: vmess, uuid: 978a4f5c-9851-467c-9734-847ff23d38c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lanlan.lancdn.vip}}, udp: true}
-  - {name: 06-0732-CN, server: gstdnb.myfczy168.top, port: 35846, type: ss, cipher: chacha20-ietf-poly1305, password: 3a78c159-078a-4216-b445-2b6adaee3f29, udp: true}
   - {name: 06-0733-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: c98a61d9-183f-40f7-aafe-135347b93709, udp: true}
   - {name: 06-0734-CN, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: 3a78c159-078a-4216-b445-2b6adaee3f29, udp: true}
   - {name: 06-0735-CN, server: gstdnb.myfczy168.top, port: 21743, type: ss, cipher: chacha20-ietf-poly1305, password: 3a78c159-078a-4216-b445-2b6adaee3f29, udp: true}
@@ -242,7 +242,6 @@ proxies:
   - {name: 22-2152-RELAY, server: lanlan.lancdn.vip, port: 443, type: vmess, uuid: 502de03e-ffd6-48d1-931f-79608f942365, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lanlan.lancdn.vip}}, udp: true}
   - {name: 22-2160-RELAY, server: yguo.lancdn.vip, port: 443, type: vmess, uuid: 18f23b15-2e47-4bc3-a27d-c451575c6b52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yguo.lancdn.vip}}, udp: true}
   - {name: 22-2161-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 975b249c-1807-4596-8aa3-5c6213c2ecc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
-  - {name: 22-2164-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: fe69b010-8949-4134-a768-c5688fd1578d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 22-2165-RELAY, server: yguo.lancdn.vip, port: 443, type: vmess, uuid: 10346385-942a-446b-b6fb-3209b47c4bfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yguo.lancdn.vip}}, udp: true}
   - {name: 22-2166-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 661720e1-4713-4ec5-bca5-a28086727710, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 22-2167-RELAY, server: yguo.lancdn.vip, port: 443, type: vmess, uuid: 99e5ea7f-8aca-44b0-8ab2-c004a01af53f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yguo.lancdn.vip}}, udp: true}
@@ -872,14 +871,14 @@ proxy-groups:
       - 04-0442-US
       - 04-0443-US
       - 04-0550-CN
-      - 04-0580-CN
+      - 04-0586-CN
+      - 04-0598-CN
       - 05-0691-RELAY
       - 05-0692-RELAY
       - 05-0693-RELAY
       - 05-0694-RELAY
       - 06-0705-RELAY
       - 06-0708-RELAY
-      - 06-0732-CN
       - 06-0733-CN
       - 06-0734-CN
       - 06-0735-CN
@@ -1057,7 +1056,6 @@ proxy-groups:
       - 22-2152-RELAY
       - 22-2160-RELAY
       - 22-2161-RELAY
-      - 22-2164-RELAY
       - 22-2165-RELAY
       - 22-2166-RELAY
       - 22-2167-RELAY
@@ -1813,7 +1811,6 @@ proxy-groups:
     proxies:
       - 04-0442-US
       - 05-0692-RELAY
-      - 06-0732-CN
       - 07-0742-RELAY
       - 07-0752-RELAY
       - 07-0762-RELAY
@@ -2007,7 +2004,6 @@ proxy-groups:
       - 11-0884-CN
       - 11-0894-CN
       - 13-1044-RELAY
-      - 22-2164-RELAY
       - 22-2214-RELAY
       - 22-2224-RELAY
       - 22-2254-RELAY
@@ -2153,6 +2149,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-0586-CN
       - 06-0736-CN
       - 07-0746-RELAY
       - 07-0756-RELAY
@@ -2319,6 +2316,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-0598-CN
       - 06-0708-RELAY
       - 07-0738-CN
       - 07-0748-RELAY
@@ -2498,7 +2496,6 @@ proxy-groups:
     proxies:
       - 04-0440-JP
       - 04-0550-CN
-      - 04-0580-CN
       - 07-0740-CN
       - 07-0750-RELAY
       - 07-0760-RELAY
