@@ -502,13 +502,13 @@ proxies:
   - {name: 04-0449-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 04-0450-RELAY, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
   - {name: 04-0451-RELAY, server: US-Los_Angeles-B.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-B.cfip.top}}, udp: true}
-  - {name: 04-0452-RELAY, server: 104.25.215.184, port: 2086, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.215.184}, udp: true}
-  - {name: 04-0453-RELAY, server: 104.24.23.232, port: 2052, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.23.232}, udp: true}
-  - {name: 04-0454-RELAY, server: 104.24.6.66, port: 2095, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.6.66}, udp: true}
-  - {name: 04-0455-RELAY, server: 104.19.221.176, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.221.176}, udp: true}
-  - {name: 04-0456-RELAY, server: 172.67.114.163, port: 2096, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0457-RELAY, server: 104.21.86.94, port: 2083, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0458-RELAY, server: 172.64.37.224, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.37.224}, udp: true}
+  - {name: 04-0452-RELAY, server: 172.64.16.104, port: 2052, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.16.104}, udp: true}
+  - {name: 04-0453-RELAY, server: 172.67.89.187, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.89.187}, udp: true}
+  - {name: 04-0454-RELAY, server: 104.21.246.241, port: 2052, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.246.241}, udp: true}
+  - {name: 04-0455-RELAY, server: 172.64.51.29, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.51.29}, udp: true}
+  - {name: 04-0456-RELAY, server: 172.67.69.117, port: 2096, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0457-RELAY, server: 172.67.115.163, port: 2096, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0458-RELAY, server: 104.16.95.12, port: 80, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.95.12}, udp: true}
   - {name: 04-0459-CN, server: gy.58n.net, port: 20301, type: trojan, password: 4f06258c-dd87-3de6-8d09-3d30a9b201cc, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0460-CN, server: gy.58n.net, port: 43337, type: trojan, password: 4f06258c-dd87-3de6-8d09-3d30a9b201cc, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0461-CN, server: gy.58n.net, port: 20307, type: trojan, password: 4f06258c-dd87-3de6-8d09-3d30a9b201cc, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -638,12 +638,12 @@ proxies:
   - {name: 05-0690-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
   - {name: 05-0691-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
   - {name: 05-0692-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
+  - {name: 05-0693-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 266acee1-11f4-495d-9408-bcc1838cb3ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 05-0694-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
   - {name: 05-0695-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
   - {name: 05-0696-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 9f81c304-14a8-4e1d-99c2-3c5f2669363a, udp: true}
   - {name: 05-0697-CN, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: 45e5bf5f-4edf-4526-88d1-2c50bc60fd63, udp: true}
   - {name: 05-0698-CN, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: 3f73e278-1c2c-4ff1-a192-3fe26f6c87fd, udp: true}
-  - {name: 24-2747-CN, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: d0a8ec40-e45c-433e-8007-d078710ef196, udp: true}
   - {name: 24-2748-CN, server: pk2.7yvxyfv0hldls8kkq6csyy.club, port: 20180, type: ss, cipher: aes-256-gcm, password: d03b37c5-e0cf-4cd6-adce-e81ee1a17c3c, udp: true}
   - {name: 24-2750-RELAY, server: rvxcstxwbcvb_cdn.hfhfb.homes, port: 2095, type: vmess, uuid: 362804b1-903c-4a45-ac07-133f12c13e06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: rvxcstxwbcvb_cdn.hfhfb.homes}}, udp: true}
   - {name: 24-2751-CN, server: gstdnb.myfczy168.top, port: 11599, type: ss, cipher: chacha20-ietf-poly1305, password: 19d05d00-0cad-4a73-8cca-ea1c28548bb6, udp: true}
@@ -1251,12 +1251,12 @@ proxy-groups:
       - 05-0690-CN
       - 05-0691-CN
       - 05-0692-CN
+      - 05-0693-KR
       - 05-0694-CN
       - 05-0695-CN
       - 05-0696-CN
       - 05-0697-CN
       - 05-0698-CN
-      - 24-2747-CN
       - 24-2748-CN
       - 24-2750-RELAY
       - 24-2751-CN
@@ -1507,6 +1507,7 @@ proxy-groups:
       - 04-0663-US
       - 04-0673-HK
       - 05-0683-RELAY
+      - 05-0693-KR
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1769,7 +1770,6 @@ proxy-groups:
       - 04-0677-HK
       - 05-0687-CN
       - 05-0697-CN
-      - 24-2747-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
