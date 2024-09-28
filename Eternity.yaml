@@ -604,6 +604,11 @@ proxies:
   - {name: 04-0551-CN, server: 140.249.160.81, port: 31682, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
   - {name: 04-0552-CN, server: 140.249.160.81, port: 31685, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
   - {name: 04-0553-CN, server: gdcub.yunnode.win, port: 31651, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
+  - {name: 04-0554-JP, server: 54.238.135.78, port: 443, type: trojan, password: 22e20fcf-9449-3ba4-8c2a-226b04432d27, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0555-JP, server: 35.75.8.137, port: 443, type: trojan, password: 22e20fcf-9449-3ba4-8c2a-226b04432d27, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0556-US, server: 35.93.203.243, port: 443, type: trojan, password: 22e20fcf-9449-3ba4-8c2a-226b04432d27, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0557-US, server: 103.136.185.27, port: 5518, type: trojan, password: 22e20fcf-9449-3ba4-8c2a-226b04432d27, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0558-US, server: 103.136.185.28, port: 3506, type: trojan, password: 22e20fcf-9449-3ba4-8c2a-226b04432d27, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0559-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9Auuvpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: cc19325d-0617-4af5-b9fc-0e94fb219c65, udp: true}
   - {name: 04-0560-CN, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: cc19325d-0617-4af5-b9fc-0e94fb219c65, udp: true}
   - {name: 04-0561-CN, server: gdcub.yunnode.win, port: 31644, type: ss, cipher: chacha20-ietf-poly1305, password: cc19325d-0617-4af5-b9fc-0e94fb219c65, udp: true}
@@ -639,15 +644,10 @@ proxies:
   - {name: 04-0690-SG, server: sgvip101.qlgq.fun, port: 21223, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0691-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0692-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0693-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0694-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0695-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0696-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0697-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: 0b7023bf-13a7-383e-9bc6-5cec15f1acff, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 24-3622-CN, server: 180.103.101.4, port: 57467, type: ss, cipher: aes-128-gcm, password: 95a511f6-828c-4e22-9a00-d002feb681b8, udp: true}
-  - {name: 24-3624-CN, server: gstdnb.myfczy168.top, port: 29172, type: ss, cipher: chacha20-ietf-poly1305, password: e0a8b783-4de4-458f-9490-c78bf947d3f8, udp: true}
-  - {name: 24-3625-CN, server: 587878.laomao-53875.xyz, port: 50005, type: trojan, password: 891a01de-1025-4899-97fb-4cbf82a379e2, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-  - {name: 24-3626-CN, server: gstdnb.myfczy168.top, port: 57661, type: ss, cipher: chacha20-ietf-poly1305, password: 8fe29232-af51-4d17-9eff-77e23ce211e1, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1217,6 +1217,11 @@ proxy-groups:
       - 04-0551-CN
       - 04-0552-CN
       - 04-0553-CN
+      - 04-0554-JP
+      - 04-0555-JP
+      - 04-0556-US
+      - 04-0557-US
+      - 04-0558-US
       - 04-0559-NOWHERE
       - 04-0560-CN
       - 04-0561-CN
@@ -1252,15 +1257,10 @@ proxy-groups:
       - 04-0690-SG
       - 04-0691-SG
       - 04-0692-SG
-      - 04-0693-SG
       - 04-0694-US
       - 04-0695-US
       - 04-0696-US
       - 04-0697-US
-      - 24-3622-CN
-      - 24-3624-CN
-      - 24-3625-CN
-      - 24-3626-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1441,7 +1441,6 @@ proxy-groups:
       - 04-0572-CN
       - 04-0582-CN
       - 04-0692-SG
-      - 24-3622-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1507,7 +1506,6 @@ proxy-groups:
       - 04-0563-CN
       - 04-0573-CN
       - 04-0583-CN
-      - 04-0693-SG
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1569,11 +1567,11 @@ proxy-groups:
       - 04-0524-CN
       - 04-0534-CN
       - 04-0544-CN
+      - 04-0554-JP
       - 04-0564-CN
       - 04-0574-CN
       - 04-0584-CN
       - 04-0694-US
-      - 24-3624-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1635,11 +1633,11 @@ proxy-groups:
       - 04-0525-CN
       - 04-0535-CN
       - 04-0545-CN
+      - 04-0555-JP
       - 04-0565-CN
       - 04-0575-CN
       - 04-0585-CN
       - 04-0695-US
-      - 24-3625-CN
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1701,12 +1699,12 @@ proxy-groups:
       - 04-0526-CN
       - 04-0536-CN
       - 04-0546-CN
+      - 04-0556-US
       - 04-0566-CN
       - 04-0576-CN
       - 04-0586-CN
       - 04-0686-DE
       - 04-0696-US
-      - 24-3626-CN
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1768,6 +1766,7 @@ proxy-groups:
       - 04-0527-CN
       - 04-0537-CN
       - 04-0547-CN
+      - 04-0557-US
       - 04-0567-CN
       - 04-0577-CN
       - 04-0687-DE
@@ -1833,6 +1832,7 @@ proxy-groups:
       - 04-0528-CN
       - 04-0538-CN
       - 04-0548-CN
+      - 04-0558-US
       - 04-0568-CN
       - 04-0578-CN
       - 04-0688-DE
