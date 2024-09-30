@@ -575,6 +575,11 @@ proxies:
   - {name: 04-0522-CN, server: 140.249.160.81, port: 31682, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
   - {name: 04-0523-CN, server: 140.249.160.81, port: 31685, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
   - {name: 04-0524-CN, server: gdcub.yunnode.win, port: 31651, type: ss, cipher: chacha20-ietf-poly1305, password: 179590c5-0877-47ab-9b51-ea5c360668a7, udp: true}
+  - {name: 04-0525-JP, server: 54.238.135.78, port: 443, type: trojan, password: 3104fbbf-46b5-3536-9097-39dfed60be0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0526-JP, server: 35.75.8.137, port: 443, type: trojan, password: 3104fbbf-46b5-3536-9097-39dfed60be0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0527-US, server: 35.93.203.243, port: 443, type: trojan, password: 3104fbbf-46b5-3536-9097-39dfed60be0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0528-US, server: 103.136.185.27, port: 5519, type: trojan, password: 3104fbbf-46b5-3536-9097-39dfed60be0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0529-US, server: 103.136.185.28, port: 3507, type: trojan, password: 3104fbbf-46b5-3536-9097-39dfed60be0e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0530-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9Auuvpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 92263048-6d58-405c-8df7-96cbb2eaad02, udp: true}
   - {name: 04-0531-CN, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 92263048-6d58-405c-8df7-96cbb2eaad02, udp: true}
   - {name: 04-0532-CN, server: gdcub.yunnode.win, port: 31644, type: ss, cipher: chacha20-ietf-poly1305, password: 92263048-6d58-405c-8df7-96cbb2eaad02, udp: true}
@@ -643,11 +648,6 @@ proxies:
   - {name: 05-0696-CN, server: aws.ieim.cn, port: 57467, type: ss, cipher: aes-128-gcm, password: a2f679a5-743b-4f51-89f9-425651ab11a2, udp: true}
   - {name: 05-0697-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 41f107bb-b4e5-4956-b25d-38f90ebac3e5, udp: true}
   - {name: 05-0698-CN, server: 33648.laomao-53875.xyz, port: 50303, type: trojan, password: 12e2c953-e25f-4ba5-be40-98a510c82513, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-  - {name: 24-3740-CN, server: 95848.laomao-53875.xyz, port: 50201, type: trojan, password: 7572716d-ced0-4afa-892f-88b3245cd290, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-  - {name: 24-3741-CN, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: 75b4fc79-1bb2-41c0-ae17-381f280bd237, udp: true}
-  - {name: 24-3742-CN, server: 878451.laomao-53875.xyz, port: 50009, type: trojan, password: 7572716d-ced0-4afa-892f-88b3245cd290, sni: alibaba-cert.com, skip-cert-verify: true, udp: true}
-  - {name: 24-3743-CN, server: gstdnb.myfczy168.top, port: 35846, type: ss, cipher: chacha20-ietf-poly1305, password: 22098ae2-d54f-44c2-a988-7c1032f8a3bc, udp: true}
-  - {name: 24-3744-CN, server: gstdnb.myfczy168.top, port: 57661, type: ss, cipher: chacha20-ietf-poly1305, password: 75b4fc79-1bb2-41c0-ae17-381f280bd237, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1188,6 +1188,11 @@ proxy-groups:
       - 04-0522-CN
       - 04-0523-CN
       - 04-0524-CN
+      - 04-0525-JP
+      - 04-0526-JP
+      - 04-0527-US
+      - 04-0528-US
+      - 04-0529-US
       - 04-0530-NOWHERE
       - 04-0531-CN
       - 04-0532-CN
@@ -1256,11 +1261,6 @@ proxy-groups:
       - 05-0696-CN
       - 05-0697-CN
       - 05-0698-CN
-      - 24-3740-CN
-      - 24-3741-CN
-      - 24-3742-CN
-      - 24-3743-CN
-      - 24-3744-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1376,7 +1376,6 @@ proxy-groups:
       - 04-0671-GB
       - 04-0681-HK
       - 05-0691-RELAY
-      - 24-3741-CN
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1443,7 +1442,6 @@ proxy-groups:
       - 04-0672-GB
       - 04-0682-HK
       - 05-0692-CN
-      - 24-3742-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1508,7 +1506,6 @@ proxy-groups:
       - 04-0663-SG
       - 04-0673-GB
       - 05-0693-CN
-      - 24-3743-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1575,7 +1572,6 @@ proxy-groups:
       - 04-0674-HK
       - 04-0684-MY
       - 05-0694-CN
-      - 24-3744-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1634,6 +1630,7 @@ proxy-groups:
       - 04-0495-CN
       - 04-0505-CN
       - 04-0515-CN
+      - 04-0525-JP
       - 04-0535-CN
       - 04-0545-CN
       - 04-0555-CN
@@ -1699,6 +1696,7 @@ proxy-groups:
       - 04-0496-CN
       - 04-0506-CN
       - 04-0516-CN
+      - 04-0526-JP
       - 04-0536-CN
       - 04-0546-CN
       - 04-0556-CN
@@ -1764,6 +1762,7 @@ proxy-groups:
       - 04-0497-CN
       - 04-0507-CN
       - 04-0517-CN
+      - 04-0527-US
       - 04-0537-CN
       - 04-0547-CN
       - 04-0557-CN
@@ -1830,6 +1829,7 @@ proxy-groups:
       - 04-0498-CN
       - 04-0508-CN
       - 04-0518-CN
+      - 04-0528-US
       - 04-0538-CN
       - 04-0548-CN
       - 04-0658-DE
@@ -1895,6 +1895,7 @@ proxy-groups:
       - 04-0499-CN
       - 04-0509-CN
       - 04-0519-CN
+      - 04-0529-US
       - 04-0539-CN
       - 04-0549-CN
       - 04-0659-DE
@@ -1965,7 +1966,6 @@ proxy-groups:
       - 04-0660-SG
       - 04-0680-HK
       - 05-0690-RELAY
-      - 24-3740-CN
   - name: 广告拦截
     type: select
     proxies:
