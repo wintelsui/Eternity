@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `597`
+高速节点数量: `598`
 <details>
   <summary>展开复制节点</summary>
 
@@ -625,6 +625,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmODJhMTg2Mi1lYWZiLTQ1MmYtODY4Mi0zMWUxYWQyZTdiYjU@gy.666666222.shop:34338#24-3225-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNmUwMmE4Yy1kMTlkLTRlMzUtOTYyOC01MmJmM2ZiYzFhYjk@gstdnb.myfczy168.top:21667#24-3226-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNmUwMmE4Yy1kMTlkLTRlMzUtOTYyOC01MmJmM2ZiYzFhYjk@gstdnb.myfczy168.top:25149#24-3227-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMjQtMzIyOC1LUiIsImFkZCI6ImNjMTEyLjEyMTIzLm9yZyIsInBvcnQiOiIzMDAwMiIsInR5cGUiOiJub25lIiwiaWQiOiIxYmZhMWExMi1kNTM5LTQzMmUtYjk0OS0wNzQwNTIwZDUwYTIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJjYzExMi4xMjEyMy5vcmciLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNmUwMmE4Yy1kMTlkLTRlMzUtOTYyOC01MmJmM2ZiYzFhYjk@gstdnb.myfczy168.top:43641#24-3229-CN
     
 
