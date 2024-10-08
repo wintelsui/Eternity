@@ -647,6 +647,7 @@ proxies:
   - {name: 24-3225-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: f82a1862-eafb-452f-8682-31e1ad2e7bb5, udp: true}
   - {name: 24-3226-CN, server: gstdnb.myfczy168.top, port: 21667, type: ss, cipher: chacha20-ietf-poly1305, password: 16e02a8c-d19d-4e35-9628-52bf3fbc1ab9, udp: true}
   - {name: 24-3227-CN, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: 16e02a8c-d19d-4e35-9628-52bf3fbc1ab9, udp: true}
+  - {name: 24-3228-KR, server: cc112.12123.org, port: 30002, type: vmess, uuid: 1bfa1a12-d539-432e-b949-0740520d50a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 24-3229-CN, server: gstdnb.myfczy168.top, port: 43641, type: ss, cipher: chacha20-ietf-poly1305, password: 16e02a8c-d19d-4e35-9628-52bf3fbc1ab9, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1260,6 +1261,7 @@ proxy-groups:
       - 24-3225-CN
       - 24-3226-CN
       - 24-3227-CN
+      - 24-3228-KR
       - 24-3229-CN
   - name: 负载均衡
     type: load-balance
@@ -1836,6 +1838,7 @@ proxy-groups:
       - 04-0678-US
       - 04-0688-HK
       - 05-0698-CN
+      - 24-3228-KR
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
