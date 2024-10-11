@@ -426,6 +426,7 @@ proxies:
   - {name: 04-0377-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0378-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0379-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0380-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0381-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0382-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0383-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: 2fc72a3f-f5f8-3c48-8a7c-adbcca3b73a8, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -642,7 +643,6 @@ proxies:
   - {name: 08-0696-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 85cbac67-990b-434c-91c1-eb1d320976a6, udp: true}
   - {name: 08-0697-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 85cbac67-990b-434c-91c1-eb1d320976a6, udp: true}
   - {name: 08-0698-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 85cbac67-990b-434c-91c1-eb1d320976a6, udp: true}
-  - {name: 24-2911-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: c6bd558e-8f90-423b-b27a-bbcdf61162c3, udp: true}
   - {name: 24-2912-US, server: shs1.12123.org, port: 30004, type: vmess, uuid: 0c30add9-ce40-437d-84ef-68b3ba793a52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: shs1.12123.org}}, udp: true}
   - {name: 24-2913-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f38caa59-1664-468b-b3e3-86e9299a214a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2914-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 82261035-9fc5-42e5-a5f2-0dfe6893e9fa, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1039,6 +1039,7 @@ proxy-groups:
       - 04-0377-SG
       - 04-0378-SG
       - 04-0379-SG
+      - 04-0380-US
       - 04-0381-US
       - 04-0382-US
       - 04-0383-US
@@ -1255,7 +1256,6 @@ proxy-groups:
       - 08-0696-CN
       - 08-0697-CN
       - 08-0698-CN
-      - 24-2911-CN
       - 24-2912-US
       - 24-2913-KR
       - 24-2914-KR
@@ -1376,7 +1376,6 @@ proxy-groups:
       - 07-0671-RELAY
       - 08-0681-CN
       - 08-0691-NOWHERE
-      - 24-2911-CN
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1945,6 +1944,7 @@ proxy-groups:
       - 04-0350-CN
       - 04-0360-CN
       - 04-0370-CN
+      - 04-0380-US
       - 04-0390-HK
       - 04-0400-MY
       - 04-0410-CN
