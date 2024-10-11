@@ -575,7 +575,6 @@ proxies:
   - {name: 05-0637-CN, server: sh.51fan.xyz, port: 30128, type: ss, cipher: aes-256-gcm, password: 10f59fa8-f0a3-40f8-8631-99e2304fa314, udp: true}
   - {name: 05-0638-CN, server: sh.51fan.xyz, port: 25007, type: ss, cipher: aes-256-gcm, password: 10f59fa8-f0a3-40f8-8631-99e2304fa314, udp: true}
   - {name: 05-0639-CN, server: sh.51fan.xyz, port: 16659, type: ss, cipher: aes-256-gcm, password: 10f59fa8-f0a3-40f8-8631-99e2304fa314, udp: true}
-  - {name: 05-0642-RELAY, server: xjpv3.ftko8vzt9w.cyou, port: 2087, type: vmess, uuid: bdc37eb0-10a4-4eb9-b298-d1683f04394f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xjpv3.ftko8vzt9w.cyou}}, udp: true}
   - {name: 05-0644-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 26fc3709-ab4a-4e95-b002-48876f8cd3df, udp: true}
   - {name: 05-0645-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 26fc3709-ab4a-4e95-b002-48876f8cd3df, udp: true}
   - {name: 05-0646-CN, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: bcb1a799-701c-40be-a44d-45ed6011d289, udp: true}
@@ -631,6 +630,7 @@ proxies:
   - {name: 06-0696-CN, server: gstdnb.myfczy168.top, port: 17010, type: ss, cipher: chacha20-ietf-poly1305, password: d9cc6cc4-e59e-4770-bd91-baf86fb6c08b, udp: true}
   - {name: 06-0697-CN, server: gstdnb.myfczy168.top, port: 34013, type: ss, cipher: chacha20-ietf-poly1305, password: d9cc6cc4-e59e-4770-bd91-baf86fb6c08b, udp: true}
   - {name: 06-0698-CN, server: gstdnb.myfczy168.top, port: 26858, type: ss, cipher: chacha20-ietf-poly1305, password: d9cc6cc4-e59e-4770-bd91-baf86fb6c08b, udp: true}
+  - {name: 24-3041-KR, server: ch1.12123.org, port: 30004, type: vmess, uuid: 848015e6-e674-4be7-b5be-747774edbeb8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: ch1.12123.org}}, udp: true}
   - {name: 24-3042-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: c6bd558e-8f90-423b-b27a-bbcdf61162c3, udp: true}
   - {name: 24-3043-US, server: shsz.12123.org, port: 30000, type: vmess, uuid: 2aeb425f-672f-4f07-847b-c0db1b222e47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: shsz.12123.org}}, udp: true}
   - {name: 24-3044-CN, server: gstdnb.myfczy168.top, port: 23631, type: ss, cipher: chacha20-ietf-poly1305, password: ae698eef-0e96-4cac-b14f-ba72153f6295, udp: true}
@@ -1188,7 +1188,6 @@ proxy-groups:
       - 05-0637-CN
       - 05-0638-CN
       - 05-0639-CN
-      - 05-0642-RELAY
       - 05-0644-CN
       - 05-0645-CN
       - 05-0646-CN
@@ -1244,6 +1243,7 @@ proxy-groups:
       - 06-0696-CN
       - 06-0697-CN
       - 06-0698-CN
+      - 24-3041-KR
       - 24-3042-CN
       - 24-3043-US
       - 24-3044-CN
@@ -1374,6 +1374,7 @@ proxy-groups:
       - 05-0671-CN
       - 05-0681-CN
       - 06-0691-CN
+      - 24-3041-KR
       - 24-3051-SG
   - name: 测速2分组
     type: url-test
@@ -1434,7 +1435,6 @@ proxy-groups:
       - 04-0512-CN
       - 04-0522-CN
       - 04-0532-CN
-      - 05-0642-RELAY
       - 05-0652-NOWHERE
       - 05-0662-CN
       - 05-0672-CN
