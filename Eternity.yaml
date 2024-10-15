@@ -467,13 +467,13 @@ proxies:
   - {name: 04-0414-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 04-0415-NOWHERE, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
   - {name: 04-0416-NOWHERE, server: US-Los_Angeles-B.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-B.cfip.top}}, udp: true}
-  - {name: 04-0417-NOWHERE, server: db-link02.top, port: 8880, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.31.156, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0418-NOWHERE, server: db-link01.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.49.63, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0419-NOWHERE, server: db-link02.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.42.53, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0420-NOWHERE, server: db-link01.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.54.0, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0421-NOWHERE, server: db-link02.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.12.107, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0422-NOWHERE, server: db-link01.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.38.154, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0423-NOWHERE, server: db-link02.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.25.64, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0417-NOWHERE, server: db-link02.top, port: 443, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.201.43, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0418-RELAY, server: cn-db.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.53.205, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0419-NOWHERE, server: db-link02.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.19.175, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0420-NOWHERE, server: db-link01.top, port: 2052, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.49.191, headers: {Host: db-link01.top}}, udp: true}
+  - {name: 04-0421-RELAY, server: cn-db.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.199.180, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0422-RELAY, server: cn-db.top, port: 443, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.187.6, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0423-NOWHERE, server: db-link01.top, port: 443, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.151.19, headers: {Host: db-link01.top}}, udp: true}
   - {name: 04-0424-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9Auuvpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 143debfe-df73-4da2-b74c-3a51c5e6f70f, udp: true}
   - {name: 04-0425-CN, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 143debfe-df73-4da2-b74c-3a51c5e6f70f, udp: true}
   - {name: 04-0426-CN, server: gdcub.yunnode.win, port: 31644, type: ss, cipher: chacha20-ietf-poly1305, password: 143debfe-df73-4da2-b74c-3a51c5e6f70f, udp: true}
@@ -1082,11 +1082,11 @@ proxy-groups:
       - 04-0415-NOWHERE
       - 04-0416-NOWHERE
       - 04-0417-NOWHERE
-      - 04-0418-NOWHERE
+      - 04-0418-RELAY
       - 04-0419-NOWHERE
       - 04-0420-NOWHERE
-      - 04-0421-NOWHERE
-      - 04-0422-NOWHERE
+      - 04-0421-RELAY
+      - 04-0422-RELAY
       - 04-0423-NOWHERE
       - 04-0424-NOWHERE
       - 04-0425-CN
@@ -1360,7 +1360,7 @@ proxy-groups:
       - 04-0391-US
       - 04-0401-HK
       - 04-0411-MY
-      - 04-0421-NOWHERE
+      - 04-0421-RELAY
       - 04-0431-CN
       - 04-0441-CN
       - 04-0451-CN
@@ -1426,7 +1426,7 @@ proxy-groups:
       - 04-0392-US
       - 04-0402-HK
       - 04-0412-MY
-      - 04-0422-NOWHERE
+      - 04-0422-RELAY
       - 04-0432-CN
       - 04-0442-CN
       - 04-0452-CN
@@ -1820,7 +1820,7 @@ proxy-groups:
       - 04-0388-SG
       - 04-0398-GB
       - 04-0408-HK
-      - 04-0418-NOWHERE
+      - 04-0418-RELAY
       - 04-0428-CN
       - 04-0438-CN
       - 04-0448-CN
