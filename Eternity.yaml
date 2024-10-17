@@ -432,7 +432,7 @@ proxies:
   - {name: 04-0384-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0385-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0386-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0387-US, server: 61.220.126.180, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0387-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 52b6428b-cc53-4325-a696-1b3c75e1ae14, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0388-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0389-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0390-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: d3267bca-51df-38ca-ba55-41d76e8e37f7, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -596,6 +596,7 @@ proxies:
   - {name: 06-0648-RELAY, server: rbv3.mkgt99z.club, port: 2083, type: vmess, uuid: 0f404ca2-fe02-44ca-b3da-e3e9c7685de0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rbv3.mkgt99z.club}}, udp: true}
   - {name: 06-0649-CN, server: gstdnb.myfczy168.top, port: 21667, type: ss, cipher: chacha20-ietf-poly1305, password: 1d523c4f-66d3-4ebc-97ca-88f95e9e7080, udp: true}
   - {name: 06-0650-CN, server: gstdnb.myfczy168.top, port: 11599, type: ss, cipher: chacha20-ietf-poly1305, password: 1d523c4f-66d3-4ebc-97ca-88f95e9e7080, udp: true}
+  - {name: 07-0652-TW, server: 61.220.126.180, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2, skip-cert-verify: true, udp: true}
   - {name: 07-0653-CN, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 29774f68-6f8c-492d-9ada-5cfd4313d218, udp: true}
   - {name: 08-0655-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: c7dee07c-fd51-461a-9b35-0066d91f335f, udp: true}
   - {name: 08-0656-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: c7dee07c-fd51-461a-9b35-0066d91f335f, udp: true}
@@ -646,7 +647,6 @@ proxies:
   - {name: 24-2456-CN, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: bf539044-c1b9-41ae-81b6-e45d6dcccf28, udp: true}
   - {name: 24-2457-CN, server: gstdnb.myfczy168.top, port: 14407, type: ss, cipher: chacha20-ietf-poly1305, password: 388bf5a7-fada-4094-b395-f87a75227b3f, udp: true}
   - {name: 24-2458-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c966e07d-ad5f-474b-b188-3f403d85b7bd, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2459-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 52b6428b-cc53-4325-a696-1b3c75e1ae14, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2460-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: aad93623-4ed7-4c8c-a2f4-1e805afe8ace, udp: true}
   - {name: 24-2461-CN, server: 117.176.203.229, port: 25385, type: ss, cipher: chacha20-ietf-poly1305, password: 91ab1753-a214-4a4e-90d7-f6d808ce8125, udp: true}
   - {name: 24-2462-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 419927c9-49c9-4732-a4a4-220e3d1afdad, udp: true}
@@ -1211,6 +1211,7 @@ proxy-groups:
       - 06-0648-RELAY
       - 06-0649-CN
       - 06-0650-CN
+      - 07-0652-TW
       - 07-0653-CN
       - 08-0655-CN
       - 08-0656-CN
@@ -1261,7 +1262,6 @@ proxy-groups:
       - 24-2456-CN
       - 24-2457-CN
       - 24-2458-KR
-      - 24-2459-KR
       - 24-2460-CN
       - 24-2461-CN
       - 24-2462-CN
@@ -1439,6 +1439,7 @@ proxy-groups:
       - 06-0622-CN
       - 06-0632-CN
       - 06-0642-CN
+      - 07-0652-TW
       - 08-0662-RELAY
       - 08-0672-CN
       - 08-0682-CN
@@ -1907,7 +1908,6 @@ proxy-groups:
       - 08-0669-CN
       - 08-0679-CN
       - 08-0689-CN
-      - 24-2459-KR
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
