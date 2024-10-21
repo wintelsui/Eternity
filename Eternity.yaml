@@ -289,12 +289,12 @@ proxies:
   - {name: 04-0235-CN, server: 4c52.ens3.buzz, port: 31683, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
   - {name: 04-0236-CN, server: gdcub.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
   - {name: 04-0237-CN, server: gdcub.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
-  - {name: 04-0243-NOWHERE, server: db-link01.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.204.7, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0244-NOWHERE, server: db-link02.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.8.56, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0245-NOWHERE, server: db-link02.top, port: 2052, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.110.36, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0246-NOWHERE, server: db-link02.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.239.63, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0247-RELAY, server: cn-db.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.16.34, headers: {Host: cn-db.top}}, udp: true}
-  - {name: 04-0248-NOWHERE, server: db-link02.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.97.11, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0243-NOWHERE, server: db-link01.top, port: 2082, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.74.16, headers: {Host: db-link01.top}}, udp: true}
+  - {name: 04-0244-RELAY, server: cn-db.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.117.60, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0245-RELAY, server: cn-db.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.208.129, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0246-NOWHERE, server: db-link02.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.212.66, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0247-NOWHERE, server: db-link02.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.112.242, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0248-NOWHERE, server: db-link01.top, port: 8880, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.14.173, headers: {Host: db-link01.top}}, udp: true}
   - {name: 04-0249-CN, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
   - {name: 04-0250-CN, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
   - {name: 04-0251-CN, server: gdcub.yunnode.win, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
@@ -904,10 +904,10 @@ proxy-groups:
       - 04-0236-CN
       - 04-0237-CN
       - 04-0243-NOWHERE
-      - 04-0244-NOWHERE
-      - 04-0245-NOWHERE
+      - 04-0244-RELAY
+      - 04-0245-RELAY
       - 04-0246-NOWHERE
-      - 04-0247-RELAY
+      - 04-0247-NOWHERE
       - 04-0248-NOWHERE
       - 04-0249-CN
       - 04-0250-CN
@@ -1540,7 +1540,7 @@ proxy-groups:
       - 03-0214-KR
       - 04-0224-CN
       - 04-0234-CN
-      - 04-0244-NOWHERE
+      - 04-0244-RELAY
       - 04-0254-CN
       - 04-0264-CN
       - 04-0274-CN
@@ -1606,7 +1606,7 @@ proxy-groups:
       - 03-0215-KR
       - 04-0225-CN
       - 04-0235-CN
-      - 04-0245-NOWHERE
+      - 04-0245-RELAY
       - 04-0255-CN
       - 04-0265-CN
       - 04-0275-CN
@@ -1738,7 +1738,7 @@ proxy-groups:
       - 03-0217-KR
       - 04-0227-CN
       - 04-0237-CN
-      - 04-0247-RELAY
+      - 04-0247-NOWHERE
       - 04-0257-CN
       - 04-0267-CN
       - 04-0277-DE
