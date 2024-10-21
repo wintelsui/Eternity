@@ -289,12 +289,12 @@ proxies:
   - {name: 04-0235-CN, server: 4c52.ens3.buzz, port: 31683, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
   - {name: 04-0236-CN, server: gdcub.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
   - {name: 04-0237-CN, server: gdcub.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 542358f5-6513-45c4-964c-b0a873c513af, udp: true}
-  - {name: 04-0243-NOWHERE, server: db-link01.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.120.61, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0244-NOWHERE, server: db-link01.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.209.214, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0245-NOWHERE, server: db-link02.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.117.60, headers: {Host: db-link02.top}}, udp: true}
-  - {name: 04-0246-RELAY, server: cn-db.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.182.153, headers: {Host: cn-db.top}}, udp: true}
-  - {name: 04-0247-NOWHERE, server: db-link01.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.12.89, headers: {Host: db-link01.top}}, udp: true}
-  - {name: 04-0248-RELAY, server: cn-db.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.43.166, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0243-NOWHERE, server: db-link01.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.204.7, headers: {Host: db-link01.top}}, udp: true}
+  - {name: 04-0244-NOWHERE, server: db-link02.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.8.56, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0245-NOWHERE, server: db-link02.top, port: 2052, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.110.36, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0246-NOWHERE, server: db-link02.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.239.63, headers: {Host: db-link02.top}}, udp: true}
+  - {name: 04-0247-RELAY, server: cn-db.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.16.34, headers: {Host: cn-db.top}}, udp: true}
+  - {name: 04-0248-NOWHERE, server: db-link02.top, port: 2053, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.97.11, headers: {Host: db-link02.top}}, udp: true}
   - {name: 04-0249-CN, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
   - {name: 04-0250-CN, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
   - {name: 04-0251-CN, server: gdcub.yunnode.win, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: 12459f06-1beb-4b6a-8480-26849f23e135, udp: true}
@@ -645,10 +645,10 @@ proxies:
   - {name: 12-0696-CN, server: gstdnb.myfczy168.top, port: 17010, type: ss, cipher: chacha20-ietf-poly1305, password: 452cabe0-d5be-4f64-8404-3fa91a848968, udp: true}
   - {name: 12-0697-CN, server: gstdnb.myfczy168.top, port: 14232, type: ss, cipher: chacha20-ietf-poly1305, password: 452cabe0-d5be-4f64-8404-3fa91a848968, udp: true}
   - {name: 12-0698-CN, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: 452cabe0-d5be-4f64-8404-3fa91a848968, udp: true}
-  - {name: 24-2458-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 1eb2f796-77f1-4848-916a-8e0afa58cc8d, udp: true}
-  - {name: 24-2460-AE, server: dubai0.oraclenat.cc, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: bb915f28-5ef1-41ef-b180-d6a23c6babac, udp: true}
-  - {name: 24-2461-CN, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: 72e3b05d-67e6-4763-a877-9c5f4a8d4217, udp: true}
-  - {name: 24-2462-CN, server: js.wcrcz.com, port: 40337, type: ss, cipher: chacha20-ietf-poly1305, password: 0cfbd6af-677f-454b-aa81-af9b5779036d, udp: true}
+  - {name: 24-2478-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 1eb2f796-77f1-4848-916a-8e0afa58cc8d, udp: true}
+  - {name: 24-2480-AE, server: dubai0.oraclenat.cc, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: bb915f28-5ef1-41ef-b180-d6a23c6babac, udp: true}
+  - {name: 24-2481-CN, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: 72e3b05d-67e6-4763-a877-9c5f4a8d4217, udp: true}
+  - {name: 24-2482-CN, server: js.wcrcz.com, port: 40337, type: ss, cipher: chacha20-ietf-poly1305, password: 0cfbd6af-677f-454b-aa81-af9b5779036d, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -906,9 +906,9 @@ proxy-groups:
       - 04-0243-NOWHERE
       - 04-0244-NOWHERE
       - 04-0245-NOWHERE
-      - 04-0246-RELAY
-      - 04-0247-NOWHERE
-      - 04-0248-RELAY
+      - 04-0246-NOWHERE
+      - 04-0247-RELAY
+      - 04-0248-NOWHERE
       - 04-0249-CN
       - 04-0250-CN
       - 04-0251-CN
@@ -1259,10 +1259,10 @@ proxy-groups:
       - 12-0696-CN
       - 12-0697-CN
       - 12-0698-CN
-      - 24-2458-CN
-      - 24-2460-AE
-      - 24-2461-CN
-      - 24-2462-CN
+      - 24-2478-CN
+      - 24-2480-AE
+      - 24-2481-CN
+      - 24-2482-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1377,7 +1377,7 @@ proxy-groups:
       - 11-0671-CN
       - 11-0681-CN
       - 11-0691-US
-      - 24-2461-CN
+      - 24-2481-CN
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1443,7 +1443,7 @@ proxy-groups:
       - 11-0672-CN
       - 11-0682-CN
       - 11-0692-CN
-      - 24-2462-CN
+      - 24-2482-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1672,7 +1672,7 @@ proxy-groups:
       - 03-0216-KR
       - 04-0226-CN
       - 04-0236-CN
-      - 04-0246-RELAY
+      - 04-0246-NOWHERE
       - 04-0256-CN
       - 04-0266-CN
       - 04-0276-DE
@@ -1738,7 +1738,7 @@ proxy-groups:
       - 03-0217-KR
       - 04-0227-CN
       - 04-0237-CN
-      - 04-0247-NOWHERE
+      - 04-0247-RELAY
       - 04-0257-CN
       - 04-0267-CN
       - 04-0277-DE
@@ -1803,7 +1803,7 @@ proxy-groups:
       - 03-0208-KR
       - 03-0218-KR
       - 04-0228-CN
-      - 04-0248-RELAY
+      - 04-0248-NOWHERE
       - 04-0258-CN
       - 04-0268-CN
       - 04-0278-DE
@@ -1839,7 +1839,7 @@ proxy-groups:
       - 11-0678-CN
       - 11-0688-CN
       - 12-0698-CN
-      - 24-2458-CN
+      - 24-2478-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1968,7 +1968,7 @@ proxy-groups:
       - 11-0670-CN
       - 11-0680-CN
       - 11-0690-US
-      - 24-2460-AE
+      - 24-2480-AE
   - name: 广告拦截
     type: select
     proxies:
