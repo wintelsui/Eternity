@@ -645,10 +645,10 @@ proxies:
   - {name: 06-0696-CN, server: 36.150.27.84, port: 22022, type: ss, cipher: aes-256-gcm, password: 250eca46-1725-4d0d-aaf0-4e4ec8ba8ec5, udp: true}
   - {name: 06-0697-CN, server: 223.111.134.99, port: 22008, type: ss, cipher: chacha20-ietf-poly1305, password: 250eca46-1725-4d0d-aaf0-4e4ec8ba8ec5, udp: true}
   - {name: 06-0698-AE, server: dubai0.oraclenat.cc, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 71fd917b-6672-42ba-98fb-e847957d8434, udp: true}
-  - {name: 24-3660-CN, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: 048dab5c-1eb8-4851-baaa-4fd6e9499035, udp: true}
-  - {name: 24-3661-CN, server: gstdnb.myfczy168.top, port: 14407, type: ss, cipher: chacha20-ietf-poly1305, password: 4c606f53-c3f0-4d40-9a54-6f416cbed08a, udp: true}
-  - {name: 24-3662-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 392943fa-0ba8-433c-974f-bdc1fde23af9, udp: true}
-  - {name: 24-3664-CH, server: xr005.louwangzhiyu.xyz, port: 30000, type: vmess, uuid: 61733ed2-abf7-4e1c-8a4d-cef88a3ec785, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: xr005.louwangzhiyu.xyz}}, udp: true}
+  - {name: 24-3697-CN, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: 048dab5c-1eb8-4851-baaa-4fd6e9499035, udp: true}
+  - {name: 24-3698-CN, server: gstdnb.myfczy168.top, port: 14407, type: ss, cipher: chacha20-ietf-poly1305, password: 4c606f53-c3f0-4d40-9a54-6f416cbed08a, udp: true}
+  - {name: 24-3699-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 392943fa-0ba8-433c-974f-bdc1fde23af9, udp: true}
+  - {name: 24-3701-CH, server: xr005.louwangzhiyu.xyz, port: 30000, type: vmess, uuid: 61733ed2-abf7-4e1c-8a4d-cef88a3ec785, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: xr005.louwangzhiyu.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1259,10 +1259,10 @@ proxy-groups:
       - 06-0696-CN
       - 06-0697-CN
       - 06-0698-AE
-      - 24-3660-CN
-      - 24-3661-CN
-      - 24-3662-CN
-      - 24-3664-CH
+      - 24-3697-CN
+      - 24-3698-CN
+      - 24-3699-CN
+      - 24-3701-CH
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1378,7 +1378,7 @@ proxy-groups:
       - 06-0671-RU
       - 06-0681-CN
       - 06-0691-CN
-      - 24-3661-CN
+      - 24-3701-CH
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1445,7 +1445,6 @@ proxy-groups:
       - 06-0672-CN
       - 06-0682-CN
       - 06-0692-CN
-      - 24-3662-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1579,7 +1578,6 @@ proxy-groups:
       - 06-0674-CN
       - 06-0684-CN
       - 06-0694-CH
-      - 24-3664-CH
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1775,6 +1773,7 @@ proxy-groups:
       - 06-0677-CN
       - 06-0687-CN
       - 06-0697-CN
+      - 24-3697-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1840,6 +1839,7 @@ proxy-groups:
       - 06-0678-CN
       - 06-0688-CN
       - 06-0698-AE
+      - 24-3698-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1905,6 +1905,7 @@ proxy-groups:
       - 06-0669-GI
       - 06-0679-CN
       - 06-0689-CN
+      - 24-3699-CN
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1970,7 +1971,6 @@ proxy-groups:
       - 06-0670-CN
       - 06-0680-CN
       - 06-0690-CN
-      - 24-3660-CN
   - name: 广告拦截
     type: select
     proxies:
