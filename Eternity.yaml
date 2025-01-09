@@ -54,6 +54,7 @@ sniffer:
 proxies:
   - {name: 02-0001-CN, server: gw.liangyuandianwan.com, port: 35507, type: ss, cipher: chacha20-ietf-poly1305, password: c4843eba-b070-403f-b43f-ef1ef7db571e, udp: true}
   - {name: 02-0002-CN, server: gw.liangyuandianwan.com, port: 35504, type: ss, cipher: chacha20-ietf-poly1305, password: c4843eba-b070-403f-b43f-ef1ef7db571e, udp: true}
+  - {name: 02-0003-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 02-0004-FR, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 02-0006-HK, server: 43.199.156.113, port: 47489, type: trojan, password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0011-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d8e8ae54-e99b-424f-afbe-cecefa2a540b, udp: true}
@@ -319,8 +320,8 @@ proxies:
   - {name: 06-0376-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e5c4600d-f723-4f25-ac82-026cdf9ae20d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 07-0377-HK, server: 18.162.120.232, port: 47489, type: trojan, password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-0379-US, server: 192.74.236.156, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736329715306}, udp: true}
-  - {name: 07-0380-US, server: 54.200.223.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 07-0381-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN, server: 34.219.80.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0380-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN, server: 54.200.223.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0382-US, server: 54.244.200.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-0384-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 883247ef-2d6c-4c85-a181-f1217389df98, udp: true}
   - {name: 08-0385-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 883247ef-2d6c-4c85-a181-f1217389df98, udp: true}
   - {name: 08-0386-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 8b6a7ab5-f598-4063-91b9-7118c9a60375, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
@@ -635,7 +636,6 @@ proxies:
   - {name: 15-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cd1e76b9-cc2c-4e30-b6e9-2fae39d90e0e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0697-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 96a1f8b6-e64f-48d5-8cba-0d1acbe88b5b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e02c76e5-c029-4afd-9f27-f7b7a2010705, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-1753-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 7302617a-2900-4496-986b-9604f1de2fb7, udp: true}
   - {name: 24-1754-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 2abe9c88-9183-4fe7-8044-c6bcaa428cf0, udp: true}
   - {name: 24-1755-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 7302617a-2900-4496-986b-9604f1de2fb7, udp: true}
   - {name: 24-1756-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 073b8d22-44ca-40c9-afc4-bcc0be40c0ae, udp: true}
@@ -668,6 +668,7 @@ proxy-groups:
       - 测速10分组
       - 02-0001-CN
       - 02-0002-CN
+      - 02-0003-FR
       - 02-0004-FR
       - 02-0006-HK
       - 03-0011-CN
@@ -933,8 +934,8 @@ proxy-groups:
       - 06-0376-KR
       - 07-0377-HK
       - 07-0379-US
-      - 07-0380-US
-      - 07-0381-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN
+      - 07-0380-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN
+      - 07-0382-US
       - 08-0384-CN
       - 08-0385-CN
       - 08-0386-RELAY
@@ -1249,7 +1250,6 @@ proxy-groups:
       - 15-0696-KR
       - 15-0697-KR
       - 15-0698-KR
-      - 24-1753-CN
       - 24-1754-CN
       - 24-1755-CN
       - 24-1756-CN
@@ -1345,7 +1345,6 @@ proxy-groups:
       - 06-0351-CN
       - 06-0361-CN
       - 06-0371-CN
-      - 07-0381-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN
       - 08-0391-CN
       - 08-0401-CN
       - 10-0411-CN
@@ -1411,6 +1410,7 @@ proxy-groups:
       - 06-0352-RELAY
       - 06-0362-RELAY
       - 06-0372-RELAY
+      - 07-0382-US
       - 08-0392-CN
       - 10-0402-KR
       - 10-0412-CN
@@ -1449,6 +1449,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0003-FR
       - 03-0013-CN
       - 03-0023-KR
       - 03-0033-CN
@@ -1505,7 +1506,6 @@ proxy-groups:
       - 15-0673-KR
       - 15-0683-KR
       - 15-0693-RELAY
-      - 24-1753-CN
       - 24-1763-CN
   - name: 测速4分组
     type: url-test
@@ -1937,8 +1937,7 @@ proxy-groups:
       - 06-0350-SG
       - 06-0360-CN
       - 06-0370-CN
-      - 07-0380-US
-      - 07-0381-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN
+      - 07-0380-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com35501#02-0000-CN
       - 08-0390-CN
       - 08-0400-CN
       - 10-0410-CN
