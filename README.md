@@ -32,6 +32,7 @@ Fork from TopFreeProxies.
 
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com:35507#02-0001-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU@gw.liangyuandianwan.com:35504#02-0002-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwMy1GUiIsImFkZCI6ImlydmlkZW8uY2ZkIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJlNTM3ZjJmNS0yYTBjLTRmNTktOTJjOS04MzJjYTY0MzNiZjMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsImhvc3QiOiJpcnZpZGVvLmNmZCIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwNC1GUiIsImFkZCI6IjE2My41LjE1OS4yMzEiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU1MzdmMmY1LTJhMGMtNGY1OS05MmM5LTgzMmNhNjQzM2JmMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6IiIsInRscyI6InRscyJ9
     trojan://3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb@43.199.156.113:47489?allowInsecure=1&sni=hk12.bilibili.com#02-0006-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOGU4YWU1NC1lOTliLTQyNGYtYWZiZS1jZWNlZmEyYTU0MGI@gy.666666222.shop:20004#03-0011-CN
@@ -297,8 +298,8 @@ Fork from TopFreeProxies.
     trojan://e5c4600d-f723-4f25-ac82-026cdf9ae20d@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#06-0376-KR
     trojan://3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb@18.162.120.232:47489?allowInsecure=1&sni=hk12.bilibili.com#07-0377-HK
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMDM3OS1VUyIsImFkZCI6IjE5Mi43NC4yMzYuMTU2IiwicG9ydCI6IjMwMDA0IiwidHlwZSI6Im5vbmUiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTczNjMyOTcxNTMwNiIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
-    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.200.223.152:443#07-0380-US
-    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.219.80.203:443#07-0381-USss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU%40gw.liangyuandianwan.com35501%2302-0000-CN
+    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.200.223.152:443#07-0380-USss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDg0M2ViYS1iMDcwLTQwM2YtYjQzZi1lZjFlZjdkYjU3MWU%40gw.liangyuandianwan.com35501%2302-0000-CN
+    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.244.200.142:443#07-0382-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ODMyNDdlZi0yZDZjLTRjODUtYTE4MS1mMTIxNzM4OWRmOTg@gy.666666222.shop:20032#08-0384-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ODMyNDdlZi0yZDZjLTRjODUtYTE4MS1mMTIxNzM4OWRmOTg@gy.666666222.shop:47564#08-0385-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMDM4Ni1SRUxBWSIsImFkZCI6ImNmLmh5Mi5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiOGI2YTdhYjUtZjU5OC00MDYzLTkxYjktNzExOGM5YTYwMzc1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZjMyM2QiLCJob3N0IjoiY2YuaHkyLm9uZSIsInRscyI6IiJ9
@@ -613,7 +614,6 @@ Fork from TopFreeProxies.
     trojan://cd1e76b9-cc2c-4e30-b6e9-2fae39d90e0e@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#15-0696-KR
     trojan://96a1f8b6-e64f-48d5-8cba-0d1acbe88b5b@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#15-0697-KR
     trojan://e02c76e5-c029-4afd-9f27-f7b7a2010705@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#15-0698-KR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MzAyNjE3YS0yOTAwLTQ0OTYtOTg2Yi05NjA0ZjFkZTJmYjc@gy.666666222.shop:34338#24-1753-CN
     ss://YWVzLTI1Ni1nY206MmFiZTljODgtOTE4My00ZmU3LTgwNDQtYzZiY2FhNDI4Y2Yw@jehw72eh.97kb.com:49709#24-1754-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MzAyNjE3YS0yOTAwLTQ0OTYtOTg2Yi05NjA0ZjFkZTJmYjc@gy.666666222.shop:20002#24-1755-CN
     ss://YWVzLTI1Ni1nY206MDczYjhkMjItNDRjYS00MGM5LWFmYzQtYmNjMGJlNDBjMGFl@jehw72eh.97kb.com:49709#24-1756-CN
@@ -633,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1771`
+合并节点总数: `2232`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1771`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2232`
 
 
 ## 仓库声明
