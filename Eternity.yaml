@@ -363,6 +363,7 @@ proxies:
   - {name: 08-0420-CN, server: zz.9800x3d.xyz, port: 41000, type: ss, cipher: chacha20-ietf-poly1305, password: c88ad5d4-29d6-40d0-ac8d-f57983188046, udp: true}
   - {name: 08-0421-CN, server: zz.9800x3d.xyz, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: c88ad5d4-29d6-40d0-ac8d-f57983188046, udp: true}
   - {name: 08-0422-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 84ac3035-c7ca-4d17-8b59-b9f7aa1a0637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
+  - {name: 08-0424-RELAY, server: ucathk.kxxd.site, port: 2082, type: vmess, uuid: c2bea8c3-3b9b-4850-bd9c-4fcfd297d40c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: ucathk.kxxd.site}}, udp: true}
   - {name: 08-0425-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7698dbb1-be86-44ed-bd18-12c81dadf5b0, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 08-0426-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 0da4d34b-701a-4d71-889e-575f7e4dab12, udp: true}
   - {name: 08-0427-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 0da4d34b-701a-4d71-889e-575f7e4dab12, udp: true}
@@ -633,7 +634,6 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e86e39fe-cb08-49f6-adf9-988d106ad4e8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3b8137-3591-454e-849b-af8a95200b4f, udp: true}
   - {name: 14-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a16a459-a218-4faa-962e-69fb684e33f6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2427-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: b3cd1cb4-a9e6-4abe-a1ab-c15445e8df35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 24-2428-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 1890570d-f5bf-4748-aef2-a719bd0b4b84, udp: true}
   - {name: 24-2429-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d3712915-c7cd-4774-89ba-1590050865c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2431-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dbbabadd-12e0-46a6-95b6-c6297f78ac83, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -976,6 +976,7 @@ proxy-groups:
       - 08-0420-CN
       - 08-0421-CN
       - 08-0422-RELAY
+      - 08-0424-RELAY
       - 08-0425-KR
       - 08-0426-CN
       - 08-0427-CN
@@ -1246,7 +1247,6 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-CN
       - 14-0698-KR
-      - 24-2427-RELAY
       - 24-2428-CN
       - 24-2429-KR
       - 24-2431-KR
@@ -1545,6 +1545,7 @@ proxy-groups:
       - 07-0394-US
       - 08-0404-RELAY
       - 08-0414-CN
+      - 08-0424-RELAY
       - 08-0434-CN
       - 09-0444-CN
       - 09-0454-CN
@@ -1772,7 +1773,6 @@ proxy-groups:
       - 14-0677-KR
       - 14-0687-CN
       - 14-0697-CN
-      - 24-2427-RELAY
       - 24-2437-CN
   - name: 测速8分组
     type: url-test
