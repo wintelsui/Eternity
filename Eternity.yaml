@@ -159,7 +159,7 @@ proxies:
   - {name: 07-212-CN, server: 219.135.231.205, port: 40037, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 07-213-CN, server: 120.232.217.96, port: 21148, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: true, udp: true}
   - {name: 07-214-CN, server: 120.232.217.96, port: 21332, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, sni: 120.232.217.96, skip-cert-verify: true, udp: true}
-  - {name: 07-215-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 927155e1-65de-455f-90b3-82e5650e88c3, sni: rnus.goudan.world, skip-cert-verify: true, udp: true}
+  - {name: 07-215-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2c9b5b3d-db70-434f-a058-a19f03bfe92d, sni: rnus.goudan.world, skip-cert-verify: true, udp: true}
   - {name: 07-216-CN, server: 120.232.217.96, port: 20820, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: true, udp: true}
   - {name: 07-218-CN, server: 120.232.217.96, port: 21017, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, skip-cert-verify: true, udp: true}
   - {name: 08-219-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 3a02c6f4-396d-41dc-be45-8fc9e833832b, udp: true}
@@ -399,7 +399,6 @@ proxies:
   - {name: 16-454-RELAY, server: visa.com, port: 443, type: vmess, uuid: e2961ed3-35fa-4964-8d31-214c10146580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-455-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: c4523a1a-6a8a-473c-abff-228e02407e48, udp: true}
   - {name: 16-456-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: 657d9bc1-e4e6-4eb6-8548-f70a77919562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
-  - {name: 16-457-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 8ff39680-c5e5-43a6-9e46-08729bbb0b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-458-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: a2455c00-14aa-4c1e-8348-e77024f29f07, udp: true}
   - {name: 16-459-US, server: 666.com, port: 777, type: ss, cipher: chacha20-ietf-poly1305, password: 8a4af89a-7533-4fb2-845d-8cd851a34bb0, udp: true}
   - {name: 16-460-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 8a7ee54c-f03d-470e-9f55-7e5aabcd61cc, udp: true}
@@ -628,6 +627,7 @@ proxies:
   - {name: 17-690-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: fe397ea7-753f-4577-9d16-727be9186f96, udp: true}
   - {name: 17-691-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 6b04fe90-67b3-4510-aa47-71e0503f652e, udp: true}
   - {name: 17-692-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: 185a7069-8816-4dc8-9687-c8f4d49b3b82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
+  - {name: 17-693-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 927155e1-65de-455f-90b3-82e5650e88c3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-694-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 6b04fe90-67b3-4510-aa47-71e0503f652e, udp: true}
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 62e6e0c3-3335-4ef0-9170-4aa38c288158, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 62e6e0c3-3335-4ef0-9170-4aa38c288158, udp: true}
@@ -1013,7 +1013,6 @@ proxy-groups:
       - 16-454-RELAY
       - 16-455-CN
       - 16-456-AU
-      - 16-457-SG
       - 16-458-CN
       - 16-459-US
       - 16-460-CN
@@ -1242,6 +1241,7 @@ proxy-groups:
       - 17-690-CN
       - 17-691-CN
       - 17-692-AU
+      - 17-693-KR
       - 17-694-CN
       - 17-696-CN
       - 17-697-CN
@@ -1511,6 +1511,7 @@ proxy-groups:
       - 17-663-CN
       - 17-673-RELAY
       - 17-683-KR
+      - 17-693-KR
       - 18-883-RELAY
   - name: 测速4分组
     type: url-test
@@ -1747,7 +1748,6 @@ proxy-groups:
       - 16-427-CN
       - 16-437-CN
       - 16-447-SG
-      - 16-457-SG
       - 16-467-CN
       - 16-477-CN
       - 16-487-CN
