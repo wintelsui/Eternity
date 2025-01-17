@@ -74,7 +74,6 @@ proxies:
   - {name: 04-022-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 851160cf-c210-3767-aa37-dbbb7e2f314e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-023-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 851160cf-c210-3767-aa37-dbbb7e2f314e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-024-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 851160cf-c210-3767-aa37-dbbb7e2f314e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 04-027-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1f16d244-0ef2-4b1e-84c4-96034b2d0dc4, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-030-CN, server: gyl.58n.net, port: 20309, type: trojan, password: a8e75dec-6b84-305c-9e92-f32e1ae435f2, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-031-CN, server: gy.58n.net, port: 20301, type: trojan, password: a8e75dec-6b84-305c-9e92-f32e1ae435f2, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-032-CN, server: gy.58n.net, port: 43337, type: trojan, password: a8e75dec-6b84-305c-9e92-f32e1ae435f2, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -639,8 +638,8 @@ proxies:
   - {name: 17-696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0cde5676-d6aa-4d98-9383-70134778be0e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 9533abad-f868-4421-b292-b76cac67df19, udp: true}
   - {name: 17-698-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9533abad-f868-4421-b292-b76cac67df19, udp: true}
-  - {name: 18-783-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indiavideo.sbs}}, udp: true}
-  - {name: 18-785-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
+  - {name: 17-699-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1f16d244-0ef2-4b1e-84c4-96034b2d0dc4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 18-784-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-786-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-787-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-788-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -688,7 +687,6 @@ proxy-groups:
       - 04-022-CN
       - 04-023-CN
       - 04-024-CN
-      - 04-027-US
       - 04-030-CN
       - 04-031-CN
       - 04-032-CN
@@ -1253,8 +1251,8 @@ proxy-groups:
       - 17-696-KR
       - 17-697-CN
       - 17-698-CN
-      - 18-783-FR
-      - 18-785-FR
+      - 17-699-KR
+      - 18-784-RELAY
       - 18-786-RELAY
       - 18-787-BR
       - 18-788-RELAY
@@ -1508,7 +1506,6 @@ proxy-groups:
       - 17-673-KR
       - 17-683-KR
       - 17-693-CN
-      - 18-783-FR
       - 18-793-RELAY
   - name: 测速4分组
     type: url-test
@@ -1576,6 +1573,7 @@ proxy-groups:
       - 17-674-CN
       - 17-684-KR
       - 17-694-CN
+      - 18-784-RELAY
       - 18-794-RELAY
   - name: 测速5分组
     type: url-test
@@ -1641,7 +1639,6 @@ proxy-groups:
       - 17-675-KR
       - 17-685-KR
       - 17-695-KR
-      - 18-785-FR
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1715,7 +1712,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-017-CN
-      - 04-027-US
       - 04-037-CN
       - 04-047-CN
       - 04-057-CN
@@ -1903,6 +1899,7 @@ proxy-groups:
       - 17-669-KR
       - 17-679-KR
       - 17-689-KR
+      - 17-699-KR
       - 18-789-US
   - name: 测速10分组
     type: url-test
