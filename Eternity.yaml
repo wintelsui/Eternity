@@ -67,6 +67,7 @@ proxies:
   - {name: 04-013-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-014-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-015-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
+  - {name: 04-018-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 946d251c-f16d-4202-8075-dc24fca82676, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-021-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 7c1216a9-2d39-3826-9af9-5e4134661cd0, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-022-CN, server: gy.58n.net, port: 20301, type: trojan, password: 7c1216a9-2d39-3826-9af9-5e4134661cd0, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-023-CN, server: gy.58n.net, port: 43337, type: trojan, password: 7c1216a9-2d39-3826-9af9-5e4134661cd0, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -138,7 +139,7 @@ proxies:
   - {name: 07-189-CN, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 07-190-JP, server: t2.emovpn.buzz, port: 4534, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-191-JP, server: 206.190.234.176, port: 443, type: vmess, uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/vmess_jpcf}, udp: true}
-  - {name: 07-192-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 946d251c-f16d-4202-8075-dc24fca82676, sni: www.python.org, skip-cert-verify: true, udp: true}
+  - {name: 07-192-US, server: t37.emoyes.top, port: 657, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.python.org, skip-cert-verify: true, udp: true}
   - {name: 07-193-CN, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 07-194-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-195-RELAY, server: s2.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.31.68, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -640,8 +641,7 @@ proxies:
   - {name: 17-695-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 32baaf5b-a786-42e5-aa96-1d90fd6dd025, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 2cc1d1ee-6e85-4bb1-9663-d573e45d0c4e, udp: true}
   - {name: 17-698-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 32baaf5b-a786-42e5-aa96-1d90fd6dd025, udp: true}
-  - {name: 18-712-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
-  - {name: 18-715-RELAY, server: 104.21.81.115, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-713-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-716-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-717-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
   - {name: 18-718-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -681,6 +681,7 @@ proxy-groups:
       - 04-013-CN
       - 04-014-CN
       - 04-015-CN
+      - 04-018-US
       - 04-021-CN
       - 04-022-CN
       - 04-023-CN
@@ -1254,8 +1255,7 @@ proxy-groups:
       - 17-695-CN
       - 17-697-CN
       - 17-698-CN
-      - 18-712-BR
-      - 18-715-RELAY
+      - 18-713-BR
       - 18-716-RELAY
       - 18-717-RELAY
       - 18-718-RELAY
@@ -1443,7 +1443,6 @@ proxy-groups:
       - 17-672-KR
       - 17-682-RELAY
       - 17-692-KR
-      - 18-712-BR
       - 18-722-RELAY
   - name: 测速3分组
     type: url-test
@@ -1511,6 +1510,7 @@ proxy-groups:
       - 17-673-KR
       - 17-683-AU
       - 17-693-KR
+      - 18-713-BR
       - 18-723-RELAY
   - name: 测速4分组
     type: url-test
@@ -1642,7 +1642,6 @@ proxy-groups:
       - 17-675-CN
       - 17-685-KR
       - 17-695-CN
-      - 18-715-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1781,6 +1780,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-008-CN
+      - 04-018-US
       - 04-028-CN
       - 04-038-CN
       - 04-048-CN
