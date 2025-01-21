@@ -535,6 +535,7 @@ proxies:
   - {name: 17-590-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d9857b78-2de7-4843-882b-aab842ff44a6, udp: true}
   - {name: 17-591-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 2cc1d1ee-6e85-4bb1-9663-d573e45d0c4e, udp: true}
   - {name: 17-592-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f8b1a85b-b18a-45e3-9e59-a43c4dfe476b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-593-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 4b10bda9-fc47-4f2e-94fb-e3c6d9527f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-594-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 927155e1-65de-455f-90b3-82e5650e88c3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-595-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b5c66fc3-3bcb-4b06-8c97-b456d6d4b81b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-596-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d2802354-1529-4a61-9756-6a168500bc06, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -639,7 +640,6 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: bb6606b9-bbcf-4c85-9cbe-a4135ffb5e17, udp: true}
   - {name: 18-697-FR, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 18-698-US, server: 38.91.106.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-704-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-707-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-708-RELAY, server: 00.likelike.us.kg, port: 443, type: vmess, uuid: 680e91d7-01ff-4082-b71a-472d5236adee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00.likelike.us.kg}}, udp: true}
   - {name: 18-709-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1149,6 +1149,7 @@ proxy-groups:
       - 17-590-CN
       - 17-591-CN
       - 17-592-KR
+      - 17-593-SG
       - 17-594-KR
       - 17-595-KR
       - 17-596-KR
@@ -1253,7 +1254,6 @@ proxy-groups:
       - 17-696-CN
       - 18-697-FR
       - 18-698-US
-      - 18-704-US
       - 18-707-FR
       - 18-708-RELAY
       - 18-709-CA
@@ -1498,6 +1498,7 @@ proxy-groups:
       - 17-563-AU
       - 17-573-KR
       - 17-583-RELAY
+      - 17-593-SG
       - 17-603-RELAY
       - 17-613-KR
       - 17-623-CN
@@ -1574,7 +1575,6 @@ proxy-groups:
       - 17-664-AU
       - 17-674-RELAY
       - 17-684-SG
-      - 18-704-US
       - 18-714-RELAY
   - name: 测速5分组
     type: url-test
