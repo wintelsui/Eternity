@@ -395,6 +395,7 @@ proxies:
   - {name: 16-449-CN, server: chiyu.myfczy169.top, port: 51578, type: ss, cipher: chacha20-ietf-poly1305, password: f711a41d-6aa2-46d1-a69a-b4695a7a008f, udp: true}
   - {name: 16-450-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: f3bd790d-778c-497f-ad61-fa055ce56141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
   - {name: 16-451-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 5516d7e7-72ca-48f0-87d3-e54588f77108, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 16-452-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 09a24222-b1e9-4c02-aea9-0fccac77c09c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-453-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 7f3a085d-1965-4dc6-bedf-95ceb0af9c99, udp: true}
   - {name: 16-454-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 86deb0f1-62b1-4130-9b26-a3a8cadafe6d, udp: true}
   - {name: 16-455-RELAY, server: visa.com, port: 443, type: vmess, uuid: 8a4b8f2f-89e7-4ba6-8ce0-f8172418ad74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -640,8 +641,7 @@ proxies:
   - {name: 17-695-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 69238c85-cac4-4743-995f-ecbbafd8f8a4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: a8cb58b5-3239-4e1f-9385-2f71a13c6c65, udp: true}
   - {name: 17-698-RELAY, server: visa.com, port: 443, type: vmess, uuid: 34e8ed30-78ca-4dc3-91c8-86f1085009b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 18-738-RELAY, server: se.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: se.899994.xyz}}, udp: true}
-  - {name: 18-740-RELAY, server: 104.17.221.248, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-739-RELAY, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: portland.899994.xyz}}, udp: true}
   - {name: 18-741-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-742-RELAY, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 18-743-RELAY, server: s5.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
@@ -1010,6 +1010,7 @@ proxy-groups:
       - 16-449-CN
       - 16-450-AU
       - 16-451-SG
+      - 16-452-SG
       - 16-453-CN
       - 16-454-CN
       - 16-455-RELAY
@@ -1255,8 +1256,7 @@ proxy-groups:
       - 17-695-KR
       - 17-696-CN
       - 17-698-RELAY
-      - 18-738-RELAY
-      - 18-740-RELAY
+      - 18-739-RELAY
       - 18-741-RELAY
       - 18-742-RELAY
       - 18-743-RELAY
@@ -1419,6 +1419,7 @@ proxy-groups:
       - 16-422-CN
       - 16-432-SG
       - 16-442-CN
+      - 16-452-SG
       - 16-462-SG
       - 16-472-SG
       - 16-482-CN
@@ -1842,7 +1843,6 @@ proxy-groups:
       - 17-678-KR
       - 17-688-KR
       - 17-698-RELAY
-      - 18-738-RELAY
       - 18-748-RELAY
   - name: 测速9分组
     type: url-test
@@ -1907,6 +1907,7 @@ proxy-groups:
       - 17-669-CN
       - 17-679-RELAY
       - 17-689-KR
+      - 18-739-RELAY
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1971,7 +1972,6 @@ proxy-groups:
       - 17-670-CN
       - 17-680-CN
       - 17-690-SG
-      - 18-740-RELAY
   - name: 广告拦截
     type: select
     proxies:
