@@ -54,6 +54,7 @@ sniffer:
 proxies:
   - {name: 02-001-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-002-IN, server: in1.p9999.space, port: 443, type: trojan, password: bc5cf4d1-2efb-49f5-98c3-c350f08c1f51, sni: bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 02-003-US, server: 35.79.23.58, port: 443, type: trojan, password: 9ef88e09-4fbe-3053-a39e-b86a9911d174, sni: bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 04-103-CN, server: gyl.58n.net, port: 20309, type: trojan, password: da0e059d-6129-389c-b87d-cc6e55ad98d2, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-104-CN, server: gy.58n.net, port: 20301, type: trojan, password: da0e059d-6129-389c-b87d-cc6e55ad98d2, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-105-CN, server: gy.58n.net, port: 43337, type: trojan, password: da0e059d-6129-389c-b87d-cc6e55ad98d2, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -562,12 +563,12 @@ proxies:
   - {name: 18-609-RELAY, server: s1.datasheetserver.com, port: 443, type: vmess, uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.datasheetserver.com}}, udp: true}
   - {name: 18-610-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-611-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-612-US, server: 38.91.106.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-613-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-614-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-615-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-616-RELAY, server: tokyo.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo.899994.xyz}}, udp: true}
   - {name: 18-617-RELAY, server: s2.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
-  - {name: 18-618-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
   - {name: 18-619-RELAY, server: s2.db-link01.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-620-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
   - {name: 18-621-RELAY, server: s2.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -627,6 +628,7 @@ proxy-groups:
       - 测速10分组
       - 02-001-CN
       - 02-002-IN
+      - 02-003-US
       - 04-103-CN
       - 04-104-CN
       - 04-105-CN
@@ -1135,12 +1137,12 @@ proxy-groups:
       - 18-609-RELAY
       - 18-610-RELAY
       - 18-611-US
+      - 18-612-US
       - 18-613-US
       - 18-614-CA
       - 18-615-US
       - 18-616-RELAY
       - 18-617-RELAY
-      - 18-618-US
       - 18-619-RELAY
       - 18-620-RELAY
       - 18-621-RELAY
@@ -1348,6 +1350,7 @@ proxy-groups:
       - 17-582-CN
       - 17-592-CN
       - 17-602-KR
+      - 18-612-US
       - 18-622-JP
       - 18-632-RELAY
       - 18-642-JP
@@ -1358,6 +1361,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-003-US
       - 04-103-CN
       - 04-113-CN
       - 04-123-CN
@@ -1719,7 +1723,6 @@ proxy-groups:
       - 17-588-CN
       - 17-598-CN
       - 17-608-KR
-      - 18-618-US
       - 18-628-RELAY
       - 18-638-DE
       - 18-648-RELAY
