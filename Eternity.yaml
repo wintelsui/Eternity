@@ -102,8 +102,9 @@ proxies:
   - {name: 04-147-CN, server: gy.58n.net, port: 20304, type: trojan, password: 580c6724-a269-34ab-bb99-2f12bbee3400, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-148-CN, server: gy.58n.net, port: 20305, type: trojan, password: 580c6724-a269-34ab-bb99-2f12bbee3400, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-149-CN, server: gy.58n.net, port: 20306, type: trojan, password: 580c6724-a269-34ab-bb99-2f12bbee3400, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-151-JP, server: 35.79.23.58, port: 443, type: trojan, password: d43bbfbb-e851-37a1-aa18-f806a9146de2, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-150-JP, server: 35.78.173.41, port: 443, type: trojan, password: d43bbfbb-e851-37a1-aa18-f806a9146de2, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-152-US, server: 52.27.195.4, port: 443, type: trojan, password: d43bbfbb-e851-37a1-aa18-f806a9146de2, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-153-US, server: 103.136.185.27, port: 5535, type: trojan, password: d43bbfbb-e851-37a1-aa18-f806a9146de2, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-154-US, server: 103.136.185.28, port: 3516, type: trojan, password: d43bbfbb-e851-37a1-aa18-f806a9146de2, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-155-RELAY, server: s1.cn-db.top, port: 80, type: vmess, uuid: 3735a478-cd75-3248-b356-db4a40825c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.51.96, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-156-RELAY, server: s2.cn-db.top, port: 2095, type: vmess, uuid: 3735a478-cd75-3248-b356-db4a40825c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.31.198, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -604,7 +605,6 @@ proxies:
   - {name: 18-652-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-653-RELAY, server: buffalo.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: buffalo.899994.xyz}}, udp: true}
   - {name: 18-654-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
-  - {name: 18-655-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
   - {name: 18-656-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-657-RELAY, server: 104.21.81.115, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-658-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 36500750-d9b5-11ef-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -709,8 +709,9 @@ proxy-groups:
       - 04-147-CN
       - 04-148-CN
       - 04-149-CN
-      - 04-151-JP
+      - 04-150-JP
       - 04-152-US
+      - 04-153-US
       - 04-154-US
       - 04-155-RELAY
       - 04-156-RELAY
@@ -1211,7 +1212,6 @@ proxy-groups:
       - 18-652-US
       - 18-653-RELAY
       - 18-654-RELAY
-      - 18-655-US
       - 18-656-FR
       - 18-657-RELAY
       - 18-658-RELAY
@@ -1308,7 +1308,6 @@ proxy-groups:
       - 04-121-CN
       - 04-131-CN
       - 04-141-CN
-      - 04-151-JP
       - 04-161-CN
       - 07-171-US
       - 08-181-CN
@@ -1441,6 +1440,7 @@ proxy-groups:
       - 04-123-CN
       - 04-133-CN
       - 04-143-CN
+      - 04-153-US
       - 04-163-CN
       - 07-173-US
       - 08-183-RELAY
@@ -1620,7 +1620,6 @@ proxy-groups:
       - 17-625-CN
       - 17-635-CN
       - 18-645-US
-      - 18-655-US
       - 18-665-RELAY
       - 18-675-RELAY
       - 18-685-FR
@@ -1894,6 +1893,7 @@ proxy-groups:
       - 04-120-CN
       - 04-130-CN
       - 04-140-CN
+      - 04-150-JP
       - 04-160-CN
       - 07-170-TW
       - 08-180-RELAY
