@@ -644,9 +644,9 @@ proxies:
   - {name: 16-0696-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: b83332bd-3f2d-4c61-b829-1bffdeab083c, udp: true}
   - {name: 16-0697-HK, server: 8.218.213.13, port: 80, type: vmess, uuid: a36cf530-3fa3-43a0-bb45-8a40ae498c79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path}, udp: true}
   - {name: 16-0698-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9ecf9095-1292-47c5-b366-b166381f6eeb, udp: true}
-  - {name: 18-1073-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
+  - {name: 18-1072-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-1075-RELAY, server: 104.17.221.248, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1076-RELAY, server: 104.17.221.248, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-1078-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-1079-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 18-1080-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
 proxy-groups:
@@ -1258,9 +1258,9 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-HK
       - 16-0698-CN
-      - 18-1073-RELAY
+      - 18-1072-RELAY
+      - 18-1075-RELAY
       - 18-1076-RELAY
-      - 18-1078-RELAY
       - 18-1079-RELAY
       - 18-1080-RELAY
   - name: 负载均衡
@@ -1441,6 +1441,7 @@ proxy-groups:
       - 16-0672-CN
       - 16-0682-SG
       - 16-0692-JP
+      - 18-1072-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1506,7 +1507,6 @@ proxy-groups:
       - 16-0673-CN
       - 16-0683-CN
       - 16-0693-RELAY
-      - 18-1073-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1638,6 +1638,7 @@ proxy-groups:
       - 16-0675-CN
       - 16-0685-CN
       - 16-0695-JP
+      - 18-1075-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1837,7 +1838,6 @@ proxy-groups:
       - 16-0678-CN
       - 16-0688-JP
       - 16-0698-CN
-      - 18-1078-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
