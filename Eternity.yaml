@@ -60,7 +60,6 @@ proxies:
   - {name: 02-006-HK, server: qq.miaolianyunapp.com, port: 51181, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-007-CN, server: 1.linkhub.degree, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 02-008-CN, server: 2.hublink.pro, port: 40218, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 02-010-VN, server: cmc2.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true, udp: true}
   - {name: 02-011-HK, server: qq.miaolianyunapp.com, port: 51183, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-012-HK, server: qq.miaolianyunapp.com, port: 51184, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-013-HK, server: qq.miaolianyunapp.com, port: 51180, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
@@ -432,6 +431,7 @@ proxies:
   - {name: 16-484-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: 3899ceb3-e7de-43b1-890f-ecefb7c0ed34, udp: true}
   - {name: 16-485-JP, server: 54.199.121.245, port: 80, type: vmess, uuid: 3c40b090-25b2-4985-8b62-4788ff740eb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-486-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1ac155f4-f3b2-4ef2-84f9-7b37ef72162a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
+  - {name: 16-487-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 65c839d5-ab0e-432c-955c-6c2858b0de0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-488-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: fc996722-c430-4d27-a78f-dcee089a7563, udp: true}
   - {name: 16-489-JP, server: osaka002-a.oraclenat.cc, port: 23451, type: vmess, uuid: 7768f5e9-2b6b-4a64-a918-068248cd67aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: osaka002-a.oraclenat.cc}}, udp: true}
   - {name: 16-490-CN, server: chiyu.myfczy169.top, port: 20119, type: ss, cipher: chacha20-ietf-poly1305, password: a5ac5fb5-f6b6-476d-a006-d3a2e2e04259, udp: true}
@@ -674,7 +674,6 @@ proxy-groups:
       - 02-006-HK
       - 02-007-CN
       - 02-008-CN
-      - 02-010-VN
       - 02-011-HK
       - 02-012-HK
       - 02-013-HK
@@ -1046,6 +1045,7 @@ proxy-groups:
       - 16-484-CN
       - 16-485-JP
       - 16-486-RELAY
+      - 16-487-SG
       - 16-488-CN
       - 16-489-JP
       - 16-490-CN
@@ -1751,6 +1751,7 @@ proxy-groups:
       - 16-457-CN
       - 16-467-RELAY
       - 16-477-RELAY
+      - 16-487-SG
       - 16-497-CN
       - 16-507-CN
       - 16-517-CN
@@ -1910,7 +1911,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-010-VN
       - 04-120-CN
       - 04-130-CN
       - 04-140-CN
