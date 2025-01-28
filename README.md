@@ -38,7 +38,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODFkZDQxNi1kNmRjLTQyNjgtYjA4OC01N2NhMDQ0N2I0NDg@qq.miaolianyunapp.com:51181#02-006-HK
     ssr://MS5saW5raHViLmRlZ3JlZTo0MDIwMjphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTpwbGFpbjpSVTVhTlRKTC8_Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9TURJdE1EQTNMVU5PJm9iZnNwYXJhbT1ZMlF5WWpZNU1qa3dNaTQyTmpBeVlqZzBOak0wTmpReE1EZzFNRFl1YldsamNtOXpiMlowTG1OdmJRJnByb3RvcGFyYW09T1RJNU1ESTZjRVpYUjA5Ug
     ssr://Mi5odWJsaW5rLnBybzo0MDIxODphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTpwbGFpbjpSVTVhTlRKTC8_Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9TURJdE1EQTRMVU5PJm9iZnNwYXJhbT1ZMlF5WWpZNU1qa3dNaTQyTmpBeVlqZzBOak0wTmpReE1EZzFNRFl1YldsamNtOXpiMlowTG1OdmJRJnByb3RvcGFyYW09T1RJNU1ESTZjRVpYUjA5Ug
-    trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc2.5gsieuvip.vn:443?allowInsecure=1#02-010-VN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODFkZDQxNi1kNmRjLTQyNjgtYjA4OC01N2NhMDQ0N2I0NDg@qq.miaolianyunapp.com:51183#02-011-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODFkZDQxNi1kNmRjLTQyNjgtYjA4OC01N2NhMDQ0N2I0NDg@qq.miaolianyunapp.com:51184#02-012-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphODFkZDQxNi1kNmRjLTQyNjgtYjA4OC01N2NhMDQ0N2I0NDg@qq.miaolianyunapp.com:51180#02-013-HK
@@ -410,6 +409,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozODk5Y2ViMy1lN2RlLTQzYjEtODkwZi1lY2VmYjdjMGVkMzQ@yoyo.cmyiphone.top:49311#16-484-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDg1LUpQIiwiYWRkIjoiNTQuMTk5LjEyMS4yNDUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiM2M0MGIwOTAtMjViMi00OTg1LThiNjItNDc4OGZmNzQwZWI1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDg2LVJFTEFZIiwiYWRkIjoidmlzYS5jb20iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjFhYzE1NWY0LWYzYjItNGVmMi04NGY5LTdiMzdlZjcyMTYyYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InZpc2EuY29tIiwidGxzIjoidGxzIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDg3LVNHIiwiYWRkIjoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInBvcnQiOiIyMzQ1MiIsInR5cGUiOiJub25lIiwiaWQiOiI2NWM4MzlkNS1hYjBlLTQzMmMtOTU1Yy02YzI4NThiMGRlMGEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3ZXN0c2cyLWRkbnMub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     ss://YWVzLTI1Ni1nY206ZmM5OTY3MjItYzQzMC00ZDI3LWE3OGYtZGNlZTA4OWE3NTYz@jg647hf446ghvw.eucs.cn:49709#16-488-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDg5LUpQIiwiYWRkIjoib3Nha2EwMDItYS5vcmFjbGVuYXQuY2MiLCJwb3J0IjoiMjM0NTEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzc2OGY1ZTktMmI2Yi00YTY0LWE5MTgtMDY4MjQ4Y2Q2N2FhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoib3Nha2EwMDItYS5vcmFjbGVuYXQuY2MiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNWFjNWZiNS1mNmI2LTQ3NmQtYTAwNi1kM2EyZTJlMDQyNTk@chiyu.myfczy169.top:20119#16-490-CN
@@ -633,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `966`
+合并节点总数: `937`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `966`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `937`
 
 
 ## 仓库声明
