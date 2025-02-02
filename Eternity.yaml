@@ -642,7 +642,7 @@ proxies:
   - {name: 16-0696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 657d9bc1-e4e6-4eb6-8548-f70a77919562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0697-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 9bc9057c-5622-442f-b2b4-dbc0496af185, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0698-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 1151bfd3-cf3f-4065-9f8e-35c6fef1052d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 18-1270-RELAY, server: se.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: se.899994.xyz}}, udp: true}
+  - {name: 18-1271-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-1275-RELAY, server: 104.16.155.10, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1276-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1277-RELAY, server: ff.kncc2.top, port: 8443, type: vmess, uuid: 89c344f2-096c-445c-b629-9b15152f38e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ff.kncc2.top}}, udp: true}
@@ -1255,7 +1255,7 @@ proxy-groups:
       - 16-0696-DE
       - 16-0697-DE
       - 16-0698-DE
-      - 18-1270-RELAY
+      - 18-1271-RELAY
       - 18-1275-RELAY
       - 18-1276-RELAY
       - 18-1277-RELAY
@@ -1376,6 +1376,7 @@ proxy-groups:
       - 16-0671-RELAY
       - 16-0681-SG
       - 16-0691-CN
+      - 18-1271-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1965,7 +1966,6 @@ proxy-groups:
       - 16-0660-CN
       - 16-0670-US
       - 16-0680-RELAY
-      - 18-1270-RELAY
   - name: 广告拦截
     type: select
     proxies:
