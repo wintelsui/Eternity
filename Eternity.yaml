@@ -172,7 +172,6 @@ proxies:
   - {name: 04-0255-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: e5311bc7-cf1d-3ed7-a35d-01ad91edcfb4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-0256-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: e5311bc7-cf1d-3ed7-a35d-01ad91edcfb4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-0257-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: e5311bc7-cf1d-3ed7-a35d-01ad91edcfb4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
-  - {name: 07-0259-US, server: 54.187.27.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0260-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-0261-RELAY, server: s2.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.41.150, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 07-0262-RELAY, server: s2.cn-db.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.13.172, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -611,7 +610,6 @@ proxies:
   - {name: 16-0696-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 73ede0d6-de67-4cad-9c73-06e312617278, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 34001, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0698-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 4e949627-d0c5-452d-9740-502a9c59459f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 17-1733-CN, server: southvip1.pkyun.xyz, port: 34004, type: ss, cipher: chacha20-ietf-poly1305, password: 5979e5d4-d52b-42f4-9f23-f69bedf46b18, udp: true}
   - {name: 17-1734-CN, server: southvip1.pkyun.xyz, port: 58828, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1735-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e5dcbf31-2a38-43c0-93e2-c74210136c98, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1736-RELAY, server: visa.com, port: 443, type: vmess, uuid: 9f908d80-9d91-4659-910b-ee44840f9e4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -787,7 +785,6 @@ proxy-groups:
       - 04-0255-CN
       - 04-0256-CN
       - 04-0257-CN
-      - 07-0259-US
       - 07-0260-CN
       - 07-0261-RELAY
       - 07-0262-RELAY
@@ -1226,7 +1223,6 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-CN
       - 16-0698-DE
-      - 17-1733-CN
       - 17-1734-CN
       - 17-1735-NOWHERE
       - 17-1736-RELAY
@@ -1507,7 +1503,6 @@ proxy-groups:
       - 12-0673-CN
       - 12-0683-CN
       - 16-0693-RELAY
-      - 17-1733-CN
       - 17-1743-CN
       - 18-1753-RELAY
       - 18-1763-DE
@@ -1858,7 +1853,6 @@ proxy-groups:
       - 04-0219-CN
       - 04-0229-CN
       - 04-0249-CN
-      - 07-0259-US
       - 08-0269-CN
       - 08-0279-CN
       - 08-0289-CN
