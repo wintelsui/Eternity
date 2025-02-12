@@ -638,8 +638,8 @@ proxies:
   - {name: 16-0694-CN, server: southvip1.pkyun.xyz, port: 58841, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0695-CN, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 87c2a03d-db17-4b4f-9ecc-bceed43c9a3e, udp: true}
   - {name: 16-0696-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1151bfd3-cf3f-4065-9f8e-35c6fef1052d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 16-0697-RELAY, server: ezpaselv.whmvmkwuey.store, port: 443, type: vmess, uuid: 9986dee4-d63e-43dd-98fe-4fe186a2d314, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezpaselv.whmvmkwuey.store}}, udp: true}
   - {name: 16-0698-CN, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 61655d04-4585-42cf-9a2e-db3df88dfdb2, udp: true}
+  - {name: 18-1456-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-1457-RELAY, server: s2.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-1458-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1459-RELAY, server: visa.com, port: 443, type: vmess, uuid: 3e125fac-2e5e-44f4-bd5b-5de5712fdbff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -1251,8 +1251,8 @@ proxy-groups:
       - 16-0694-CN
       - 16-0695-CN
       - 16-0696-RELAY
-      - 16-0697-RELAY
       - 16-0698-CN
+      - 18-1456-RELAY
       - 18-1457-RELAY
       - 18-1458-DE
       - 18-1459-RELAY
@@ -1702,6 +1702,7 @@ proxy-groups:
       - 16-0676-CN
       - 16-0686-DE
       - 16-0696-RELAY
+      - 18-1456-RELAY
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1767,7 +1768,6 @@ proxy-groups:
       - 16-0667-RELAY
       - 16-0677-US
       - 16-0687-CN
-      - 16-0697-RELAY
       - 18-1457-RELAY
   - name: 测速8分组
     type: url-test
