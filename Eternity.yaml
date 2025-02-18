@@ -635,11 +635,11 @@ proxies:
   - {name: 16-0690-CN, server: southvip1.pkyun.xyz, port: 58841, type: ss, cipher: chacha20-ietf-poly1305, password: 1d29817a-1013-49cd-b9cf-7a438b588358, udp: true}
   - {name: 16-0691-CN, server: southvip1.pkyun.xyz, port: 58807, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0692-CN, server: chiyu.myfczy169.top, port: 41473, type: ss, cipher: chacha20-ietf-poly1305, password: 1d134cd9-770d-4942-bd5c-1ab19621dd72, udp: true}
-  - {name: 16-0693-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: a6871c54-62a6-43c2-ba12-4db0fccf7138, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0694-CN, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 121882f3-2458-4461-842d-98391f080082, udp: true}
   - {name: 16-0695-CN, server: southvip1.pkyun.xyz, port: 58846, type: ss, cipher: chacha20-ietf-poly1305, password: 1d29817a-1013-49cd-b9cf-7a438b588358, udp: true}
   - {name: 16-0696-CN, server: chiyu.myfczy169.top, port: 19115, type: ss, cipher: chacha20-ietf-poly1305, password: 121882f3-2458-4461-842d-98391f080082, udp: true}
   - {name: 16-0698-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: a468ddb4-f06f-4a10-be2b-2b8951699b6c, udp: true}
+  - {name: 18-1517-RELAY, server: 104.21.16.100, port: 2053, type: vmess, uuid: eb817168-5f83-4fba-af99-881ec0e547b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1518-RELAY, server: s2.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-1520-MU, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 59001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3, udp: true}
   - {name: 18-1521-RELAY, server: s5.cn-db.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.cn-db.top}}, udp: true}
@@ -1248,11 +1248,11 @@ proxy-groups:
       - 16-0690-CN
       - 16-0691-CN
       - 16-0692-CN
-      - 16-0693-SG
       - 16-0694-CN
       - 16-0695-CN
       - 16-0696-CN
       - 16-0698-CN
+      - 18-1517-RELAY
       - 18-1518-RELAY
       - 18-1520-MU
       - 18-1521-RELAY
@@ -1502,7 +1502,6 @@ proxy-groups:
       - 16-0663-CN
       - 16-0673-SG
       - 16-0683-CN
-      - 16-0693-SG
       - 18-1523-RELAY
   - name: 测速4分组
     type: url-test
@@ -1769,6 +1768,7 @@ proxy-groups:
       - 16-0667-DE
       - 16-0677-CN
       - 16-0687-CN
+      - 18-1517-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
