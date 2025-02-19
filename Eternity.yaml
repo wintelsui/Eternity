@@ -126,10 +126,12 @@ proxies:
   - {name: 08-0180-RELAY, server: visa.com, port: 443, type: vmess, uuid: 6d1cc38a-64e1-4db0-b893-8889aa0f91b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 08-0181-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 6d1cc38a-64e1-4db0-b893-8889aa0f91b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 08-0182-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 6d1cc38a-64e1-4db0-b893-8889aa0f91b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 08-0183-JP, server: 1-osaka-p.aboutanime.eu.org, port: 23451, type: vmess, uuid: 6d1cc38a-64e1-4db0-b893-8889aa0f91b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1-osaka-p.aboutanime.eu.org}}, udp: true}
   - {name: 08-0184-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
   - {name: 08-0185-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
   - {name: 08-0186-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
   - {name: 08-0187-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
+  - {name: 08-0188-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 6d1cc38a-64e1-4db0-b893-8889aa0f91b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 08-0189-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
   - {name: 08-0190-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 7a349742-ebf1-464c-b8e9-716e3254e3ec, udp: true}
   - {name: 08-0191-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 59745065-1e51-44f5-bd3f-aeb545470ad2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -370,6 +372,7 @@ proxies:
   - {name: 11-0426-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: a0826d93-9710-4f56-a527-ab0ae155c2b9, udp: true}
   - {name: 11-0427-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: a0826d93-9710-4f56-a527-ab0ae155c2b9, udp: true}
   - {name: 11-0428-CN, server: southvip1.pkyun.xyz, port: 58833, type: ss, cipher: chacha20-ietf-poly1305, password: a0826d93-9710-4f56-a527-ab0ae155c2b9, udp: true}
+  - {name: 11-0429-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: ef1473db-bf04-41ae-b4aa-8f2137148b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 11-0430-CN, server: southvip1.pkyun.xyz, port: 58837, type: ss, cipher: chacha20-ietf-poly1305, password: a0826d93-9710-4f56-a527-ab0ae155c2b9, udp: true}
   - {name: 11-0431-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: a6f82175-566b-410d-a70b-a3174bed40e0, udp: true}
   - {name: 11-0432-CN, server: southvip1.pkyun.xyz, port: 34501, type: ss, cipher: chacha20-ietf-poly1305, password: a0826d93-9710-4f56-a527-ab0ae155c2b9, udp: true}
@@ -587,6 +590,7 @@ proxies:
   - {name: 16-0645-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 555f85d6-b81e-4a26-9ff6-5aa4f4eb741a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0646-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 1d817435-8ecd-44df-9d03-20081d9a78f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0647-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 212fdded-1a56-4b33-91e1-0b4e0cd24ec1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 16-0648-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 696d2def-4e64-4bd6-b210-2a2d02e41db2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 16-0649-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 6f8f9727-f03c-4d91-8e75-e724b388565e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0650-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 24fa8f85-e866-4b62-ae2e-bb7c290aadd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0651-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
@@ -634,11 +638,7 @@ proxies:
   - {name: 16-0695-CN, server: southvip1.pkyun.xyz, port: 58820, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0696-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 8d329090-4434-462d-97e0-bda9740f2314, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 16-0698-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: fbe27b1e-6ecb-497f-a4e0-b0101adda882, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 17-1192-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: d08a615b-2457-4ddb-8ed3-fb7026ac8ed3, udp: true}
-  - {name: 18-1215-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-1216-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-1217-RELAY, server: s2.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
-  - {name: 18-1218-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
+  - {name: 17-1200-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 653e3740-9444-4229-9a93-e81ae41c7c24, udp: true}
   - {name: 18-1219-RELAY, server: 104.21.16.100, port: 2053, type: vmess, uuid: eb817168-5f83-4fba-af99-881ec0e547b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1220-RELAY, server: 104.16.155.10, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1221-RELAY, server: s1.db-link02.top, port: 2086, type: vmess, uuid: 532e1541-4b65-3409-81f1-43f206846615, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
@@ -739,10 +739,12 @@ proxy-groups:
       - 08-0180-RELAY
       - 08-0181-DE
       - 08-0182-SG
+      - 08-0183-JP
       - 08-0184-CN
       - 08-0185-CN
       - 08-0186-CN
       - 08-0187-CN
+      - 08-0188-US
       - 08-0189-CN
       - 08-0190-CN
       - 08-0191-NOWHERE
@@ -983,6 +985,7 @@ proxy-groups:
       - 11-0426-CN
       - 11-0427-CN
       - 11-0428-CN
+      - 11-0429-RELAY
       - 11-0430-CN
       - 11-0431-CN
       - 11-0432-CN
@@ -1200,6 +1203,7 @@ proxy-groups:
       - 16-0645-DE
       - 16-0646-SG
       - 16-0647-DE
+      - 16-0648-RELAY
       - 16-0649-DE
       - 16-0650-SG
       - 16-0651-CN
@@ -1247,11 +1251,7 @@ proxy-groups:
       - 16-0695-CN
       - 16-0696-RELAY
       - 16-0698-DE
-      - 17-1192-CN
-      - 18-1215-FR
-      - 18-1216-DE
-      - 18-1217-RELAY
-      - 18-1218-RELAY
+      - 17-1200-CN
       - 18-1219-RELAY
       - 18-1220-RELAY
       - 18-1221-RELAY
@@ -1441,7 +1441,6 @@ proxy-groups:
       - 16-0672-RELAY
       - 16-0682-CN
       - 16-0692-RELAY
-      - 17-1192-CN
       - 18-1222-RELAY
   - name: 测速3分组
     type: url-test
@@ -1456,6 +1455,7 @@ proxy-groups:
       - 04-0043-CN
       - 04-0053-CN
       - 04-0063-CN
+      - 08-0183-JP
       - 08-0193-CN
       - 08-0203-CN
       - 08-0213-CN
@@ -1638,7 +1638,6 @@ proxy-groups:
       - 16-0675-JP
       - 16-0685-SG
       - 16-0695-CN
-      - 18-1215-FR
       - 18-1225-RELAY
   - name: 测速6分组
     type: url-test
@@ -1705,7 +1704,6 @@ proxy-groups:
       - 16-0676-CN
       - 16-0686-RELAY
       - 16-0696-RELAY
-      - 18-1216-DE
       - 18-1226-FR
   - name: 测速7分组
     type: url-test
@@ -1770,7 +1768,6 @@ proxy-groups:
       - 16-0667-CN
       - 16-0677-CN
       - 16-0687-SG
-      - 18-1217-RELAY
       - 18-1227-RELAY
   - name: 测速8分组
     type: url-test
@@ -1785,6 +1782,7 @@ proxy-groups:
       - 04-0048-CN
       - 04-0058-CN
       - 08-0178-CN
+      - 08-0188-US
       - 08-0198-CN
       - 08-0208-CN
       - 08-0218-CN
@@ -1830,12 +1828,12 @@ proxy-groups:
       - 16-0618-CN
       - 16-0628-RELAY
       - 16-0638-CN
+      - 16-0648-RELAY
       - 16-0658-RELAY
       - 16-0668-CN
       - 16-0678-CN
       - 16-0688-RELAY
       - 16-0698-DE
-      - 18-1218-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1874,6 +1872,7 @@ proxy-groups:
       - 11-0399-CN
       - 11-0409-CN
       - 11-0419-CN
+      - 11-0429-RELAY
       - 11-0439-CN
       - 11-0449-CN
       - 11-0459-CN
@@ -1965,6 +1964,7 @@ proxy-groups:
       - 16-0660-DE
       - 16-0670-RELAY
       - 16-0680-SG
+      - 17-1200-CN
       - 18-1220-RELAY
   - name: 广告拦截
     type: select
