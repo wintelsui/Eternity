@@ -37,8 +37,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjIwYzMxMWIxLWExNDYtMzc0MS1iYmI1LTYzYTUzZDllZTM3YyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTYuMjM3LjU0IiwiaG9zdCI6InM1LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjBjMzExYjEtYTE0Ni0zNzQxLWJiYjUtNjNhNTNkOWVlMzdjIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4xOS4xNTYuMjQ2IiwiaG9zdCI6InMxLmNuLWRiLnRvcCIsInRscyI6IiJ9
     trojan://06246a0d-6d55-3f57-b51b-d3390e7db81f@54.168.236.31:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-JP
+    trojan://06246a0d-6d55-3f57-b51b-d3390e7db81f@52.38.254.152:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-009-US
     trojan://06246a0d-6d55-3f57-b51b-d3390e7db81f@103.136.185.27:5535?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-010-US
-    trojan://06246a0d-6d55-3f57-b51b-d3390e7db81f@103.136.185.28:3516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
     trojan://bea9386a-c5b5-3ea5-ab26-981767e5f806@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://bea9386a-c5b5-3ea5-ab26-981767e5f806@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://bea9386a-c5b5-3ea5-ab26-981767e5f806@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
