@@ -37,8 +37,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY2YjNlZWEzLTlmN2QtM2VkNi1iOGRmLWQ4ZDE3MTI1NDA5MCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDAuNDAiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjZiM2VlYTMtOWY3ZC0zZWQ2LWI4ZGYtZDhkMTcxMjU0MDkwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42Ny42Mi43NSIsImhvc3QiOiJzNS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     trojan://96b3f8fb-969f-34b2-b818-c4e12b3806fc@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-007-JP
-    trojan://96b3f8fb-969f-34b2-b818-c4e12b3806fc@54.186.62.98:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
     trojan://96b3f8fb-969f-34b2-b818-c4e12b3806fc@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-010-US
+    trojan://96b3f8fb-969f-34b2-b818-c4e12b3806fc@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-011-US
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
