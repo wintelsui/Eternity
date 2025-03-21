@@ -36,9 +36,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NTFmMTVhLTI2MTMtMzJjZS1iYmUzLWU5ZTk0MDEzNTA2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNTUuMjMwIiwiaG9zdCI6InM0LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NTFmMTVhLTI2MTMtMzJjZS1iYmUzLWU5ZTk0MDEzNTA2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjEuNy43NiIsImhvc3QiOiJzNC5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmNzUxZjE1YS0yNjEzLTMyY2UtYmJlMy1lOWU5NDAxMzUwNjEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI1LjQxLjQzIiwiaG9zdCI6InM1LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
-    trojan://b24aac67-4361-31bd-aa2c-d75fc5c6ef3b@54.168.236.31:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-007-JP
-    trojan://b24aac67-4361-31bd-aa2c-d75fc5c6ef3b@35.87.148.97:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-009-US
+    trojan://b24aac67-4361-31bd-aa2c-d75fc5c6ef3b@35.74.248.202:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-008-JP
     trojan://b24aac67-4361-31bd-aa2c-d75fc5c6ef3b@103.136.185.27:5535?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-010-US
+    trojan://b24aac67-4361-31bd-aa2c-d75fc5c6ef3b@103.136.185.28:3516?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-011-US
     trojan://d0145a75-b331-3963-b128-c88d9cf32be3@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://d0145a75-b331-3963-b128-c88d9cf32be3@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://d0145a75-b331-3963-b128-c88d9cf32be3@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
