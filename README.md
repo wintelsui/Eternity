@@ -37,8 +37,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAyLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NTFmMTVhLTI2MTMtMzJjZS1iYmUzLWU5ZTk0MDEzNTA2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTguMTk1LjIyNSIsImhvc3QiOiJzMS5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NTFmMTVhLTI2MTMtMzJjZS1iYmUzLWU5ZTk0MDEzNTA2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjUuMTYuMTA3IiwiaG9zdCI6InMxLmNuLWRiLnRvcCIsInRscyI6IiJ9
     trojan://deeccefd-9629-3fdd-91ee-eea255768766@35.74.248.202:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-008-JP
+    trojan://deeccefd-9629-3fdd-91ee-eea255768766@35.87.148.97:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-009-US
     trojan://deeccefd-9629-3fdd-91ee-eea255768766@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-010-US
-    trojan://deeccefd-9629-3fdd-91ee-eea255768766@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-011-US
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
