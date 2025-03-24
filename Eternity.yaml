@@ -58,7 +58,7 @@ proxies:
   - {name: 04-004-RELAY, server: s4.cn-db.top, port: 2082, type: vmess, uuid: ca5e77c9-9cf2-3433-91b4-6419c82c59d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.123.111, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-005-RELAY, server: s5.db-link02.top, port: 8080, type: vmess, uuid: ca5e77c9-9cf2-3433-91b4-6419c82c59d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.76.197, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-006-RELAY, server: s1.db-link02.top, port: 2052, type: vmess, uuid: ca5e77c9-9cf2-3433-91b4-6419c82c59d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.108.66, headers: {Host: s1.db-link02.top}}, udp: true}
-  - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 54.68.231.3, port: 443, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: c705b377-2afa-3826-aa02-67e02160391d, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -158,7 +158,7 @@ proxies:
   - {name: 12-205-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 5d50f124-41c1-43bd-ae9b-1a826ac87d5a, udp: true}
   - {name: 12-206-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 5d50f124-41c1-43bd-ae9b-1a826ac87d5a, udp: true}
   - {name: 12-207-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 3ac2734d-cf25-4cbd-b459-7335bf30513f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 12-208-US, server: 35.74.248.202, port: 443, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 12-208-US, server: 54.168.236.31, port: 443, type: trojan, password: 6c92d9be-0ba0-3498-b181-1a143c82231b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 12-209-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 5d50f124-41c1-43bd-ae9b-1a826ac87d5a, udp: true}
   - {name: 12-210-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 5d50f124-41c1-43bd-ae9b-1a826ac87d5a, udp: true}
   - {name: 12-211-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 5d50f124-41c1-43bd-ae9b-1a826ac87d5a, udp: true}
@@ -566,7 +566,7 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
-      - 04-007-JP
+      - 04-008-JP
       - 04-009-US
       - 04-010-US
       - 04-012-CN
@@ -1437,7 +1437,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1493,6 +1492,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-008-JP
       - 04-018-CN
       - 04-028-CN
       - 04-038-CN
