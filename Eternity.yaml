@@ -58,7 +58,7 @@ proxies:
   - {name: 04-004-RELAY, server: s1.db-link01.top, port: 2052, type: vmess, uuid: 99e5fd36-6991-3e98-94a8-78e72a89805e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.22.84, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-005-RELAY, server: s5.db-link01.top, port: 8080, type: vmess, uuid: 99e5fd36-6991-3e98-94a8-78e72a89805e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.5.135, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 04-006-RELAY, server: s5.db-link01.top, port: 2095, type: vmess, uuid: 99e5fd36-6991-3e98-94a8-78e72a89805e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.98.76, headers: {Host: s5.db-link01.top}}, udp: true}
-  - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: de6304a9-3587-3e8b-8596-14441b2b8a10, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: de6304a9-3587-3e8b-8596-14441b2b8a10, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 54.68.231.3, port: 443, type: trojan, password: de6304a9-3587-3e8b-8596-14441b2b8a10, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: de6304a9-3587-3e8b-8596-14441b2b8a10, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 71c12994-67bb-3366-9e64-7554890f7f63, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -297,7 +297,6 @@ proxies:
   - {name: 16-344-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: fc344277-1c03-4fb1-8166-080741c881de, udp: true}
   - {name: 16-345-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 1e9e0f78-4a87-4a39-9724-b0d82620e545, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-346-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: c92b9195-7fb5-47c2-b290-baa645d48542, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 16-347-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 4d83b397-d2f1-44db-a2c0-b1f739506bf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-348-CN, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: a21ce23e-3331-4ff5-9e3f-a79b8b88a2c5, udp: true}
   - {name: 16-349-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 28476e08-d558-43f0-9d8f-d47900848705, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-350-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 6131dc75-81d4-4b44-82aa-26102a9bff83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -556,7 +555,7 @@ proxies:
   - {name: 17-603-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 34e8bf85-f397-49e3-a71d-4db1a4c6baa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-604-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dba3220c-195a-4cd5-b49d-241212ecf704, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-605-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 72d5cf20-64df-4320-99b6-89655a8a9916, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 17-606-US, server: 54.168.236.31, port: 443, type: trojan, password: de6304a9-3587-3e8b-8596-14441b2b8a10, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-606-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7c918ada-b4b3-4384-938d-d3d08f664db9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-607-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 1df4ca6e-4db8-4738-a693-1a45aa5b29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 17-608-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 167da142-ccc1-4579-948e-baa366438997, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-609-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9a8185aa-e627-4cc6-b0a7-2ec7cf38c554, udp: true}
@@ -615,7 +614,7 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
-      - 04-008-JP
+      - 04-007-JP
       - 04-009-US
       - 04-011-US
       - 04-012-CN
@@ -854,7 +853,6 @@ proxy-groups:
       - 16-344-CN
       - 16-345-RELAY
       - 16-346-DE
-      - 16-347-US
       - 16-348-CN
       - 16-349-RELAY
       - 16-350-SG
@@ -1565,6 +1563,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1589,7 +1588,6 @@ proxy-groups:
       - 16-317-CN
       - 16-327-DE
       - 16-337-CN
-      - 16-347-US
       - 16-357-US
       - 16-367-CN
       - 16-377-RELAY
@@ -1625,7 +1623,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-008-JP
       - 04-018-CN
       - 04-028-CN
       - 04-038-CN
