@@ -59,8 +59,8 @@ proxies:
   - {name: 04-004-RELAY, server: s5.db-link02.top, port: 8880, type: vmess, uuid: cd04c23a-d499-3927-8201-80a40c1866dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.113.251, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-005-RELAY, server: s1.db-link02.top, port: 8880, type: vmess, uuid: cd04c23a-d499-3927-8201-80a40c1866dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.52.226, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-006-RELAY, server: s2.db-link01.top, port: 2095, type: vmess, uuid: cd04c23a-d499-3927-8201-80a40c1866dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.83.25, headers: {Host: s2.db-link01.top}}, udp: true}
-  - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 44.243.236.37, port: 443, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: f6537bdc-61d6-343f-b0eb-1bfb8bab30d7, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: f6537bdc-61d6-343f-b0eb-1bfb8bab30d7, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -234,6 +234,7 @@ proxies:
   - {name: 16-280-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: a6789b68-be56-4cc5-831c-47bbef292120, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-281-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 950d50be-824f-4381-a862-1da68f08c6dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-282-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: a383d0b6-2adc-4920-9ae8-75e317e0224e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
+  - {name: 16-283-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 950d50be-824f-4381-a862-1da68f08c6dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-284-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 4bc2e208-a07b-4a1e-a717-207d9292435e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-285-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 2dcace70-7704-4753-9477-f9e03a8d3e1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-286-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 1be9aad3-bd8a-4845-a126-ee17682fda21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
@@ -322,7 +323,6 @@ proxies:
   - {name: 16-369-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 92257b49-9058-4fef-8942-9a9e30c090a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-370-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2898b055-3db9-4cd7-9927-e55a8f38022e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-371-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: bc16b3bb-f216-4914-a126-0e0123690c4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 16-372-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 55cc1427-692e-4b10-b9cc-8d6ae293f931, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-373-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 6131dc75-81d4-4b44-82aa-26102a9bff83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-374-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b344dc74-1b95-4dfe-8716-e416c66aff0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-375-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: b83332bd-3f2d-4c61-b829-1bffdeab083c, udp: true}
@@ -355,7 +355,7 @@ proxies:
   - {name: 17-402-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 3aa840e1-d3ff-4774-99bf-26f5eba89147, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-403-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: ba7d4abc-a5b8-46ff-9714-85fb3dd4e6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-404-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 8ad9085d-69f4-4c18-b4b8-c909b6c12997, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-405-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d8144d72-8c37-4c31-8810-67be6bcd1be1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-405-US, server: 35.74.248.202, port: 443, type: trojan, password: 11006692-3e86-3c89-b780-baed0917723a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-406-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: c66fbdc8-d69b-437e-bd09-21c205534600, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-407-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: be0d513e-4038-49f9-89e2-68847cd07173, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-408-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: c55fef12-bfd8-4d4c-8d73-a54ba82b4b8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -368,6 +368,7 @@ proxies:
   - {name: 17-415-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 8c3d97b5-9062-4484-9de1-35ee70283f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-416-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 6c2afa07-878b-4e26-8995-e7635e110a13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-417-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 38013188-81d9-45a4-935a-8ff0d1198b7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-418-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 6743bac0-c1a9-406d-ae39-21ff48ecde69, udp: true}
   - {name: 17-419-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: a378ff92-8bb8-4f8d-bf3c-6f72045f3041, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-420-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1af7865d-a8f3-4f9f-b6a7-96f5010f59b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-421-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 19eb20f0-f58e-4526-af67-e6cba295c274, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -544,8 +545,8 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
-      - 04-008-JP
-      - 04-010-US
+      - 04-007-JP
+      - 04-009-US
       - 04-011-US
       - 04-012-CN
       - 04-013-CN
@@ -719,6 +720,7 @@ proxy-groups:
       - 16-280-US
       - 16-281-RELAY
       - 16-282-RELAY
+      - 16-283-US
       - 16-284-SG
       - 16-285-SG
       - 16-286-RELAY
@@ -807,7 +809,6 @@ proxy-groups:
       - 16-369-US
       - 16-370-RELAY
       - 16-371-RELAY
-      - 16-372-DE
       - 16-373-SG
       - 16-374-RELAY
       - 16-375-CN
@@ -853,6 +854,7 @@ proxy-groups:
       - 17-415-SG
       - 17-416-SG
       - 17-417-RELAY
+      - 17-418-CN
       - 17-419-RELAY
       - 17-420-RELAY
       - 17-421-RELAY
@@ -1140,7 +1142,6 @@ proxy-groups:
       - 16-342-SG
       - 16-352-CN
       - 16-362-CN
-      - 16-372-DE
       - 16-382-RELAY
       - 16-392-CN
       - 17-402-RELAY
@@ -1184,6 +1185,7 @@ proxy-groups:
       - 16-253-RELAY
       - 16-263-RELAY
       - 16-273-RELAY
+      - 16-283-US
       - 16-293-RELAY
       - 16-303-RELAY
       - 16-313-CN
@@ -1377,6 +1379,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1430,7 +1433,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-008-JP
       - 04-018-CN
       - 04-028-CN
       - 04-038-CN
@@ -1461,6 +1463,7 @@ proxy-groups:
       - 16-388-SG
       - 17-398-RELAY
       - 17-408-RELAY
+      - 17-418-CN
       - 17-428-RELAY
       - 17-438-CN
       - 17-448-RELAY
@@ -1482,6 +1485,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-009-US
       - 04-019-CN
       - 04-029-CN
       - 04-039-CN
@@ -1535,7 +1539,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-000-RELAY
-      - 04-010-US
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
@@ -1912,7 +1915,6 @@ rules:
  - DOMAIN-SUFFIX,mobclix.com,广告拦截
  - DOMAIN-SUFFIX,mobgi.com,广告拦截
  - DOMAIN-SUFFIX,mobisage.cn,广告拦截
- - DOMAIN-SUFFIX,mobvista.com,广告拦截
  - DOMAIN-SUFFIX,moogos.com,广告拦截
  - DOMAIN-SUFFIX,mopub.com,广告拦截
  - DOMAIN-SUFFIX,moquanad.com,广告拦截
@@ -1922,7 +1924,6 @@ rules:
  - DOMAIN-SUFFIX,mzy2014.com,广告拦截
  - DOMAIN-SUFFIX,networkbench.com,广告拦截
  - DOMAIN-SUFFIX,ninebox.cn,广告拦截
- - DOMAIN-SUFFIX,ntalker.com,广告拦截
  - DOMAIN-SUFFIX,nylalobghyhirgh.com,广告拦截
  - DOMAIN-SUFFIX,o2omobi.com,广告拦截
  - DOMAIN-SUFFIX,oadz.com,广告拦截
@@ -3538,6 +3539,7 @@ rules:
  - DOMAIN-SUFFIX,ehmhqcn.cn,增强广告拦截
  - DOMAIN-SUFFIX,ei1s7b.cn,增强广告拦截
  - DOMAIN-SUFFIX,ei7.icu,增强广告拦截
+ - DOMAIN-SUFFIX,eildralfl.com,增强广告拦截
  - DOMAIN-SUFFIX,eiphrut.com,增强广告拦截
  - DOMAIN-SUFFIX,eisnaisv.com,增强广告拦截
  - DOMAIN-SUFFIX,eitilbyr.com,增强广告拦截
@@ -3824,6 +3826,7 @@ rules:
  - DOMAIN-SUFFIX,ghozokodq.com,增强广告拦截
  - DOMAIN-SUFFIX,ghwqbii.icu,增强广告拦截
  - DOMAIN-SUFFIX,gi0.icu,增强广告拦截
+ - DOMAIN-SUFFIX,giphaudoq.com,增强广告拦截
  - DOMAIN-SUFFIX,gjhjjhgc.cn,增强广告拦截
  - DOMAIN-SUFFIX,gjinuqg.top,增强广告拦截
  - DOMAIN-SUFFIX,gjjskhdnm.top,增强广告拦截
@@ -4017,6 +4020,7 @@ rules:
  - DOMAIN-SUFFIX,hoxdotye.icu,增强广告拦截
  - DOMAIN-SUFFIX,hp7.fun,增强广告拦截
  - DOMAIN-SUFFIX,hp8g6.icu,增强广告拦截
+ - DOMAIN-SUFFIX,hptidc.top,增强广告拦截
  - DOMAIN-SUFFIX,hpzktd.xyz,增强广告拦截
  - DOMAIN-SUFFIX,hqhspv.xyz,增强广告拦截
  - DOMAIN-SUFFIX,hrjciqyu.icu,增强广告拦截
@@ -4261,6 +4265,7 @@ rules:
  - DOMAIN-SUFFIX,jditera.top,增强广告拦截
  - DOMAIN-SUFFIX,jdomsia.top,增强广告拦截
  - DOMAIN-SUFFIX,jdoshba.top,增强广告拦截
+ - DOMAIN-SUFFIX,jdqmhay.icu,增强广告拦截
  - DOMAIN-SUFFIX,jdrlfn.xyz,增强广告拦截
  - DOMAIN-SUFFIX,jdyurlia.top,增强广告拦截
  - DOMAIN-SUFFIX,jebrhb.icu,增强广告拦截
@@ -4564,6 +4569,7 @@ rules:
  - DOMAIN-SUFFIX,ligfdjnfd.cn,增强广告拦截
  - DOMAIN-SUFFIX,lijlrz.xyz,增强广告拦截
  - DOMAIN-SUFFIX,lipheak.com,增强广告拦截
+ - DOMAIN-SUFFIX,liqw.cn,增强广告拦截
  - DOMAIN-SUFFIX,lirretsn.com,增强广告拦截
  - DOMAIN-SUFFIX,lixiangmo.com,增强广告拦截
  - DOMAIN-SUFFIX,lixonj.xyz,增强广告拦截
@@ -5604,6 +5610,7 @@ rules:
  - DOMAIN-SUFFIX,tcinvdi.top,增强广告拦截
  - DOMAIN-SUFFIX,tciqgx.xyz,增强广告拦截
  - DOMAIN-SUFFIX,tclimii.top,增强广告拦截
+ - DOMAIN-SUFFIX,td86hsmlmggym.top,增强广告拦截
  - DOMAIN-SUFFIX,tdamcsi.top,增强广告拦截
  - DOMAIN-SUFFIX,tdfqvx.xyz,增强广告拦截
  - DOMAIN-SUFFIX,tdhnxf.xyz,增强广告拦截
@@ -5697,6 +5704,7 @@ rules:
  - DOMAIN-SUFFIX,trorqaeao.com,增强广告拦截
  - DOMAIN-SUFFIX,trpyceq.cn,增强广告拦截
  - DOMAIN-SUFFIX,trutvnci.top,增强广告拦截
+ - DOMAIN-SUFFIX,truuhmoen.com,增强广告拦截
  - DOMAIN-SUFFIX,truxedku.com,增强广告拦截
  - DOMAIN-SUFFIX,trvxbd.xyz,增强广告拦截
  - DOMAIN-SUFFIX,ts166.net,增强广告拦截
@@ -5835,6 +5843,7 @@ rules:
  - DOMAIN-SUFFIX,uiakq.top,增强广告拦截
  - DOMAIN-SUFFIX,uiatkc.xyz,增强广告拦截
  - DOMAIN-SUFFIX,uicdns.xyz,增强广告拦截
+ - DOMAIN-SUFFIX,uivc.cn,增强广告拦截
  - DOMAIN-SUFFIX,ujimtyt.top,增强广告拦截
  - DOMAIN-SUFFIX,ujmz.cn,增强广告拦截
  - DOMAIN-SUFFIX,ujovcb.cn,增强广告拦截
@@ -5859,6 +5868,7 @@ rules:
  - DOMAIN-SUFFIX,uoqc.cn,增强广告拦截
  - DOMAIN-SUFFIX,uoublit.top,增强广告拦截
  - DOMAIN-SUFFIX,uouvxlit.top,增强广告拦截
+ - DOMAIN-SUFFIX,uposnmb.icu,增强广告拦截
  - DOMAIN-SUFFIX,upyzqf.cn,增强广告拦截
  - DOMAIN-SUFFIX,uqaagi.xyz,增强广告拦截
  - DOMAIN-SUFFIX,uqcktxp.icu,增强广告拦截
@@ -5972,6 +5982,7 @@ rules:
  - DOMAIN-SUFFIX,vppzjv.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vpwizuj.icu,增强广告拦截
  - DOMAIN-SUFFIX,vpydjogaytpg.xyz,增强广告拦截
+ - DOMAIN-SUFFIX,vqaj6smlmtpym.top,增强广告拦截
  - DOMAIN-SUFFIX,vqbzpv.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vqlwoy.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vraataidz.com,增强广告拦截
@@ -5994,6 +6005,7 @@ rules:
  - DOMAIN-SUFFIX,vtlyrj.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vtrrxqbi.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vudqth.icu,增强广告拦截
+ - DOMAIN-SUFFIX,vuhf.cn,增强广告拦截
  - DOMAIN-SUFFIX,vuirssd.icu,增强广告拦截
  - DOMAIN-SUFFIX,vulitd.xyz,增强广告拦截
  - DOMAIN-SUFFIX,vupload.duowan.com,增强广告拦截
@@ -61084,6 +61096,47 @@ rules:
  - DOMAIN-SUFFIX,picjs.xyz,节点选择
  - DOMAIN-SUFFIX,edgedatg.com,节点选择
  - DOMAIN-SUFFIX,go.com,节点选择
+ - DOMAIN-KEYWORD,anthropic,节点选择
+ - DOMAIN-KEYWORD,claude,节点选择
+ - DOMAIN-KEYWORD,openai,节点选择
+ - DOMAIN,ai.google.dev,节点选择
+ - DOMAIN,api.githubcopilot.com,节点选择
+ - DOMAIN,api.groq.com,节点选择
+ - DOMAIN,api.together.xyz,节点选择
+ - DOMAIN,bard.google.com,节点选择
+ - DOMAIN,claude.ai,节点选择
+ - DOMAIN,console.groq.com,节点选择
+ - DOMAIN,copilot-proxy.githubusercontent.com,节点选择
+ - DOMAIN,copilot.microsoft.com,节点选择
+ - DOMAIN,gemini.google.com,节点选择
+ - DOMAIN,generativelanguage.googleapis.com,节点选择
+ - DOMAIN,imagine.meta.com,节点选择
+ - DOMAIN,sydney.bing.com,节点选择
+ - DOMAIN-SUFFIX,ai.azure.com,节点选择
+ - DOMAIN-SUFFIX,anthropic.com,节点选择
+ - DOMAIN-SUFFIX,auth0.com,节点选择
+ - DOMAIN-SUFFIX,bard.google.com,节点选择
+ - DOMAIN-SUFFIX,bing.com,节点选择
+ - DOMAIN-SUFFIX,chatgpt.com,节点选择
+ - DOMAIN-SUFFIX,claude.ai,节点选择
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,节点选择
+ - DOMAIN-SUFFIX,events.statsigapi.net,节点选择
+ - DOMAIN-SUFFIX,featuregates.org,节点选择
+ - DOMAIN-SUFFIX,gemini.google.com,节点选择
+ - DOMAIN-SUFFIX,grazie.ai,节点选择
+ - DOMAIN-SUFFIX,grazie.aws.intellij.net,节点选择
+ - DOMAIN-SUFFIX,identrust.com,节点选择
+ - DOMAIN-SUFFIX,intercom.io,节点选择
+ - DOMAIN-SUFFIX,intercomcdn.com,节点选择
+ - DOMAIN-SUFFIX,makersuite.google.com,节点选择
+ - DOMAIN-SUFFIX,meta.ai,节点选择
+ - DOMAIN-SUFFIX,mistral.ai,节点选择
+ - DOMAIN-SUFFIX,oaistatic.com,节点选择
+ - DOMAIN-SUFFIX,oaiusercontent.com,节点选择
+ - DOMAIN-SUFFIX,openai.com,节点选择
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,节点选择
+ - DOMAIN-SUFFIX,perplexity.ai,节点选择
+ - DOMAIN-SUFFIX,sora.com,节点选择
  - DOMAIN-KEYWORD,abematv.akamaized.net,节点选择
  - DOMAIN-SUFFIX,abema.io,节点选择
  - DOMAIN-SUFFIX,abema.tv,节点选择
