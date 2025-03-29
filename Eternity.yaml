@@ -357,6 +357,7 @@ proxies:
   - {name: 16-404-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 07dde9ed-59a8-463f-b6f7-8e258ebcb84c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-405-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 1f33bb5e-6f7b-448f-9ff7-4569ed515a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-406-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 1e9e0f78-4a87-4a39-9724-b0d82620e545, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
+  - {name: 16-407-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 32e498ec-d520-420a-a2c0-b88d20f585ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-408-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 66ae3c66-dd49-4331-9f3e-2429e3f71529, udp: true}
   - {name: 16-409-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 4d83b397-d2f1-44db-a2c0-b1f739506bf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-410-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 1be9aad3-bd8a-4845-a126-ee17682fda21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
@@ -428,7 +429,6 @@ proxies:
   - {name: 17-476-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2415dfbb-2390-437c-aaba-58477873d972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-477-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 08b3230e-f733-4991-8d6b-2f912a594087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-478-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 38013188-81d9-45a4-935a-8ff0d1198b7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-479-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 171f103c-657c-4a6a-8a7a-fdd4eecc6c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-480-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: d234f8fe-e539-45e1-b6bb-49b3d99748cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-481-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f1107766-e05c-4c23-9e27-f960ce713917, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-482-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 955eabca-3ce8-4bb8-bc7d-a45a8035dc27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -888,6 +888,7 @@ proxy-groups:
       - 16-404-RELAY
       - 16-405-US
       - 16-406-US
+      - 16-407-RELAY
       - 16-408-CN
       - 16-409-RELAY
       - 16-410-RELAY
@@ -959,7 +960,6 @@ proxy-groups:
       - 17-476-RELAY
       - 17-477-RELAY
       - 17-478-RELAY
-      - 17-479-RELAY
       - 17-480-SG
       - 17-481-US
       - 17-482-SG
@@ -1529,6 +1529,7 @@ proxy-groups:
       - 16-377-CN
       - 16-387-CN
       - 16-397-RELAY
+      - 16-407-RELAY
       - 16-417-CN
       - 17-427-RELAY
       - 17-437-US
@@ -1649,7 +1650,6 @@ proxy-groups:
       - 17-449-US
       - 17-459-RELAY
       - 17-469-SG
-      - 17-479-RELAY
       - 17-489-RELAY
       - 17-499-RELAY
       - 17-509-RELAY
