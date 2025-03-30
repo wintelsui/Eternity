@@ -124,6 +124,7 @@ proxies:
   - {name: 04-071-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 144bd45b-389d-3e57-a28e-959595000f0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-072-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 144bd45b-389d-3e57-a28e-959595000f0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 11-172-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: bfd18e57-24d7-450c-82ce-ef33462fa109, udp: true}
+  - {name: 11-173-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: bfd18e57-24d7-450c-82ce-ef33462fa109, udp: true}
   - {name: 11-174-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: bfd18e57-24d7-450c-82ce-ef33462fa109, udp: true}
   - {name: 11-175-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 059c7561-c570-4807-9b13-4e54c46e627e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 11-176-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: bfd18e57-24d7-450c-82ce-ef33462fa109, udp: true}
@@ -398,7 +399,6 @@ proxies:
   - {name: 17-446-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 091143f0-acbd-4ac5-8102-9f10a0ae8330, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-447-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 78aeddec-3dbf-459c-a7c6-076cc33985e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-448-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 894f79ec-d35d-4626-bc51-6db27b3f9e2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-449-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 51b322c1-8e08-442b-a903-04d80d33732a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-450-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 38013188-81d9-45a4-935a-8ff0d1198b7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-451-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: a89352cf-c711-4e6f-837a-3b63b9c42901, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-452-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: c55fef12-bfd8-4d4c-8d73-a54ba82b4b8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -683,6 +683,7 @@ proxy-groups:
       - 04-071-CN
       - 04-072-CN
       - 11-172-CN
+      - 11-173-CN
       - 11-174-CN
       - 11-175-RELAY
       - 11-176-CN
@@ -957,7 +958,6 @@ proxy-groups:
       - 17-446-RELAY
       - 17-447-RELAY
       - 17-448-RELAY
-      - 17-449-RELAY
       - 17-450-RELAY
       - 17-451-RELAY
       - 17-452-RELAY
@@ -1337,6 +1337,7 @@ proxy-groups:
       - 04-043-CN
       - 04-053-CN
       - 04-063-CN
+      - 11-173-CN
       - 11-183-CN
       - 12-193-CN
       - 12-203-RELAY
@@ -1723,7 +1724,6 @@ proxy-groups:
       - 17-419-RELAY
       - 17-429-RELAY
       - 17-439-RELAY
-      - 17-449-RELAY
       - 17-459-US
       - 17-469-RELAY
       - 17-479-RELAY
