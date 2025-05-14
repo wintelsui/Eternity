@@ -52,6 +52,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-0000-CN, server: 103.136.185.28, port: 447, type: trojan, password: ec4f8605-b934-3832-8590-3f72a4868a37, sni: cgsg2.hysality.com, skip-cert-verify: true, udp: true}
   - {name: 02-0001-CN, server: 59.42.247.189, port: 8004, type: vmess, uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nmkj}, udp: true}
   - {name: 02-0002-CN, server: gdlt.aicheetah.lol, port: 43450, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd, udp: true}
   - {name: 02-0003-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -72,10 +73,12 @@ proxies:
   - {name: 04-0019-CN, server: b.api.studyservice.top, port: 51014, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0020-US, server: c.api.studyservice.top, port: 51015, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0021-CN, server: b.api.studyservice.top, port: 51017, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
-  - {name: "04-0022-UStrojan//09e8b39a-4c09-4df0-a50c-af3bef01567e@gzyd.cg.xxality.cn35000?allowInsecure=1&sni=cgsg2.hysality.com#02-0000-CN", server: c.api.studyservice.top, port: 51018, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
+  - {name: 04-0022-US, server: c.api.studyservice.top, port: 51018, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0023-SG, server: os-1.cooc.cloud, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0024-SG, server: os-1.cooc.cloud, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0124-CN, server: 43.100.9.65, port: 443, type: trojan, password: ec4f8605-b934-3832-8590-3f72a4868a37, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0125-JP, server: 47.245.40.60, port: 28446, type: trojan, password: ec4f8605-b934-3832-8590-3f72a4868a37, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0126-JP, server: 47.245.31.103, port: 28446, type: trojan, password: ec4f8605-b934-3832-8590-3f72a4868a37, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0128-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: b475a5a4-6785-3ebd-bb9b-695e2033ca65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-0129-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: b475a5a4-6785-3ebd-bb9b-695e2033ca65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-0130-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: b475a5a4-6785-3ebd-bb9b-695e2033ca65, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -197,6 +200,7 @@ proxies:
   - {name: 07-0247-HK, server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com, port: 80, type: vmess, uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com}}, udp: true}
   - {name: 07-0248-HK, server: 4087dc1a-sv2sg0-swqixu-1luqs.hk.p5pv.com, port: 80, type: vmess, uuid: 788328ee-d49f-11ef-bd97-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4087dc1a-sv2sg0-swqixu-1luqs.hk.p5pv.com}}, udp: true}
   - {name: 07-0249-HK, server: e7f8ba18-sv2sg0-svgrek-1ok3j.hk.p5pv.com, port: 80, type: vmess, uuid: 84de144e-f418-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e7f8ba18-sv2sg0-svgrek-1ok3j.hk.p5pv.com}}, udp: true}
+  - {name: 07-0250-HK, server: 2d670791-sv2sg0-t9i7o2-1lt20.hk.p5pv.com, port: 80, type: vmess, uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2d670791-sv2sg0-t9i7o2-1lt20.hk.p5pv.com}}, udp: true}
   - {name: 07-0251-HK, server: 9e4ea3b8-sv0xs0-tcp4th-1c4g6.hk.p5pv.com, port: 80, type: vmess, uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9e4ea3b8-sv0xs0-tcp4th-1c4g6.hk.p5pv.com}}, udp: true}
   - {name: 07-0252-HK, server: 10f6d40e-sv2sg0-tcr97d-2b2n.hk.p5pv.com, port: 80, type: vmess, uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 10f6d40e-sv2sg0-tcr97d-2b2n.hk.p5pv.com}}, udp: true}
   - {name: 07-0253-HK, server: 2b6b15f7-sv2sg0-t6kzbp-1h5u7.hk.p5pv.com, port: 80, type: vmess, uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2b6b15f7-sv2sg0-t6kzbp-1h5u7.hk.p5pv.com}}, udp: true}
@@ -210,7 +214,6 @@ proxies:
   - {name: 07-0262-HK, server: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com, port: 80, type: vmess, uuid: c915da48-3bc5-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com}}, udp: true}
   - {name: 07-0263-HK, server: e9ba756a-svdwg0-swd5ff-f1v1.hk.p5pv.com, port: 80, type: vmess, uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e9ba756a-svdwg0-swd5ff-f1v1.hk.p5pv.com}}, udp: true}
   - {name: 07-0264-HK, server: 6e6974ac-sv0xs0-tcdlur-1qwom.hk.p5pv.com, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6e6974ac-sv0xs0-tcdlur-1qwom.hk.p5pv.com}}, udp: true}
-  - {name: 07-0265-HK, server: c6da11bd-sv2sg0-t6ctgc-1s3hd.hk.p5pv.com, port: 80, type: vmess, uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c6da11bd-sv2sg0-t6ctgc-1s3hd.hk.p5pv.com}}, udp: true}
   - {name: 07-0266-HK, server: 8d15e402-sv0xs0-t66wbo-160fj.hk.p5pv.com, port: 80, type: vmess, uuid: e7eb17a0-257a-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8d15e402-sv0xs0-t66wbo-160fj.hk.p5pv.com}}, udp: true}
   - {name: 07-0267-HK, server: 7bd5f119-sv2sg0-swocza-1d3bw.hk.p5pv.com, port: 80, type: vmess, uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7bd5f119-sv2sg0-swocza-1d3bw.hk.p5pv.com}}, udp: true}
   - {name: 07-0268-HK, server: b1675795-sv0xs0-t32oyt-1k9hc.hk.p5pv.com, port: 80, type: vmess, uuid: 1c7eef0a-56de-11ee-a993-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b1675795-sv0xs0-t32oyt-1k9hc.hk.p5pv.com}}, udp: true}
@@ -221,7 +224,6 @@ proxies:
   - {name: 07-0273-HK, server: d310aa86-sv0xs0-swskl4-1rh01.hk.p5pv.com, port: 80, type: vmess, uuid: 4c0ba4a2-1510-11ef-ba65-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d310aa86-sv0xs0-swskl4-1rh01.hk.p5pv.com}}, udp: true}
   - {name: 07-0274-HK, server: bbf6bb8d-sv0xs0-t0t0ee-1tave.hk.p5pv.com, port: 80, type: vmess, uuid: a930bf30-e465-11ef-bd0b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bbf6bb8d-sv0xs0-t0t0ee-1tave.hk.p5pv.com}}, udp: true}
   - {name: 07-0276-HK, server: 9fcf426f-sv6hs0-tcmken-19les.hk.p5pv.com, port: 80, type: vmess, uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9fcf426f-sv6hs0-tcmken-19les.hk.p5pv.com}}, udp: true}
-  - {name: 07-0277-HK, server: 137feb1b-sva740-svrs3m-1qct1.hk.p5pv.com, port: 80, type: vmess, uuid: ae2c23e8-9204-11ef-b635-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 137feb1b-sva740-svrs3m-1qct1.hk.p5pv.com}}, udp: true}
   - {name: 07-0278-HK, server: ba6a650a-sv6hs0-sy4pcz-1rq7q.hk.p5pv.com, port: 80, type: vmess, uuid: 973e86c4-2c85-11ef-afb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba6a650a-sv6hs0-sy4pcz-1rq7q.hk.p5pv.com}}, udp: true}
   - {name: 07-0279-HK, server: 1372a825-sv6hs0-t5wcb1-13x18.hk.p5pv.com, port: 80, type: vmess, uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1372a825-sv6hs0-t5wcb1-13x18.hk.p5pv.com}}, udp: true}
   - {name: 07-0280-HK, server: 04c203eb-sv6hs0-t7udc0-1pqhp.hk.p5pv.com, port: 80, type: vmess, uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 04c203eb-sv6hs0-t7udc0-1pqhp.hk.p5pv.com}}, udp: true}
@@ -644,8 +646,6 @@ proxies:
   - {name: 16-0697-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b4c10020-a87f-4808-b8f4-9a25b651ce56, udp: true}
   - {name: 16-0698-RELAY, server: time.is, port: 443, type: vmess, uuid: 3d67427f-279b-404a-a0ec-8131594cd325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 16-0699-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 8fd4c8c2-b2e6-46df-8fb7-657ae6840700, udp: true}
-  - {name: 17-1820-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: d4237da9-1b82-42dd-ae4f-8cc27f69e18a, udp: true}
-  - {name: 17-1821-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 11ad0fd0-a097-4f0e-bdc3-037542bfb731, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1822-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 779a6416-1a35-4243-bbe1-ade7236837c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1823-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 5143114a-2451-4441-9255-47d7af7a740e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1824-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: e18346c7-967d-4bdd-9f76-d993e8d8363c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -666,6 +666,7 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
+      - 02-0000-CN
       - 02-0001-CN
       - 02-0002-CN
       - 02-0003-CN
@@ -686,10 +687,12 @@ proxy-groups:
       - 04-0019-CN
       - 04-0020-US
       - 04-0021-CN
-      - 04-0022-UStrojan//09e8b39a-4c09-4df0-a50c-af3bef01567e@gzyd.cg.xxality.cn35000?allowInsecure=1&sni=cgsg2.hysality.com#02-0000-CN
+      - 04-0022-US
       - 04-0023-SG
       - 04-0024-SG
       - 04-0124-CN
+      - 04-0125-JP
+      - 04-0126-JP
       - 04-0128-CN
       - 04-0129-CN
       - 04-0130-CN
@@ -811,6 +814,7 @@ proxy-groups:
       - 07-0247-HK
       - 07-0248-HK
       - 07-0249-HK
+      - 07-0250-HK
       - 07-0251-HK
       - 07-0252-HK
       - 07-0253-HK
@@ -824,7 +828,6 @@ proxy-groups:
       - 07-0262-HK
       - 07-0263-HK
       - 07-0264-HK
-      - 07-0265-HK
       - 07-0266-HK
       - 07-0267-HK
       - 07-0268-HK
@@ -835,7 +838,6 @@ proxy-groups:
       - 07-0273-HK
       - 07-0274-HK
       - 07-0276-HK
-      - 07-0277-HK
       - 07-0278-HK
       - 07-0279-HK
       - 07-0280-HK
@@ -1258,8 +1260,6 @@ proxy-groups:
       - 16-0697-TW
       - 16-0698-RELAY
       - 16-0699-TW
-      - 17-1820-CN
-      - 17-1821-RELAY
       - 17-1822-RELAY
       - 17-1823-RELAY
       - 17-1824-RELAY
@@ -1378,7 +1378,6 @@ proxy-groups:
       - 16-0671-CN
       - 16-0681-RELAY
       - 16-0691-RELAY
-      - 17-1821-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1387,7 +1386,7 @@ proxy-groups:
     proxies:
       - 02-0002-CN
       - 04-0012-CN
-      - 04-0022-UStrojan//09e8b39a-4c09-4df0-a50c-af3bef01567e@gzyd.cg.xxality.cn35000?allowInsecure=1&sni=cgsg2.hysality.com#02-0000-CN
+      - 04-0022-US
       - 04-0132-CN
       - 04-0142-RELAY
       - 04-0152-CN
@@ -1588,6 +1587,7 @@ proxy-groups:
     proxies:
       - 02-0005-CN
       - 04-0015-CN
+      - 04-0125-JP
       - 04-0135-CN
       - 04-0145-CN
       - 04-0155-CN
@@ -1601,7 +1601,6 @@ proxy-groups:
       - 07-0235-HK
       - 07-0245-HK
       - 07-0255-HK
-      - 07-0265-HK
       - 07-0285-HK
       - 07-0295-CN
       - 07-0305-CN
@@ -1652,6 +1651,7 @@ proxy-groups:
     proxies:
       - 04-0006-CN
       - 04-0016-CN
+      - 04-0126-JP
       - 04-0136-CN
       - 04-0146-CN
       - 04-0156-CN
@@ -1730,7 +1730,6 @@ proxy-groups:
       - 07-0247-HK
       - 07-0257-HK
       - 07-0267-HK
-      - 07-0277-HK
       - 07-0287-HK
       - 07-0297-CN
       - 07-0307-CN
@@ -1910,9 +1909,9 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0000-CN
       - 04-0010-CN
       - 04-0020-US
-      - 04-0022-UStrojan//09e8b39a-4c09-4df0-a50c-af3bef01567e@gzyd.cg.xxality.cn35000?allowInsecure=1&sni=cgsg2.hysality.com#02-0000-CN
       - 04-0130-CN
       - 04-0140-RELAY
       - 04-0150-CN
@@ -1925,6 +1924,7 @@ proxy-groups:
       - 07-0220-HK
       - 07-0230-HK
       - 07-0240-HK
+      - 07-0250-HK
       - 07-0260-HK
       - 07-0270-HK
       - 07-0280-HK
@@ -1969,7 +1969,6 @@ proxy-groups:
       - 16-0670-RELAY
       - 16-0680-RELAY
       - 16-0690-RELAY
-      - 17-1820-CN
   - name: 广告拦截
     type: select
     proxies:
