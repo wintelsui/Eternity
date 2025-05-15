@@ -104,6 +104,8 @@ proxies:
   - {name: 04-0052-SG, server: os-1.cooc.cloud, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-0152-CN, server: 43.100.9.65, port: 443, type: trojan, password: 5fc4e858-a38e-3746-bea4-9b5d68a81003, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0153-JP, server: 47.245.40.60, port: 28447, type: trojan, password: 5fc4e858-a38e-3746-bea4-9b5d68a81003, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0154-JP, server: 47.245.31.103, port: 28447, type: trojan, password: 5fc4e858-a38e-3746-bea4-9b5d68a81003, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0155-US, server: 103.136.185.28, port: 447, type: trojan, password: 5fc4e858-a38e-3746-bea4-9b5d68a81003, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0156-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: a89df0a3-16f6-3bc2-b976-02594e953d52, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-0157-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: a89df0a3-16f6-3bc2-b976-02594e953d52, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-0158-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: a89df0a3-16f6-3bc2-b976-02594e953d52, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -308,6 +310,7 @@ proxies:
   - {name: 16-0361-NOWHERE, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 056a5c8f-e62b-4e83-bd49-ad3d094c6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 16-0362-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: dbe2d090-ba02-41d7-90bc-52886a1d73ae, udp: true}
   - {name: 16-0363-NOWHERE, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 6deabd44-b589-45b3-882d-09ad216184fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
+  - {name: 16-0364-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b4c10020-a87f-4808-b8f4-9a25b651ce56, udp: true}
   - {name: 16-0365-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: b4c10020-a87f-4808-b8f4-9a25b651ce56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 16-0366-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 16-0367-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: b4c10020-a87f-4808-b8f4-9a25b651ce56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
@@ -324,6 +327,7 @@ proxies:
   - {name: 16-0378-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 603b6f0d-7b48-467a-ac86-12c07a69b4ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 16-0379-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 61f71009-0862-457f-8815-e77dfffd2f6c, udp: true}
   - {name: 16-0380-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: d09ef8f1-2143-4efe-90a9-6c9421a5eba4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
+  - {name: 16-0381-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 30027fec-c518-4c67-aa1a-6c7c97273692, udp: true}
   - {name: 16-0382-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 0e166aa2-693c-4a7f-85f5-91ceab2409ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 16-0383-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 3d67427f-279b-404a-a0ec-8131594cd325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 16-0384-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 36206e8f-abe2-49a3-97c4-73622bee55ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
@@ -496,7 +500,7 @@ proxies:
   - {name: 16-0551-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: fc996722-c430-4d27-a78f-dcee089a7563, udp: true}
   - {name: 16-0552-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 16-0553-RELAY, server: time.is, port: 443, type: vmess, uuid: 39fd1982-d7fe-4ecf-8003-f7d2de58c815, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
-  - {name: 16-0554-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b9adba85-7cf5-4623-895c-1844e61e91f4, udp: true}
+  - {name: "16-0554-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US", server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b9adba85-7cf5-4623-895c-1844e61e91f4, udp: true}
   - {name: 16-0555-RELAY, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: 056a5c8f-e62b-4e83-bd49-ad3d094c6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xiaoqi.yangmie.online}}, udp: true}
   - {name: 16-0556-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: f4e383bd-9ecf-4b65-bc88-8b4391ffd368, udp: true}
   - {name: 16-0557-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 0e166aa2-693c-4a7f-85f5-91ceab2409ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
@@ -592,9 +596,7 @@ proxies:
   - {name: 17-0648-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: d2d7a5fd-e695-447c-9df8-fa2060d050f6, udp: true}
   - {name: 17-0649-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 176d5351-6e15-42b3-a727-1fee58743c96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 17-0650-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: ef78766c-a437-420b-97df-6faa3771b22c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-0651-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 076f7fa3-0a76-49ba-9d4d-22c0da6b5ab2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0653-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: dae3e044-ccec-402f-a9b6-b620eb7257f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
-  - {name: 17-0654-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 95bd46fd-2cd3-4cd3-9401-5032fbed9e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0655-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 779a6416-1a35-4243-bbe1-ade7236837c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0656-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b92b9c81-d707-4601-8d92-18d83357d8d2, udp: true}
   - {name: 17-0657-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 044b40e1-d4d2-4d7a-86a6-dc110039e859, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -620,11 +622,6 @@ proxies:
   - {name: 17-0695-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 6b0bd8de-83dd-4193-8e99-2448edc9c630, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0697-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 4ff89a76-297d-4818-a565-bc0b86fed9ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0698-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: e51bbfd7-dd4a-44ae-a390-7de02634b591, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1746-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: eefcd8fc-9262-4f4f-bfa4-3504cfc816b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1747-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: b92b9c81-d707-4601-8d92-18d83357d8d2, udp: true}
-  - {name: 17-1748-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 71b76251-6c99-4aa1-840c-76909886d2b3, udp: true}
-  - {name: 17-1749-RELAY, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: e41e9afe-aaf6-4010-882f-caa727e58325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
-  - {name: 17-1750-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 22d18e1c-b385-4cd1-9e0c-a4abcaa270f2, udp: true}
   - {name: 17-1751-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: bda0d0c5-ffd4-48d9-b950-de02f9db5ae8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1753-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: d32d773c-957f-4c30-881b-6f785886bac6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 17-1754-RELAY, server: time.is, port: 443, type: vmess, uuid: eee8ae69-b268-4281-a64e-4c61abbc3033, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
@@ -632,20 +629,23 @@ proxies:
   - {name: 17-1758-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 8978274d-71b5-4f60-b000-f112b8258115, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1759-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 980a83d2-8af0-4808-9612-5ea32483b4fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 17-1760-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 968646fd-d96d-40f8-b45d-fa8484133c57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
+  - {name: 17-1761-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: ba7d4abc-a5b8-46ff-9714-85fb3dd4e6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1762-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 71b76251-6c99-4aa1-840c-76909886d2b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 17-1763-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3fccafcd-2f3e-40ac-8416-8b95a5fc1243, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1766-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 03992348-6d45-48fa-bf54-ae52f28c86ff, udp: true}
+  - {name: 17-1767-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 092e122e-f2e3-4f0c-a80b-3725973207e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-1768-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 250cca3d-05b1-41f9-b0a2-2593b1e91fbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-1769-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1dec1e5c-cce8-4cf1-8d58-04d3aed13156, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1770-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 1e4fe375-7dc5-4603-bc6a-92b005834b27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 17-1771-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 3cb614ba-3c17-45a9-9e39-8644ae41faaf, udp: true}
+  - {name: 17-1772-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 633909ba-1ad8-4069-8156-8218bb15ed9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1774-NOWHERE, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 22d18e1c-b385-4cd1-9e0c-a4abcaa270f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 17-1775-JP, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 0e17043e-b888-473b-9dd1-01d10b7e917b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
   - {name: 17-1776-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2bafb899-7f98-4a54-9f33-69ec4c818eef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1777-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 9b449fb1-2887-4157-ae29-91072d50b844, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1778-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 96eeaabd-e4a1-44b4-80f8-be9a4e06f2d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1779-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 7eea5c80-a43c-4876-88bb-a4f6e3fb56cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1781-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: e41e9afe-aaf6-4010-882f-caa727e58325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
-  - {name: "17-1782-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US", server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2ef174-6e95-4cd3-91ae-0866da8a267f, udp: true}
-  - {name: 17-1783-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: f335be5b-f444-4a5c-a5a2-89eaf03f661b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-1782-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 1a2ef174-6e95-4cd3-91ae-0866da8a267f, udp: true}
   - {name: 17-1784-RELAY, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: ef869ef3-a764-4944-8dcf-e90655feb17e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
   - {name: 17-1785-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 9a84c3a4-7348-4472-9099-ed2c82a24ccc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1786-RELAY, server: time.is, port: 80, type: vmess, uuid: 980a83d2-8af0-4808-9612-5ea32483b4fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
@@ -718,6 +718,8 @@ proxy-groups:
       - 04-0052-SG
       - 04-0152-CN
       - 04-0153-JP
+      - 04-0154-JP
+      - 04-0155-US
       - 04-0156-CN
       - 04-0157-CN
       - 04-0158-CN
@@ -922,6 +924,7 @@ proxy-groups:
       - 16-0361-NOWHERE
       - 16-0362-TW
       - 16-0363-NOWHERE
+      - 16-0364-TW
       - 16-0365-RELAY
       - 16-0366-NOWHERE
       - 16-0367-NOWHERE
@@ -938,6 +941,7 @@ proxy-groups:
       - 16-0378-NOWHERE
       - 16-0379-CN
       - 16-0380-RELAY
+      - 16-0381-TW
       - 16-0382-RELAY
       - 16-0383-RELAY
       - 16-0384-RELAY
@@ -1110,7 +1114,7 @@ proxy-groups:
       - 16-0551-CN
       - 16-0552-RELAY
       - 16-0553-RELAY
-      - 16-0554-TW
+      - 16-0554-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
       - 16-0555-RELAY
       - 16-0556-CN
       - 16-0557-NOWHERE
@@ -1206,9 +1210,7 @@ proxy-groups:
       - 17-0648-CN
       - 17-0649-RELAY
       - 17-0650-RELAY
-      - 17-0651-RELAY
       - 17-0653-RELAY
-      - 17-0654-RELAY
       - 17-0655-RELAY
       - 17-0656-TW
       - 17-0657-NOWHERE
@@ -1234,11 +1236,6 @@ proxy-groups:
       - 17-0695-RELAY
       - 17-0697-RELAY
       - 17-0698-RELAY
-      - 17-1746-RELAY
-      - 17-1747-CN
-      - 17-1748-TW
-      - 17-1749-RELAY
-      - 17-1750-TW
       - 17-1751-RELAY
       - 17-1753-RELAY
       - 17-1754-RELAY
@@ -1246,20 +1243,23 @@ proxy-groups:
       - 17-1758-RELAY
       - 17-1759-NOWHERE
       - 17-1760-NOWHERE
+      - 17-1761-RELAY
       - 17-1762-RELAY
       - 17-1763-NOWHERE
       - 17-1766-TW
+      - 17-1767-RELAY
+      - 17-1768-RELAY
+      - 17-1769-RELAY
       - 17-1770-RELAY
       - 17-1771-CN
+      - 17-1772-RELAY
       - 17-1774-NOWHERE
       - 17-1775-JP
       - 17-1776-RELAY
       - 17-1777-RELAY
-      - 17-1778-RELAY
       - 17-1779-RELAY
       - 17-1781-NOWHERE
-      - 17-1782-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
-      - 17-1783-RELAY
+      - 17-1782-TW
       - 17-1784-RELAY
       - 17-1785-RELAY
       - 17-1786-RELAY
@@ -1346,6 +1346,7 @@ proxy-groups:
       - 16-0351-NOWHERE
       - 16-0361-NOWHERE
       - 16-0371-RELAY
+      - 16-0381-TW
       - 16-0391-CN
       - 16-0401-RELAY
       - 16-0411-RELAY
@@ -1372,9 +1373,9 @@ proxy-groups:
       - 16-0621-TW
       - 16-0631-RELAY
       - 16-0641-NOWHERE
-      - 17-0651-RELAY
       - 17-0661-RELAY
       - 17-1751-RELAY
+      - 17-1761-RELAY
       - 17-1771-CN
       - 17-1781-NOWHERE
   - name: 测速2分组
@@ -1441,7 +1442,8 @@ proxy-groups:
       - 16-0642-TW
       - 17-0682-RELAY
       - 17-1762-RELAY
-      - 17-1782-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
+      - 17-1772-RELAY
+      - 17-1782-TW
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1506,7 +1508,6 @@ proxy-groups:
       - 17-0673-RELAY
       - 17-1753-RELAY
       - 17-1763-NOWHERE
-      - 17-1783-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1518,6 +1519,7 @@ proxy-groups:
       - 02-0024-SG
       - 04-0034-CN
       - 04-0044-CN
+      - 04-0154-JP
       - 04-0164-CN
       - 04-0174-CN
       - 04-0184-CN
@@ -1537,6 +1539,7 @@ proxy-groups:
       - 16-0334-CN
       - 16-0344-NOWHERE
       - 16-0354-RELAY
+      - 16-0364-TW
       - 16-0374-NOWHERE
       - 16-0384-RELAY
       - 16-0394-RELAY
@@ -1555,7 +1558,7 @@ proxy-groups:
       - 16-0524-CN
       - 16-0534-RELAY
       - 16-0544-RELAY
-      - 16-0554-TW
+      - 16-0554-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
       - 16-0564-NOWHERE
       - 16-0574-RELAY
       - 16-0584-RELAY
@@ -1565,11 +1568,9 @@ proxy-groups:
       - 16-0624-CN
       - 16-0634-TW
       - 16-0644-TW
-      - 17-0654-RELAY
       - 17-0674-RELAY
       - 17-1754-RELAY
       - 17-1774-NOWHERE
-      - 17-1782-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
       - 17-1784-RELAY
   - name: 测速5分组
     type: url-test
@@ -1581,6 +1582,7 @@ proxy-groups:
       - 02-0015-GB
       - 04-0035-CN
       - 04-0045-US
+      - 04-0155-US
       - 04-0165-CN
       - 04-0175-CN
       - 04-0185-CN
@@ -1686,6 +1688,7 @@ proxy-groups:
       - 16-0526-CN
       - 16-0536-NOWHERE
       - 16-0546-NOWHERE
+      - 16-0554-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
       - 16-0556-CN
       - 16-0566-TW
       - 16-0576-RELAY
@@ -1699,10 +1702,8 @@ proxy-groups:
       - 17-0656-TW
       - 17-0666-RELAY
       - 17-0676-RELAY
-      - 17-1746-RELAY
       - 17-1766-TW
       - 17-1776-RELAY
-      - 17-1782-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-0026-US
       - 17-1786-RELAY
   - name: 测速7分组
     type: url-test
@@ -1767,7 +1768,7 @@ proxy-groups:
       - 17-0657-NOWHERE
       - 17-0667-TW
       - 17-0697-RELAY
-      - 17-1747-CN
+      - 17-1767-RELAY
       - 17-1777-RELAY
   - name: 测速8分组
     type: url-test
@@ -1832,9 +1833,8 @@ proxy-groups:
       - 17-0648-CN
       - 17-0658-NOWHERE
       - 17-0698-RELAY
-      - 17-1748-TW
       - 17-1758-RELAY
-      - 17-1778-RELAY
+      - 17-1768-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1900,8 +1900,8 @@ proxy-groups:
       - 17-0669-RELAY
       - 17-0679-RELAY
       - 17-0689-RELAY
-      - 17-1749-RELAY
       - 17-1759-NOWHERE
+      - 17-1769-RELAY
       - 17-1779-RELAY
   - name: 测速10分组
     type: url-test
@@ -1968,7 +1968,6 @@ proxy-groups:
       - 17-0670-RELAY
       - 17-0680-RELAY
       - 17-0690-NOWHERE
-      - 17-1750-TW
       - 17-1760-NOWHERE
       - 17-1770-RELAY
   - name: 广告拦截
