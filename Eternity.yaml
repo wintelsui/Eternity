@@ -52,7 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-000-AT, server: 103.136.185.28, port: 447, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-001-AT, server: 212.183.88.29, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-002-AT, server: 212.183.88.156, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-003-AT, server: 212.183.88.58, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
@@ -81,7 +80,6 @@ proxies:
   - {name: 02-027-RU, server: 45.67.215.196, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-028-RU, server: 45.67.215.153, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-029-RU, server: 45.67.215.218, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
-  - {name: 02-030-US, server: 47.245.31.103, port: 28449, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-031-US, server: 192.0.54.194, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-032-US, server: 192.0.54.184, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-033-US, server: 160.79.105.169, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
@@ -170,6 +168,8 @@ proxies:
   - {name: 04-215-CN, server: gy.58n.net, port: 20306, type: trojan, password: 843c74bf-f0ff-3d13-9806-a6886bd34387, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-216-CN, server: 43.100.9.65, port: 443, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-217-JP, server: 47.245.40.60, port: 28450, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-218-JP, server: 47.245.31.103, port: 28449, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-219-US, server: 103.136.185.28, port: 447, type: trojan, password: 1a6089ba-5860-38aa-a777-89ce15961303, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 07-220-NL, server: 45.154.98.124, port: 12001, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-221-RS, server: 38.180.100.80, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-222-RELAY, server: 162.159.152.205, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
@@ -184,7 +184,6 @@ proxies:
   - {name: 07-231-US, server: 103.79.118.14, port: 43456, type: trojan, password: 9107ad3d-747c-46c4-86b4-8438de3d21ce, skip-cert-verify: true, udp: true}
   - {name: 07-232-RELAY, server: 172.67.157.220, port: 443, type: trojan, password: cad5a49f-14e5-4a05-aae9-c5df8fad394f, sni: c1sWER.777159.XYz, skip-cert-verify: true, udp: true}
   - {name: 07-233-TW, server: green.cdntencentmusic.com, port: 28506, type: trojan, password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 07-234-US, server: wcw004-3.facai2024.com, port: 443, type: vmess, uuid: 09390803-92ae-4146-eaa8-0a01db85f766, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /09390803, headers: {Host: wcw004-3.facai2024.com}}, udp: true}
   - {name: 07-235-RELAY, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, udp: true}
   - {name: 07-236-RELAY, server: 104.21.64.1, port: 2053, type: vmess, uuid: 996016f7-da89-45f1-b3b4-555bc799ed86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-237-RELAY, server: 104.21.112.1, port: 2053, type: vmess, uuid: 996016f7-da89-45f1-b3b4-555bc799ed86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -625,7 +624,7 @@ proxies:
   - {name: 16-673-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 9332c22c-0a6e-4986-b41a-13eaf5f6fb92, udp: true}
   - {name: 16-674-RELAY, server: time.is, port: 443, type: vmess, uuid: 056a5c8f-e62b-4e83-bd49-ad3d094c6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 16-675-RELAY, server: time.is, port: 80, type: vmess, uuid: b9adba85-7cf5-4623-895c-1844e61e91f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
-  - {name: 16-676-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbbda9f-29ec-464e-a815-2311b8603ec0, udp: true}
+  - {name: "16-676-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-030-US", server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbbda9f-29ec-464e-a815-2311b8603ec0, udp: true}
   - {name: 16-677-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 1dffc3e6-490d-47fe-9ab2-157ec6bca60e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 16-678-RELAY, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: b54af734-85e3-4744-b116-548bbba172e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
   - {name: 16-679-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 2341d31b-8466-4896-8c5d-937d41b039ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
@@ -647,7 +646,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 02-000-AT
       - 02-001-AT
       - 02-002-AT
       - 02-003-AT
@@ -676,7 +674,6 @@ proxy-groups:
       - 02-027-RU
       - 02-028-RU
       - 02-029-RU
-      - 02-030-US
       - 02-031-US
       - 02-032-US
       - 02-033-US
@@ -765,6 +762,8 @@ proxy-groups:
       - 04-215-CN
       - 04-216-CN
       - 04-217-JP
+      - 04-218-JP
+      - 04-219-US
       - 07-220-NL
       - 07-221-RS
       - 07-222-RELAY
@@ -779,7 +778,6 @@ proxy-groups:
       - 07-231-US
       - 07-232-RELAY
       - 07-233-TW
-      - 07-234-US
       - 07-235-RELAY
       - 07-236-RELAY
       - 07-237-RELAY
@@ -1220,7 +1218,7 @@ proxy-groups:
       - 16-673-TW
       - 16-674-RELAY
       - 16-675-RELAY
-      - 16-676-TW
+      - 16-676-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-030-US
       - 16-677-NOWHERE
       - 16-678-RELAY
       - 16-679-RELAY
@@ -1485,7 +1483,6 @@ proxy-groups:
       - 04-204-CN
       - 04-214-CN
       - 07-224-DE
-      - 07-234-US
       - 07-244-RELAY
       - 07-254-RELAY
       - 07-264-HK
@@ -1530,6 +1527,7 @@ proxy-groups:
       - 16-654-RELAY
       - 16-664-TW
       - 16-674-RELAY
+      - 16-676-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-030-US
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1657,7 +1655,7 @@ proxy-groups:
       - 16-646-CN
       - 16-656-TW
       - 16-666-CN
-      - 16-676-TW
+      - 16-676-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-030-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1738,6 +1736,7 @@ proxy-groups:
       - 04-188-CN
       - 04-198-CN
       - 04-208-CN
+      - 04-218-JP
       - 07-228-CN
       - 07-238-RELAY
       - 07-248-BR
@@ -1801,6 +1800,7 @@ proxy-groups:
       - 04-189-CN
       - 04-199-CN
       - 04-209-CN
+      - 04-219-US
       - 07-229-CN
       - 07-239-RELAY
       - 07-249-BR
@@ -1853,10 +1853,8 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-000-AT
       - 02-010-CN
       - 02-020-GB
-      - 02-030-US
       - 04-040-RELAY
       - 04-150-CN
       - 04-160-CN
@@ -1911,6 +1909,7 @@ proxy-groups:
       - 16-650-RELAY
       - 16-660-TW
       - 16-670-TW
+      - 16-676-TWtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@160.79.105.81443?allowInsecure=1&sni=icecream.955850.xyz#02-030-US
       - 16-680-RELAY
   - name: 广告拦截
     type: select
