@@ -137,7 +137,10 @@ proxies:
   - {name: 04-183-CN, server: gy.58n.net, port: 20306, type: trojan, password: eda8410d-68e2-3d1a-88d2-162bfacd1e82, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-184-CN, server: 43.100.9.65, port: 443, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-185-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-186-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-187-JP, server: 47.245.40.60, port: 28452, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-188-JP, server: 47.245.31.103, port: 28452, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-189-US, server: 103.136.185.28, port: 447, type: trojan, password: 9d749039-0f14-3a05-9c9d-aa6137182c37, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 07-190-CN, server: tw004.dogsvip.site, port: 17004, type: ss, cipher: aes-256-gcm, password: 324970cf-e758-44d2-982d-32983fad93bb, udp: true}
   - {name: 07-191-US, server: 795e8ef2e2d56417b3a368b42c2a3c1c.v1.cac.node-is.green, port: 46808, type: trojan, password: c983a532-d8ee-4074-991c-c4a721178fdc, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-192-US, server: 4af53bc9f7c5b726b024b33f84cd88d1.v1.cac.node-is.green, port: 49317, type: trojan, password: ce71384b-7966-4139-a2f5-5d2ef263afb3, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
@@ -638,10 +641,7 @@ proxies:
   - {name: 16-696-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: deff309e-7742-446d-a996-df5e5b868704, udp: true}
   - {name: 16-697-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: 8f699f9d-e173-4078-a39f-59a3f8723e15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-698-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: b54af734-85e3-4744-b116-548bbba172e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
-  - {name: 16-780-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 056a5c8f-e62b-4e83-bd49-ad3d094c6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
-  - {name: 16-782-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 056a5c8f-e62b-4e83-bd49-ad3d094c6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 16-783-NOWHERE, server: bestcf.top, port: 80, type: vmess, uuid: 70cce08e-9f5f-45d8-81d6-d542be20bdd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
-  - {name: 16-784-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 1dffc3e6-490d-47fe-9ab2-157ec6bca60e, udp: true}
   - {name: 16-785-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 8bbbda9f-29ec-464e-a815-2311b8603ec0, udp: true}
   - {name: 16-786-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 64049fa0-0018-427c-9062-6eba2df3df35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
   - {name: 16-787-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: d549bdfe-0b83-4db2-9e9a-a0e40e26ebfd, udp: true}
@@ -751,7 +751,10 @@ proxy-groups:
       - 04-183-CN
       - 04-184-CN
       - 04-185-HK
+      - 04-186-HK
       - 04-187-JP
+      - 04-188-JP
+      - 04-189-US
       - 07-190-CN
       - 07-191-US
       - 07-192-US
@@ -1252,10 +1255,7 @@ proxy-groups:
       - 16-696-CN
       - 16-697-RELAY
       - 16-698-RELAY
-      - 16-780-RELAY
-      - 16-782-RELAY
       - 16-783-NOWHERE
-      - 16-784-CN
       - 16-785-CN
       - 16-786-RELAY
       - 16-787-CN
@@ -1445,7 +1445,6 @@ proxy-groups:
       - 16-672-NOWHERE
       - 16-682-CN
       - 16-692-RELAY
-      - 16-782-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1578,7 +1577,6 @@ proxy-groups:
       - 16-674-RELAY
       - 16-684-NOWHERE
       - 16-694-CN
-      - 16-784-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1659,6 +1657,7 @@ proxy-groups:
       - 04-156-CN
       - 04-166-CN
       - 04-176-CN
+      - 04-186-HK
       - 07-196-CN
       - 07-206-US
       - 07-226-HK
@@ -1789,6 +1788,7 @@ proxy-groups:
       - 04-158-CN
       - 04-168-CN
       - 04-178-CN
+      - 04-188-JP
       - 07-198-CN
       - 07-208-US
       - 07-228-HK
@@ -1855,6 +1855,7 @@ proxy-groups:
       - 04-159-CN
       - 04-169-CN
       - 04-179-CN
+      - 04-189-US
       - 07-199-US
       - 07-209-US
       - 07-229-HK
@@ -1968,7 +1969,6 @@ proxy-groups:
       - 16-670-RELAY
       - 16-680-NOWHERE
       - 16-690-NOWHERE
-      - 16-780-RELAY
       - 16-790-RELAY
   - name: 广告拦截
     type: select
