@@ -55,7 +55,6 @@ proxies:
   - {name: 02-000-JP, server: 3.112.1.63, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-001-KR, server: 3.35.173.232, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-002-JP, server: 18.179.51.93, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-003-US, server: 18.236.252.152, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-KR, server: 3.38.218.140, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-005-SG, server: 18.140.98.183, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-006-JP, server: 3.112.1.63, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -156,6 +155,7 @@ proxies:
   - {name: 04-201-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-202-JP, server: 47.245.40.60, port: 28462, type: trojan, password: 5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-203-JP, server: 47.245.31.103, port: 28459, type: trojan, password: 5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-204-US, server: 103.136.185.28, port: 447, type: trojan, password: 5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 06-205-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6137d8d3-b2cf-46c6-8b4e-180bcee31057, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 07-206-CN, server: 113.96.190.245, port: 10888, type: ss, cipher: chacha20-ietf-poly1305, password: 5e8fa330-fb4d-42a3-87c7-8ccd3a81743f, udp: true}
   - {name: 07-208-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -287,7 +287,7 @@ proxies:
   - {name: 18-337-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 18-338-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-339-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-340-KRtrojan//5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836@103.136.185.28447?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-204-US", server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
+  - {name: 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@18.236.252.1529898#02-003-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-341-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-342-RELAY, server: 104.21.96.1, port: 8443, type: vmess, uuid: 914584ee-3515-46ac-a09d-4677a2e9dc9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-343-RELAY, server: 104.21.96.1, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -389,7 +389,6 @@ proxy-groups:
       - 02-000-JP
       - 02-001-KR
       - 02-002-JP
-      - 02-003-US
       - 02-004-KR
       - 02-005-SG
       - 02-006-JP
@@ -490,6 +489,7 @@ proxy-groups:
       - 04-201-HK
       - 04-202-JP
       - 04-203-JP
+      - 04-204-US
       - 06-205-NOWHERE
       - 07-206-CN
       - 07-208-CN
@@ -621,7 +621,7 @@ proxy-groups:
       - 18-337-FR
       - 18-338-MD
       - 18-339-CA
-      - 18-340-KRtrojan//5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836@103.136.185.28447?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-204-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@18.236.252.1529898#02-003-US
       - 18-341-NO
       - 18-342-RELAY
       - 18-343-RELAY
@@ -835,7 +835,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-003-US
       - 02-013-KR
       - 04-023-RELAY
       - 04-133-CN
@@ -858,6 +857,7 @@ proxy-groups:
       - 13-313-CN
       - 13-323-CN
       - 18-333-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@18.236.252.1529898#02-003-US
       - 18-343-RELAY
       - 18-353-HK
       - 18-363-HK
@@ -883,6 +883,7 @@ proxy-groups:
       - 04-174-CN
       - 04-184-CN
       - 04-194-CN
+      - 04-204-US
       - 07-214-CN
       - 07-224-CN
       - 07-234-CN
@@ -896,7 +897,6 @@ proxy-groups:
       - 13-314-RELAY
       - 13-324-CN
       - 18-334-US
-      - 18-340-KRtrojan//5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836@103.136.185.28447?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-204-US
       - 18-344-JP
       - 18-354-HK
       - 18-364-HK
@@ -1121,7 +1121,7 @@ proxy-groups:
       - 13-310-RELAY
       - 13-320-CN
       - 18-330-FR
-      - 18-340-KRtrojan//5f73ef55-5f5b-3a4d-a14f-45cb4b2a2836@103.136.185.28447?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-204-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@18.236.252.1529898#02-003-US
       - 18-350-HK
       - 18-360-HK
       - 18-370-HK
