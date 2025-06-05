@@ -222,6 +222,7 @@ proxies:
   - {name: 09-282-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 09-283-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 09-284-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
+  - {name: 09-285-CA, server: 51.79.103.76, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 09-286-FR, server: 57.128.190.171, port: 11259, type: ss, cipher: chacha20-ietf-poly1305, password: f9d73c84e32a10f3, udp: true}
   - {name: 09-287-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-288-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
@@ -505,6 +506,7 @@ proxies:
   - {name: 18-586-RELAY, server: 172.67.200.13, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-587-JP, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-588-ES, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
+  - {name: 18-589-JPss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#40-686-US, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-590-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-591-CA, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 18-592-CA, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
@@ -597,7 +599,6 @@ proxies:
   - {name: 40-682-CN, server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com, port: 17232, type: vmess, uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-683-CH, server: 188.213.128.64, port: 2010, type: vmess, uuid: b117bd27-0e16-4342-852a-59f0c0aa61f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-685-RELAY, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FmZr1mA5hub7QHHkQBzYO", headers: {Host: DDd.890604.FIlEGear-sG.Me}}, udp: true}
-  - {name: 40-686-US, server: 35.91.246.41, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -785,6 +786,7 @@ proxy-groups:
       - 09-282-CA
       - 09-283-RELAY
       - 09-284-CH
+      - 09-285-CA
       - 09-286-FR
       - 09-287-LT
       - 09-288-RELAY
@@ -1068,6 +1070,7 @@ proxy-groups:
       - 18-586-RELAY
       - 18-587-JP
       - 18-588-ES
+      - 18-589-JPss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#40-686-US
       - 18-590-KR
       - 18-591-CA
       - 18-592-CA
@@ -1160,7 +1163,6 @@ proxy-groups:
       - 40-682-CN
       - 40-683-CH
       - 40-685-RELAY
-      - 40-686-US
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1477,6 +1479,7 @@ proxy-groups:
       - 08-255-CN
       - 08-265-CN
       - 08-275-RU
+      - 09-285-CA
       - 09-295-CA
       - 09-305-RELAY
       - 11-315-NOWHERE
@@ -1564,6 +1567,7 @@ proxy-groups:
       - 18-566-SK
       - 18-576-PY
       - 18-586-RELAY
+      - 18-589-JPss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#40-686-US
       - 18-596-HK
       - 18-606-HK
       - 18-616-HK
@@ -1573,7 +1577,6 @@ proxy-groups:
       - 18-656-HK
       - 18-666-HK
       - 40-676-RELAY
-      - 40-686-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1748,6 +1751,7 @@ proxy-groups:
       - 18-559-LT
       - 18-569-RU
       - 18-579-DE
+      - 18-589-JPss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#40-686-US
       - 18-599-LT
       - 18-609-HK
       - 18-619-HK
