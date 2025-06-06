@@ -203,7 +203,6 @@ proxies:
   - {name: 09-279-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-280-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-281-FR, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: k5jVKnDG0basEK9ql3OrFd, udp: true}
-  - {name: 09-282-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 10-283-CN, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-284-CN, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v12.heduian.link}}, udp: true}
   - {name: 10-285-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
@@ -326,7 +325,7 @@ proxies:
   - {name: 13-402-RELAY, server: time.is, port: 443, type: vmess, uuid: 648dd621-e9ee-4766-8a57-71f6ff27a7b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 13-403-CN, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 57a78155-f57c-4a3c-9d40-b5b1cb1ab53a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 13-404-CN, server: sd.needss.top, port: 52100, type: vmess, uuid: 0db242c3-217e-4158-ac38-20448565d0b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sd.needss.top}}, udp: true}
-  - {name: 13-405-HK, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 648dd621-e9ee-4766-8a57-71f6ff27a7b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
+  - {name: 13-405-RELAY, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 648dd621-e9ee-4766-8a57-71f6ff27a7b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
   - {name: 13-406-CN, server: i.needss.top, port: 15442, type: vmess, uuid: 0db242c3-217e-4158-ac38-20448565d0b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i.needss.top}}, udp: true}
   - {name: 13-407-CN, server: sd.needss.top, port: 45105, type: vmess, uuid: 0db242c3-217e-4158-ac38-20448565d0b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sd.needss.top}}, udp: true}
   - {name: 13-408-GOOGLE, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: a8755962-c200-4858-9bc2-756f0f236b54, udp: true}
@@ -365,6 +364,7 @@ proxies:
   - {name: 14-442-KR, server: p231.panda004.net, port: 43926, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 14-443-RELAY, server: 104.18.114.178, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 14-444-IL, server: 192.71.27.87, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-445-US, server: 38.75.137.42, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 14-446-AT, server: 212.183.88.172, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, skip-cert-verify: true, udp: true}
   - {name: 14-447-RELAY, server: 104.26.8.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 14-448-RELAY, server: 104.19.45.21, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -383,12 +383,12 @@ proxies:
   - {name: 14-461-RELAY, server: 104.26.0.33, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 14-462-RELAY, server: 104.19.45.147, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-463-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-464-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-465-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-466-US, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-467-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-468-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-469-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-470-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-471-US, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-472-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-473-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
@@ -462,8 +462,7 @@ proxies:
   - {name: 18-541-US, server: 2.58.87.221, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
   - {name: 18-542-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
   - {name: 18-543-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 18-544-JPss//YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.137.428882#14-445-US, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-545-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-544-JP, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-546-US, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 18-547-RELAY, server: tci5.tiamoci.us.kg, port: 80, type: vmess, uuid: 5f0aa94f-4e12-4703-90b5-bd4f57c96d3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tci5.tiamoci.us.kg}}, udp: true}
   - {name: 18-548-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
@@ -756,7 +755,6 @@ proxy-groups:
       - 09-279-RELAY
       - 09-280-RELAY
       - 09-281-FR
-      - 09-282-US
       - 10-283-CN
       - 10-284-CN
       - 10-285-NL
@@ -879,7 +877,7 @@ proxy-groups:
       - 13-402-RELAY
       - 13-403-CN
       - 13-404-CN
-      - 13-405-HK
+      - 13-405-RELAY
       - 13-406-CN
       - 13-407-CN
       - 13-408-GOOGLE
@@ -918,6 +916,7 @@ proxy-groups:
       - 14-442-KR
       - 14-443-RELAY
       - 14-444-IL
+      - 14-445-US
       - 14-446-AT
       - 14-447-RELAY
       - 14-448-RELAY
@@ -936,12 +935,12 @@ proxy-groups:
       - 14-461-RELAY
       - 14-462-RELAY
       - 18-463-US
-      - 18-464-US
       - 18-465-US
       - 18-466-US
       - 18-467-US
       - 18-468-US
       - 18-469-US
+      - 18-470-US
       - 18-471-US
       - 18-472-US
       - 18-473-RELAY
@@ -1015,8 +1014,7 @@ proxy-groups:
       - 18-541-US
       - 18-542-RU
       - 18-543-MD
-      - 18-544-JPss//YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.137.428882#14-445-US
-      - 18-545-JP
+      - 18-544-JP
       - 18-546-US
       - 18-547-RELAY
       - 18-548-KR
@@ -1273,7 +1271,6 @@ proxy-groups:
       - 08-252-NOWHERE
       - 09-262-LT
       - 09-272-RELAY
-      - 09-282-US
       - 10-292-CN
       - 11-302-NOWHERE
       - 11-312-NOWHERE
@@ -1415,7 +1412,6 @@ proxy-groups:
       - 13-434-CN
       - 14-444-IL
       - 14-454-RELAY
-      - 18-464-US
       - 18-474-US
       - 18-484-US
       - 18-494-GB
@@ -1423,7 +1419,7 @@ proxy-groups:
       - 18-514-GB
       - 18-524-GB
       - 18-534-CH
-      - 18-544-JPss//YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.137.428882#14-445-US
+      - 18-544-JP
       - 18-554-RELAY
       - 18-564-RELAY
       - 18-574-HK
@@ -1469,10 +1465,11 @@ proxy-groups:
       - 13-375-CN
       - 13-385-CN
       - 13-395-CN
-      - 13-405-HK
+      - 13-405-RELAY
       - 13-415-RELAY
       - 13-425-NOWHERE
       - 13-435-CN
+      - 14-445-US
       - 14-455-RELAY
       - 18-465-US
       - 18-475-US
@@ -1482,8 +1479,6 @@ proxy-groups:
       - 18-515-GB
       - 18-525-GB
       - 18-535-CH
-      - 18-544-JPss//YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.75.137.428882#14-445-US
-      - 18-545-JP
       - 18-555-CA
       - 18-565-HK
       - 18-575-HK
@@ -1768,6 +1763,7 @@ proxy-groups:
       - 13-430-CN
       - 14-450-RELAY
       - 14-460-RELAY
+      - 18-470-US
       - 18-480-US
       - 18-490-LT
       - 18-500-GB
