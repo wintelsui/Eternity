@@ -341,11 +341,12 @@ proxies:
   - {name: 14-501-HK, server: 154.209.4.233, port: 35991, type: vmess, uuid: a026cd81-1ee5-4908-8b2b-010717a60d3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-506-CN, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-523-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
+  - {name: 18-524-US, server: a.1314lovelydog.top, port: 443, type: vmess, uuid: 29d9535b-f25b-4936-e524-7368f67f2d7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.1314lovelydog.top}}, udp: true}
   - {name: 18-525-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-526-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-527-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-528-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-529-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-530-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-531-HK, server: n1737850919.ryjml.cn, port: 443, type: vmess, uuid: 224840e7-bde6-473a-b824-20ea10b91448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1737850919.ryjml.cn}}, udp: true}
   - {name: 18-532-US, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-533-RELAY, server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -402,7 +403,6 @@ proxies:
   - {name: 18-584-HK, server: 08897737-sv6hs0-t8tsp0-1szmi.hk.p5pv.com, port: 80, type: vmess, uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 08897737-sv6hs0-t8tsp0-1szmi.hk.p5pv.com}}, udp: true}
   - {name: 18-585-HK, server: 793e53e3-sv2sg0-tbnucr-1thfv.hk.p5pv.com, port: 80, type: vmess, uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 793e53e3-sv2sg0-tbnucr-1thfv.hk.p5pv.com}}, udp: true}
   - {name: 18-586-HK, server: 456c0ed1-swq1s0-t3imuc-2nr6.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: dab27b58-5210-11ea-a15d-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 456c0ed1-swq1s0-t3imuc-2nr6.hgc1.tcpbbr.net}}, udp: true}
-  - {name: 18-587-HK, server: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com, port: 80, type: vmess, uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0a46ce00-sunz40-taz53d-1j0y6.hk.p5pv.com}}, udp: true}
   - {name: 18-588-HK, server: 142a53ea-sv6hs0-t4v3jz-1k8ga.hk.p5pv.com, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 142a53ea-sv6hs0-t4v3jz-1k8ga.hk.p5pv.com}}, udp: true}
   - {name: 18-589-HK, server: b8605f97-swq1s0-swwcfg-1eijl.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b8605f97-swq1s0-swwcfg-1eijl.hgc1.tcpbbr.net}}, udp: true}
   - {name: 18-590-HK, server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com, port: 80, type: vmess, uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com}}, udp: true}
@@ -760,11 +760,12 @@ proxy-groups:
       - 14-501-HK
       - 14-506-CN
       - 18-523-RELAY
+      - 18-524-US
       - 18-525-RELAY
-      - 18-526-US
       - 18-527-US
       - 18-528-US
       - 18-529-CA
+      - 18-530-KR
       - 18-531-HK
       - 18-532-US
       - 18-533-RELAY
@@ -821,7 +822,6 @@ proxy-groups:
       - 18-584-HK
       - 18-585-HK
       - 18-586-HK
-      - 18-587-HK
       - 18-588-HK
       - 18-589-HK
       - 18-590-HK
@@ -1094,6 +1094,7 @@ proxy-groups:
       - 13-474-RELAY
       - 13-484-NOWHERE
       - 13-494-CN
+      - 18-524-US
       - 18-534-RELAY
       - 18-544-HK
       - 18-554-HK
@@ -1188,7 +1189,6 @@ proxy-groups:
       - 13-486-CN
       - 13-496-CN
       - 14-506-CN
-      - 18-526-US
       - 18-536-HK
       - 18-546-HK
       - 18-556-HK
@@ -1241,7 +1241,6 @@ proxy-groups:
       - 18-557-HK
       - 18-567-HK
       - 18-577-HK
-      - 18-587-HK
       - 18-597-HK
       - 18-607-HK
       - 18-617-HK
@@ -1376,6 +1375,7 @@ proxy-groups:
       - 13-470-CN
       - 13-480-NOWHERE
       - 13-490-NOWHERE
+      - 18-530-KR
       - 18-540-HK
       - 18-550-HK
       - 18-560-HK
