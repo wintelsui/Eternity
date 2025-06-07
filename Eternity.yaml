@@ -170,10 +170,10 @@ proxies:
   - {name: 09-334-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-335-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-336-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
-  - {name: 09-337-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-338-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-339-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-340-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
+  - {name: 09-341-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-342-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-343-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-344-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
@@ -401,9 +401,9 @@ proxies:
   - {name: 18-587-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-588-US, server: a.1314lovelydog.top, port: 443, type: vmess, uuid: 29d9535b-f25b-4936-e524-7368f67f2d7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.1314lovelydog.top}}, udp: true}
   - {name: 18-589-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-590-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-591-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-592-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 18-593-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-594-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-595-HK, server: n1737850919.ryjml.cn, port: 443, type: vmess, uuid: 224840e7-bde6-473a-b824-20ea10b91448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1737850919.ryjml.cn}}, udp: true}
   - {name: 18-596-US, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
@@ -510,7 +510,6 @@ proxies:
   - {name: 20-697-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-698-HK, server: d310aa86-sv0xs0-swskl4-1rh01.hk.p5pv.com, port: 80, type: vmess, uuid: 4c0ba4a2-1510-11ef-ba65-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d310aa86-sv0xs0-swskl4-1rh01.hk.p5pv.com}}, udp: true}
   - {name: 20-699-DE, server: 132.145.232.171, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 20-700-HK, server: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com, port: 80, type: vmess, uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com}}, udp: true}
   - {name: 20-701-HK, server: 60ca4aee-sv4n40-t8x4vo-12ujz.hk3.p5pv.com, port: 80, type: vmess, uuid: e5b57156-3c81-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 60ca4aee-sv4n40-t8x4vo-12ujz.hk3.p5pv.com}}, udp: true}
   - {name: 20-702-HK, server: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com, port: 80, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com}}, udp: true}
   - {name: 20-703-HK, server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com, port: 80, type: vmess, uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com}}, udp: true}
@@ -747,10 +746,10 @@ proxy-groups:
       - 09-334-RELAY
       - 09-335-RELAY
       - 09-336-RELAY
-      - 09-337-CA
       - 09-338-RELAY
       - 09-339-RELAY
       - 09-340-FR
+      - 09-341-US
       - 09-342-RELAY
       - 09-343-RELAY
       - 09-344-DE
@@ -978,9 +977,9 @@ proxy-groups:
       - 18-587-RELAY
       - 18-588-US
       - 18-589-RELAY
-      - 18-590-US
       - 18-591-US
       - 18-592-US
+      - 18-593-CA
       - 18-594-KR
       - 18-595-HK
       - 18-596-US
@@ -1087,7 +1086,6 @@ proxy-groups:
       - 20-697-DE
       - 20-698-HK
       - 20-699-DE
-      - 20-700-HK
       - 20-701-HK
       - 20-702-HK
       - 20-703-HK
@@ -1258,6 +1256,7 @@ proxy-groups:
       - 08-311-CN
       - 08-321-CN
       - 09-331-RELAY
+      - 09-341-US
       - 10-351-RELAY
       - 11-361-RU
       - 11-371-CN
@@ -1403,6 +1402,7 @@ proxy-groups:
       - 17-563-CN
       - 17-573-CN
       - 17-583-CN
+      - 18-593-CA
       - 18-603-HK
       - 18-613-HK
       - 18-623-HK
@@ -1626,7 +1626,6 @@ proxy-groups:
       - 08-307-HK
       - 08-317-CN
       - 08-327-RELAY
-      - 09-337-CA
       - 10-347-CN
       - 10-357-CN
       - 11-367-NOWHERE
@@ -1835,7 +1834,6 @@ proxy-groups:
       - 17-560-NOWHERE
       - 17-570-NOWHERE
       - 17-580-NOWHERE
-      - 18-590-US
       - 18-600-HK
       - 18-610-HK
       - 18-620-HK
@@ -1846,7 +1844,6 @@ proxy-groups:
       - 18-670-HK
       - 18-680-HK
       - 18-690-HK
-      - 20-700-HK
       - 21-710-RELAY
       - 24-790-NOWHERE
       - 24-800-NOWHERE
