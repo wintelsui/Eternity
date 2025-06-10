@@ -397,6 +397,7 @@ proxies:
   - {name: 17-510-NOWHERE, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: ba59d45f-82bf-4cf7-b73a-297978fdee35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 17-511-CN, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: ba59d45f-82bf-4cf7-b73a-297978fdee35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 17-512-HK, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: ba59d45f-82bf-4cf7-b73a-297978fdee35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.dashuai.cyou}}, udp: true}
+  - {name: 18-513-US, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-514-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-515-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 18-516-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -460,7 +461,6 @@ proxies:
   - {name: 18-574-CA, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-575-AT, server: 5.181.21.194, port: 18660, type: ss, cipher: chacha20-ietf-poly1305, password: pV5BAzqLZosOfuIrkyoadT, udp: true}
   - {name: 18-576-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-577-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 18-578-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-579-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-580-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1005,6 +1005,7 @@ proxy-groups:
       - 17-510-NOWHERE
       - 17-511-CN
       - 17-512-HK
+      - 18-513-US
       - 18-514-US
       - 18-515-US
       - 18-516-RELAY
@@ -1068,7 +1069,6 @@ proxy-groups:
       - 18-574-CA
       - 18-575-AT
       - 18-576-GB
-      - 18-577-US
       - 18-578-US
       - 18-579-SK
       - 18-580-NL
@@ -1471,6 +1471,7 @@ proxy-groups:
       - 16-483-NOWHERE
       - 17-493-CN
       - 17-503-CN
+      - 18-513-US
       - 18-523-US
       - 18-533-FR
       - 18-543-GB
@@ -1738,7 +1739,6 @@ proxy-groups:
       - 18-547-US
       - 18-557-GB
       - 18-567-CH
-      - 18-577-US
       - 18-587-RELAY
       - 18-607-RELAY
       - 18-617-US
