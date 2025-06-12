@@ -43,6 +43,7 @@ Fork from TopFreeProxies.
     trojan://d6fc2a51-09b9-3243-882b-f2533e4996b6@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-111-HK
     trojan://d6fc2a51-09b9-3243-882b-f2533e4996b6@47.245.40.60:28469?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-112-JP
     trojan://d6fc2a51-09b9-3243-882b-f2533e4996b6@47.245.31.103:28463?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-113-JP
+    trojan://d6fc2a51-09b9-3243-882b-f2533e4996b6@103.136.185.28:447?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-114-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE1LUNOIiwiYWRkIjoiMTIubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMiIsInR5cGUiOiJub25lIiwiaWQiOiI5MjVmMGQ3Ny01M2QxLTNkZTAtOWUxZi01Nzg4OGY2NGY3N2IiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMi5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE2LUNOIiwiYWRkIjoiMTcubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNyIsInR5cGUiOiJub25lIiwiaWQiOiI5MjVmMGQ3Ny01M2QxLTNkZTAtOWUxZi01Nzg4OGY2NGY3N2IiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE3LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiI5MjVmMGQ3Ny01M2QxLTNkZTAtOWUxZi01Nzg4OGY2NGY3N2IiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
@@ -111,7 +112,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTk3LUNOIiwiYWRkIjoidjM1LmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgzNSIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0IjoidjM1LmhlZHVpYW4ubGluayIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTNhY2NmNC02NmM5LTRmMTgtOGU3Zi01NjU1MWVkNDBmMjI@cnamelm-dwzksl7kzye3rdby.bestcassoulet.com:51081#07-198-CN
     trojan://ab33eed0-4684-11f0-8b81-1239d0255272@usa.test3.net:443?allowInsecure=1#07-199-US
-    trojan://9e937610-4684-11f0-a6b2-1239d0255272@usa.test3.net:443?allowInsecure=1#07-200-US
     trojan://8e2a3980-4684-11f0-b76c-1239d0255272@usa.test3.net:443?allowInsecure=1#07-201-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjAyLUNOIiwiYWRkIjoidGsuaHpsdC50a2RkbnMueHl6IiwicG9ydCI6IjIyNjQxIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk4ZTk2YzlmLTRiYjMtMzlkNC05YTJjLWZhYzA0MjU3ZjdjNyIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InRrLmh6bHQudGtkZG5zLnh5eiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjAzLVJFTEFZIiwiYWRkIjoiQ0NWZmJndDY2N3l1SS45OTk4NjQuWHlaIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJlY2IzMTk0Ni1iODFkLTRlMzctYmZkOS0yZWI3ZmE1YzRlNTIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL0JiY2tyS3NidjIyUEsxcXUyVHZNIiwiaG9zdCI6IkNDVmZiZ3Q2Njd5dUkuOTk5ODY0Llh5WiIsInRscyI6InRscyJ9
