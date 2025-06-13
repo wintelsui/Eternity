@@ -66,6 +66,8 @@ proxies:
   - {name: 04-111-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28470, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-JP, server: 47.245.31.103, port: 28464, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 3d9936af-e135-3acc-8bbf-a32b513aead0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 3d9936af-e135-3acc-8bbf-a32b513aead0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 3d9936af-e135-3acc-8bbf-a32b513aead0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -133,7 +135,7 @@ proxies:
   - {name: 07-193-CN, server: js.yd.1.29d.cdnlinkms001.xyz, port: 25343, type: ss, cipher: chacha20-ietf-poly1305, password: Yt3ZB8DxiVxPi4Mg, udp: true}
   - {name: 07-194-US, server: usa.test3.net, port: 443, type: trojan, password: ab33eed0-4684-11f0-8b81-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-195-US, server: usa.test3.net, port: 443, type: trojan, password: 9e937610-4684-11f0-a6b2-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 07-196-US, server: 47.245.31.103, port: 28464, type: trojan, password: 6d663211-73ec-372b-abb3-bdae3eaf9150, sni: "steampipe-partner.akamaized.net#04-114-JPtrojan://8e2a3980-4684-11f0-b76c-1239d0255272@usa.test3.net:443?allowInsecure=1", skip-cert-verify: true, udp: true}
+  - {name: 07-196-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-197-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-198-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
   - {name: 07-199-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
@@ -159,7 +161,6 @@ proxies:
   - {name: 07-219-NL, server: 77.246.98.67, port: 4343, type: ss, cipher: chacha20-ietf-poly1305, password: wZKkcqnHkoB64A1upA4K1M, udp: true}
   - {name: 07-220-HK, server: pt.mjt000.com, port: 443, type: trojan, password: 786334e7-dd13-4ef2-8efe-306c46cb8cf0, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 07-221-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51083, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
-  - {name: 07-222-US, server: iepl01.tube-cat.com, port: 20029, type: trojan, password: 1d99eb06-8f7c-4296-8c84-1e57084579a5, sni: VN.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 07-223-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-224-VN, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-225-CN, server: ppy-boardv2.02ijp4uos1.download, port: 26133, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ppy-boardv2.02ijp4uos1.download}}, udp: true}
@@ -238,7 +239,6 @@ proxies:
   - {name: 09-312-JP, server: v83.emovpn.buzz, port: 3225, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v83.emovpn.buzz}}, udp: true}
   - {name: 09-313-JP, server: v85.emovpn.buzz, port: 6256, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v85.emovpn.buzz}}, udp: true}
   - {name: 09-314-HK, server: 43.247.135.2, port: 20332, type: vmess, uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 09-315-JP, server: v6.emovpn.buzz, port: 2441, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6.emovpn.buzz}}, udp: true}
   - {name: 09-316-JP, server: v10.emovpn.buzz, port: 6964, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v10.emovpn.buzz}}, udp: true}
   - {name: 09-317-JP, server: v9.emovpn.buzz, port: 3822, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v9.emovpn.buzz}}, udp: true}
   - {name: 09-318-JP, server: v84.emovpn.buzz, port: 5250, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v84.emovpn.buzz}}, udp: true}
@@ -339,6 +339,8 @@ proxy-groups:
       - 04-111-HK
       - 04-112-HK
       - 04-113-JP
+      - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -432,7 +434,6 @@ proxy-groups:
       - 07-219-NL
       - 07-220-HK
       - 07-221-CN
-      - 07-222-US
       - 07-223-VN
       - 07-224-VN
       - 07-225-CN
@@ -511,7 +512,6 @@ proxy-groups:
       - 09-312-JP
       - 09-313-JP
       - 09-314-HK
-      - 09-315-JP
       - 09-316-JP
       - 09-317-JP
       - 09-318-JP
@@ -681,7 +681,6 @@ proxy-groups:
       - 07-192-CN
       - 07-202-CN
       - 07-212-CN
-      - 07-222-US
       - 08-242-RELAY
       - 08-262-RU
       - 09-282-CN
@@ -729,6 +728,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-JP
       - 04-124-CN
       - 05-134-RELAY
       - 07-144-CN
@@ -763,6 +763,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-145-CN
       - 07-155-HK
@@ -779,7 +780,6 @@ proxy-groups:
       - 09-285-CN
       - 09-295-HK
       - 09-305-CN
-      - 09-315-JP
       - 09-325-HK
       - 09-345-SG
       - 09-355-US
