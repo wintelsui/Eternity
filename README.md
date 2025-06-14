@@ -142,6 +142,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.28:38388#07-224-VN
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.18:38388#07-225-VN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjI2LUNOIiwiYWRkIjoicHB5LWJvYXJkdjIuMDJpanA0dW9zMS5kb3dubG9hZCIsInBvcnQiOiIyNjEzMyIsInR5cGUiOiJub25lIiwiaWQiOiJhYTE1Yjk3YS0yNGIxLTNhMzEtODI0YS1iYzUyZjVhMTViYWMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJwcHktYm9hcmR2Mi4wMmlqcDR1b3MxLmRvd25sb2FkIiwidGxzIjoiIn0=
+    ss://YWVzLTI1Ni1jZmI6eWlqaWFuMDUwMw@13.125.35.232:443#07-227-KR
     ss://YWVzLTI1Ni1nY206ZTIyYjg5YWUtNjk5Ni00ODI0LWFjMzEtNjEwYWM3MzQ5ZTZh@zf2.10101251.xyz:30524#07-228-CN
     ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WkdGaE5UQmpPVFl6TXpneE16VXhNek0wTkRJMlpqUTVaamN4TnpKaFkyRT06WW1FM1lUQm1NekF0TURjd01TMDBZVEUyTFdFd1pEa3ROR1UwWldFM01XWT0@gdcm.cqrmv.cn:42071#07-229-CN
     trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21181?allowInsecure=1&sni=k31.tudou211.com#07-230-CN
@@ -217,7 +218,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1nY206N2YyMGJlOTE3NDliNTg3NA@195.133.5.185:2029#23-607-RU
     ss://YWVzLTI1Ni1nY206N1U3N09UMVZQUDNPWVBRNg@109.104.154.131:20000#23-609-NL
     ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.12.22:2029#23-610-HK
-    trojan://ac7a444b-f244-4006-a552-7730bd74ae57@it.mjt000.com:443?allowInsecure=1&sni=it.mjt000.com#23-622-HK
     trojan://d4ee748f-5778-4fc1-8b6b-a1c7f2b8a2ec@iepl01.tube-cat.com:20060?allowInsecure=1&sni=sg.catxstar.com#23-627-US
     
 
@@ -225,11 +225,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `293`
+合并节点总数: `291`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `293`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `291`
 
 
 ## 仓库声明
