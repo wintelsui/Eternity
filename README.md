@@ -47,7 +47,6 @@ Fork from TopFreeProxies.
     trojan://tg-fq521free@198.62.62.67:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#09-0524-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#09-0541-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#09-0542-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#09-0545-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bTJoMXZXbG1OTHdLY04xOHlTZ0xR@138.124.184.70:34868#09-0554-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#09-0559-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#09-0563-US
@@ -85,6 +84,7 @@ Fork from TopFreeProxies.
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@103.160.204.59:443?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0647-NOWHERE
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@162.159.133.85:443?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0648-RELAY
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.125:2087?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0649-RELAY
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9:443#09-0650-US
     trojan://2e65577e-8fdb-4bb1-a495-96f3122099a7@104.21.68.76:443?allowInsecure=1&sni=zzzZZZZz.222769.XYZ&ws=1&wspath=%2525252FWs1FkyQlT190JQOSZb9TPR#09-0653-RELAY
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.94:2053?allowInsecure=1&sni=vle.amclubssss.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0654-RELAY
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#09-0660-CA
@@ -300,11 +300,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `272`
+合并节点总数: `312`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `272`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `312`
 
 
 ## 仓库声明
