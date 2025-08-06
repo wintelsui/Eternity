@@ -69,7 +69,6 @@ proxies:
   - {name: 09-0524-US, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 09-0541-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0542-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0545-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0554-US, server: 138.124.184.70, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 09-0559-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0563-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -107,6 +106,7 @@ proxies:
   - {name: 09-0647-NOWHERE, server: 103.160.204.59, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
   - {name: 09-0648-RELAY, server: 162.159.133.85, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
   - {name: 09-0649-RELAY, server: 154.83.2.125, port: 2087, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
+  - {name: 09-0650-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0653-RELAY, server: 104.21.68.76, port: 443, type: trojan, password: 2e65577e-8fdb-4bb1-a495-96f3122099a7, sni: zzzZZZZz.222769.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FWs1FkyQlT190JQOSZb9TPR", headers: {Host: zzzZZZZz.222769.XYZ}}, udp: true}
   - {name: 09-0654-RELAY, server: 154.83.2.94, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
   - {name: 09-0660-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -350,7 +350,6 @@ proxy-groups:
       - 09-0524-US
       - 09-0541-US
       - 09-0542-US
-      - 09-0545-US
       - 09-0554-US
       - 09-0559-US
       - 09-0563-US
@@ -388,6 +387,7 @@ proxy-groups:
       - 09-0647-NOWHERE
       - 09-0648-RELAY
       - 09-0649-RELAY
+      - 09-0650-US
       - 09-0653-RELAY
       - 09-0654-RELAY
       - 09-0660-CA
@@ -782,7 +782,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 09-0545-US
       - 09-0595-NOWHERE
       - 09-0605-RELAY
       - 09-0625-US
@@ -947,6 +946,7 @@ proxy-groups:
       - 05-0040-RELAY
       - 09-0580-US
       - 09-0610-RELAY
+      - 09-0650-US
       - 09-0660-CA
       - 09-0670-CA
       - 09-0710-GB
