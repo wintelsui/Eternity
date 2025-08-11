@@ -42,7 +42,7 @@ Fork from TopFreeProxies.
     trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:406?allowInsecure=1&sni=www.baidu.com#06-0066-CN
     trojan://ttfang@103.106.230.186:81?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=%2525252F#06-0159-TW
     trojan://tg-fq521free@216.24.57.30:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#06-0191-US
-    ss://YWVzLTI1Ni1nY206aVVCMDkyM1JCQQ@154.3.8.151:30067#08-0328-US
+    vmess://eyJ2IjoiMiIsInBzIjoiMDgtMDMyOC1DTiIsImFkZCI6InYzNS5oZWR1aWFuLmxpbmsiLCJwb3J0IjoiMzA4MzUiLCJ0eXBlIjoibm9uZSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9vb29vIiwiaG9zdCI6InYzNS5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMDMzMC1VUyIsImFkZCI6IjEwNC4yMzguMTYyLjc2IiwicG9ydCI6IjIwMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjZjZjkzZmU2LTAwNjItNDIxMi05NWFhLTJhYWJjYThiMTFiZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     trojan://Aimer@108.165.152.58:2087?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0382-RELAY
     trojan://Aimer@188.164.159.246:2096?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0435-RELAY
@@ -85,7 +85,7 @@ Fork from TopFreeProxies.
     trojan://Aimer@154.197.64.166:2053?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0676-RELAY
     trojan://Aimer@154.197.64.98:8443?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0684-RELAY
     trojan://Aimer@192.0.54.221:2083?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0689-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#09-0692-US
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#09-0692-USss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA%40204.136.10.1151866%2309-1165-CH
     trojan://Aimer@108.165.152.76:2096?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0705-RELAY
     trojan://tg-fq521free@198.62.62.67:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#09-0706-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#09-0708-US
@@ -108,7 +108,7 @@ Fork from TopFreeProxies.
     trojan://slch2024@104.18.4.250:2053?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0825-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMDgyOC1SRUxBWSIsImFkZCI6IjE3Mi42Ny4xODguMTg4IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIxM2UyNmY2NC0yZTBjLTQ0NjEtOTJjZC1kODMyOTRjYzE4ZjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2NHNWR0VktPU3JId1BpdDJPZFdrMEt3aXJkWSIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     trojan://13e26f64-2e0c-4461-92cd-d83294cc18f0@172.67.220.140:443?allowInsecure=1&sni=dddDvvbHY7.000890604.XyZ&ws=1&wspath=%2525252FTDUxZUop9k44oPiit2OdWk0KwirdY#09-0829-RELAY
-    trojan://0xC6Mws4Dg@54.168.52.254:1935?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0843-US
+    trojan://Aimer@209.94.90.64:443?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0843-US
     trojan://f282b878-8711-45a1-8c69-5564172123c1@104.21.72.109:443?allowInsecure=1&sni=vpn.stupidworld.web.id&ws=1&wspath=%2525252FStupid-World%2525252F103.106.228.126-2053#09-0870-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMDg4MC1SRUxBWSIsImFkZCI6IjEwNC4yMS4zMi4xIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIwZTg5YTk1LWNlZGYtNGZlMy05NDIxLTUxN2NlNjZiZTE3MCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvU0hUb1JjcWZpcmFZa3pPZGYiLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMDg4NC1SRUxBWSIsImFkZCI6IjEwNC4yMS4xNi4xIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIwZTg5YTk1LWNlZGYtNGZlMy05NDIxLTUxN2NlNjZiZTE3MCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvU0hUb1JjcWZpcmFZa3pPZGYiLCJob3N0IjoiIiwidGxzIjoiIn0=
@@ -144,7 +144,7 @@ Fork from TopFreeProxies.
     trojan://20e89a95-cedf-4fe3-9421-517ce66be170@104.21.16.1:443?allowInsecure=1&sni=XXXCDfr.008880888.Xyz&ws=1&wspath=%2525252F8y30nl6G2U0xOiraYkzOdf#09-0992-RELAY
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@103.160.204.4:2083?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-0993-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMDk5NS1VUyIsImFkZCI6IjM4LjEyLjgzLjIxNyIsInBvcnQiOiIzMDAwMiIsInR5cGUiOiJub25lIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiI2NCIsIm5ldCI6InRjcCIsInBhdGgiOiIlMjUyNTJGJTI1MjUzRmVkJTI1MjUzRDI1NjAiLCJob3N0IjoidmxlLmFtY2x1YnN2aXAuZHBkbnMub3JnIiwidGxzIjoiIn0=
-    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#09-0997-CAss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvVmZ2UGtxSkZDak9FYkJzYm1PdElpQXVxZ21FRk9FZjMzMkYyNkM4bHdFd1FuZzk%40213.156.138.13831348%2309-1166-FR
+    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#09-0997-CA
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMTAwMC1VUyIsImFkZCI6IjY0LjgxLjExOS4xNTUiLCJwb3J0IjoiMjAwODYiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmIxZWM1ZjQtMjdkNi00YmIwLTlkM2MtZDU2ODM0MzNmNWVkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     trojan://07a3df8f-2a2c-42f8-ad92-65889d90f3bf@172.67.135.37:443?allowInsecure=1&sni=rrrRrRRrT.459.pp.ua&ws=1&wspath=%2525252FznQImc22ijDwVOkZfoq#09-1002-RELAY
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106:989#09-1005-US
@@ -206,7 +206,7 @@ Fork from TopFreeProxies.
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@198.62.62.156:443?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-1121-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#09-1122-NL
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.34.244.68:443#09-1123-NL
-    trojan://Aimer@170.106.152.78:443?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-1124-US
+    trojan://0xC6Mws4Dg@54.168.52.254:1935?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-1124-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.198:443#09-1126-GB
     ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181:443#09-1127-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.70:8080#09-1128-FR
@@ -240,7 +240,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@121.127.46.147:989#09-1162-SE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0ckVydG84WHpMQUxhUUVzbFRwX2p3@176.96.136.168:2222#09-1163-DE
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@103.160.204.1:443?allowInsecure=1&sni=vle.amclubsvip.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-1164-NOWHERE
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@204.136.10.115:1866#09-1165-CH
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvVmZ2UGtxSkZDak9FYkJzYm1PdElpQXVxZ21FRk9FZjMzMkYyNkM4bHdFd1FuZzk@213.156.138.138:31348#09-1166-FR
     trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.61:8443?allowInsecure=1&sni=vle.amclubssss.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#09-1167-RELAY
     trojan://509ed9b7-8d64-4204-8ec8-6b749020ac3f@104.21.3.189:443?allowInsecure=1&sni=CcCVfGTyU.89060004.Xyz&ws=1&wspath=%2525252F5MkU0nARgHwk3aXBStn7#09-1168-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMTE2OS1HQiIsImFkZCI6IjY0LjIyNy40NS45MiIsInBvcnQiOiIyMDA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI1ZTAyYmMwMS00MmE3LTQ2MDktYjIwYS00ZDkzZmVlYTY1YzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
