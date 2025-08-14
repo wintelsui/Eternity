@@ -100,7 +100,7 @@ proxies:
   - {name: 06-0191-RELAY, server: 27.50.49.136, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0192-RELAY, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0236-JP, server: 74.176.199.245, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
-  - {name: 06-0253-US, server: 54.168.52.254, port: 1935, type: trojan, password: 0xC6Mws4Dg, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
+  - {name: 06-0253-US, server: 154.17.10.113, port: 12266, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0255-US, server: 154.23.172.19, port: 11000, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0256-US, server: 154.26.182.37, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0259-US, server: 67.226.221.102, port: 80, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
@@ -199,7 +199,6 @@ proxies:
   - {name: 09-0851-RELAY, server: 104.18.3.26, port: 2083, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0853-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0866-RELAY, server: 104.21.16.1, port: 443, type: trojan, password: zY0HGcoAcY2v, sni: scHQQN0YHRrs34qn3a2k4i6g9xaP1tPH.pagEs.DEV, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Ftr2mBr1NNWmU5CEViR%25252FNDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx", headers: {Host: scHQQN0YHRrs34qn3a2k4i6g9xaP1tPH.pagEs.DEV}}, udp: true}
-  - {name: 09-0877-US, server: 104.238.162.76, port: 20086, type: vmess, uuid: 6cf93fe6-0062-4212-95aa-2aabca8b11bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0880-RELAY, server: 104.21.42.93, port: 443, type: trojan, password: a96cb093-b164-4bc6-bd27-deb0e385de07, sni: uuuUuuUuJ.999864.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FCNLtVWdiKPpIlRig3qizHXb", headers: {Host: uuuUuuUuJ.999864.Xyz}}, udp: true}
   - {name: 09-0888-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 09-0899-RELAY, server: 104.17.206.71, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
@@ -222,7 +221,7 @@ proxies:
   - {name: 09-0973-RELAY, server: 156.238.18.112, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
   - {name: 09-0974-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0976-NOWHERE, server: 103.160.204.1, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
-  - {name: 09-0980-US, server: 198.62.62.156, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
+  - {name: 09-0980-US, server: 54.168.52.254, port: 1935, type: trojan, password: 0xC6Mws4Dg, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
   - {name: 09-0981-RELAY, server: 154.83.2.61, port: 8443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
   - {name: 09-0984-NOWHERE, server: 103.160.204.49, port: 2096, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
   - {name: 09-0985-NOWHERE, server: 103.160.204.26, port: 2053, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
@@ -355,7 +354,7 @@ proxies:
   - {name: 09-1159-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1%252BihlfKg826H, udp: true}
   - {name: 09-1161-AT, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: TG%253A%2540Enkelte_notif%2526%2526TG%253A%2540Notif_Chat, udp: true}
   - {name: 09-1162-RELAY, server: 104.21.26.17, port: 443, type: trojan, password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf, sni: rrrRrRRrT.459.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FznQImc22ijDwVOkZfoq", headers: {Host: rrrRrRRrT.459.pp.ua}}, udp: true}
-  - {name: "09-1164-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY", server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 09-1164-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-1166-GB, server: 173.208.51.193, port: 20086, type: vmess, uuid: b1726eb2-271b-4cb6-bae8-37647e78b776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1167-NO, server: 185.213.23.226, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-1168-RELAY, server: 104.21.32.1, port: 443, type: trojan, password: 13e26f64-2e0c-4461-92cd-d83294cc18f0, sni: VvVbNMKloP.333856.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTDUxZUop9k44oPiit2OdWk0KwirdY", headers: {Host: VvVbNMKloP.333856.xyz}}, udp: true}
@@ -643,7 +642,6 @@ proxy-groups:
       - 09-0851-RELAY
       - 09-0853-US
       - 09-0866-RELAY
-      - 09-0877-US
       - 09-0880-RELAY
       - 09-0888-US
       - 09-0899-RELAY
@@ -799,7 +797,7 @@ proxy-groups:
       - 09-1159-CH
       - 09-1161-AT
       - 09-1162-RELAY
-      - 09-1164-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
+      - 09-1164-US
       - 09-1166-GB
       - 09-1167-NO
       - 09-1168-RELAY
@@ -1095,7 +1093,6 @@ proxy-groups:
       - 09-1123-CH
       - 09-1143-GB
       - 09-1153-US
-      - 09-1164-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
       - 09-1173-BG
       - 09-1193-FR
       - 09-1203-JP
@@ -1143,7 +1140,7 @@ proxy-groups:
       - 09-1134-RELAY
       - 09-1144-RELAY
       - 09-1154-PL
-      - 09-1164-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
+      - 09-1164-US
       - 09-1174-DE
       - 09-1184-DE
       - 09-1204-DK
@@ -1274,7 +1271,6 @@ proxy-groups:
       - 09-0667-RELAY
       - 09-0697-RELAY
       - 09-0737-RELAY
-      - 09-0877-US
       - 09-0967-RELAY
       - 09-0997-US
       - 09-1007-US
