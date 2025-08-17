@@ -269,11 +269,11 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90:989#09-0502-BR
     trojan://2ee85121-31de-4581-a492-eb00f606e392@103.252.116.138:443?allowInsecure=1&sni=hk.freeguard.org#09-0503-HK
     trojan://ttfang@5.10.214.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0504-RELAY
+    trojan://ttfang@5.10.215.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0505-RELAY
     trojan://ttfang@5.10.246.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0506-RELAY
     trojan://ttfang@5.175.141.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0507-RELAY
     trojan://ttfang@5.10.247.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0508-RELAY
     trojan://ttfang@5.182.84.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0509-RELAY
-    trojan://ttfang@5.182.34.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0510-RELAY
     trojan://ttfang@5.182.85.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0511-RELAY
     trojan://ttfang@5.10.244.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0512-RELAY
     trojan://ttfang@14.102.229.216:2096?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3#09-0513-RELAY
@@ -439,11 +439,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `411`
+合并节点总数: `402`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `411`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `402`
 
 
 ## 仓库声明
