@@ -135,7 +135,6 @@ proxies:
   - {name: 08-0161-RELAY, server: 195.13.45.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 08-0162-RELAY, server: 209.46.30.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 08-0163-RELAY, server: 195.26.229.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0164-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 08-0165-RELAY, server: 193.9.49.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 08-0166-RELAY, server: 194.53.53.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 08-0167-RELAY, server: 195.13.54.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -151,7 +150,7 @@ proxies:
   - {name: 23-0088-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
   - {name: 23-0089-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
   - {name: 23-0092-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
-  - {name: "23-0094-JPtrojan//slch2024@199.34.228.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0010-US", server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 23-0094-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 23-0098-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
   - {name: "23-0100-UStrojan//slch2024@185.148.106.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram#05-0000-RELAY", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0117-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
@@ -259,7 +258,6 @@ proxy-groups:
       - 08-0161-RELAY
       - 08-0162-RELAY
       - 08-0163-RELAY
-      - 08-0164-HK
       - 08-0165-RELAY
       - 08-0166-RELAY
       - 08-0167-RELAY
@@ -275,7 +273,7 @@ proxy-groups:
       - 23-0088-AT
       - 23-0089-FR
       - 23-0092-DE
-      - 23-0094-JPtrojan//slch2024@199.34.228.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0010-US
+      - 23-0094-JP
       - 23-0098-CH
       - 23-0100-UStrojan//slch2024@185.148.106.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram#05-0000-RELAY
       - 23-0117-NL
@@ -398,9 +396,8 @@ proxy-groups:
       - 06-0064-US
       - 08-0074-US
       - 08-0154-RELAY
-      - 08-0164-HK
       - 23-0084-AT
-      - 23-0094-JPtrojan//slch2024@199.34.228.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0010-US
+      - 23-0094-JP
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -498,7 +495,6 @@ proxy-groups:
       - 08-0150-RELAY
       - 08-0160-RELAY
       - 08-0170-US
-      - 23-0094-JPtrojan//slch2024@199.34.228.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0010-US
       - 23-0100-UStrojan//slch2024@185.148.106.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram#05-0000-RELAY
   - name: 广告拦截
     type: select
